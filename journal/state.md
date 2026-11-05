@@ -1,7 +1,8 @@
 # State and handoff
 
 ## Reader profile
-Unknown: account size, monthly contribution, liquidity needs, holdings, loss tolerance, tax residency, product eligibility.
+Known (2026-11-05): monthly contribution about $1,000, invested as one lump sum on one day each month (day not yet chosen).
+Unknown: account size, liquidity needs (4 year money vs 10+ year money), holdings, loss tolerance, tax residency, product eligibility.
 
 ## Targets
 50% US stock index, 25% international stock index, 20% short Treasuries/insured savings, 5% researched stocks.
