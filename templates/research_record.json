@@ -1,0 +1,77 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "EXAMPLE",
+  "exchange": "UNVERIFIED",
+  "currency": "USD",
+  "sector_model": "nonfinancial",
+  "as_of": "2026-11-06T00:00:00-05:00",
+  "status": "insufficient_evidence",
+  "confidence": "low",
+  "thesis": "Replace with a sourced business and valuation thesis.",
+  "counterthesis": "Replace with the strongest evidence against the thesis.",
+  "invalidation": "Replace with measurable evidence that would invalidate the thesis.",
+  "sources": [],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": false,
+      "source_ids": [],
+      "note": "Not yet verified."
+    },
+    "balance_sheet_verified": {
+      "passed": false,
+      "source_ids": [],
+      "note": "Not yet verified."
+    },
+    "cashflow_basis_verified": {
+      "passed": false,
+      "source_ids": [],
+      "note": "Not yet verified."
+    },
+    "share_count_basis_verified": {
+      "passed": false,
+      "source_ids": [],
+      "note": "Not yet verified."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [],
+      "note": "Not yet verified."
+    },
+    "sector_model_appropriate": {
+      "passed": false,
+      "source_ids": [],
+      "note": "Not yet verified."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [],
+      "note": "Not yet verified."
+    },
+    "counterthesis_written": {
+      "passed": false,
+      "source_ids": [],
+      "note": "Not yet verified."
+    }
+  },
+  "price": {
+    "value": null,
+    "currency": "USD",
+    "as_of": null,
+    "status": "unavailable",
+    "last_completed_session": null,
+    "sources": []
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {},
+  "unresolved_critical_gaps": [
+    "Template only, not an investment idea."
+  ]
+}

@@ -54,3 +54,12 @@ First run (CY2025 data): 4,392 filers with revenue; 2,019 with complete data; 82
 Limits: U.S. SEC filers only (no non-U.S. exchange coverage); fundamentals only, no prices or valuation; some rows are distorted
 by one-off revenue (e.g. biotech collaboration payments), so stage 2 must check each name before it is trusted.
 Pipeline: stage 1 screen all filers -> stage 2 add price and valuation for the top ~50 -> stage 3 read filings for the top few -> morning compile.
+
+## Authoritative operational handoff, method 2.0, 2026-11-06
+Read RESEARCH_WORKFLOW.md and the latest dated records before following older handoffs.
+The single-source VTI value mentioned above remains unverified and must not become a performance baseline.
+Old markdown ratings are historical method 1.0 notes, not validated method 2.0 candidates.
+The four hour worker repository attachment has been fixed. Both tasks must explicitly fetch and use claude/hopeful-hamilton-8b3avz before reading state.
+Refresh the updated annual screener when metadata is missing or older than 24 hours. Its new counts may be lower because missing capex and mismatched fiscal periods are now excluded.
+Next: validate the updated screener in a live worker, research one existing candidate into the structured template, run its quality checks, and prioritize unresolved evidence over adding more shallow names.
+Sunday compilation includes a recorded quality review. A separate weekly ChatGPT audit will inspect actual outputs and propose or test bounded improvements.

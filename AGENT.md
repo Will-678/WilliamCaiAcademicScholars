@@ -62,3 +62,8 @@ Commit to branch claude/hopeful-hamilton-8b3avz and push. Do not open a pull req
 - Quote provenance: for every price give ticker, exchange (verify each; for example PEP is Nasdaq), currency, timestamp with timezone, live/delayed/previous close status, and the public source URL. Never fill missing financial data by guessing; mark it unavailable.
 - Benchmark: use a benchmark price (for example VTI) for paper performance only after confirming it from a second source. Otherwise mark it pending verification. Use consistent total return data over matching dates.
 - Privacy: never put William's name, email, financial details, or repository contents in any HTTP request, including User-Agent headers, URLs and search queries. Use public company names and tickers only and a generic research identifier where one is required. Prefer built-in web tools or single read-only requests; avoid shell loops with dynamic URLs.
+
+## Method 2.0 operational upgrade, 2026-11-06
+
+Read RESEARCH_WORKFLOW.md after checking out the shared research branch. It is the authoritative updated worker, compiler, evidence, validation, reporting and review procedure where older operational instructions conflict. Personal allocation preferences above are unchanged. Run tools/validate_research.py before publishing candidates; missing evidence cannot become an attractive rating. Screen numbers are annual preliminary leads, never a claim of global coverage. Keep historical scores labelled with their original method and do not silently promote them. Both scheduled tasks use the same branch. Sunday compilation includes a documented quality review and tested corrections. Never put personal data into research requests.
+

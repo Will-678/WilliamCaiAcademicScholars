@@ -1,77 +1,210 @@
 #!/usr/bin/env python3
-"""Stage 1 screen: every U.S. SEC filer with annual XBRL data, using SEC 'frames' bulk endpoints.
-Fundamentals only (no prices). Writes data/screen_latest.csv ranked by a simple quality score.
-Usage: python3 tools/screen_universe.py [YEAR]   (default: latest year with broad coverage)
-Uses a generic User-Agent; never put personal contact details in it.
+"""Preliminary SEC annual fundamentals screen, never an investment rating.
+Preserves fact dates and accessions. Missing spending stays missing.
+Scope: standard US GAAP USD frames, not every global listed company.
 """
-import csv, json, sys, time, urllib.request, urllib.error
+import argparse
+import csv
+import io
+import json
+import math
+import os
+import sys
+import tempfile
+import time
+import urllib.error
+import urllib.request
+from collections import Counter
+from datetime import date, datetime
+from pathlib import Path
+from zoneinfo import ZoneInfo
 
-UA = "research-agent-screen/1.0"
-BASE = "https://data.sec.gov/api/xbrl/frames/us-gaap/{tag}/USD/{per}.json"
+METHOD = "2.0"
+REVENUE_TAGS = ["RevenueFromContractWithCustomerExcludingAssessedTax", "Revenues", "SalesRevenueNet"]
+TAGS = {
+    "revenue": REVENUE_TAGS, "revenue_base": REVENUE_TAGS,
+    "net_income": ["NetIncomeLoss"], "ocf": ["NetCashProvidedByUsedInOperatingActivities"],
+    "capex": ["PaymentsToAcquirePropertyPlantAndEquipment"], "assets": ["Assets"],
+    "liabilities": ["Liabilities"], "equity": ["StockholdersEquity"],
+}
+FIELDS = ["cik", "name", "revenue", "rev_cagr_2y", "net_margin", "fcf_margin",
+          "liab_to_assets", "roe", "score", "method_version", "period_start",
+          "period_end", "flags", "evidence_json"]
 
-def frame(tags, per):
-    """Return {cik: (value, name)} using the first tag that has data for each company."""
+
+def finite(value):
+    return isinstance(value, (int, float)) and not isinstance(value, bool) and math.isfinite(value)
+
+
+def fact_date(fact, key):
+    try:
+        return date.fromisoformat(fact[key])
+    except (KeyError, TypeError, ValueError):
+        return None
+
+
+def aligned(left, right, duration=True):
+    keys = ("start", "end") if duration else ("end",)
+    return all(fact_date(left, k) is not None and fact_date(right, k) is not None
+               and abs((fact_date(left, k) - fact_date(right, k)).days) <= 7 for k in keys)
+
+
+def preliminary_score(row):
+    """Existing coarse ranking weights, not valuation or a sector neutral rating."""
+    clamp = lambda x, top: min(max(x, 0), top) / top
+    score = clamp(row["rev_cagr_2y"], .25) * 25
+    score += clamp(row["fcf_margin"], .25) * 30
+    score += clamp(row["net_margin"], .25) * 15
+    score += (1 - min(max(row["liab_to_assets"], 0), 1)) * 15
+    score += clamp(row["roe"], .30) * 15 if row["roe"] is not None else 0
+    return round(score, 1)
+
+
+def build_rows(frames):
+    rows, rejected = [], Counter()
+    required = ("revenue_base", "net_income", "ocf", "capex", "assets", "liabilities")
+    for cik, revenue in frames.get("revenue", {}).items():
+        facts = {key: frames.get(key, {}).get(cik) for key in TAGS}
+        missing = [key for key in required if facts[key] is None]
+        if missing:
+            rejected["missing:" + ",".join(missing)] += 1
+            continue
+        if any(not finite(f.get("val")) for f in facts.values() if f is not None):
+            rejected["invalid_number"] += 1
+            continue
+        if any(f.get("conflicting_tags") for f in facts.values() if f is not None):
+            rejected["conflicting_revenue_tags"] += 1
+            continue
+        if not all(aligned(revenue, facts[key]) for key in ("net_income", "ocf", "capex")):
+            rejected["mismatched_flow_period"] += 1
+            continue
+        if not all(aligned(revenue, facts[key], duration=False) for key in ("assets", "liabilities")):
+            rejected["mismatched_balance_date"] += 1
+            continue
+        start, end = fact_date(revenue, "start"), fact_date(revenue, "end")
+        base_start = fact_date(facts["revenue_base"], "start")
+        base_end = fact_date(facts["revenue_base"], "end")
+        if None in (start, end, base_start, base_end):
+            rejected["missing_period_dates"] += 1
+            continue
+        if not (330 <= (end-start).days <= 400 and 330 <= (base_end-base_start).days <= 400
+                and abs((end-start).days - (base_end-base_start).days) <= 14
+                and 680 <= (end-base_end).days <= 780):
+            rejected["noncomparable_annual_periods"] += 1
+            continue
+        r, r0 = revenue["val"], facts["revenue_base"]["val"]
+        a, liab = facts["assets"]["val"], facts["liabilities"]["val"]
+        capex, ocf, ni = facts["capex"]["val"], facts["ocf"]["val"], facts["net_income"]["val"]
+        if a <= 0 or r0 <= 0 or r < 100e6 or capex < 0 or liab < 0:
+            rejected["invalid_denominator_or_sign_or_size"] += 1
+            continue
+        growth = (r / r0) ** (365.25 / (end-base_end).days) - 1
+        eq = facts["equity"]
+        roe = (ni / eq["val"] if eq is not None and eq["val"] > 0
+               and aligned(revenue, eq, duration=False) and eq["val"] / a >= .1 else None)
+        flags = ["annual_only", "sector_model_unchecked", "no_price_or_valuation"]
+        if roe is None:
+            flags.append("roe_unusable_or_equity_small")
+        if growth > 1 or ni / r > .5 or (ocf-capex) / r > .5:
+            flags.append("one_off_or_economic_context_review")
+        row = dict(cik=cik, name=revenue.get("entityName", str(cik)), revenue=r,
+                   rev_cagr_2y=growth, net_margin=ni/r, fcf_margin=(ocf-capex)/r,
+                   liab_to_assets=liab/a, roe=roe, method_version=METHOD,
+                   period_start=str(start), period_end=str(end), flags=";".join(flags),
+                   evidence_json=json.dumps({k: {p: f.get(p) for p in ("tag", "start", "end", "accn", "source_url")}
+                                             for k, f in facts.items() if f is not None}, sort_keys=True))
+        row["score"] = preliminary_score(row)
+        rows.append(row)
+    return rows, dict(rejected)
+
+
+def fetch_frame(tags, period, frames_dir=None, failures=None):
     out = {}
     for tag in tags:
-        url = BASE.format(tag=tag, per=per)
-        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        url = f"https://data.sec.gov/api/xbrl/frames/us-gaap/{tag}/USD/{period}.json"
         try:
-            with urllib.request.urlopen(req, timeout=60) as r:
-                data = json.load(r)["data"]
-        except urllib.error.HTTPError:
+            if frames_dir is not None:
+                payload = json.loads((Path(frames_dir) / f"{tag}_{period}.json").read_text())
+            else:
+                time.sleep(.25)
+                request = urllib.request.Request(url, headers={"User-Agent": "research-agent-screen/2.0"})
+                with urllib.request.urlopen(request, timeout=30) as response:
+                    payload = json.load(response)
+            data = payload["data"]
+            if not isinstance(data, list):
+                raise ValueError("frame data is not a list")
+        except (urllib.error.URLError, OSError, ValueError, KeyError) as exc:
+            if failures is not None:
+                failures.append({"url": url, "error": str(exc)})
             continue
-        for d in data:
-            out.setdefault(d["cik"], (d["val"], d["entityName"]))
-        time.sleep(0.2)
+        for item in data:
+            fact = dict(item, tag=tag, source_url=url)
+            previous = out.get(item["cik"])
+            if previous is None:
+                out[item["cik"]] = fact
+            elif aligned(previous, fact) and finite(previous.get("val")) and finite(fact.get("val")):
+                scale = max(abs(previous["val"]), abs(fact["val"]), 1)
+                if abs(previous["val"] - fact["val"]) / scale > .01:
+                    previous["conflicting_tags"] = True
     return out
 
-def run(year):
-    cy, base = f"CY{year}", f"CY{year-2}"
-    inst = f"CY{year}Q4I"
-    rev_tags = ["RevenueFromContractWithCustomerExcludingAssessedTax", "Revenues", "SalesRevenueNet"]
-    rev, rev0 = frame(rev_tags, cy), frame(rev_tags, base)
-    ni = frame(["NetIncomeLoss"], cy)
-    ocf = frame(["NetCashProvidedByUsedInOperatingActivities"], cy)
-    capex = frame(["PaymentsToAcquirePropertyPlantAndEquipment"], cy)
-    assets = frame(["Assets"], inst)
-    liab = frame(["Liabilities"], inst)
-    equity = frame(["StockholdersEquity"], inst)
-    rows = []
-    for cik, (r, name) in rev.items():
-        if r < 100e6 or cik not in rev0 or rev0[cik][0] <= 0:
-            continue
-        if cik not in ocf or cik not in ni or cik not in assets or cik not in liab:
-            continue
-        o, n, a, l = ocf[cik][0], ni[cik][0], assets[cik][0], liab[cik][0]
-        cx = capex.get(cik, (0, ""))[0]
-        fcf = o - cx
-        cagr = (r / rev0[cik][0]) ** 0.5 - 1
-        eq = equity.get(cik, (None, ""))[0]
-        roe = n / eq if eq and eq > 0 else None
-        rows.append(dict(cik=cik, name=name, revenue=r, rev_cagr_2y=cagr, net_margin=n / r,
-                         fcf_margin=fcf / r, liab_to_assets=l / a, roe=roe))
-    def score(x):
-        s = 0
-        s += min(max(x["rev_cagr_2y"], 0), 0.25) / 0.25 * 25
-        s += min(max(x["fcf_margin"], 0), 0.25) / 0.25 * 30
-        s += min(max(x["net_margin"], 0), 0.25) / 0.25 * 15
-        s += (1 - min(max(x["liab_to_assets"], 0), 1)) * 15
-        s += (min(max(x["roe"], 0), 0.30) / 0.30 * 15) if x["roe"] is not None else 0
-        return round(s, 1)
-    for x in rows:
-        x["score"] = score(x)
-    keep = [x for x in rows if x["fcf_margin"] > 0.03 and x["net_margin"] > 0 and x["rev_cagr_2y"] > 0.03]
-    keep.sort(key=lambda x: -x["score"])
-    return len(rev), len(rows), keep
+
+def run(year, frames_dir=None):
+    frames, failures = {}, []
+    for key, tags in TAGS.items():
+        period = f"CY{year-2}" if key == "revenue_base" else (
+            f"CY{year}Q4I" if key in ("assets", "liabilities", "equity") else f"CY{year}")
+        frames[key] = fetch_frame(tags, period, frames_dir, failures)
+    if not frames["revenue"] or any(not frames[key] for key in ("ocf", "capex", "assets", "liabilities")):
+        raise RuntimeError("Core frames are unavailable; keep the previous screen and disclose the failed refresh.")
+    rows, rejected = build_rows(frames)
+    keep = [r for r in rows if r["fcf_margin"] > .03 and r["net_margin"] > 0 and r["rev_cagr_2y"] > .03]
+    keep.sort(key=lambda r: (-r["score"], r["cik"]))
+    metadata = dict(method_version=METHOD, requested_calendar_year=year,
+                    retrieved_at=datetime.now(ZoneInfo("America/New_York")).isoformat(),
+                    scope="Standard US GAAP USD annual SEC frame facts; not a global listed-company universe",
+                    price_coverage=False, point_in_time_backtest_safe=False,
+                    filers_with_supported_revenue=len(frames["revenue"]), comparable_rows=len(rows),
+                    passed_preliminary_filter=len(keep), exclusions=rejected, source_failures=failures,
+                    warning="Liabilities/assets is not debt/assets. Ranking is annual, preliminary, and sector biased. Verify current filings and valuation before any rating.")
+    return keep, metadata
+
+
+def atomic_write(path, content):
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.NamedTemporaryFile("w", dir=path.parent, delete=False) as handle:
+        handle.write(content)
+        temporary = handle.name
+    os.replace(temporary, path)
+
+
+def write_outputs(rows, metadata, output_dir):
+    buffer = io.StringIO()
+    writer = csv.DictWriter(buffer, fieldnames=FIELDS)
+    writer.writeheader()
+    writer.writerows(rows)
+    atomic_write(Path(output_dir) / "screen_latest.csv", buffer.getvalue())
+    atomic_write(Path(output_dir) / "screen_metadata.json", json.dumps(metadata, indent=2) + "\n")
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("year", nargs="?", type=int, default=datetime.now(ZoneInfo("America/New_York")).year-1)
+    parser.add_argument("--frames-dir", type=Path, help="Offline fixtures; never uses network when set")
+    parser.add_argument("--output-dir", type=Path, default=Path("data"))
+    args = parser.parse_args()
+    try:
+        rows, metadata = run(args.year, args.frames_dir)
+        write_outputs(rows, metadata, args.output_dir)
+    except (RuntimeError, ValueError, OSError) as exc:
+        atomic_write(args.output_dir / "screen_last_attempt.json", json.dumps({"status": "failed", "error": str(exc)}) + "\n")
+        print(str(exc), file=sys.stderr)
+        return 1
+    print(json.dumps({k: metadata[k] for k in ("requested_calendar_year", "filers_with_supported_revenue", "comparable_rows", "passed_preliminary_filter")}, sort_keys=True))
+    return 0
+
 
 if __name__ == "__main__":
-    year = int(sys.argv[1]) if len(sys.argv) > 1 else 2025
-    n_rev, n_rows, keep = run(year)
-    with open("data/screen_latest.csv", "w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=list(keep[0].keys()))
-        w.writeheader()
-        for x in keep:
-            w.writerow({k: (round(v, 4) if isinstance(v, float) else v) for k, v in x.items()})
-    print(f"year={year} filers_with_revenue={n_rev} usable={n_rows} passed={len(keep)}")
-    for x in keep[:15]:
-        print(x["score"], x["name"], f"cagr={x['rev_cagr_2y']:.1%}", f"fcf={x['fcf_margin']:.1%}", f"liab/assets={x['liab_to_assets']:.0%}")
+    sys.exit(main())
+
