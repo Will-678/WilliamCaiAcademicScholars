@@ -1,76 +1,51 @@
-# Daily investment research, Thursday 2026-11-05 (run started 10:27 p.m. ET; date corrected from 2026-11-06) (America/New_York)
+# Daily investment research, run 2 of Thursday 2026-11-05 (America/New_York)
+Run clock: Thu Nov 5 2026, 11:50 p.m. ET (the scheduler labelled the day 2026-11-06; the standing rule says to use the local clock, so this is saved under 2026-11-05 with a run2 suffix and the existing 2026-11-06 correction notice is untouched). Earlier report: reports/2026-11-05.md.
 
 ## Conclusion
-No stock is compelling enough to be called attractive today. The most useful finding: **Abbott (ABT)** and **Lowe's (LOW)** are good businesses whose share prices trade about 14% and 22% below their 52 week highs (this does not show year to date performance, which I did not check), and both are worth a place on the watch list. Neither earns "attractive" because Abbott's balance sheet after a big acquisition is not yet verified, and Lowe's is cutting its outlook. A broad index fund (for example VTI) remains the stronger default for most of the money. This is research for the 5% single stock bucket only, not advice.
+Still no stock I would call attractive. Most useful finding: the Abbott balance sheet question is now answered. Abbott carries about $31.2B of debt against $4.3B of cash and short term investments (net debt about $26.9B, my sum from the 10-Q), which is heavy but modest next to a market value near $198B (my calculation), and it is rated A+ / Aa3 per its 10-Q as summarized by search. That lifts Abbott from 63 to 65 but it stays on watch. Second finding: the market fell sharply on the last session (see below), so prices are lower but valuation is not obviously cheap. For most of William's money a broad index fund remains the stronger default; this is only for the 5% single stock bucket.
 
-## Leading candidates (all fresh findings, first full research)
-Quotes: previous close (regular session close) on 2026-11-05, 4:00 p.m. ET (21:00 UTC timestamp in the data), USD, delayed, not live. Source for each ticker is the public Yahoo Finance chart endpoint: https://query1.finance.yahoo.com/v8/finance/chart/ABT , /LOW , /PEP (same base URL). Exchanges: ABT NYSE, LOW NYSE, PEP Nasdaq.
+## Leading candidates
+Quotes: previous close, 2026-11-05 4:00 p.m. ET, USD, delayed, Yahoo Finance chart data (https://query1.finance.yahoo.com/v8/finance/chart/ABT , /JPM , /NEE , /VTI).
 
 | Ticker / company | Quote | Score /100 | Status | Why it could work | Valuation | Main downside |
 |---|---|---|---|---|---|---|
-| ABT, Abbott Laboratories | $113.60 (NYSE) | 63 (confidence low to medium) | Watch | Diversified medical devices, diagnostics, drugs; 7.0% comparable sales growth in Q3 | About 20.6x 2026 adjusted EPS guidance midpoint ($5.525) | Debt after Exact Sciences deal unverified; infant formula (NEC) legal costs; guidance for sales growth cut to about 6% |
-| LOW, Lowe's | $227.24 (NYSE) | 62 (confidence medium) | Watch | Pro and online growth, steady dividend, buybacks, 22% off its high | About 18.5x adjusted EPS guidance ($12.25); 19.3x GAAP ($11.75) | Flat comparable sales, DIY demand weak, $37.6B debt, margin down |
-| PEP, PepsiCo | $142.71 (Nasdaq) | 57 (confidence medium) | Watch | Organic growth best since late 2023; dividend about 4% of price (my calculation) | Core EPS 9M $6.15; full year valuation not computed | Core EPS growth outlook cut to 2.5% to 3.5%; free cash flow barely covers dividends |
+| ABT, Abbott (NYSE), previously researched | $113.60 | 65 (confidence medium) | Watch | 7% comparable growth, diversified, investment grade | 20.6x 2026 adj EPS guide midpoint $5.525 (adjusted, management figure) | Net debt about $26.9B; formula (NEC) litigation; growth guide cut to 6% |
+| JPM, JPMorgan Chase (NYSE), fresh finding | $337.34 | 62 (confidence low to medium) | Watch | Q3 net income $15.3B, ROTCE 20% to 21%, CET1 13.9% | 3.0x tangible book ($112.64); about 15x annualized Q3 GAAP EPS ($5.57 x 4, crude) | Bank earnings swing with credit cycle; buybacks cut sharply; priced near its high range |
+| NEE, NextEra Energy (NYSE), fresh finding | $88.25 | 56 (confidence low) | Watch | Adj EPS growth target above 8% a year through 2032; 36.7 GW backlog | About 22x 2026 adj EPS guide ($3.92 to $4.02) | Heavy capital spending and debt (not verified), pending Dominion deal (headline only, not verified), rate sensitivity |
 
-Score components (business quality 25 / cash and growth 20 / resilience 15 / valuation 30 / catalysts and evidence 10):
-- ABT 21 / 13 / 8 / 15 / 6 = 63
-- LOW 19 / 11 / 8 / 18 / 6 = 62
-- PEP 20 / 10 / 8 / 14 / 5 = 57
-These are qualitative judgments, not forecasts of returns.
+Component scores (quality 25 / cash and growth 20 / resilience 15 / valuation 30 / catalysts and evidence 10):
+- ABT 21 / 13 / 9 / 15 / 7 = 65
+- JPM 21 / 12 / 11 / 14 / 4 = 62 (evidence from release summaries and search, primary 8-K not read in full)
+- NEE 19 / 10 / 7 / 13 / 7 = 56
+Qualitative judgments, not forecasts.
 
 ## Evidence
-**Abbott (Q3 2026, reported Oct 21).** Sales $13.0B, up 14.5% reported and 7.0% comparable (comparable means excluding currency and one off items). Adjusted EPS $1.42 (management's figure, excludes some costs); GAAP EPS only $0.53 because of a $670M charge to settle infant formula (NEC) claims. 2026 adjusted EPS guidance narrowed to $5.50 to $5.55; comparable sales growth now about 6.0%, below the earlier 6.5% to 7.5% range. Interest expense jumped to $297M in the quarter from $44M, consistent with borrowing for Exact Sciences (closed March 23, 2026), but the release gives no debt figure. Valuation is therefore incomplete on the balance sheet, which blocks "attractive." Strongest counterargument: the 6% growth cut and litigation may not be finished. Would change my mind: a 10-Q showing manageable debt and falling interest costs, or a price near 17x to 18x guidance.
+**Abbott 10-Q for Sep 30, 2026 (filed Nov 4).** Cash $4,052M, short term investments $246M, current debt $1,708M, long term debt $29,451M, equity $51.0B. Nine month operating cash flow $5,540M less capital spending $1,409M = free cash flow about $4.1B, annualized about $5.5B, a free cash flow yield near 2.8% on a $198B market value (my calculation, using weighted diluted shares of 1.743B). GAAP diluted EPS for nine months $1.67 (the $670M formula settlement weighs on it). The 10-Q text I received did not show the litigation accrual note, so that risk remains unquantified. Debt was $20B newly issued in March for Exact Sciences. Strongest counterargument: 2.8% cash yield plus slower growth leaves little cushion at 20x earnings. Would raise my view: price near 17x to 18x guidance or net debt falling toward $20B.
+Sources: https://www.sec.gov/Archives/edgar/data/0000001800/000162828026070154/abt-20260930.htm ; https://data.sec.gov/api/xbrl/companyconcept/CIK0000001800/us-gaap/LongTermDebtNoncurrent.json
 
-**Lowe's (Q2 FY2026, quarter ended July 31).** Sales $26.0B vs $24.0B (acquisitions of Foundation Building Materials and Artisan Design Group). Comparable sales +0.2%. GAAP EPS $4.27 (flat); adjusted $4.40. Full year guidance trimmed to the low end: sales about $92B, flat comparable sales, GAAP EPS about $11.75, operating margin 11.2%. Six month operating cash flow $7.0B and capex $1.1B. Cash $3.2B vs debt $37.6B (my sum of current and long term debt); net interest about $1.6B a year. Dividend $1.25 per quarter (about 2.2% yield, my calculation). Strongest counterargument: housing turnover stays weak and debt limits flexibility. Would change my mind: comparable sales turning positive, or a price near 15x to 16x earnings.
+**JPMorgan Q3 2026 (reported Oct 13).** Net income $15.3B, EPS $5.57 GAAP ($5.75 excluding a $658M securities loss). CET1 (a capital cushion ratio) 13.9% vs 14.8% a year ago, falling as risk weighted assets grew. Dividend $1.65 a quarter (about 2.0% yield, my calculation). Net buybacks only $664M. Strongest counterargument: a bank at 3x tangible book already prices in strong returns; a credit downturn would hurt. Would raise my view: a price near 2.3x to 2.5x tangible book or confirmed resilient credit. Sources: https://www.sec.gov/Archives/edgar/data/0000019617/000162828026065582/a3q26erfexhibit991narrative.htm ; https://www.sec.gov/Archives/edgar/data/0000019617/000162828026069523/jpm-20260930.htm (figures via search summary; I did not read the full documents).
 
-**PepsiCo (Q3 2026, reported Oct 8).** Net revenue $25.3B (+5.6%), organic +3.1%, core EPS $2.34 (+2%), GAAP EPS $2.23. Nine month free cash flow about $5.9B against $5.9B of dividends paid and $0.7B of buybacks. Debt about $51.9B vs cash $10.7B. Guidance for core EPS growth cut from 5% to 7% to 2.5% to 3.5%; North America margins under pressure.
+**NextEra Q3 2026 (Oct 21).** Adjusted EPS $1.24 vs $1.13; full year guide $3.92 to $4.02 kept; backlog added 3.7 GW. Debt, dividend and the Dominion deal terms not verified. Source: https://www.sec.gov/Archives/edgar/data/0000753308/000075330826000077/neeq32026exhibit99.htm (summary via search). Valuation incomplete, so no attractive status possible.
 
-## Valuation scenarios (my assumptions, 3 year horizon, not forecasts)
-Lowe's, using adjusted EPS of $12.25 as the base:
-- Bear: EPS $11.50 at 15x = about $172
-- Base: EPS about $14 (4.5% yearly growth) at 18x = about $252
-- Bull: EPS $15.50 at 21x = about $325
-Dividends of roughly $15 per share over three years would be extra. The range is wide because the multiple is the main driver. At $227 the base case offers modest upside, not a clear bargain. Abbott and PepsiCo scenarios are not shown because inputs (debt, full year core EPS base) are not yet verified.
+## Scenarios
+Not shown for new names. Inputs (full year bank earnings path, utility leverage) are not yet sourced. Lowe's scenarios from the earlier report stand (bear 172 / base 252 / bull 325, 3 year horizon, my assumptions).
 
-## What was screened (15 companies, fiscal data from SEC annual filings, prices from 2026-11-05 close)
-Examined (exchange): JNJ NYSE, PG NYSE, KO NYSE, HD NYSE, UNP NYSE, ABT NYSE, TXN Nasdaq, CSCO Nasdaq, MDT NYSE, PEP Nasdaq, CVX NYSE, LOW NYSE, COST Nasdaq, MCD NYSE, CL NYSE. Prices for all: previous close 2026-11-05, 21:00 UTC, Yahoo Finance chart endpoint. Not examined because data failed to load: V, MMC, ADP.
-Rejected or deferred for now (quick screen only, not deep research; trailing GAAP P/E is my calculation from latest annual diluted EPS):
-- JNJ $272.32: up about 46% in a year, near its high, about 25x, debt rose to $41.4B.
-- PG $167.10: near its high, about 25x, capex rising.
-- KO $95.73: near its high, about 31x, operating cash flow well below 2023.
-- HD $349.94: about 25x, operating cash flow fell from $21.2B to $16.3B, debt $49.4B.
-- UNP $297.95: about 25x, debt $31.8B; good railroad, price not cheap.
-- TXN $278.15: about 50x trailing GAAP, heavy capex leaves free cash flow thin.
-- CSCO $95.72: about 29x fiscal 2026 GAAP, free cash flow yield about 3.3% (my calculation); revisit.
-- MDT $104.84: near its high, about 28x.
-- CVX $212.93: cyclical, earnings falling with oil; skipped.
-- COST $1,065.59: about 51x; excellent business, valuation demanding.
-- MCD $278.04: about 23x, debt $40B, little cash.
-- CL $98.69: near its high, about 37x GAAP.
+## What changed since last run
+- Market: VTI (NYSE Arca) closed $360.52 on Nov 5 after $376.92 on Nov 4, down 4.35%, about 6.4% below its 52 week high of $385.12. JPM fell 4.2% the same day and ABT 1.7%, while NEE was flat, which supports a real selloff rather than a bad data point. I could not find a news article explaining it, and could not find a second source for index closes, so the cause is unknown.
+- Abbott: debt and cash now verified.
+- Lowe's, PepsiCo: no new filings reviewed this run.
 
-## Changes since last run
-First research run with candidates. Prior reports had none. Market data note: the VTI closing price series I saw (NYSE Arca, $371.21, $376.92, then $360.52 on Nov 5) suggests a sharp one day fall of about 4.4%; I could not confirm it from a second source, so treat it with caution.
-
-## Watchlist comparison
-Previous watchlist: empty. New: ABT, LOW, PEP (long, watch). No shorts.
+## Watchlist comparison (prices are 2026-11-05 close)
+ABT 113.60 (ref 113.60, 65), LOW 227.24 (62), PEP 142.71 (57), JPM 337.34 (new, 62), NEE 88.25 (new, 56). Paper benchmark baseline now set: VTI 360.52 on 2026-11-05 (price only, one source). Total return comparison needs dividends; not enough elapsed time for any performance claim.
 
 ## Upcoming events (verified dates only)
-None verified for these companies. Lowe's and PepsiCo next results dates were not confirmed. Earlier notes list FOMC minutes Nov 18 and the next FOMC meeting Dec 8 to 9 (from a secondary source, not re-verified today).
+None confirmed by company sources. Secondary aggregators list Lowe's Q3 results on Nov 18 before the open (unconfirmed by Lowe's). FOMC minutes Nov 18 and FOMC meeting Dec 8 to 9 were noted earlier from a secondary source.
 
-## Sources
-- Abbott Q3 release: https://abbott.mediaroom.com/2026-10-21-Abbott-Reports-Third-Quarter-2026-Results-and-Reaffirms-Full-Year-EPS-Guidance
-- Abbott 8-K filing: https://www.sec.gov/Archives/edgar/data/0000001800/000162828026066601/abt-20261021.htm
-- Lowe's Q2 release: https://corporate.lowes.com/newsroom/press-releases/lowes-reports-second-quarter-2026-sales-and-earnings-results-08-19-26
-- Lowe's 8-K exhibit: https://www.sec.gov/Archives/edgar/data/0000060667/000006066726000113/exhibit991-07312026.htm
-- PepsiCo Q3 8-K exhibit: https://www.sec.gov/Archives/edgar/data/0000077476/000007747626000050/q320268-kxexhibit991.htm
-- Prices: Yahoo Finance chart data for each ticker, 2026-11-05 close (delayed)
-- Annual figures: SEC company facts data (data.sec.gov) for each company
-- Context only: https://www.retail-insight-network.com/newsletters/lowes-narrows-fy26-guidance-q2
+## Screening coverage
+This run examined 3 prior names in depth (ABT, plus status of LOW and PEP) and screened JPM and NEE as new sectors (financials, utilities). Energy and industrials remain unscreened beyond CVX and UNP last run. 
 
 ## Gaps
-Abbott debt and cash not read (10-Q not fetched). Lowe's and PepsiCo 10-Q details not read. Nutrition spin off headline seen once on a feed and unverified. No analyst consensus for valuation. PepsiCo full year valuation not completed.
+JPM and NEE primary documents were not read in full. Abbott litigation accrual unread. PepsiCo valuation and LOW/PEP dates still open. No independent index close source.
 
 ## Learning point
-A low price multiple is not the same as a bargain. Earnings per share can be cut by guidance; so compare price to what earnings might be, and check debt, because interest payments come before shareholders.
-
-Paper tracking: reference prices above (ABT 113.60 NYSE, LOW 227.24 NYSE, PEP 142.71 Nasdaq, previous close 2026-11-05). Benchmark reference: PENDING VERIFICATION. The VTI value seen (360.52, NYSE Arca) looked anomalous and was not independently confirmed, so it is not used for paper performance. Next run should verify a VTI close from a second source (issuer or exchange page) for 2026-11-05 and record total return data.
+After a big one day drop, a lower price does not mean a lower valuation relative to earnings power. Check whether earnings estimates fell too.

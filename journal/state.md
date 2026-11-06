@@ -42,3 +42,8 @@ Still 403: www.bls.gov, www.sec.gov (bot blocking, not the allowlist). Use data.
 - Data method that works: built-in WebFetch/WebSearch; company IR pages and SEC 8-K exhibits via WebFetch. Do not put personal details in any request or header (user instruction 2026-11-06). Avoid shell loops with dynamic URLs.
 - Watchlist: ABT, LOW, PEP (see journal/watchlist_long.md). Screened 15; V, MMC, ADP failed to load.
 - Next: read Abbott Q3 10-Q for debt/cash; verify LOW and PEP next earnings dates; compute PEP core EPS valuation; check CSCO; look at sectors not covered (banks, energy, industrials, utilities); verify VTI 2026-11-05 close from a second source (benchmark pending).
+
+## Handoff 2026-11-05 run2 (clock 23:50 ET; saved as reports/2026-11-05-run2.md)
+- Scheduler said 2026-11-06 but the ET clock said Nov 5. Next run: check TZ clock; if it is Nov 6 or later, write reports/2026-11-06.md replacing the correction notice.
+- Done: ABT debt/cash verified; JPM and NEE added (watch). VTI baseline 360.52 on 11-05 (fell 4.35% that day; cause unknown, find a news source).
+- Next: read JPM 10-Q and NEE 10-Q for credit and debt; Abbott NEC accrual note; LOW/PEP dates from company IR; PEP full year valuation; screen energy and industrials (e.g. CAT, XOM) ; compare paper prices to VTI.
