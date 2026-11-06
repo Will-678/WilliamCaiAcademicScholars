@@ -5,7 +5,7 @@
   "exchange": "Nasdaq",
   "currency": "USD",
   "sector_model": "nonfinancial",
-  "as_of": "2026-11-06T00:29:02-05:00",
+  "as_of": "2026-11-06T04:09:19-05:00",
   "status": "watch",
   "confidence": "medium",
   "thesis": "Debt free, high margin (about 41% operating margin on TTM revenue 381.1M) regional lime and limestone producer with 439.2M cash at 2026-09-30 and no borrowings, funding a Texas kiln expansion from internal cash flow. Pricing power: 2025 average selling price +5.6%, volume +11.7%, revenue +17.3%. Quality is high; the open question is price, not business.",
@@ -40,13 +40,22 @@
       "accessed_at": "2026-11-06T00:27:02-05:00"
     },
     {
-      "id": "q1",
-      "url": "https://stockanalysis.com/stocks/uslm/",
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/uslm/history/",
       "document_id": "stockanalysis-USLM-2026-11-05",
       "origin": "stockanalysis.com",
       "kind": "quote",
-      "read_status": "snippet",
-      "accessed_at": "2026-11-06T00:27:02-05:00"
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T04:09:19-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/USLM/history/",
+      "document_id": "yahoo-finance-USLM-2026-11-05",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T04:09:19-05:00"
     }
   ],
   "checks": {
@@ -120,7 +129,13 @@
     "last_completed_session": "2026-11-05",
     "sources": [
       {
-        "source_id": "q1",
+        "source_id": "qa",
+        "value": 119.41,
+        "currency": "USD",
+        "as_of": "2026-11-05T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
         "value": 119.41,
         "currency": "USD",
         "as_of": "2026-11-05T16:00:00-05:00"
@@ -168,7 +183,6 @@
     }
   },
   "unresolved_critical_gaps": [
-    "Second independent quote origin for the 2026-11-05 close",
     "2026-10-30 earnings release and 10-K notes on accounting not fully read",
     "Peer valuation comparison and history of multiples not done",
     "Valuation and catalyst scores unscored"

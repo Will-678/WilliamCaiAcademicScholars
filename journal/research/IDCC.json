@@ -1,0 +1,183 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "IDCC",
+  "exchange": "Nasdaq",
+  "currency": "USD",
+  "sector_model": "nonfinancial (patent licensing)",
+  "as_of": "2026-11-06T04:09:19-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Patent licensor with about 1.1B USD cash and investments, 2.0B USD contracted revenue backlog, rising dividend and buybacks; closed 286.53 on 2026-11-05 after falling 14% from 2026-10-29 (334.27), around the Q3 report.",
+  "counterthesis": "Revenue is lumpy and settlement driven: 9M 2026 smartphone revenue fell 34% and 203.6M of 9M revenue is catch-up. Three arbitrations carry 202.0M of non-cash contract assets built on management estimates (Samsung ICC award 1.05B is challenged). Q3 operating cash flow was 150.4M vs 395.9M a year earlier. Three licensees are 72% of receivables and contract assets. The 296.7M 2027 convertible matures 2027-06-01.",
+  "invalidation": "An arbitration or court outcome (Samsung jurisdiction ruling, Lenovo 1H 2027) well below carried estimates, a lost or unrenewed major licence, or contract assets written down; OCF staying below net income for several quarters.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1405495/000140549526000077/idcc-20260930.htm",
+      "document_id": "0001405495-26-000077",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-10-29",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T04:09:19-05:00"
+    },
+    {
+      "id": "k1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1405495/000140549526000011/idcc-20251231.htm",
+      "document_id": "0001405495-26-000011",
+      "origin": "SEC EDGAR 10-K FY2025",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T04:09:19-05:00"
+    },
+    {
+      "id": "cf",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001405495.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0001405495",
+      "origin": "SEC EDGAR XBRL derived from the filings above",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T04:09:19-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/idcc/history/",
+      "document_id": "stockanalysis-IDCC-2026-11-05",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T04:09:19-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/IDCC/history/",
+      "document_id": "yahoo-finance-IDCC-2026-11-05",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T04:09:19-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Q3 2026 10-Q (filed 2026-10-29) read via fetch tool: revenue note, litigation note, debt note, liquidity. Submissions list shows no later 10-Q/10-K. The earnings release exhibit 99.1 was NOT read (the 8-K cover was)."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "cf"
+      ],
+      "note": "9/30/2026: cash 639.2M, short-term investments 483.4M, 2027 convertible principal 296.7M (current), Technicolor related debt 11.2M, total liabilities 909.3M, equity 1,248.4M."
+    },
+    "cashflow_basis_verified": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "cf"
+      ],
+      "note": "9M 2026 OCF 248.97M, capex 3.55M and capitalized patent costs 41.60M (9M 2025: 39.59M) are verified; FY2025 capitalized patent costs were not found, so a TTM FCF after patent spending cannot be completed. Missing, not zero."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "cf",
+        "q10"
+      ],
+      "note": "25,753,242 shares outstanding at 2026-10-27 (dei cover value); point in time, used for market cap. Convertible conversion price about 76.72 USD, in the money, adds dilution unless hedged (note hedge offsets per 10-Q)."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "cf"
+      ],
+      "note": "Market cap and EV computed, but no peer multiples or own-history multiple, and earnings are catch-up and settlement distorted; normalized earnings not derived."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Patent licensor: generic nonfinancial cash flow model used, but revenue recognition (catch-up, contract assets from arbitration estimates) is flagged and must be handled separately."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Reviewed: catch-up revenue 203.6M of 659.0M 9M revenue; contract assets 233.1M of which 202.0M tied to three arbitrations (estimate based); deferred revenue 433.3M; customer concentration 72%; RSU tax withholding 63.3M."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "See counterthesis field; grounded in 10-Q notes 2, 3, 5 and 6."
+    }
+  },
+  "price": {
+    "value": 286.53,
+    "currency": "USD",
+    "as_of": "2026-11-05T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-05",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 286.53,
+        "currency": "USD",
+        "as_of": "2026-11-05T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 286.53,
+        "currency": "USD",
+        "as_of": "2026-11-05T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "context_valuation": {
+      "price": 286.53,
+      "shares": 25753242,
+      "market_cap_usd": 7379076430,
+      "cash_and_short_term_investments_usd": 1122603000,
+      "debt_principal_usd": 307938000,
+      "ev_usd": 6564411430,
+      "ttm_net_income_usd": 314901000,
+      "ttm_net_income_basis": "FY2025 406.644M - 9M2025 363.673M + 9M2026 271.930M",
+      "pe_ttm": 23.4,
+      "ttm_operating_income_usd": 368651000,
+      "ev_ebit_ttm": 17.8,
+      "ttm_note": "TTM includes catch-up revenue and is settlement driven; not a normalized earnings base"
+    },
+    "fcf_9m_2026_after_patents": {
+      "ocf": 248973000,
+      "capex": 3553000,
+      "capitalized_patents": 41603000,
+      "value": 203817000,
+      "basis": "9M 2026 only; period 2026-01-01 to 2026-09-30; TTM not computed because FY2025 patent costs unread"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Q3 earnings release exhibit and 2026 guidance not read",
+    "FY2025 capitalized patent costs not read, so TTM FCF incomplete",
+    "Peer and history valuation not done",
+    "Arbitration outcome sensitivity (Samsung, Lenovo, Amazon, Dell) not quantified",
+    "Cause of the 14% price fall since 2026-10-29 not established",
+    "Scores not assigned"
+  ]
+}

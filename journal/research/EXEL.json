@@ -5,7 +5,7 @@
   "exchange": "Nasdaq",
   "currency": "USD",
   "sector_model": "nonfinancial",
-  "as_of": "2026-11-06T00:29:02-05:00",
+  "as_of": "2026-11-06T04:09:19-05:00",
   "status": "watch",
   "confidence": "medium",
   "thesis": "Profitable oncology company with 1.40B cash and marketable securities, no borrowings, TTM free cash flow about 1.16B and shrinking share count (244.0M vs 278.5M weighted diluted in Q3 2025). Cabometyx patent litigation protects the main product at least until a January 2030 earliest approval date for MSN's generic, with settlements at January 2031, which gives about four years of cash flow; zanzalintinib (NDA PDUFA 2027-03-03) is the pipeline option.",
@@ -40,13 +40,22 @@
       "accessed_at": "2026-11-06T00:27:02-05:00"
     },
     {
-      "id": "q1",
-      "url": "https://stockanalysis.com/stocks/exel/",
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/exel/history/",
       "document_id": "stockanalysis-EXEL-2026-11-05",
       "origin": "stockanalysis.com",
       "kind": "quote",
-      "read_status": "snippet",
-      "accessed_at": "2026-11-06T00:27:02-05:00"
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T04:09:19-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/EXEL/history/",
+      "document_id": "yahoo-finance-EXEL-2026-11-05",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T04:09:19-05:00"
     }
   ],
   "checks": {
@@ -118,7 +127,13 @@
     "last_completed_session": "2026-11-05",
     "sources": [
       {
-        "source_id": "q1",
+        "source_id": "qa",
+        "value": 68.71,
+        "currency": "USD",
+        "as_of": "2026-11-05T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
         "value": 68.71,
         "currency": "USD",
         "as_of": "2026-11-05T16:00:00-05:00"
@@ -165,7 +180,6 @@
     }
   },
   "unresolved_critical_gaps": [
-    "Second independent quote origin for the 2026-11-05 close",
     "November 2026 trial outcome on '039 patent not yet known",
     "Earnings release and revenue deduction notes not read",
     "Peer valuation comparison and normalized cash tax not done",

@@ -1,0 +1,189 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "MEDP",
+  "exchange": "Nasdaq",
+  "currency": "USD",
+  "sector_model": "nonfinancial (clinical research services)",
+  "as_of": "2026-11-06T04:09:19-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Clinical research organization with debt free balance sheet, backlog 3.17B USD (+5.6% YTD), Q3 net awards 873.4M, 9M revenue +16.9% and operating margin 21.3%; new 1.0B USD buyback authorised 2026-10-20. Stock closed 634.98 on 2026-11-05, down 4% on the day.",
+  "counterthesis": "At 34x TTM earnings and 28x EV/EBIT the price already assumes durable growth. About 41% of revenue is reimbursed pass through cost. Advanced billings supplied about 20% of 9M operating cash flow, so FCF depends on customer prepayments. Book-to-bill statements triggered three 2026 securities suits (dismissed without prejudice in Oct 2026). Biotech funding sensitivity and cancellations were not quantified in what was read.",
+  "invalidation": "Net awards falling below revenue for two consecutive quarters, backlog shrinking, rising cancellations, or advanced billings reversing so OCF drops below net income.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668397/000166839726000036/medp-20260930.htm",
+      "document_id": "0001668397-26-000036",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-10-22",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T04:09:19-05:00"
+    },
+    {
+      "id": "k1",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001668397.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0001668397",
+      "origin": "SEC EDGAR XBRL derived from the FY2025 10-K and 2026 10-Qs",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T04:09:19-05:00"
+    },
+    {
+      "id": "er",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668397/000166839726000034/medp-20261020.htm",
+      "document_id": "0001668397-26-000034",
+      "origin": "SEC EDGAR 8-K filed 2026-10-21 (cover and Item 8.01 only; exhibit 99.1 not read)",
+      "kind": "earnings_release",
+      "read_status": "snippet",
+      "accessed_at": "2026-11-06T04:09:19-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/medp/history/",
+      "document_id": "stockanalysis-MEDP-2026-11-05",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T04:09:19-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/MEDP/history/",
+      "document_id": "yahoo-finance-MEDP-2026-11-05",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T04:09:19-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Q3 2026 10-Q filed 2026-10-22 read (key metrics, notes 1, 4, 7, 9, 10, 11). Submissions list shows nothing newer. Annual 10-K narrative not read this run; annual figures come from XBRL facts."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "k1"
+      ],
+      "note": "9/30/2026: cash 705.3M, no borrowings on a 10M credit facility, total liabilities 1,717.7M (mostly advanced billings 961.9M and other operating liabilities), equity 584.9M reduced by buybacks."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "k1"
+      ],
+      "note": "TTM OCF 723.05M = 713.223 - 520.571 + 530.396; TTM capex 55.42M = 31.356 - 26.820 + 50.886 (PaymentsToAcquirePropertyPlantAndEquipment reported). Advanced billings added 107.5M in 9M 2026."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "27,966,686 shares at 2026-09-30 (10-Q), 27,971,686 at 2026-10-16 (cover). Used 27,966,686 for market cap."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "k1"
+      ],
+      "note": "Own multiples computed; no peer (IQVIA, ICON, Fortrea) or own-history comparison."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Service business model; revenue includes reimbursed out-of-pocket pass through (40% of Q3 revenue), so margins on net service revenue differ from headline."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Reviewed: reimbursable revenue share, advanced billings working capital benefit, buyback driven equity, related party revenue 15.8M 9M, dismissed securities suits, stock comp 16.9M 9M."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "See counterthesis field."
+    }
+  },
+  "price": {
+    "value": 634.98,
+    "currency": "USD",
+    "as_of": "2026-11-05T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-05",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 634.98,
+        "currency": "USD",
+        "as_of": "2026-11-05T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 634.98,
+        "currency": "USD",
+        "as_of": "2026-11-05T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "fcf": {
+      "ocf": {
+        "value": 723050000,
+        "unit": "USD",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "capex": {
+        "value": 55420000,
+        "unit": "USD",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "value": 667630000,
+      "basis": "TTM = FY2025 - 9M2025 + 9M2026 (calendar fiscal year); includes advanced billings inflow"
+    },
+    "context_valuation": {
+      "price": 634.98,
+      "shares": 27966686,
+      "market_cap_usd": 17758286276,
+      "cash_usd": 705315000,
+      "debt_usd": 0,
+      "ev_usd": 17052971276,
+      "ttm_net_income_usd": 517825000,
+      "pe_ttm": 34.3,
+      "ttm_operating_income_usd": 607136000,
+      "ev_ebit_ttm": 28.1,
+      "fcf_yield_pct": 3.76
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Earnings release exhibit (cancellations, guidance) not read",
+    "Peer and history valuation not done",
+    "Annual 10-K business and risk sections not read this run",
+    "Biotech funding sensitivity unquantified",
+    "Scores not assigned"
+  ]
+}

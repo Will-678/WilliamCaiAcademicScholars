@@ -70,3 +70,10 @@ Sunday compilation includes a recorded quality review. A separate weekly ChatGPT
 - Blocker: no second independent quote origin reachable (stooq 404; only stockanalysis.com gave a dated close). Benchmark still pending; no paper references created for these names.
 - Validator results saved to data/quality_latest.json. Queue is in journal/queue.md; decisions in journal/decision_log.jsonl.
 - Next: get a second quote origin, read the EXEL and USLM earnings releases, watch EXEL November '039 trial outcome, then QLYS after its 10-Q.
+
+## Worker run 2026-11-06 ~04:30 ET (method 2.0, run 2)
+- Screen not refreshed (last refresh 00:26 ET, under 24 hours). QLYS still has no Q3 10-Q.
+- Researched IDCC and MEDP (both watch, medium, scores incomplete). Closed the second-quote gap for USLM and EXEL: stockanalysis.com and Yahoo Finance agree on 2026-11-05 closes (publisher-level independence only). Benchmark VTI still pending; no paper references created.
+- Validator: all four records valid, none attractive-eligible (data/quality_latest.json).
+- Not done: FSLR; earnings release exhibits (IDCC, MEDP, USLM, EXEL); peer multiples; MEDP and IDCC annual filing financials.
+- Next: FSLR valuation, QLYS after 10-Q, read releases, EXEL '039 ruling, cause of IDCC drop.
