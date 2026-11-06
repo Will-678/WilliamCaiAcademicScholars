@@ -47,3 +47,10 @@ Still 403: www.bls.gov, www.sec.gov (bot blocking, not the allowlist). Use data.
 - Scheduler said 2026-11-06 but the ET clock said Nov 5. Next run: check TZ clock; if it is Nov 6 or later, write reports/2026-11-06.md replacing the correction notice.
 - Done: ABT debt/cash verified; JPM and NEE added (watch). VTI baseline 360.52 on 11-05 (fell 4.35% that day; cause unknown, find a news source).
 - Next: read JPM 10-Q and NEE 10-Q for credit and debt; Abbott NEC accrual note; LOW/PEP dates from company IR; PEP full year valuation; screen energy and industrials (e.g. CAT, XOM) ; compare paper prices to VTI.
+
+## Universe screen (added 2026-11-06)
+tools/screen_universe.py pulls SEC XBRL "frames" for every U.S. filer in seconds and writes data/screen_latest.csv.
+First run (CY2025 data): 4,392 filers with revenue; 2,019 with complete data; 824 passed the basic quality filter.
+Limits: U.S. SEC filers only (no non-U.S. exchange coverage); fundamentals only, no prices or valuation; some rows are distorted
+by one-off revenue (e.g. biotech collaboration payments), so stage 2 must check each name before it is trusted.
+Pipeline: stage 1 screen all filers -> stage 2 add price and valuation for the top ~50 -> stage 3 read filings for the top few -> morning compile.
