@@ -55,3 +55,10 @@ Plain, direct, concrete. No dashes (use commas, colons, semicolons, parentheses)
 
 ## Git
 Commit to branch claude/hopeful-hamilton-8b3avz and push. Do not open a pull request.
+
+## Standing rules added 2026-11-05 (QA corrections; allocation preferences above are unchanged)
+- Report date: determine it from a timezone aware clock (for example `TZ=America/New_York date`) at run time, never from UTC or the commit timestamp. Name files reports/YYYY-MM-DD.md with that local date. If a file was misdated, fix it and leave a short cross-reference notice in the wrong file.
+- Do not claim year to date or period performance from a 52 week high or low; compute it from dated prices or leave it out.
+- Quote provenance: for every price give ticker, exchange (verify each; for example PEP is Nasdaq), currency, timestamp with timezone, live/delayed/previous close status, and the public source URL. Never fill missing financial data by guessing; mark it unavailable.
+- Benchmark: use a benchmark price (for example VTI) for paper performance only after confirming it from a second source. Otherwise mark it pending verification. Use consistent total return data over matching dates.
+- Privacy: never put William's name, email, financial details, or repository contents in any HTTP request, including User-Agent headers, URLs and search queries. Use public company names and tickers only and a generic research identifier where one is required. Prefer built-in web tools or single read-only requests; avoid shell loops with dynamic URLs.

@@ -1,16 +1,16 @@
-# Daily investment research, Friday 2026-11-06 (America/New_York)
+# Daily investment research, Thursday 2026-11-05 (run started 10:27 p.m. ET; date corrected from 2026-11-06) (America/New_York)
 
 ## Conclusion
-No stock is compelling enough to be called attractive today. The most useful finding: **Abbott (ABT)** and **Lowe's (LOW)** are good businesses whose share prices fell this year (about 14% and 22% below their 52 week highs), and both are worth a place on the watch list. Neither earns "attractive" because Abbott's balance sheet after a big acquisition is not yet verified, and Lowe's is cutting its outlook. A broad index fund (for example VTI) remains the stronger default for most of the money. This is research for the 5% single stock bucket only, not advice.
+No stock is compelling enough to be called attractive today. The most useful finding: **Abbott (ABT)** and **Lowe's (LOW)** are good businesses whose share prices trade about 14% and 22% below their 52 week highs (this does not show year to date performance, which I did not check), and both are worth a place on the watch list. Neither earns "attractive" because Abbott's balance sheet after a big acquisition is not yet verified, and Lowe's is cutting its outlook. A broad index fund (for example VTI) remains the stronger default for most of the money. This is research for the 5% single stock bucket only, not advice.
 
 ## Leading candidates (all fresh findings, first full research)
-Quotes: previous close on 2026-11-05 (4:00 p.m. ET), NYSE, USD, from Yahoo Finance chart data (delayed, not live).
+Quotes: previous close (regular session close) on 2026-11-05, 4:00 p.m. ET (21:00 UTC timestamp in the data), USD, delayed, not live. Source for each ticker is the public Yahoo Finance chart endpoint: https://query1.finance.yahoo.com/v8/finance/chart/ABT , /LOW , /PEP (same base URL). Exchanges: ABT NYSE, LOW NYSE, PEP Nasdaq.
 
 | Ticker / company | Quote | Score /100 | Status | Why it could work | Valuation | Main downside |
 |---|---|---|---|---|---|---|
-| ABT, Abbott Laboratories | $113.60 | 63 (confidence low to medium) | Watch | Diversified medical devices, diagnostics, drugs; 7.0% comparable sales growth in Q3 | About 20.6x 2026 adjusted EPS guidance midpoint ($5.525) | Debt after Exact Sciences deal unverified; infant formula (NEC) legal costs; guidance for sales growth cut to about 6% |
-| LOW, Lowe's | $227.24 | 62 (confidence medium) | Watch | Pro and online growth, steady dividend, buybacks, 22% off its high | About 18.5x adjusted EPS guidance ($12.25); 19.3x GAAP ($11.75) | Flat comparable sales, DIY demand weak, $37.6B debt, margin down |
-| PEP, PepsiCo | $142.71 | 57 (confidence medium) | Watch | Organic growth best since late 2023; dividend about 4% of price (my calculation) | Core EPS 9M $6.15; full year valuation not computed | Core EPS growth outlook cut to 2.5% to 3.5%; free cash flow barely covers dividends |
+| ABT, Abbott Laboratories | $113.60 (NYSE) | 63 (confidence low to medium) | Watch | Diversified medical devices, diagnostics, drugs; 7.0% comparable sales growth in Q3 | About 20.6x 2026 adjusted EPS guidance midpoint ($5.525) | Debt after Exact Sciences deal unverified; infant formula (NEC) legal costs; guidance for sales growth cut to about 6% |
+| LOW, Lowe's | $227.24 (NYSE) | 62 (confidence medium) | Watch | Pro and online growth, steady dividend, buybacks, 22% off its high | About 18.5x adjusted EPS guidance ($12.25); 19.3x GAAP ($11.75) | Flat comparable sales, DIY demand weak, $37.6B debt, margin down |
+| PEP, PepsiCo | $142.71 (Nasdaq) | 57 (confidence medium) | Watch | Organic growth best since late 2023; dividend about 4% of price (my calculation) | Core EPS 9M $6.15; full year valuation not computed | Core EPS growth outlook cut to 2.5% to 3.5%; free cash flow barely covers dividends |
 
 Score components (business quality 25 / cash and growth 20 / resilience 15 / valuation 30 / catalysts and evidence 10):
 - ABT 21 / 13 / 8 / 15 / 6 = 63
@@ -33,7 +33,7 @@ Lowe's, using adjusted EPS of $12.25 as the base:
 Dividends of roughly $15 per share over three years would be extra. The range is wide because the multiple is the main driver. At $227 the base case offers modest upside, not a clear bargain. Abbott and PepsiCo scenarios are not shown because inputs (debt, full year core EPS base) are not yet verified.
 
 ## What was screened (15 companies, fiscal data from SEC annual filings, prices from 2026-11-05 close)
-Examined: JNJ, PG, KO, HD, UNP, ABT, TXN, CSCO, MDT, PEP, CVX, LOW, COST, MCD, CL. Not examined because data failed to load: V, MMC, ADP.
+Examined (exchange): JNJ NYSE, PG NYSE, KO NYSE, HD NYSE, UNP NYSE, ABT NYSE, TXN Nasdaq, CSCO Nasdaq, MDT NYSE, PEP Nasdaq, CVX NYSE, LOW NYSE, COST Nasdaq, MCD NYSE, CL NYSE. Prices for all: previous close 2026-11-05, 21:00 UTC, Yahoo Finance chart endpoint. Not examined because data failed to load: V, MMC, ADP.
 Rejected or deferred for now (quick screen only, not deep research; trailing GAAP P/E is my calculation from latest annual diluted EPS):
 - JNJ $272.32: up about 46% in a year, near its high, about 25x, debt rose to $41.4B.
 - PG $167.10: near its high, about 25x, capex rising.
@@ -73,4 +73,4 @@ Abbott debt and cash not read (10-Q not fetched). Lowe's and PepsiCo 10-Q detail
 ## Learning point
 A low price multiple is not the same as a bargain. Earnings per share can be cut by guidance; so compare price to what earnings might be, and check debt, because interest payments come before shareholders.
 
-Paper tracking: reference prices above (ABT 113.60, LOW 227.24, PEP 142.71) versus VTI 360.52 on 2026-11-05, price only, to be compared later with total return.
+Paper tracking: reference prices above (ABT 113.60 NYSE, LOW 227.24 NYSE, PEP 142.71 Nasdaq, previous close 2026-11-05). Benchmark reference: PENDING VERIFICATION. The VTI value seen (360.52, NYSE Arca) looked anomalous and was not independently confirmed, so it is not used for paper performance. Next run should verify a VTI close from a second source (issuer or exchange page) for 2026-11-05 and record total return data.
