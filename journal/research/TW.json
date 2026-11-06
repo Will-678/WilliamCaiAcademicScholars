@@ -1,0 +1,209 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "TW",
+  "exchange": "Nasdaq",
+  "currency": "USD",
+  "sector_model": "nonfinancial (electronic trading marketplace; fee based, no balance sheet lending)",
+  "as_of": "2026-11-06T16:05:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Tradeweb is a high margin (GAAP operating margin about 43% in Q3), debt free electronic bond and derivatives marketplace with 2.1B cash, revenue +14.9% and ADV +22.4% in Q3 2026. At about 28.7x TTM total net income and 3.7% FCF yield it is priced as a quality compounder, not as cheap; quality is clear but price attractiveness is unestablished.",
+  "counterthesis": "Volumes depend on rate volatility and credit issuance (Q3 benefited from rate and central bank uncertainty); fees per million fell about 10% in rates derivatives and cash credit on mix; Q3 market data revenue was lifted by LSEG contract delivery timing; the 1.97B Trumid deal (1.89B cash, close 1H 2027) is the largest ever and would absorb most cash and bring integration risk; LSEG and banks remain large holders; a 23% rise from the Q3 buyback average of 103.83 leaves little margin of safety; tax receivable agreement liability 317M.",
+  "invalidation": "ADV growth turning negative for two quarters, revenue growth below 8%, adjusted EBITDA margin below 50%, Trumid closing at materially higher price or with credit volume share loss, or loss of LSEG market data contract.",
+  "sources": [
+    {
+      "id": "k10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1758730/000175873026000015/tw-20251231.htm",
+      "document_id": "0001758730-26-000015",
+      "origin": "SEC EDGAR 10-K fiscal year 2025 filed 2026-02-05",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T16:05:00-05:00"
+    },
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1758730/000175873026000144/tw-20260930.htm",
+      "document_id": "0001758730-26-000144",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-10-29",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T16:05:00-05:00"
+    },
+    {
+      "id": "rel",
+      "url": "https://www.sec.gov/Archives/edgar/data/1758730/000175873026000143/tw-2026xq3xex991.htm",
+      "document_id": "0001758730-26-000143 ex99.1",
+      "origin": "Tradeweb Q3 2026 earnings release (8-K exhibit 99.1)",
+      "kind": "earnings_release",
+      "read_status": "full",
+      "accessed_at": "2026-11-06T16:05:00-05:00"
+    },
+    {
+      "id": "cf",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001758730.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0001758730",
+      "origin": "SEC EDGAR XBRL derived from FY2025 10-K and 2026 10-Qs",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T16:05:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/tw/history/",
+      "document_id": "stockanalysis-TW-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T16:05:00-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/TW/history/",
+      "document_id": "yahoo-finance-TW-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T16:05:00-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "Q3 2026 10-Q and earnings release both filed 2026-10-29; submissions list shows no later 10-Q or earnings 8-K as of 2026-11-06."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "10-Q balance sheet read: cash 2,114.9M, total liabilities 1,095.1M, total equity 7,334.2M (incl NCI 712.2M); no borrowings, 500M revolver undrawn; TRA liability 317.5M."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel",
+        "cf"
+      ],
+      "note": "TTM OCF 1,201.2M and FCF 1,082.9M (OCF less capitalized software 71.7M and PP&E 46.6M) match release; independently recomputed OCF from FY2025 1,167.6M + 9M26 845.3M - 9M25 811.7M."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Point in time 30 Sep 2026: Class A 112,142,045 + Class B 96,933,192 + LLC interests exchangeable (Class C 18,000,000 + Class D 5,056,868) = 232,132,105 economic shares. Q3 buybacks may have lowered count since; cover page count not captured."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "cf",
+        "qa",
+        "qb"
+      ],
+      "note": "Own market cap, EV, P/E, EV/EBIT, FCF yield computed. No peer (CME, ICE, Nasdaq, MarketAxess, Cboe) or own history multiples; Trumid pro forma not computed."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Fee based exchange style platform, not a bank or insurer; nonfinancial cash flow model applies, with TRA liability and NCI treated separately."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": true,
+      "source_ids": [
+        "k10",
+        "rel"
+      ],
+      "note": "10-K critical audit matter is fair value of Canton Coin digital assets (Notes 2 and 15); Canton validator revenue fell 17% in Other revenue in Q3; LSEG market data timing lift in Q3 (release); adjusted vs GAAP reconciled. Full MD&A not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "rel",
+        "q10"
+      ],
+      "note": "See counterthesis: volume cyclicality, fee compression, Trumid cash use, LSEG timing benefit."
+    }
+  },
+  "price": {
+    "value": 127.76,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 127.76,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 127.73,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 127.76,
+      "shares": 232132105,
+      "market_cap_usd": 29657197735,
+      "cash_usd": 2114895000.0,
+      "debt_usd": 0,
+      "ev_usd": 27542302735,
+      "ttm_period": "2025-10-01 to 2026-09-30",
+      "ttm_revenue_usd": 2282438000,
+      "ttm_net_income_total_usd": 1031882000,
+      "pe_ttm": 28.7,
+      "ttm_operating_income_usd": 1006958000,
+      "ev_ebit_ttm": 27.4,
+      "ttm_fcf_usd": 1082883000,
+      "fcf_yield_on_market_cap": 0.0365,
+      "note": "Net income is total including NCI because share count includes exchangeable LLC interests. Cash 2.1B is earmarked mostly for Trumid 1.89B; pro forma EV is higher."
+    },
+    "growth": {
+      "q3_revenue_yoy": 0.149,
+      "q3_adv_yoy": 0.224,
+      "nine_month_revenue_yoy": 0.15
+    },
+    "trumid": {
+      "price_usd": 1970000000.0,
+      "cash_usd": 1890000000.0,
+      "business_usd": 1750000000.0,
+      "tax_assets_usd": 220000000.0,
+      "close": "first half 2027"
+    },
+    "price_path": {
+      "close_2026_10_30": 122.54,
+      "close_2026_11_06": 127.76,
+      "q3_buyback_avg": 103.83
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peer and own history valuation not done",
+    "Trumid revenue, earnings and pro forma valuation unread (8-K 2026-10-19 not read)",
+    "Scores not assigned",
+    "Cover page share count and Q4 buyback pace not captured",
+    "10-Q and 10-K MD&A not read in full"
+  ]
+}

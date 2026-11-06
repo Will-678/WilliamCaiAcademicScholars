@@ -89,3 +89,7 @@ Report reports/2026-11-06-090906.md (also latest.md). All five records revalidat
 - Screen not refreshed (about 12 hours old). Researched AGX (watch, medium, scores null; valid, not attractive-eligible). IDCC release read: gap closed. QLYS still has no Q3 10-Q or earnings 8-K.
 - AGX fell 27% from 10-29 to 11-05 (cause unconfirmed); 20.4x TTM earnings, but FCF yield of 14.9% is inflated by customer advances. Benchmark VTI still pending; no paper references.
 - Next: AGX peer multiples and MD&A, QLYS after 10-Q, FSLR 10-K, EXEL '039 ruling, USLM/MEDP releases, a second quote origin that is truly independent.
+
+## Worker run 2026-11-06 ~16:40 ET (method 2.0, run 5)
+- Screen not refreshed (~16 hours old). QLYS still has no Q3 10-Q. Researched TW (watch, medium, scores null; valid, not attractive-eligible; 28.7x TTM, FCF yield 3.65%, Trumid 1.97B deal). CPRX screened out (acquired by Angelini). Two quote publishers agree on the TW 11-06 close; benchmark VTI still pending; no paper references.
+- Next: TW peer multiples and Trumid 8-K, QLYS after 10-Q, AGX peers, FSLR 10-K, EXEL '039 ruling, a truly independent quote origin.
