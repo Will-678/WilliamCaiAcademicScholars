@@ -1,0 +1,60 @@
+{
+  "method_version": "2.0",
+  "requested_calendar_year": 2025,
+  "retrieved_at": "2026-11-06T00:26:41.122757-05:00",
+  "scope": "Standard US GAAP USD annual SEC frame facts; not a global listed-company universe",
+  "price_coverage": false,
+  "point_in_time_backtest_safe": false,
+  "filers_with_supported_revenue": 4392,
+  "comparable_rows": 1142,
+  "passed_preliminary_filter": 419,
+  "exclusions": {
+    "missing:liabilities": 308,
+    "missing:capex,liabilities": 136,
+    "mismatched_balance_date": 334,
+    "conflicting_revenue_tags": 145,
+    "missing:net_income,capex": 63,
+    "missing:capex": 1029,
+    "invalid_denominator_or_sign_or_size": 610,
+    "missing:revenue_base": 133,
+    "missing:ocf,capex": 30,
+    "missing:ocf,liabilities": 13,
+    "missing:revenue_base,capex": 121,
+    "missing:net_income": 70,
+    "missing:net_income,liabilities": 20,
+    "missing:ocf": 26,
+    "missing:ocf,capex,liabilities": 8,
+    "missing:net_income,ocf": 2,
+    "missing:net_income,capex,liabilities": 8,
+    "missing:revenue_base,ocf": 2,
+    "mismatched_flow_period": 6,
+    "missing:assets,liabilities": 94,
+    "missing:capex,assets,liabilities": 32,
+    "missing:revenue_base,assets,liabilities": 18,
+    "missing:revenue_base,net_income": 2,
+    "missing:ocf,capex,assets,liabilities": 2,
+    "noncomparable_annual_periods": 2,
+    "missing:net_income,assets,liabilities": 3,
+    "missing:net_income,ocf,liabilities": 1,
+    "missing:revenue_base,net_income,capex": 7,
+    "missing:net_income,capex,assets,liabilities": 1,
+    "missing:revenue_base,capex,assets,liabilities": 11,
+    "missing:revenue_base,net_income,ocf,capex": 1,
+    "missing:revenue_base,liabilities": 4,
+    "missing:revenue_base,capex,liabilities": 5,
+    "missing:ocf,assets,liabilities": 1,
+    "missing:net_income,ocf,capex": 1,
+    "missing:revenue_base,assets": 1
+  },
+  "source_failures": [
+    {
+      "url": "https://data.sec.gov/api/xbrl/frames/us-gaap/SalesRevenueNet/USD/CY2025.json",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/frames/us-gaap/SalesRevenueNet/USD/CY2023.json",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "warning": "Liabilities/assets is not debt/assets. Ranking is annual, preliminary, and sector biased. Verify current filings and valuation before any rating."
+}

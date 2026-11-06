@@ -63,3 +63,10 @@ The four hour worker repository attachment has been fixed. Both tasks must expli
 Refresh the updated annual screener when metadata is missing or older than 24 hours. Its new counts may be lower because missing capex and mismatched fiscal periods are now excluded.
 Next: validate the updated screener in a live worker, research one existing candidate into the structured template, run its quality checks, and prioritize unresolved evidence over adding more shallow names.
 Sunday compilation includes a recorded quality review. A separate weekly ChatGPT audit will inspect actual outputs and propose or test bounded improvements.
+
+## Worker run 2026-11-06 00:30 ET (method 2.0)
+- Branch claude/hopeful-hamilton-8b3avz fast-forwarded and used. Screen refreshed (CY2025): 4,392 filers with revenue, 1,142 comparable rows, 419 preliminary passes; many exclusions are missing capex (1,029+) and mismatched dates. Not global, not valuation.
+- Researched in depth: USLM and EXEL (both watch, medium confidence, scores incomplete). Third name not finished: Qualys has no Q3 10-Q yet.
+- Blocker: no second independent quote origin reachable (stooq 404; only stockanalysis.com gave a dated close). Benchmark still pending; no paper references created for these names.
+- Validator results saved to data/quality_latest.json. Queue is in journal/queue.md; decisions in journal/decision_log.jsonl.
+- Next: get a second quote origin, read the EXEL and USLM earnings releases, watch EXEL November '039 trial outcome, then QLYS after its 10-Q.

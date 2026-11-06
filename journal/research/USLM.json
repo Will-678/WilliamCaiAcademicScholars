@@ -1,0 +1,176 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "USLM",
+  "exchange": "Nasdaq",
+  "currency": "USD",
+  "sector_model": "nonfinancial",
+  "as_of": "2026-11-06T00:29:02-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Debt free, high margin (about 41% operating margin on TTM revenue 381.1M) regional lime and limestone producer with 439.2M cash at 2026-09-30 and no borrowings, funding a Texas kiln expansion from internal cash flow. Pricing power: 2025 average selling price +5.6%, volume +11.7%, revenue +17.3%. Quality is high; the open question is price, not business.",
+  "counterthesis": "Momentum has stalled: 9M 2026 revenue +2.9%, gross profit -0.7%, net income -0.6%, Q3 gross profit -2.7% on diesel and Texas kiln integration inefficiency, construction and shingle demand soft. At the single source close of 119.41 the stock trades near 25.6x TTM earnings and about 2.9% TTM free cash flow yield, which already pays for continued growth that the latest quarters do not show. Free cash flow is held down by 70.1M TTM capex.",
+  "invalidation": "Q4 2026 and Q1 2027 gross profit still falling year over year after the Texas kiln is integrated; gross margin below roughly 45 percent; steel customer volumes reverse; or capex rises without matching volume. Valuation below roughly 20x TTM earnings with stable margins would revisit the watch status.",
+  "sources": [
+    {
+      "id": "k1",
+      "url": "https://www.sec.gov/Archives/edgar/data/82020/000110465926020480/uslm-20251231x10k.htm",
+      "document_id": "0001104659-26-020480",
+      "origin": "SEC EDGAR 10-K FY2025 filed 2026-02-26",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T00:27:02-05:00"
+    },
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/82020/000110465926120712/uslm-20260930x10q.htm",
+      "document_id": "0001104659-26-120712",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-10-30",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T00:27:02-05:00"
+    },
+    {
+      "id": "cf",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000082020.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0000082020",
+      "origin": "SEC EDGAR XBRL API derived from the 10-K and 10-Qs above",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T00:27:02-05:00"
+    },
+    {
+      "id": "q1",
+      "url": "https://stockanalysis.com/stocks/uslm/",
+      "document_id": "stockanalysis-USLM-2026-11-05",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "snippet",
+      "accessed_at": "2026-11-06T00:27:02-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "cf"
+      ],
+      "note": "Submissions index (data.sec.gov) shows the Q3 10-Q filed 2026-10-30 as latest periodic filing; MD&A liquidity and results sections read. The 8-K earnings release of 2026-10-30 was not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "cf"
+      ],
+      "note": "10-Q: cash 439.2M at 2026-09-30, no debt outstanding, 75M revolver undrawn except 4.6M letters of credit, matures 2028-08-03; total liabilities 64.6M, equity 733.8M (XBRL)."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "k1",
+        "cf"
+      ],
+      "note": "TTM OCF 168.863M = FY2025 164.970 - 9M2025 119.406 + 9M2026 123.299; TTM capex 70.130M = 62.698 - 42.789 + 50.221 (PaymentsToAcquirePropertyPlantAndEquipment, reported, not zero). OCF includes an 18.1M receivable build."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Point in time 28,688,327 shares at 2026-10-28 from the 10-Q cover; weighted diluted Q3 28.778M for comparison. Single class."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q1"
+      ],
+      "note": "Price is a single source close not corroborated by an independent second origin, so the valuation conclusion is pending. Context multiples are in calculations."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "k1"
+      ],
+      "note": "Industrial materials producer, nonfinancial model with cash flow and capex intensity; no financial leverage."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Partial: MD&A read, no debt, interest income 10.4M in 9M helps pretax profit; footnotes, related party arrangements and the 10-K critical accounting section not fully reviewed."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "k1"
+      ],
+      "note": "Countercase written from reported margin decline, flat earnings and valuation."
+    }
+  },
+  "price": {
+    "value": 119.41,
+    "currency": "USD",
+    "as_of": "2026-11-05T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-05",
+    "sources": [
+      {
+        "source_id": "q1",
+        "value": 119.41,
+        "currency": "USD",
+        "as_of": "2026-11-05T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": 19,
+    "cash_generation_growth": 11,
+    "financial_resilience": 15,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "fcf": {
+      "ocf": {
+        "value": 168863000,
+        "unit": "USD",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "capex": {
+        "value": 70130000,
+        "unit": "USD",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "value": 98733000,
+      "basis": "TTM derived FY2025 minus 9M2025 plus 9M2026"
+    },
+    "context_valuation_unverified_price": {
+      "price": 119.41,
+      "shares": 28688327,
+      "market_cap_usd": 3425600000,
+      "cash_usd": 439248000,
+      "debt_usd": 0,
+      "ev_usd": 2986400000,
+      "ttm_net_income_usd": 133683000,
+      "pe_ttm": 25.6,
+      "fcf_yield_pct": 2.9,
+      "ttm_operating_income_usd": 157154000,
+      "ev_to_ebit": 19.0,
+      "ttm_revenue_usd": 381087000
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Second independent quote origin for the 2026-11-05 close",
+    "2026-10-30 earnings release and 10-K notes on accounting not fully read",
+    "Peer valuation comparison and history of multiples not done",
+    "Valuation and catalyst scores unscored"
+  ]
+}
