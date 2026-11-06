@@ -37,3 +37,8 @@ Still 403: www.bls.gov, www.sec.gov (bot blocking, not the allowlist). Use data.
 2. Verify VTI, VXUS, and one short Treasury ETF on issuer pages (expense ratio, holdings, minimums).
 3. Start screening candidates from filings; no candidates yet.
 4. Ask William for the profile items above if a dollar or suitability question comes up.
+
+## Handoff 2026-11-06
+- Data method that works: built-in WebFetch/WebSearch; company IR pages and SEC 8-K exhibits via WebFetch. Do not put personal details in any request or header (user instruction 2026-11-06). Avoid shell loops with dynamic URLs.
+- Watchlist: ABT, LOW, PEP (see journal/watchlist_long.md). Screened 15; V, MMC, ADP failed to load.
+- Next: read Abbott Q3 10-Q for debt/cash; verify LOW and PEP next earnings dates; compute PEP core EPS valuation; check CSCO; look at sectors not covered (banks, energy, industrials, utilities); recheck VTI Nov 5 move with a second source.
