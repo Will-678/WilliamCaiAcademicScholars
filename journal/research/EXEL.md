@@ -33,3 +33,6 @@ Adverse '039 ruling, Cabometyx sales declining, zanzalintinib CRL or weak STELLA
 Independent second quote; earnings release and gross to net detail; normalized cash tax; peer biopharma multiples; value of the zanzalintinib pipeline under scenarios; 10-K risk factors in full.
 
 Not investment advice; research only, no trade implied.
+
+## Update 2026-11-06 09:20 ET (compiler)
+Read Q3 earnings release (exhibit 99.1, https://www.sec.gov/Archives/edgar/data/939767/000093976726000114/exel20260930exhibit991.htm). Guidance unchanged: revenue 2.50 to 2.55B, net product 2.30 to 2.35B. Effective tax rate guidance lowered from 21 to 23% to 16 to 18%: lifts earnings without operating change. Release gives no cash balance and no '039 outcome. Submissions list shows no later 8-K. Record JSON not changed; revalidated valid, not attractive eligible.

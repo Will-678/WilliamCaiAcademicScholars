@@ -81,3 +81,6 @@ Sunday compilation includes a recorded quality review. A separate weekly ChatGPT
 ## Worker run 2026-11-06 ~08:15 ET (method 2.0, run 3)
 - Screen not refreshed. Researched FSLR only (watch, medium, scores null; valid, not attractive-eligible). 11.3x TTM earnings, FCF yield 1.1%, 45X dependent. Benchmark pending; no paper references.
 - Next: FSLR MD&A and 10-K, QLYS after 10-Q, AGX valuation, release exhibits for IDCC/MEDP/USLM/EXEL, EXEL '039 ruling.
+
+## Morning compile 2026-11-06 09:09 ET
+Report reports/2026-11-06-090906.md (also latest.md). All five records revalidated (data/quality_compile_2026-11-06.json), none attractive eligible. EXEL release read; no new 8-Ks for EXEL or IDCC. Next: IDCC release and drop cause, EXEL tax normalization and '039 ruling, QLYS 10-Q, second quote source.

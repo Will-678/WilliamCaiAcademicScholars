@@ -1,0 +1,11 @@
+{
+ "checked_at": "2026-11-06T09:25:00-05:00",
+ "valid": {
+  "EXEL": true,
+  "FSLR": true,
+  "IDCC": true,
+  "MEDP": true,
+  "USLM": true
+ },
+ "attractive_eligible": 0
+}
