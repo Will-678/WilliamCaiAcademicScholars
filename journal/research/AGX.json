@@ -1,0 +1,221 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "AGX",
+  "exchange": "NYSE",
+  "currency": "USD",
+  "sector_model": "nonfinancial (engineering and construction, project based)",
+  "as_of": "2026-11-06T12:08:36-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Power plant EPC contractor (gas fired and solar/battery, plus industrial and telecom segments) with no debt, 1,028.4M USD cash and investments, TTM revenue 1,188M (+57% 6M y/y) and net income 179M. After a 27% fall from 356.85 (2026-10-29) to 261.21 (2026-11-05) it trades at about 20x TTM earnings and 14x EV/EBIT, versus a P/E above 46 reported by a third party in August. Market may be extrapolating the AI and data center selloff and a backlog decline onto a cash rich contractor.",
+  "counterthesis": "TTM operating cash flow 555M versus net income 179M is driven by customer advances: contract liabilities 627.0M (513.97M at 2026-01-31), so cash is largely customer money that unwinds as projects are built; FCF yield of about 15% is not owner earnings. Backlog fell to 2.5B from 2.9B in six months with no disclosed large new power award; the 2.5B is about 2.1 years of TTM revenue. Revenue and margin depend on a few large projects; Industrial and Teledata margins slipped on cost overruns; a UK project dispute (9.8M LC drawn, owner counterclaims, 27.2M pending variations). Three Power customers were about 23%, 16% and 11% of FY2026 revenue (10-K). Stock is cyclical and momentum driven (several 7 to 17% daily moves in 2026).",
+  "invalidation": "Backlog continuing to fall without new power awards for two more quarters; a large project loss or margin charge; contract liabilities shrinking faster than new advances so OCF falls below net income; counterparty or credit trouble at a major customer.",
+  "sources": [
+    {
+      "id": "k10",
+      "url": "https://www.sec.gov/Archives/edgar/data/100591/000110465926035216/agx-20260131x10k.htm",
+      "document_id": "0001104659-26-035216",
+      "origin": "SEC EDGAR 10-K fiscal year ended 2026-01-31",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T12:08:36-05:00"
+    },
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/100591/000110465926104745/agx-20260731x10q.htm",
+      "document_id": "0001104659-26-104745",
+      "origin": "SEC EDGAR 10-Q period 2026-07-31 filed 2026-09-02",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T12:08:36-05:00"
+    },
+    {
+      "id": "rel",
+      "url": "https://www.sec.gov/Archives/edgar/data/100591/000110465926104735/agx-20260902xex99d1.htm",
+      "document_id": "0001104659-26-104735 ex99.1",
+      "origin": "Argan Q2 FY2027 earnings release (8-K exhibit 99.1, same results as 10-Q)",
+      "kind": "earnings_release",
+      "read_status": "full",
+      "accessed_at": "2026-11-06T12:08:36-05:00"
+    },
+    {
+      "id": "k8",
+      "url": "https://www.sec.gov/Archives/edgar/data/100591/000110465926106321/agx-20260909x8k.htm",
+      "document_id": "0001104659-26-106321",
+      "origin": "SEC EDGAR 8-K 2026-09-09 dividend increase",
+      "kind": "secondary",
+      "read_status": "full",
+      "accessed_at": "2026-11-06T12:08:36-05:00"
+    },
+    {
+      "id": "cf",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000100591.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0000100591",
+      "origin": "SEC EDGAR XBRL derived from FY2026 10-K (0001104659-26-035216) and 10-Qs",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T12:08:36-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/agx/history/",
+      "document_id": "stockanalysis-AGX-2026-11-05",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T12:08:36-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/AGX/history/",
+      "document_id": "yahoo-finance-AGX-2026-11-05",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T12:08:36-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel",
+        "k10"
+      ],
+      "note": "Submissions list (data.sec.gov, 2026-11-06) shows 10-Q filed 2026-09-02 for 2026-07-31 as latest periodic filing; 8-Ks 2026-09-02 and 2026-09-09 read. Fiscal Q3 (Oct 31) results not yet due. 10-K FY2026 not read; MD&A and risk factors of the 10-Q not read. 10-K FY2026 (filed 2026-04) read for customer concentration and risk factor sections only (characters 20,000 to 120,000 of 217,000); MD&A and audit matters unread."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "2026-07-31 from 10-Q face statements: cash 364.481M, short-term investments 183.408M, total investments 663.965M, total assets 1,400.970M, total liabilities 894.131M, contract liabilities 627.020M, equity 506.839M, no borrowings."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "cf"
+      ],
+      "note": "TTM to 2026-07-31 = FY2026 (2025-02-01 to 2026-01-31) + 6M FY27 - 6M FY26. OCF 414.718+210.354-69.895=555.177M; capex 3.877+7.688-2.089=9.476M; FCF 545.701M. Capex reported, not missing. Working capital (customer advances) dominates OCF."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Point in time 14,029,842 shares on cover as of 2026-08-28; used for market cap. Diluted weighted shares not used. Share count may have moved since August."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "cf",
+        "qa",
+        "qb"
+      ],
+      "note": "Own market cap, EV, P/E, EV/EBIT, FCF yield computed. No peer multiples (Primoris, MasTec, Quanta, Comfort Systems) and no own history multiple, so valuation is not complete."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "Project based EPC: backlog, contract liabilities, working capital and customer prepayments reviewed; plain FCF yield flagged as inflated."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "rel",
+        "k10"
+      ],
+      "note": "Reviewed: contract liability build, pending variations 27.2M, UK dispute, adjusted EBITDA adds back stock comp only. Not reviewed: revenue recognition estimates, 10-K critical audit matters, customer concentration, retainage. 10-K: three Power customers were about 23%, 16% and 11% of FY2026 revenue (28%, 13%, 10% in FY2025); work is largely fixed price with overruns possibly unrecoverable."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "See counterthesis field; grounded in 10-Q balance sheet, cash flow, note on UK dispute and release backlog table."
+    }
+  },
+  "price": {
+    "value": 261.21,
+    "currency": "USD",
+    "as_of": "2026-11-05T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-05",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 261.21,
+        "currency": "USD",
+        "as_of": "2026-11-05T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 261.21,
+        "currency": "USD",
+        "as_of": "2026-11-05T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 261.21,
+      "shares": 14029842,
+      "market_cap_usd": 3664900000.0,
+      "cash_and_investments_usd": 1028400000.0,
+      "debt_usd": 0,
+      "ev_usd": 2636500000.0,
+      "ttm_period": "2025-08-01 to 2026-07-31",
+      "ttm_revenue_usd": 1188133000.0,
+      "ttm_net_income_usd": 179314000.0,
+      "pe_ttm": 20.4,
+      "ttm_operating_income_usd": 182504000.0,
+      "ev_ebit_ttm": 14.4,
+      "ttm_fcf_usd": 545701000.0,
+      "fcf_yield_on_market_cap": 0.149,
+      "note": "FCF inflated by contract liabilities; EV net of cash that is partly customer advances"
+    },
+    "adjusted_ev_treating_contract_liabilities_as_debt_like": {
+      "ev_usd": 3263500000.0,
+      "ev_ebit": 17.9,
+      "basis": "EV 2636.5M + contract liabilities 627.0M; conservative bracket, not a standard measure"
+    },
+    "backlog": {
+      "rupo_usd": 2500000000.0,
+      "prior_usd": 2900000000.0,
+      "date": "2026-07-31",
+      "prior_date": "2026-01-31",
+      "years_of_ttm_revenue": 2.1
+    },
+    "price_path": {
+      "close_2026_10_29": 356.85,
+      "close_2026_11_05": 261.21,
+      "change_pct": -26.8,
+      "source": "stockanalysis.com history; Nov 4 and Nov 5 closes differ across news articles (290.66 vs 308.63 or 312.83 for Nov 4), only the Nov 5 close is two source verified"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peer and own history valuation not done",
+    "Cause of the 27% fall since 2026-10-29 not established from a primary source (press says AI/data center and E&C sector selling, backlog dip, Industrial margin; unconfirmed)",
+    "Normalized cash flow after customer advance unwind not estimated",
+    "Scores not assigned",
+    "MD&A, critical audit matters and Industrial/Teledata backlog unread; Power backlog was over 2.7B at 2026-01-31 (10-K)"
+  ]
+}

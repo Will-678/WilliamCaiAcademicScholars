@@ -84,3 +84,8 @@ Sunday compilation includes a recorded quality review. A separate weekly ChatGPT
 
 ## Morning compile 2026-11-06 09:09 ET
 Report reports/2026-11-06-090906.md (also latest.md). All five records revalidated (data/quality_compile_2026-11-06.json), none attractive eligible. EXEL release read; no new 8-Ks for EXEL or IDCC. Next: IDCC release and drop cause, EXEL tax normalization and '039 ruling, QLYS 10-Q, second quote source.
+
+## Worker run 2026-11-06 ~12:20 ET (method 2.0, run 4)
+- Screen not refreshed (about 12 hours old). Researched AGX (watch, medium, scores null; valid, not attractive-eligible). IDCC release read: gap closed. QLYS still has no Q3 10-Q or earnings 8-K.
+- AGX fell 27% from 10-29 to 11-05 (cause unconfirmed); 20.4x TTM earnings, but FCF yield of 14.9% is inflated by customer advances. Benchmark VTI still pending; no paper references.
+- Next: AGX peer multiples and MD&A, QLYS after 10-Q, FSLR 10-K, EXEL '039 ruling, USLM/MEDP releases, a second quote origin that is truly independent.

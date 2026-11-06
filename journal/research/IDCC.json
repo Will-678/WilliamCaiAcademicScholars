@@ -5,10 +5,10 @@
   "exchange": "Nasdaq",
   "currency": "USD",
   "sector_model": "nonfinancial (patent licensing)",
-  "as_of": "2026-11-06T04:09:19-05:00",
+  "as_of": "2026-11-06T12:08:36-05:00",
   "status": "watch",
   "confidence": "medium",
-  "thesis": "Patent licensor with about 1.1B USD cash and investments, 2.0B USD contracted revenue backlog, rising dividend and buybacks; closed 286.53 on 2026-11-05 after falling 14% from 2026-10-29 (334.27), around the Q3 report.",
+  "thesis": "Patent licensor with about 1.1B USD cash and investments, 2.0B USD contracted revenue backlog, rising dividend and buybacks; closed 286.53 on 2026-11-05 after falling 14% from 2026-10-29 (334.27), around the Q3 report. Release read 2026-11-06: Q3 revenue 193.4M (+17%), FY2026 revenue guided 813 to 819M with raised midpoint; Q4 revenue guide 154 to 160M is below Q3 as catch-up fades.",
   "counterthesis": "Revenue is lumpy and settlement driven: 9M 2026 smartphone revenue fell 34% and 203.6M of 9M revenue is catch-up. Three arbitrations carry 202.0M of non-cash contract assets built on management estimates (Samsung ICC award 1.05B is challenged). Q3 operating cash flow was 150.4M vs 395.9M a year earlier. Three licensees are 72% of receivables and contract assets. The 296.7M 2027 convertible matures 2027-06-01.",
   "invalidation": "An arbitration or court outcome (Samsung jurisdiction ruling, Lenovo 1H 2027) well below carried estimates, a lost or unrenewed major licence, or contract assets written down; OCF staying below net income for several quarters.",
   "sources": [
@@ -56,15 +56,25 @@
       "kind": "quote",
       "read_status": "relevant_sections",
       "accessed_at": "2026-11-06T04:09:19-05:00"
+    },
+    {
+      "id": "rel",
+      "url": "https://www.sec.gov/Archives/edgar/data/1405495/000140549526000076/ex991q393026pressrelease.htm",
+      "document_id": "0001405495-26-000076 ex99.1",
+      "origin": "InterDigital Q3 2026 earnings release (8-K exhibit 99.1; same results as 10-Q)",
+      "kind": "earnings_release",
+      "read_status": "full",
+      "accessed_at": "2026-11-06T12:08:36-05:00"
     }
   ],
   "checks": {
     "latest_filing_checked": {
       "passed": true,
       "source_ids": [
-        "q10"
+        "q10",
+        "rel"
       ],
-      "note": "Q3 2026 10-Q (filed 2026-10-29) read via fetch tool: revenue note, litigation note, debt note, liquidity. Submissions list shows no later 10-Q/10-K. The earnings release exhibit 99.1 was NOT read (the 8-K cover was)."
+      "note": "Q3 2026 10-Q (filed 2026-10-29) relevant sections plus the earnings release exhibit 99.1 read in full on 2026-11-06 (12:2x ET). Submissions list shows no later 10-Q, 10-K or 8-K. Supplemental presentation (99.2) not read."
     },
     "balance_sheet_verified": {
       "passed": true,
@@ -170,14 +180,52 @@
       "capitalized_patents": 41603000,
       "value": 203817000,
       "basis": "9M 2026 only; period 2026-01-01 to 2026-09-30; TTM not computed because FY2025 patent costs unread"
+    },
+    "guidance_2026_from_release": {
+      "revenue_usd_m": [
+        813,
+        819
+      ],
+      "adjusted_ebitda_usd_m": [
+        507,
+        515
+      ],
+      "gaap_diluted_eps": [
+        8.93,
+        9.16
+      ],
+      "non_gaap_eps": [
+        11.99,
+        12.25
+      ],
+      "q4_revenue_usd_m": [
+        154,
+        160
+      ],
+      "basis": "contracted revenue only, excludes new agreements and arbitration results",
+      "q3_2026": {
+        "revenue_usd_m": 193.4,
+        "gaap_net_income_usd_m": 80.2,
+        "diluted_eps": 2.34,
+        "catch_up_revenue_usd_m": 36.2,
+        "arr_usd_m": 628.9,
+        "smartphone_revenue_usd_m": 122.6,
+        "smartphone_change": "down 10%"
+      }
+    },
+    "forward_pe_gaap_on_guidance_midpoint": {
+      "price": 286.53,
+      "eps_midpoint": 9.045,
+      "pe": 31.7,
+      "note": "Guidance includes catch-up revenue; Q4 implied GAAP EPS 1.04 to 1.27 (annualized about 4.2 to 5.1, not a forecast)"
     }
   },
   "unresolved_critical_gaps": [
-    "Q3 earnings release exhibit and 2026 guidance not read",
     "FY2025 capitalized patent costs not read, so TTM FCF incomplete",
     "Peer and history valuation not done",
     "Arbitration outcome sensitivity (Samsung, Lenovo, Amazon, Dell) not quantified",
     "Cause of the 14% price fall since 2026-10-29 not established",
-    "Scores not assigned"
+    "Scores not assigned",
+    "Prior guidance range not stated in release, size of raise unquantified; supplemental presentation unread"
   ]
 }
