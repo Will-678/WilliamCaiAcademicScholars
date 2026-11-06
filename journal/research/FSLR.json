@@ -1,0 +1,175 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "FSLR",
+  "exchange": "Nasdaq",
+  "currency": "USD",
+  "sector_model": "nonfinancial (solar manufacturing, policy credit dependent)",
+  "as_of": "2026-11-06T08:11:54-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "US solar module maker with 44 GW backlog, net cash about 1.5B and no meaningful debt; trades near 11x TTM GAAP earnings.",
+  "counterthesis": "Reported earnings depend on Section 45X credits (about 2.1B of 2026 gross profit guidance); 9M 2026 operating cash flow was negative 402.7M, TTM FCF yield about 1.1%, 1.87B grants receivable, 2026 volume and sales guidance were cut, Q3 sales fell 23%, and policy change could remove the credits.",
+  "invalidation": "Repeal or reduction of 45X, further guidance cuts, grants receivable not converting to cash, or backlog cancellations.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1274494/000127449426000212/fslr-20260930.htm",
+      "document_id": "0001274494-26-000212",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-10-29",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T08:11:54-05:00"
+    },
+    {
+      "id": "er",
+      "url": "https://www.sec.gov/Archives/edgar/data/1274494/000127449426000211/ex991pressreleaseq3-2026.htm",
+      "document_id": "0001274494-26-000211 ex99.1",
+      "origin": "First Solar Q3 2026 release (8-K exhibit)",
+      "kind": "earnings_release",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T08:11:54-05:00"
+    },
+    {
+      "id": "cf",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001274494/us-gaap/NetIncomeLoss.json",
+      "document_id": "SEC-XBRL-companyconcept-CIK0001274494",
+      "origin": "SEC XBRL derived from 10-K 0001274494-26-000021 and 10-Qs",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T08:11:54-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/fslr/history/",
+      "document_id": "stockanalysis-FSLR-2026-11-05",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T08:11:54-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/FSLR/history/",
+      "document_id": "yahoo-finance-FSLR-2026-11-05",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T08:11:54-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "er"
+      ],
+      "note": "Submissions list shows Q3 10-Q and 8-K both filed 2026-10-29 as the newest periodic documents; both read in part."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Cash 1,576.0M, marketable securities 48.1M, restricted marketable 202.5M, debt principal 107.7M all current, credit facility undrawn; from the 10-Q balance sheet. Grants receivable about 1.87B noted."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "cf"
+      ],
+      "note": "9M 2026 OCF -402.7M, capex 434.7M (10-Q); TTM built from FY2025 and 9M 2025 XBRL values with matching periods."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Point in time shares 107,481,151 at 2026-10-23 (cover); weighted diluted 107.7M used only for context."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "er",
+        "cf"
+      ],
+      "note": "P/E and FCF yield computed but no peer or own history multiple and no 45X-excluded earnings case beyond a rough gross profit bridge."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Nonfinancial manufacturer; earnings are policy credit dependent so cash conversion and credit monetization are the key lens."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "er"
+      ],
+      "note": "45X credits recorded in cost of sales (1.50B in 9M) with 1.87B grants receivable; MD&A, risk factors and receivable collection timing not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "er"
+      ],
+      "note": "See counterthesis field."
+    }
+  },
+  "price": {
+    "value": 195.76,
+    "currency": "USD",
+    "as_of": "2026-11-05T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-05",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 195.76,
+        "currency": "USD",
+        "as_of": "2026-11-05T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 195.76,
+        "currency": "USD",
+        "as_of": "2026-11-05T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "market_cap_usd": 21040510120,
+    "ev_usd": 19524103120,
+    "ttm_net_income_usd": 1861134000,
+    "ttm_net_income_basis": "FY2025 1528.229M - 9M2025 1007.346M + 9M2026 1340.251M",
+    "pe_ttm": 11.3,
+    "ttm_ocf_usd": 839179000,
+    "ttm_capex_usd": 606389000,
+    "ttm_fcf_usd": 232790000,
+    "fcf_yield_pct": 1.1,
+    "fcf_9m_2026_usd": -837376000,
+    "guidance_2026": "sales 4.6-4.9B, gross profit 2.4-2.6B incl 45X 2.07-2.19B, volume 16-17 GW (cut from 17-18.2), capex 0.6-0.8B, backlog 44.0 GW",
+    "note": "Gross profit net of 45X credits implied only about 0.2-0.5B in 2026 guidance; earnings are mostly policy credits"
+  },
+  "unresolved_critical_gaps": [
+    "MD&A, risk factors and policy risk sections of 10-Q not read",
+    "FY2025 10-K not read",
+    "No peer or history valuation",
+    "45X-excluded earnings and receivable collection timing not analysed",
+    "Scores not assigned"
+  ]
+}

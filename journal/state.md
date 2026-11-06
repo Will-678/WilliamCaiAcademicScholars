@@ -77,3 +77,7 @@ Sunday compilation includes a recorded quality review. A separate weekly ChatGPT
 - Validator: all four records valid, none attractive-eligible (data/quality_latest.json).
 - Not done: FSLR; earnings release exhibits (IDCC, MEDP, USLM, EXEL); peer multiples; MEDP and IDCC annual filing financials.
 - Next: FSLR valuation, QLYS after 10-Q, read releases, EXEL '039 ruling, cause of IDCC drop.
+
+## Worker run 2026-11-06 ~08:15 ET (method 2.0, run 3)
+- Screen not refreshed. Researched FSLR only (watch, medium, scores null; valid, not attractive-eligible). 11.3x TTM earnings, FCF yield 1.1%, 45X dependent. Benchmark pending; no paper references.
+- Next: FSLR MD&A and 10-K, QLYS after 10-Q, AGX valuation, release exhibits for IDCC/MEDP/USLM/EXEL, EXEL '039 ruling.
