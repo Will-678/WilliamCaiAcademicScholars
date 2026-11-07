@@ -1,0 +1,225 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "DTM",
+  "exchange": "NYSE",
+  "currency": "USD",
+  "sector_model": "midstream natural gas pipelines and gathering (regulated and contracted infrastructure); use EBITDA, distributable cash flow, capex, leverage, dividend coverage; equity method investees",
+  "as_of": "2026-11-07T04:10:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "DT Midstream owns contracted natural gas pipelines and gathering. 9M26 revenue 1,015M (+9.6%), net income attributable 360M (+9.1%), operating cash flow 777M (+10.0%), management raised 2026 adjusted EBITDA guidance to 1,185-1,225M and says 2.4B of organic projects are committed. At 113.66 it trades near 24.6x TTM GAAP earnings, 4.6% TTM FCF yield and 12.3x EV to guided adjusted EBITDA midpoint (management definition, includes proportional equity investees), with a 3.1% dividend yield (0.88 quarterly). Quality infrastructure; the price already reflects it.",
+  "counterthesis": "Growth capex and a 352M annual dividend leave about 181M after dividends on TTM FCF 533M (66% payout of FCF), so growth is funded partly by debt. Net debt 3,069M is about 2.5x guided adjusted EBITDA, plus 140M noncontrolling interests. A key customer, Expand Energy, drives a significant share of revenue and Haynesville/Marcellus gas volumes depend on gas prices. 126M of capex sat in payables at 9/30 (83M a year ago), so cash capex understates spending incurred. Cash taxes are low (9M paid 9M26) while deferred tax is 116M of 777M OCF, a benefit that normalizes. Stonewall litigation with Antero (fees range 0-4.9M, appeal planned). Stock fell from 122.58 to 113.66 in three sessions, cause not identified.",
+  "invalidation": "Loss of or volume cuts from Expand Energy; leverage above about 3.5x EBITDA; dividend coverage by FCF falling well below 1.0x after growth capex; cash taxes normalizing sharply higher without growth; slippage or cost overruns on the 2.4B committed projects.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1842022/000184202226000013/dtm-20260930.htm",
+      "document_id": "0001842022-26-000013",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-10-29",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T04:10:00-05:00"
+    },
+    {
+      "id": "rel",
+      "url": "https://www.sec.gov/Archives/edgar/data/1842022/000114036126041104/ef20084510_ex99-1.htm",
+      "document_id": "0001140361-26-041104 ex99.1",
+      "origin": "DT Midstream earnings release dated 2026-10-29 (SEC exhibit of issuer release)",
+      "kind": "earnings_release",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T04:10:00-05:00"
+    },
+    {
+      "id": "cf",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001842022.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0001842022",
+      "origin": "SEC EDGAR XBRL derived from FY2025 10-K (0001842022-26-000003) and 2026 10-Q",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T04:10:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001842022.json",
+      "document_id": "SEC-submissions-CIK0001842022",
+      "origin": "SEC EDGAR submissions index",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T04:10:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/dtm/history/",
+      "document_id": "stockanalysis-DTM-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T04:10:00-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/DTM/history/",
+      "document_id": "yahoo-finance-DTM-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T04:10:00-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "sub"
+      ],
+      "note": "Q3 2026 10-Q and earnings 8-K both filed 2026-10-29 are the newest 10-Q/8-K in the submissions list read 2026-11-07."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Statements of Financial Position 9/30/2026: cash 231M, long-term debt principal 3,300M (notes 2029 920M, 2031 980M, 2032 600M, 2034 650M, Guardian term loan 150M floating, 2033), no revolver borrowings, liquidity about 1.2B; total liabilities 5,377M of which debt is 3,277M net."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "cf"
+      ],
+      "note": "9M26 OCF 777M less plant and equipment expenditures 274M; TTM = FY2025 (OCF 867M, capex 426M) + 9M26 - 9M25 (706M, 295M) = OCF 938M, capex 405M, FCF 533M. Capex is reported, not missing. 126M capex in payables noted."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "102,015,296 shares outstanding at 2026-09-30 from the balance sheet (point in time, not weighted); diluted weighted average 102.7M is slightly higher."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "rel",
+        "cf",
+        "qa",
+        "qb"
+      ],
+      "note": "P/E, FCF yield, dividend yield, EV/guided adjusted EBITDA computed. Peer multiples (WMB, KMI, OKE, TRGP, EQT midstream) not yet gathered, so valuation is incomplete against peers."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "Midstream infrastructure model: EBITDA, FCF after growth capex, dividend coverage, net debt/EBITDA, customer concentration. Not valued as generic industrial."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Reviewed equity method income (110M of 502M pre-tax; cash dividends from investees 113M so earnings convert), deferred taxes 116M in OCF, capex in payables, goodwill 781M and intangibles 1,817M, litigation note. Full 10-K audit matters not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "Written in counterthesis field: leverage, dividend and capex funding, customer concentration, tax timing."
+    }
+  },
+  "price": {
+    "value": 113.66,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 113.66,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 113.66,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "fcf": {
+      "ocf": {
+        "value": 938000000,
+        "unit": "USD",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "capex": {
+        "value": 405000000,
+        "unit": "USD",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "value": 533000000,
+      "period": "TTM 2025-10-01 to 2026-09-30",
+      "note": "FY2025 + 9M26 - 9M25 from 10-K/10-Q cash flow statements; USD"
+    },
+    "valuation": {
+      "price": 113.66,
+      "shares": 102015296,
+      "market_cap_usd": 11594858000,
+      "ttm_net_income_attributable_usd": 471000000,
+      "ttm_note": "FY2025 441M + 9M26 360M - 9M25 330M",
+      "pe_ttm": 24.6,
+      "fcf_yield": 0.046,
+      "dividend_per_share_annual": 3.52,
+      "dividend_yield": 0.031,
+      "debt_principal_usd": 3300000000,
+      "cash_usd": 231000000,
+      "net_debt_usd": 3069000000,
+      "noncontrolling_usd": 140000000,
+      "ev_usd": 14804000000,
+      "guided_adj_ebitda_midpoint_usd": 1205000000,
+      "ev_to_guided_adj_ebitda": 12.3,
+      "net_debt_to_guided_adj_ebitda": 2.5,
+      "dividends_declared_ttm_usd": 352000000,
+      "fcf_after_dividends_usd": 181000000,
+      "note": "Adjusted EBITDA is a management non-GAAP measure including proportional equity investee share; guidance not GAAP"
+    },
+    "growth": {
+      "nine_month_revenue_yoy": 0.096,
+      "nine_month_net_income_attrib_yoy": 0.091,
+      "nine_month_ocf_yoy": 0.1
+    },
+    "price_path": {
+      "close_2026_11_02": 120.98,
+      "close_2026_11_03": 122.58,
+      "close_2026_11_04": 117.58,
+      "close_2026_11_05": 112.88,
+      "close_2026_11_06": 113.66
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peer and own-history multiples not gathered",
+    "FY2025 10-K debt covenant and customer concentration percentages not read",
+    "Cause of 7% fall 11-03 to 11-06 not identified",
+    "Scores not assigned",
+    "Quote origins are two publishers, independence not proven"
+  ]
+}

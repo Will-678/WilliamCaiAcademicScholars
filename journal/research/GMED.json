@@ -1,0 +1,223 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "GMED",
+  "exchange": "NYSE",
+  "currency": "USD",
+  "sector_model": "nonfinancial medical technology (musculoskeletal devices); use earnings, FCF, net cash, inventory and working capital, acquisition effects",
+  "as_of": "2026-11-07T04:10:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Globus Medical sells spine and orthopedic implants and enabling technology. After a 12.8% one day fall to 71.05 (11-06) it trades near 16.9x TTM GAAP earnings and 8.1% TTM FCF yield with about 871M cash and marketable securities and no financial debt. 9M26 operating cash flow was 677M (+34%) and operating income 510M (+64%, partly lapping Nevro merger costs), a 500M buyback increase was authorized. The market is reacting to a cut in 2026 revenue guidance, not to a collapse in profit.",
+  "counterthesis": "Revenue guidance was cut to 3.09B from 3.18-3.22B (about 3.5% below the old midpoint) and Q3 sales fell 0.7% (U.S. +0.5%, international -5.7%); U.S. Spine grew 2% against double digit comps, so share gain and growth claims are weakening. Base business (ex Nevro) grew only 3.0%. Revenue growth in 9M26 (+9.5%) is mostly Nevro acquisition. FCF is record partly because of tax payable timing (+17.5M vs -57.9M a year ago, a 75M swing) and receivables/inventory (inventory +60M) may signal channel strain; allowance for credit losses rose. TTM earnings include a 114.4M bargain purchase gain only through FY2025 comparisons and a low-tax quarter in 9M25 (tax rate 22% in 9M26 vs 8.8%). Non-GAAP EPS guidance 4.95-5.05 excludes amortization, restructuring and acquisition costs, and buybacks (279M 9M26) partly mask slow growth. Acquisition liabilities of 106M are debt-like.",
+  "invalidation": "Another guidance cut or U.S. spine growth turning negative; gross margin gains reversing; inventory build without sales growth; Nevro integration impairment; FCF falling below net income once tax timing normalizes.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1237831/000162828026071165/gmed-20260930.htm",
+      "document_id": "0001628280-26-071165",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-05",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T04:10:00-05:00"
+    },
+    {
+      "id": "rel",
+      "url": "https://www.sec.gov/Archives/edgar/data/1237831/000162828026071042/gmed-q32026ex991.htm",
+      "document_id": "0001628280-26-071042 ex99.1",
+      "origin": "Globus Medical earnings release dated 2026-11-05 (SEC exhibit of issuer release)",
+      "kind": "earnings_release",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T04:10:00-05:00"
+    },
+    {
+      "id": "cf",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001237831.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0001237831",
+      "origin": "SEC EDGAR XBRL derived from FY2025 10-K (0001628280-26-011209) and 2026 10-Q",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T04:10:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001237831.json",
+      "document_id": "SEC-submissions-CIK0001237831",
+      "origin": "SEC EDGAR submissions index",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T04:10:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/gmed/history/",
+      "document_id": "stockanalysis-GMED-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T04:10:00-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/GMED/history/",
+      "document_id": "yahoo-finance-GMED-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T04:10:00-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "sub",
+        "rel"
+      ],
+      "note": "Q3 2026 10-Q and earnings 8-K filed 2026-11-05 are the newest filings in the submissions list read 2026-11-07; release read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Balance sheet 9/30/2026: cash 441.3M, short-term securities 76.2M, long-term securities 353.7M, total liabilities 731.9M, no borrowings; business acquisition liabilities 106.4M; inventories 824.1M; equity 4,796M."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "cf"
+      ],
+      "note": "9M26 OCF 677.3M less purchases of property and equipment 113.2M; TTM = FY2025 (OCF 753.4M, capex 164.7M) + 9M26 - 9M25 (504.9M, 118.5M) = OCF 925.9M, capex 159.4M, FCF 766.6M. Capex reported."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Class A 110,235,170 + Class B 22,430,097 = 132,665,267 shares at 2026-09-30 (point in time, balance sheet). Buybacks continue so current count is lower; weighted diluted 136.0M for Q3 is higher."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "rel",
+        "cf",
+        "qa",
+        "qb"
+      ],
+      "note": "P/E, FCF yield, net cash computed. Peer multiples (SYK, ZBH, MDT spine, LIVN, ATEC) and own history not gathered, so valuation is incomplete."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "Nonfinancial medtech model: FCF, net cash, inventory turns, acquisition adjusted growth; GAAP and non-GAAP kept separate."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Reviewed bargain purchase gain (114.4M in 9M25, 1.1M in 9M26), tax rate change, tax payable swing in cash flow, inventory and allowance increases, acquisition liability fair value change 16.2M. Full 10-K audit matters not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "Written in counterthesis field: guidance cut, acquisition driven growth, tax and working capital flattering FCF, non-GAAP adjustments."
+    }
+  },
+  "price": {
+    "value": 71.05,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 71.05,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 71.05,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "fcf": {
+      "ocf": {
+        "value": 925919000,
+        "unit": "USD",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "capex": {
+        "value": 159369000,
+        "unit": "USD",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "value": 766550000,
+      "period": "TTM 2025-10-01 to 2026-09-30",
+      "note": "FY2025 + 9M26 - 9M25 from 10-K/10-Q cash flow statements; USD"
+    },
+    "valuation": {
+      "price": 71.05,
+      "shares": 132665267,
+      "ttm_net_income_usd": 557636000,
+      "ttm_note": "FY2025 537.868M + 9M26 417.042M - 9M25 397.274M",
+      "pe_ttm": 16.9,
+      "fcf_yield": 0.081,
+      "cash_and_securities_usd": 871173000,
+      "debt_usd": 0,
+      "acquisition_liabilities_usd": 106367000,
+      "ev_usd": 8554589000,
+      "note": "EV = market cap - cash and securities; acquisition liabilities not added",
+      "market_cap_usd": 9425762000
+    },
+    "growth": {
+      "q3_revenue_yoy": -0.007,
+      "nine_month_revenue_yoy": 0.095,
+      "base_business_q3_yoy": 0.03,
+      "guidance_revenue_new_usd": 3090000000,
+      "guidance_revenue_old_range_usd": [
+        3180000000,
+        3220000000
+      ]
+    },
+    "price_path": {
+      "close_2026_11_02": 79.46,
+      "close_2026_11_03": 79.58,
+      "close_2026_11_04": 87.1,
+      "close_2026_11_05": 81.44,
+      "close_2026_11_06": 71.05
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peer and own-history multiples not gathered",
+    "Q3 call commentary and reasons for guidance cut not read beyond release",
+    "Receivables and inventory quality, Nevro impairment risk not analysed",
+    "Scores not assigned",
+    "Quote origins are two publishers, independence not proven"
+  ]
+}

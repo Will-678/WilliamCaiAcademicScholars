@@ -15,11 +15,13 @@ Updated 2026-11-06 04:2x ET by the four hour worker (run 2). Stages: lead, valua
 | 1082554 | UTHR | Nasdaq | Healthcare biopharma (large) | researched_watch | 2026-11-06 | Peer multiples; cause of 7% drop on 11-05; PDUFA dates for IPF sNDA and ralinepag; MD&A; September ASR settlement | 2026-11-13 | 19.5x TTM, FCF yield 3.6%, flat 9M revenue; journal/research/UTHR.md |
 | 1669162 | KNSL | NYSE | Insurance specialty P&C (mid) | researched_watch | 2026-11-07 | Peer multiples (RLI, PLMR, PGR); read press release exhibit and guidance; reserve development and 10-K audit matters | 2026-11-14 | 16.4x TTM, 4.5x book, combined ratio 75.4%, but premiums -3.5% in 9M26; journal/research/KNSL.json |
 | 1280452 | MPWR | Nasdaq | Semiconductors power (large) | researched_watch | 2026-11-07 | Peer multiples (ADI, TXN, ON); read 2026-10-29 release exhibit; cause of 15% drop 11-03 to 11-05; 10-K export-control risk | 2026-11-14 | 65x TTM, FCF yield 1.05%, revenue +46.5% 9M; journal/research/MPWR.json |
+| 1842022 | DTM | NYSE | Energy midstream pipelines (mid) | researched_watch | 2026-11-07 | Peer multiples (WMB, KMI, OKE, TRGP); 10-K customer concentration and covenants; cause of 7% drop 11-03 to 11-06 | 2026-11-14 | 24.6x TTM, FCF yield 4.6%, 12.3x guided adj EBITDA, 2.5x net debt; journal/research/DTM.json |
+| 1237831 | GMED | NYSE | Medical devices spine (mid) | researched_watch | 2026-11-07 | Peer multiples (SYK, ZBH, LIVN, ATEC); call commentary on guidance cut; receivables and inventory; Nevro impairment risk | 2026-11-14 | 16.9x TTM, FCF yield 8.1%, net cash 871M, revenue guide cut to 3.09B, -12.8% on 11-06; journal/research/GMED.json |
 | 1369568 | CPRX | Nasdaq | Healthcare pharma (small) | removed | 2026-11-06 | None; acquired by Angelini Pharma (8-K 2026-07-16); confirm delisting if revisited | none | Screened lead no longer an independent listing; journal/research/CPRX.md |
 | 1065280 / 1326801 / 1652044 | NFLX / META / GOOGL | Nasdaq | Mega cap | lead | not yet | Low priority, duplicates index exposure | 2026-11-27 | Large index overlap |
 | various | ABT, LOW, PEP, JPM, NEE | NYSE/Nasdaq | legacy | legacy_method_1 | 2026-11-05 | Re-research under method 2.0 only if prioritised | none | Historical method 1.0 notes, not validated |
 
-Screen refresh: 2026-11-06 00:26 ET, calendar year 2025.
+Screen refresh: 2026-11-07 04:05 ET, calendar year 2025 (4,393 filers with revenue, 1,142 comparable, 419 preliminary passes; no failure).
 
 Run 2 (2026-11-06 ET): screen not refreshed (metadata under 24 hours old). Researched IDCC and MEDP; closed the second quote gap for USLM and EXEL. Third name (FSLR) not started; depth was prioritized.
 
@@ -32,3 +34,5 @@ Run 5 (2026-11-06 16:0x ET): screen not refreshed (about 16 hours old). QLYS rec
 Run 6 (2026-11-06 20:0x ET): screen not refreshed (about 20 hours old, no failed refresh). QLYS rechecked: still no Q3 10-Q (only Form 4/144 filings). Researched UTHR (watch, new). Other names not started; depth prioritized.
 
 Run 7 (2026-11-07 00:0x ET): screen not refreshed (about 24 hours old, boundary; metadata 2026-11-06 00:26 ET, no failed refresh; due on next run). QLYS rechecked: still no Q3 10-Q (only Form 4/144). Researched KNSL and MPWR (watch, new, valid, not attractive-eligible). Third name not done; depth prioritized. Benchmark VTI still pending, no paper references.
+
+Run 8 (2026-11-07 04:0x ET): screen refreshed (previous was 27 hours old). QLYS rechecked: still no Q3 10-Q (only Form 4/144). Researched DTM and GMED (watch, new, valid, not attractive-eligible). Third name not done; depth prioritized. Benchmark VTI still pending, no paper references. Sectors still thin: banks, utilities, REITs, consumer.

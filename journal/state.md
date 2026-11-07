@@ -102,3 +102,9 @@ Report reports/2026-11-06-090906.md (also latest.md). All five records revalidat
 - Screen not refreshed (about 24 hours old at the boundary; refresh on next run). QLYS still has no Q3 10-Q. Researched KNSL (insurer, 16.4x TTM, 4.5x book, premiums -3.5%) and MPWR (65x TTM, FCF yield 1.05%, revenue +46.5%): both watch, medium, scores null, valid, not attractive-eligible (data/quality_run7_*.json; all 10 JSON records revalidated in data/quality_latest.json).
 - Benchmark VTI still pending; no paper references. Only one quote origin type found (stockanalysis.com and Yahoo agree, publisher-level independence).
 - Next: refresh screen if older than 24h; peers for KNSL/MPWR/TW/AGX/UTHR; read KNSL and MPWR release exhibits; QLYS after 10-Q; EXEL '039 ruling; energy, utilities and bank sector names still uncovered.
+
+## Worker run 2026-11-07 ~04:10 ET (method 2.0, run 8)
+- Screen refreshed 04:05 ET (previous 27 hours old): 4,393 filers with revenue, 1,142 comparable, 419 preliminary passes. QLYS still has no Q3 10-Q.
+- Researched DTM (midstream) and GMED (medtech): both watch, medium, scores null, valid, not attractive-eligible (data/quality_run8_*.json). DTM 24.6x TTM, FCF yield 4.6%; GMED 16.9x TTM, FCF yield 8.1% after a 12.8% drop on a revenue guidance cut.
+- Benchmark VTI still pending; no paper references. Quote origins are two publishers only.
+- Next: peers for DTM/GMED/KNSL/MPWR/TW/AGX/UTHR; GMED call commentary; QLYS after 10-Q; EXEL '039 ruling; banks, utilities, REITs, consumer names uncovered.

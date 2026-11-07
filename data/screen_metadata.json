@@ -1,11 +1,11 @@
 {
   "method_version": "2.0",
   "requested_calendar_year": 2025,
-  "retrieved_at": "2026-11-06T00:26:41.122757-05:00",
+  "retrieved_at": "2026-11-07T04:05:24.420044-05:00",
   "scope": "Standard US GAAP USD annual SEC frame facts; not a global listed-company universe",
   "price_coverage": false,
   "point_in_time_backtest_safe": false,
-  "filers_with_supported_revenue": 4392,
+  "filers_with_supported_revenue": 4393,
   "comparable_rows": 1142,
   "passed_preliminary_filter": 419,
   "exclusions": {
@@ -14,7 +14,7 @@
     "mismatched_balance_date": 334,
     "conflicting_revenue_tags": 145,
     "missing:net_income,capex": 63,
-    "missing:capex": 1029,
+    "missing:capex": 1030,
     "invalid_denominator_or_sign_or_size": 610,
     "missing:revenue_base": 133,
     "missing:ocf,capex": 30,
