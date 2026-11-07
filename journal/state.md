@@ -123,3 +123,9 @@ Report reports/2026-11-07-090707.md. 14 records revalidated (data/quality_compil
 - Researched NMIH (mortgage insurer) and GABC (regional bank): both watch, medium, scores null, valid, not attractive-eligible (data/quality_run10_*.json). NMIH 7.4x TTM, 1.08x book, -11.8% on 11-06 (cause unconfirmed); GABC 12.9x TTM, 2.5x tangible book, strong credit. 10-Ks and GABC release not read.
 - Benchmark VTI still pending; no paper references. Quote origins are two publishers only.
 - Next: peers for NMIH/GABC and earlier names; NMIH drop cause; QLYS after 10-Q; EXEL '039 ruling; utilities and REITs uncovered.
+
+## Worker run 2026-11-07 ~16:10 ET (method 2.0, run 11)
+- Screen not refreshed (refreshed 04:05 ET). QLYS still has no Q3 10-Q.
+- Researched ATO (regulated gas utility, 20.4x FY26 EPS, FCF -1.4B in 9M funded by debt and shares) and TRNO (industrial REIT, about 23x self-computed FFO, 3.4% yield): both watch, medium, scores null, valid, not attractive-eligible (data/quality_run11_*.json). ATO FY26 10-K not yet filed; TRNO company FFO not read.
+- Benchmark VTI still pending; no paper references. Quote origins are two publishers only.
+- Next: Sunday review due 2026-11-08; peers for all utilities/REITs/others; ATO 10-K when filed; QLYS 10-Q; EXEL '039 ruling; uncovered: consumer, transport, energy producers.

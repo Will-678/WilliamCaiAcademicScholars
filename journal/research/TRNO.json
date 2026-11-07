@@ -1,0 +1,203 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "TRNO",
+  "exchange": "NYSE",
+  "currency": "USD",
+  "sector_model": "equity REIT (industrial, six coastal U.S. markets); use FFO (self-computed NAREIT style because the 10-Q does not give FFO), same-store NOI, occupancy, lease rollover, net debt to EBITDA; GAAP net income distorted by gains on sales; generic FCF and P/E not used",
+  "as_of": "2026-11-07T16:08:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Terreno owns 317 industrial buildings (20.5M sq ft) plus improved land in coastal gateway markets, 97.8% leased for buildings with 687 tenants (largest 6.8% of rent). Q3 2026 same-store NOI rose 4.7% (6.5% for nine months) and cash rents on new and renewed leases were 27.7% higher than prior rents. Net debt is 805M, 2.2x adjusted EBITDA, with interest coverage 10.3x and 11.1% debt to market capitalization. At 66.41 (2026-11-06) and about 110.3M shares the equity is worth 7.33B; self-computed Q3 FFO of 78.9M (0.72 per diluted share, 2.88 annualized) gives about 23x annualized FFO and a 3.4% dividend yield (2.28 annualized, about 79% of that FFO).",
+  "counterthesis": "A 23x FFO multiple and a roughly 4.7% annualized NOI yield on enterprise value is not cheap, and management is selling stock at about 66 to fund growth (6.03M shares, 393M net proceeds in nine months; shares up 6.0% since December), so per-share growth depends on acquisitions earning more than the cost of equity. Weighted average remaining lease term is only 4.1 years (3.5 in New York/New Jersey, 3.2 in San Francisco and 2.7 in Seattle), so rents reset quickly if market rents soften; the 27.7% cash rent gains reflect leases signed years ago and may not repeat. Improved land is 9.4% of rent at only 95.5% leased. 44.6% of debt is floating and 150M of debt matures in 2027 and 273M in 2028. GAAP net income fell 20% in nine months only because 2025 included larger gains on sales (128.9M vs 59.0M). FFO is my own calculation (net income less gains plus all depreciation and amortization), not a company-reported or AFFO figure; recurring capex, straight-line rents and lease-intangible amortization are not removed. The 10-K, rent roll expirations by year, NAV or cap-rate comparison and peer multiples were not read.",
+  "invalidation": "Same-store NOI growth turning negative or occupancy below 95%; cash rent change on rollovers falling below 10%; net debt to adjusted EBITDA above 4.5x (management's own limit); ATM issuance continuing while the stock trades near or below estimated NAV; coastal market rents declining for two quarters.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1476150/000147615026000048/trno-20260930.htm",
+      "document_id": "0001476150-26-000048",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-04",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T16:08:00-05:00"
+    },
+    {
+      "id": "k10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1476150/000147615026000011/trno-20251231.htm",
+      "document_id": "0001476150-26-000011",
+      "origin": "SEC EDGAR 10-K FY2025 filed 2026-02-04",
+      "kind": "annual_filing",
+      "read_status": "unread",
+      "accessed_at": "2026-11-07T16:08:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001476150.json",
+      "document_id": "SEC-submissions-CIK0001476150",
+      "origin": "SEC EDGAR submissions index",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T16:08:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/trno/history/",
+      "document_id": "stockanalysis-TRNO-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T16:08:00-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/TRNO/history/",
+      "document_id": "yahoo-finance-TRNO-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T16:08:00-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "sub"
+      ],
+      "note": "Submissions read 2026-11-07: Q3 10-Q filed 2026-11-04 is the newest periodic filing; statements, debt note, equity note, MD&A same-store tables and liquidity section read. FY2025 10-K and any earnings release exhibit not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "9/30/2026: total assets 5,796.8M, total liabilities 1,227.2M, equity 4,569.6M, net investments in real estate 5,585.0M, cash 88.3M, debt net 893.0M (term loans 398.1M, senior notes 423.8M, mortgage 71.2M, no revolver draw; 35.0M drawn by Nov 3)."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Nine months: operating cash flow 218.1M versus 201.6M; acquisitions 326.9M, construction additions 48.3M, sale proceeds 113.0M, common dividends paid 165.7M. For a REIT, operating cash flow less dividends is the check; there is no capex-based FCF model. Recurring capex table seen but not used."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "110,336,807 shares outstanding at 2026-11-02 (cover), including 530,616 unvested restricted and 589,823 deferred-compensation shares; 109,746,984 on the 9/30 balance sheet; Q3 diluted weighted average 109,451,778 used for per-share FFO."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "qa",
+        "qb"
+      ],
+      "note": "Self-computed FFO multiple, dividend yield, EV and NOI yield done. Company-reported FFO or AFFO, NAV or implied cap rate against private-market industrial cap rates, own history and peer multiples (Prologis, EastGroup, Rexford, First Industrial) not gathered."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "REIT model: FFO, same-store NOI, occupancy, lease term and rollover, net debt to EBITDA, ATM dilution; GAAP P/E and FCF deliberately not used."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Gains on sales (59.0M for nine months) excluded from FFO; no impairments; straight-line rents and intangible amortization noted. 10-K critical audit matters and acquisition accounting not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Written in counterthesis field: valuation, ATM dilution, short lease terms, floating debt, FFO caveat."
+    }
+  },
+  "price": {
+    "value": 66.41,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 66.41,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 66.41,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 66.41,
+      "shares": 110336807,
+      "market_cap_usd": 7327000000,
+      "net_debt_usd": 804691000,
+      "enterprise_value_usd": 8132000000,
+      "q3_net_income_usd": 68105000,
+      "q3_gains_on_sales_usd": 19738000,
+      "q3_depreciation_amortization_usd": 30539000,
+      "q3_ffo_self_computed_usd": 78906000,
+      "q3_diluted_shares": 109451778,
+      "q3_ffo_per_share": 0.72,
+      "ffo_per_share_annualized": 2.88,
+      "p_ffo_annualized": 23.1,
+      "nine_month_ffo_self_computed_usd": 225300000,
+      "dividend_annualized_per_share": 2.28,
+      "dividend_yield": 0.0343,
+      "dividend_to_ffo": 0.79,
+      "q3_noi_usd": 99513000,
+      "noi_yield_on_ev_annualized": 0.049,
+      "book_equity_usd": 4569608000
+    },
+    "operating": {
+      "same_store_noi_growth_q3": 0.047,
+      "same_store_noi_growth_9m": 0.065,
+      "building_occupancy": 0.978,
+      "land_occupancy": 0.955,
+      "cash_rent_change_q3": 0.277,
+      "wal_years": 4.1,
+      "net_debt_to_adj_ebitda": 2.2,
+      "interest_coverage": 10.3,
+      "floating_debt_share": 0.446,
+      "weighted_avg_debt_maturity_years": 2.7,
+      "debt_maturing_2027_usd": 150000000,
+      "debt_maturing_2028_usd": 272879000,
+      "atm_shares_9m": 6032473,
+      "atm_net_proceeds_9m_usd": 393080000
+    },
+    "price_path": {
+      "close_2026_10_30": 65.56,
+      "close_2026_11_03": 66.66,
+      "close_2026_11_04": 67.99,
+      "close_2026_11_05": 67.09,
+      "close_2026_11_06": 66.41
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Company-reported FFO/AFFO, NAV or cap-rate comparison and peer multiples not gathered",
+    "FY2025 10-K and rent roll expirations not read",
+    "Scores not assigned"
+  ]
+}

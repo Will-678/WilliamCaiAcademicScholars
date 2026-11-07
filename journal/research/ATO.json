@@ -1,0 +1,221 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "ATO",
+  "exchange": "NYSE",
+  "currency": "USD",
+  "sector_model": "regulated gas utility (fiscal year ends Sep 30); use earnings, rate base growth, allowed returns, regulatory lag, equity and debt funding, dividend; negative free cash flow is structural, not a defect by itself; FCF yield not used",
+  "as_of": "2026-11-07T16:08:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Atmos Energy is a natural-gas-only distributor (about 3.4M customers, eight states, Texas concentrated) that earned 8.49 diluted EPS (about 1.4B net income) in fiscal 2026 and guides fiscal 2027 to 9.05-9.25 (+7% to +9% at the midpoint over 8.49) with 4.5B of capital spending and a dividend raised 9.0% to 4.36. At 173.22 (2026-11-06) it trades at 20.4x fiscal 2026 EPS and 18.9x the guidance midpoint, 1.9x June book value per share, with a 2.5% dividend yield. Fiscal 2026 capex was 4.2B, over 85% safety and reliability, largely under regulatory mechanisms with recovery lag of six months or less; 26B planned for fiscal 2026-2030. At 6/30/2026 equity capitalization was 59.8%, debt to capitalization 41% against a 70% covenant, and no commercial paper was outstanding.",
+  "counterthesis": "Growth is funded by outside capital, not internal cash: 9M26 operating cash flow was 1.67B against 3.08B of capex (free cash flow about -1.40B) and 0.49B of dividends, so the company issued 1.30B of debt and 0.94B of equity in nine months; shares outstanding rose from 161.6M to 169.0M (+4.6%) in nine months, so EPS growth of about 8-9% is a per-share figure earned on a growing share count. Debt rose to 10.3B from 9.0B. Rate base growth only translates to earnings if Texas, Louisiana and other regulators keep approving recovery and allowed returns; political pressure on affordability, higher rates on refinancing and a full valuation (about 19-20x for a utility) leave little room. The stock is up from about 164 in mid-October. Year-end fiscal 2026 balance sheet, 10-K audit matters, regulatory asset detail, allowed ROE by jurisdiction and rating agency metrics were not read. Peer utility multiples not gathered.",
+  "invalidation": "Rate case or infrastructure-mechanism outcomes that cut allowed returns or delay recovery beyond one year; funds from operations to debt falling toward rating-downgrade thresholds; debt to capitalization above 50%; fiscal 2027 EPS tracking below 9.05; equity issuance running above the 4-5% annual share growth seen in fiscal 2026; a pipeline-safety incident with unrecoverable costs.",
+  "sources": [
+    {
+      "id": "rel",
+      "url": "https://www.sec.gov/Archives/edgar/data/731802/000073180226000129/ato20261104exhibit991.htm",
+      "document_id": "0000731802-26-000129 ex99.1",
+      "origin": "Atmos Energy fiscal 2026 earnings release dated 2026-11-04 (SEC exhibit of issuer release)",
+      "kind": "earnings_release",
+      "read_status": "full",
+      "accessed_at": "2026-11-07T16:08:00-05:00"
+    },
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/731802/000073180226000102/ato-20260630.htm",
+      "document_id": "0000731802-26-000102",
+      "origin": "SEC EDGAR 10-Q period 2026-06-30 filed 2026-08-05",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T16:08:00-05:00"
+    },
+    {
+      "id": "k8",
+      "url": "https://www.sec.gov/Archives/edgar/data/731802/000073180226000131/ato-20261103.htm",
+      "document_id": "0000731802-26-000131",
+      "origin": "SEC EDGAR 8-K Item 5.02 filed 2026-11-04 (chairman succession)",
+      "kind": "secondary",
+      "read_status": "full",
+      "accessed_at": "2026-11-07T16:08:00-05:00"
+    },
+    {
+      "id": "cf",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000731802.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0000731802",
+      "origin": "SEC EDGAR XBRL derived from 10-K FY2025 and 2026 10-Qs",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T16:08:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0000731802.json",
+      "document_id": "SEC-submissions-CIK0000731802",
+      "origin": "SEC EDGAR submissions index",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T16:08:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/ato/history/",
+      "document_id": "stockanalysis-ATO-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T16:08:00-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/ATO/history/",
+      "document_id": "yahoo-finance-ATO-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T16:08:00-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "rel",
+        "q10"
+      ],
+      "note": "Submissions read 2026-11-07: newest periodic filing is the Q3 (June 30, 2026) 10-Q filed 2026-08-05; fiscal 2026 10-K not yet filed (release dated 2026-11-04 says results through September 30, 2026). Newer 8-Ks: 2026-11-04 earnings release and 2026-11-04 chairman succession; two 2026-10-09 8-Ks (1.01 and 8.01) not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "6/30/2026 (latest filed balance sheet): total assets 31,585.5M, shareholders equity 15,258.1M, long-term debt net 9,748.7M plus current maturities 502.5M (total 10,326.2M), securitized debt 72.6M, cash 521.0M, no commercial paper or credit facility borrowings, liquidity about 4.6B. September 30, 2026 balance sheet not available until the 10-K."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Nine months to 6/30/2026 in USD millions: operating cash flow 1,671.5 (after -399.6 change in other operating assets and liabilities), capital expenditures 3,076.3, dividends 490.7, debt issued 1,296.2, stock issued via forward settlement 941.7. Free cash flow -1,404.8M is shown for transparency; utility model does not use FCF yield."
+    },
+    "share_count_basis_verified": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "cf"
+      ],
+      "note": "Point-in-time 168,986,249 shares at 2026-06-30 (balance sheet) and 168,988,553 at 2026-07-31 (cover). The fiscal year-end share count is not available before the 10-K, and 0.94B of forward equity sales remained available, so market cap of 29.27B is an approximation. Fiscal 2026 diluted weighted shares are not in the release excerpt."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "rel",
+        "qa",
+        "qb"
+      ],
+      "note": "P/E on actual and guided EPS, P/B and dividend yield computed. Peer utility multiples (e.g. ONE Gas, Southwest Gas, NiSource, Sempra), own history, allowed ROE and rate-base growth not gathered."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "Regulated utility model: earnings, capital plan, funding mix, debt to capitalization and covenant, liquidity; generic FCF yield not used because negative free cash flow is the normal funding pattern for a growing rate base."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Regulatory assets (about 289.5M pension-related line seen), deferred gas costs and infrastructure-mechanism deferrals noted from the 10-Q but not analyzed; 10-K critical audit matters not available."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "Written in counterthesis field: external funding need, dilution, leverage, regulatory dependence, full multiple."
+    }
+  },
+  "price": {
+    "value": 173.22,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 173.22,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 173.22,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 173.22,
+      "shares": 168986249,
+      "shares_basis": "2026-06-30 balance sheet; approximation for Sept 30",
+      "market_cap_usd": 29270000000,
+      "eps_fy2026_diluted": 8.49,
+      "pe_fy2026": 20.4,
+      "eps_fy2027_guide_low": 9.05,
+      "eps_fy2027_guide_high": 9.25,
+      "pe_fy2027_guide_mid": 18.9,
+      "equity_usd_jun30": 15258058000,
+      "book_value_per_share": 90.3,
+      "price_to_book": 1.92,
+      "dividend_indicated_fy2027_per_share": 4.36,
+      "dividend_yield": 0.0252,
+      "fy2027_guide_mid_growth_vs_fy2026": 0.078
+    },
+    "funding": {
+      "period": "nine months to 2026-06-30",
+      "ocf_usd": 1671466000,
+      "capex_usd": 3076281000,
+      "fcf_usd": -1404815000,
+      "dividends_usd": 490698000,
+      "debt_issued_usd": 1296231000,
+      "equity_issued_usd": 941694000,
+      "total_debt_usd": 10326185000,
+      "debt_to_capitalization": 0.402,
+      "covenant_limit": 0.7,
+      "shares_sep30_2025": 161568384,
+      "shares_jun30_2026": 168986249,
+      "share_growth": 0.046
+    },
+    "price_path": {
+      "close_2026_10_15": 163.95,
+      "close_2026_10_30": 172.41,
+      "close_2026_11_03": 173.77,
+      "close_2026_11_04": 176.45,
+      "close_2026_11_05": 175.0,
+      "close_2026_11_06": 173.22
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Fiscal 2026 10-K not filed: year-end balance sheet, share count and audit matters unread",
+    "Peer utility multiples, allowed ROE and rate-base growth not gathered",
+    "Two 2026-10-09 8-Ks not read",
+    "Scores not assigned"
+  ]
+}
