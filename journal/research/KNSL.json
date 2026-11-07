@@ -1,0 +1,197 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "KNSL",
+  "exchange": "NYSE",
+  "currency": "USD",
+  "sector_model": "insurer (specialty P&C, excess and surplus lines); use earnings, book value, combined ratio, reserves; no FCF model",
+  "as_of": "2026-11-07T00:07:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Kinsale is a specialty E&S property and casualty insurer with a 75.4% Q3 combined ratio, 26% annualized operating ROE, favorable reserve development ($57.8M in 9M26) and modest debt ($224.6M). At 383.73 it trades near 16.4x TTM GAAP earnings and 4.5x book, which is not demanding for that return profile, if underwriting margins hold.",
+  "counterthesis": "Growth has turned negative: 9M26 gross written premiums -3.5%, Q3 -4.8%, property divisions -19.3% (Commercial Property -26.8%) on heightened competition, i.e. a softening E&S cycle. Q3 net income -30.7% (portfolio repositioning cost $37.6M pre-tax; operating earnings +5.9%). Expense ratio rose to 22.0% on lower ceding commissions as retention rose. Reserves of $3.32B (+15% in 9M) rest on estimates; equity fell to $1.92B after $263M of buybacks and a $156M unrealized bond loss; equity securities ($779M) add earnings volatility. Hurricane or casualty reserve shocks are the classic thesis breaker.",
+  "invalidation": "Combined ratio sustainably above about 85%, adverse prior-year reserve development, gross written premiums declining beyond mid single digits for several quarters, or a large catastrophe loss; or price moving well above 20x earnings without growth.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1669162/000166916226000050/knsl-20260930.htm",
+      "document_id": "0001669162-26-000050",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-10-22",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T00:07:00-05:00"
+    },
+    {
+      "id": "rel8k",
+      "url": "https://www.sec.gov/Archives/edgar/data/1669162/000166916226000049/knsl-20261022.htm",
+      "document_id": "0001669162-26-000049",
+      "origin": "SEC EDGAR 8-K Item 2.02 filed 2026-10-22 (cover only; exhibit 99.1 press release not read)",
+      "kind": "earnings_release",
+      "read_status": "snippet",
+      "accessed_at": "2026-11-07T00:07:00-05:00"
+    },
+    {
+      "id": "cf",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001669162.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0001669162",
+      "origin": "SEC EDGAR XBRL derived from FY2025 10-K and 2026 10-Qs",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T00:07:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001669162.json",
+      "document_id": "SEC-submissions-CIK0001669162",
+      "origin": "SEC EDGAR submissions index",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T00:07:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/knsl/history/",
+      "document_id": "stockanalysis-KNSL-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T00:07:00-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/KNSL/history/",
+      "document_id": "yahoo-finance-KNSL-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T00:07:00-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "sub"
+      ],
+      "note": "Q3 2026 10-Q and earnings 8-K filed 2026-10-22; submissions list on 2026-11-07 shows only an 8-K (5.02, 2026-10-22) after those, not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "10-Q balance sheet read: total assets 6,431.1M, reserves 3,324.3M, debt 224.6M (175.0M senior notes plus credit facility), total liabilities 4,512.1M, equity 1,919.0M, investments 5,331.2M, cash 160.5M."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Insurer: OCF 754.9M for 9M26 (802.3M 9M25) read, but FCF/capex yield is not the valuation basis; earnings and book value used. Capex 12.6M noted."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Cover page: 22,509,945 shares outstanding at 2026-10-16 (point in time); 23,500,708 issued less 990,763 treasury at 2026-09-30."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "cf",
+        "qa",
+        "qb"
+      ],
+      "note": "Own P/E (16.4x TTM) and P/B (4.5x) computed. No peer (RLI, Palomar, Kingstone, Progressive) or own-history multiples; no forward estimate."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Insurer model: combined ratio, reserve development, book value, investment portfolio; generic liabilities/assets and FCF screen metrics ignored."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Read: Q3 repositioning reduced pre-tax earnings 37.6M (realized gain/loss reclassification), equity fair value change -37.8M, favorable reserve development 57.8M in 9M26, unrealized AOCI loss 187.2M. Not read: reserve triangles, reinsurance counterparty detail, 10-K audit matters."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "See counterthesis: shrinking premiums, softening property market, reserve and catastrophe risk."
+    }
+  },
+  "price": {
+    "value": 383.73,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 383.73,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 383.73,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 383.73,
+      "shares": 22509945,
+      "market_cap_usd": 8637741195,
+      "ttm_period": "2025-10-01 to 2026-09-30",
+      "ttm_net_income_usd": 525177000,
+      "ttm_net_income_note": "FY2025 503.614M + 9M26 386.557M - 9M25 364.994M (companyfacts)",
+      "pe_ttm": 16.4,
+      "equity_usd": 1919011000,
+      "price_to_book": 4.5,
+      "debt_usd": 224604000,
+      "combined_ratio_q3": 0.754,
+      "annualized_operating_roe_q3": 0.26,
+      "annualized_roe_q3": 0.199
+    },
+    "growth": {
+      "nine_month_gwp_yoy": -0.0351,
+      "q3_gwp_yoy": -0.0481,
+      "nine_month_net_income_yoy": 0.0591
+    },
+    "price_path": {
+      "close_2026_11_02": 379.61,
+      "close_2026_11_03": 383.55,
+      "close_2026_11_04": 391.73,
+      "close_2026_11_05": 396.8,
+      "close_2026_11_06": 383.73
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peer and own-history valuation not done",
+    "Earnings press release (ex 99.1) not read; guidance and management commentary unknown",
+    "Reserve adequacy detail and 10-K audit matters not read",
+    "Competitive softening in property: duration unknown",
+    "Scores not assigned"
+  ]
+}

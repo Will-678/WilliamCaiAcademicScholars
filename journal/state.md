@@ -97,3 +97,8 @@ Report reports/2026-11-06-090906.md (also latest.md). All five records revalidat
 ## Worker run 2026-11-06 ~20:10 ET (method 2.0, run 6)
 - Screen not refreshed (~20 hours old). QLYS still has no Q3 10-Q. Researched UTHR (watch, medium, scores null; valid, not attractive-eligible). 19.5x TTM, FCF yield 3.6%, flat 9M revenue; Q4 will include +330.4M Liquidia gain and -525M Arena charge. Quote 562.32/562.02 (11-06). Benchmark VTI still pending; no paper references.
 - Next: UTHR peers, drop cause and PDUFA dates; QLYS after 10-Q; TW/AGX peers; EXEL '039 ruling; truly independent quote origin.
+
+## Worker run 2026-11-07 ~00:07 ET (method 2.0, run 7)
+- Screen not refreshed (about 24 hours old at the boundary; refresh on next run). QLYS still has no Q3 10-Q. Researched KNSL (insurer, 16.4x TTM, 4.5x book, premiums -3.5%) and MPWR (65x TTM, FCF yield 1.05%, revenue +46.5%): both watch, medium, scores null, valid, not attractive-eligible (data/quality_run7_*.json; all 11 records revalidated in data/quality_latest.json).
+- Benchmark VTI still pending; no paper references. Only one quote origin type found (stockanalysis.com and Yahoo agree, publisher-level independence).
+- Next: refresh screen if older than 24h; peers for KNSL/MPWR/TW/AGX/UTHR; read KNSL and MPWR release exhibits; QLYS after 10-Q; EXEL '039 ruling; energy, utilities and bank sector names still uncovered.

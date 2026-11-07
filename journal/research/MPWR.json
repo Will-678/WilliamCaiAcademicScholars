@@ -1,0 +1,202 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "MPWR",
+  "exchange": "Nasdaq",
+  "currency": "USD",
+  "sector_model": "nonfinancial (fabless analog and power semiconductors, net cash)",
+  "as_of": "2026-11-07T00:07:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Monolithic Power is a debt-free power-management chip designer with 55% gross margin and 9M26 revenue +46.5% (Q3 1,202.4M, +63% year on year), driven by data center and computing demand. The business quality is strong, but at 1,190.44 the stock trades near 65x TTM GAAP earnings with a 1.0% FCF yield, so price already assumes the growth continues.",
+  "counterthesis": "Valuation leaves no margin of safety: 65x earnings and ~1% FCF yield. Customer concentration: Distributor A 32% and Distributor B 16% of Q3 sales; China sales 585M in Q3 (49%) with trade-policy exposure; 91% sold through distributors. Working capital is absorbing cash (receivables +206M and inventory +200M in 9M26), so OCF (768M) lags net income (722M) less than growth would suggest but cash conversion is thinning. Stock based compensation 200M in 9M26. Stock fell about 15% from 11-03 to 11-05 (1,328.30 to 1,131.43) for a cause not established. Cyclicality and AI capex digestion are the thesis breakers.",
+  "invalidation": "Revenue growth falling below about 20% with multiple still above 40x, gross margin below 52%, inventory or receivable build outpacing sales, loss of a top distributor or large customer, or export restrictions hitting China sales.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1280452/000162828026069440/mpwr-20260930.htm",
+      "document_id": "0001628280-26-069440",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-03",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T00:07:00-05:00"
+    },
+    {
+      "id": "cf",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001280452.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0001280452",
+      "origin": "SEC EDGAR XBRL derived from FY2025 10-K and 2026 10-Qs",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T00:07:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001280452.json",
+      "document_id": "SEC-submissions-CIK0001280452",
+      "origin": "SEC EDGAR submissions index (Q3 earnings 8-K 2026-10-29 listed, exhibit not read)",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T00:07:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/mpwr/history/",
+      "document_id": "stockanalysis-MPWR-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T00:07:00-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/MPWR/history/",
+      "document_id": "yahoo-finance-MPWR-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T00:07:00-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "sub"
+      ],
+      "note": "Q3 2026 10-Q filed 2026-11-03 and earnings 8-K 2026-10-29 (Items 2.02, 5.02) are the latest; 8-K exhibit not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "10-Q read: cash 560.5M, short-term investments 530.7M, receivables 461.6M, inventories 764.9M, total assets 4,672.6M, total liabilities 938.8M, equity 3,733.7M; no borrowings line on the balance sheet."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "cf"
+      ],
+      "note": "9M26 OCF 768.1M read; TTM = FY2025 838.2M + 9M26 768.1M - 9M25 733.3M = 873.0M; capex 172.0M + 222.6M - 131.0M = 263.6M; FCF 609.4M."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Cover page: 48,768,000 shares outstanding at 2026-10-27 (point in time)."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "cf",
+        "qa",
+        "qb"
+      ],
+      "note": "Own P/E, EV, FCF yield computed. No peer (ADI, TXN, ON, NXPI, Vicor) or own-history multiples; no forward estimate."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Fabless semiconductor, nonfinancial model; net cash; short-term investments treated as cash-like."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Read: SBC 200.3M 9M26 (173.6M), working capital build, 457.5M buybacks in 9M26, distributor concentration. Not read: revenue recognition for distributor sales, 10-K audit matters, long-term income tax liabilities 75.0M."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "See counterthesis: valuation, concentration, China, cyclicality, working capital."
+    }
+  },
+  "price": {
+    "value": 1190.44,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 1190.44,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 1190.44,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 1190.44,
+      "shares": 48768000,
+      "market_cap_usd": 58055377920,
+      "cash_and_investments_usd": 1091234000,
+      "debt_usd": 0,
+      "ev_usd": 56964143920,
+      "ttm_period": "2025-10-01 to 2026-09-30",
+      "ttm_revenue_usd": 3738391000,
+      "ttm_net_income_usd": 893247000,
+      "pe_ttm": 65.0,
+      "ttm_fcf_usd": 609362000,
+      "fcf_yield_on_market_cap": 0.0105
+    },
+    "fcf": {
+      "ocf": {
+        "value": 872984000,
+        "unit": "USD",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "capex": {
+        "value": 263622000,
+        "unit": "USD",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "value": 609362000
+    },
+    "growth": {
+      "q3_revenue_yoy": 0.6311,
+      "nine_month_revenue_yoy": 0.4648,
+      "nine_month_net_income_yoy": 0.6042
+    },
+    "price_path": {
+      "close_2026_11_02": 1243.95,
+      "close_2026_11_03": 1328.3,
+      "close_2026_11_04": 1261.08,
+      "close_2026_11_05": 1131.43,
+      "close_2026_11_06": 1190.44
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peer and own-history valuation not done",
+    "Earnings release (8-K 2026-10-29) exhibit and guidance not read; cause of 15% drop 11-03 to 11-05 not established",
+    "10-K revenue recognition and risk factors (export controls) not read",
+    "Scores not assigned"
+  ]
+}
