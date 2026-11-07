@@ -1,34 +1,36 @@
-# Morning research summary, Friday 2026-11-06, 9:09 a.m. ET (compiled)
-Earlier work today: worker runs at 00:30, 04:30 and 08:15 ET (see journal/state.md and journal/decision_log.jsonl).
+# Morning research summary, Saturday 2026-11-07, about 9:15 a.m. ET (compiled)
+Earlier work: worker runs 1 to 9 (latest at 08:10 ET). Previous report: [2026-11-06-090906](2026-11-06-090906.md).
 
 ## Conclusion
-No stock is attractive today, and I am not forcing a pick. All five researched companies are on watch with incomplete scores, because valuation, catalyst and some accounting checks are unfinished. For most of William's money a broad index fund remains the default; this is only about the 5% single stock bucket.
+No stock is attractive today and I am not forcing a pick. All 14 company records are on watch with incomplete scores, because peer comparisons, call commentary and some accounting checks are unfinished. For most of William's money a broad index fund stays the default; this only concerns the 5% single stock bucket.
 
 ## What changed
-- Exelixis (EXEL): I read the Q3 earnings release (SEC exhibit 99.1). Full year revenue guidance is unchanged at $2.50 to $2.55 billion, but the expected tax rate was cut from 21 to 23% to 16 to 18%. That lifts reported earnings without any business improvement, so it should not be treated as better operations.
-- No new material filings for EXEL or InterDigital (IDCC) since their 10-Qs; IDCC shows only insider Form 4 and Form 144 filings (not read for content). The cause of IDCC's 14% fall since 10-29 is still unexplained.
-- All five records were revalidated today with the current clock: valid, none eligible for an attractive rating.
+- All 14 JSON records were revalidated today with the current clock: 14 valid, 0 eligible for an attractive rating ([results](../data/quality_compile_2026-11-07.json)).
+- SEC filing lists checked for Globus Medical (GMED), CarGurus (CARG), Exelixis (EXEL) and Qualys (QLYS). GMED and CARG have nothing new beyond the 10-Q and earnings 8-K already in their records (only insider Form 4 and 144 notices). EXEL has no filing since 2026-10-29.
+- EXEL closed at 69.57 on 2026-11-06 (68.71 the day before), per two quote pages that likely share one data feed. Its record still shows the 11-05 price; the change is under 1.3%, so the numbers below hold roughly.
+- I found no report of a ruling in the EXEL '039 patent trial, which is scheduled to begin this month. QLYS still has no Q3 10-Q.
 
-## Leading candidates (closes of 2026-11-05, 4:00 p.m. ET, USD, Nasdaq; two publishers that likely share one upstream feed)
-1. **EXEL**, $68.71. Status: watch. Confidence: medium. Score: incomplete. Valuation: about 18.9x trailing earnings, free cash flow yield about 6.9% before normalizing a one time cash tax benefit (my calculation). Downside: 92% of revenue is one drug, with a patent trial on the '039 patent this month (outcome unknown) and generic entry no earlier than 2030. Not a fresh idea since yesterday. [EXEL.md](../journal/research/EXEL.md)
-2. **IDCC**, $286.53. Watch, medium, incomplete. About 23.4x trailing earnings that include one time catch up revenue; 9 month operating cash flow fell to $249M from $481M. Downside: licence disputes (Samsung, Lenovo, Amazon) and arbitration based non cash assets. [IDCC.md](../journal/research/IDCC.md)
-3. **USLM**, $119.41. Watch, medium, incomplete. Debt free lime producer at about 25.6x trailing earnings on flat nine month profit. Downside: price already assumes quality persists. [USLM.md](../journal/research/USLM.md)
+## Leading candidates (closes of 2026-11-06, 4 p.m. ET, USD; two quote publishers, independence not proven)
+1. **GMED** (NYSE), 71.05. Watch, medium confidence, score incomplete. About 16.9x trailing earnings, 8.1% free cash flow yield, about 871M cash, no financial debt (my calculations). Downside: 2026 revenue guidance was cut to 3.09B, U.S. spine grew only 2%, and record cash flow is helped by tax timing. Peers not yet compared. Not a fresh idea. [GMED.md](../journal/research/GMED.md)
+2. **CARG** (Nasdaq), 33.74. Watch, medium, incomplete. About 16.0x trailing earnings, 10.0% free cash flow yield (about 8.3% after stock pay), no debt. Downside: growth is mostly price not dealer count, cash taxes are far below the tax expense, and buybacks exceed free cash flow. [CARG.md](../journal/research/CARG.md)
+3. **EXEL** (Nasdaq), 69.57 (11-06; record uses 68.71 from 11-05). Watch, medium, incomplete. About 18.9x trailing earnings and 6.9% free cash flow yield at the older price, inflated by a one time cash tax benefit. Downside: 92% of revenue is one drug and the '039 trial could shorten protection. [EXEL.md](../journal/research/EXEL.md)
 
-Also on file, not leaders: [MEDP](../journal/research/MEDP.md) (about 34x earnings) and [FSLR](../journal/research/FSLR.md) (11.3x earnings but 1.1% free cash flow yield, dependent on tax credits).
+Also on file: AGX, DTM, FSLR, IDCC, KNSL, MEDP, MPWR, TW, USLM, UTHR, VCTR (see journal/research). A cheap multiple alone is not a reason to buy.
 
 ## Coverage
-Annual SEC screen (calendar 2025, refreshed 2026-11-06 00:26 ET): 4,392 filers with revenue, 1,142 comparable rows, 419 preliminary passes. This is US GAAP USD annual data, not global, not current quarter and not a valuation screen. Company records: 5 sourced, 5 valid, 0 attractive eligible. Filings read in relevant sections: 5 latest 10-Qs plus 1 earnings release today. Failures: no second independent price origin (benchmark VTI still pending, no paper references created). Queue: 11 entries, QLYS still waiting on its first Q3 10-Q.
+Annual SEC screen (calendar 2025, refreshed 2026-11-07 04:05 ET): 4,393 filers with revenue, 1,142 comparable rows, 419 preliminary passes. This is US GAAP USD annual data, not global, not current quarter, not a valuation screen. Fully sourced records: 14, all with the latest 10-Q read in relevant sections; 0 attractive eligible. Failures: no truly independent second quote origin; benchmark VTI pending, no paper references and no performance claims. Queue: 17 entries.
 
 ## Verified events
-Only one: EXEL's '039 patent trial is scheduled for November 2026 per its earnings release; no exact date or outcome. EXEL zanzalintinib FDA decision date is 2027-03-03 and topline STELLAR-304 results are expected in the first quarter of 2027. Older calendar dates (Lowe's, FOMC) stay unverified and are not repeated.
+Only the EXEL '039 trial, "scheduled to begin in November 2026" per Exelixis' 2026-08-31 release (exact date unknown). EXEL zanzalintinib FDA date 2027-03-03 is from its release. Nothing else is verified.
 
 ## Gaps and next priorities
-1. EXEL: normalize cash taxes, peer multiples, '039 ruling.
-2. IDCC: earnings release and guidance, patent spending, reason for the drop.
-3. MEDP, USLM, FSLR: release exhibits and peer valuation; QLYS and AGX after their data arrive.
-4. Second independent quote source and benchmark.
-Sunday quality review is not due today.
+1. Peer multiples for GMED, CARG, EXEL, then the rest.
+2. GMED and CARG call commentary on the guidance cut and the price drop.
+3. EXEL cash tax normalization and the '039 ruling.
+4. QLYS after its 10-Q; uncovered sectors: banks, utilities, REITs.
+5. A second independent quote origin for the benchmark.
+The Sunday quality review is due tomorrow.
 
-Sources: https://www.sec.gov/Archives/edgar/data/939767/000093976726000114/exel20260930exhibit991.htm ; https://data.sec.gov/submissions/CIK0000939767.json ; https://data.sec.gov/submissions/CIK0001405495.json
+Sources: https://data.sec.gov/submissions/CIK0001237831.json ; https://data.sec.gov/submissions/CIK0001494259.json ; https://data.sec.gov/submissions/CIK0000939767.json ; https://stockanalysis.com/stocks/exel/history/ ; https://finance.yahoo.com/quote/EXEL/history/
 
 Research only. Not investment advice.

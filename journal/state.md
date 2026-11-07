@@ -114,3 +114,6 @@ Report reports/2026-11-06-090906.md (also latest.md). All five records revalidat
 - Researched CARG (consumer internet) and VCTR (asset manager): both watch, medium, scores null, valid, not attractive-eligible (data/quality_run9_*.json; all 14 JSON records revalidated in data/quality_latest.json). CARG 16.0x TTM, FCF yield 10.0%; VCTR 21x TTM, FCF yield 6.4% but a pending 7.03B First Eagle deal makes trailing numbers unrepresentative.
 - Benchmark VTI still pending; no paper references. Quote origins are two publishers only.
 - Next: VCTR deal financing; peers for CARG/VCTR/DTM/GMED/KNSL/MPWR/TW/AGX/UTHR; CARG drop cause; QLYS after 10-Q; EXEL '039 ruling; banks, utilities, REITs uncovered.
+
+## Morning compile 2026-11-07 ~09:15 ET
+Report reports/2026-11-07-090707.md. 14 records revalidated (data/quality_compile_2026-11-07.json), none eligible. No new filings for GMED, CARG, EXEL, QLYS (no Q3 10-Q). EXEL 11-06 close 69.57. Sunday review due 2026-11-08. Next: peers, GMED/CARG call commentary, EXEL 039 ruling, QLYS, uncovered sectors.
