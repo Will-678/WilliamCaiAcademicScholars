@@ -12,6 +12,7 @@ Updated 2026-11-06 04:2x ET by the four hour worker (run 2). Stages: lead, valua
 | 1668397 | MEDP | Nasdaq | Healthcare services CRO | researched_watch | 2026-11-06 | Read 10-K and earnings release exhibit; peer multiples (IQVIA, ICON); cancellations | 2026-11-13 | 34x TTM earnings, backlog 3.17B; journal/research/MEDP.md |
 | 1405495 | IDCC | Nasdaq | Licensing | researched_watch | 2026-11-06 | Release read 2026-11-06 (FY26 GAAP EPS guide 8.93-9.16); FY2025 patent spend; arbitration sensitivity; why stock fell 14% since 10-29 | 2026-11-13 | 23x TTM earnings inflated by catch-up; journal/research/IDCC.md |
 | 1758730 | TW | Nasdaq | Financial infrastructure (large) | researched_watch | 2026-11-06 | Peer multiples (CME, ICE, MKTX, NDAQ, CBOE); read Trumid 8-K 2026-10-19 and MD&A; share count after Q4 buybacks | 2026-11-13 | 28.7x TTM, FCF yield 3.65%, 1.97B Trumid deal; journal/research/TW.json |
+| 1082554 | UTHR | Nasdaq | Healthcare biopharma (large) | researched_watch | 2026-11-06 | Peer multiples; cause of 7% drop on 11-05; PDUFA dates for IPF sNDA and ralinepag; MD&A; September ASR settlement | 2026-11-13 | 19.5x TTM, FCF yield 3.6%, flat 9M revenue; journal/research/UTHR.md |
 | 1369568 | CPRX | Nasdaq | Healthcare pharma (small) | removed | 2026-11-06 | None; acquired by Angelini Pharma (8-K 2026-07-16); confirm delisting if revisited | none | Screened lead no longer an independent listing; journal/research/CPRX.md |
 | 1065280 / 1326801 / 1652044 | NFLX / META / GOOGL | Nasdaq | Mega cap | lead | not yet | Low priority, duplicates index exposure | 2026-11-27 | Large index overlap |
 | various | ABT, LOW, PEP, JPM, NEE | NYSE/Nasdaq | legacy | legacy_method_1 | 2026-11-05 | Re-research under method 2.0 only if prioritised | none | Historical method 1.0 notes, not validated |
@@ -25,3 +26,5 @@ Run 3 (2026-11-06 08:1x ET): screen not refreshed (about 8 hours old). Researche
 Run 4 (2026-11-06 12:0x-12:2x ET): screen not refreshed (about 12 hours old, no failed refresh). Researched AGX (watch, new). Read IDCC Q3 release (gap closed, record updated). QLYS rechecked: no Q3 10-Q or earnings 8-K yet. Third name not done; depth prioritized.
 
 Run 5 (2026-11-06 16:0x ET): screen not refreshed (about 16 hours old). QLYS rechecked: still no Q3 10-Q. Researched TW (watch). CPRX screened out (merger). Others not started; depth prioritized.
+
+Run 6 (2026-11-06 20:0x ET): screen not refreshed (about 20 hours old, no failed refresh). QLYS rechecked: still no Q3 10-Q (only Form 4/144 filings). Researched UTHR (watch, new). Other names not started; depth prioritized.

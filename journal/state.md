@@ -93,3 +93,7 @@ Report reports/2026-11-06-090906.md (also latest.md). All five records revalidat
 ## Worker run 2026-11-06 ~16:40 ET (method 2.0, run 5)
 - Screen not refreshed (~16 hours old). QLYS still has no Q3 10-Q. Researched TW (watch, medium, scores null; valid, not attractive-eligible; 28.7x TTM, FCF yield 3.65%, Trumid 1.97B deal). CPRX screened out (acquired by Angelini). Two quote publishers agree on the TW 11-06 close; benchmark VTI still pending; no paper references.
 - Next: TW peer multiples and Trumid 8-K, QLYS after 10-Q, AGX peers, FSLR 10-K, EXEL '039 ruling, a truly independent quote origin.
+
+## Worker run 2026-11-06 ~20:10 ET (method 2.0, run 6)
+- Screen not refreshed (~20 hours old). QLYS still has no Q3 10-Q. Researched UTHR (watch, medium, scores null; valid, not attractive-eligible). 19.5x TTM, FCF yield 3.6%, flat 9M revenue; Q4 will include +330.4M Liquidia gain and -525M Arena charge. Quote 562.32/562.02 (11-06). Benchmark VTI still pending; no paper references.
+- Next: UTHR peers, drop cause and PDUFA dates; QLYS after 10-Q; TW/AGX peers; EXEL '039 ruling; truly independent quote origin.

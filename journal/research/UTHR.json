@@ -1,0 +1,205 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "UTHR",
+  "exchange": "Nasdaq",
+  "currency": "USD",
+  "sector_model": "nonfinancial (commercial biopharma, net cash)",
+  "as_of": "2026-11-06T20:10:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "United Therapeutics is a net-cash, high-margin PAH/ILD drug maker (gross margin about 86% in 9M26) trading near 19.5x TTM GAAP earnings after a 7% drop on 2026-11-05; pipeline catalysts (Nebulized Tyvaso for IPF sNDA and ralinepag NDA both under FDA review) and a 2.0B new buyback support the case. Quality is clear; price attractiveness is unestablished because core revenue growth has stalled.",
+  "counterthesis": "9M26 revenue +0.2% and net income -10.7% vs 9M25; management says competitive therapies (Winrevair, Yutrepia, generic Remodulin) hurt Nebulized Tyvaso, Tyvaso DPI and Remodulin; Nebulized Tyvaso -12% in Q3; 9M inventory reserve 75.5M; Q4 will carry a 525M ralinepag royalty buyout expense offset by a 330.4M Liquidia gain; FDA decisions are binary; IRA price negotiation risk; 3.5B of capital returned via ASRs since mid-2025 shrinks the cash cushion; capex rising (562M TTM); remaining Liquidia installments depend on counterparty; stock-based comp 118M in 9M.",
+  "invalidation": "Tyvaso franchise revenue declining for two more quarters, FDA rejection or delay of Nebulized Tyvaso for IPF or ralinepag, Remodulin generic erosion accelerating, gross margin below 80%, or cash plus investments falling below about 2B.",
+  "sources": [
+    {
+      "id": "k10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1082554/000108255426000006/uthr-20251231.htm",
+      "document_id": "0001082554-26-000006",
+      "origin": "SEC EDGAR 10-K fiscal year 2025 filed 2026-02-25",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T20:10:00-05:00"
+    },
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1082554/000108255426000035/uthr-20260930.htm",
+      "document_id": "0001082554-26-000035",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-04",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T20:10:00-05:00"
+    },
+    {
+      "id": "rel",
+      "url": "https://www.sec.gov/Archives/edgar/data/1082554/000108255426000036/uthrq32026-ex991.htm",
+      "document_id": "0001082554-26-000036 ex99.1",
+      "origin": "UTHR Q3 2026 earnings release (8-K exhibit 99.1), first part read",
+      "kind": "earnings_release",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T20:10:00-05:00"
+    },
+    {
+      "id": "cf",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001082554.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0001082554",
+      "origin": "SEC EDGAR XBRL derived from FY2025 10-K and 2026 10-Qs",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T20:10:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/uthr/history/",
+      "document_id": "stockanalysis-UTHR-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T20:10:00-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/UTHR/history/",
+      "document_id": "yahoo-finance-UTHR-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-06T20:10:00-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "k10",
+        "q10",
+        "rel"
+      ],
+      "note": "Q3 2026 10-Q and earnings 8-K both filed 2026-11-04; SEC submissions list on 2026-11-06 shows only Form 4/144 after that."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "10-Q balance sheet read: cash 1,188.9M, marketable investments 879.0M current + 1,467.8M non-current, total liabilities 758.1M, equity 6,276.0M; no borrowings outstanding (line of credit repaid in 2025 per cash flow statement)."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "cf"
+      ],
+      "note": "9M26 OCF 1,083.4M, PP&E purchases 389.5M read in 10-Q; TTM = FY2025 (1,561.2M, 520.5M) + 9M26 - 9M25 (1,215.0M, 347.6M) from companyfacts, giving OCF 1,429.6M, capex 562.4M, FCF 867.2M."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Cover page: 42,588,726 shares outstanding at 2026-10-28 (point in time); 42,382,126 at 2026-09-30. September 2026 ASR unsettled, so final delivery of extra shares possible; Q3 diluted weighted 45.3M not used."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "cf",
+        "qa",
+        "qb"
+      ],
+      "note": "Own market cap, EV, P/E, FCF yield computed. No peer multiples (Neurocrine, Jazz, Vertex etc.) or own-history multiples; Q4 one-offs not normalized in a forward estimate."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Commercial biopharma with net cash; nonfinancial cash flow model applies; marketable securities treated as cash-like but not netted for the 525M Arena payment in the 9/30 figure (shown separately)."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": true,
+      "source_ids": [
+        "k10",
+        "q10",
+        "rel"
+      ],
+      "note": "Reviewed: 330.4M Liquidia settlement gain (Q4, other income) and 525.0M Arena royalty buyout (Q4 R&D expense) are one-offs; 75.5M 9M inventory reserve; net unrealized losses on equity securities 29.0M; stock comp 118.3M; deferred tax 100.1M. Full MD&A and 10-K not read. 10-K critical audit matter is accrued rebates and chargebacks (238.9M at 2025-12-31, gross-to-net estimates with reporting lag); FY2025 revenue 3,182.7M (+11%)."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "See counterthesis: growth stalled (9M revenue +0.2%, net income -11%), competition, IRA, litigation, aggressive buybacks."
+    }
+  },
+  "price": {
+    "value": 562.32,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 562.32,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 562.02,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 562.32,
+      "shares": 42588726,
+      "market_cap_usd": 23948492404,
+      "cash_and_investments_usd": 3535700000,
+      "debt_usd": 0,
+      "ev_usd": 20412792404,
+      "ttm_period": "2025-10-01 to 2026-09-30",
+      "ttm_revenue_usd": 3187500000,
+      "ttm_net_income_usd": 1230800000,
+      "pe_ttm": 19.5,
+      "ttm_ocf_usd": 1429600000,
+      "ttm_capex_usd": 562400000,
+      "ttm_fcf_usd": 867200000,
+      "fcf_yield_on_market_cap": 0.0362,
+      "note": "Cash and investments are 2026-09-30; after quarter end 185.0M Liquidia cash received, 10.0M Sandoz settlement paid, 525.0M Arena paid, so about 3,186M pro forma before buybacks and Q4 operating cash. Yahoo value is its page header; its history table stopped at Nov 5."
+    },
+    "growth": {
+      "q3_revenue_yoy": 0.041,
+      "nine_month_revenue_yoy": 0.002,
+      "nine_month_net_income_yoy": -0.107,
+      "q3_tyvaso_dpi_yoy": 0.126,
+      "q3_nebulized_tyvaso_yoy": -0.116
+    },
+    "price_path": {
+      "close_2026_11_03": 601.32,
+      "close_2026_11_04": 608.49,
+      "close_2026_11_05": 565.72,
+      "close_2026_11_06": 562.32
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peer and own history valuation not done",
+    "Cause of 7% fall on 2026-11-05 (day after Q3 release) not established",
+    "Earnings release second half, 10-K MD&A and risk factors (only revenue, audit matter and competition sections skimmed) and PDUFA dates unread",
+    "September 2026 ASR final settlement shares unknown",
+    "Scores not assigned"
+  ]
+}
