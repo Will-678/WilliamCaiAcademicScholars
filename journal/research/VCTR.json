@@ -1,0 +1,237 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "VCTR",
+  "exchange": "Nasdaq",
+  "currency": "USD",
+  "sector_model": "financial: asset manager; use AUM, net flows, fee margin, GAAP earnings to common plus participating preferred, FCF, term loan leverage, pending acquisition; not generic liabilities/assets ratios",
+  "as_of": "2026-11-07T08:10:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Victory Capital is a U.S. multi-boutique asset manager (AUM 351.9B at 2026-09-30; total client assets 355.5B) that doubled in size by buying Amundi US (closed mid 2025). Q3 2026 produced record long-term net inflows of 11.7B (about 14% annualized organic growth), 53.5% adjusted EBITDA margin and GAAP diluted EPS of 1.11. At 119.24 (2026-11-06 close, +6.1% on the day) the stock is about 21x TTM GAAP earnings counting the participating convertible preferred as-converted, with a TTM FCF yield near 6.4% and 0.50 quarterly dividend.",
+  "counterthesis": "The earnings base is about to change: on 2026-08-25 Victory agreed to buy First Eagle for a 7.03B base price (cash, new common equal to 4.9% of shares, and a new Series B convertible preferred) funded partly with new debt, against a current market capitalization of about 9.8B and 975M of term loans, so leverage, dilution and integration risk rise sharply and trailing figures do not describe the combined firm. Record flows may reflect a few large institutional or ETF wins and market levels (AUM growth also from rising markets). GAAP Q3 operating income fell slightly (137.7M vs 138.1M) as compensation and acquisition costs rose; 9M26 revenue +30.9% is mostly the Amundi US acquisition lapping. Active asset managers face fee compression and passive shift; EPS is helped by buybacks (225M 9M26) and a tax-basis step-up the company calls a supplemental benefit. Preferred holder (about 20.0M shares, 24% of economic claims) participates in earnings. Goodwill and intangibles are 3.66B of 4.24B total assets (tangible equity is negative).",
+  "invalidation": "Long-term net flows turning negative for two quarters; adjusted EBITDA margin below 48%; First Eagle financing pushing net debt above about 3x adjusted EBITDA or a large equity issuance at a lower price; AUM losses to market declines; evidence the Amundi US or First Eagle clients are leaving after consents.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1570827/000119312526448759/vctr-20260930.htm",
+      "document_id": "0001193125-26-448759",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-05",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T08:10:00-05:00"
+    },
+    {
+      "id": "rel",
+      "url": "https://www.sec.gov/Archives/edgar/data/1570827/000119312526447513/vctr-ex99_1.htm",
+      "document_id": "0001193125-26-447513 ex99.1",
+      "origin": "Victory Capital Q3 2026 earnings release dated 2026-11-04 (SEC exhibit of issuer release)",
+      "kind": "earnings_release",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T08:10:00-05:00"
+    },
+    {
+      "id": "k8",
+      "url": "https://www.sec.gov/Archives/edgar/data/1570827/000110465926123911/tm2629130d2_8k.htm",
+      "document_id": "0001104659-26-123911",
+      "origin": "SEC EDGAR 8-K item 8.01 filed 2026-11-06 on First Eagle merger",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T08:10:00-05:00"
+    },
+    {
+      "id": "cf",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001570827.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0001570827",
+      "origin": "SEC EDGAR XBRL derived from FY2025 10-K (0001193125-26-077057) and 2026 10-Qs",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T08:10:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001570827.json",
+      "document_id": "SEC-submissions-CIK0001570827",
+      "origin": "SEC EDGAR submissions index",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T08:10:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/vctr/history/",
+      "document_id": "stockanalysis-VCTR-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T08:10:00-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/VCTR/history/",
+      "document_id": "yahoo-finance-VCTR-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T08:10:00-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel",
+        "k8",
+        "sub"
+      ],
+      "note": "Q3 2026 10-Q (filed 2026-11-05), earnings 8-K (2026-11-04) and the 2026-11-06 8-K on the First Eagle merger are the newest filings in the submissions list read 2026-11-07; the 8-K item 8.01 opening text was read but not the merger agreement exhibit, full pricing or financing terms."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "9/30/2026: cash 207.7M, investments 90.9M, goodwill 1,235.9M, intangibles 2,423.4M, total assets 4,236.3M, term loans principal 975.2M due 2032 at 5.82%, long-term debt net 965.9M, deferred tax liability 497.5M, consideration payable for acquisition 53.8M, equity 2,422.6M."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "cf"
+      ],
+      "note": "TTM OCF 624.8M = FY2025 385.485 - 9M25 240.409 + 9M26 479.740; capex (property and equipment) 3.6M = 4.157 - 3.558 + 3.024, reported. TTM begins after the Amundi US closing (2025-07-01) so Q4 2025 plus 9M26 are all combined-company periods; the 9M25 comparison subtracts a partly pre-deal period but the subtraction is consistent with FY2025 annual flows. FCF 621.2M."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Common 61,902K outstanding at 2026-09-30 (balance sheet, 89,269K issued less treasury 27,367K); Series A non-voting convertible preferred 20,037K shares. Conversion ratio assumed 1 to 1: Q3 net income attributable to preferred (12.254M plus 10.018M dividends) is 24.4% of 91.3M, equal to 20.0/(61.9+20.0)=24.5%, consistent with 1 to 1 participation but terms not read directly."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "rel",
+        "k8",
+        "qa",
+        "qb"
+      ],
+      "note": "P/E, FCF yield and EV computed on trailing figures, but no pro forma valuation for the 7.03B First Eagle acquisition (First Eagle earnings, financing amounts and pro forma leverage not read) and no peer multiples (Federated Hermes, Invesco, AMG, Franklin, T. Rowe) or own history."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "Asset manager model: AUM, flows, margins, term debt, goodwill-heavy balance sheet; liabilities to assets ratios not used to judge solvency; participating preferred included in share count."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Reviewed acquisition costs (22.5M 9M26), restructuring 6.7M, change in value of consideration payable 6.1M, loss on debt extinguishment 2.0M, cash taxes 103.0M versus 116.2M provision, preferred earnings allocation, adjusted versus GAAP gap (adjusted EPS 1.98 vs GAAP 1.11 Q3, driven by amortization and tax benefit add-backs). FY2025 10-K audit matters not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel",
+        "k8"
+      ],
+      "note": "Written in counterthesis field: transformational First Eagle deal and leverage, flows concentration, fee compression, goodwill-heavy balance sheet, adjusted-versus-GAAP gap."
+    }
+  },
+  "price": {
+    "value": 119.24,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 119.24,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 119.24,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "fcf": {
+      "ocf": {
+        "value": 624816000,
+        "unit": "USD",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "capex": {
+        "value": 3623000,
+        "unit": "USD",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "value": 621193000,
+      "period": "TTM 2025-10-01 to 2026-09-30",
+      "note": "FY2025 + 9M26 - 9M25; capex is purchases of property and equipment only; USD"
+    },
+    "valuation": {
+      "price": 119.24,
+      "shares": 81939000,
+      "common_shares": 61902000,
+      "preferred_shares_as_converted_assumed": 20037000,
+      "market_cap_usd": 9770406360,
+      "market_cap_common_only_usd": 7381194480,
+      "ttm_net_income_usd": 455657000,
+      "ttm_net_income_to_common_usd": 348138000,
+      "ttm_note": "Net income FY2025 330.062M - 9M25 217.250M + 9M26 342.845M; to common 270.151 - 181.968 + 259.955",
+      "pe_ttm": 21.4,
+      "pe_ttm_common_basis": 21.2,
+      "fcf_yield": 0.064,
+      "cash_usd": 207724000,
+      "debt_usd": 975150000,
+      "ev_usd": 10537832360,
+      "note": "Market cap counts Series A preferred as-converted 1 to 1 (inferred); EV = market cap + term loan principal - cash; pending First Eagle deal (7.03B base) not included"
+    },
+    "growth": {
+      "q3_revenue_yoy": 0.098,
+      "nine_month_revenue_yoy": 0.309,
+      "q3_long_term_net_flows_usd": 11702000000,
+      "aum_end_usd": 351869000000,
+      "adj_ebitda_margin_q3": 0.535,
+      "note": "9M growth mostly the Amundi US acquisition closing 2025-07-01"
+    },
+    "price_path": {
+      "close_2026_11_02": 114.31,
+      "close_2026_11_03": 115.75,
+      "close_2026_11_04": 120.19,
+      "close_2026_11_05": 112.41,
+      "close_2026_11_06": 119.24
+    }
+  },
+  "unresolved_critical_gaps": [
+    "First Eagle acquisition: financing amounts, pro forma leverage and share count not read",
+    "Peer and own-history multiples not gathered",
+    "Preferred conversion terms inferred not read",
+    "FY2025 10-K not read directly (XBRL annual totals only)",
+    "Scores not assigned",
+    "Quote origins are two publishers, independence not proven"
+  ]
+}

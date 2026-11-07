@@ -108,3 +108,9 @@ Report reports/2026-11-06-090906.md (also latest.md). All five records revalidat
 - Researched DTM (midstream) and GMED (medtech): both watch, medium, scores null, valid, not attractive-eligible (data/quality_run8_*.json). DTM 24.6x TTM, FCF yield 4.6%; GMED 16.9x TTM, FCF yield 8.1% after a 12.8% drop on a revenue guidance cut.
 - Benchmark VTI still pending; no paper references. Quote origins are two publishers only.
 - Next: peers for DTM/GMED/KNSL/MPWR/TW/AGX/UTHR; GMED call commentary; QLYS after 10-Q; EXEL '039 ruling; banks, utilities, REITs, consumer names uncovered.
+
+## Worker run 2026-11-07 ~08:10 ET (method 2.0, run 9)
+- Screen not refreshed (refreshed 04:05 ET). QLYS still has no Q3 10-Q.
+- Researched CARG (consumer internet) and VCTR (asset manager): both watch, medium, scores null, valid, not attractive-eligible (data/quality_run9_*.json; all 14 JSON records revalidated in data/quality_latest.json). CARG 16.0x TTM, FCF yield 10.0%; VCTR 21x TTM, FCF yield 6.4% but a pending 7.03B First Eagle deal makes trailing numbers unrepresentative.
+- Benchmark VTI still pending; no paper references. Quote origins are two publishers only.
+- Next: VCTR deal financing; peers for CARG/VCTR/DTM/GMED/KNSL/MPWR/TW/AGX/UTHR; CARG drop cause; QLYS after 10-Q; EXEL '039 ruling; banks, utilities, REITs uncovered.

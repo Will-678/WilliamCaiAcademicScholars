@@ -1,0 +1,234 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "CARG",
+  "exchange": "Nasdaq",
+  "currency": "USD",
+  "sector_model": "nonfinancial consumer internet and dealer software marketplace; use GAAP earnings, FCF after capitalized website costs, SBC and cash tax normalization, net cash",
+  "as_of": "2026-11-07T08:06:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "CarGurus runs the most visited U.S. car shopping site and sells listings and software to about 34.7K dealers. After a 6.7% fall to 33.74 on 2026-11-06 (the day after Q3 results) it trades near 16.0x TTM GAAP earnings from continuing operations and a 10.0% TTM FCF yield (after capitalized website costs), with no financial debt and 164.9M cash. Q3 revenue grew 12% with 92% gross margin, guidance for 2026 revenue is 1,011.5 to 1,016.5M (+11.5% to 12.1%), and the share count is down 8.2% year on year through buybacks (225M in 9M26).",
+  "counterthesis": "Growth is price (consolidated QARSD +7%) more than volume (paying dealers +3%), so the dealer base is only slowly expanding; consumer traffic is exposed to AI search and Google changes and to the used car cycle. 9M26 GAAP net income from continuing ops fell 6% as sales and marketing (+16%) and a 20.2M impairment outran revenue. The 10.0% FCF yield is flattered: cash taxes paid were only 7.1M versus a 39.0M provision (deferred tax asset use, DTA still 68.2M), stock compensation is about 51.5M TTM (15% of FCF), and TTM operating cash flow includes unseparated discontinued CarOffer cash flows for 2025. Buybacks exceed free cash flow so cash fell and the 2026 authorization has only 25M left (a new 250M program was announced 2026-11-05 per release). Failed CarOffer wind-down shows capital allocation misses. Operating lease liabilities of 182.3M are debt like. Cause of the 6.7% drop on 11-06 not identified.",
+  "invalidation": "Paying dealer count falling for two quarters or QARSD growth under 3%; revenue growth below 8%; operating margin falling because sales and marketing keep growing faster than revenue; FCF falling below GAAP earnings once tax normalizes; buybacks funded by drawing the revolver; evidence of material consumer traffic loss to AI assistants.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1494259/000119312526449875/carg-20260930.htm",
+      "document_id": "0001193125-26-449875",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-05",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T08:06:00-05:00"
+    },
+    {
+      "id": "rel",
+      "url": "https://www.sec.gov/Archives/edgar/data/1494259/000119312526449825/carg-ex99_1.htm",
+      "document_id": "0001193125-26-449825 ex99.1",
+      "origin": "CarGurus Q3 2026 earnings release dated 2026-11-05 (SEC exhibit of issuer release)",
+      "kind": "earnings_release",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T08:06:00-05:00"
+    },
+    {
+      "id": "k10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1494259/000119312526059435/carg-20251231.htm",
+      "document_id": "0001193125-26-059435",
+      "origin": "SEC EDGAR 10-K FY2025 filed 2026-02-19",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T08:06:00-05:00"
+    },
+    {
+      "id": "cf",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001494259.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0001494259",
+      "origin": "SEC EDGAR XBRL derived from FY2025 10-K and 2026 10-Qs",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T08:06:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001494259.json",
+      "document_id": "SEC-submissions-CIK0001494259",
+      "origin": "SEC EDGAR submissions index",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T08:06:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/carg/history/",
+      "document_id": "stockanalysis-CARG-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T08:06:00-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/CARG/history/",
+      "document_id": "yahoo-finance-CARG-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T08:06:00-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel",
+        "sub"
+      ],
+      "note": "Q3 2026 10-Q and earnings 8-K filed 2026-11-05 are the newest periodic filings in submissions list read 2026-11-07; release and 10-Q financial statements, MD&A liquidity and note 6 read. A later 8-K (2026-09-03, item 5.02) not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "9/30/2026: cash 164.9M, receivables 47.0M, total assets 589.1M, total liabilities 285.8M including operating lease liabilities 182.3M, no borrowings, equity 303.2M; revolver 200M commitment to 2031, 190.6M capacity."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "k10"
+      ],
+      "note": "TTM OCF 328.37M = FY2025 295.280 - 9M25 212.163 + 9M26 245.253 (2025 periods include discontinued CarOffer cash flows, not separated); capex = PP&E 3.147M + capitalized website costs 24.082M = 27.229M, both reported; FCF 301.14M."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Class A 75,339,849 + Class B 13,763,613 = 89,103,462 shares outstanding at 2026-09-30 (balance sheet, point in time); Q3 weighted diluted 90.12M; buybacks continue so current count is lower."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "rel",
+        "k10",
+        "qa",
+        "qb"
+      ],
+      "note": "P/E, FCF yield, EV, SBC and cash tax adjusted yield computed. Peer multiples (Cars.com, TrueCar, Autotrader/Cox, CoStar, Zillow) and own multiple history not gathered."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "Nonfinancial internet marketplace model with FCF after capitalized website costs; GAAP and non-GAAP kept separate; continuing operations basis."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "k10"
+      ],
+      "note": "Reviewed CarOffer discontinued ops (36.9M 9M25 loss), 20.2M 9M26 impairments (developed technology 15M-plus and lease), cash versus book taxes, SBC, deferred contract costs, receivable concentration (one processor 10.1%). FY2025 critical audit matter text not fully read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "Written in counterthesis field: weak dealer growth, AI/search risk, margin pressure, flattered FCF, buyback pace, lease obligations."
+    }
+  },
+  "price": {
+    "value": 33.74,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 33.74,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 33.74,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "fcf": {
+      "ocf": {
+        "value": 328370000,
+        "unit": "USD",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "capex": {
+        "value": 27229000,
+        "unit": "USD",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "value": 301141000,
+      "period": "TTM 2025-10-01 to 2026-09-30",
+      "note": "FY2025 + 9M26 - 9M25; capex includes capitalized website development; 2025 flows include discontinued CarOffer; USD"
+    },
+    "valuation": {
+      "price": 33.74,
+      "shares": 89103462,
+      "market_cap_usd": 3006350808,
+      "ttm_net_income_usd": 187948000,
+      "ttm_note": "Continuing operations: FY2025 196.742M - 9M25 143.004M + 9M26 134.210M",
+      "pe_ttm": 16.0,
+      "fcf_yield": 0.1,
+      "cash_and_securities_usd": 164910000,
+      "debt_usd": 0,
+      "ev_usd": 2841440808,
+      "note": "EV = market cap - cash; operating lease liabilities 182.3M not added",
+      "sbc_ttm_usd": 51521000,
+      "fcf_less_sbc_yield": 0.083
+    },
+    "growth": {
+      "q3_revenue_yoy": 0.115,
+      "nine_month_revenue_yoy": 0.131,
+      "paying_dealers_yoy": 0.03,
+      "qarsd_yoy": 0.07,
+      "guidance_revenue_usd": [
+        1011500000,
+        1016500000
+      ]
+    },
+    "price_path": {
+      "close_2026_11_02": 33.79,
+      "close_2026_11_03": 33.77,
+      "close_2026_11_04": 36.52,
+      "close_2026_11_05": 36.15,
+      "close_2026_11_06": 33.74
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peer and own-history multiples not gathered",
+    "Cause of 6.7% fall on 2026-11-06 and call commentary not read",
+    "Cash tax normalization and discontinued-ops cash flow effect only estimated",
+    "Scores not assigned",
+    "Quote origins are two publishers, independence not proven"
+  ]
+}
