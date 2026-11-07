@@ -117,3 +117,9 @@ Report reports/2026-11-06-090906.md (also latest.md). All five records revalidat
 
 ## Morning compile 2026-11-07 ~09:15 ET
 Report reports/2026-11-07-090707.md. 14 records revalidated (data/quality_compile_2026-11-07.json), none eligible. No new filings for GMED, CARG, EXEL, QLYS (no Q3 10-Q). EXEL 11-06 close 69.57. Sunday review due 2026-11-08. Next: peers, GMED/CARG call commentary, EXEL 039 ruling, QLYS, uncovered sectors.
+
+## Worker run 2026-11-07 ~12:10 ET (method 2.0, run 10)
+- Screen not refreshed (refreshed 04:05 ET). QLYS still has no Q3 10-Q.
+- Researched NMIH (mortgage insurer) and GABC (regional bank): both watch, medium, scores null, valid, not attractive-eligible (data/quality_run10_*.json). NMIH 7.4x TTM, 1.08x book, -11.8% on 11-06 (cause unconfirmed); GABC 12.9x TTM, 2.5x tangible book, strong credit. 10-Ks and GABC release not read.
+- Benchmark VTI still pending; no paper references. Quote origins are two publishers only.
+- Next: peers for NMIH/GABC and earlier names; NMIH drop cause; QLYS after 10-Q; EXEL '039 ruling; utilities and REITs uncovered.

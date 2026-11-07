@@ -1,0 +1,224 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "NMIH",
+  "exchange": "Nasdaq",
+  "currency": "USD",
+  "sector_model": "insurer (private mortgage insurance); use earnings, book value, PMIERs sufficiency, default inventory, reserves, holding company debt; no FCF model; GAAP net income with adjusted income shown separately",
+  "as_of": "2026-11-07T12:09:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "National MI writes private mortgage insurance on low down payment loans. After an 11.8% fall to 39.03 on 2026-11-06 (day after Q3 results) it trades at about 7.4x TTM GAAP earnings (392.8M) and 1.08x book value (36.13 per share; 1.02x book excluding unrealized losses), with a 13.8% annualized Q3 ROE, PMIERs available assets of 3.77B versus 2.18B required (173%), insurance in force 229.7B (+5% y/y), buybacks of 2.2M shares in 9M26 and 425M of 6.00% senior notes not due until August 2029.",
+  "counterthesis": "Earnings power is flat to falling: Q3 net income 93.5M versus 106 Q2 and 96.0M a year earlier, premiums earned 155.5M (down q/q, +3% y/y), new insurance written down 15% q/q, loss ratio rose to 18.7% from 8.3% and 12.3%, new defaults 2,943 (+16% y/y), default inventory 8,571 (+21% y/y) and claim severity 87% versus 73%. The business is a credit cycle bet on U.S. housing and house prices; a downturn would raise defaults and consume PMIERs capital, and GSE or FHFA policy changes can change demand for private MI. A low multiple on peak-like earnings can be a value trap. Book value includes a 400.3M prepaid tax asset (tax and loss bonds) and the stock fell on results, cause not confirmed by any source read. 10-K and call commentary not read.",
+  "invalidation": "Default inventory rising faster than insured portfolio for two more quarters with loss ratio above 25%; house price declines in key states; PMIERs sufficiency falling below about 130%; GSE policy change reducing MI usage or capital credit; buybacks suspended to preserve capital; new insurance written falling year on year.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1547903/000154790326000045/nmih-20260930.htm",
+      "document_id": "0001547903-26-000045",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-06",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T11:50:00-05:00"
+    },
+    {
+      "id": "rel",
+      "url": "https://www.sec.gov/Archives/edgar/data/1547903/000154790326000042/q32026exhibit991.htm",
+      "document_id": "0001547903-26-000042 ex99.1",
+      "origin": "NMI Holdings Q3 2026 earnings release dated 2026-11-05 (SEC exhibit of issuer release)",
+      "kind": "earnings_release",
+      "read_status": "full",
+      "accessed_at": "2026-11-07T11:50:00-05:00"
+    },
+    {
+      "id": "k10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1547903/000154790326000011/nmih-20251231.htm",
+      "document_id": "0001547903-26-000011",
+      "origin": "SEC EDGAR 10-K FY2025 filed 2026-02-12",
+      "kind": "annual_filing",
+      "read_status": "unread",
+      "accessed_at": "2026-11-07T11:50:00-05:00"
+    },
+    {
+      "id": "cf",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001547903.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0001547903",
+      "origin": "SEC EDGAR XBRL derived from FY2025 10-K and 2026 10-Qs",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T11:50:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001547903.json",
+      "document_id": "SEC-submissions-CIK0001547903",
+      "origin": "SEC EDGAR submissions index",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T11:50:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/nmih/history/",
+      "document_id": "stockanalysis-NMIH-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T11:50:00-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/NMIH/history/",
+      "document_id": "yahoo-finance-NMIH-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T11:50:00-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel",
+        "sub"
+      ],
+      "note": "Submissions list read 2026-11-07: newest periodic filing is the Q3 10-Q filed 2026-11-06 and the earnings 8-K filed 2026-11-05; both read (financial statements, MD&A defaults, PMIERs, debt note, repurchases)."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "9/30/2026: total assets 4,002.2M, total liabilities 1,299.6M, debt 418.5M carrying (425M principal 6.00% notes due 2029-08-15), equity 2,702.7M, prepaid federal income taxes 400.3M, NMIH holding company cash and investments 121.7M, 250M undrawn revolver to 2029 (covenant debt/cap 35%)."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Insurer: operating cash flow 9M26 369.7M (vs 357.6M), property and equipment capex not separately used; no FCF model applied; valuation uses GAAP earnings and book value instead."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "74,805,855 shares outstanding at 2026-09-30 (balance sheet, point in time); weighted diluted Q3 76.1M; BVPS 36.13 reconciles to equity 2,702.7M / 74.806M."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "rel",
+        "qa",
+        "qb"
+      ],
+      "note": "P/E, P/B and P/ex-AOCI-book computed. Peer multiples (MTG, ESNT, RDN, Enact), own history and the cause of the 11-06 drop not gathered; 10-K not read."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "Mortgage insurer model: earnings, book, PMIERs sufficiency, default roll-forward, reserves, reinsurance, holdco debt; generic FCF and liability ratios not used."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Reviewed reserve roll-forward, default counts, severity increase, 400.3M tax and loss bond asset, adjusted versus GAAP income (small gap). FY2025 critical audit matters, reserve methodology and reinsurance counterparty detail not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "Written in counterthesis field: rising defaults and severity, flat premiums, housing cycle, GSE policy, possible value trap."
+    }
+  },
+  "price": {
+    "value": 39.03,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 39.03,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 39.03,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 39.03,
+      "shares": 74805855,
+      "market_cap_usd": 2919600000,
+      "ttm_period": "2025-10-01 to 2026-09-30",
+      "ttm_net_income_usd": 392807000,
+      "ttm_net_income_note": "FY2025 388.926M - 9M25 294.709M + 9M26 298.590M (companyfacts and 10-Q)",
+      "pe_ttm": 7.4,
+      "equity_usd": 2702668000,
+      "price_to_book": 1.08,
+      "bvps_reported": 36.13,
+      "bvps_ex_unrealized": 38.13,
+      "price_to_bvps_ex_unrealized": 1.02,
+      "annualized_q3_roe": 0.138,
+      "debt_principal_usd": 425000000,
+      "pmiers_available_assets_usd": 3773543000,
+      "pmiers_required_assets_usd": 2181639000,
+      "pmiers_ratio": 1.73
+    },
+    "operating": {
+      "q3_loss_ratio": 0.187,
+      "q2_loss_ratio": 0.083,
+      "q3_2025_loss_ratio": 0.123,
+      "q3_expense_ratio": 0.198,
+      "default_inventory_end": 8571,
+      "default_inventory_prior_year": 7093,
+      "new_defaults_q3": 2943,
+      "claim_severity_q3": 0.87,
+      "iif_usd_bn": 229.7,
+      "niw_q3_usd_bn": 13.6,
+      "repurchase_9m_shares": 2200000,
+      "avg_repurchase_price": 39.73,
+      "buyback_authorization_remaining_usd": 139700000
+    },
+    "price_path": {
+      "close_2026_10_30": 42.67,
+      "close_2026_11_02": 43.42,
+      "close_2026_11_03": 43.31,
+      "close_2026_11_04": 43.96,
+      "close_2026_11_05": 44.27,
+      "close_2026_11_06": 39.03
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peer multiples and own history not gathered",
+    "Cause of 11.8% drop on 2026-11-06 not identified (a web search found no 2026 coverage)",
+    "FY2025 10-K, reserves and call commentary not read",
+    "Scores not assigned"
+  ]
+}

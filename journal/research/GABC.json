@@ -1,0 +1,215 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "GABC",
+  "exchange": "Nasdaq",
+  "currency": "USD",
+  "sector_model": "bank holding company (Indiana, Kentucky, Ohio); use earnings, tangible book, net interest margin, credit quality, capital ratios, funding; no FCF model; AOCI securities losses shown separately",
+  "as_of": "2026-11-07T12:09:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "German American is a 8.4B asset community bank that earned 38.6M in Q3 2026 (diluted EPS 1.03, +10%) and 145.6M over the TTM. At 50.08 (2026-11-06) it trades at about 12.9x TTM earnings, 1.63x book and 2.5x tangible book (20.01 per share), with a 2.5% dividend yield (1.24 annualized). Net interest margin rose to 4.42% in Q3 (tax equivalent) from 4.06%, efficiency ratio about 52%, annualized net charge-offs 4 bps, non-accrual loans fell to 23.7M (0.39% of loans) from 29.3M at year end, allowance 79.3M (1.32% of loans, 3.3x non-accrual), CET1 14.26% and total risk-based capital 15.74%.",
+  "counterthesis": "Valuation is not cheap for a bank at 2.5x tangible book, and 17 bps of the 9M26 margin comes from accretion of acquired loan discounts that will fade. Roughly 3.27B (55%) of loans are commercial real estate, 13.2M special mention and 24.0M substandard in one commercial class, and CRE stress could lift losses. AOCI loss of 250.8M (21.7% of equity) reflects 1.59B of securities with unrealized losses that depress tangible equity; deposits fell 53M in 9M26 and FHLB and other borrowings rose to 268M from 183M, so funding is tightening. Loan growth is only 3% annualized. Prior-year EPS comparison is helped by 17.2M of 2025 provision tied to the Heartland acquisition (4.0M in 9M26) which flatters 9M earnings growth (+43%). 10-K, deposit mix by uninsured share and CRE segment detail were not read.",
+  "invalidation": "Net interest margin falling below 3.9% as acquired-loan accretion ends; non-accrual loans above 1% of loans or net charge-offs above 25 bps; CET1 below 11%; deposit outflows forcing more wholesale funding; CRE special mention and substandard balances rising for two quarters; loan growth stalling.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/714395/000071439526000045/gabc-20260930.htm",
+      "document_id": "0000714395-26-000045",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-06",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T11:50:00-05:00"
+    },
+    {
+      "id": "rel",
+      "url": "https://www.sec.gov/Archives/edgar/data/714395/000071439526000041/exhibit991q32026final.htm",
+      "document_id": "0000714395-26-000041 ex99.1",
+      "origin": "German American Bancorp Q3 2026 earnings release dated 2026-10-26 (SEC exhibit of issuer release)",
+      "kind": "earnings_release",
+      "read_status": "unread",
+      "accessed_at": "2026-11-07T11:50:00-05:00"
+    },
+    {
+      "id": "k10",
+      "url": "https://www.sec.gov/Archives/edgar/data/714395/000071439526000011/gabc-20251231.htm",
+      "document_id": "0000714395-26-000011",
+      "origin": "SEC EDGAR 10-K FY2025 filed 2026-02-27",
+      "kind": "annual_filing",
+      "read_status": "unread",
+      "accessed_at": "2026-11-07T11:50:00-05:00"
+    },
+    {
+      "id": "cf",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000714395.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0000714395",
+      "origin": "SEC EDGAR XBRL derived from FY2025 10-K and 2026 10-Qs",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T11:50:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0000714395.json",
+      "document_id": "SEC-submissions-CIK0000714395",
+      "origin": "SEC EDGAR submissions index",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T11:50:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/gabc/history/",
+      "document_id": "stockanalysis-GABC-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T11:50:00-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/GABC/history/",
+      "document_id": "yahoo-finance-GABC-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T11:50:00-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "sub"
+      ],
+      "note": "Submissions list read 2026-11-07: Q3 10-Q filed 2026-11-06 is newest periodic filing; income statement, balance sheet, loan and credit notes, capital ratios, MD&A margin read. Earnings release exhibit of 2026-10-26 not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "9/30/2026: assets 8,411.3M, loans 5,998.4M, ACL 79.3M, deposits 6,936.5M (non-interest-bearing 1,963.4M), FHLB advances and other borrowings 268.1M, equity 1,153.9M, goodwill 375.5M, intangibles 26.6M, AOCI -250.8M."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Bank: operating cash flow 9M26 128.4M (includes loans held for sale flows); no FCF model; valuation uses earnings, tangible book and dividends."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "37,579,014 shares outstanding at 2026-09-30 (balance sheet, point in time); weighted diluted Q3 37.58M, equal to basic."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "qa",
+        "qb"
+      ],
+      "note": "P/E, P/B, P/TBV and dividend yield computed. Peer bank multiples (e.g. First Merchants, Old National, Lakeland Financial), own history and ROTCE on average tangible equity not gathered."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Bank model: NIM, efficiency, credit quality, capital, funding and tangible book; generic FCF and liability/asset ratios not used (liabilities to assets of 86% is normal for a bank)."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Reviewed acquisition accretion, 2025 Heartland day-2 provision, non-accrual and risk grades, AOCI. FY2025 critical audit matters, allowance methodology and CRE detail by property type not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Written in counterthesis field: rich tangible book multiple, accretion fade, CRE concentration, AOCI, funding."
+    }
+  },
+  "price": {
+    "value": 50.08,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 50.08,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 50.08,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 50.08,
+      "shares": 37579014,
+      "market_cap_usd": 1881999000,
+      "ttm_period": "2025-10-01 to 2026-09-30",
+      "ttm_net_income_usd": 145644000,
+      "ttm_net_income_note": "FY2025 112.635M - 9M25 76.952M + 9M26 109.961M (companyfacts and 10-Q)",
+      "pe_ttm": 12.9,
+      "equity_usd": 1153871000,
+      "price_to_book": 1.63,
+      "tangible_equity_usd": 751796000,
+      "tangible_bvps": 20.01,
+      "price_to_tangible_book": 2.5,
+      "dividend_annualized_per_share": 1.24,
+      "dividend_yield": 0.0248
+    },
+    "operating": {
+      "q3_nim_tax_equivalent": 0.0442,
+      "nine_month_nim": 0.0433,
+      "q3_efficiency_ratio": 0.52,
+      "q3_net_charge_offs_bps": 4,
+      "nonaccrual_usd": 23672000,
+      "nonaccrual_to_loans": 0.0039,
+      "acl_to_loans": 0.0132,
+      "cet1": 0.1426,
+      "total_rbc": 0.1574,
+      "loans_cre_usd": 3267130000,
+      "provision_9m26_usd": 4000000,
+      "provision_9m25_usd": 17200000
+    },
+    "price_path": {
+      "close_2026_10_30": 48.95,
+      "close_2026_11_02": 50.23,
+      "close_2026_11_03": 49.6,
+      "close_2026_11_04": 50.76,
+      "close_2026_11_05": 50.56,
+      "close_2026_11_06": 50.08
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peer multiples and own history not gathered",
+    "Earnings release and FY2025 10-K not read",
+    "CRE detail by property type and deposit uninsured share not read",
+    "Scores not assigned"
+  ]
+}
