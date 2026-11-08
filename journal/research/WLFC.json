@@ -1,0 +1,214 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "WLFC",
+  "exchange": "Nasdaq",
+  "currency": "USD",
+  "sector_model": "aircraft and engine lessor (financial/asset-heavy): book equity, debt to equity, interest coverage, fleet value, gains on sale, maintenance reserve revenue; FCF not meaningful because equipment purchases are the growth business",
+  "as_of": "2026-11-08T04:08:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Willis Lease Finance (aircraft engine lessor) trades at 46.86 (2026-11-06 close), market cap about 992M on 21,162,209 shares (cover, 2026-10-30): about 14.0x TTM common earnings (TTM net income to common about 73.4M, diluted EPS about 3.35 split-adjusted) and about 1.36x WLFC book equity of 729.5M. Nine-month 2026 revenue rose 18.3% to 634.7M and operating cash flow rose to 239.0M, but nine-month net income fell 34% to 67.1M (diluted EPS 2.86 vs 4.63) and Q3 EPS fell to 0.47 from 1.08 as maintenance reserve revenue halved (39.3M vs 76.1M). Gross debt principal is 2.554B against 732.6M total equity (3.5x), and 15,000 redeemable preferred shares (98.0M carrying value) rank ahead of common.",
+  "counterthesis": "Earnings are falling while the balance sheet is expanding: nine-month equipment purchases were 837.6M against 418.0M of sale proceeds and 239.0M operating cash flow, so net investment (about 420M) is funded by debt, preferred stock (5,250 new preferred shares in 2026, a further 8.09% Series B with DBJ) and the 2026 share split-adjusted share base. Q3 revenue growth came from 98.1M of spare parts and equipment sales (5.4M a year earlier), a low-margin and lumpy line, while core maintenance reserve revenue and gains on sale (5.5M vs 16.1M) fell. Related-party sales to funds it manages (216.2M of engines to the BXCI Fund with a 33.3M gain, 104.0M of notes to the LMI Fund) support earnings, and fair value of those transactions was not examined. Interest expense is about 127M a year TTM, covenant headroom is not quantified, 2028 and 2029 maturities are 256M and 266M, and floating-rate exposure was not read. Aviation cycle, lessee credit and engine residual values are the main risks.",
+  "invalidation": "Q4 and Q1 net income to common continuing below prior-year levels; gains on sale and maintenance reserve revenue not recovering; debt to equity rising above about 4x or covenant waivers; preferred issuance rather than retained earnings funding growth; related-party fund sales slowing so that asset sales stop clearing; engine value impairments.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000094/wlfc-20260930.htm",
+      "document_id": "0001018164-26-000094",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-03 (read through WebFetch summarization; the direct download was refused by SEC for undeclared automated tools, so figures come from the fetch tool extract, not a full read)",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T04:08:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001018164.json",
+      "document_id": "SEC-submissions-CIK0001018164",
+      "origin": "SEC EDGAR submissions index",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T04:08:00-05:00"
+    },
+    {
+      "id": "facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018164.json",
+      "document_id": "SEC-companyfacts-CIK0001018164",
+      "origin": "SEC XBRL company facts (FY2025 10-K/A 0001018164-26-000041 and 10-Qs)",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T04:08:00-05:00"
+    },
+    {
+      "id": "k8",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018164/000101816426000078/wlfc-20260916.htm",
+      "document_id": "0001018164-26-000078",
+      "origin": "SEC EDGAR 8-K item 3.02 filed 2026-09-22 (Series B preferred, DBJ, 35M at 8.09%)",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T04:08:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/wlfc/history/",
+      "document_id": "stockanalysis-WLFC-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T04:08:00-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/WLFC/history/",
+      "document_id": "yahoo-finance-WLFC-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T04:08:00-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "sub"
+      ],
+      "note": "Submissions read 2026-11-08: newest are DEF 14A 2026-11-05, 10-Q 2026-11-03 (period 2026-09-30) and 8-K Item 2.02 filed 2026-11-03. The 10-Q figures were taken from a fetch-tool extract of the filing, which was truncated before the debt and derivative notes. The earnings release (Exhibit 99.1) and investor presentation (99.2) were not available to read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "2026-09-30 (thousands): cash 11,061; restricted cash 122,610; equipment held for operating lease, net 3,024,361; total assets 4,052,363; debt obligations net 2,524,677 (principal 2,553,934); total liabilities 3,221,807; total equity 732,564 (WLFC 729,491). Preferred 98.0M carrying value (15,000 shares) is outside the 729.5M figure only if classified as mezzanine; classification not confirmed."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "facts"
+      ],
+      "note": "9M2026 operating cash flow 238,955K and purchases of equipment 837,574K, proceeds from sale of equipment 418,016K; 9M2025 OCF 209,073K, purchases 310,637K, proceeds 194,263K. FY2025 OCF 283,235K from XBRL (10-K/A). TTM OCF = 283,235 - 209,073 + 238,955 = 313,117K. FY2025 equipment purchases not found in XBRL, so TTM capex and FCF are missing, not zero."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "facts"
+      ],
+      "note": "21,162,209 shares on the 10-Q cover (2026-10-30) used for market cap. XBRL shows weighted diluted shares of 7,020,000 for FY2025 and 21,904,000 for 9M2026, and shares outstanding 7.04M (2026-05-01) vs 21.14M (2026-07-31), consistent with a 3-for-1 split in Q2 2026; the split terms were not read. FY2025 EPS 15.39 as filed is therefore divided by 3 for comparison; TTM EPS uses common income divided by about 21.9M shares."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "facts",
+        "qa",
+        "qb"
+      ],
+      "note": "No peer multiples (Air Lease, AerCap, FTAI Aviation) or own-history price to book gathered; fleet appraised value and NAV not read; no EV or FCF because lessor capital spending is the business."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Lessor model: book value, debt to equity, interest coverage, gains on sale and maintenance reserve revenue, with FCF treated as not meaningful; not a generic industrial."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Seen: related-party fund sales with large gains, spare parts and equipment sales spike, maintenance reserve revenue decline, rising preferred stock, 10-K/A filed for FY2025 (reason not read). Not read: critical audit matters, impairment testing, residual value assumptions, derivative and interest rate exposure, covenant ratios."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Written in counterthesis: falling earnings with debt-funded asset growth, lumpy parts sales, related-party gains, preferred dilution, refinancing and aviation cycle."
+    }
+  },
+  "price": {
+    "value": 46.86,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 46.86,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 46.86,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 46.86,
+      "shares": 21162209,
+      "market_cap_usd": 991660000.0,
+      "gross_debt_principal_usd": 2553934000,
+      "cash_usd": 11061000,
+      "restricted_cash_usd": 122610000,
+      "preferred_carrying_usd": 98000000,
+      "equity_wlfc_usd": 729491000,
+      "price_to_book": 1.36,
+      "debt_to_total_equity": 3.49,
+      "ttm_net_income_to_common_usd": 73385000,
+      "ttm_eps_approx": 3.35,
+      "pe_ttm": 14.0,
+      "ttm_ocf_usd": 313117000,
+      "ttm_capex_usd": null,
+      "ttm_fcf_usd": null,
+      "ttm_interest_expense_usd": 126785000
+    },
+    "operating": {
+      "nine_month_revenue_growth": 0.183,
+      "nine_month_net_income_growth": -0.34,
+      "nine_month_eps_2026": 2.86,
+      "nine_month_eps_2025": 4.63,
+      "q3_eps_2026": 0.47,
+      "q3_eps_2025": 1.08,
+      "q3_maintenance_reserve_revenue_usd": [
+        39326000,
+        76054000
+      ],
+      "q3_spare_parts_equipment_sales_usd": [
+        98131000,
+        5394000
+      ]
+    },
+    "price_moves": {
+      "close_2026_10_30": 41.6,
+      "close_2026_11_03": 43.05,
+      "close_2026_11_04": 47.65,
+      "close_2026_11_06": 46.86
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peer multiples, own-history valuation and fleet NAV not gathered",
+    "Earnings release and investor presentation (Ex 99.1/99.2) not read; cause of +10% two-day move after results unconfirmed",
+    "Full 10-Q debt, covenant, floating-rate and derivative notes not read (fetch extract truncated)",
+    "10-K/A reason, critical audit matters and residual value assumptions not read",
+    "Split terms inferred from XBRL share counts",
+    "Scores not assigned"
+  ]
+}

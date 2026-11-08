@@ -1,0 +1,197 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "JOE",
+  "exchange": "NYSE",
+  "currency": "USD",
+  "sector_model": "Florida Panhandle land developer, hospitality and leasing operator: real estate sales timing, JV land sales, hotel EBITDA, book value, debt; operating cash flow before development spending; nonfinancial FCF incomplete",
+  "as_of": "2026-11-08T04:08:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "The St. Joe Company trades at 69.97 (2026-11-06 close), market cap about 3.96B on 56,524,851 shares (cover, 2026-10-26): about 33x TTM diluted EPS of about 2.11 and about 5.2x stockholders' equity of 765.1M. TTM revenue 542.9M, net income 121.3M and operating cash flow 188.3M (FY2025 10-K plus nine-month deltas). Nine months 2026: revenue +7.7% to 414.1M, net income +6.6% to 91.3M, EPS 1.60 vs 1.48. Debt net 361.7M plus 179.1M senior notes held by a special purpose entity against 117.9M cash; buybacks 65.4M in 9M2026 (vs 25.1M) and dividends 0.16 a quarter.",
+  "counterthesis": "The multiple already prices sustained development, and the quarter was weaker underneath: Q3 revenue fell 3.0% and net income 4.6%, real estate revenue included 31.4M of net present value from land sold to the Latitude Margaritaville Watersound joint venture (10.9M of intra-entity profit eliminated and deferred), equity income from JVs swung to a 8.2M loss in Q3 (218K loss in 9M vs 21.2M income), and leasing revenue is shrinking (-11.4% in 9M). Real estate earnings are lumpy and depend on Florida demand, hurricanes, insurance cost and rates. Capital spending on real estate development is not isolated here (XBRL PP&E purchases are only 3.8M a year), so cash flow overstates distributable earnings. Equity of 765M and a 5.2x price to book leave little cushion.",
+  "invalidation": "Quarterly real estate sales and homesite pricing falling for two or more quarters; hospitality revenue growth turning negative; JV losses continuing; operating cash flow after development investment turning negative; buybacks funded by debt.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/745308/000110465926119631/joe-20260930x10q.htm",
+      "document_id": "0001104659-26-119631",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-10-28 (read through WebFetch summarization; excerpt truncated before cash flow, debt and segment notes; direct download was refused by SEC for undeclared automated tools)",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T04:08:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0000745308.json",
+      "document_id": "SEC-submissions-CIK0000745308",
+      "origin": "SEC EDGAR submissions index",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T04:08:00-05:00"
+    },
+    {
+      "id": "facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000745308.json",
+      "document_id": "SEC-companyfacts-CIK0000745308",
+      "origin": "SEC XBRL company facts (FY2025 10-K 0001104659-26-019676 and 10-Qs)",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T04:08:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/joe/history/",
+      "document_id": "stockanalysis-JOE-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T04:08:00-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/JOE/history/",
+      "document_id": "yahoo-finance-JOE-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T04:08:00-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "sub"
+      ],
+      "note": "Submissions read 2026-11-08: newest are the 10-Q and the 8-K (items 2.02, 8.01, 9.01) both filed 2026-10-28; no later filings. Balance sheet and income statement read from a truncated fetch extract; cash flow figures come from XBRL facts. The earnings release exhibit and the 10-K text were not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "2026-09-30 (thousands): cash 117,856; investment in real estate net 982,628; JV investments 89,148; total assets 1,497,759; debt net 361,699; senior notes held by special purpose entity 179,086; total liabilities 724,797; stockholders' equity 765,116 (total equity 772,962). Debt principal, maturities and covenants not read."
+    },
+    "cashflow_basis_verified": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "facts"
+      ],
+      "note": "XBRL: OCF 190,696K (FY2025), 146,292K (9M2025), 143,856K (9M2026), so TTM OCF 188,260K. Reported PP&E purchases 3,811K for 9M2026; real estate development and hotel investment outflows were not identified, so FCF is missing, not computed. Buybacks 65,423K in 9M2026 (25,069K in 9M2025)."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "56,524,851 shares on the cover (2026-10-26) used for market cap; EPS uses weighted diluted shares; Q3 repurchased 412,800 shares for 27.4M including excise tax; treasury 993,472 shares."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "facts",
+        "qa",
+        "qb"
+      ],
+      "note": "No peer or own-history multiples (Howard Hughes, Forestar, Five Point, Tejon Ranch, other land developers), no NAV; EV (about 4.4B using debt plus SPE notes less cash) is approximate."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Land developer and hospitality owner model: sales timing, JV accounting, book value, debt; cash flow from operations is not treated as FCF."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Seen: JV land sale with deferred intra-entity profit, JV equity loss, NPV recognition on land sales. Not read: critical audit matters, litigation note 17, SPE note financing terms, capitalized development costs."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Written in counterthesis: high multiple, weak Q3 underneath JV land sale, JV losses, shrinking leasing, lumpy sales, hurricane and insurance exposure."
+    }
+  },
+  "price": {
+    "value": 69.97,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 69.97,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 69.97,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 69.97,
+      "shares": 56524851,
+      "market_cap_usd": 3955040000.0,
+      "debt_net_usd": 361699000,
+      "spe_senior_notes_usd": 179086000,
+      "cash_usd": 117856000,
+      "enterprise_value_usd_approx": 4377970000.0,
+      "equity_usd": 765116000,
+      "price_to_book": 5.17,
+      "ttm_revenue_usd": 542949000,
+      "ttm_net_income_usd": 121266000,
+      "ttm_eps": 2.11,
+      "pe_ttm": 33.2,
+      "ttm_ocf_usd": 188260000,
+      "ttm_capex_usd": null,
+      "ttm_fcf_usd": null
+    },
+    "operating": {
+      "nine_month_revenue_growth": 0.077,
+      "nine_month_net_income_growth": 0.066,
+      "q3_revenue_growth": -0.03,
+      "q3_net_income_growth": -0.046,
+      "nine_month_leasing_revenue_growth": -0.114,
+      "q3_jv_equity_income_usd": [
+        -8217000,
+        3480000
+      ]
+    },
+    "price_moves": {
+      "close_2026_10_30": 70.02,
+      "close_2026_11_03": 67.07,
+      "close_2026_11_04": 70.45,
+      "close_2026_11_06": 69.97
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peer multiples and NAV not gathered",
+    "Real estate development spending and FCF not identified",
+    "Debt maturities, SPE notes terms, covenants not read",
+    "Earnings release, 10-K audit matters, litigation note not read",
+    "Scores not assigned"
+  ]
+}
