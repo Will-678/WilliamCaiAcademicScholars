@@ -1,0 +1,202 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "EXE",
+  "exchange": "Nasdaq",
+  "currency": "USD",
+  "sector_model": "upstream oil and gas producer (largest US natural gas producer): production, realized price, hedging, adjusted EBITDAX, net debt, capex, reserves; GAAP net income distorted by derivative gains, so adjusted net income and cash flow used; generic P/E is commodity cycle dependent",
+  "as_of": "2026-11-07T20:06:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Expand Energy produced 7.54 Bcfe/d in Q3 2026 (92% gas) and 9M operating cash flow was 4,675M against cash capex 2,298M, giving free cash flow of 2,377M as the company defines it (adjusted 2,401M). Net debt is 4,656M, 0.8x trailing adjusted EBITDAX of 5,805M. At 84.60 (2026-11-06) and 230.96M shares market cap is about 19.54B, enterprise value about 24.2B or 4.2x trailing adjusted EBITDAX, and 9M adjusted net income of 1,578M (6.66 per share) annualizes to about 8.88 per share or about 9.5x. It returned about 1.3B in nine months (900M buybacks, 411M dividends) after funding the 1.4B Twin Eagle purchase.",
+  "counterthesis": "These earnings are priced off natural gas: 9M realized price including derivatives was 3.54 per Mcfe and Q3 was 3.17, so a lower gas price compresses cash flow quickly, and 784M of 9M GAAP income came from derivative gains (464M in Q3), which are noncash mark to market in part. Twin Eagle adds a marketing business (marketing revenue 2.82B in nine months, margin thin) with 349M goodwill and 1,089M intangibles, and receivables and working capital swings inflate operating cash flow. Annualizing nine months is an approximation of a gas year with unusually strong first half pricing; the Q3 run rate (adjusted FCF 354M, adjusted EPS 1.46, about 5.84 annualized, about 14.5x) is much weaker. Hedge position, reserves, depletion and decline rates were not read. Capex guidance is about 3B with 11 to 12 rigs, so maintenance versus growth capex is not separated. Debt is 4.7B of senior notes from 2029 to 2035 plus 450M drawn on the credit facility.",
+  "invalidation": "Henry Hub or Appalachia and Haynesville realized prices staying below about 3.00 per Mcfe for several quarters; free cash flow after dividends turning negative; net debt to EBITDAX above 1.5x; Twin Eagle impairment or marketing losses; reserve write-downs.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000068/exe-20260930.htm",
+      "document_id": "0000895126-26-000068",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-10-27",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T20:06:00-05:00"
+    },
+    {
+      "id": "rel",
+      "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000067/exe-ex_991x20260930x8kxpr.htm",
+      "document_id": "0000895126-26-000067 ex99.1",
+      "origin": "Issuer earnings release 2026-10-27 (SEC exhibit)",
+      "kind": "earnings_release",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T20:06:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0000895126.json",
+      "document_id": "SEC-submissions-CIK0000895126",
+      "origin": "SEC EDGAR submissions index",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T20:06:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/exe/history/",
+      "document_id": "stockanalysis-EXE-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T20:06:00-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/EXE/history/",
+      "document_id": "yahoo-finance-EXE-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T20:06:00-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel",
+        "sub"
+      ],
+      "note": "Submissions read 2026-11-07: 10-Q and 8-K (items 2.02, 7.01) both filed 2026-10-27 are newest periodic filings; later 8-Ks 2026-10-19 (5.02, 7.01) and 2026-10-13 (5.02) are officer or director items not read. Financial statements, tax, equity and debt notes read from the 10-Q; production, FCF, EBITDAX and guidance from the release. MD&A, hedging and reserves not read (10-Q text truncated in the fetch)."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "9/30/2026: cash 118M plus restricted 103M, total assets 29,742M, long-term debt net 4,632M (credit facility 450M plus senior notes 4,688M principal), total liabilities 10,242M, equity 19,500M. Twin Eagle facility undrawn with 266M letters of credit."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "9M operating cash flow 4,675M less cash capex 2,298M = 2,377M, matching the release FCF. Twin Eagle acquisition 1,395M, repurchases 900M, dividends 411M and debt purchases 1,287M are outside FCF. Working capital effect on operating cash flow not separated."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "230,957,348 shares outstanding at 2026-10-20 (cover) used for market cap; Q3 diluted weighted 231.731M and 9M 236.909M for EPS; buybacks reduce the count."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "rel",
+        "qa",
+        "qb"
+      ],
+      "note": "EV/EBITDAX and annualized adjusted P/E computed; no peer multiples (EQT, CRK, Antero, Coterra), strip price sensitivity, reserves-based NAV or own history."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "Upstream model: production, realized price, adjusted EBITDAX, net debt to EBITDAX, capex, derivative gains stripped from earnings. Generic P/E only as a cross-check."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "Derivative gains (784M in 9M), 37M debt extinguishment gain, Twin Eagle purchase accounting (349M goodwill, 1,089M intangibles) and a discrete deferred tax benefit noted. Impairment tests, reserve audit and 10-K critical audit matters not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "Written in counterthesis field: gas price sensitivity, derivative gains, marketing, annualization."
+    }
+  },
+  "price": {
+    "value": 84.6,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 84.6,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 84.6,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 84.6,
+      "shares": 230957348,
+      "market_cap_usd": 19539,
+      "net_debt_usd": 4656000000,
+      "enterprise_value_usd": 4656019539,
+      "ttm_adj_ebitdax_usd": 5805000000,
+      "ev_to_ttm_adj_ebitdax": 0.8,
+      "adj_eps_9m": 6.66,
+      "adj_eps_annualized_9m_approx": 8.88,
+      "pe_adj_annualized_9m_approx": 9.5,
+      "adj_eps_q3": 1.46,
+      "pe_adj_q3_annualized": 14.5,
+      "fcf_9m_usd": 2377000000,
+      "fcf_yield_annualized_9m_approx": 162205.5729,
+      "fcf_yield_q3_annualized": 69399.6919,
+      "dividend_annual": 2.3,
+      "dividend_yield": 0.0272
+    },
+    "operating": {
+      "production_bcfe_d_q3": 7.54,
+      "production_bcfe_d_9m": 7.49,
+      "realized_price_per_mcfe_q3": 3.17,
+      "realized_price_per_mcfe_9m": 3.54,
+      "net_debt_to_ebitdax": 0.8,
+      "capex_guide_usd": 3000000000,
+      "derivative_gains_9m_usd": 784000000,
+      "derivative_gains_q3_usd": 464000000,
+      "gaap_net_income_9m_usd": 2200000000,
+      "gaap_eps_9m": 9.29
+    },
+    "price_moves": {
+      "close_2026_11_04": 87.31,
+      "close_2026_11_05": 85.34,
+      "close_2026_11_06": 84.6
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Hedge position, reserves and decline rates not read",
+    "Peer multiples (EQT, CRK, AR, CTRA) and gas price sensitivity not gathered",
+    "Annualized nine months overstates a weaker Q3 run rate; trailing twelve month EPS not read",
+    "Twin Eagle marketing economics and working capital not separated",
+    "Scores not assigned"
+  ]
+}

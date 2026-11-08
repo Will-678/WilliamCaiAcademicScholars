@@ -129,3 +129,9 @@ Report reports/2026-11-07-090707.md. 14 records revalidated (data/quality_compil
 - Researched ATO (regulated gas utility, 20.4x FY26 EPS, FCF -1.4B in 9M funded by debt and shares) and TRNO (industrial REIT, about 23x self-computed FFO, 3.4% yield): both watch, medium, scores null, valid, not attractive-eligible (data/quality_run11_*.json). ATO FY26 10-K not yet filed; TRNO company FFO not read.
 - Benchmark VTI still pending; no paper references. Quote origins are two publishers only.
 - Next: Sunday review due 2026-11-08; peers for all utilities/REITs/others; ATO 10-K when filed; QLYS 10-Q; EXEL '039 ruling; uncovered: consumer, transport, energy producers.
+
+## Worker run 2026-11-07 ~20:15 ET (method 2.0, run 12)
+- Screen not refreshed (about 16 hours old). QLYS still has no Q3 10-Q.
+- Researched TXRH (restaurant: ~27x annualized 9M EPS, FCF yield ~3.0%, QTD comps +1.5%, -6.4% in two sessions) and EXE (gas producer: 4.2x EV/EBITDAX, 0.8x net debt/EBITDAX, derivative gains 784M in 9M): both watch, medium, scores null, valid, not attractive-eligible (data/quality_run12_*.json; all 22 records revalidated in data/quality_latest.json).
+- Benchmark VTI still pending; no paper references. Quote origins are two publishers only.
+- Next: Sunday review due 2026-11-08; peers for all; EXE hedges/reserves; TXRH trailing EPS and call; QLYS 10-Q; EXEL '039 ruling; uncovered: transport, staples, small caps.

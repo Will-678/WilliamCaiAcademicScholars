@@ -1,0 +1,196 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "TXRH",
+  "exchange": "Nasdaq",
+  "currency": "USD",
+  "sector_model": "restaurant operator: restaurant margin, comparable sales and traffic, commodity (beef) and labor inflation, unit growth, capex, lease liabilities; nonfinancial FCF with leases shown separately",
+  "as_of": "2026-11-07T20:06:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Texas Roadhouse (steakhouse chain, company and franchise units) grew Q3 2026 revenue 9.5% to 1.573B and diluted EPS 8.6% to 1.36; nine-month operating cash flow 585.9M less capex 314.4M left 271.5M of free cash flow while it paid 147.9M dividends and repurchased 84.2M of stock, with only 50M revolver debt against 141.4M cash. After falls of 2.4% on 11-05 and 4.1% on 11-06 to 183.88, market cap is about 12.07B: roughly 27x annualized nine-month EPS (5.08 x 4/3 = 6.77, an approximation because Q4 2025 was not read) and an annualized free cash flow yield near 3.0%.",
+  "counterthesis": "Quarter-to-date company comparable sales slowed to +1.5% (Q3 4.3%, nine months 5.9%) including about 1% menu price, so traffic is likely negative; the CEO said traffic softened late in the quarter. Nine-month restaurant margin fell to 15.8% from 16.0% as commodity inflation ran 5.0% (about half of food cost is beef, guided about 5.0% for the year) and wage inflation 3.9%. Net income grew only 4.3% in nine months against 11.2% revenue growth. Capex guidance rose to about 440M and store week growth is 5.0% to 5.5%, so free cash flow is thin for a 27x multiple. Lease liabilities are 1.07B and not in the debt figure. The stock still trades at a premium multiple despite the two day drop, and the cause of the fall (the guidance and quarter-to-date comps) is now identified from the release but not the call.",
+  "invalidation": "Company comparable sales turning negative for two quarters; restaurant margin below 14% for a quarter; beef inflation above 8%; capex or lease obligations rising faster than operating cash flow; franchise comps diverging sharply from company comps.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1289460/000162828026071362/txrh-20260929.htm",
+      "document_id": "0001628280-26-071362",
+      "origin": "SEC EDGAR 10-Q period 2026-09-29 filed 2026-11-06",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T20:06:00-05:00"
+    },
+    {
+      "id": "rel",
+      "url": "https://www.sec.gov/Archives/edgar/data/1289460/000162828026071018/txrhq32026november52026-ex.htm",
+      "document_id": "0001628280-26-071018 ex99.1",
+      "origin": "Issuer earnings release 2026-11-05 (SEC exhibit)",
+      "kind": "earnings_release",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T20:06:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001289460.json",
+      "document_id": "SEC-submissions-CIK0001289460",
+      "origin": "SEC EDGAR submissions index",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T20:06:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/txrh/history/",
+      "document_id": "stockanalysis-TXRH-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T20:06:00-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/TXRH/history/",
+      "document_id": "yahoo-finance-TXRH-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-07T20:06:00-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel",
+        "sub"
+      ],
+      "note": "Submissions read 2026-11-07: 10-Q filed 2026-11-06 and 8-K (items 2.02, 8.01) filed 2026-11-05 are newest; income statement, balance sheet, cash flow and cover read from the 10-Q, and results, guidance and quarter-to-date comps from the release. Beef-specific inflation, MD&A detail and 10-K not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "9/29/2026: cash 141.4M, revolver 50.0M (397.6M available), lease liabilities 1,065.8M (33.6M current, 1,032.2M non-current), total liabilities 2,084.6M, equity 1,589.9M attributable (1,610.4M with noncontrolling)."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "39 weeks: operating cash flow 585.9M, capex 314.4M, dividends 147.9M, repurchases 84.2M including excise tax. Same period and unit; capex reported, not assumed."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "65,625,375 shares outstanding at 2026-10-28 (cover) used for market cap; Q3 diluted weighted 65,785K and 39-week 65,938K used for EPS."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "rel",
+        "qa",
+        "qb"
+      ],
+      "note": "Annualized-9M multiples only (Q4 2025 and trailing twelve months EPS not read); no peer multiples (Cheesecake, Darden, BJRI, Cracker Barrel) or own history."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "Restaurant model: restaurant margin, comps, commodity and labor inflation, openings, capex, leases shown separately from debt."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Contingent lease and debt guarantees 18.5M with no liability recorded noted; no litigation of concern per the 10-Q. 10-K critical audit matters, franchise and gift card accounting not read. The release table shows margin 16.0% to 15.8% while the text says 24 bps; unreconciled."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "Written in the counterthesis field: slowing comps, beef inflation, thin FCF at premium multiple, leases."
+    }
+  },
+  "price": {
+    "value": 183.88,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 183.88,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 183.88,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 183.88,
+      "shares": 65625375,
+      "market_cap_usd": 12067,
+      "net_cash_excluding_leases_usd": 91412000,
+      "nine_month_diluted_eps": 5.08,
+      "annualized_9m_eps_approx": 6.77,
+      "pe_annualized_9m_approx": 27.1,
+      "nine_month_fcf_usd": 271481000,
+      "annualized_fcf_yield_approx": 29996.5898,
+      "lease_liabilities_usd": 1065795000,
+      "dividend_quarterly": 0.75,
+      "dividend_yield": 0.0163
+    },
+    "operating": {
+      "revenue_growth_q3": 0.095,
+      "revenue_growth_9m": 0.112,
+      "net_income_growth_9m": 0.043,
+      "restaurant_margin_q3": 0.146,
+      "restaurant_margin_9m": 0.158,
+      "comp_sales_q3": 0.043,
+      "comp_sales_9m": 0.059,
+      "comp_sales_qtd_q4": 0.015,
+      "commodity_inflation_guide": 0.05,
+      "capex_guide_usd": 440000000
+    },
+    "price_moves": {
+      "close_2026_11_04": 196.45,
+      "close_2026_11_05": 191.79,
+      "close_2026_11_06": 183.88,
+      "two_day_change": -0.064
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Trailing twelve month EPS and FCF (Q4 2025 not read); annualized nine months is an approximation",
+    "Peer multiples and own history not gathered",
+    "Call commentary on traffic and beef costs; 10-K and audit matters not read",
+    "Release margin table vs text discrepancy (16.0 to 15.8 vs 24 bps) unreconciled",
+    "Scores not assigned"
+  ]
+}
