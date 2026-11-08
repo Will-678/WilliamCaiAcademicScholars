@@ -100,7 +100,8 @@ def validate(record, now=None):
         if source.get("read_status") not in ("relevant_sections", "full", "snippet", "unread"):
             errors.append(f"{identity}: invalid read_status")
     primary = [s for s in sources if s.get("kind") in ("annual_filing", "quarterly_filing", "earnings_release")
-               and s.get("read_status") in ("relevant_sections", "full")]
+               and s.get("read_status") in ("relevant_sections", "full")
+               and not any(m in str(s.get("url", "")).lower() for m in ("/companyfacts/", "/api/xbrl/", "/submissions/"))]
     kinds = {s.get("kind") for s in primary}
     if "annual_filing" not in kinds or len({s.get("document_id") for s in primary}) < 2:
         blockers.append("Read the annual filing and a distinct recent filing or earnings document")

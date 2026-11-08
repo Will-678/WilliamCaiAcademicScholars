@@ -157,6 +157,14 @@ class ResearchTests(unittest.TestCase):
         record["checks"]["balance_sheet_verified"]["passed"] = False
         self.assertFalse(quality.validate(record, NOW)["valid"])
 
+    def test_xbrl_api_is_not_annual_filing_evidence(self):
+        record = complete_record()
+        for source in record["sources"]:
+            if source["kind"] == "annual_filing":
+                source["url"] = "https://data.sec.gov/api/xbrl/companyfacts/CIK0000000000.json"
+        result = quality.validate(record, NOW)
+        self.assertIn("Read the annual filing and a distinct recent filing or earnings document", result["blockers"])
+
     def test_search_snippet_is_not_filing_evidence(self):
         record = complete_record()
         record["sources"][1]["read_status"] = "snippet"

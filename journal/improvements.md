@@ -33,3 +33,6 @@ Remaining: observe the next morning compilation and future scheduled runs; finis
 ## 2026-11-08 independent audit
 
 Fixed stale quote eligibility when an old record is revalidated. Reproduced with a failing regression, then all 26 tests passed; all 26 saved real records remained structurally valid and none attractive-eligible. Three specific financial claims were checked against primary filings. Remaining priorities: annual filing versus XBRL provenance, independent quote origins, peer/accounting gaps and honest depth counts. Full evidence: reviews/2026-11-08-independent.md. Rollback versions of the two changed code/test files are at 85d19726c0ce76bf8a5f9001641a04fb48361d48; restore through a new commit, never a reset. No strategy thresholds or task cadence changed.
+
+## 2026-11-08 compiler review
+Validator no longer counts XBRL or submissions API URLs as the annual filing read (evidence: five records labelled companyfacts as annual_filing). Regression test added; 27 tests pass; 26 records still valid, 0 eligible. Rollback reference 50e22e01ab5b519a4a389f03310742cd5754d604 for tools/validate_research.py and tests/test_research_quality.py. Details in reviews/2026-11-08.md.

@@ -155,3 +155,6 @@ Report reports/2026-11-07-090707.md. 14 records revalidated (data/quality_compil
 - Researched ZTS (13.4x TTM, FCF yield 6.9%, US companion animal -8%, dermatology -15.7%, stock -11% in two sessions) and CORT (Q3 op income 114.7M, 49x TTM NI, PDUFA 2026-12-17): both watch, medium, scores null, valid, not attractive-eligible (data/quality_run15_*.json; 26 records revalidated: 26 valid, 0 eligible).
 - Benchmark VTI still pending; no paper references. Quote origins are two publishers only. Used data.sec.gov APIs and WebFetch only.
 - Next: peers for all names; ZTS notes and Neogen deal; CORT release and Teva litigation; QLYS 10-Q; EXEL '039 ruling; OLED filing text; staples, trucking, small caps uncovered.
+
+## Morning compile 2026-11-08 ~09:10 ET (Sunday)
+Report reports/2026-11-08-090658.md and latest.md; weekly review reviews/2026-11-08.md. 26 records revalidated (26 valid, 0 eligible, data/quality_compile_2026-11-08.json). No new filings for ZTS, GMED, CARG, CORT, EXEL; QLYS still no Q3 10-Q. Validator fix: XBRL API sources do not count as annual filing reads (27 tests). Leaders: ZTS, GMED, CARG, all watch. Next: peers and notes for the leaders, full annual filing reads for CORT/JOE/MCRI/WLFC/ZTS, independent quote origin, QLYS only after issuer announces.
