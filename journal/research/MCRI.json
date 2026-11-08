@@ -1,0 +1,197 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "MCRI",
+  "exchange": "Nasdaq",
+  "currency": "USD",
+  "sector_model": "regional casino operator: net revenue, property EBITDA margin, depreciation roll-off, capex, net cash, buybacks; litigation contingency; nonfinancial FCF",
+  "as_of": "2026-11-08T00:07:22-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Monarch Casino & Resort (Atlantis Reno, Black Hawk CO) has no debt, 137.4M cash and 99.4M undrawn revolver at 2026-09-30. Trailing twelve month (TTM) figures built from FY2025 10-K plus nine-month deltas: net revenue 565.4M, net income 115.1M, diluted EPS 6.31, operating cash flow 168.2M, acquisition of property and equipment 25.6M, free cash flow about 142.6M. At the 2026-11-06 close of 108.75 and 17,635,985 shares (cover, 2026-10-28) market cap is about 1.918B: 17.2x TTM EPS, 7.4% FCF yield, about 1.78B enterprise value (market cap less cash, no debt; operating leases only 12.6M). Nine-month EPS rose 21.1% to 5.06 on revenue +5.0%, and buybacks (54.9M in 9M, 300,859 shares for 37M in Q3) plus 16.0M dividends are funded from cash flow.",
+  "counterthesis": "Most of the profit jump is accounting, not demand: nine-month depreciation fell to 31.9M from 40.8M because the 2020 Black Hawk tower became fully depreciated by Q4 2025 (an 8.9M pre-tax tailwind versus a 16.4M rise in operating income), and Q3 revenue grew only 2.4% with net income +1.4%. Nine-month capex is unusually low (19.6M vs 30.4M) and TTM capex of 25.6M may understate maintenance needs, flattering FCF. A multi-year construction dispute with PCL (a February 2025 judgment that the company disputes; 3.3M of judgment interest accrued in 9M2026; the lender waived default; the Gilpin County stay was lifted effective 2026-09-16) has an outcome the company says it cannot estimate. Regional gaming is cyclical and exposed to consumer spending, and Reno and Black Hawk concentration is high. The stock fell 5.2% in the 11-03 to 11-06 window after the earnings week (114.74 on 11-02 to 108.75).",
+  "invalidation": "Q4 and Q1 net revenue turning negative year over year; property EBITDA margin falling under about 30% after the depreciation tailwind; maintenance capex rising above about 40M a year; an adverse PCL ruling above about 100M or lender default; buybacks financed with revolver draws.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/907242/000110465926120630/mcri-20260930x10q.htm",
+      "document_id": "0001104659-26-120630",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-10-30",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T00:07:22-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0000907242.json",
+      "document_id": "SEC-submissions-CIK0000907242",
+      "origin": "SEC EDGAR submissions index",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T00:07:22-05:00"
+    },
+    {
+      "id": "facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000907242.json",
+      "document_id": "SEC-companyfacts-CIK0000907242",
+      "origin": "SEC XBRL company facts drawn from the 10-K (0001104659-26-018717) and the 10-Q; FY2025 and 9M2025 comparatives",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T00:07:22-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/mcri/history/",
+      "document_id": "stockanalysis-MCRI-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T00:07:22-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/MCRI/history/",
+      "document_id": "yahoo-finance-MCRI-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T00:07:22-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "sub"
+      ],
+      "note": "Submissions read 2026-11-08: newest are the 10-Q filed 2026-10-30 (period 2026-09-30) and 8-K filed 2026-10-28 (items 2.02, 8.01, 9.01); income statement, balance sheet, cash flow, notes 6-9 and MD&A read from the 10-Q. The 2026-10-28 earnings release exhibit and the FY2025 10-K text were not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "2026-09-30: cash 137,407K (96,468K at 2025-12-31); total current assets 166,056K; total assets 736,056K; total liabilities 166,582K; no borrowings under the credit facility (99.4M available, 0.6M letter of credit, matures 2028-01-01); lease liabilities 961K current + 11,638K long term; equity 569,474K."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "facts"
+      ],
+      "note": "9M2026 operating cash flow 130,043K, acquisition of property and equipment 19,641K (cash paid for capex text says 22.3M including change in construction payables), dividends 16,029K, buybacks 54,906K. TTM = FY2025 (164,749K OCF; 36,324K capex) minus 9M2025 (126,612K; 30,399K) plus 9M2026; same units and periods; capex is reported, not assumed."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "17,635,985 shares outstanding at 2026-10-28 (cover; also balance sheet 2026-09-30) used for market cap; diluted EPS (Q3 1.76, 9M 5.06) uses weighted diluted shares. Company bought 300,859 shares in Q3, so period-average shares exceed the current count."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "facts",
+        "qa",
+        "qb"
+      ],
+      "note": "Own-history and peer multiples (Boyd, Red Rock, Golden Entertainment, Century Casinos) not gathered; EBITDA not computed against a verified property-level figure; so valuation is a stand-alone estimate."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Casino operator model: net revenue by segment, operating income, D&A roll-off, maintenance capex, net cash, litigation; leases are small and shown separately; not a bank or REIT."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Read: depreciation decline (fully depreciated tower), PCL judgment interest accrual 3.3M and unquantified outcome, lender waiver, uncertain tax position 739K, options excluded from diluted shares. Not read: 10-K critical audit matters, the judgment amount, and gaming-tax or promotional-allowance accounting."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Written in counterthesis: depreciation tailwind, slowing Q3 growth, low capex, PCL litigation, cyclicality and concentration."
+    }
+  },
+  "price": {
+    "value": 108.75,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 108.75,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 108.75,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 108.75,
+      "shares": 17635985,
+      "market_cap_usd": 1917900000.0,
+      "cash_usd": 137407000,
+      "debt_usd": 0,
+      "enterprise_value_usd": 1780500000.0,
+      "ttm_revenue_usd": 565415000,
+      "ttm_net_income_usd": 115064000,
+      "ttm_diluted_eps": 6.31,
+      "pe_ttm": 17.2,
+      "ttm_ocf_usd": 168180000,
+      "ttm_capex_usd": 25566000,
+      "ttm_fcf_usd": 142614000,
+      "fcf_yield": 0.0744,
+      "ev_to_ttm_fcf": 12.5
+    },
+    "operating": {
+      "q3_revenue_growth": 0.024,
+      "nine_month_revenue_growth": 0.05,
+      "nine_month_net_income_growth": 0.174,
+      "nine_month_eps_growth": 0.211,
+      "q3_net_income_growth": 0.014,
+      "nine_month_da_2026_usd": 31947000,
+      "nine_month_da_2025_usd": 40842000,
+      "nine_month_operating_income_2026_usd": 114800000,
+      "nine_month_operating_income_2025_usd": 98400000
+    },
+    "price_moves": {
+      "close_2026_11_02": 114.74,
+      "close_2026_11_03": 113.88,
+      "close_2026_11_04": 113.13,
+      "close_2026_11_05": 109.34,
+      "close_2026_11_06": 108.75
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peer and historical multiples not gathered",
+    "PCL judgment amount and 10-K audit matters not read",
+    "Earnings release exhibit and call commentary not read; cause of the post-earnings decline unconfirmed",
+    "Maintenance capex level unverified",
+    "Scores not assigned"
+  ]
+}

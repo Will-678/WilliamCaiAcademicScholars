@@ -1,0 +1,187 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "OLED",
+  "exchange": "Nasdaq",
+  "currency": "USD",
+  "sector_model": "technology licensing and OLED materials: unit material and royalty revenue, margins, customer concentration, net cash, buybacks; nonfinancial FCF",
+  "as_of": "2026-11-08T00:07:22-05:00",
+  "status": "insufficient_evidence",
+  "confidence": "low",
+  "thesis": "Universal Display (OLED phosphorescent materials and licensing) is debt-free on XBRL tags: at 2026-09-30 cash 93.4M plus short-term investments 340.0M = 433.5M, total liabilities 212.9M. From SEC XBRL data tied to the FY2025 10-K and the 10-Q filed 2026-10-28, TTM revenue is 627.7M (FY2025 650.6M - 9M2025 477.7M + 9M2026 454.8M), TTM net income 230.6M and diluted EPS 4.92, operating cash flow about 265.2M and capex about 33.6M (FCF about 231.6M). At the 2026-11-06 close of 88.31 and 45,023,810 shares (cover 2026-10-23) market cap is about 3.98B: 17.9x TTM EPS, 5.8% FCF yield. Nine-month revenue is down 4.8%, operating income down 17.2% and EPS down 4.3% (3.52 vs 3.68), so this is a profitable, cash-rich business whose earnings are currently shrinking.",
+  "counterthesis": "Nine-month revenue fell 4.8% and operating income 17.2%, so trailing multiples flatter the current run rate: annualizing 9M2026 EPS (3.52 x 4/3 = 4.69) gives 18.8x. Quarterly revenue is lumpy (Q3 2026 revenue 160.4M was +14.9% versus 139.6M in Q3 2025 while first-half 2026 of 294.4M was down about 12.9% versus 338.1M, so the trend may be turning, which this record cannot confirm because the filing text was not read). The company depends on a few display makers and on OLED adoption; share repurchases of 193.0M in 9M2026 (vs 0 in 9M2025) reduce share count but consume cash. Sources limited to XBRL facts; no read MD&A, so revenue mix (materials vs royalties), customer concentration, tariff or China exposure and guidance are unknown.",
+  "invalidation": "Revenue declining year over year for two more quarters; operating margin falling under about 30%; loss of a major licensee; buybacks exceeding free cash flow while the cash pile shrinks.",
+  "sources": [
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001005284.json",
+      "document_id": "SEC-submissions-CIK0001005284",
+      "origin": "SEC EDGAR submissions index",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T00:07:22-05:00"
+    },
+    {
+      "id": "facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001005284.json",
+      "document_id": "SEC-companyfacts-CIK0001005284",
+      "origin": "SEC XBRL company facts from the 10-K (0001193125-26-059371) and 10-Q (0001193125-26-436148); structured data, filing text not read",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T00:07:22-05:00"
+    },
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1005284/000119312626436148/oled-20260930.htm",
+      "document_id": "0001193125-26-436148",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-10-28; the document URL returned HTTP 404 in this run",
+      "kind": "quarterly_filing",
+      "read_status": "unread",
+      "accessed_at": "2026-11-08T00:07:22-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/oled/history/",
+      "document_id": "stockanalysis-OLED-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T00:07:22-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/OLED/history/",
+      "document_id": "yahoo-finance-OLED-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T00:07:22-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": false,
+      "source_ids": [
+        "sub"
+      ],
+      "note": "Submissions index shows the newest 10-Q filed 2026-10-28 and 8-K (items 2.02, 9.01) filed 2026-10-28 for period 2026-09-30, but neither document text was read; the 8-K exhibit was not located."
+    },
+    "balance_sheet_verified": {
+      "passed": false,
+      "source_ids": [
+        "facts"
+      ],
+      "note": "XBRL facts only: 2026-09-30 cash 93,447K, short-term investments 340,020K, liabilities 212,910K, assets 1,878,411K, equity 1,665,501K. Not verified from the filing text; the 10-Q document returned HTTP 404 and only SEC XBRL facts were read."
+    },
+    "cashflow_basis_verified": {
+      "passed": false,
+      "source_ids": [
+        "facts"
+      ],
+      "note": "XBRL: 9M2026 OCF 234,058K and capex 17,507K; FY2025 210,830K and 56,470K; 9M2025 179,681K and 40,383K. Same-period math done, but statement text not read. Not verified from the filing text; the 10-Q document returned HTTP 404 and only SEC XBRL facts were read."
+    },
+    "share_count_basis_verified": {
+      "passed": false,
+      "source_ids": [
+        "facts"
+      ],
+      "note": "dei cover shares 45,023,810 as of 2026-10-23 from XBRL; cover page not read directly."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "facts",
+        "qa",
+        "qb"
+      ],
+      "note": "TTM multiples computed from XBRL only; no peers, history or segment detail."
+    },
+    "sector_model_appropriate": {
+      "passed": false,
+      "source_ids": [
+        "facts"
+      ],
+      "note": "Materials and licensing model chosen, but segment data (material vs royalty) not read."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "facts"
+      ],
+      "note": "Not reviewed; no filing text read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "facts"
+      ],
+      "note": "Written in counterthesis from the XBRL trend, with the source limitation stated."
+    }
+  },
+  "price": {
+    "value": 88.31,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 88.31,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 88.31,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 88.31,
+      "shares": 45023810,
+      "market_cap_usd": 3976000000.0,
+      "cash_and_short_term_investments_usd": 433467000,
+      "ttm_revenue_usd": 627727000,
+      "ttm_net_income_usd": 230605000,
+      "ttm_diluted_eps": 4.92,
+      "pe_ttm": 17.9,
+      "ttm_ocf_usd": 265207000,
+      "ttm_capex_usd": 33594000,
+      "ttm_fcf_usd": 231613000,
+      "fcf_yield": 0.0583
+    },
+    "operating": {
+      "nine_month_revenue_growth": -0.048,
+      "nine_month_operating_income_growth": -0.172,
+      "nine_month_eps_2026": 3.52,
+      "nine_month_eps_2025": 3.68,
+      "buybacks_9m_2026_usd": 192960000,
+      "dividends_9m_2026_usd": 69373000
+    },
+    "price_moves": {
+      "close_2026_11_02": 89.84,
+      "close_2026_11_03": 89.4,
+      "close_2026_11_04": 89.57,
+      "close_2026_11_05": 87.13,
+      "close_2026_11_06": 88.31
+    }
+  },
+  "unresolved_critical_gaps": [
+    "10-Q and earnings release text not read (document URL 404)",
+    "Revenue mix, customer concentration, guidance, tariffs unknown",
+    "No peer or historical multiples",
+    "Scores not assigned"
+  ]
+}

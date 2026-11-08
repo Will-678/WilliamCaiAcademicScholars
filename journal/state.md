@@ -135,3 +135,10 @@ Report reports/2026-11-07-090707.md. 14 records revalidated (data/quality_compil
 - Researched TXRH (restaurant: ~27x annualized 9M EPS, FCF yield ~3.0%, QTD comps +1.5%, -6.4% in two sessions) and EXE (gas producer: 4.2x EV/EBITDAX, 0.8x net debt/EBITDAX, derivative gains 784M in 9M): both watch, medium, scores null, valid, not attractive-eligible (data/quality_run12_*.json; all 20 JSON records revalidated (20 valid, 0 eligible) in data/quality_latest.json).
 - Benchmark VTI still pending; no paper references. Quote origins are two publishers only.
 - Next: Sunday review due 2026-11-08; peers for all; EXE hedges/reserves; TXRH trailing EPS and call; QLYS 10-Q; EXEL '039 ruling; uncovered: transport, staples, small caps.
+
+## Worker run 2026-11-08 ~00:30 ET (method 2.0, run 13)
+- Screen not refreshed (about 20 hours old). QLYS still has no Q3 10-Q.
+- Researched MCRI (casino: 17.2x TTM, FCF yield 7.4%, net cash; EPS growth partly depreciation roll-off) and OLED (17.9x TTM, FCF yield 5.8%, 9M revenue -4.8%; 10-Q URL 404 so only XBRL read, insufficient evidence). Both valid, not attractive-eligible (data/quality_run13_*.json).
+- Benchmark VTI still pending; no paper references. Quote origins are two publishers only.
+- Next: Sunday review due 2026-11-08; OLED filing text via filing index; MCRI PCL amount and peers; QLYS 10-Q; EXEL '039 ruling; refresh screen after 04:05 ET; uncovered: transport, staples.
+
