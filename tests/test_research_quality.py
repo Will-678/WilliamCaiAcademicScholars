@@ -110,6 +110,13 @@ class ScreenTests(unittest.TestCase):
 
 
 class ResearchTests(unittest.TestCase):
+    def test_old_snapshot_cannot_keep_quote_fresh(self):
+        record = complete_record()
+        later = datetime(2026, 11, 20, 0, tzinfo=timezone.utc)
+        result = quality.validate(record, later)
+        self.assertFalse(result["eligible_attractive"])
+        self.assertIn("Quote is stale at validation time", result["blockers"])
+
     def test_complete_fixture_passes(self):
         self.assertTrue(quality.validate(complete_record(), NOW)["eligible_attractive"])
 

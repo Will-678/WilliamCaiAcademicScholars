@@ -29,3 +29,7 @@ The two saved records were independently fetched from GitHub and rechecked with 
 
 The repository attachment and both method 2.0 task briefs are saved. An independent weekly ChatGPT quality review is enabled for Sunday mornings, in addition to the compiler's documented Sunday retrospective.
 Remaining: observe the next morning compilation and future scheduled runs; finish missing source evidence; expand international coverage only when reliable authorized data exists. No investment edge or performance claim is established.
+
+## 2026-11-08 independent audit
+
+Fixed stale quote eligibility when an old record is revalidated. Reproduced with a failing regression, then all 26 tests passed; all 26 saved real records remained structurally valid and none attractive-eligible. Three specific financial claims were checked against primary filings. Remaining priorities: annual filing versus XBRL provenance, independent quote origins, peer/accounting gaps and honest depth counts. Full evidence: reviews/2026-11-08-independent.md. Rollback versions of the two changed code/test files are at 85d19726c0ce76bf8a5f9001641a04fb48361d48; restore through a new commit, never a reset. No strategy thresholds or task cadence changed.

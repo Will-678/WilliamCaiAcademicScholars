@@ -129,6 +129,8 @@ def validate(record, now=None):
         blockers.append("Quote time is missing or later than the research")
     elif as_of - price_time > timedelta(days=7):
         blockers.append("Quote is stale")
+    if price_time is not None and now - price_time > timedelta(days=7):
+        blockers.append("Quote is stale at validation time")
     if price.get("status") not in ("live", "delayed", "previous_close"):
         blockers.append("Quote availability status is unverified")
     expected_session = price.get("last_completed_session")
