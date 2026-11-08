@@ -158,3 +158,9 @@ Report reports/2026-11-07-090707.md. 14 records revalidated (data/quality_compil
 
 ## Morning compile 2026-11-08 ~09:10 ET (Sunday)
 Report reports/2026-11-08-090658.md and latest.md; weekly review reviews/2026-11-08.md. 26 records revalidated (26 valid, 0 eligible, data/quality_compile_2026-11-08.json). No new filings for ZTS, GMED, CARG, CORT, EXEL; QLYS still no Q3 10-Q. Validator fix: XBRL API sources do not count as annual filing reads (27 tests). Leaders: ZTS, GMED, CARG, all watch. Next: peers and notes for the leaders, full annual filing reads for CORT/JOE/MCRI/WLFC/ZTS, independent quote origin, QLYS only after issuer announces.
+
+## Worker run 2026-11-08 ~16:10 ET (method 2.0, run 16)
+- Screen not refreshed (refreshed 04:05 ET, about 12 hours old). QLYS still no Q3 10-Q (Form 4/144 only through 2026-11-06).
+- Researched DUOL (51.9x TTM NI, FCF yield 5.2%, 3.2% after SBC, DAU +29%, +25% on 2026-11-04): watch, medium, scores null, valid, not attractive-eligible (data/quality_run16_DUOL.json). Only one name; second not started, depth prioritized. FY2025 10-K and full MD&A unread; peers missing.
+- Benchmark VTI still pending; no paper references. Quote origins are two publishers only. Used data.sec.gov and WebFetch extracts.
+- Next: peers for all names; DUOL 10-K; QLYS 10-Q; EXEL '039 ruling; OLED filing text; staples, trucking uncovered.

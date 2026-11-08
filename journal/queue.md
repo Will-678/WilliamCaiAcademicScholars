@@ -1,6 +1,6 @@
 # Research queue (persisted)
 
-Updated 2026-11-06 04:2x ET by the four hour worker (run 2). Stages: lead, valuation_pending, researched_watch, researched_pass, blocked.
+Updated 2026-11-08 16:1x ET by the four hour worker (run 16). Stages: lead, valuation_pending, researched_watch, researched_pass, blocked.
 
 | CIK | Ticker | Exchange | Sector | Stage | Last reviewed | Next action | Due | Reason |
 |---|---|---|---|---|---|---|---|---|
@@ -31,6 +31,7 @@ Updated 2026-11-06 04:2x ET by the four hour worker (run 2). Stages: lead, valua
 | 745308 | JOE | NYSE | Real estate land and hospitality (mid) | researched_watch | 2026-11-08 | Peers (HHH, FOR, FPH, TRC); development spending for FCF; debt terms; release; JV losses | 2026-11-15 | 33x TTM, 5.2x book, Q3 revenue -3% and JV loss; journal/research/JOE.json |
 | 1555280 | ZTS | NYSE | Healthcare animal health (large) | researched_watch | 2026-11-08 | Peers (ELAN, IDXX, PAHC); 10-K and 10-Q notes (CAMs, litigation, tariffs, maturities); adjusted reconciliation; dermatology share data | 2026-11-15 | 13.4x TTM, FCF yield 6.9%, net debt 7.5B, US companion animal -8% organic, -11% in two sessions; journal/research/ZTS.json |
 | 1088856 | CORT | Nasdaq | Healthcare specialty pharma (mid) | researched_watch | 2026-11-08 | Read earnings release, Teva litigation, rest of 10-Q; PDUFA 2026-12-17 relacorilant; Lifyorli trend; peers | 2026-11-15 | Q3 op income 114.7M vs 10.2M, 49x TTM NI, FCF yield 2.4%, net cash 662M; journal/research/CORT.json |
+| 1562088 | DUOL | Nasdaq | Consumer subscription software (mid) | researched_watch | 2026-11-08 | Peers (Coursera, Chegg, Bumble); read FY2025 10-K and full MD&A; monetization vs DAU; class action; tax-normalized EPS | 2026-11-15 | 51.9x TTM NI, FCF yield 5.2% (3.2% after SBC), DAU +29%, +25% on 11-04; journal/research/DUOL.json |
 | 1369568 | CPRX | Nasdaq | Healthcare pharma (small) | removed | 2026-11-06 | None; acquired by Angelini Pharma (8-K 2026-07-16); confirm delisting if revisited | none | Screened lead no longer an independent listing; journal/research/CPRX.md |
 | 1065280 / 1326801 / 1652044 | NFLX / META / GOOGL | Nasdaq | Mega cap | lead | not yet | Low priority, duplicates index exposure | 2026-11-27 | Large index overlap |
 | various | ABT, LOW, PEP, JPM, NEE | NYSE/Nasdaq | legacy | legacy_method_1 | 2026-11-05 | Re-research under method 2.0 only if prioritised | none | Historical method 1.0 notes, not validated |

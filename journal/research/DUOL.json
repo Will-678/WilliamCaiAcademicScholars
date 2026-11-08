@@ -1,0 +1,216 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "DUOL",
+  "exchange": "Nasdaq",
+  "currency": "USD",
+  "sector_model": "nonfinancial consumer subscription software; GAAP earnings with tax normalization, FCF after capex and capitalized software, SBC deducted, net cash from cash and investments",
+  "as_of": "2026-11-08T16:04:02-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Duolingo (language-learning app, 64.9M DAUs, 13.1M paid subscribers) rallied 25% on 2026-11-04 after Q3 results to 160.42 (close 2026-11-06). Market cap about 7.57B and EV about 6.08B after 1.48B cash and investments with no borrowings. DAU growth reaccelerated to +29% (from +23%), 9M26 revenue +19%, TTM FCF about 396M (5.2% yield, 6.5% on EV). Guidance FY26 revenue 1,221M (+18%), adjusted EBITDA 323M (26.5%).",
+  "counterthesis": "GAAP earnings are thin: TTM net income 145.7M gives about 52x P/E; Q3 operating income fell to 24.2M from 35.2M and Q3 adjusted EBITDA margin fell to 25.5% from 29.5%. Bookings growth (+12% Q3, 11% 9M) trails DAU growth (+29%), so monetization per user is lagging and management says it is leaning into monetization and sunsetting the Max tier. SBC of about 157M TTM is 40% of FCF (FCF after SBC about 239M, 3.2% yield). A securities class action was filed 2026-10-07 (no accrual). Q3 gross margin 72.9% is guided to 72.0% in Q4 as AI features roll out; AI assistants can substitute for the product. A stock that moved from 128 to 161 in two sessions has re-rated sharply, so the price no longer reflects the pre-earnings pessimism. Q3 includes an 11.4M accrual tied to Q4 DAU growth target. Peer and history multiples not gathered.",
+  "invalidation": "DAU growth falling below 20% with bookings growth under 10%; gross margin falling below 70%; FCF after SBC declining year on year; operating margin below 8% on a TTM basis; adverse class action outcome or evidence of material user migration to general AI assistants.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026069692/duol-20260930.htm",
+      "document_id": "0001628280-26-069692",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-04",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T16:04:02-05:00"
+    },
+    {
+      "id": "rel",
+      "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026069474/q3fy26duolingo9-30x26share.htm",
+      "document_id": "0001628280-26-069474 shareholder letter",
+      "origin": "Duolingo Q3 2026 shareholder letter (SEC exhibit 99.2 of 8-K filed 2026-11-03/04)",
+      "kind": "earnings_release",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T16:04:02-05:00"
+    },
+    {
+      "id": "k10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026012494/duol-20251231.htm",
+      "document_id": "0001628280-26-012494",
+      "origin": "SEC EDGAR 10-K FY2025 filed 2026-02-27",
+      "kind": "annual_filing",
+      "read_status": "unread",
+      "accessed_at": "2026-11-08T16:04:02-05:00"
+    },
+    {
+      "id": "cf",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001562088.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0001562088",
+      "origin": "SEC XBRL derived from FY2025 10-K and 2026 10-Qs",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T16:04:02-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001562088.json",
+      "document_id": "SEC-submissions-CIK0001562088",
+      "origin": "SEC EDGAR submissions index",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T16:04:02-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/duol/history/",
+      "document_id": "stockanalysis-DUOL-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T16:04:02-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/DUOL/history/",
+      "document_id": "yahoo-finance-DUOL-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T16:04:02-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel",
+        "sub"
+      ],
+      "note": "Submissions list read 2026-11-08: 10-Q filed 2026-11-04 and earnings 8-K (items 2.02, 9.01, dated 2026-11-03) are the newest periodic filings; 10-Q financial statements, cash flow, balance sheet, share data and litigation note read as extracted text; shareholder letter guidance read. 10-Q MD&A was truncated in extraction."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "2026-09-30: cash 1,239.6M, short-term investments 134.3M, long-term investments 110.1M, total liabilities 684.6M including 84.2M long-term operating leases, deferred revenue 513.6M, equity 1,481.6M, no borrowings line."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "cf"
+      ],
+      "note": "TTM OCF 435.753M = FY2025 387.823 - 9M25 280.545 + 9M26 328.475; capex PP&E 28.728M = 18.096 - 7.369 + 18.001; capitalized software 11.402M = FY25 additions 9.168 - 9M25 payments 6.484 + 9M26 payments 8.718 (FY25 additions used as proxy for payments, flagged). FCF 395.6M. Both capex lines reported, none assumed zero."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Cover page 2026-11-03: Class A 40,779,003 + Class B 6,399,257 = 47,178,260 shares, point in time; used for market cap."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "rel",
+        "qa",
+        "qb"
+      ],
+      "note": "P/E, FCF yield, EV, SBC-adjusted yield computed. Peer multiples and own history not gathered; tax-normalized earnings only roughly checked (24% effective rate 9M26)."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "Subscription software model with FCF after capex and capitalized software, SBC shown separately, one-time 2025 tax benefit (222.7M valuation allowance release) excluded from the comparison."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Reviewed tax benefit distortion in 9M25, SBC growth, litigation note, 11.4M accrual tied to DAU target, deferred revenue growth. FY2025 10-K critical audit matters and revenue recognition notes not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "Counterthesis field covers thin GAAP earnings, monetization lag, SBC, litigation, AI cost and substitution risk, post-earnings re-rating."
+    }
+  },
+  "price": {
+    "value": 160.42,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 160.42,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 160.42,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "fcf": {
+      "ocf": {
+        "value": 435753000,
+        "unit": "USD",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "capex": {
+        "value": 40130000,
+        "unit": "USD",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "value": 395623000,
+      "period": "TTM 2025-10-01 to 2026-09-30",
+      "note": "FY2025 + 9M26 - 9M25; capex = PP&E 28.728M + capitalized software 11.402M; USD"
+    },
+    "valuation": {
+      "price": 160.42,
+      "shares": 47178260,
+      "market_cap_usd": 7568336469,
+      "ttm_net_income_usd": 145737000,
+      "ttm_note": "FY2025 414.065M - 9M25 372.111M + 9M26 103.783M; no 2025 one-time tax benefit remains in TTM except Q4-related effects not isolated",
+      "pe_ttm": 51.9,
+      "fcf_yield": 0.052,
+      "cash_and_securities_usd": 1484007000,
+      "debt_usd": 0,
+      "ev_usd": 6084329469,
+      "note": "EV = market cap - cash, short and long-term investments; operating leases 84.2M long-term not added",
+      "sbc_ttm_usd": 156596000,
+      "fcf_less_sbc_yield": 0.032
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peer and own-history multiples not gathered",
+    "FY2025 10-K audit matters and revenue notes not read; 10-Q MD&A truncated",
+    "Capitalized software TTM uses a proxy for FY2025 payments",
+    "Scores not assigned",
+    "Quote origins are two publishers, independence not proven",
+    "Cause of tripled price move vs prior pessimism and class action allegations not read"
+  ]
+}
