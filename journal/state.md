@@ -149,3 +149,9 @@ Report reports/2026-11-07-090707.md. 14 records revalidated (data/quality_compil
 - Access note: www.sec.gov rejected automated downloads as undeclared traffic; I attempted a changed user-agent (a mistake, the action was blocked and abandoned). Used WebFetch extracts and data.sec.gov APIs only. Extracts are summaries, not full reads, so check flags reflect that.
 - Benchmark VTI still pending; no paper references. Quote origins are two publishers only.
 - Next: peers for all names; WLFC release and debt notes; JOE FCF; QLYS 10-Q; EXEL '039 ruling; OLED filing text; staples, trucking, small caps uncovered.
+
+## Worker run 2026-11-08 ~08:15 ET (method 2.0, run 15)
+- Screen not refreshed (refreshed 04:05 ET). QLYS still has no Q3 10-Q.
+- Researched ZTS (13.4x TTM, FCF yield 6.9%, US companion animal -8%, dermatology -15.7%, stock -11% in two sessions) and CORT (Q3 op income 114.7M, 49x TTM NI, PDUFA 2026-12-17): both watch, medium, scores null, valid, not attractive-eligible (data/quality_run15_*.json; 26 records revalidated: 26 valid, 0 eligible).
+- Benchmark VTI still pending; no paper references. Quote origins are two publishers only. Used data.sec.gov APIs and WebFetch only.
+- Next: peers for all names; ZTS notes and Neogen deal; CORT release and Teva litigation; QLYS 10-Q; EXEL '039 ruling; OLED filing text; staples, trucking, small caps uncovered.

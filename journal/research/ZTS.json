@@ -1,0 +1,241 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "ZTS",
+  "exchange": "NYSE",
+  "currency": "USD",
+  "sector_model": "nonfinancial: animal health pharma; EPS, FCF yield, net debt/EBITDA-style leverage, organic growth by franchise",
+  "as_of": "2026-11-08T08:10:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Zoetis (animal health leader) closed 79.40 on 2026-11-06 (-11% over two sessions after Q3 results on 11-05, from 89.20 on 11-04). Market cap about 32.3B on 406,316,147 shares (10-Q cover, 2026-10-30). TTM GAAP EPS about 5.93 gives about 13.4x; 2026 adjusted EPS guide 6.25 to 6.35 (raised) gives about 12.6x management-adjusted. TTM operating cash flow 2.73B less capex 0.49B = FCF 2.24B, a 6.9% yield on market cap. Net debt about 7.5B (9.05B debt less 1.33B cash and 0.2B short-term investments). The market appears to price a structural decline in U.S. companion animal (Q3 -8% organic, dermatology -15.7%) from competition, generics and price sensitivity, while international (+3.9% Q3, +9.3% 9M), livestock (+6.8%) and vaccines (+5.5%) grow.",
+  "counterthesis": "U.S. segment revenue fell 5.8% in Q3 and 6.7% in 9M; dermatology (Apoquel/Cytopoint franchise) fell 15.7% and management cites competitive pressure and generics, which may be permanent erosion of the highest-margin franchise rather than cyclical softness. GAAP net income fell 18% in Q3 (591M vs 721M) with a 78M intangible impairment and 43M restructuring; reported 2026 EPS guidance was lowered (5.50 to 5.60) while adjusted was raised, so the adjusted figure excludes recurring-looking charges (9M restructuring 142M). Cash fell from 2.45B to 1.33B while 1.69B of buybacks and 666M of dividends were paid; debt is 9.05B including 750M current, so buybacks are effectively debt/cash-funded. A pending Neogen genomics deal and a derivative suit add uncertainty. FCF yield uses 9M operating cash flow that benefited from working capital which was not examined.",
+  "invalidation": "U.S. companion animal declines continuing past -8% organic for two more quarters; dermatology share loss widening; adjusted EPS guide cut; FCF below dividends plus interest; net leverage rising above about 3x EBITDA; further intangible impairments; evidence that the adjusted-to-GAAP gap is recurring.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1555280/000155528026000050/zts-20260930.htm",
+      "document_id": "0001555280-26-000050",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-05 (read via WebFetch extract, first part including segments, debt, equity; litigation note and guidance not covered)",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T08:10:00-05:00"
+    },
+    {
+      "id": "rel",
+      "url": "https://www.sec.gov/Archives/edgar/data/1555280/000155528026000048/exhibit99q32026.htm",
+      "document_id": "0001555280-26-000048-EX99.1",
+      "origin": "Issuer earnings release filed as SEC 8-K Exhibit 99.1 on 2026-11-05 (guidance, adjusted EPS, US companion animal commentary)",
+      "kind": "earnings_release",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T08:10:00-05:00"
+    },
+    {
+      "id": "facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001555280.json",
+      "document_id": "SEC-companyfacts-CIK0001555280",
+      "origin": "SEC XBRL company facts (10-K 0001555280-26-000011 and 2026 10-Qs)",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T08:10:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001555280.json",
+      "document_id": "SEC-submissions-CIK0001555280",
+      "origin": "SEC EDGAR submissions index",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T08:10:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/zts/history/",
+      "document_id": "stockanalysis-ZTS-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T08:10:00-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/ZTS/history/",
+      "document_id": "yahoo-finance-ZTS-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T08:10:00-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "sub",
+        "rel"
+      ],
+      "note": "Submissions read 2026-11-08: newest are 10-Q and 8-K Item 2.02 both filed 2026-11-05, then Form 4s. Both read in part. FY2025 10-K 0001555280-26-000011 not read beyond XBRL."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "facts"
+      ],
+      "note": "2026-09-30: cash and equivalents 1,333M (incl 2M restricted), short-term investments 200M, total assets 15,088M, total liabilities 11,785M, equity 3,303M, total debt 9,049M (750M current plus 8,299M long-term). Maturity ladder and covenants not read."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "facts"
+      ],
+      "note": "9M26 OCF 1,880M, capex 334M; 9M25 OCF 2,056M (recast) and capex 462M; FY25 OCF 2,904M, capex 621M. TTM OCF = 2,904-2,056+1,880 = 2,728M; TTM capex = 621-462+334 = 493M; FCF 2,235M. FY25 figures are as originally filed while 9M25 are recast for the fiscal-year alignment, so TTM is approximate."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "facts"
+      ],
+      "note": "Point-in-time 406,316,147 shares (cover, 2026-10-30) used for market cap; prior 422.1M (2026-02-06), so the count fell about 3.8% in 9 months on buybacks. TTM EPS = 6.02 (FY25) - 4.60 (9M25 recast) + 4.51 = 5.93; mixed recast basis, flagged approximate."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "rel",
+        "qa",
+        "qb"
+      ],
+      "note": "No peer multiples (Elanco, IDEXX, Merck Animal Health unavailable, Phibro) or own-history multiples gathered; no EBITDA-based leverage computed; adjusted-to-GAAP reconciliation not read."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "Nonfinancial pharma model: franchise growth, adjusted versus GAAP EPS, FCF, net debt. Not a bank, insurer, REIT or utility."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Seen: 78M intangible impairment in Q3, 142M 9M restructuring excluded from adjusted EPS, fiscal-year alignment recasting prior periods, buybacks above free cash after dividends. Not read: critical audit matters, derivative lawsuit note, tariff and tax notes, working capital detail."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "Written: dermatology erosion, GAAP-adjusted gap, debt-funded buybacks, impairments, Neogen deal."
+    }
+  },
+  "price": {
+    "value": 79.4,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 79.4,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 79.4,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 79.4,
+      "shares": 406316147,
+      "market_cap_usd": 32260000000.0,
+      "ttm_eps_approx": 5.93,
+      "pe_ttm": 13.4,
+      "adjusted_eps_guide_mid": 6.3,
+      "pe_adjusted_guide": 12.6,
+      "ttm_ocf_usd": 2728000000.0,
+      "ttm_capex_usd": 493000000.0,
+      "ttm_fcf_usd": 2235000000.0,
+      "fcf_yield": 0.069,
+      "total_debt_usd": 9049000000.0,
+      "cash_usd": 1333000000.0,
+      "short_term_investments_usd": 200000000.0,
+      "net_debt_usd": 7516000000.0,
+      "dividends_declared_9m_per_share": 1.06
+    },
+    "operating": {
+      "q3_revenue_usd": [
+        2391000000.0,
+        2422000000.0
+      ],
+      "q3_net_income_usd": [
+        591000000.0,
+        721000000.0
+      ],
+      "nine_month_revenue_usd": [
+        7121000000.0,
+        7094000000.0
+      ],
+      "us_q3_revenue_usd": [
+        1246000000.0,
+        1322000000.0
+      ],
+      "international_q3_revenue_usd": [
+        1116000000.0,
+        1074000000.0
+      ],
+      "dermatology_q3_usd": [
+        398000000.0,
+        472000000.0
+      ],
+      "guidance_2026": {
+        "revenue_usd": [
+          9220000000.0,
+          9320000000.0
+        ],
+        "adj_eps": [
+          6.25,
+          6.35
+        ],
+        "reported_eps": [
+          5.5,
+          5.6
+        ]
+      }
+    },
+    "price_moves": {
+      "close_2026_11_02": 83.18,
+      "close_2026_11_03": 82.99,
+      "close_2026_11_04": 89.2,
+      "close_2026_11_05": 82.11,
+      "close_2026_11_06": 79.4
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peer and own-history multiples not gathered",
+    "10-K and 10-Q notes (critical audit matters, litigation, tariffs, debt maturities) not read",
+    "Adjusted-to-GAAP reconciliation not read",
+    "Two quote sources are two publishers, underlying exchange feed shared (publisher-level independence only)",
+    "Scores not assigned"
+  ]
+}

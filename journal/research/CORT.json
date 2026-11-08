@@ -1,0 +1,208 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "CORT",
+  "exchange": "Nasdaq",
+  "currency": "USD",
+  "sector_model": "nonfinancial: specialty pharma with product launch; revenue concentration, margin trajectory, cash and securities, litigation and regulatory events; TTM FCF understates the new run rate",
+  "as_of": "2026-11-08T08:10:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Corcept (cortisol modulation pharma) closed 72.77 on 2026-11-06 (down from 81.93 on 11-03; -9.6% on 11-05 after Q3 results). Market cap about 7.96B on 109,443,109 shares (10-Q cover, 2026-10-22). Q3 revenue 340.5M (+64%) with the ovarian-cancer product Lifyorli at 91.4M in its second quarter and Korlym plus authorized generic 249.1M; Q3 operating income 114.7M versus 10.2M a year earlier. TTM net income about 162M gives about 49x, TTM FCF about 195M (2.4% yield), but Q3 operating income annualized is about 459M, about 16x on enterprise value of about 7.3B (market cap less 662M cash and securities, no debt identified). The market seems to price a transient launch peak and a regulatory binary (relacorilant hypercortisolism PDUFA 2026-12-17); the opposing evidence is the sharp operating leverage and a net cash balance.",
+  "counterthesis": "The Q3 profit is a single quarter; 9M operating income is only 106.4M, so the TTM multiple is high and the forward case depends on Lifyorli sustaining about 90M+ a quarter. Korlym faces generic competition (Teva litigation status not read) and Medicare pricing pressure under the IRA. A class action covers October 2024 to December 2025 after the December 2025 complete response letter. SG&A rose 47% in 9M (466.7M vs 318.5M) and is guided higher; stock-based compensation was 81.9M in 9M (about 11% of revenue); buybacks have nearly stopped (5.7M). Income tax benefit of 16.5M in 9M and a negative tax line inflate net income relative to operating income. A second CRL for relacorilant would remove the main pipeline value.",
+  "invalidation": "Lifyorli sequential revenue declining; Korlym hypercortisolism revenue falling faster than 10% a year from generics; second complete response letter on 2026-12-17; SG&A growth outpacing revenue growth for two quarters; adverse securities litigation outcome; operating margin falling below 20%.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026069501/cort-20260930.htm",
+      "document_id": "0001628280-26-069501",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-03 (WebFetch extract of the first 100,000 of 211,605 characters; Teva litigation and later sections unread)",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T08:10:00-05:00"
+    },
+    {
+      "id": "facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001088856.json",
+      "document_id": "SEC-companyfacts-CIK0001088856",
+      "origin": "SEC XBRL company facts (10-K 0001628280-26-011091 and 2026 10-Qs)",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T08:10:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001088856.json",
+      "document_id": "SEC-submissions-CIK0001088856",
+      "origin": "SEC EDGAR submissions index",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T08:10:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/cort/history/",
+      "document_id": "stockanalysis-CORT-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T08:10:00-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/CORT/history/",
+      "document_id": "yahoo-finance-CORT-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-08T08:10:00-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "sub"
+      ],
+      "note": "Submissions read 2026-11-08: 10-Q and 8-K filed 2026-11-03, Form 4s 2026-11-04, 13G/A 2026-10-27. The 8-K earnings release exhibit was not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "facts"
+      ],
+      "note": "2026-09-30: cash 98.7M, marketable securities 563.6M (272.0M short-term, 291.6M long-term), total liabilities 200.3M, equity 833.7M. No debt identified in the extract."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "facts"
+      ],
+      "note": "9M26 OCF 159.7M, capex 3.4M; 9M25 OCF 103.5M, capex 0.16M; FY25 OCF 142.0M, capex 0.21M. TTM OCF = 142.0-103.5+159.7 = 198.1M; TTM capex = 0.21-0.16+3.44 = 3.49M; TTM FCF 194.6M."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "facts"
+      ],
+      "note": "Market cap uses 109,443,109 shares at 2026-10-22 (cover). Diluted share count not extracted; TTM EPS not computed, TTM net income 162.3M = 99.652 (FY25) - 75.364 (9M25) + 138.004 (9M26)."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "qa",
+        "qb"
+      ],
+      "note": "No peer or own-history multiples; no consensus or guidance for revenue; forward earnings is an assumption (Q3 annualized), not a forecast."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Specialty pharma with a launch; EV/operating income run rate and net cash used with explicit caveats; not a bank, insurer, REIT or utility."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Seen: tax benefit despite profit (valuation allowance on California DTAs remains), high SBC, SG&A growth, revenue concentration. Not read: critical audit matters, revenue deductions and IRA accruals, Teva litigation, second half of the 10-Q."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Written: single-quarter profit, generic and IRA pressure, class action, SG&A and SBC, PDUFA binary."
+    }
+  },
+  "price": {
+    "value": 72.77,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 72.77,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 72.77,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 72.77,
+      "shares": 109443109,
+      "market_cap_usd": 7964000000.0,
+      "cash_and_securities_usd": 662300000.0,
+      "enterprise_value_usd": 7300000000.0,
+      "ttm_net_income_usd": 162300000.0,
+      "pe_ttm_net_income": 49.1,
+      "ttm_ocf_usd": 198100000.0,
+      "ttm_capex_usd": 3490000.0,
+      "ttm_fcf_usd": 194600000.0,
+      "fcf_yield": 0.0244,
+      "q3_operating_income_annualized_usd": 458900000.0,
+      "ev_to_q3_operating_income_annualized": 15.9
+    },
+    "operating": {
+      "q3_revenue_usd": [
+        340472000.0,
+        207638000.0
+      ],
+      "q3_operating_income_usd": [
+        114724000.0,
+        10219000.0
+      ],
+      "nine_month_operating_income_usd": [
+        106423000.0,
+        40310000.0
+      ],
+      "lifyorli_q3_usd": 91400000.0,
+      "hypercortisolism_products_q3_usd": 249100000.0,
+      "sga_nine_month_usd": [
+        466700000.0,
+        318500000.0
+      ],
+      "sbc_nine_month_usd": 81902000.0,
+      "pdufa_relacorilant": "2026-12-17"
+    },
+    "price_moves": {
+      "close_2026_11_02": 80.46,
+      "close_2026_11_03": 81.93,
+      "close_2026_11_04": 79.22,
+      "close_2026_11_05": 71.63,
+      "close_2026_11_06": 72.77
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Teva patent litigation and second half of 10-Q not read",
+    "Earnings release exhibit and guidance not read",
+    "Peer and own-history multiples not gathered",
+    "Single-quarter run rate used for forward earnings, an assumption",
+    "Two quote sources are two publishers (publisher-level independence only)",
+    "Scores not assigned"
+  ]
+}
