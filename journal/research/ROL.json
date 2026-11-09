@@ -1,0 +1,200 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "ROL",
+  "exchange": "NYSE",
+  "currency": "USD",
+  "sector_model": "nonfinancial consumer and commercial services (pest control); GAAP earnings, FCF after capex, debt from commercial paper plus senior notes, acquisition-driven growth",
+  "as_of": "2026-11-09T00:08:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Rollins (Orkin; residential, commercial and termite pest control; recurring contract base) reported Q3 2026 revenue +6.2% to 1,089.7M (organic +4.4%) but operating margin fell 140 bp to 20.5%, adjusted EBITDA -0.7%, and management said residential customer acquisition remained under pressure. Close 37.95 on 2026-11-06 (NYSE) gives market cap about 18.14B on 478.0M shares; TTM GAAP net income 526.1M (34.5x), TTM FCF 671.8M (3.7%; about 3.4% excluding a 63.0M Q3 tax refund timing benefit). Very low capital intensity and light leverage, but earnings are flat over nine months.",
+  "counterthesis": "Earnings are not growing: 9M26 net income 409.7M vs 410.3M, diluted EPS 0.85 vs 0.85, on revenue +8.0%, so acquisitions and price are not reaching profit. Organic growth slowed to 4.4% in Q3, the 2026 organic guide is 4% to 6%, the adjusted incremental EBITDA margin guide is slightly positive to 10%, and management called Q3 disappointing with residential acquisition under pressure. At about 34x earnings the price still assumes a return to higher organic growth and margin expansion. Q3 operating cash flow included 63.0M of tax refund timing. Dividends (263.1M), buybacks (162.9M) and acquisitions (162.6M) in 9M26 total 588.6M against OCF less capex of 512.8M, funded partly by commercial paper (239.6M, up from 123.7M). Goodwill 1.47B exceeds equity 1.39B. Customer retention, rest of MD&A, FY2025 10-K audit matters and peers not read.",
+  "invalidation": "Organic revenue growth below 4% for two consecutive quarters; full-year operating margin below 19%; residential customer count declines; net debt/EBITDA above 1.5x; FCF conversion below 90% of net income after normalizing tax timing; large acquisition goodwill impairment.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/84839/000008483926000045/rol-20260930.htm",
+      "document_id": "0000084839-26-000045",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-10-22",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T00:08:00-05:00"
+    },
+    {
+      "id": "cf",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000084839.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0000084839-facts",
+      "origin": "SEC XBRL companyfacts API",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T00:08:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0000084839.json",
+      "document_id": "SEC-submissions-CIK0000084839",
+      "origin": "SEC EDGAR submissions index",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T00:08:00-05:00"
+    },
+    {
+      "id": "k10",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000084839.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0000084839",
+      "origin": "SEC XBRL derived from FY2025 10-K; annual 10-K text not read",
+      "kind": "annual_filing",
+      "read_status": "unread",
+      "accessed_at": "2026-11-09T00:08:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/rol/history/",
+      "document_id": "stockanalysis-ROL-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T00:08:00-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/ROL/history/",
+      "document_id": "yahoo-finance-ROL-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T00:08:00-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "sub"
+      ],
+      "note": "Submissions index read 2026-11-09: newest periodic filing is the 10-Q filed 2026-10-22 plus Item 2.02 8-K filed 2026-10-21; nothing newer in the recent list. 10-Q text read through part of MD&A; the fetch extract was cut off, so customer retention and later MD&A were not seen. The earnings release exhibit itself was not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "2026-09-30 (USD thousands): cash 129,050; commercial paper 239,562; long-term debt net 487,587 (2035 5.25% notes 500,000 principal); revolver undrawn ($1.0B, matures 2028-02-24); total liabilities 1,968,330; equity 1,390,458; goodwill 1,466,429. Interest-bearing debt about 727.1M."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "cf"
+      ],
+      "note": "TTM OCF 697.476M = FY25 678.107 - 9M25 513.363 + 9M26 532.732; capex (purchases of property and equipment) 25.658M = 28.086 - 22.360 + 19.932; FCF 671.818M. Q3 OCF includes 63.0M tax refund timing per MD&A; excluding it FCF is about 608.8M."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Cover page: 478,045,280 common shares outstanding at 2026-10-12 (point in time), used for market cap."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "qa",
+        "qb"
+      ],
+      "note": "P/E TTM 34.5x, FCF yield 3.70%, EV about 18.74B computed. Peer multiples, own history and management EBITDA not gathered; valuation incomplete."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Operating nonfinancial services company; EV includes commercial paper and senior notes; FCF after capex; acquisitions (Romex 95.7M, 15 others 86.7M) flagged; leases not added."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Reviewed acquisitions, goodwill vs equity, tax refund timing, commercial paper funding, covenant (3.50x net debt/EBITDA, in compliance) and litigation note (no material matter disclosed). FY2025 10-K critical audit matters and remainder of MD&A not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Counterthesis covers flat EPS, organic slowdown, guidance, tax timing, payout funded by commercial paper, goodwill."
+    }
+  },
+  "price": {
+    "value": 37.95,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 37.95,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 37.95,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "fcf": {
+      "ocf": {
+        "value": 697476000,
+        "unit": "USD",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "capex": {
+        "value": 25658000,
+        "unit": "USD",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "value": 671818000,
+      "period": "TTM 2025-10-01 to 2026-09-30",
+      "note": "FY2025 + 9M26 - 9M25; capex = purchases of property and equipment; USD"
+    },
+    "valuation": {
+      "price": 37.95,
+      "shares": 478045280,
+      "market_cap_usd": 18141818376,
+      "ttm_net_income_usd": 526116000,
+      "ttm_note": "FY2025 526.705M - 9M25 410.264M + 9M26 409.675M; GAAP",
+      "pe_ttm": 34.5,
+      "fcf_yield": 0.037,
+      "cash_and_securities_usd": 129050000,
+      "debt_usd": 727149000,
+      "ev_usd": 18739917376,
+      "note": "EV = market cap + commercial paper 239.562M + long-term debt 487.587M - cash 129.050M; leases not added"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peer and own-history multiples not gathered",
+    "FY2025 10-K audit matters and rest of 10-Q MD&A (retention) not read; earnings release exhibit not read",
+    "Scores not assigned",
+    "Quote origins are two publishers, independence not proven",
+    "Reason for rebound from 34.66 (10-30) to 37.95 and call commentary not read"
+  ]
+}

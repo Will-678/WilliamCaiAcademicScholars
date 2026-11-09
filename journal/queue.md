@@ -1,6 +1,6 @@
 # Research queue (persisted)
 
-Updated 2026-11-08 20:1x ET by the four hour worker (run 17). Stages: lead, valuation_pending, researched_watch, researched_pass, blocked.
+Updated 2026-11-09 00:5x ET by the four hour worker (run 18). Stages: lead, valuation_pending, researched_watch, researched_pass, blocked.
 
 | CIK | Ticker | Exchange | Sector | Stage | Last reviewed | Next action | Due | Reason |
 |---|---|---|---|---|---|---|---|---|
@@ -33,6 +33,8 @@ Updated 2026-11-08 20:1x ET by the four hour worker (run 17). Stages: lead, valu
 | 1088856 | CORT | Nasdaq | Healthcare specialty pharma (mid) | researched_watch | 2026-11-08 | Read earnings release, Teva litigation, rest of 10-Q; PDUFA 2026-12-17 relacorilant; Lifyorli trend; peers | 2026-11-15 | Q3 op income 114.7M vs 10.2M, 49x TTM NI, FCF yield 2.4%, net cash 662M; journal/research/CORT.json |
 | 1562088 | DUOL | Nasdaq | Consumer subscription software (mid) | researched_watch | 2026-11-08 | Peers (Coursera, Chegg, Bumble); read FY2025 10-K and full MD&A; monetization vs DAU; class action; tax-normalized EPS | 2026-11-15 | 51.9x TTM NI, FCF yield 5.2% (3.2% after SBC), DAU +29%, +25% on 11-04; journal/research/DUOL.json |
 | 874716 | IDXX | Nasdaq | Healthcare veterinary diagnostics (large) | researched_watch | 2026-11-08 | Peers (ZTS, ELAN, PAHC); read FY2025 10-K, 10-Q MD&A and litigation; call commentary; senior note inconsistency; CoVet purchase accounting | 2026-11-15 | 45x TTM, FCF yield 2.4%, organic +10%, +22.6% in a week, margin guide cut; journal/research/IDXX.json |
+| 84839 | ROL | NYSE | Consumer services pest control (large) | researched_watch | 2026-11-09 | Peers (Cintas, Ecolab, Terminix-type comps); read FY2025 10-K, rest of 10-Q MD&A (retention), release and call; residential acquisition trend; commercial paper funding | 2026-11-16 | 34.5x TTM, FCF yield 3.7%, 9M EPS flat 0.85 vs 0.85, organic +4.4%, margin -140bp; journal/research/ROL.json |
+| 1059556 | MCO | NYSE | Ratings and data analytics (large) | researched_watch | 2026-11-09 | Peers (SPGI, MSCI, FDS, VRSK); read 10-Q MD&A, debt note, litigation, FY2025 10-K; gain-excluded TTM EPS; buyback pace vs FCF | 2026-11-16 | about 31x guided GAAP EPS, FCF yield 3.4%, Q3 revenue +1%, MIS transaction -5%, 296M divestiture gains in 9M; journal/research/MCO.json |
 | 1369568 | CPRX | Nasdaq | Healthcare pharma (small) | removed | 2026-11-06 | None; acquired by Angelini Pharma (8-K 2026-07-16); confirm delisting if revisited | none | Screened lead no longer an independent listing; journal/research/CPRX.md |
 | 1065280 / 1326801 / 1652044 | NFLX / META / GOOGL | Nasdaq | Mega cap | lead | not yet | Low priority, duplicates index exposure | 2026-11-27 | Large index overlap |
 | various | ABT, LOW, PEP, JPM, NEE | NYSE/Nasdaq | legacy | legacy_method_1 | 2026-11-05 | Re-research under method 2.0 only if prioritised | none | Historical method 1.0 notes, not validated |

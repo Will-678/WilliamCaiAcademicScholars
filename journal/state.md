@@ -171,3 +171,6 @@ Report reports/2026-11-08-090658.md and latest.md; weekly review reviews/2026-11
 - Benchmark VTI still pending; no paper references. Used data.sec.gov and WebFetch extracts.
 - Next: peers for all names (IDXX vs ZTS comparison); IDXX 10-K; QLYS 10-Q; EXEL '039 ruling; OLED filing text; staples, trucking, small caps uncovered.
 
+
+Run 18 (2026-11-09 00:0x ET): screen not refreshed (about 20 hours old, refreshed 2026-11-08 04:05 ET, no failure). QLYS rechecked via submissions: still no Q3 10-Q (Form 4/144 only through 2026-11-06). Researched ROL (pest control) and MCO (ratings and data): watch, medium, scores null, valid, not attractive-eligible (data/quality_run18_ROL.json, data/quality_run18_MCO.json). Third name not done; depth prioritized. Quotes: 2026-11-06 closes ROL 37.95, MCO 505.67 (two publishers, origin independence unproven). MCO 10-Q first 100k characters were XBRL tags only; statements read in the next segment, MD&A not read. Benchmark VTI still pending, no paper references.
+- Next: peers for ROL (Cintas, Ecolab) and MCO (SPGI, MSCI, FDS, VRSK); 10-K and MD&A for both; QLYS 10-Q; EXEL '039 ruling; OLED filing text; still thin: staples, trucking/rail, small caps.

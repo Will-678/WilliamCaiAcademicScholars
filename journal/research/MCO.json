@@ -1,0 +1,215 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "MCO",
+  "exchange": "NYSE",
+  "currency": "USD",
+  "sector_model": "nonfinancial data, analytics and credit ratings (not a bank or insurer); GAAP earnings with divestiture gains flagged, FCF after capex, debt from senior notes, buyback-reduced equity",
+  "as_of": "2026-11-09T00:08:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Moody's (ratings via MIS, data and analytics via MA) reported Q3 2026 revenue +1% to 2,023M (organic constant currency +3%), adjusted operating margin 52.6%, adjusted diluted EPS 4.14 (+6%), MA ARR 3,688M (+8%). Management reaffirmed 2026 guidance: high-single-digit revenue growth, adjusted EPS 16.50 to 17.00, FCF 2.7 to 2.9B, buybacks up to 3.0B. Close 505.67 on 2026-11-06 (NYSE) gives market cap about 87.2B; guided GAAP EPS midpoint 16.25 gives about 31x, adjusted midpoint 16.75 about 30x, TTM FCF 2,977M (3.4%). Strong franchise with 99% recurring MA revenue and high margins; price already reflects it.",
+  "counterthesis": "Revenue growth was only 1% in Q3 (organic 3%); MIS transaction revenue fell 5% with high yield down 40% and leveraged loans down 27%, and the stock is near its post-earnings high (505.67 vs 477.27 on 10-28, +5.9%). GAAP earnings are flattered by divestiture gains (296M pre-tax in 9M26, about 1.18 per share guided for the year): TTM GAAP net income 2,883M includes them. Moody's shareholders' equity is only 3.27B after 2.55B of 9M repurchases, which outpaces guided free cash flow and was partly funded by drawing cash down (2,384M to 1,513M) and not refinancing 700M repaid in 2025; total liabilities 11.4B, debt 6.9B. Restructuring is ongoing (86M in 9M26, about 0.45 per share guided for the year). Ratings revenue depends on issuance cycles. Peers (SPGI, MSCI, FDS, VRSK), history, MD&A and litigation not read.",
+  "invalidation": "MIS transaction revenue declines for two further quarters with investment-grade issuance also falling; MA ARR growth below 6%; adjusted operating margin below 50%; net debt/EBITDA above 2.5x because of buybacks; regulatory or litigation penalties in ratings; guided FCF cut below 2.5B.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1059556/000162828026066731/mco-20260930.htm",
+      "document_id": "0001628280-26-066731",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-10-21",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T00:08:00-05:00"
+    },
+    {
+      "id": "rel",
+      "url": "https://www.sec.gov/Archives/edgar/data/1059556/000162828026066594/a3q26earningsrelease.htm",
+      "document_id": "0001628280-26-066594 earnings release",
+      "origin": "Moody's Q3 2026 earnings release (SEC exhibit of 8-K filed 2026-10-21)",
+      "kind": "earnings_release",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T00:08:00-05:00"
+    },
+    {
+      "id": "cf",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001059556.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0001059556-facts",
+      "origin": "SEC XBRL companyfacts API",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T00:08:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001059556.json",
+      "document_id": "SEC-submissions-CIK0001059556",
+      "origin": "SEC EDGAR submissions index",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T00:08:00-05:00"
+    },
+    {
+      "id": "k10",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001059556.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0001059556",
+      "origin": "SEC XBRL derived from FY2025 10-K; annual 10-K text not read",
+      "kind": "annual_filing",
+      "read_status": "unread",
+      "accessed_at": "2026-11-09T00:08:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/mco/history/",
+      "document_id": "stockanalysis-MCO-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T00:08:00-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/MCO/history/",
+      "document_id": "yahoo-finance-MCO-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T00:08:00-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel",
+        "sub"
+      ],
+      "note": "Submissions index read 2026-11-09: newest periodic filing is the 10-Q filed 2026-10-21 and Item 2.02 8-K filed 2026-10-21; an Item 5.02 8-K of 2026-08-12 is older. 10-Q statements read (first 100000 characters returned mostly XBRL tags, statements read in the next segment); 10-Q MD&A, debt note and litigation note not read. Release read only until its truncation in the revenue reconciliation tables."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "2026-09-30 (USD millions): cash 1,513; current portion of long-term debt 568; long-term debt 6,343 (total about 6,911); total liabilities 11,418; Moody's shareholders' equity 3,268 (total 3,412); goodwill 6,304; deferred revenue current 1,402."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "cf"
+      ],
+      "note": "TTM OCF 3,329M = FY25 2,901 - 9M25 2,043 + 9M26 2,471; capex (capital additions) 352M = 326 - 245 + 271; FCF 2,977M. 9M26 FCF 2,200M (2,471 - 271); company guided FY26 FCF 2.7 to 2.9B."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Cover extract stated 172.4 million common shares outstanding, tied to 2026-09-30; exact cover date not confirmed. Check: issued 342,902,272 less treasury 170,478,190 = 172.42M at 2026-09-30. Weighted diluted shares Q3 were 173.3M. Treated as quarter-end point-in-time count."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "rel",
+        "qa",
+        "qb"
+      ],
+      "note": "Guided GAAP P/E 31x, adjusted 30x, TTM FCF yield 3.4%, EV about 92.6B computed. Peer multiples, own history and a gain-excluded TTM net income not gathered; valuation incomplete."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "Nonfinancial information and ratings company; debt included in EV; FCF after capex; divestiture gains (296M pre-tax 9M26) and restructuring flagged and not treated as recurring; book value metrics not used because buybacks shrank equity."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "Reviewed divestiture gains, restructuring, buyback pace versus FCF, cash drawdown, equity shrinkage, operating expense trends. FY2025 10-K critical audit matters, MD&A, debt maturity table and contingencies note not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "rel"
+      ],
+      "note": "Counterthesis covers slow revenue growth, MIS transaction weakness, gain-inflated GAAP, buybacks exceeding FCF, thin book equity, restructuring."
+    }
+  },
+  "price": {
+    "value": 505.67,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 505.67,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 505.67,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "fcf": {
+      "ocf": {
+        "value": 3329000000,
+        "unit": "USD",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "capex": {
+        "value": 352000000,
+        "unit": "USD",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "value": 2977000000,
+      "period": "TTM 2025-10-01 to 2026-09-30",
+      "note": "FY2025 + 9M26 - 9M25; capex = capital additions; USD"
+    },
+    "valuation": {
+      "price": 505.67,
+      "shares": 172400000,
+      "market_cap_usd": 87177508000,
+      "ttm_net_income_usd": 2883000000,
+      "ttm_note": "FY2025 2,459M - 9M25 1,849M + 9M26 2,273M, net income attributable to Moody's, GAAP including 296M pre-tax divestiture gains in 9M26",
+      "pe_ttm": 30.2,
+      "fcf_yield": 0.0341,
+      "cash_and_securities_usd": 1513000000,
+      "debt_usd": 6911000000,
+      "ev_usd": 92575508000,
+      "note": "EV = market cap + debt 6,911M - cash 1,513M; leases not added; shares from cover extract (quarter-end); guided GAAP EPS midpoint 16.25 gives 31.1x, adjusted midpoint 16.75 gives 30.2x"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peer and own-history multiples not gathered",
+    "FY2025 10-K audit matters, 10-Q MD&A, debt note and litigation not read; release truncated",
+    "Scores not assigned",
+    "Quote origins are two publishers, independence not proven",
+    "Gain-excluded TTM earnings not computed; reason for the decline from 528.34 (11-04) to 505.67 (11-06) not read"
+  ]
+}
