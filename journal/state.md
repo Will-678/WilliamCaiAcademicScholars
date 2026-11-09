@@ -190,3 +190,9 @@ Run 18 (2026-11-09 00:0x ET): screen not refreshed (about 20 hours old, refreshe
 Report reports/2026-11-09-090954.md and latest.md. 33 records revalidated (33 valid, 0 eligible, data/quality_compile_2026-11-09.json); 27 tests pass. No new filings for ZTS, GMED, CARG, ADBE, EXEL, CORT; QLYS still no Q3 10-Q. Leaders unchanged: ZTS, GMED, CARG, all watch. Next: peers and notes for leaders, full filing reads, independent quote origin.
 
 Run 21 (2026-11-09 12:0x ET): screen not refreshed (about 8 hours old, no failure). QLYS rechecked via submissions: still no Q3 10-Q (Form 4/144 only through 2026-11-06). Direct sec.gov document fetch worked this run. Closed the HCI text gap (10-Q read: combined ratio 58.8%, no cat losses, reserve roll-forward, cash decline explained); HCI stays watch, medium, scores null, valid, not attractive-eligible. No new company started; depth prioritized. Benchmark VTI still pending, no paper references.
+
+## Worker run 2026-11-09 ~16:10 ET (method 2.0, run 22)
+- Screen not refreshed (~12h old). QLYS still no Q3 10-Q. No new filings on HCI/ZTS/GMED/CARG.
+- Researched HALO (watch, medium, scores null; valid, not attractive-eligible; 24.2x TTM GAAP, 15.2x ex-IPR&D, FCF yield 7.5%, -21% since 11-04, cause unconfirmed). One name; depth prioritized.
+- Benchmark VTI pending; no paper references.
+- Next: HALO call/peers/step-down timing; peers for others; QLYS 10-Q; EXEL '039 ruling; staples, trucking/rail, small caps thin.

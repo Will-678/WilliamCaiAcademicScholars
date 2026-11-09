@@ -1,0 +1,221 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "HALO",
+  "exchange": "Nasdaq",
+  "currency": "USD",
+  "sector_model": "royalty/licensing biopharma (ENHANZE drug-delivery platform plus product sales); use earnings, royalty concentration, cash flow and debt; not an insurer/bank model",
+  "as_of": "2026-11-09T16:07:07-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Halozyme licenses ENHANZE (rHuPH20) to partners and earns royalties (Q3 2026 royalties 341.0M, +44%; DARZALEX 153.5M, VYVGART Hytrulo 88.1M, Phesgo 34.3M). Q3 revenue 493.0M (+39%), operating income 295.0M, 9M net income 627.0M (+36.8%), 9M OCF 679.2M with capex 11.0M; FY2026 guidance raised (revenue 1.860-1.925B, non-GAAP EPS 8.75-9.05, issuer-defined). Shares fell from 130.34 (11-04) to 102.92 (11-09 close), about -21%, after the 11-05 release. At 102.92: market cap about 11.7B, 24.2x TTM GAAP net income (485.4M, depressed by Q4 2025 acquired IPR&D of 284.9M and a 48.7M impairment), about 15x with the IPR&D added back, TTM FCF yield about 7.5% on basic-share market cap, EV about 14.0B using principal debt.",
+  "counterthesis": "Royalties are concentrated in three partner products (about 85% of Q3 royalties by the three named lines; DARZALEX SC alone 45%) and partners can terminate on 90 days notice. Royalty rates step down after rHuPH20 patents expire; the 10-K states MDASE patents expire 2032-2034 but the rHuPH20 expiry that triggers the step-down was not isolated. 3.31B of convertible principal (1.5B issued Sept 2026) against 1.07B cash and marketable securities; stockholders' equity is negative (-55.2M) after buybacks and repayments; GAAP EPS is diluted by convertible shares (diluted 2.01 vs basic 2.17 in Q3); 400M buybacks in 2026 at about 79 average vs the current price. Merck SC Keytruda (Keytruda Qlex) dispute: a Dutch court granted an injunction in Oct 2026 but outcomes in other jurisdictions are unread, and a loss would remove upside while a win is not in earnings. Cause of the roughly 21% post-earnings decline not confirmed from a primary source (search snippets only mention a muted reaction to outlook). Cash flow includes working capital swings (receivables -87M, inventory +51M).",
+  "invalidation": "Evidence of a royalty step-down or patent invalidation on DARZALEX SC/VYVGART SC/Phesgo, a partner shifting to a competing delivery technology, a material adverse ruling in the Merck matter, slowing partner product sales, or debt service stress as 2027-2028 notes mature (about 308M principal remaining).",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1159036/000115903626000145/halo-20260930.htm",
+      "document_id": "0001159036-26-000145",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-05, direct sec.gov HTML",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T16:07:07-05:00"
+    },
+    {
+      "id": "k10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1159036/000115903626000024/halo-20251231.htm",
+      "document_id": "0001159036-26-000024",
+      "origin": "SEC EDGAR 10-K FY2025 filed 2026-02-17, direct sec.gov HTML; MD&A opex table, patents, Merck risk factor read; critical audit matters not read",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T16:07:07-05:00"
+    },
+    {
+      "id": "ex99",
+      "url": "https://www.sec.gov/Archives/edgar/data/1159036/000115903626000143/ex991q320268-k.htm",
+      "document_id": "0001159036-26-000143",
+      "origin": "Issuer Q3 2026 earnings release, SEC 8-K exhibit 99.1 filed 2026-11-05 (guidance non-GAAP, issuer-defined)",
+      "kind": "earnings_release",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T16:07:07-05:00"
+    },
+    {
+      "id": "cf",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001159036.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0001159036",
+      "origin": "SEC XBRL derived from 10-K and 10-Qs",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T16:07:07-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001159036.json",
+      "document_id": "SEC-submissions-CIK0001159036",
+      "origin": "SEC EDGAR submissions index; latest 10-Q and 8-K both 2026-11-05",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T16:07:07-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/halo/history/",
+      "document_id": "stockanalysis-HALO-2026-11-09",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T16:07:07-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/HALO/history/",
+      "document_id": "yahoo-finance-HALO-2026-11-09",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T16:07:07-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q10",
+        "ex99"
+      ],
+      "note": "Submissions 2026-11-09: 10-Q and 8-K (Ex 99.1 release) filed 2026-11-05; nothing newer. Both read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "10-Q balance sheet read: cash 1,030.0M + marketable securities 44.4M, total liabilities 3,528.6M, equity -55.2M; convertible principal 3,307.8M (carrying 3,250.3M) from debt note; 2027 notes 57.8M and 2028 notes 250.0M principal remain."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "k10",
+        "cf"
+      ],
+      "note": "9M26 OCF 679.237M, capex 10.964M; TTM OCF = 651.558M (FY25) - 432.529M (9M25) + 679.237M = 898.266M; TTM capex 12.391M; FCF 885.9M. Matching periods and USD."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "10-Q cover: 114,010 thousand shares at 2026-10-31. Diluted weighted shares are higher (convertible notes); basic count used for market cap, so equity value on a diluted basis is higher."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "cf",
+        "q10",
+        "k10",
+        "qa",
+        "qb"
+      ],
+      "note": "Own P/E, FCF yield, EV computed. No peer (royalty/licensing or drug-delivery) comparison, own-history multiple or independent forward estimate; guidance is non-GAAP and issuer-defined."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "ex99"
+      ],
+      "note": "Royalty-concentration model: royalty split by product, 90-day termination rights and royalty step-down terms read; debt via convertible notes with capped calls; GAAP vs non-GAAP kept separate."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "k10",
+        "q10"
+      ],
+      "note": "FY2025 acquired IPR&D 284.9M (Surf Bio, non-deductible) and impairment 48.7M identified; arithmetic of 9M25 opex lines shows both fell in Q4 2025. Critical audit matters, revenue recognition of contract assets (525.6M receivables and contract assets) and tax notes not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "k10",
+        "ex99"
+      ],
+      "note": "See counterthesis."
+    }
+  },
+  "price": {
+    "value": 102.92,
+    "currency": "USD",
+    "as_of": "2026-11-09T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-09",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 102.97,
+        "currency": "USD",
+        "as_of": "2026-11-09T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 102.92,
+        "currency": "USD",
+        "as_of": "2026-11-09T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 102.92,
+      "shares": 114010000,
+      "market_cap_usd": 11733909200,
+      "ttm_period": "2025-10-01 to 2026-09-30",
+      "ttm_net_income_usd": 485420000,
+      "ttm_net_income_note": "FY2025 316.889M - 9M25 458.480M + 9M26 627.011M",
+      "pe_ttm": 24.2,
+      "ttm_diluted_eps": 4.0,
+      "ttm_ocf_usd": 898266000,
+      "ttm_capex_usd": 12391000,
+      "ttm_fcf_usd": 885875000,
+      "fcf_yield": 0.0755,
+      "net_income_ex_acquired_ipr_and_d_usd": 770307000,
+      "pe_ex_ipr_and_d": 15.2,
+      "convertible_principal_usd": 3307840000,
+      "cash_and_securities_usd": 1074387000,
+      "enterprise_value_usd": 13967362200
+    },
+    "growth": {
+      "q3_revenue_yoy": 0.392,
+      "q3_royalty_yoy": 0.445,
+      "nine_month_net_income_yoy": 0.368,
+      "nine_month_buybacks_usd": 400000000
+    },
+    "price_path": {
+      "close_2026_11_02": 128.95,
+      "close_2026_11_03": 128.62,
+      "close_2026_11_04": 130.34,
+      "close_2026_11_05": 122.96,
+      "close_2026_11_06": 103.63,
+      "close_2026_11_09": 102.92
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Cause of about 21% decline 11-05 to 11-09 not established from a primary source (call transcript unread)",
+    "Peer and own-history valuation not done; guidance is issuer non-GAAP",
+    "rHuPH20 patent expiry / royalty step-down timing for DARZALEX SC, VYVGART SC, Phesgo not isolated",
+    "Audit matters, contract assets and tax notes unread",
+    "Merck Keytruda Qlex matter outside the Dutch ruling unread",
+    "Scores not assigned"
+  ]
+}
