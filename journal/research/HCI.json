@@ -5,21 +5,21 @@
   "exchange": "NYSE",
   "currency": "USD",
   "sector_model": "insurer (Florida homeowners P&C, reciprocal-style reinsurance dependent); use earnings, book value, reserves, catastrophe and reinsurance; no FCF model",
-  "as_of": "2026-11-09T08:06:52-05:00",
+  "as_of": "2026-11-09T12:06:15-05:00",
   "status": "watch",
   "confidence": "medium",
-  "thesis": "HCI Group (Florida-focused property insurer) reported nine-month 2026 net income of 230.7M (vs 201.4M), diluted EPS 17.48, equity 1,121.3M and small debt (31.8M carrying amount). At 186.03 it trades near 7.0x TTM net income (7.5x TTM diluted EPS of 24.73) and 2.1x book, a low multiple for that earnings level, with 80.0M of 2026 buybacks.",
-  "counterthesis": "A single-state hurricane exposure can erase several years of earnings, and a low P/E on peak profits is typical for property insurers late in a favorable cat cycle. Net premiums earned are only +12.6% in 9M26 vs a year earlier and flat sequentially (219.1M Q3 vs 219.0M Q2); unearned premiums rose, but cash and equivalents fell from 1,210M to 744M (partly to buybacks and investments, uncertain). Shares fell 8.1% from 11-04 to 11-06 after the Q3 10-Q, cause not established. Combined ratio, reinsurance tower cost and reserve development were NOT read, so the earnings quality cannot be judged yet.",
+  "thesis": "HCI Group (Florida-focused property insurer) reported nine-month 2026 net income of 230.7M (vs 201.4M), diluted EPS 17.48, equity 1,121.3M and small debt (31.8M carrying amount). At 186.03 it trades near 7.0x TTM net income (7.5x TTM diluted EPS of 24.73) and 2.1x book, a low multiple for that earnings level, with 80.0M of 2026 buybacks. Update 2026-11-09 12:20 ET: 10-Q text read. Net combined ratio 58.8% (9M), no 2026 catastrophe losses, ceded cost down to 30.7% of gross premiums after the 2026-27 reinsurance renewal.",
+  "counterthesis": "A single-state hurricane exposure can erase several years of earnings, and a low P/E on peak profits is typical for property insurers late in a favorable cat cycle. Net premiums earned are only +12.6% in 9M26 vs a year earlier and flat sequentially (219.1M Q3 vs 219.0M Q2); unearned premiums rose, but cash and equivalents fell from 1,210M to 744M (partly to buybacks and investments, uncertain). Shares fell 8.1% from 11-04 to 11-06 after the Q3 10-Q, cause not established. Now read: 58.8% combined ratio reflects zero cat losses and favorable prior-year development; reserve roll-forward shows 145M of reductions on prior and cat years (not all development) against 342.7M 9M pre-tax income, so earnings are likely flattered by a benign year. Cash fell mainly because 752.8M went into securities, not a loss of liquidity. Reinsurance recoverable is concentrated (five reinsurers 64.1%).",
   "invalidation": "Large Florida hurricane loss or reinsurance tower failure, adverse reserve development, Florida market softening that lowers premiums and margins, or evidence that 2026 earnings were boosted by unusually light cat losses or reserve releases.",
   "sources": [
     {
       "id": "q10",
       "url": "https://www.sec.gov/Archives/edgar/data/1400810/000119312626449880/hci-20260930.htm",
       "document_id": "0001193125-26-449880",
-      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-05 (document text fetch returned 404 / 503; text NOT read, only its XBRL facts via companyfacts)",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-05, fetched directly from sec.gov 2026-11-09 (HTML text, 180k chars)",
       "kind": "quarterly_filing",
-      "read_status": "snippet",
-      "accessed_at": "2026-11-09T08:06:52-05:00"
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T12:06:15-05:00"
     },
     {
       "id": "cf",
@@ -56,6 +56,15 @@
       "kind": "quote",
       "read_status": "relevant_sections",
       "accessed_at": "2026-11-09T08:06:52-05:00"
+    },
+    {
+      "id": "k8",
+      "url": "https://www.sec.gov/Archives/edgar/data/1400810/000119312526447353/hci-20261104.htm",
+      "document_id": "0001193125-26-447353",
+      "origin": "SEC EDGAR 8-K Item 2.02 filed 2026-11-04 (cover only; Exhibit 99.1 release not read)",
+      "kind": "earnings_release",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T12:06:15-05:00"
     }
   ],
   "checks": {
@@ -63,16 +72,18 @@
       "passed": true,
       "source_ids": [
         "sub",
-        "cf"
+        "q10",
+        "k8"
       ],
       "note": "Submissions index 2026-11-09: 10-Q filed 2026-11-05 (period 2026-09-30) and an 8-K filed 2026-11-04 (not read; likely earnings release). Nothing newer."
     },
     "balance_sheet_verified": {
       "passed": true,
       "source_ids": [
+        "q10",
         "cf"
       ],
-      "note": "From 10-Q XBRL (not the document text): assets 2,713.8M, liabilities 1,487.8M, equity 1,121.3M, loss reserves 549.6M, unearned premiums 696.3M, cash 743.5M, debt carrying amount 31.8M at 2026-09-30."
+      "note": "Balance sheet and cash flow statement read in the 10-Q text: investments 1,424.4M (fixed maturity 1,241.4M vs 597.3M at year end), cash 743.5M vs 1,210.1M; cash decline explained by 752.8M securities purchases (investing -691.7M), financing -122.6M incl. 80.0M buybacks. Plus XBRL totals (equity 1,121.3M, debt 31.8M)."
     },
     "cashflow_basis_verified": {
       "passed": true,
@@ -98,18 +109,18 @@
       "note": "Own P/E and P/B computed. No peer (UVE, HRTG, UFCS, Kingstone), own-history or forward estimate."
     },
     "sector_model_appropriate": {
-      "passed": false,
+      "passed": true,
       "source_ids": [
-        "cf"
+        "q10"
       ],
-      "note": "Insurer model chosen, but combined ratio, reinsurance cost and catastrophe load were not obtained, so the model is not yet applied."
+      "note": "Insurer model applied from 10-Q MD&A: net combined ratio 58.8% 9M26 (60.7% 9M25), net loss ratio 30.6%, expense ratio 28.2%; ceded premiums 30.7% of gross earned in Q3 (35.2%); no catastrophe losses in 9M26; 40+ reinsurers, 64.1% of recoverable from five reinsurers incl. FHCF. Exzeo (75.0M of 89.7M shares owned) consolidated, NCI 23.5M in 9M."
     },
     "accounting_red_flags_reviewed": {
       "passed": false,
       "source_ids": [
         "cf"
       ],
-      "note": "Not reviewed: reserve development, reinsurance recoverables, noncontrolling interests (2025 NI differs 299.0M in 10-K vs 320.4M in proxy, likely a NCI or segment presentation difference, unexplained), 10-K audit matters."
+      "note": "Partly reviewed from 10-Q: reserves fell 576.5M to 549.6M, with 81.1M non-cat reduction for 2025 and prior years and 64.3M cat reserve reduction (Ian, Helene, Milton), vs 118.5M added for 2026; reductions include payments, so favorable development amount is NOT isolated. 9M26 net income benefits from low loss ratio. Still unread: FY2025 10-K audit matters, 10-K vs proxy NI difference (299.0M vs 320.4M)."
     },
     "counterthesis_written": {
       "passed": true,
@@ -178,9 +189,9 @@
     }
   },
   "unresolved_critical_gaps": [
-    "10-Q and 8-K document text not read (fetch 404/503); combined ratio, reinsurance, reserve development unknown",
-    "Cause of 8.1% drop 11-04 to 11-06 unknown",
-    "Peer and own-history valuation not done",
+    "Exhibit 99.1 release and call commentary unread; cause of 8.1% drop 11-04 to 11-06 unknown (10-Q shows lower loss ratio, higher premiums, so not obviously fundamental)",
+    "Peer (UVE, HRTG, UFCS) and own-history valuation not done",
+    "Isolated favorable reserve development amount not determined; FY2025 10-K unread",
     "NI 299.0M (10-K) vs 320.4M (proxy) difference unexplained",
     "Scores not assigned"
   ]

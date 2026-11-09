@@ -40,7 +40,7 @@ Updated 2026-11-09 04:2x ET by the four hour worker (run 19). Stages: lead, valu
 | 1369568 | CPRX | Nasdaq | Healthcare pharma (small) | removed | 2026-11-06 | None; acquired by Angelini Pharma (8-K 2026-07-16); confirm delisting if revisited | none | Screened lead no longer an independent listing; journal/research/CPRX.md |
 | 1065280 / 1326801 / 1652044 | NFLX / META / GOOGL | Nasdaq | Mega cap | lead | not yet | Low priority, duplicates index exposure | 2026-11-27 | Large index overlap |
 | various | ABT, LOW, PEP, JPM, NEE | NYSE/Nasdaq | legacy | legacy_method_1 | 2026-11-05 | Re-research under method 2.0 only if prioritised | none | Historical method 1.0 notes, not validated |
-| 1400810 | HCI | NYSE | Insurance P&C Florida homeowners (small) | researched_watch | 2026-11-09 | Read 10-Q/8-K text when fetchable (combined ratio, reinsurance, reserves); peers UVE/HRTG/UFCS; cause of 8% drop; NI 299.0M vs 320.4M | 2026-11-16 | 7.0x TTM, 2.1x book, +14.6% 9M NI; journal/research/HCI.json |
+| 1400810 | HCI | NYSE | Insurance P&C Florida homeowners (small) | researched_watch | 2026-11-09 | 10-Q text read in run 21; read Ex 99.1 and call, peers UVE/HRTG/UFCS, isolated reserve development, 10-K; cause of 8% drop; NI 299.0M vs 320.4M | 2026-11-16 | 7.0x TTM, 2.1x book, combined ratio 58.8% with no cat losses (likely benign year), +14.6% 9M NI; journal/research/HCI.json |
 
 Screen refresh: 2026-11-07 04:05 ET, calendar year 2025 (4,393 filers with revenue, 1,142 comparable, 419 preliminary passes; no failure).
 

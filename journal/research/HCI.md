@@ -27,3 +27,12 @@ Single-state hurricane concentration, reinsurance dependence, possible light cat
 Combined ratio, reinsurance program and cost, reserve development, 10-Q/8-K text, peers (UVE, HRTG, UFCS), own history, drop cause, NI difference, scores.
 
 Research only; no trade implied.
+
+## Update 2026-11-09 12:06 ET (run 21): 10-Q text read
+Direct sec.gov fetch of the 10-Q (0001193125-26-449880) and the 8-K cover (0001193125-26-447353) worked this run; Exhibit 99.1 not read. Validator: valid, not attractive-eligible (data/quality_run21_HCI.json).
+- Net combined ratio 58.8% in 9M26 (60.7% 9M25); Q3 58.0% (63.9%). Net loss ratio 30.6%, expense ratio 28.2%. No catastrophe losses in 9M26.
+- Ceded premiums 30.7% of gross earned in Q3 (35.2%) after the 2026-27 reinsurance renewal; 40+ reinsurers, 64.1% of recoverables from five (incl. the Florida Hurricane Catastrophe Fund).
+- Reserves 576.5M to 549.6M: 81.1M non-cat reduction for 2025 and prior, 64.3M cat reduction (Ian, Helene, Milton), 118.5M added for 2026. Reductions include payments, so favorable development is not isolated; earnings are probably flattered by a benign year.
+- Cash fall (1,210M to 744M) is mostly 752.8M of securities purchases (fixed maturities 597M to 1,241M); buybacks 80.0M. Not a liquidity problem.
+- Exzeo consolidated (HCI owns 75.0M of 89.7M shares); NCI income 23.5M in 9M26.
+Still open: Exhibit 99.1 and call, cause of the 8% drop, peers (UVE, HRTG, UFCS), isolated reserve development, 10-K, NI 299.0M vs 320.4M. Status stays watch.
