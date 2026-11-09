@@ -1,6 +1,6 @@
 # Research queue (persisted)
 
-Updated 2026-11-08 16:1x ET by the four hour worker (run 16). Stages: lead, valuation_pending, researched_watch, researched_pass, blocked.
+Updated 2026-11-08 20:1x ET by the four hour worker (run 17). Stages: lead, valuation_pending, researched_watch, researched_pass, blocked.
 
 | CIK | Ticker | Exchange | Sector | Stage | Last reviewed | Next action | Due | Reason |
 |---|---|---|---|---|---|---|---|---|
@@ -32,6 +32,7 @@ Updated 2026-11-08 16:1x ET by the four hour worker (run 16). Stages: lead, valu
 | 1555280 | ZTS | NYSE | Healthcare animal health (large) | researched_watch | 2026-11-08 | Peers (ELAN, IDXX, PAHC); 10-K and 10-Q notes (CAMs, litigation, tariffs, maturities); adjusted reconciliation; dermatology share data | 2026-11-15 | 13.4x TTM, FCF yield 6.9%, net debt 7.5B, US companion animal -8% organic, -11% in two sessions; journal/research/ZTS.json |
 | 1088856 | CORT | Nasdaq | Healthcare specialty pharma (mid) | researched_watch | 2026-11-08 | Read earnings release, Teva litigation, rest of 10-Q; PDUFA 2026-12-17 relacorilant; Lifyorli trend; peers | 2026-11-15 | Q3 op income 114.7M vs 10.2M, 49x TTM NI, FCF yield 2.4%, net cash 662M; journal/research/CORT.json |
 | 1562088 | DUOL | Nasdaq | Consumer subscription software (mid) | researched_watch | 2026-11-08 | Peers (Coursera, Chegg, Bumble); read FY2025 10-K and full MD&A; monetization vs DAU; class action; tax-normalized EPS | 2026-11-15 | 51.9x TTM NI, FCF yield 5.2% (3.2% after SBC), DAU +29%, +25% on 11-04; journal/research/DUOL.json |
+| 874716 | IDXX | Nasdaq | Healthcare veterinary diagnostics (large) | researched_watch | 2026-11-08 | Peers (ZTS, ELAN, PAHC); read FY2025 10-K, 10-Q MD&A and litigation; call commentary; senior note inconsistency; CoVet purchase accounting | 2026-11-15 | 45x TTM, FCF yield 2.4%, organic +10%, +22.6% in a week, margin guide cut; journal/research/IDXX.json |
 | 1369568 | CPRX | Nasdaq | Healthcare pharma (small) | removed | 2026-11-06 | None; acquired by Angelini Pharma (8-K 2026-07-16); confirm delisting if revisited | none | Screened lead no longer an independent listing; journal/research/CPRX.md |
 | 1065280 / 1326801 / 1652044 | NFLX / META / GOOGL | Nasdaq | Mega cap | lead | not yet | Low priority, duplicates index exposure | 2026-11-27 | Large index overlap |
 | various | ABT, LOW, PEP, JPM, NEE | NYSE/Nasdaq | legacy | legacy_method_1 | 2026-11-05 | Re-research under method 2.0 only if prioritised | none | Historical method 1.0 notes, not validated |
@@ -66,3 +67,5 @@ Run 13 (2026-11-08 00:0x ET): screen not refreshed (about 20 hours old, no failu
 Run 14 (2026-11-08 04:0x ET): screen refreshed 04:05 ET (previous 24 hours old): 4,393 filers with revenue, 1,142 comparable, 419 preliminary passes, no failure. QLYS rechecked: still no Q3 10-Q (Form 4/144 only). Researched WLFC (transport lessor) and JOE (land developer): watch, medium, scores null, valid, not attractive-eligible. Direct sec.gov document downloads were refused for automated tools; filings were read through the fetch tool (extracts, truncated for JOE) and data.sec.gov APIs. Benchmark VTI still pending, no paper references. Still thin: staples, trucking/rail, small caps.
 
 Run 15 (2026-11-08 08:0x ET): screen not refreshed (about 4 hours old, refreshed 04:05 ET, no failure). QLYS rechecked: still no Q3 10-Q (Form 4/144 only through 2026-11-06). Researched ZTS (animal health) and CORT (specialty pharma): watch, medium, scores null, valid, not attractive-eligible. Benchmark VTI still pending, no paper references. Third name not done; depth prioritized.
+
+Run 17 (2026-11-08 20:0x ET): screen not refreshed (about 16 hours old, refreshed 04:05 ET, no failure). QLYS rechecked: still no Q3 10-Q (Form 4/144 only through 2026-11-06). Researched IDXX (watch, medium, scores null, valid, not attractive-eligible). Other two slots not started; depth prioritized. Benchmark VTI still pending, no paper references.

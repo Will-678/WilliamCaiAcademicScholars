@@ -164,3 +164,10 @@ Report reports/2026-11-08-090658.md and latest.md; weekly review reviews/2026-11
 - Researched DUOL (51.9x TTM NI, FCF yield 5.2%, 3.2% after SBC, DAU +29%, +25% on 2026-11-04): watch, medium, scores null, valid, not attractive-eligible (data/quality_run16_DUOL.json). Only one name; second not started, depth prioritized. FY2025 10-K and full MD&A unread; peers missing.
 - Benchmark VTI still pending; no paper references. Quote origins are two publishers only. Used data.sec.gov and WebFetch extracts.
 - Next: peers for all names; DUOL 10-K; QLYS 10-Q; EXEL '039 ruling; OLED filing text; staples, trucking uncovered.
+
+## Worker run 2026-11-08 ~20:10 ET (method 2.0, run 17)
+- Screen not refreshed (~16 hours old). QLYS still has no Q3 10-Q (Form 4/144 only through 2026-11-06).
+- Researched IDXX (veterinary diagnostics): watch, medium, scores null, valid, not attractive-eligible (data/quality_run17_IDXX.json). 45x TTM earnings, FCF yield 2.4%, organic growth +10%, +22.6% in the week to 2026-11-06 close of 676.04 (two publishers agree); margin guide lowered; debt 849M. 10-K, MD&A, litigation, peers unread. Only one name; depth prioritized.
+- Benchmark VTI still pending; no paper references. Used data.sec.gov and WebFetch extracts.
+- Next: peers for all names (IDXX vs ZTS comparison); IDXX 10-K; QLYS 10-Q; EXEL '039 ruling; OLED filing text; staples, trucking, small caps uncovered.
+
