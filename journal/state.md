@@ -185,3 +185,6 @@ Run 18 (2026-11-09 00:0x ET): screen not refreshed (about 20 hours old, refreshe
 - Screen not refreshed (~4h old). QLYS still no Q3 10-Q. Researched HCI only (watch, medium, scores null; valid, not attractive-eligible; data/quality_run20_HCI.json). 7.0x TTM net income, 2.1x book, price -8.1% 11-04 to 11-06 unexplained. sec.gov document fetch failed (404/503) this run; XBRL only.
 - Benchmark VTI pending; no paper references.
 - Next: HCI filing text and peers; QLYS 10-Q; EXEL '039 ruling; peers across names; staples, trucking/rail, small caps still thin.
+
+## Morning compile 2026-11-09 09:09 ET
+Report reports/2026-11-09-090954.md and latest.md. 33 records revalidated (33 valid, 0 eligible, data/quality_compile_2026-11-09.json); 27 tests pass. No new filings for ZTS, GMED, CARG, ADBE, EXEL, CORT; QLYS still no Q3 10-Q. Leaders unchanged: ZTS, GMED, CARG, all watch. Next: peers and notes for leaders, full filing reads, independent quote origin.
