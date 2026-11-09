@@ -40,6 +40,7 @@ Updated 2026-11-09 04:2x ET by the four hour worker (run 19). Stages: lead, valu
 | 1369568 | CPRX | Nasdaq | Healthcare pharma (small) | removed | 2026-11-06 | None; acquired by Angelini Pharma (8-K 2026-07-16); confirm delisting if revisited | none | Screened lead no longer an independent listing; journal/research/CPRX.md |
 | 1065280 / 1326801 / 1652044 | NFLX / META / GOOGL | Nasdaq | Mega cap | lead | not yet | Low priority, duplicates index exposure | 2026-11-27 | Large index overlap |
 | various | ABT, LOW, PEP, JPM, NEE | NYSE/Nasdaq | legacy | legacy_method_1 | 2026-11-05 | Re-research under method 2.0 only if prioritised | none | Historical method 1.0 notes, not validated |
+| 1400810 | HCI | NYSE | Insurance P&C Florida homeowners (small) | researched_watch | 2026-11-09 | Read 10-Q/8-K text when fetchable (combined ratio, reinsurance, reserves); peers UVE/HRTG/UFCS; cause of 8% drop; NI 299.0M vs 320.4M | 2026-11-16 | 7.0x TTM, 2.1x book, +14.6% 9M NI; journal/research/HCI.json |
 
 Screen refresh: 2026-11-07 04:05 ET, calendar year 2025 (4,393 filers with revenue, 1,142 comparable, 419 preliminary passes; no failure).
 
@@ -75,3 +76,5 @@ Run 15 (2026-11-08 08:0x ET): screen not refreshed (about 4 hours old, refreshed
 Run 17 (2026-11-08 20:0x ET): screen not refreshed (about 16 hours old, refreshed 04:05 ET, no failure). QLYS rechecked: still no Q3 10-Q (Form 4/144 only through 2026-11-06). Researched IDXX (watch, medium, scores null, valid, not attractive-eligible). Other two slots not started; depth prioritized. Benchmark VTI still pending, no paper references.
 
 Run 19 (2026-11-09 04:0x ET): screen refreshed 04:05 ET (previous 24h old, no failure): 4,393 filers with revenue, 1,142 comparable, 419 preliminary passes; source_failures only the two legacy SalesRevenueNet frames (404). QLYS rechecked via submissions: still no Q3 10-Q (Form 4/144 only through 2026-11-06). Researched ADBE and APH (watch, medium, scores null, valid, not attractive-eligible). Third name not done; depth prioritized. Benchmark VTI still pending, no paper references.
+
+Run 20 (2026-11-09 08:1x ET): screen not refreshed (about 4 hours old, no failure). QLYS rechecked via submissions: still no Q3 10-Q (Form 4/144 only through 2026-11-06). Researched HCI (watch, medium, scores null, valid, not attractive-eligible). 10-Q and 8-K document text fetches returned 404/503, so only XBRL facts were used. JOE was already researched, not repeated. Benchmark VTI still pending, no paper references.

@@ -1,0 +1,187 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "HCI",
+  "exchange": "NYSE",
+  "currency": "USD",
+  "sector_model": "insurer (Florida homeowners P&C, reciprocal-style reinsurance dependent); use earnings, book value, reserves, catastrophe and reinsurance; no FCF model",
+  "as_of": "2026-11-09T08:06:52-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "HCI Group (Florida-focused property insurer) reported nine-month 2026 net income of 230.7M (vs 201.4M), diluted EPS 17.48, equity 1,121.3M and small debt (31.8M carrying amount). At 186.03 it trades near 7.0x TTM net income (7.5x TTM diluted EPS of 24.73) and 2.1x book, a low multiple for that earnings level, with 80.0M of 2026 buybacks.",
+  "counterthesis": "A single-state hurricane exposure can erase several years of earnings, and a low P/E on peak profits is typical for property insurers late in a favorable cat cycle. Net premiums earned are only +12.6% in 9M26 vs a year earlier and flat sequentially (219.1M Q3 vs 219.0M Q2); unearned premiums rose, but cash and equivalents fell from 1,210M to 744M (partly to buybacks and investments, uncertain). Shares fell 8.1% from 11-04 to 11-06 after the Q3 10-Q, cause not established. Combined ratio, reinsurance tower cost and reserve development were NOT read, so the earnings quality cannot be judged yet.",
+  "invalidation": "Large Florida hurricane loss or reinsurance tower failure, adverse reserve development, Florida market softening that lowers premiums and margins, or evidence that 2026 earnings were boosted by unusually light cat losses or reserve releases.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1400810/000119312626449880/hci-20260930.htm",
+      "document_id": "0001193125-26-449880",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-05 (document text fetch returned 404 / 503; text NOT read, only its XBRL facts via companyfacts)",
+      "kind": "quarterly_filing",
+      "read_status": "snippet",
+      "accessed_at": "2026-11-09T08:06:52-05:00"
+    },
+    {
+      "id": "cf",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001400810.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0001400810",
+      "origin": "SEC EDGAR XBRL derived from FY2025 10-K and 2026 10-Qs (incl. 10-Q 0001193125-26-449880)",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T08:06:52-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001400810.json",
+      "document_id": "SEC-submissions-CIK0001400810",
+      "origin": "SEC EDGAR submissions index (10-Q 2026-11-05, 8-K 2026-11-04 not read)",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T08:06:52-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/hci/history/",
+      "document_id": "stockanalysis-HCI-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T08:06:52-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/HCI/history/",
+      "document_id": "yahoo-finance-HCI-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T08:06:52-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "cf"
+      ],
+      "note": "Submissions index 2026-11-09: 10-Q filed 2026-11-05 (period 2026-09-30) and an 8-K filed 2026-11-04 (not read; likely earnings release). Nothing newer."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "cf"
+      ],
+      "note": "From 10-Q XBRL (not the document text): assets 2,713.8M, liabilities 1,487.8M, equity 1,121.3M, loss reserves 549.6M, unearned premiums 696.3M, cash 743.5M, debt carrying amount 31.8M at 2026-09-30."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "cf"
+      ],
+      "note": "Insurer: OCF 348.8M for 9M26 (333.7M 9M25); capex 1.0M. FCF yield not the valuation basis."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "cf"
+      ],
+      "note": "Cover page dei: 12,430,682 shares outstanding at 2026-11-03 (10-Q filed 2026-11-05)."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "cf",
+        "qa",
+        "qb"
+      ],
+      "note": "Own P/E and P/B computed. No peer (UVE, HRTG, UFCS, Kingstone), own-history or forward estimate."
+    },
+    "sector_model_appropriate": {
+      "passed": false,
+      "source_ids": [
+        "cf"
+      ],
+      "note": "Insurer model chosen, but combined ratio, reinsurance cost and catastrophe load were not obtained, so the model is not yet applied."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "cf"
+      ],
+      "note": "Not reviewed: reserve development, reinsurance recoverables, noncontrolling interests (2025 NI differs 299.0M in 10-K vs 320.4M in proxy, likely a NCI or segment presentation difference, unexplained), 10-K audit matters."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "cf"
+      ],
+      "note": "See counterthesis."
+    }
+  },
+  "price": {
+    "value": 186.03,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 186.03,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 186.03,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 186.03,
+      "shares": 12430682,
+      "market_cap_usd": 2312479772,
+      "ttm_period": "2025-10-01 to 2026-09-30",
+      "ttm_net_income_usd": 328357000,
+      "ttm_net_income_note": "FY2025 299.005M (10-K) - 9M25 201.351M + 9M26 230.703M (companyfacts)",
+      "pe_ttm": 7.0,
+      "ttm_diluted_eps": 24.73,
+      "pe_ttm_eps": 7.5,
+      "equity_usd": 1121280000,
+      "price_to_book": 2.06,
+      "debt_usd": 31776000
+    },
+    "growth": {
+      "nine_month_net_income_yoy": 0.146,
+      "q3_net_income_yoy": 0.275,
+      "q3_net_premiums_earned_yoy": 0.124,
+      "nine_month_buybacks_usd": 80010000
+    },
+    "price_path": {
+      "close_2026_11_02": 201.43,
+      "close_2026_11_03": 201.68,
+      "close_2026_11_04": 202.53,
+      "close_2026_11_05": 192.03,
+      "close_2026_11_06": 186.03
+    }
+  },
+  "unresolved_critical_gaps": [
+    "10-Q and 8-K document text not read (fetch 404/503); combined ratio, reinsurance, reserve development unknown",
+    "Cause of 8.1% drop 11-04 to 11-06 unknown",
+    "Peer and own-history valuation not done",
+    "NI 299.0M (10-K) vs 320.4M (proxy) difference unexplained",
+    "Scores not assigned"
+  ]
+}

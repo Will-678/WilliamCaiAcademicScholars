@@ -180,3 +180,8 @@ Run 18 (2026-11-09 00:0x ET): screen not refreshed (about 20 hours old, refreshe
 - Researched ADBE (12.8x TTM GAAP, FCF yield 11.4%, 9.1% after SBC, ARR +11.2% and guidance from secondary source only; Exhibit 99.1 and MD&A unread) and APH (31.1x TTM, FCF yield 2.8%, 9M sales +59.8% mostly CommScope, net debt 12.6B; MD&A unread, -9.3% on 11-05 unexplained). Both watch, medium, scores null, valid, not attractive-eligible (data/quality_run19_*.json).
 - Benchmark VTI still pending; no paper references. Quote origins are two publishers only (stockanalysis.com, Yahoo; identical closes 2026-11-06).
 - Next: ADBE exhibit/MD&A and peers; APH MD&A and peers; QLYS 10-Q; EXEL '039 ruling; OLED filing text; thin: staples, trucking/rail, small caps.
+
+## Worker run 2026-11-09 ~08:10 ET (method 2.0, run 20)
+- Screen not refreshed (~4h old). QLYS still no Q3 10-Q. Researched HCI only (watch, medium, scores null; valid, not attractive-eligible; data/quality_run20_HCI.json). 7.0x TTM net income, 2.1x book, price -8.1% 11-04 to 11-06 unexplained. sec.gov document fetch failed (404/503) this run; XBRL only.
+- Benchmark VTI pending; no paper references.
+- Next: HCI filing text and peers; QLYS 10-Q; EXEL '039 ruling; peers across names; staples, trucking/rail, small caps still thin.
