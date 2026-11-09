@@ -1,0 +1,220 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "ADBE",
+  "exchange": "Nasdaq",
+  "currency": "USD",
+  "sector_model": "nonfinancial software; GAAP earnings and FCF after capex with SBC deducted as a cost; net debt from 10-Q balance sheet",
+  "as_of": "2026-11-09T04:08:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Adobe (Creative Cloud, Document Cloud, Experience Cloud, Semrush) reported Q3 FY26 revenue 6,760M (+12.9%), GAAP net income 1,827M, diluted EPS 4.62, RPO 22.16B, and per a secondary reproduction of the release raised FY26 GAAP EPS targets to 18.12-18.17 with total ARR 27.50B (+11.2%). Close 239.30 on 2026-11-06 (Nasdaq) gives market cap about 93.1B on 389.2M shares: 12.8x TTM GAAP earnings and a TTM FCF yield of 11.4% (9.1% after SBC), with net debt only about 0.7B and 6.8B of buybacks in 9M. The market appears to price AI disruption of creative tools; evidence that growth and margins hold would close the gap.",
+  "counterthesis": "A low multiple on mid-teens growth may reflect real risk that generative AI erodes creative-seat pricing and moats; ARR growth is about 11% and part of revenue growth is the Semrush acquisition (closed 2026-04-28, 1.87B). SBC is about 2.1B a year, buybacks (6.8B in 9M) are shrinking shares but absorb nearly all FCF, and the CEO is changing on 2026-12-01 with an interim CFO (secondary source). Goodwill is 14.0B vs equity 11.8B and a 70M impairment was booked. The stock fell 4.8% over the last 5 sessions from 251.47 to 239.30. MD&A, legal proceedings, FY2025 10-K and peers are not read.",
+  "invalidation": "Total ending ARR growth falling below 9% for two quarters; GAAP operating margin falling below 33% (Q3 GAAP operating income 2.35B on 6.76B is about 34.8%); FCF after SBC below 7B annualized; a large goodwill impairment; adverse legal outcome; AI-first products failing to offset seat pressure.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000156/adbe-20260828.htm",
+      "document_id": "0000796343-26-000156",
+      "origin": "SEC EDGAR 10-Q period 2026-08-28 filed 2026-09-22",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T04:08:00-05:00"
+    },
+    {
+      "id": "rel8k",
+      "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbe-20260910.htm",
+      "document_id": "0000796343-26-000147",
+      "origin": "SEC EDGAR 8-K Item 2.02 filed 2026-09-10 (cover only; Exhibit 99.1 not retrievable)",
+      "kind": "earnings_release",
+      "read_status": "snippet",
+      "accessed_at": "2026-11-09T04:08:00-05:00"
+    },
+    {
+      "id": "pr",
+      "url": "https://pulse2.com/adobe-q3-revenue-rises-13-to-record-6-76-billion-and-company-raises-fy2026-targets/",
+      "document_id": "pulse2-adobe-q3-fy26",
+      "origin": "pulse2.com reproduction of Adobe press release",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T04:08:00-05:00"
+    },
+    {
+      "id": "cf",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000796343.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0000796343",
+      "origin": "SEC XBRL companyfacts API (FY2025 10-K 0000796343-26-000003 values)",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T04:08:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0000796343.json",
+      "document_id": "SEC-submissions-CIK0000796343",
+      "origin": "SEC EDGAR submissions index",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T04:08:00-05:00"
+    },
+    {
+      "id": "k10",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000796343.json",
+      "document_id": "SEC-XBRL-ADBE-FY2025-10K",
+      "origin": "SEC XBRL derived from FY2025 10-K; annual 10-K text not read",
+      "kind": "annual_filing",
+      "read_status": "unread",
+      "accessed_at": "2026-11-09T04:08:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/adbe/history/",
+      "document_id": "stockanalysis-ADBE-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T04:08:00-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/ADBE/history/",
+      "document_id": "yahoo-finance-ADBE-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T04:08:00-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "sub"
+      ],
+      "note": "Submissions index read 2026-11-09: newest periodic filing is the Q3 FY26 10-Q filed 2026-09-22 (period 2026-08-28); 8-Ks 2026-09-10 (earnings) and 2026-09-08; no newer periodic filing. Q4 results expected about mid-December (unverified). 10-Q read through Note 12; MD&A, risk factors and debt maturity note were cut off in the extract and NOT read. Exhibit 99.1 not retrievable; guidance comes from a secondary reproduction."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "2026-08-28 (USD millions): cash 4,359; short-term investments 1,280; debt current 1,597 + long-term 4,766 = 6,363; total liabilities 18,217; equity 11,764; goodwill 14,037 (up from 12,857, Semrush 1,874M price, 1,251M goodwill). Net debt about 0.72B. Maturity schedule (Note 14) not read."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "cf"
+      ],
+      "note": "TTM OCF 10,806M = FY25 10,031 - 9M25 6,871 + 9M26 7,646; capex 214M = 179 - 145 + 180; FCF 10,592M. SBC TTM 2,071M = 1,942 - 1,453 + 1,582 (cash flow statement); FCF after SBC about 8,521M. Matching periods, USD."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Cover page: 389.2M shares outstanding at 2026-09-18 (point in time) used for market cap. Diluted weighted shares Q3 395M. Buybacks reduced diluted shares 430M to 403M (9M) year over year; shares outstanding at Nov 2026 may be lower than Sept cover figure, unverified."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "pr",
+        "qa",
+        "qb"
+      ],
+      "note": "Computed: market cap 93.14B, 12.8x TTM GAAP net income, 8.8x TTM GAAP FCF (FCF yield 11.4%; 9.1% after SBC), 13.2x guided FY26 GAAP EPS midpoint 18.15 (secondary source). Peer (MSFT, CRM, INTU, ADSK) and own-history multiples not gathered."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Operating nonfinancial software; EV = market cap + debt - cash and short-term investments; FCF after capex; SBC treated as real cost; acquisition (Semrush) and 70M goodwill impairment flagged."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Reviewed: goodwill up 9% to 14.0B with a 70M impairment in Publishing and Advertising, SBC 4.03B unrecognized, 9M buybacks 6.8B (about 7% of market cap annualized) vs FCF 7.5B, interim CFO. FY2025 10-K critical audit matters, MD&A and legal proceedings (the 10-Q non-GAAP list mentions legal loss accruals) not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "pr"
+      ],
+      "note": "Counterthesis covers AI disruption of creative software, ARR growth near 11%, SBC, leadership and CFO transition, goodwill, price trend."
+    }
+  },
+  "price": {
+    "value": 239.3,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 239.3,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 239.3,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "fcf": {
+      "ocf": {
+        "value": 10806000000,
+        "unit": "USD",
+        "period_start": "2025-08-30",
+        "period_end": "2026-08-28"
+      },
+      "capex": {
+        "value": 214000000,
+        "unit": "USD",
+        "period_start": "2025-08-30",
+        "period_end": "2026-08-28"
+      },
+      "value": 10592000000,
+      "period": "TTM 2025-08-30 to 2026-08-28",
+      "note": "FY2025 + 9M26 - 9M25; fiscal year ends late November; capex = purchases of property and equipment; USD"
+    },
+    "valuation": {
+      "price": 239.3,
+      "shares": 389200000,
+      "market_cap_usd": 93139160000,
+      "ttm_net_income_usd": 7284000000,
+      "ttm_note": "FY2025 7,130M - 9M25 5,274M + 9M26 5,428M; GAAP",
+      "pe_ttm": 12.8,
+      "fcf_yield": 0.114,
+      "cash_and_securities_usd": 5639000000,
+      "debt_usd": 6363000000,
+      "ev_usd": 93863160000,
+      "note": "EV = market cap + 6,363M debt - 5,639M cash and short-term investments; FCF yield after SBC about 9.1%; guided FY26 GAAP EPS 18.12-18.17 gives about 13.2x (secondary source)"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peer and own-history multiples not gathered",
+    "FY2025 10-K audit matters, 10-Q MD&A, risk factors, debt maturities and legal proceedings not read; Exhibit 99.1 not retrievable, guidance from a secondary reproduction",
+    "Scores not assigned",
+    "Quote origins are two publishers, independence not proven",
+    "Cause of recent price decline and AI-disruption evidence not examined"
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "APH",
+  "exchange": "NYSE",
+  "currency": "USD",
+  "sector_model": "nonfinancial industrial technology (connectors, sensors, cable); GAAP earnings, FCF after capex, net debt after a large acquisition",
+  "as_of": "2026-11-09T04:08:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Amphenol (interconnect, sensors, antennas for AI data center, industrial, mobile and automotive markets) reported Q3 2026 sales 10,229.7M (+65% y/y) and net income 2,034.3M (+63%), with 9M sales +59.8% helped by the CommScope connectivity business bought on 2026-01-09 for part of 11.06B of 2026 acquisitions. Close 74.59 on 2026-11-06 (NYSE, post 2-for-1 split) gives market cap about 184.2B: 31.1x TTM GAAP earnings, FCF yield 2.8%, net debt about 12.6B. Quality is high, but price already assumes durable AI-related demand.",
+  "counterthesis": "Growth is mostly acquired and TTM figures understate the deal's cost; organic growth was not read. At 31x earnings and a 2.8% FCF yield the shares price continued AI infrastructure strength. Net debt rose from about 4.1B to 12.6B and goodwill from 10.6B to 17.7B in nine months. The stock dropped 9.3% on 2026-11-05 (79.01 to 71.64) and cause is unconfirmed. Share-count gap between cover (2,469M) and diluted (2,583M) is unexplained. MD&A, FY2025 10-K and peers not read.",
+  "invalidation": "Organic growth turning negative or falling below high single digits; net debt/EBITDA rising above 2.5x; CommScope integration margin dilution; AI data center order slowdown; goodwill impairment.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/820313/000110465926120646/aph-20260930x10q.htm",
+      "document_id": "0001104659-26-120646",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-10-30",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T04:08:00-05:00"
+    },
+    {
+      "id": "cf",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000820313.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0000820313",
+      "origin": "SEC XBRL companyfacts API (FY2025 10-K 0001104659-26-013549 values; share data restated for 2-for-1 split per 10-Q)",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T04:08:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0000820313.json",
+      "document_id": "SEC-submissions-CIK0000820313",
+      "origin": "SEC EDGAR submissions index",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T04:08:00-05:00"
+    },
+    {
+      "id": "k10",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000820313.json",
+      "document_id": "SEC-XBRL-APH-FY2025-10K",
+      "origin": "SEC XBRL derived from FY2025 10-K; annual 10-K text not read",
+      "kind": "annual_filing",
+      "read_status": "unread",
+      "accessed_at": "2026-11-09T04:08:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/aph/history/",
+      "document_id": "stockanalysis-APH-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T04:08:00-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/APH/history/",
+      "document_id": "yahoo-finance-APH-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T04:08:00-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "sub"
+      ],
+      "note": "Submissions index read 2026-11-09: newest periodic filing is the 10-Q filed 2026-10-30 (period 2026-09-30), 8-K 2026-10-28 (earnings; not read) and 8-Ks 2026-10-06 and 2026-09-04 (not read). 10-Q read through the financing note; MD&A (organic growth, end markets, tariffs, customer concentration) was cut off in the extract and NOT read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "2026-09-30 (USD millions): cash 4,173.1; cash plus short-term investments 5,301.4; debt current 700.7 + long-term 17,170.1 = 17,870.8; total liabilities 29,750.3; equity 17,262.5; goodwill 17,695.6 (10,575.4 at 2025-12-31). Net debt about 12.57B vs 4.07B at year end. 3-year term loan 1,534.1M due 2029-01-09, revolver 3.0B undrawn, commercial paper repaid."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "cf"
+      ],
+      "note": "TTM OCF 6,479.4M = FY25 5,374.7 - 9M25 3,652.5 + 9M26 4,757.2; capex 1,358.0M = 996.6 - 742.9 + 1,104.3; FCF 5,121.4M. Matching periods, USD. TTM includes CommScope business only from 2026-01-09, so TTM FCF mixes pre and post deal."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Cover page: 2,469,261,188 Class A shares at 2026-10-27 (post 2-for-1 split effective 2026-09-02); Q3 diluted weighted shares 2,582.9M, 4.6% higher, gap unexplained (dilution vs cover count). Market cap uses cover shares; using diluted shares gives about 192.7B and 32.5x. Approximation flagged."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q10",
+        "qa",
+        "qb"
+      ],
+      "note": "Computed: market cap 184.19B, EV about 196.76B, 31.1x TTM GAAP net income, FCF yield 2.78%. TTM earnings include CommScope for under 10 months, so forward earnings power is not measured; EBITDA, guidance, peers (TEL, GLW, ETN) and own-history multiples not gathered."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Operating nonfinancial industrial technology; EV = market cap + debt - cash; FCF after capex; acquisition effects flagged: 9M sales +59.8% are largely CommScope; organic growth not read."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Reviewed: goodwill +7.1B, debt +2.4B vs year end, cash down 6.1B funding 11.06B of acquisitions, SBC small (126.6M 9M). FY2025 10-K audit matters, purchase price allocation, MD&A, tariff exposure and customer concentration (AI data center) not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Counterthesis covers deal-inflated growth, AI-capex cyclicality, 31x earnings, leverage, 9% fall on 11-05."
+    }
+  },
+  "price": {
+    "value": 74.59,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 74.59,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 74.59,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "fcf": {
+      "ocf": {
+        "value": 6479400000,
+        "unit": "USD",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "capex": {
+        "value": 1358000000,
+        "unit": "USD",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "value": 5121400000,
+      "period": "TTM 2025-10-01 to 2026-09-30",
+      "note": "FY2025 + 9M26 - 9M25; capex = purchases of property plant and equipment; USD"
+    },
+    "valuation": {
+      "price": 74.59,
+      "shares": 2469261188,
+      "market_cap_usd": 184186000000,
+      "ttm_net_income_usd": 5932000000,
+      "ttm_note": "FY2025 4,270.3M - 9M25 3,074.8M + 9M26 4,736.5M; net income attributable to Amphenol, GAAP",
+      "pe_ttm": 31.1,
+      "fcf_yield": 0.0278,
+      "cash_and_securities_usd": 5301400000,
+      "debt_usd": 17870800000,
+      "ev_usd": 196755400000,
+      "note": "EV = market cap + 17,870.8M debt - 5,301.4M cash and short-term investments; noncontrolling interest and leases not added; diluted share basis gives 32.5x"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peer and own-history multiples, EBITDA and guidance not gathered",
+    "FY2025 10-K audit matters, 10-Q MD&A (organic growth, tariffs, customer concentration), earnings 8-K and purchase price allocation not read",
+    "Scores not assigned",
+    "Quote origins are two publishers, independence not proven",
+    "Cause of 9.3% drop on 2026-11-05 not confirmed; share count gap unexplained"
+  ]
+}

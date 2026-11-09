@@ -1,6 +1,6 @@
 # Research queue (persisted)
 
-Updated 2026-11-09 00:5x ET by the four hour worker (run 18). Stages: lead, valuation_pending, researched_watch, researched_pass, blocked.
+Updated 2026-11-09 04:2x ET by the four hour worker (run 19). Stages: lead, valuation_pending, researched_watch, researched_pass, blocked.
 
 | CIK | Ticker | Exchange | Sector | Stage | Last reviewed | Next action | Due | Reason |
 |---|---|---|---|---|---|---|---|---|
@@ -35,6 +35,8 @@ Updated 2026-11-09 00:5x ET by the four hour worker (run 18). Stages: lead, valu
 | 874716 | IDXX | Nasdaq | Healthcare veterinary diagnostics (large) | researched_watch | 2026-11-08 | Peers (ZTS, ELAN, PAHC); read FY2025 10-K, 10-Q MD&A and litigation; call commentary; senior note inconsistency; CoVet purchase accounting | 2026-11-15 | 45x TTM, FCF yield 2.4%, organic +10%, +22.6% in a week, margin guide cut; journal/research/IDXX.json |
 | 84839 | ROL | NYSE | Consumer services pest control (large) | researched_watch | 2026-11-09 | Peers (Cintas, Ecolab, Terminix-type comps); read FY2025 10-K, rest of 10-Q MD&A (retention), release and call; residential acquisition trend; commercial paper funding | 2026-11-16 | 34.5x TTM, FCF yield 3.7%, 9M EPS flat 0.85 vs 0.85, organic +4.4%, margin -140bp; journal/research/ROL.json |
 | 1059556 | MCO | NYSE | Ratings and data analytics (large) | researched_watch | 2026-11-09 | Peers (SPGI, MSCI, FDS, VRSK); read 10-Q MD&A, debt note, litigation, FY2025 10-K; gain-excluded TTM EPS; buyback pace vs FCF | 2026-11-16 | about 31x guided GAAP EPS, FCF yield 3.4%, Q3 revenue +1%, MIS transaction -5%, 296M divestiture gains in 9M; journal/research/MCO.json |
+| 796343 | ADBE | Nasdaq | Software creative and documents (large) | researched_watch | 2026-11-09 | Read Exhibit 99.1, 10-Q MD&A, risk factors, legal; peers (MSFT, CRM, INTU, ADSK); ARR trend; CEO/CFO transition; fresh quarter due about mid-December (unverified) | 2026-11-16 | 12.8x TTM, FCF yield 11.4% (9.1% after SBC), ARR +11.2% (secondary), net debt 0.7B; journal/research/ADBE.json |
+| 820313 | APH | NYSE | Industrial technology connectors (large) | researched_watch | 2026-11-09 | Read 10-Q MD&A organic growth, earnings 8-K 2026-10-28, tariffs; peers (TEL, GLW); drop cause 11-05; CommScope purchase accounting | 2026-11-16 | 31.1x TTM, FCF yield 2.8%, 9M sales +59.8% acquired, net debt 12.6B; journal/research/APH.json |
 | 1369568 | CPRX | Nasdaq | Healthcare pharma (small) | removed | 2026-11-06 | None; acquired by Angelini Pharma (8-K 2026-07-16); confirm delisting if revisited | none | Screened lead no longer an independent listing; journal/research/CPRX.md |
 | 1065280 / 1326801 / 1652044 | NFLX / META / GOOGL | Nasdaq | Mega cap | lead | not yet | Low priority, duplicates index exposure | 2026-11-27 | Large index overlap |
 | various | ABT, LOW, PEP, JPM, NEE | NYSE/Nasdaq | legacy | legacy_method_1 | 2026-11-05 | Re-research under method 2.0 only if prioritised | none | Historical method 1.0 notes, not validated |
@@ -71,3 +73,5 @@ Run 14 (2026-11-08 04:0x ET): screen refreshed 04:05 ET (previous 24 hours old):
 Run 15 (2026-11-08 08:0x ET): screen not refreshed (about 4 hours old, refreshed 04:05 ET, no failure). QLYS rechecked: still no Q3 10-Q (Form 4/144 only through 2026-11-06). Researched ZTS (animal health) and CORT (specialty pharma): watch, medium, scores null, valid, not attractive-eligible. Benchmark VTI still pending, no paper references. Third name not done; depth prioritized.
 
 Run 17 (2026-11-08 20:0x ET): screen not refreshed (about 16 hours old, refreshed 04:05 ET, no failure). QLYS rechecked: still no Q3 10-Q (Form 4/144 only through 2026-11-06). Researched IDXX (watch, medium, scores null, valid, not attractive-eligible). Other two slots not started; depth prioritized. Benchmark VTI still pending, no paper references.
+
+Run 19 (2026-11-09 04:0x ET): screen refreshed 04:05 ET (previous 24h old, no failure): 4,393 filers with revenue, 1,142 comparable, 419 preliminary passes; source_failures only the two legacy SalesRevenueNet frames (404). QLYS rechecked via submissions: still no Q3 10-Q (Form 4/144 only through 2026-11-06). Researched ADBE and APH (watch, medium, scores null, valid, not attractive-eligible). Third name not done; depth prioritized. Benchmark VTI still pending, no paper references.
