@@ -196,3 +196,8 @@ Run 21 (2026-11-09 12:0x ET): screen not refreshed (about 8 hours old, no failur
 - Researched HALO (watch, medium, scores null; valid, not attractive-eligible; 24.2x TTM GAAP, 15.2x ex-IPR&D, FCF yield 7.5%, -21% since 11-04, cause unconfirmed). One name; depth prioritized.
 - Benchmark VTI pending; no paper references.
 - Next: HALO call/peers/step-down timing; peers for others; QLYS 10-Q; EXEL '039 ruling; staples, trucking/rail, small caps thin.
+
+## Worker run 2026-11-09 ~20:10 ET (method 2.0, run 23)
+- Screen not refreshed (~16h old). QLYS Q3 10-Q/8-K filed 11-09, read. Researched QLYS (watch, medium, scores null; valid, not attractive-eligible). 31.2x TTM GAAP, FCF yield 4.9% (3.7% after SBC), ~10% growth, net cash 808M; 11-06 close 190.41 two publishers; stock -15% since 10-30, reaction to release unknown.
+- Benchmark VTI pending; no paper references.
+- Next: QLYS peers and 11-10 reaction, HALO/others peers, EXEL '039 ruling, OLED filing text; staples, trucking/rail, small caps thin.

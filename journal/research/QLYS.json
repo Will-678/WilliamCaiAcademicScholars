@@ -1,0 +1,209 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "QLYS",
+  "exchange": "Nasdaq",
+  "currency": "USD",
+  "sector_model": "application software / cybersecurity SaaS (subscription, deferred revenue, SBC-adjusted cash flow); no debt; not a bank/insurer/REIT model",
+  "as_of": "2026-11-09T20:08:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Qualys sells cloud vulnerability and risk management (subscription). Q3 2026 revenue 188.0M (+10.7%), GAAP operating income 66.3M (35% margin), net income 57.2M, OCF 101.8M; 9M revenue 545.9M (+10.5%), net income 160.2M (+10.4%), OCF 256.7M, capex 7.2M. No debt; cash and marketable securities 808.0M (cash 357.2M, short-term 163.6M, long-term 287.3M); total liabilities 536.3M, mostly deferred revenue 426.4M. Guidance raised 2026-11-09 (revenue 736.9-738.9M, GAAP EPS 6.08-6.15; non-GAAP 8.07-8.14 issuer-defined). At the last two-source verified close 190.41 (2026-11-06) and 34.909M shares (2026-10-23): market cap 6.65B, 31.2x TTM GAAP net income (213.4M), TTM FCF 324.4M = 4.9% yield (3.7% after TTM stock comp of 79.0M), EV about 5.84B. Price fell from 224.12 (10-30) to 190.41 (11-06), -15%; cause not confirmed. 11-09 close 202.85 (stockanalysis; Yahoo header 202.46) preceded the release, so the post-earnings reaction is unknown.",
+  "counterthesis": "Growth is only about 10% and decelerating (Q4 guide 9-10%); 31x GAAP earnings and 4.9% FCF yield is not cheap for that growth. Direct channel revenue is flat (9M +0.3%); all growth is from partners (+21%), which may carry lower margins. Share count is falling only because of 185.6M of buybacks in 9M that exceed free cash flow less option proceeds; option exercise proceeds of 65.6M inflated 9M financing; SBC is 10.7% of 9M revenue; operating cash flow benefits from deferred revenue and receivable timing (+30.6M working capital). Competition from larger platforms (security suites) and AI-driven disruption of scanner products; accounts receivable and billings timing. Non-GAAP guidance excludes SBC. Peer and own-history multiples not computed.",
+  "invalidation": "Revenue growth falling below high single digits, partner channel margin compression or direct-revenue declines, rising churn or lower net revenue retention, SBC dilution outpacing buybacks, or loss of large-customer share to platform vendors.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000044/qlys-20260930.htm",
+      "document_id": "0001107843-26-000044",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-09, direct sec.gov HTML; statements, cash flow, channel revenue note, buyback and liquidity MD&A read; risk factors and other notes not read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T20:08:00-05:00"
+    },
+    {
+      "id": "ex99",
+      "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000043/qlys-20261109xex991.htm",
+      "document_id": "0001107843-26-000043",
+      "origin": "Issuer Q3 2026 earnings release, SEC 8-K exhibit 99.1 filed 2026-11-09; first ~7,800 characters (highlights, guidance) read, reconciliations not read",
+      "kind": "earnings_release",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T20:08:00-05:00"
+    },
+    {
+      "id": "cf",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001107843.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0001107843",
+      "origin": "SEC XBRL from FY2025 10-K accession 0001107843-26-000008 (revenue 669.125M, net income 198.320M, OCF 309.4M, capex 4.99M, SBC 76.966M); FY2025 10-K document itself not read",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T20:08:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001107843.json",
+      "document_id": "SEC-submissions-CIK0001107843",
+      "origin": "SEC EDGAR submissions index; 10-Q and 8-K both filed 2026-11-09, nothing newer",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T20:08:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/qlys/history/",
+      "document_id": "stockanalysis-QLYS-2026-11-06",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T20:08:00-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/QLYS/history/",
+      "document_id": "yahoo-finance-QLYS-2026-11-06",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-09T20:08:00-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q10",
+        "ex99"
+      ],
+      "note": "Submissions 2026-11-09 20:1x ET: 10-Q and 8-K filed 2026-11-09, nothing newer. 10-Q statements and release highlights and guidance read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "10-Q balance sheet read: cash 357.191M, ST securities 163.552M, LT securities 287.296M, total liabilities 536.327M (deferred revenue 426.390M), equity 646.779M; no debt line."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "cf"
+      ],
+      "note": "9M26 OCF 256.684M, capex 7.182M; 9M25 OCF 233.741M, capex 4.266M; FY25 OCF 309.4M, capex 4.99M (XBRL). TTM OCF 332.343M, capex 7.906M, FCF 324.437M. USD, matching periods."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "10-Q cover: 34,909,416 shares outstanding at 2026-10-23; diluted weighted 35.321M for Q3; used cover count for market cap."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "cf",
+        "q10",
+        "qa",
+        "qb"
+      ],
+      "note": "Own P/E, FCF yield (before and after SBC), EV computed. No peer or own-history multiple and no independent estimates; guidance issuer-defined."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "ex99"
+      ],
+      "note": "SaaS model: revenue by channel, deferred revenue, SBC, buybacks vs FCF, net cash; GAAP and non-GAAP kept separate."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Working capital contribution (+19.6M) and option proceeds (65.6M) noted; SBC treated as cost. Critical audit matters, revenue recognition note, tax note, FY2025 10-K text unread."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "ex99"
+      ],
+      "note": "See counterthesis."
+    }
+  },
+  "price": {
+    "value": 190.41,
+    "currency": "USD",
+    "as_of": "2026-11-06T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-06",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 190.41,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 190.41,
+        "currency": "USD",
+        "as_of": "2026-11-06T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 190.41,
+      "shares": 34909416,
+      "market_cap_usd": 6647101901,
+      "ttm_period": "2025-10-01 to 2026-09-30",
+      "ttm_revenue_usd": 721144000,
+      "ttm_net_income_usd": 213372000,
+      "ttm_net_income_note": "FY2025 198.320M - 9M25 145.170M + 9M26 160.222M",
+      "pe_ttm": 31.2,
+      "ttm_ocf_usd": 332343000,
+      "ttm_capex_usd": 7906000,
+      "ttm_fcf_usd": 324437000,
+      "fcf_yield": 0.0488,
+      "ttm_sbc_usd": 79026000,
+      "fcf_less_sbc_yield": 0.0369,
+      "cash_and_securities_usd": 808039000,
+      "debt_usd": 0,
+      "enterprise_value_usd": 5839062901
+    },
+    "growth": {
+      "q3_revenue_yoy": 0.107,
+      "nine_month_revenue_yoy": 0.1054,
+      "nine_month_net_income_yoy": 0.104,
+      "partner_channel_9m_yoy": 0.211,
+      "direct_channel_9m_yoy": 0.003,
+      "nine_month_buybacks_usd": 185628000
+    },
+    "price_path": {
+      "close_2026_10_30": 224.12,
+      "close_2026_11_02": 207.6,
+      "close_2026_11_05": 199.63,
+      "close_2026_11_06": 190.41,
+      "close_2026_11_09_stockanalysis": 202.85,
+      "close_2026_11_09_yahoo_header": 202.46
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peer (e.g. TENB, RPD, CRWD, S) and own-history valuation not done",
+    "Cause of 15% drop 10-30 to 11-06 and post-earnings reaction on 11-10 unknown; call transcript unread",
+    "Audit matters, revenue recognition and tax notes and FY2025 10-K text unread; release reconciliations unread",
+    "Quote origins publisher-level only; 11-09 close sources differ slightly (202.85 vs 202.46)",
+    "Scores not assigned"
+  ]
+}
