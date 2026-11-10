@@ -220,3 +220,8 @@ Run 21 (2026-11-09 12:0x ET): screen not refreshed (about 8 hours old, no failur
 
 ## Morning compile 2026-11-10 (report reports/2026-11-10-090828.md)
 40 records revalidated (40 valid, 0 eligible, data/quality_compile_2026-11-10.json); 27 tests pass. No new filings for ZTS, GMED, CARG. Leaders unchanged, all watch. Next: peers/notes for leaders, full filing reads, independent quote origin.
+
+## Worker run 2026-11-10 ~12:10 ET (method 2.0, run 27)
+- Screen not refreshed (about 4h old). Researched PEGA (17.3x TTM GAAP, FCF yield 8.7%, Appian retrial 2027-01-11 with about 1.64B royalty claims unaccrued), NBIX (24.3x TTM, FCF yield 6.1%, revenue +41%, Soleno deal) and PLMR (19.0x TTM, 4.2x book, ROE about 22%). All watch, medium, scores null; valid, not attractive-eligible (data/quality_run27_*.json). 10-Qs read via direct sec.gov HTML; releases for NBIX and PLMR unread; no peers; 10-Ks unread.
+- Benchmark VTI pending; no paper references. Quote origins are two publishers only.
+- Next: PEGA litigation sizing and 11-30 defamation trial, NBIX release and IRA status, PLMR adjusted/GAAP gap; peers for all; QLYS reaction; EXEL '039 ruling; OLED filing text; staples, trucking/rail thin.

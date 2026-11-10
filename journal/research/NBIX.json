@@ -1,0 +1,216 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "NBIX",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "nonfinancial commercial biopharma: product revenue, operating income, FCF after SBC, patent and pricing risk, net cash; acquisition of Soleno (closed 2026-05-18, 2.83B cash) affects comparability",
+ "as_of": "2026-11-10T12:09:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Neurocrine (Nasdaq: NBIX) sells INGREZZA (tardive dyskinesia and Huntington chorea), CRENESSITY (congenital adrenal hyperplasia, launched December 2024) and, since May 2026, VYKAT XR (Prader-Willi hyperphagia, from the 2.83B Soleno acquisition). Q3 2026 revenue 1,122.7M (+41%); 9M revenue 2,896.2M (+41%); INGREZZA 9M 2,174.8M (+17%), CRENESSITY 9M 547.6M (vs 165.8M). 9M operating income 676.2M (vs 408.2M) after 144.2M of acquisition and divestiture costs; 9M OCF 677.4M. TTM to 2026-09-30: revenue 3,701.7M, operating income 887.1M, OCF 1,065.8M, capex 26.1M, FCF 1,039.7M, SBC 235.1M, GAAP net income 702.5M. At the 2026-11-09 close of 168.86 and 101.22M shares (cover, 2026-10-26) market cap is about 17.09B: 24.3x TTM GAAP earnings, FCF yield 6.1% (4.7% after SBC). Cash and available-for-sale securities were 789.7M with nothing drawn on the new 1.0B revolver (600M borrowed and repaid in the period), so EV is about 16.3B (18.4x TTM operating income). The price appears to assume INGREZZA growth slows under generic and negotiation pressure; what differs is CRENESSITY ramping quickly and VYKAT XR adding a third product, but this record has no peer or history comparison.",
+ "counterthesis": "INGREZZA is still the profit engine (about 75% of 9M product sales) and faces a Zydus Paragraph IV challenge on INGREZZA SPRINKLE, Teva's AUSTEDO XR, a DOJ civil investigative demand on its sales and marketing (August 2025, no outcome) and the Inflation Reduction Act (applicability to INGREZZA not checked in the 10-Q read). VYKAT XR is already challenged by an Alvogen ANDA (September 2026; the suit triggered a 30-month stay, exclusivities run to a date not read). The acquisition added 2,191.0M of intangibles and 500.6M of goodwill (preliminary allocation) and a pending Soleno securities class action; Q3 included a 52.3M unrealized loss on equity investments; receivables rose 270.5M (957.3M from 686.8M); noncurrent inventory of 177.7M mainly carries acquisition step-up. TTM FCF benefits from strong collections of a fast-growing receivable and a 103.6M income tax asset swing, and Q3 revenue growth may not repeat as CRENESSITY and VYKAT XR comparisons toughen. Stock fell 3.8% on 2026-11-05 then recovered to 168.86.",
+ "invalidation": "INGREZZA volume turning negative or net price erosion beyond about 5%, CRENESSITY quarterly sales stalling below about 200M, an adverse Zydus or Alvogen ruling, DOJ action with a monetary penalty, or VYKAT XR sales undershooting the acquisition case.",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0000914475.json",
+   "document_id": "SEC-submissions-CIK0000914475",
+   "origin": "SEC EDGAR submissions index",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T12:09:00-05:00"
+  },
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/914475/000091447526000054/nbix-20260930.htm",
+   "document_id": "0000914475-26-000054",
+   "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-02; income statement, balance sheet, cash flow, Soleno acquisition note, debt note, legal proceedings and MD&A highlights read from direct HTML converted to text; risk factors skimmed",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T12:09:00-05:00"
+  },
+  {
+   "id": "facts",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000914475.json",
+   "document_id": "SEC-companyfacts-CIK0000914475",
+   "origin": "SEC XBRL company facts from FY2025 10-K: revenue 2,860.5M, OCF 782.7M, capex 34.0M, SBC 217.9M, operating income 619.1M, net income 478.6M; FY2025 10-K text not read",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T12:09:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/nbix/history/",
+   "document_id": "stockanalysis-NBIX-2026-11-09",
+   "origin": "stockanalysis.com",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T12:09:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/NBIX/history/",
+   "document_id": "yahoo-finance-NBIX-2026-11-09",
+   "origin": "finance.yahoo.com",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T12:09:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10"
+   ],
+   "note": "Submissions 2026-11-10 show the Q3 10-Q and earnings 8-K filed 2026-11-02 as latest; the 8-K Exhibit 99.1 release was not read (10-Q read instead)."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "2026-09-30: cash 641.5M, AFS securities 96.4M current plus 51.8M noncurrent, total assets 5,627.4M, total liabilities 1,748.7M, equity 3,878.7M (assets less liabilities), intangibles 2,191.0M, goodwill 500.6M; no borrowings outstanding; 101.3M shares at balance date."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "facts"
+   ],
+   "note": "9M 2026 OCF 677.4M and capex 28.5M; 9M 2025 394.3M and 36.4M; FY2025 782.7M and 34.0M (millions, as reported). TTM period 2025-10-01 to 2026-09-30. Acquisition outflow 2,358.5M is excluded from FCF."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Cover: 101,218,643 shares at 2026-10-26 used point in time; Q3 diluted weighted average 105.2M is higher (equity awards), so per share earnings should use the diluted count."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "qa",
+    "qb"
+   ],
+   "note": "Own multiples computed; no peer or own-history comparison; no pro forma full-year Soleno contribution."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Commercial biopharma model: product concentration, patent and pricing risk, net cash; acquisition effects separated."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Reviewed acquisition accounting, equity investment losses, working capital and legal proceedings in the 10-Q; FY2025 10-K critical audit matters and revenue deduction (gross to net) reserves not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Written from the 10-Q legal, product and balance sheet data."
+  }
+ },
+ "price": {
+  "value": 168.86,
+  "currency": "USD",
+  "as_of": "2026-11-09T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-09",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 168.86,
+    "currency": "USD",
+    "as_of": "2026-11-09T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 168.86,
+    "currency": "USD",
+    "as_of": "2026-11-09T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 168.86,
+   "shares": 101218643,
+   "market_cap_usd": 17091780057,
+   "ttm_period": "2025-10-01 to 2026-09-30",
+   "ttm_revenue_usd": 3701700000,
+   "ttm_operating_income_usd": 887100000,
+   "ttm_ocf_usd": 1065800000,
+   "ttm_capex_usd": 26100000,
+   "ttm_fcf_usd": 1039700000,
+   "fcf_yield": 0.0608,
+   "ttm_sbc_usd": 235100000,
+   "fcf_less_sbc_yield": 0.0471,
+   "ttm_net_income_usd": 702500000,
+   "pe_ttm_gaap": 24.3,
+   "cash_and_securities_usd": 789700000,
+   "ev_ex_cash_usd": 16302080057,
+   "ev_to_operating_income": 18.4,
+   "debt_note": "revolver 1.0B undrawn at 2026-09-30 (600M borrowed and repaid); operating leases excluded"
+  },
+  "fcf": {
+   "ocf": {
+    "value": 1065800000,
+    "unit": "USD",
+    "period_start": "2025-10-01",
+    "period_end": "2026-09-30"
+   },
+   "capex": {
+    "value": 26100000,
+    "unit": "USD",
+    "period_start": "2025-10-01",
+    "period_end": "2026-09-30"
+   },
+   "value": 1039700000
+  },
+  "growth": {
+   "q3_revenue_yoy": 0.412,
+   "nine_month_revenue_yoy": 0.409,
+   "ingrezza_9m_usd": 2174800000,
+   "crenessity_9m_usd": 547600000
+  },
+  "acquisition": {
+   "soleno_consideration_usd": 2829900000,
+   "closed": "2026-05-18",
+   "acquisition_costs_9m_usd": 144200000
+  },
+  "price_path": {
+   "close_2026_11_04": 166.05,
+   "close_2026_11_05": 159.76,
+   "close_2026_11_06": 164.63,
+   "close_2026_11_09": 168.86,
+   "note": "stockanalysis.com; Yahoo agrees for 11-06 and 11-09"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peer and own-history valuation not done",
+  "Earnings release (Ex 99.1) and call unread; no guidance captured",
+  "IRA negotiation status for INGREZZA and exclusivity dates unverified",
+  "FY2025 10-K audit matters and gross to net reserves unread; TTM from XBRL",
+  "Soleno acquisition allocation preliminary",
+  "Quote origins are two publishers only",
+  "Scores not assigned"
+ ]
+}

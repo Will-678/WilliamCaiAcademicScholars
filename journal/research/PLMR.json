@@ -1,0 +1,190 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "PLMR",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "insurance specialty P&C: judged on net income, return on equity, price to book, combined ratio, reserve development, reinsurance and catastrophe exposure; operating cash flow and enterprise value are not used as anchors",
+ "as_of": "2026-11-10T12:09:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Palomar (Nasdaq: PLMR) is a specialty property and casualty insurer (earthquake, flood, crop, surety, casualty) growing quickly. Q3 2026 revenue 386.6M (+58% vs 244.7M); 9M revenue 980.0M vs 622.6M; Q3 gross written premiums 767.0M (+28.4%), 9M 2.0B (+32.0%), including the Gray Surety acquisition (2026-01-31, about 314.0M). GAAP net income Q3 65.3M (vs 51.5M); 9M 160.9M (vs 140.9M). Adjusted combined ratio 76.3% in Q3 (74.8% a year earlier). TTM to 2026-09-30 GAAP net income 217.0M (FY2025 197.1M minus 9M 2025 140.9M plus 9M 2026 160.9M). At the 2026-11-09 close of 156.78 and 26.29M shares (cover, 2026-11-04) market cap is about 4.12B: 19.0x TTM GAAP earnings and 4.2x book value (equity 985.0M at 2026-09-30); annualized 9M GAAP return on average equity about 22% (own calculation). Term loan debt 294.0M. The market appears to price a high growth, high ROE specialty insurer at a premium to book; the evidence that supports it is steady growth with a low combined ratio, while the price leaves little room for a reserve or catastrophe shock.",
+ "counterthesis": "Growth is partly acquired and partly in crop and surety lines new to the story, so the 2025 earnings base is not like for like. Adjusted net income (9M 208.2M) exceeds GAAP (160.9M) by about 47M of excluded items, a gap the 10-Q reconciliation shows but this record did not decompose. Q3 had 4.0M of adverse prior year development (crop reallocation) against 20.6M favorable over nine months; catastrophe losses in Hawaii and Midwest floods; total liabilities rose from 2,108.3M to 3,184.3M in nine months, assets 3,051.0M to 4,169.2M, so leverage (liabilities to assets 76%) and reinsurance reliance rose; interest expense went from 0.3M to 13.2M for nine months on the term loan and an FHLB line. Other underwriting expenses +59.8%. At 4.2x book the stock depends on sustaining a very high ROE. The stock rose 8.8% in a week (144.04 on 11-04 to 156.78 on 11-09), so part of any discount to its recent range has closed.",
+ "invalidation": "A combined ratio persistently above about 85%, material adverse reserve development, a large catastrophe loss exceeding reinsurance or reinsurance renewal on sharply worse terms, growth in crop or surety lines turning into underwriting losses, or ROE falling below about 15%.",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001761312.json",
+   "document_id": "SEC-submissions-CIK0001761312",
+   "origin": "SEC EDGAR submissions index",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T12:09:00-05:00"
+  },
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526450504/plmr-20260930.htm",
+   "document_id": "0001193125-26-450504",
+   "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-06; MD&A highlights, premiums, Gray Surety acquisition, reserve development, credit agreement and non-GAAP reconciliations located in the direct HTML converted to text; statements read mainly through XBRL facts, with the full financial statement tables only partly read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T12:09:00-05:00"
+  },
+  {
+   "id": "facts",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001761312.json",
+   "document_id": "SEC-companyfacts-CIK0001761312",
+   "origin": "SEC XBRL company facts: FY2025 net income 197.07M, revenue 876.0M, equity 942.7M; quarterly values for 2026; FY2025 10-K text not read",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T12:09:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/plmr/history/",
+   "document_id": "stockanalysis-PLMR-2026-11-09",
+   "origin": "stockanalysis.com",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T12:09:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/PLMR/history/",
+   "document_id": "yahoo-finance-PLMR-2026-11-09",
+   "origin": "finance.yahoo.com",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T12:09:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10"
+   ],
+   "note": "Submissions 2026-11-10 show the Q3 10-Q (2026-11-06) and earnings 8-K (2026-11-04) as latest; the 8-K Exhibit 99.1 was not read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "facts"
+   ],
+   "note": "2026-09-30 XBRL: total assets 4,169.2M, total liabilities 3,184.3M, equity 985.0M, long-term debt 294.0M; matches the 10-Q period; the invested asset and reserve detail was not read."
+  },
+  "cashflow_basis_verified": {
+   "passed": false,
+   "source_ids": [
+    "facts"
+   ],
+   "note": "Operating cash flow 9M 2026 334.8M vs 291.7M and FY2025 409.1M come from XBRL; insurer cash flow is not used as the valuation anchor; reserve roll-forward not reconciled to cash."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Cover: 26,294,949 shares at 2026-11-04 used point in time; diluted weighted share count not read."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "qa",
+    "qb"
+   ],
+   "note": "P/E and P/B computed on GAAP; no peer, own-history or adjusted-earnings comparison; reserve adequacy not independently assessed."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Insurance model: earnings, ROE, book value and combined ratio; cash flow and EV not used."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Adjusted versus GAAP gap, reserve development and acquisition effects noted; reserves, reinsurance recoverables and FY2025 10-K audit matters not read in detail."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Written from the 10-Q MD&A and balance sheet data."
+  }
+ },
+ "price": {
+  "value": 156.78,
+  "currency": "USD",
+  "as_of": "2026-11-09T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-09",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 156.78,
+    "currency": "USD",
+    "as_of": "2026-11-09T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 156.78,
+    "currency": "USD",
+    "as_of": "2026-11-09T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 156.78,
+   "shares": 26294949,
+   "market_cap_usd": 4122522104,
+   "ttm_period": "2025-10-01 to 2026-09-30",
+   "ttm_net_income_usd": 217039000,
+   "pe_ttm_gaap": 19.0,
+   "equity_usd": 984972000,
+   "price_to_book": 4.19,
+   "debt_usd": 294038000,
+   "annualized_9m_gaap_roe": 0.223,
+   "note": "insurer: no FCF or EV anchor; TTM operating cash flow 452.2M shown for reference only"
+  },
+  "growth": {
+   "q3_revenue_yoy": 0.58,
+   "gwp_q3_yoy": 0.284,
+   "gwp_9m_yoy": 0.32,
+   "adjusted_combined_ratio_q3": 0.763,
+   "adjusted_combined_ratio_q3_prior": 0.748
+  },
+  "price_path": {
+   "close_2026_11_04": 144.04,
+   "close_2026_11_05": 155.67,
+   "close_2026_11_06": 155.71,
+   "close_2026_11_09": 156.78,
+   "note": "stockanalysis.com; Yahoo agrees for 11-06 and 11-09"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peer (RLI, KNSL, Skyward) and own-history valuation not done",
+  "Adjusted versus GAAP net income gap (about 47M) not decomposed",
+  "Reserves, reinsurance program and recoverables unread; FY2025 10-K audit matters unread",
+  "Earnings release (Ex 99.1) and call unread",
+  "Cash flow basis not reconciled; XBRL used",
+  "Quote origins are two publishers only",
+  "Scores not assigned"
+ ]
+}

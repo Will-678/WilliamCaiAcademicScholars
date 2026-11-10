@@ -1,0 +1,229 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "PEGA",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "nonfinancial enterprise software: judged on subscription growth (ACV), operating income, FCF after stock compensation and litigation exposure; cash and securities 309.7M, no borrowings line on the balance sheet (convertible notes repaid in 2025)",
+ "as_of": "2026-11-10T12:09:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Pegasystems (Nasdaq: PEGA, Dec fiscal year) sells enterprise workflow and decisioning software, now 59% Pega Cloud by ACV. Q3 2026 revenue 393.4M (+3.1%); 9M revenue 1,244.0M (+0.2%) because subscription license fell (232.5M vs 329.2M) while subscription services rose 16.6% (860.4M vs 737.7M). Total ACV 1,653M, +6% (+7% constant currency); Pega Cloud ACV +20%, maintenance -12%. Management says ACV growth slowed on go-to-market execution and AI-driven scrutiny of large software purchases. TTM to 2026-09-30 (FY2025 XBRL minus 9M 2025 plus 9M 2026): revenue 1,748.4M, operating income 173.0M, OCF 462.7M, capex 20.5M, FCF 442.2M, SBC 144.8M, GAAP net income 294.8M (flattered by a 2025 tax benefit). At the 2026-11-09 close of 31.13 and 163.66M shares (cover, 2026-10-12) market cap is about 5.09B: FCF yield 8.7% (5.8% after SBC), 17.3x TTM GAAP earnings, EV about 4.79B (10.8x FCF, 27.7x TTM operating income). The market appears to price a slowing seller exposed to AI disruption plus a large legal overhang; what differs is a profitable, cash generative cloud transition with 20% cloud ACV growth, but this record cannot show the price is mistaken.",
+ "counterthesis": "The Appian trade secret case is a retrial set to start 2027-01-11. On 2026-10-16 the court let Appian present a reasonable royalty theory seeking 284.6M for marketing and sales activities and 1.36B for Pega Platform revisions (total about 1.64B, roughly 32% of market cap, versus 309.7M of cash and securities); the 2022 verdict was 2.06B before it was reversed on appeal. The 10-Q states management cannot estimate the range of loss and has accrued nothing for it. 9M operating income fell to 68.6M from 158.7M (G&A +21.5%, selling +9.3%, a 16.0M settlement charge); 9M OCF fell 12% and FCF 14% (289.8M vs 338.3M); the 10-Q warns cash flow may be adversely affected for the rest of the year. Total revenue is flat over nine months, license revenue is shrinking, 2026 buybacks of 432.7M exceeded 9M FCF and cut cash by 116M, and the release gave no forward guidance in the exhibit read. Stock is -9.4% from 2026-11-04 (34.36) to 2026-11-09 (31.13) for reasons not verified.",
+ "invalidation": "A retrial verdict or settlement in the low billions, ACV growth falling below about 4%, Pega Cloud ACV growth below about 15%, a further decline in FCF or operating margin, or buybacks continuing to outrun cash. Conversely, a defence verdict would remove the main overhang. Retrial starts 2027-01-11; the defamation jury trial is scheduled for 2026-11-30 (per the 10-Q).",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001013857.json",
+   "document_id": "SEC-submissions-CIK0001013857",
+   "origin": "SEC EDGAR submissions index",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T12:09:00-05:00"
+  },
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1013857/000101385726000058/pega-20260930.htm",
+   "document_id": "0001013857-26-000058",
+   "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-10-20; income statement, balance sheet, cash flow, ACV, FCF supplement, EPS note and Note 16 litigation read from the direct HTML converted to text; remaining MD&A and risk factors not read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T12:09:00-05:00"
+  },
+  {
+   "id": "rel",
+   "url": "https://www.sec.gov/Archives/edgar/data/1013857/000101385726000057/q32026_ex-991.htm",
+   "document_id": "0001013857-26-000057 Ex 99.1",
+   "origin": "Issuer earnings release 2026-10-20 (8-K Exhibit 99.1); headline, ACV and cash flow language read; no forward guidance found in the text searched",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T12:09:00-05:00"
+  },
+  {
+   "id": "facts",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001013857.json",
+   "document_id": "SEC-companyfacts-CIK0001013857",
+   "origin": "SEC XBRL company facts from FY2025 10-K filed 2026: revenue 1,745.8M, OCF 505.2M, capex 14.5M, SBC 155.2M, operating income 263.1M, net income 393.4M; FY2025 10-K text not read",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T12:09:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/pega/history/",
+   "document_id": "stockanalysis-PEGA-2026-11-09",
+   "origin": "stockanalysis.com",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T12:09:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/PEGA/history/",
+   "document_id": "yahoo-finance-PEGA-2026-11-09",
+   "origin": "finance.yahoo.com",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T12:09:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10",
+    "rel"
+   ],
+   "note": "Submissions 2026-11-10 show the 10-Q and earnings 8-K filed 2026-10-20 as latest; both read in the parts listed."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "2026-09-30: cash 202.2M, marketable securities 107.5M (total 309.7M), total assets 1,330.3M, total liabilities 781.2M, equity 549.1M, deferred revenue 429.5M; no borrowings line; 163.58M shares at balance date."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "facts"
+   ],
+   "note": "9M 2026 OCF 304,299K and capex 14,474K; 9M 2025 346,796K and 8,485K; FY2025 505,227K and 14,504K. TTM period 2025-10-01 to 2026-09-30. Company FCF supplement matches 9M FCF 289,825K."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Cover: 163,663,545 shares at 2026-10-12 used point in time; Q3 diluted weighted shares 168.6M are higher, so per share earnings use the diluted count."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "qa",
+    "qb"
+   ],
+   "note": "Own multiples computed; no peer or own-history comparison; litigation outcome unquantified."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Software model: ACV, operating income, FCF after SBC; litigation treated as a separate contingent claim, not netted against cash."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "10-Q litigation note, SBC, tax and restructuring items reviewed; FY2025 10-K critical audit matters and the 2025 tax benefit detail not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "rel"
+   ],
+   "note": "Written from the 10-Q litigation note, ACV and cash flow data."
+  }
+ },
+ "price": {
+  "value": 31.13,
+  "currency": "USD",
+  "as_of": "2026-11-09T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-09",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 31.13,
+    "currency": "USD",
+    "as_of": "2026-11-09T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 31.13,
+    "currency": "USD",
+    "as_of": "2026-11-09T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 31.13,
+   "shares": 163663545,
+   "market_cap_usd": 5094846156,
+   "ttm_period": "2025-10-01 to 2026-09-30",
+   "ttm_revenue_usd": 1748365000,
+   "ttm_operating_income_usd": 173009000,
+   "ttm_ocf_usd": 462730000,
+   "ttm_capex_usd": 20493000,
+   "ttm_fcf_usd": 442237000,
+   "fcf_yield": 0.0868,
+   "ttm_sbc_usd": 144763000,
+   "fcf_less_sbc_yield": 0.0584,
+   "ttm_net_income_usd": 294764000,
+   "pe_ttm_gaap": 17.3,
+   "cash_and_securities_usd": 309711000,
+   "ev_ex_cash_usd": 4785135156,
+   "ev_to_fcf": 10.8,
+   "ev_to_operating_income": 27.7,
+   "debt_note": "no borrowings line on 2026-09-30 balance sheet; operating leases excluded"
+  },
+  "fcf": {
+   "ocf": {
+    "value": 462730000,
+    "unit": "USD",
+    "period_start": "2025-10-01",
+    "period_end": "2026-09-30"
+   },
+   "capex": {
+    "value": 20493000,
+    "unit": "USD",
+    "period_start": "2025-10-01",
+    "period_end": "2026-09-30"
+   },
+   "value": 442237000
+  },
+  "growth": {
+   "q3_revenue_yoy": 0.031,
+   "nine_month_revenue_yoy": 0.002,
+   "acv_total_usd": 1653309000,
+   "acv_yoy": 0.06,
+   "pega_cloud_acv_yoy": 0.2
+  },
+  "litigation": {
+   "appian_royalty_claim_marketing_usd": 284600000,
+   "appian_royalty_claim_platform_usd": 1360000000,
+   "retrial_start": "2027-01-11",
+   "accrual_for_appian_usd": 0
+  },
+  "price_path": {
+   "close_2026_11_04": 34.36,
+   "close_2026_11_05": 33.57,
+   "close_2026_11_06": 32.4,
+   "close_2026_11_09": 31.13,
+   "note": "stockanalysis.com; Yahoo agrees for 11-06 and 11-09; 11-04 and 11-05 from one publisher"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Appian retrial exposure unquantified and unaccrued; outcome binary",
+  "Peer and own-history valuation not done",
+  "FY2025 10-K audit matters and 2025 tax benefit detail unread; TTM from XBRL",
+  "Cause of 9.4% price drop 11-04 to 11-09 not verified",
+  "Quote origins are two publishers only",
+  "Scores not assigned"
+ ]
+}
