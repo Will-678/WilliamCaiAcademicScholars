@@ -225,3 +225,9 @@ Run 21 (2026-11-09 12:0x ET): screen not refreshed (about 8 hours old, no failur
 - Screen not refreshed (about 4h old). Researched PEGA (17.3x TTM GAAP, FCF yield 8.7%, Appian retrial 2027-01-11 with about 1.64B royalty claims unaccrued), NBIX (24.3x TTM, FCF yield 6.1%, revenue +41%, Soleno deal) and PLMR (19.0x TTM, 4.2x book, ROE about 22%). All watch, medium, scores null; valid, not attractive-eligible (data/quality_run27_*.json). 10-Qs read via direct sec.gov HTML; releases for NBIX and PLMR unread; no peers; 10-Ks unread.
 - Benchmark VTI pending; no paper references. Quote origins are two publishers only.
 - Next: PEGA litigation sizing and 11-30 defamation trial, NBIX release and IRA status, PLMR adjusted/GAAP gap; peers for all; QLYS reaction; EXEL '039 ruling; OLED filing text; staples, trucking/rail thin.
+
+## Worker run 2026-11-10 ~16:10 ET (method 2.0, run 28)
+- Screen not refreshed (about 8h old). No new filings for any queued CIK since 11-09 (44 checked). Researched DAVE (watch, medium, scores null; valid, not attractive-eligible; data/quality_run28_DAVE.json). 18.6x TTM GAAP (about 20.5x tax-normalized), revenue +31%, guidance raised, close 282.65 (11-09, two publishers), -18.1% on 11-05 with cause unconfirmed. Operating cash flow excludes member receivables (investing) and Coastal now holds 158.8M off balance sheet, so no FCF yield stated. DOJ/FTC case plus MLA appeal (argument 2026-11-16) and two municipal suits; 10.0M accrued.
+- Benchmark VTI pending; no paper references. Quote origins are two publishers only.
+- Next: DAVE peers, call, drop cause and legal outcomes; peers for earlier names; EXEL '039 ruling; OLED filing text (blocked); other unresearched screen names (RDDT, PLTR, ALAB, LIF, TMDX, CLBT); staples and trucking still thin.
+

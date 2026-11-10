@@ -1,6 +1,6 @@
 # Research queue (persisted)
 
-Updated 2026-11-10 00:3x ET by the four hour worker (run 24). Stages: lead, valuation_pending, researched_watch, researched_pass, blocked.
+Updated 2026-11-10 16:1x ET by the four hour worker (run 28). Stages: lead, valuation_pending, researched_watch, researched_pass, blocked.
 
 | CIK | Ticker | Exchange | Sector | Stage | Last reviewed | Next action | Due | Reason |
 |---|---|---|---|---|---|---|---|---|
@@ -50,6 +50,7 @@ Updated 2026-11-10 00:3x ET by the four hour worker (run 24). Stages: lead, valu
 | 1013857 | PEGA | Nasdaq | Software enterprise workflow (mid) | researched_watch | 2026-11-10 | Appian retrial 2027-01-11 exposure (royalty claim about 1.64B vs 5.1B cap, no accrual); peers (APPN, NOW, CRM); FY2025 10-K audit matters; cause of -9.4% since 11-04; 2026-11-30 defamation trial | 2026-11-17 | 17.3x TTM GAAP, FCF yield 8.7% (5.8% after SBC), ACV +6%, 9M operating income 68.6M vs 158.7M; journal/research/PEGA.json |
 | 914475 | NBIX | Nasdaq | Healthcare commercial biopharma (large) | researched_watch | 2026-11-10 | Read Ex 99.1 and call; IRA status for INGREZZA; Zydus and Alvogen ANDA timing; DOJ CID; peers (TEVA, ACAD, JAZZ); 10-K | 2026-11-17 | 24.3x TTM GAAP, FCF yield 6.1% (4.7% after SBC), revenue +41%, net cash 790M, Soleno 2.83B deal; journal/research/NBIX.json |
 | 1761312 | PLMR | Nasdaq | Insurance specialty P&C (mid) | researched_watch | 2026-11-10 | Peers (KNSL, RLI, SKWD); adjusted vs GAAP gap (about 47M); reserves and reinsurance; 10-K; release | 2026-11-17 | 19.0x TTM GAAP, 4.2x book, annualized ROE about 22%, GWP +32% 9M, liabilities/assets 76%; journal/research/PLMR.json |
+| 1841408 | DAVE | Nasdaq | Consumer fintech short-term advances (mid) | researched_watch | 2026-11-10 | Peers (Chime, MoneyLion, Upstart, Affirm); pro forma FCF after Coastal shift; call and drop cause (-18.1% 11-05); DOJ/FTC case, MLA appeal argument 2026-11-16, Baltimore and Pennsylvania suits; FY2025 10-K audit matters; non-GAAP reconciliation | 2026-11-17 | 18.6x TTM GAAP (about 20.5x tax-normalized), revenue +31%, guidance raised, SBC 45.5M in 9M, net cash about 40M after 200M converts; journal/research/DAVE.json |
 
 Screen refresh: 2026-11-07 04:05 ET, calendar year 2025 (4,393 filers with revenue, 1,142 comparable, 419 preliminary passes; no failure).
 
@@ -99,3 +100,5 @@ Run 25 (2026-11-10 04:0x ET): screen not refreshed (metadata 2026-11-09 04:05 ET
 Run 26 (2026-11-10 08:1x ET): screen refreshed 08:08 ET (previous 28 hours old, no failure): 4,395 filers with revenue, 1,142 comparable, 419 preliminary passes; source_failures only the two legacy SalesRevenueNet frames (404). Submissions checked for all 39 queued CIKs: no new 10-Q/10-K/8-K since 11-09 except QLYS (already researched). Researched MKTX (pass: pending 167.00 cash acquisition by ICE, 0.8% spread) and ZM (watch, medium, scores null, valid, not attractive-eligible; data/quality_run26_*.json). Third name not started; depth prioritized. OLED not retried. Benchmark VTI pending, no paper references.
 
 Run 27 (2026-11-10 12:0x ET): screen not refreshed (metadata 08:08 ET, about 4 hours old, no failure). Submissions checked for the three new CIKs; no new filings for queued names were checked beyond run 26 (about 3.5 hours earlier). Researched PEGA, NBIX and PLMR (all new, watch, medium, scores null, valid, not attractive-eligible; data/quality_run27_*.json). Only 10-Q and XBRL based; releases for NBIX and PLMR unread; no peers. Benchmark VTI pending, no paper references.
+
+Run 28 (2026-11-10 16:0x ET): screen not refreshed (about 8 hours old, refreshed 08:08 ET, no failure). Submissions checked for all 44 queued CIKs: no new 10-Q/10-K/8-K dated 2026-11-10 or later. Researched DAVE (new, consumer fintech; watch, medium, scores null, valid, not attractive-eligible; data/quality_run28_DAVE.json). One name; depth prioritized. Benchmark VTI pending, no paper references.
