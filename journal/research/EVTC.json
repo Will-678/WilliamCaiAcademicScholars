@@ -1,0 +1,244 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "EVTC",
+ "exchange": "NYSE",
+ "currency": "USD",
+ "sector_model": "payments processing and fintech services: segment revenue and Adjusted EBITDA, customer concentration (Popular), acquisitions and FX, net debt and maturities, capitalized software in capex; nonfinancial FCF model, not bank/insurer/REIT",
+ "as_of": "2026-11-10T04:08:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "EVERTEC runs the ATH debit network, merchant acquiring and bank-processing services in Puerto Rico and, increasingly, Latin America (Brazil via Tecnobank and Dimensa). Q3 2026 revenue 283.0M (+23.8%, about 21% constant currency; acquisitions drive much of it), 9M revenue 805.7M (+17.3%); Latin America segment 9M 384.8M vs 260.2M. GAAP 9M net income to common 59.0M vs 106.0M (-44%) because of higher amortization (+35.7M), SG&A (+53.9M, incl. cyber-incident response), interest (+8.9M), an 8.9M equity-investee impairment and a 30.8% 9M tax rate. Company guides FY2026 revenue 1,088-1,096M and Adjusted EPS 4.00-4.08. TTM (FY2025 - 9M25 + 9M26): net income to common 94.6M, OCF 246.3M, capex incl. capitalized software 98.5M, FCF 147.8M. At the 2026-11-09 close of 33.40 and 59,252,142 shares the market cap is about 1.98B: about 20.9x TTM GAAP net income, 7.5% FCF yield (5.9% after share-based compensation); EV about 2.98B including 1,284.7M debt less 284.1M cash. The 2027 debt wall was removed on 2026-11-05 (term A and revolver refinanced to 2031; 8-K Item 1.01). Cheap-looking on cash flow, but GAAP earnings are depressed and the cyber incident, Popular concentration (22% of Q3 revenue, falling from 29%) and acquisition integration are open questions.",
+ "counterthesis": "GAAP earnings fell 44% over nine months and the quarter's EPS (0.49) was below last year's (0.51) despite 24% revenue growth, so the low multiple on cash flow may reflect structurally higher amortization, interest and tax. Adjusted EPS (guide 4.00-4.08) excludes acquisition amortization, SBC (31.4M TTM) and deal costs, and management Adjusted EBITDA margin fell to 39.0% from 40.5% as lower-margin Latin America grows. Business Solutions revenue is shrinking (58.6M vs 61.7M) on a 10% Popular discount that began Q4 2025, and Popular is still about 22% of revenue with agreements that include annual minimums only through 2028. Net debt about 1.0B (secured net leverage 2.46x) after 350M of 2025-2026 acquisitions; 3.09M shares were repurchased in 2026 using cash that is also needed for debt. A June 2026 cybersecurity incident at a third-party support platform led to putative class actions in Puerto Rico; no loss estimate is given. Brazil FX and Puerto Rico fiscal and tax-rate risks are real; 2025 revenue growth partly depended on one-off hardware sales and tax-credit sales.",
+ "invalidation": "Organic revenue growth turning negative, Adjusted EBITDA margin falling below about 37%, a material cyber-incident liability or loss of a major bank client, Popular renegotiating further discounts, leverage rising above about 3x, or GAAP EPS failing to recover as acquisition costs roll off.",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001559865.json",
+   "document_id": "SEC-submissions-CIK0001559865",
+   "origin": "SEC EDGAR submissions index",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T04:08:00-05:00"
+  },
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559865/000155986526000054/evtc-20260930.htm",
+   "document_id": "0001559865-26-000054",
+   "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-04, direct sec.gov HTML converted to text; financial statements, notes 2, 6, 15, MD&A results, segments, liquidity, covenant section and Part II legal items read; risk factors refer to the FY2025 10-K and were not read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T04:08:00-05:00"
+  },
+  {
+   "id": "rel",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559865/000155986526000052/ex99109302026.htm",
+   "document_id": "0001559865-26-000052 Ex 99.1",
+   "origin": "Issuer earnings release filed as 8-K Exhibit 99.1 on 2026-11-03; full release text read except non-GAAP reconciliation tables skimmed",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T04:08:00-05:00"
+  },
+  {
+   "id": "k8",
+   "url": "https://www.sec.gov/Archives/edgar/data/1559865/000162828026071284/evtc-20261105.htm",
+   "document_id": "0001628280-26-071284",
+   "origin": "SEC EDGAR 8-K filed 2026-11-06 for 2026-11-05 event, Item 1.01 seventh credit agreement amendment (refinancing to 2031); Item 1.01 text read, remaining items not read",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T04:08:00-05:00"
+  },
+  {
+   "id": "facts",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001559865.json",
+   "document_id": "SEC-companyfacts-CIK0001559865",
+   "origin": "SEC XBRL company facts from FY2025 10-K and 2026 10-Qs (FY2025 revenue 931.8M, net income 141.6M, OCF 227.0M, PP&E 23.3M and software 68.2M capex); FY2025 10-K text not read",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T04:08:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/evtc/history/",
+   "document_id": "stockanalysis-EVTC-2026-11-09",
+   "origin": "stockanalysis.com",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T04:08:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/EVTC/history/",
+   "document_id": "yahoo-finance-EVTC-2026-11-09",
+   "origin": "finance.yahoo.com",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T04:08:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10",
+    "rel",
+    "k8"
+   ],
+   "note": "Submissions 2026-11-10 list the 10-Q (filed 2026-11-04), earnings 8-K (2026-11-03), 8-K 1.01 (filed 2026-11-06) as latest; 10-Q, release and Item 1.01 text read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "rel"
+   ],
+   "note": "Release Schedule 2 and 10-Q: cash 284.1M, restricted cash 30.4M, total debt 1,284.7M (TLA 387.8M principal, TLB 875.0M, revolver 30.0M), total liabilities 1,777.4M, total assets 2,511.1M at 2026-09-30."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "facts"
+   ],
+   "note": "10-Q cash flow statement 9M26 OCF 176,289K, software additions 57,274K, PP&E 17,629K; 9M25 157,001K, 50,905K, 17,020K; FY2025 from XBRL OCF 227,007K, PaymentsForSoftware 68,165K, PP&E 23,336K. TTM periods match (Oct 2025 to Sep 2026); capitalized software included in capex."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Balance sheet and cover: 59,252,142 shares outstanding at 2026-09-30 and 2026-10-28 (point in time); diluted weighted 60.4M for Q3 not used for market cap."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "rel",
+    "qa",
+    "qb"
+   ],
+   "note": "Own TTM multiples computed (20.9x GAAP, 7.5% FCF yield); no peer or own-history multiples, no consensus; so valuation is incomplete."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "rel"
+   ],
+   "note": "Payments processor model used: segments, Popular concentration, acquisition and FX effects, net debt and maturities, capitalized software counted as capex."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Reviewed 10-Q: 8.9M investee impairment, 30.8% discrete tax rate, preliminary purchase accounting, cyber-incident class actions. FY2025 10-K critical audit matters and risk factors not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "rel"
+   ],
+   "note": "Written in counterthesis from filing evidence."
+  }
+ },
+ "price": {
+  "value": 33.4,
+  "currency": "USD",
+  "as_of": "2026-11-09T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-09",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 33.4,
+    "currency": "USD",
+    "as_of": "2026-11-09T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 33.4,
+    "currency": "USD",
+    "as_of": "2026-11-09T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 33.4,
+   "shares": 59252142,
+   "market_cap_usd": 1979021543,
+   "ttm_period": "2025-10-01 to 2026-09-30",
+   "ttm_revenue_usd": 1050569000,
+   "ttm_net_income_usd": 94589000,
+   "ttm_net_income_note": "FY2025 141,590K - 9M25 106,029K + 9M26 59,028K (attributable to common)",
+   "pe_ttm": 20.9,
+   "ttm_ocf_usd": 246295000,
+   "ttm_capex_usd": 98479000,
+   "ttm_fcf_usd": 147816000,
+   "fcf_yield": 0.0747,
+   "ttm_sbc_usd": 31402000,
+   "fcf_less_sbc_yield": 0.0588,
+   "cash_usd": 284104000,
+   "debt_usd": 1284701000,
+   "net_debt_usd": 1000597000,
+   "enterprise_value_usd": 2979618543
+  },
+  "fcf": {
+   "ocf": {
+    "value": 246295000,
+    "unit": "USD",
+    "period_start": "2025-10-01",
+    "period_end": "2026-09-30"
+   },
+   "capex": {
+    "value": 98479000,
+    "unit": "USD",
+    "period_start": "2025-10-01",
+    "period_end": "2026-09-30"
+   },
+   "value": 147816000
+  },
+  "growth": {
+   "q3_revenue_yoy": 0.238,
+   "nine_month_revenue_yoy": 0.173,
+   "nine_month_net_income_yoy": -0.443,
+   "guide_fy2026_revenue_usd": [
+    1088000000.0,
+    1096000000.0
+   ],
+   "guide_adjusted_eps": [
+    4.0,
+    4.08
+   ],
+   "popular_share_of_q3_revenue": 0.22,
+   "secured_net_leverage": 2.46
+  },
+  "price_path": {
+   "close_2026_11_03": 31.26,
+   "close_2026_11_04": 34.73,
+   "close_2026_11_05": 34.03,
+   "close_2026_11_06": 33.55,
+   "close_2026_11_09": 33.4,
+   "note": "same values on both publishers; +11% on 11-04 after the 11-03 release"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peer (FOUR, EEFT, PAYO-type, bank processors) and own-history valuation not done",
+  "FY2025 10-K audit matters, risk factors and cyber-incident exposure unread",
+  "Organic growth ex acquisitions and FX not quantified",
+  "Call commentary unread",
+  "Quote origins publisher-level only",
+  "Scores not assigned"
+ ]
+}

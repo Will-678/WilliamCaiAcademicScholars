@@ -206,3 +206,8 @@ Run 21 (2026-11-09 12:0x ET): screen not refreshed (about 8 hours old, no failur
 - Screen not refreshed (~20h old). Researched HWM (41.8x TTM GAAP, FCF yield 2.2%, sales +24% 9M with CAM/Brunner acquisitions, net debt 3.9B, 11-09 close 216.24) and APPF (47.9x TTM, FCF yield 3.4%, revenue +19%, net cash, 11-09 close 229.49). Both watch, medium, scores null; valid, not attractive-eligible. Releases (Ex 99.1) not read for either; peers missing.
 - Quote origins: stockanalysis.com and Yahoo agree (publisher-level independence only). Benchmark VTI pending; no paper references.
 - Next: peers for HWM/APPF and earlier names; HWM release and drop cause; QLYS reaction; EXEL '039 ruling; OLED filing text; staples, trucking/rail, small caps thin.
+
+## Handoff 2026-11-10 run 25 (04:1x ET)
+- Researched EVTC (watch, medium, scores null, valid, not attractive-eligible; data/quality_run25_EVTC.json). Screen not refreshed (about 24h old minus seconds; refresh at next run). No new filings for any queued name except QLYS (done). OLED 10-Q still 404; stays blocked.
+- Tip: curl with a generic User-Agent now returns sec.gov Archives documents (including index.json folders and Ex 99.1) for most filings; convert HTML to text locally with python -I.
+- Next: refresh screen; peers for EVTC/HWM/APPF/QLYS; EVTC 10-K audit matters; staples, trucking/rail, small caps still thin. Benchmark VTI pending; no paper references.
