@@ -217,3 +217,6 @@ Run 21 (2026-11-09 12:0x ET): screen not refreshed (about 8 hours old, no failur
 - Researched MKTX (avoid/pass: ICE 167.00 cash deal, 165.67 close, 0.8% spread) and ZM (watch, medium, scores null; 10.1x TTM FCF ex cash, FCF yield 7.2%, 4.4% after SBC proxy; GAAP income distorted by Anthropic mark-up). Both valid, not attractive-eligible.
 - Benchmark VTI pending; no paper references. Quote origins are two publishers only.
 - Next: ZM peers and 10-K; peers across earlier names; EXEL '039 ruling; OLED filing text; QLYS 11-10 reaction; staples, trucking/rail, small caps thin.
+
+## Morning compile 2026-11-10 (report reports/2026-11-10-090828.md)
+40 records revalidated (40 valid, 0 eligible, data/quality_compile_2026-11-10.json); 27 tests pass. No new filings for ZTS, GMED, CARG. Leaders unchanged, all watch. Next: peers/notes for leaders, full filing reads, independent quote origin.
