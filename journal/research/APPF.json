@@ -1,0 +1,217 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "APPF",
+  "exchange": "Nasdaq",
+  "currency": "USD",
+  "sector_model": "vertical SaaS plus payments and screening (usage-based value-added services, SBC-adjusted cash flow, net cash, buybacks); not a bank/insurer/REIT model",
+  "as_of": "2026-11-10T00:07:26-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "AppFolio sells property-management software and payments, tenant screening and resident services. Q3 2026 revenue 295.7M (+19%), 9M 839.0M (+19%): subscription +15%, value added services +22% (payments, screening, risk mitigation), units under management +8%. 9M income from operations 161.1M vs 109.3M, net income 129.9M (+28.7%), OCF 218.7M, no debt, cash and short-term securities 307.3M plus 87.7M long-term investments, 9M buybacks 129.2M. At the verified 2026-11-09 close 229.49 and 35.456M Class A plus Class B shares the market cap is about 8.1B: 47.9x TTM GAAP net income, 3.4% FCF yield (2.5% after stock compensation). A high-quality grower priced for continued 15-20% growth; not obviously mispriced.",
+  "counterthesis": "Growth rests on value-added services (78% of 9M revenue), which are usage-driven and depend on payments, screening volumes and attach rates, not just unit count (+8%). The effective tax rate rose to 22% in 9M26 from 12.5% in 9M25 (valuation allowance/credits normalising), so earnings growth overstates pre-tax trend: pre-tax income grew 44.7% but net income only 28.7%, and TTM P/E remains about 48x. Q3 operating margin 19.4% depends on S&M staying contained (S&M +35% in Q3). SBC is 7% of revenue, and net share settlement plus buybacks consume cash. Competition from Yardi, RealPage, Buildium and AI-native entrants, regulatory scrutiny of tenant screening and fees, and a weak rental or housing market are not quantified here.",
+  "invalidation": "Value-added services growth slowing below about 10%, units under management growth falling or churn rising, operating margin falling below mid-teens, rising regulatory limits on screening or payment fees, or net income growth stalling while the shares still trade above 40x earnings.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1433195/000143319526000064/appf-20260930.htm",
+      "document_id": "0001433195-26-000064",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-10-22, direct sec.gov HTML converted to text; balance sheet, income statement, cash flow, revenue breakdown, revenue discussion and SBC reconciliation read; risk factors, legal, tax note and liquidity MD&A not fully read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-10T00:07:26-05:00"
+    },
+    {
+      "id": "cf",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001433195.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0001433195",
+      "origin": "SEC XBRL from FY2025 10-K accession 0001433195-26-000011 (revenue 950.822M, net income 140.923M, OCF 242.105M, PP&E capex 3.155M, capitalized software 3.440M, SBC 70.790M); 10-K document itself not read",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-10T00:07:26-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001433195.json",
+      "document_id": "SEC-submissions-CIK0001433195",
+      "origin": "SEC EDGAR submissions index checked 2026-11-10; 10-Q and 8-K (earnings) filed 2026-10-22, later forms only Form 4 and 144",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-10T00:07:26-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/appf/history/",
+      "document_id": "stockanalysis-APPF-2026-11-09",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-10T00:07:26-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/APPF/history/",
+      "document_id": "yahoo-finance-APPF-2026-11-09",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-10T00:07:26-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q10"
+      ],
+      "note": "Submissions 2026-11-10: 10-Q and 8-K filed 2026-10-22, nothing newer except Form 4/144. 10-Q statements read. 8-K release text and guidance not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "10-Q balance sheet read: cash 258.536M, current investment securities 48.740M, long-term investments 87.668M, total liabilities 133.157M, equity 582.514M, no debt line; treasury stock 302.5M."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "cf"
+      ],
+      "note": "9M26 OCF 218.668M, PP&E capex 0.242M, capitalized software 3.537M; 9M25 OCF 177.115M, capex 1.841M, software 2.414M; FY25 OCF 242.105M, PP&E 3.155M, software 3.440M (XBRL). TTM OCF 283.658M, capex incl. capitalized software 6.119M, FCF 277.539M. USD."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "10-Q cover: 24,126,151 Class A plus 11,329,625 Class B shares at 2026-10-15 (35,455,776 total, same economic rights); used for market cap."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "cf",
+        "q10",
+        "qa",
+        "qb"
+      ],
+      "note": "Own P/E, FCF yield, EV computed. No peer (Procore, Guidewire-type vertical SaaS, CoStar, RealPage private), own-history or consensus multiple; guidance unread."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "SaaS/payments model: revenue mix, SBC, net cash, buybacks, tax rate."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Noted tax rate step-up, SBC, 1.5M lease gain, deferred tax asset 32M; critical audit matters, revenue recognition for payments (gross vs net), legal and 10-K text not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "See counterthesis."
+    }
+  },
+  "price": {
+    "value": 229.49,
+    "currency": "USD",
+    "as_of": "2026-11-09T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-09",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 229.49,
+        "currency": "USD",
+        "as_of": "2026-11-09T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 229.49,
+        "currency": "USD",
+        "as_of": "2026-11-09T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 229.49,
+      "shares": 35455776,
+      "market_cap_usd": 8136746034,
+      "ttm_period": "2025-10-01 to 2026-09-30",
+      "ttm_revenue_usd": 1087221000.0,
+      "ttm_net_income_usd": 169860000,
+      "ttm_net_income_note": "FY2025 140.923M - 9M25 101.009M + 9M26 129.946M",
+      "pe_ttm": 47.9,
+      "ttm_ocf_usd": 283658000,
+      "ttm_capex_usd": 6119000,
+      "ttm_fcf_usd": 277539000,
+      "fcf_yield": 0.0341,
+      "ttm_sbc_usd": 74387000,
+      "fcf_less_sbc_yield": 0.025,
+      "cash_and_current_securities_usd": 307276000.0,
+      "long_term_investments_usd": 87668000.0,
+      "debt_usd": 0,
+      "enterprise_value_usd": 7829470034
+    },
+    "fcf": {
+      "ocf": {
+        "value": 283658000,
+        "unit": "USD",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "capex": {
+        "value": 6119000,
+        "unit": "USD",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "value": 277539000
+    },
+    "growth": {
+      "q3_revenue_yoy": 0.186,
+      "nine_month_revenue_yoy": 0.194,
+      "nine_month_net_income_yoy": 0.286,
+      "nine_month_pretax_yoy": 0.447,
+      "vas_9m_yoy": 0.216,
+      "subscription_9m_yoy": 0.153,
+      "nine_month_buybacks_usd": 129190000.0,
+      "tax_rate_9m_2026": 0.222,
+      "tax_rate_9m_2025": 0.125
+    },
+    "price_path": {
+      "close_2026_11_02": 224.86,
+      "close_2026_11_03": 223.74,
+      "close_2026_11_04": 236.85,
+      "close_2026_11_06": 230.74,
+      "close_2026_11_09": 229.49,
+      "note": "same values on both publishers"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peer and own-history valuation not done",
+    "8-K release, guidance and call unread; reaction to the 2026-10-22 report not analysed",
+    "Tax rate normalisation, critical audit matters, payments revenue presentation and FY2025 10-K text unread",
+    "Insider Form 4/144 selling activity (Nov 4-6) not examined",
+    "Quote origins publisher-level only",
+    "Scores not assigned"
+  ]
+}

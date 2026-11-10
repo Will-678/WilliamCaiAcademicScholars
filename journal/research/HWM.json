@@ -1,0 +1,227 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "HWM",
+  "exchange": "NYSE",
+  "currency": "USD",
+  "sector_model": "aerospace and industrial manufacturing (segment EBITDA, capex, receivable factoring, acquisitions, net debt); not a bank/insurer/REIT model",
+  "as_of": "2026-11-10T00:07:26-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Howmet makes jet-engine components, fasteners, structures and forged wheels. Q3 2026 sales 2,703M (+29%), 9M sales 7,563M (+24%, includes CAM from 2026-04-06 and Brunner from 2026-02-06), operating income 9M 2,241M (includes 91M restructuring credits, mainly a 93M Savannah sale gain), net income 9M 1,681M, OCF 1,745M, capex 345M. Engine Products Q3 segment EBITDA margin 39.1% vs 33.3%. Investment grade (BBB+/Baa1 positive/A-), 5,000M added to buyback authorization 2026-10-28. At the verified 2026-11-09 close 216.24 and 397.66M shares the market cap is about 86.0B: 41.8x TTM GAAP net income, 2.2% TTM FCF yield, which prices in several more years of aerospace and gas-turbine growth at high margins. Business quality looks high; the price looks demanding, so this is a quality-at-a-full-price watch, not a bargain.",
+  "counterthesis": "41.8x TTM earnings (about 43x excluding the 91M gain, before tax effect) and a 2.2% FCF yield leave little room for a slowdown in aircraft builds, engine spares or gas turbines. Part of the 24% growth is acquired (CAM, Brunner) and part is aluminum and inflation cost pass-through, so organic growth is lower than headline. OCF is helped by receivable sales without recourse (1,069M in 9M26 under one program plus 1,043M under customer programs, presented in operating cash flow) and by deferred revenue growth. Net debt rose to about 3.9B after the 1.9B of acquisitions, 1.1B of buybacks were done at 230-265 per share, and a 300M 6.75% bond is due Jan 2028. Concentration in commercial aerospace (aircraft and engine OEM demand) and tariff, supplier and headcount absorption risks (about 520 net hires in Engine Products in Q3) are unquantified here.",
+  "invalidation": "Commercial aerospace build rates or engine spares falling, Engine Products EBITDA margin rolling back below about 35%, organic growth falling to single digits while the stock still trades above 40x earnings, FCF conversion dropping because receivable sales are curtailed, or debt-funded acquisitions and buybacks pushing leverage up.",
+  "sources": [
+    {
+      "id": "q10",
+      "url": "https://www.sec.gov/Archives/edgar/data/4281/000000428126000036/hwm-20260930.htm",
+      "document_id": "0000004281-26-000036",
+      "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-10-29, direct sec.gov HTML converted to text; income statement, balance sheet, cash flow, acquisitions, debt, buyback, receivable sale and MD&A segment and liquidity sections read; risk factors, pension and legal notes only skimmed",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-10T00:07:26-05:00"
+    },
+    {
+      "id": "ex8k",
+      "url": "https://www.sec.gov/Archives/edgar/data/4281/000110465926119857/tm2628456d1_8k.htm",
+      "document_id": "0001104659-26-119857",
+      "origin": "SEC 8-K Item 2.02 filed 2026-10-29: cover only; Exhibit 99.1 press release (guidance, adjusted metrics) not read",
+      "kind": "earnings_release",
+      "read_status": "snippet",
+      "accessed_at": "2026-11-10T00:07:26-05:00"
+    },
+    {
+      "id": "cf",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000004281.json",
+      "document_id": "SEC-XBRL-companyfacts-CIK0000004281",
+      "origin": "SEC XBRL from FY2025 10-K accession 0000004281-26-000012 (sales 8,252M, net income 1,508M, OCF 1,884M, capex 453M, SBC 73M, operating income 2,046M); 10-K document itself not read",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-10T00:07:26-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0000004281.json",
+      "document_id": "SEC-submissions-CIK0000004281",
+      "origin": "SEC EDGAR submissions index checked 2026-11-10; latest 10-Q and 8-K both filed 2026-10-29, nothing newer except Form 4",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-10T00:07:26-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/hwm/history/",
+      "document_id": "stockanalysis-HWM-2026-11-09",
+      "origin": "stockanalysis.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-10T00:07:26-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/HWM/history/",
+      "document_id": "yahoo-finance-HWM-2026-11-09",
+      "origin": "finance.yahoo.com",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-10T00:07:26-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q10"
+      ],
+      "note": "Submissions 2026-11-10: 10-Q and 8-K filed 2026-10-29 are the latest financial filings; 10-Q statements and MD&A read. Exhibit 99.1 release not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "10-Q balance sheet read: cash 507M, total assets 13,280M, total liabilities 7,518M, short-term borrowings 390M, long-term debt 4,052M plus 1M current (debt note total 4,443M), equity 5,762M, goodwill 5,098M."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10",
+        "cf"
+      ],
+      "note": "9M26 OCF 1,745M, capex 345M; 9M25 OCF 1,230M, capex 329M; FY25 OCF 1,884M, capex 453M (XBRL). TTM OCF 2,399M, capex 469M, FCF 1,930M; USD millions, matching periods. Receivable sales are inside OCF."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "10-Q cover: 397,660,490 shares outstanding at 2026-10-26; used for market cap. Diluted weighted Q3 400M."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "cf",
+        "q10",
+        "qa",
+        "qb"
+      ],
+      "note": "Own P/E, FCF yield, EV computed. No peer (GE Aerospace, TDG, HEI, RTX/PCC-type), own-history or consensus multiple; no organic growth figure."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Industrial/aerospace model used: segment EBITDA, capex, acquisitions, receivable factoring, net debt and ratings."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "Noted 93M Savannah gain, acquisition costs 35M in 9M, receivable sales in OCF, unpaid capex 87M. Critical audit matters, 10-K risk factors, legal and environmental contingencies (Note Q) not read in full."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q10"
+      ],
+      "note": "See counterthesis."
+    }
+  },
+  "price": {
+    "value": 216.24,
+    "currency": "USD",
+    "as_of": "2026-11-09T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-09",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 216.24,
+        "currency": "USD",
+        "as_of": "2026-11-09T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 216.24,
+        "currency": "USD",
+        "as_of": "2026-11-09T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 216.24,
+      "shares": 397660490.0,
+      "market_cap_usd": 85990104358,
+      "ttm_period": "2025-10-01 to 2026-09-30",
+      "ttm_revenue_usd": 9731000000.0,
+      "ttm_net_income_usd": 2055000000.0,
+      "ttm_net_income_note": "FY2025 1,508M - 9M25 1,134M + 9M26 1,681M (attributable)",
+      "pe_ttm": 41.8,
+      "ttm_ocf_usd": 2399000000.0,
+      "ttm_capex_usd": 469000000.0,
+      "ttm_fcf_usd": 1930000000.0,
+      "fcf_yield": 0.0224,
+      "ttm_sbc_usd": 94000000.0,
+      "fcf_less_sbc_yield": 0.0214,
+      "cash_usd": 507000000.0,
+      "debt_usd": 4443000000.0,
+      "net_debt_usd": 3936000000.0,
+      "enterprise_value_usd": 89926104358,
+      "ttm_operating_income_usd": 2730000000.0,
+      "ev_to_ttm_operating_income": 32.9
+    },
+    "fcf": {
+      "ocf": {
+        "value": 2399000000.0,
+        "unit": "USD",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "capex": {
+        "value": 469000000.0,
+        "unit": "USD",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "value": 1930000000.0
+    },
+    "growth": {
+      "q3_sales_yoy": 0.294,
+      "nine_month_sales_yoy": 0.243,
+      "nine_month_net_income_yoy": 0.482,
+      "nine_month_buybacks_usd": 1100000000.0,
+      "nine_month_receivables_sold_usd_two_programs": [
+        1069000000.0,
+        1043000000.0
+      ]
+    },
+    "price_path": {
+      "close_2026_10_29": 205.94,
+      "close_2026_11_03": 223.12,
+      "close_2026_11_05": 200.9,
+      "close_2026_11_06": 205.81,
+      "close_2026_11_09": 216.24,
+      "note": "same values on both publishers; 11-06 was ex-dividend 0.14 per Yahoo"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peer (GEV, TDG, HEI, RTX, SPR) and own-history valuation not done",
+    "Exhibit 99.1 release, guidance, organic growth and call unread",
+    "Cause of 11-03 to 11-05 drop (-10%) unknown",
+    "Critical audit matters, FY2025 10-K text, legal and Note Q contingencies unread",
+    "Quote origins publisher-level only",
+    "Scores not assigned"
+  ]
+}
