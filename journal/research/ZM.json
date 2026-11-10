@@ -1,0 +1,233 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "ZM",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "nonfinancial software: no debt line seen, large cash and securities plus a private strategic stake (Anthropic) whose unrealized gains distort GAAP earnings; judged on operating income, FCF, SBC and net cash, not headline net income",
+ "as_of": "2026-11-10T08:11:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Zoom (fiscal year ends Jan 31) is a mature collaboration and contact-center software company. Q2 FY27 (quarter to 2026-07-31) revenue 1,277.2M (+4.9%), Enterprise +7.8% (787.5M), Online +0.6%; GAAP operating margin 24.6%, non-GAAP 40.0%; Enterprise net dollar expansion 99%. TTM to 2026-07-31 (FY26 10-K minus 6M FY26 plus 6M FY27, XBRL and 10-Q): revenue 4,993.1M, operating income 1,185.1M, OCF 2,000.2M, capex (property and equipment) 74.6M, FCF 1,925.6M. At the 2026-11-09 close of 91.71 and 291.78M shares (Class A 263.23M plus Class B 28.55M at 2026-08-14) the market cap is about 26.8B: FCF yield 7.2%, and about 4.4% after subtracting FY26 stock-based compensation of 760.8M as a proxy. Cash and marketable securities were 7,249.7M at 2026-07-31 and no borrowings line appeared on the balance sheet, so enterprise value excluding cash is about 19.5B (10.1x TTM FCF, 16.5x TTM operating income). The 3.79B of strategic investments (3.66B measured at fair value, mostly Anthropic preferred stock marked up 1.61B in Q2 FY27) is an additional illiquid asset, not counted in the cash figure; excluding it too EV is about 15.7B. Company guides FY27 revenue 5.085-5.095B, non-GAAP operating income 2.065-2.075B and FCF 1.78-1.82B. Buybacks are heavy (3.7M shares in Q2; shares outstanding 292.3M vs 300.1M a year earlier). The market appears to price Zoom as an ex-growth business facing AI-assistant competition; evidence that differs is steady Enterprise acceleration, high margins and a net cash balance sheet, while the unresolved question is whether 5% growth persists.",
+ "counterthesis": "Headline GAAP net income (Q2 1,542.4M, 6M 1,968.1M) is mostly unrealized gains on strategic investments (6M gains 1,766.5M) and says nothing about operating performance; TTM net income 3.26B should be ignored. Real operating income was flat to down in Q2 (314.3M vs 321.7M) and FCF fell 7% to 472.4M. Total growth is about 5% with a flat Online business, Enterprise expansion is still below 100%, and SBC (about 15% of revenue) offsets much of the buyback benefit. The Anthropic stake is concentrated, illiquid, valued on a private financing round and could be marked down; the company is also adding to it (300.9M invested in six months), pairing a software business with venture-style risk. Cash is invested largely in agency securities showing 41.8M of unrealized losses. A 2020 DOJ grand jury subpoena matter is still described in the 10-Q. Competitors (Microsoft Teams, Google Meet, Cisco) bundle similar features.",
+ "invalidation": "Enterprise growth falling back below about 5%, Online decline accelerating, non-GAAP operating margin dropping below about 37%, FCF decline beyond guidance, a large markdown or loss on the Anthropic holding, or buybacks paused while SBC dilution continues. The next quarterly report (fiscal Q3, date not verified; last year's pattern suggests around late November) can test this.",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001585521.json",
+   "document_id": "SEC-submissions-CIK0001585521",
+   "origin": "SEC EDGAR submissions index",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T08:11:00-05:00"
+  },
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552126000121/zm-20260731.htm",
+   "document_id": "0001585521-26-000121",
+   "origin": "SEC EDGAR 10-Q period 2026-07-31 filed 2026-08-26, direct HTML to text; income statement, balance sheet, cash flow, strategic investments note, legal proceedings and non-GAAP FCF reconciliation read; MD&A and risk factors skimmed only",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T08:11:00-05:00"
+  },
+  {
+   "id": "rel",
+   "url": "https://www.sec.gov/Archives/edgar/data/1585521/000158552126000119/zm-20260731ex991.htm",
+   "document_id": "0001585521-26-000119 Ex 99.1",
+   "origin": "Issuer earnings release filed as 8-K Exhibit 99.1 on 2026-08-25; text and guidance read",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T08:11:00-05:00"
+  },
+  {
+   "id": "facts",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001585521.json",
+   "document_id": "SEC-companyfacts-CIK0001585521",
+   "origin": "SEC XBRL company facts from FY2026 10-K (filed 2026-02-27) and FY2027 10-Qs: FY26 revenue 4,868.8M, OCF 1,989.0M, capex 65.0M, operating income 1,123.6M, SBC 760.8M; FY2026 10-K text not read",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T08:11:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/zm/history/",
+   "document_id": "stockanalysis-ZM-2026-11-09",
+   "origin": "stockanalysis.com",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T08:11:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/ZM/history/",
+   "document_id": "yahoo-finance-ZM-2026-11-09",
+   "origin": "finance.yahoo.com",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T08:11:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10",
+    "rel"
+   ],
+   "note": "Submissions 2026-11-10 show the 10-Q (2026-08-26), earnings 8-K (2026-08-25) and a 2026-09-02 8-K (Items 5.02, 7.01) as latest; fiscal Q3 results are not yet filed. 10-Q and release read; the 2026-09-02 8-K was not read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "10-Q at 2026-07-31: cash 931,992K, marketable securities 6,317,729K, strategic investments 3,785,876K, total assets 13,585,396K, total liabilities 2,281,785K, equity 11,303,611K; no borrowings line observed (text search for debt, credit facility and notes found none)."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "facts"
+   ],
+   "note": "6M FY27 OCF 1,016,361K and PP&E 43,466K (10-Q); FY26 1,989,048K and 64,961K; 6M FY26 1,005,201K and 33,876K. TTM period 2025-08-01 to 2026-07-31; company FCF reconciliation matches (6M FCF 972,895K)."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Cover: 263,233,141 Class A and 28,550,570 Class B at 2026-08-14 (point in time), total 291,783,711; Q3 guidance assumes about 301M diluted weighted shares, which is higher, so per-share earnings should use the diluted count."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "rel",
+    "qa",
+    "qb",
+    "facts"
+   ],
+   "note": "Own TTM FCF, operating income and net-cash multiples computed; no peer set (for example MSFT, GOOGL, CSCO, RNG, TWLO, DOCU) or own-history multiples; SBC uses an FY26 proxy."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "rel"
+   ],
+   "note": "Software model used; GAAP net income excluded as an anchor because of 1.77B of investment gains; strategic stake treated separately from cash."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Reviewed investment gains, tax rate and legal proceedings in the 10-Q; FY26 10-K critical audit matters and fair-value methodology for Anthropic not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "rel"
+   ],
+   "note": "Written from filing evidence."
+  }
+ },
+ "price": {
+  "value": 91.71,
+  "currency": "USD",
+  "as_of": "2026-11-09T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-09",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 91.71,
+    "currency": "USD",
+    "as_of": "2026-11-09T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 91.71,
+    "currency": "USD",
+    "as_of": "2026-11-09T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 91.71,
+   "shares": 291783711,
+   "market_cap_usd": 26759484136,
+   "ttm_period": "2025-08-01 to 2026-07-31",
+   "ttm_revenue_usd": 4993050000,
+   "ttm_operating_income_usd": 1185096000,
+   "ttm_ocf_usd": 2000208000,
+   "ttm_capex_usd": 74551000,
+   "ttm_fcf_usd": 1925657000,
+   "fcf_yield": 0.072,
+   "sbc_proxy_fy26_usd": 760776000,
+   "fcf_less_sbc_proxy_yield": 0.0435,
+   "cash_and_securities_usd": 7249721000,
+   "ev_ex_cash_usd": 19509763136,
+   "ev_to_fcf": 10.1,
+   "ev_to_operating_income": 16.5,
+   "strategic_investments_usd": 3785876000,
+   "ev_ex_cash_and_strategic_usd": 15723887136,
+   "debt_note": "no borrowings line found on balance sheet; verify in 10-K"
+  },
+  "fcf": {
+   "ocf": {
+    "value": 2000208000,
+    "unit": "USD",
+    "period_start": "2025-08-01",
+    "period_end": "2026-07-31"
+   },
+   "capex": {
+    "value": 74551000,
+    "unit": "USD",
+    "period_start": "2025-08-01",
+    "period_end": "2026-07-31"
+   },
+   "value": 1925657000
+  },
+  "growth": {
+   "q2_fy27_revenue_yoy": 0.049,
+   "enterprise_yoy": 0.078,
+   "online_yoy": 0.006,
+   "guide_fy27_revenue_usd": [
+    5085000000,
+    5095000000
+   ],
+   "guide_fy27_fcf_usd": [
+    1780000000,
+    1820000000
+   ],
+   "six_month_gains_on_strategic_investments_usd": 1766500000
+  },
+  "price_path": {
+   "close_2026_11_05": 88.82,
+   "close_2026_11_06": 89.88,
+   "close_2026_11_09": 91.71,
+   "note": "same values on both publishers"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peer and own-history valuation not done",
+  "FY2026 10-K audit matters and Anthropic fair-value method unread",
+  "SBC TTM is an FY26 proxy",
+  "2026-09-02 8-K (Items 5.02, 7.01) unread",
+  "Fiscal Q3 report date unverified",
+  "Quote origins are two publishers only",
+  "Scores not assigned"
+ ]
+}

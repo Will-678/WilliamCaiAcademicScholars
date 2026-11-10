@@ -1,0 +1,184 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "MKTX",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "financial market infrastructure (electronic bond trading): revenue by commission and services, operating margin, regulatory capital; here dominated by a pending all-cash acquisition, so merger-spread analysis rather than standalone valuation",
+ "as_of": "2026-11-10T08:11:00-05:00",
+ "status": "avoid",
+ "confidence": "medium",
+ "thesis": "MarketAxess agreed on 2026-07-29 to be acquired by Intercontinental Exchange for 167.00 USD per share in cash. Stockholders approved on 2026-10-29, the DOJ granted HSR early termination on 2026-10-21, and the 10-Q says closing is anticipated in the first quarter of 2027 subject to remaining regulatory approvals and customary conditions. The 2026-11-09 close of 165.67 is 0.8% below the 167.00 cash price (1.33 USD gross spread, before the 0.78 dividend declared for 2026-11-25 payment, whose treatment under the deal terms was not checked). Upside is therefore capped near the deal price; this is a time-limited spread trade, not a standalone growth or value idea, and it is not a fit for a 5% researched-stock bucket meant for multi-year ownership. Underlying business: Q3 2026 revenue 210.4M (+1%), commission revenue flat, services +6%, GAAP EPS 1.53 vs 1.84 (merger costs 13.1M pre-tax), ex-notable operating margin 41.6%. At 9-30 the 10-Q shows cash 381.1M, borrowings 92.0M, total liabilities 985.8M, equity 1,274.9M, 35.2M voting shares outstanding.",
+ "counterthesis": "The spread is small because the market sees completion as very likely. If the deal broke (remaining regulatory approvals, financing or litigation, none of which was assessed beyond the 10-Q) the stock would likely fall toward its standalone value, which is untested here, since 9M revenue growth is only 4% and commission revenue was flat in Q3 against a fixed-income electronic-trading peer set that was not examined. Because share buybacks and further dividend decisions are restricted by the merger agreement, there is no other capital return catalyst. Interpreting this as a bargain on 'financial infrastructure quality' would be wrong: the price is anchored to the cash offer.",
+ "invalidation": "A regulatory block, a termination notice or a competing bid would change the setup entirely. Closing by Q1 2027 at 167.00 ends the opportunity. A widening spread to well above a few percent would signal rising deal risk, not value.",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001278021.json",
+   "document_id": "SEC-submissions-CIK0001278021",
+   "origin": "SEC EDGAR submissions index",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T08:11:00-05:00"
+  },
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1278021/000119312526450679/mktx-20260930.htm",
+   "document_id": "0001193125-26-450679",
+   "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-06, direct HTML to text; financial statements, merger agreement note and subsequent events read; MD&A results and risk factors not read in full",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T08:11:00-05:00"
+  },
+  {
+   "id": "rel",
+   "url": "https://www.sec.gov/Archives/edgar/data/1278021/000119312526429420/mktx-ex99_1.htm",
+   "document_id": "0001193125-26-429420 Ex 99.1",
+   "origin": "Issuer earnings release filed as 8-K Exhibit 99.1 on 2026-10-23; highlights and tables read, not the full text",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T08:11:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/mktx/history/",
+   "document_id": "stockanalysis-MKTX-2026-11-09",
+   "origin": "stockanalysis.com",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T08:11:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/MKTX/history/",
+   "document_id": "yahoo-finance-MKTX-2026-11-09",
+   "origin": "finance.yahoo.com",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-10T08:11:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10",
+    "rel"
+   ],
+   "note": "Submissions list the 10-Q filed 2026-11-06 and release 8-K 2026-10-23 as the latest periodic documents, with merger-related 8-Ks on 2026-10-22, 10-23 and 10-29; 10-Q and release read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "10-Q balance sheet: cash 381,054K, total assets 2,275,990K, borrowings 92,000K, total liabilities 985,820K, stockholders equity 1,274,943K (column order assumed to be 2026-09-30 first; not independently re-checked against 2025-12-31)."
+  },
+  "cashflow_basis_verified": {
+   "passed": false,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "9M26 OCF 198,810K, capex 1,497K plus capitalized software 39,597K seen in the statement; TTM not computed and no FCF is used, since the price is set by the cash offer."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Balance sheet: 35,197,197 voting shares outstanding at 2026-09-30 (point in time); diluted weighted 35,278K for Q3. Market cap not used as a valuation anchor."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "qa",
+    "qb"
+   ],
+   "note": "Deal-spread math only (167.00 vs 165.67). No standalone valuation, peer or history comparison was done, by design, because the price follows the cash offer."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Pending cash takeover handled as a merger spread, not a growth or multiple screen."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "10-Q statements skimmed only; FY2025 10-K audit matters and risk factors not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "rel"
+   ],
+   "note": "Written; main risk is deal failure and an untested standalone valuation."
+  }
+ },
+ "price": {
+  "value": 165.67,
+  "currency": "USD",
+  "as_of": "2026-11-09T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-09",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 165.67,
+    "currency": "USD",
+    "as_of": "2026-11-09T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 165.67,
+    "currency": "USD",
+    "as_of": "2026-11-09T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "deal": {
+   "cash_price_per_share_usd": 167.0,
+   "close_2026_11_09": 165.67,
+   "gross_spread_usd": 1.33,
+   "gross_spread_pct": 0.008,
+   "expected_close": "Q1 2027 (company statement in 10-Q)",
+   "dividend_declared_usd": 0.78,
+   "dividend_payable": "2026-11-25"
+  },
+  "balance_sheet_2026_09_30_usd": {
+   "cash": 381054000,
+   "borrowings": 92000000,
+   "total_liabilities": 985820000,
+   "equity": 1274943000
+  },
+  "q3_2026": {
+   "revenue_usd": 210407000,
+   "net_income_usd": 54028000,
+   "diluted_eps": 1.53,
+   "eps_ex_notable": 1.86,
+   "merger_costs_pretax_usd": 13100000
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Standalone valuation intentionally not done; deal-priced",
+  "Remaining regulatory approvals and termination terms not read beyond the 10-Q",
+  "FY2025 10-K not read",
+  "Quote origins are two publishers only",
+  "Scores not assigned"
+ ]
+}
