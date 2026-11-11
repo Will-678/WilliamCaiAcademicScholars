@@ -1,0 +1,225 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "YOU",
+ "exchange": "NYSE",
+ "currency": "USD",
+ "sector_model": "consumer identity subscription platform (Up-C): growth, deferred revenue, FCF after SBC, tax and non-controlling interests, buybacks; not a bank or REIT model",
+ "as_of": "2026-11-11T04:12:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Clear Secure (NYSE: YOU) runs the CLEAR+ identity subscription at airports and other venues. Q3 2026 (release read) revenue 292.9M (+27.8%), net income 75.3M, operating income 82.9M; 9M revenue 823.6M (+24.8%), operating income 227.9M, effective tax rate about 20%; deferred revenue 603.6M (from 516.2M at 12/31/25); FY26 FCF guide raised to at least 490M. TTM (FY2025 + 9M 2026 - 9M 2025): revenue 1,064.4M, total net income 250.6M, operating income 281.8M, OCF 491.4M, capex 33.3M, FCF about 458M, SBC 47.3M so FCF after SBC about 411M. At the 2026-11-10 close of 55.74 and 131.3M Class A plus Class C shares market cap is about 7.3B: 29x TTM total net income, 23.8x EV to operating income (net cash about 633M, debt unverified), FCF yield 6.3% (5.6% after SBC). The stock jumped 23.7% on earnings day (11-04) to a price still near the pre-release range only after that jump. Market may be pricing it as a maturing subscription business despite the growth and rising buybacks (170.9M in Q3).",
+ "counterthesis": "TTM FCF is flattered by deferred revenue growth (members prepay) and still includes the Q3 outflow of about 315M for accrued partnership liabilities; the nature and whether it recurs are unread. Ownership is Up-C: non-controlling interests take about 29% of net income, so per Class A share earnings are lower than total net income (Q3 diluted Class A EPS 0.52). Cash is only 633M against 1.13B liabilities and a thin 130M equity because of buybacks and distributions; dividends, a special dividend and net-settled tax payments (51.9M) also leave cash. Airport concentration is limited (no airport over 10% of membership revenue) but the model depends on airport access and TSA relationships; competition from TSA PreCheck, Mobile ID and airline or government digital identity could limit pricing. A 23.7% one day move shows high sentiment sensitivity; 29x earnings is not cheap on GAAP.",
+ "invalidation": "Net member adds or retention weakening (Q4 bookings below the 335M-340M guide), FY26 FCF below 490M, deferred revenue growth stalling, operating margin falling below about 25%, renewed negative OCF without a one-time explanation, loss of a major airport or TSA program change, or debt appearing in the unread notes that changes net cash.",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001856314.json",
+   "document_id": "SEC-submissions-CIK0001856314",
+   "origin": "SEC EDGAR submissions index fetched 2026-11-11 04:1x ET; latest filings 10-Q and 8-K 2026-11-04",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T04:12:00-05:00"
+  },
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1856314/000185631426000055/you-20260930.htm",
+   "document_id": "0001856314-26-000055",
+   "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-04; cover, balance sheet, income, cash flow and equity statements read via WebFetch; MD&A and notes after Note 5 not available",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T04:12:00-05:00"
+  },
+  {
+   "id": "ex99",
+   "url": "https://www.sec.gov/Archives/edgar/data/1856314/000185631426000053/clearq32026pressreleaseear.htm",
+   "document_id": "0001856314-26-000053-ex99",
+   "origin": "SEC EDGAR 8-K Ex 99.1 earnings release 2026-11-04 (issuer release and exhibit are one document); results, balance sheet, guidance read; call unread",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T04:12:00-05:00"
+  },
+  {
+   "id": "facts",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001856314.json",
+   "document_id": "SEC-companyfacts-CIK0001856314",
+   "origin": "SEC XBRL company facts: FY2025 and 9M facts (revenue, ProfitLoss, OCF, capex, SBC, operating income) for TTM; 10-K text not read",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T04:12:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/you/history/",
+   "document_id": "stockanalysis-YOU-2026-11-10",
+   "origin": "stockanalysis.com history table (WebFetch extract)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T04:12:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/YOU/history/",
+   "document_id": "yahoo-finance-YOU-2026-11-10",
+   "origin": "finance.yahoo.com history table (WebFetch extract)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T04:12:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10",
+    "ex99"
+   ],
+   "note": "Submissions show Q3 10-Q (2026-11-04) and earnings 8-K (2026-11-04) as latest periodic filings; 10-Q cover, statements excerpt and Ex 99.1 results read via WebFetch."
+  },
+  "balance_sheet_verified": {
+   "passed": false,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Total assets 1,262.5M, total liabilities 1,132.0M, deferred revenue 603.6M, equity 130.5M, cash plus securities about 633M read; debt, lease and TRA balances and notes not read, so interest bearing debt unverified."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "ex99",
+    "facts"
+   ],
+   "note": "9M 2026 OCF 293.0M and capex 22.3M (10-Q XBRL and release agree); FY2025 OCF 372.5M and capex 29.3M (XBRL); TTM FCF 458M uses matching periods and reported capex. Q3 OCF -98.6M from settlement of accrued partnership liabilities not independently explained."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Class A 99,618,115 and Class C 31,679,772 at 2026-10-30 (10-Q cover); market cap uses both classes (Class C exchangeable units, terms not read)."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "ex99",
+    "qa",
+    "qb"
+   ],
+   "note": "Own TTM multiples computed; peers (airport and identity peers, subscription software) and own history not done."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "ex99"
+   ],
+   "note": "Subscription identity platform: judged on growth, deferred revenue, FCF after SBC, tax and Up-C structure, buybacks; not a bank or REIT model."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "ex99"
+   ],
+   "note": "MD&A, Item 4, critical audit matters, TRA and partnership liability notes unread; Up-C, non-controlling interests and negative Q3 OCF flagged but unexplained."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "ex99"
+   ],
+   "note": "Countercase written from the figures read."
+  }
+ },
+ "price": {
+  "value": 55.74,
+  "currency": "USD",
+  "as_of": "2026-11-10T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-10",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 55.74,
+    "currency": "USD",
+    "as_of": "2026-11-10T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 55.74,
+    "currency": "USD",
+    "as_of": "2026-11-10T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 55.74,
+   "shares": 131297887,
+   "shares_note": "Class A 99,618,115 plus Class C 31,679,772 (10-Q cover, 2026-10-30); Class C exchangeable into Class A through Alclear Holdings units (exchange terms not read)",
+   "market_cap_usd": 7318544221,
+   "ttm_period": "2025-10-01 to 2026-09-30",
+   "ttm_revenue_usd": 1064361000,
+   "ttm_total_net_income_usd": 250581000,
+   "ttm_operating_income_usd": 281785000,
+   "ttm_ocf_usd": 491378000,
+   "ttm_capex_usd": 33341000,
+   "ttm_fcf_usd": 458037000,
+   "fcf_yield": 0.063,
+   "ttm_sbc_usd": 47333000,
+   "fcf_after_sbc_usd": 410704000,
+   "fcf_yield_after_sbc": 0.056,
+   "pe_ttm_total_net_income": 29.2,
+   "cash_and_securities_usd": 632970000,
+   "debt_usd": null,
+   "enterprise_value_approx_usd": 6685574221,
+   "ev_to_ttm_operating_income": 23.7,
+   "note": "TTM = FY2025 + 9M 2026 - 9M 2025. Debt not verified (balance sheet debt lines not read), so EV approximates net cash only. Total net income includes non-controlling interests (about 29% of Q3). TTM OCF includes the Q3 negative OCF of -98.6M that the release attributes to about 315M settlement of accrued partnership liabilities (explanation unread in 10-Q), and deferred revenue growth inflates OCF."
+  },
+  "growth": {
+   "q3_revenue_yoy": 0.278,
+   "nine_month_revenue_yoy": 0.248,
+   "q3_net_income_usd": 75342000,
+   "q3_net_income_prior_usd": 45144000,
+   "nine_month_operating_income_usd": 227879000,
+   "effective_tax_rate_9m": 0.201,
+   "deferred_revenue_usd": 603646000,
+   "deferred_revenue_dec31_2025_usd": 516200000
+  },
+  "capital_return": {
+   "q3_buybacks_usd": 170947000,
+   "nine_month_buybacks_usd": 172185000,
+   "guidance_fy26_fcf_floor_usd": 490000000,
+   "q4_revenue_guide_usd": "299M-302M"
+  },
+  "price_path": {
+   "close_2026_11_03": 47.76,
+   "close_2026_11_04": 59.08,
+   "close_2026_11_05": 56.5,
+   "close_2026_11_06": 55.81,
+   "close_2026_11_09": 55.09,
+   "close_2026_11_10": 55.74,
+   "note": "+23.7% on 11-04 (earnings day); stockanalysis.com and Yahoo identical"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peer (airport/identity, subscription software) and own-history valuation not done",
+  "MD&A, Item 4, TRA, debt and partnership liability notes unread (10-Q read only in excerpts); nature of the ~315M Q3 settlement unverified",
+  "Debt and lease obligations unverified, EV approximate",
+  "FY2025 10-K critical audit matters and call unread; 2026-09-16 and 10-30 8-Ks (officer change, bylaws) unread",
+  "Quote origins are two publishers only",
+  "Scores not assigned"
+ ]
+}
