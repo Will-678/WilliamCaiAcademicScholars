@@ -1,8 +1,34 @@
 {
-  "checked_at": "2026-11-11T13:10:02.633121+00:00",
+  "checked_at": "2026-11-11T17:08:23.124108+00:00",
   "records": [
     {
+      "path": "journal/research/ACNB.json",
+      "valid": true,
+      "eligible_attractive": false,
+      "errors": [],
+      "blockers": [
+        "Read the annual filing and a distinct recent filing or earnings document",
+        "valuation_complete requires a passed, explained, sourced check",
+        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
+        "Complete the score components before promotion",
+        "Critical evidence gaps remain"
+      ]
+    },
+    {
       "path": "journal/research/ADBE.json",
+      "valid": true,
+      "eligible_attractive": false,
+      "errors": [],
+      "blockers": [
+        "Read the annual filing and a distinct recent filing or earnings document",
+        "valuation_complete requires a passed, explained, sourced check",
+        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
+        "Complete the score components before promotion",
+        "Critical evidence gaps remain"
+      ]
+    },
+    {
+      "path": "journal/research/ADEA.json",
       "valid": true,
       "eligible_attractive": false,
       "errors": [],

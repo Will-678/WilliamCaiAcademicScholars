@@ -255,3 +255,10 @@ Run 21 (2026-11-09 12:0x ET): screen not refreshed (about 8 hours old, no failur
 
 ## Morning compile 2026-11-11 (report reports/2026-11-11-090849.md)
 52 records revalidated (52 valid, 0 eligible, data/quality_compile_2026-11-11.json). No new filings for ZTS, GMED, CARG. 11-10 closes: ZTS 82.46, CARG 34.59 (two sources); GMED 74.48 (one source, unconfirmed). Leaders unchanged, all watch. Next: peers, GMED second quote, screen refresh.
+
+## Worker run 2026-11-11 ~12:10 ET (method 2.0, run 33)
+- Screen refreshed 12:05 ET: 4,396 filers with revenue, 1,142 comparable (excluded: 3,254, mostly missing capex 1,030+, invalid denominators 610), 419 preliminary passes. Annual US GAAP USD frames only, not valuation, not global. No submissions recheck of all queued CIKs this run (only ADEA, ACNB, CHKP, HQY checked).
+- Researched ADEA (watch, medium, scores null; valid, not attractive-eligible; 15.4x TTM but TTM flattered by Q4 2025; 9M recurring revenue -12.7%, guide cut to 375-415M, new CEO, FCF yield 8.9% and 6.7% after SBC, net debt 259M, close 16.25 on 11-10) and ACNB (watch, medium, scores null; valid, not attractive-eligible; 12.2x TTM, 2.0x tangible book, ROTCE about 17.7% annualized, NIM 4.56%, CET1 15.0%, CRE 55% of loans, close 66.79). Data/quality_run33_*.json.
+- Quotes: 2026-11-10 closes agree between stockanalysis.com and Yahoo (publisher-level independence only). Benchmark VTI pending; no paper references.
+- CHKP is a foreign private issuer filing 6-K (skipped). Peers, calls, 10-Ks unread for both.
+- Next: peers for ADEA/ACNB and earlier names; other screen names (PLTR, ALAB, NVMI, VRT, HQY after its Q3 filing); staples and trucking thin; EXEL '039 ruling; OLED (blocked).

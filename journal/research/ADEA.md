@@ -1,0 +1,31 @@
+# ADEA: Adeia Inc. (Nasdaq, USD)
+
+Snapshot 2026-11-11T12:08:05-05:00 (run 33). Method 2.0. Status: **watch**. Confidence: medium. Score: incomplete (components null). Record: ADEA.json; validator result in data/quality_run33_ADEA.json (valid, not attractive-eligible). Price: 16.25 close 2026-11-10 (stockanalysis.com and Yahoo agree; publisher-level independence only). Paper reference: none (benchmark VTI pending). Fresh idea: yes (first record).
+
+## Thesis and valuation
+Adeia (Nasdaq: ADEA) licenses media and semiconductor patents (over 14,500 assets). Q3 2026 (10-Q and Ex 99.1 read): revenue 80.2M (-8.1% y/y), recurring revenue 76.0M (-12.0%), 9M revenue 281.1M (+7.8%) only because non-recurring revenue rose from 4.9M to 57.7M; 9M recurring revenue 223.4M (-12.7%). Q3 GAAP net income 2.3M (8.8M a year ago), Q3 OCF 5.1M (-71%). On 2026-11-02 the company named a new CEO (Dipti Vachani), announced Charter and TCL renewals, and cut the 2026 revenue guide to 375-415M (from 395-435M); implied Q4 revenue is 94-134M. TTM (FY2025 + 9M 2026 - 9M 2025): revenue 463.7M, net income 116.1M, OCF 178.2M, capex plus purchased intangibles 18.5M, FCF 159.7M, SBC 38.9M so FCF after SBC 120.8M. At the 2026-11-10 close of 16.25 and 110.37M shares (cover, 2026-10-22) market cap is 1,793M: 15.4x TTM net income, FCF yield 8.9% (6.7% after SBC), debt principal 386.5M against 127.7M cash and securities (net debt 258.8M, EV about 2,052M). Against the 2026 GAAP net income guide of 52.8-79.2M the multiple is 22.6x to 34.0x. The stock fell from 20.67 (11-02) to 14.82 (11-05), then recovered to 16.25. The market is asking whether recurring licensing revenue is shrinking structurally; the trailing figures are flattered by a very large Q4 2025 (Q4 2025 revenue 182.6M, net income 73.7M, derived) and 9M non-recurring settlements.
+
+## Countercase
+Trailing earnings overstate the run rate: Q4 2025 alone contributed 73.7M of FY2025's 111.1M net income, and 9M 2026 revenue growth is entirely non-recurring (+52.8M) while recurring revenue fell 12.7%. Management cut the revenue guide on timing of 'a select few deals' and replaced the CEO in the same release, a pairing that can mean the pipeline is slower than stated. Q3 net income was 2.3M and Q3 OCF 5.1M; the 600M long-term revenue outlook is a target, not guidance. Leverage is meaningful (term loan 386.5M at 7.2%, maturing 2028-06-08, with 21.0M due within a year and an excess cash flow sweep), interest takes 24.6M in 9M, amortization of acquired patents (48.3M in 9M) is a real economic cost of renewing the portfolio, and purchases of intangible assets rose to 15.0M from 6.1M. Litigation expense is 18.5M in 9M, Videotron appeal outcomes are open, and customer concentration is high (one customer above 10% of 9M revenue). The tax rate swings (14.8% in 9M 2026 versus 6.5% in 9M 2025 and 20% guided), so GAAP EPS comparisons are noisy. Buyback and dividends (about 36M in 9M plus 34.4M of tax withholding repurchases) compete with debt paydown.
+
+## What would invalidate it
+Recurring revenue continuing to fall double digits into 2027, Q4 revenue below the low end of the implied 94M, a major licensee (Disney, Charter-size) declining to renew or arbitration/litigation losses, FCF after SBC below about 60M, or any covenant or refinancing stress on the 2028 term loan. Evidence for the opposite view: 2027 recurring revenue stabilizing and Q4 revenue landing at or above the high end of the guide.
+
+## Checks
+- latest_filing_checked: pass. Submissions show Q3 10-Q (2026-11-04) and earnings 8-K (2026-11-02) as the latest periodic filings; both read. A Schedule 13G/A was filed 2026-11-05 (not read).
+- balance_sheet_verified: pass. Total assets 1,007.2M, total liabilities 524.4M, cash 64.3M plus marketable securities 63.4M, term loan principal 386.5M (carrying 380.8M: 21.0M current, 359.8M long term), equity 482.8M, goodwill 313.7M and intangibles 272.1M, unbilled contract receivables 186.4M (144.9M current plus 41.6M long term).
+- cashflow_basis_verified: pass. 9M 2026 OCF 118.2M, purchases of PP&E 2.1M, purchases of intangibles 15.0M (10-Q); FY2025 OCF 158.1M, PP&E 1.8M, intangibles 7.0M (XBRL); TTM FCF uses matching periods and both reported spending lines. OCF is helped by unbilled and deferred revenue timing (deferred revenue +9.2M, accrued -10.6M in 9M).
+- share_count_basis_verified: pass. 110,367,561 shares outstanding at 2026-10-22 (10-Q cover); diluted weighted shares 114.3M (about 3.5% higher from awards) not used for market cap.
+- valuation_complete: NOT passed. Own TTM and guide-based multiples computed. Peer multiples (XPER, RMBS, InterDigital, Dolby) and own history not done; non-GAAP reconciliation tables not read.
+- sector_model_appropriate: pass. Licensing model: recurring versus non-recurring revenue, amortization of acquired patents, litigation, leverage and FCF after purchased intangibles; not a bank, insurer or REIT model.
+- accounting_red_flags_reviewed: NOT passed. Read: recurring/non-recurring split, tax rate swing, unbilled receivable growth, amortization, litigation expense, option of large non-GAAP add-backs noted (GAAP 0.02 versus non-GAAP 0.21 EPS in Q3). FY2025 10-K critical audit matters, revenue recognition judgments on catch-up payments and the call were not read.
+- counterthesis_written: pass. Countercase written from figures read.
+
+## Unresolved gaps
+- Peer licensing multiples and own history not done
+- FY2025 10-K critical audit matters, catch-up revenue judgments and Q3 call unread
+- Customer renewal calendar (Disney, large Pay-TV, Samsung-type semiconductor licences) unverified
+- Quote origins are two publishers only
+- Scores not assigned
+
+Sources: SEC 10-Q read in full (sec.gov Archives), issuer release exhibit where noted, XBRL company facts for FY2025 figures, two quote publishers.

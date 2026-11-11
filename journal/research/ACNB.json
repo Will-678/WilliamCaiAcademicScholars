@@ -1,0 +1,206 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "ACNB",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "regional bank: P/E, price to tangible book, ROTCE, NIM, credit quality, CRE concentration, capital and funding; no free cash flow yield",
+ "as_of": "2026-11-11T12:08:05-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "ACNB Corporation (Nasdaq: ACNB), holding company of ACNB Bank (Pennsylvania and Maryland, about 3.3B assets). Q3 2026 10-Q read: net income 15.7M (diluted EPS 1.55 versus 1.42), 9M net income 44.6M versus 26.2M (the 2025 period carried 10.1M of merger costs from the Traditions acquisition), FTE net interest margin 4.56% (4.53% 9M), ROA 1.87% and ROE 14.67% annualized, nonperforming loans 0.45% of loans, net charge-offs 0.02% annualized, allowance 1.04% of loans, CET1 15.01%, Tier 1 leverage 11.77%. Loans 2,406.5M (+3.3% since year end, mostly CRE and farmland), deposits 2,509.0M (+2.4%). TTM net income (FY2025 37.1M + 9M 2026 44.6M - 9M 2025 26.2M) is 55.4M. At the 2026-11-10 close of 66.79 and 10,164,332 shares (2026-09-30 balance sheet) market cap is 679M: 12.2x TTM, 11.5x annualized 9M EPS (4.36 x 4/3 = 5.81, a rough annualization only), 1.61x book and 2.02x tangible book (tangible equity 336.7M, tangible book per share 33.12). Annualized 9M net income over period-end tangible equity is about 17.7%. Dividends declared 0.42 per quarter in Q3 (about 2.5% yield on 1.68). The market is asking whether the 4.5% margin, helped by securities repositioning and 5.2M of 9M acquisition accretion, is durable; the price is not cheap on tangible book for a bank with this CRE mix, but earnings and capital are strong.",
+ "counterthesis": "Roughly 55% of loans are commercial real estate (1,324.5M, about 3.1 times equity) including farmland, multifamily and non-owner-occupied; Pennsylvania 66% and Maryland 31.5% concentration; 9M loan growth was funded partly by short-term borrowings (116.5M versus 64.7M) and wholesale funding totals 331M plus 45M brokered deposits. Nonperforming loans of 10.7M include 3.4M 90-days-past-due still accruing. Accretion from the Traditions deal (5.2M in 9M) fades, the AFS portfolio carries unrealized losses (AOCI -37.7M, about 11% of tangible equity) so rate moves matter, and the Q2 dividend of 0.92 versus 0.42 in Q3 suggests a special dividend (not confirmed). Buybacks of 13.5M in 9M plus dividends of 17.5M exceeded 70% of 9M earnings. Provision expense of 1.1M in Q3 is small against 2.4B of loans; a modest credit cycle could reverse the 18-month earnings step-up. 2.0x tangible book already prices a high-teens ROTCE continuing. Small cap illiquidity (about 40 to 80 thousand shares a day, 2.7M to 5.3M USD) limits practical use. Annualizing nine months is not a definitive annual valuation.",
+ "invalidation": "Nonperforming assets above about 0.8% of assets or net charge-offs above 0.25%, NIM falling below 4.0% as acquisition accretion ends, CRE criticized loans rising sharply, tangible common equity falling because of securities marks, or ROTCE below 12%. Conversely, a stock price near 1.5x tangible book with stable credit would strengthen the case.",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0000715579.json",
+   "document_id": "SEC-submissions-CIK0000715579",
+   "origin": "SEC EDGAR submissions index fetched 2026-11-11; latest 10-Q 2026-11-05, 8-K 2026-10-28 and 2026-10-22",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T12:08:05-05:00"
+  },
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/715579/000162828026070881/acnb-20260930.htm",
+   "document_id": "0001628280-26-070881",
+   "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-05; full text downloaded; balance sheet, income statement, equity statement, cash flow, loan composition and credit quality tables, capital ratios, MD&A summary, liquidity and controls read; risk factors and rate sensitivity tables skimmed",
+   "kind": "quarterly_filing",
+   "read_status": "full",
+   "accessed_at": "2026-11-11T12:08:05-05:00"
+  },
+  {
+   "id": "facts",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000715579.json",
+   "document_id": "SEC-companyfacts-CIK0000715579",
+   "origin": "SEC XBRL company facts FY2025 10-K (filed 2026-03-12) net income 37.051M and 9M 2025 comparatives; 10-K text not read",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T12:08:05-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/acnb/history/",
+   "document_id": "stockanalysis-ACNB-2026-11-10",
+   "origin": "stockanalysis.com history table (WebFetch extract); 2026-11-10 close 66.79",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T12:08:05-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/ACNB/history/",
+   "document_id": "yahoo-finance-ACNB-2026-11-10",
+   "origin": "finance.yahoo.com history table (WebFetch extract); 2026-11-10 close 66.79",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T12:08:05-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10"
+   ],
+   "note": "Q3 10-Q filed 2026-11-05 is the latest periodic filing and was read in full; the earnings 8-K exhibit (about 2026-10-27) was not read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Total assets 3,301.0M, total liabilities 2,880.5M, equity 420.5M, goodwill 64.4M, intangibles 19.3M, deposits 2,509.0M, short-term borrowings 116.5M, long-term borrowings 214.9M, loans net of unearned 2,406.5M, allowance 25.0M."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Bank model: free cash flow is not used. 9M 2026 operating cash flow 67.9M includes loans-held-for-sale activity (sales proceeds 190.8M); not interpreted as owner earnings."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "10,164,332 shares outstanding at 2026-09-30 from the balance sheet (point in time; 10-Q cover count not separately captured); diluted weighted shares 10.17M."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "facts",
+    "qa",
+    "qb"
+   ],
+   "note": "Own P/E, P/B and P/TBV computed. Peer bank multiples and own history not done; company-reported tangible book and ROTCE not read from the release."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Regional bank model used: earnings, tangible book, ROTCE, NIM, nonperforming loans, allowance, CET1, funding and CRE concentration."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Read: merger costs in 2025 comparatives, acquisition accretion, securities repositioning, provision, allowance coverage, controls effective. FY2025 10-K critical audit matters, CRE criticized and special mention balances by type, and the investor call were not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Countercase written from figures read."
+  }
+ },
+ "price": {
+  "value": 66.79,
+  "currency": "USD",
+  "as_of": "2026-11-10T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-10",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 66.79,
+    "currency": "USD",
+    "as_of": "2026-11-10T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 66.79,
+    "currency": "USD",
+    "as_of": "2026-11-10T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 66.79,
+   "shares": 10164332,
+   "shares_note": "Balance sheet 2026-09-30, point in time",
+   "market_cap_usd": 678875734,
+   "ttm_period": "2025-10-01 to 2026-09-30",
+   "ttm_net_income_usd": 55449000,
+   "pe_ttm": 12.2,
+   "eps_9m_2026_diluted": 4.36,
+   "pe_on_annualized_9m_eps": 11.5,
+   "equity_usd": 420476000,
+   "goodwill_usd": 64449000,
+   "intangibles_usd": 19335000,
+   "tangible_equity_usd": 336692000,
+   "tangible_book_per_share": 33.12,
+   "price_to_book": 1.61,
+   "price_to_tangible_book": 2.02,
+   "annualized_9m_rotce": 0.177,
+   "dividend_regular_annualized_per_share": 1.68,
+   "dividend_yield": 0.025,
+   "note": "TTM = FY2025 XBRL 37.051M + 9M 2026 44.644M - 9M 2025 26.246M; 9M 2025 includes 10.1M merger costs. ROTCE uses period-end tangible equity, an approximation. Annualization of nine months is rough, not a definitive annual valuation."
+  },
+  "bank": {
+   "nim_fte_q3": 0.0456,
+   "nim_fte_9m": 0.0453,
+   "roa_q3": 0.0187,
+   "roe_q3": 0.1467,
+   "npl_to_loans": 0.0045,
+   "nco_annualized_9m": 0.0001,
+   "acl_to_loans": 0.0104,
+   "cet1": 0.1501,
+   "tier1_leverage": 0.1177,
+   "cre_loans_usd": 1324489000,
+   "aoci_usd": -37677000
+  },
+  "price_path": {
+   "close_2026_11_02": 67.12,
+   "close_2026_11_03": 66.17,
+   "close_2026_11_04": 67.51,
+   "close_2026_11_05": 65.49,
+   "close_2026_11_06": 65.54,
+   "close_2026_11_09": 66.67,
+   "close_2026_11_10": 66.79,
+   "note": "stockanalysis.com and Yahoo tables agree"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peer bank multiples and own history not done",
+  "FY2025 10-K critical audit matters, CRE criticized loans by type and Q3 call unread",
+  "Earnings release exhibit not read",
+  "Quote origins are two publishers only",
+  "Scores not assigned"
+ ]
+}
