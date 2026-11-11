@@ -1,0 +1,203 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "VCYT",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "diagnostics / molecular testing: EV/sales, EV/adjusted EBITDA, P/E on tax-normalized earnings, FCF yield after SBC, test volume and reimbursement concentration, net cash",
+ "as_of": "2026-11-11T16:09:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Veracyte (Nasdaq: VCYT) sells genomic cancer tests (Afirma thyroid, Decipher prostate, Prosigna). Q3 2026 10-Q and 2026-11-04 8-K release read (relevant sections; MD&A text not retrieved). Q3 revenue 151.8M (+15%), testing revenue 146.4M, testing volume +13% to 49,498; Decipher 92.3M revenue (+12%, about 29,900 tests) with management saying volume 'below our expectations'; Afirma 51.5M (+19%). 9M revenue 441.1M versus 376.5M (+17%); GAAP gross margin 71.8%; 9M operating income 62.2M versus 20.6M but Q3 operating income fell to 16.6M from 22.9M as R&D doubled to 32.2M (Convergent Genomics, acquired 2026-09-14 for 178.2M, 154.7M cash). 9M net income 85.7M includes an 8.1M tax benefit (pretax about 77.6M) and 4.2M escrow settlement gain, so GAAP earnings are flattered. Guidance 2026 total revenue narrowed to 590-593M (prior 590-596M), testing revenue cut to 571-573M (prior 576-582M), adjusted EBITDA margin above 26% unchanged. Cash and short-term investments 370.5M, total liabilities 140.0M, no borrowings shown, equity 1,433.3M; new 100M buyback. 9M OCF 121.3M less capex 8.2M is FCF 113.1M. Stock fell from 52.52 (2026-11-04) to 24.00 (2026-11-05), -54%, closing 24.06 on 2026-11-10; the cause is not established by the documents read (a test volume miss and a small guidance trim look too small to explain it alone). At 80.66M shares market cap is 1.94B; EV about 1.57B, about 2.7x guided revenue midpoint (591.5M), about 10x implied minimum adjusted EBITDA (above 154M), and 9M FCF annualized (rough, 151M) is about 7.8% of market cap (SBC about 14M per quarter lowers it).",
+ "counterthesis": "A 54% one-day collapse on a quarter with +15% revenue and a trimmed guide means the market sees something I have not found: possible Decipher competitive or reimbursement concerns, a larger long-term growth reset, or an event outside the documents read. Decipher is the largest product (about 60% of revenue) and volume missed; Medicare is 33% of revenue and UnitedHealthcare 11-13%, so reimbursement changes matter. Adjusted EBITDA margin fell to 27.2% from 30.1%; Q3 operating income fell year on year; GAAP profit leans on tax benefits and an escrow gain; SBC is large (about 14M a quarter). Cash collections above prior estimates added 11.1M to 9M revenue (non-recurring). A patent suit versus Sonic Healthcare over ThyroSeq (trial Q1 2027, unconfirmed date as reported) is a minor exposure. Acquisition spending is rising. A cheap-looking price after a collapse is not evidence of cheapness; the 52.52 prior price was a peak-like level and prior highs do not establish value.",
+ "invalidation": "Decipher volume growth turning negative, Medicare or MolDX coverage reduction, revenue guidance cut again, adjusted EBITDA margin below 24%, or cash burn on acquisitions. Evidence for the thesis: the cause of the drop proving transitory and Decipher volume re-accelerating.",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001384101.json",
+   "document_id": "SEC-submissions-CIK0001384101",
+   "origin": "SEC EDGAR submissions index fetched 2026-11-11 (script fetch); latest 10-Q 2026-11-05, 8-K 2026-11-04 (earnings, buyback), 8-K 2026-09-14 (Convergent)",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T16:09:00-05:00"
+  },
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1384101/000138410126000055/vcyt-20260930.htm",
+   "document_id": "0001384101-26-000055",
+   "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-05; WebFetch extracts of statements and notes (revenue, tax, balance sheet, cash flow, Convergent, legal, concentrations); MD&A text not retrieved",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T16:09:00-05:00"
+  },
+  {
+   "id": "rel",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001384101/000138410126000053/vcyt-11x04x20268xkearnings.htm",
+   "document_id": "0001384101-26-000053",
+   "origin": "SEC EDGAR 8-K filed 2026-11-04 with earnings release exhibit (WebFetch extract: volumes, guidance, EBITDA reconciliation, cash)",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T16:09:00-05:00"
+  },
+  {
+   "id": "news",
+   "url": "https://www.nasdaq.com/press-release/veracyte-announces-third-quarter-2026-financial-results-2026-11-04",
+   "document_id": "nasdaq-veracyte-q3-2026-release",
+   "origin": "Search summary of the same release reproduced by wire services; same underlying document as the 8-K exhibit; page itself returned 503",
+   "kind": "secondary",
+   "read_status": "snippet",
+   "accessed_at": "2026-11-11T16:09:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/vcyt/history/",
+   "document_id": "stockanalysis-VCYT-2026-11-10",
+   "origin": "stockanalysis.com history table (WebFetch extract); 2026-11-10 close 24.06",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T16:09:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/VCYT/history/",
+   "document_id": "yahoo-finance-VCYT-2026-11-10",
+   "origin": "finance.yahoo.com history table (WebFetch extract); 2026-11-10 close 24.06",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T16:09:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10",
+    "rel"
+   ],
+   "note": "Q3 10-Q (2026-11-05) and earnings 8-K (2026-11-04) are the latest; 2026-09-14 8-K (Convergent) not read in full but acquisition read in 10-Q note."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Cash 199.8M, short-term investments 170.7M, total liabilities 140.0M, equity 1,433.3M at 2026-09-30; no borrowings line seen in the extract (not confirmed against the full balance sheet)."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "rel"
+   ],
+   "note": "9M OCF 121.3M less purchases of PP&E 8.2M (reported) gives 113.1M FCF; Q3 OCF 40.3M. Capitalized software or other investing items not reviewed."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "80,695,480 shares on the cover at 2026-10-30; 80,655,975 on the 2026-09-30 balance sheet; market cap uses 80,655,975 (point in time)."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "rel",
+    "qa",
+    "qb"
+   ],
+   "note": "EV/sales, EV/EBITDA floor and FCF yield computed; peers (Natera, Guardant, Exact, GeneDx, Myriad) and own history not done; TTM not computed because FY2025 comparatives were not retrieved; third-party aggregator TTM figures were implausible and discarded."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "rel"
+   ],
+   "note": "Diagnostics model with volume, reimbursement concentration, SBC-adjusted FCF and tax-normalized earnings."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "rel"
+   ],
+   "note": "Tax benefit, escrow gain, cash-collection true-ups and acquisition read; 10-K critical audit matters, MD&A, valuation allowance release explanation and the cause of the 54% fall not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "rel"
+   ],
+   "note": "Countercase written from figures read."
+  }
+ },
+ "price": {
+  "value": 24.06,
+  "currency": "USD",
+  "as_of": "2026-11-10T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-10",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 24.06,
+    "currency": "USD",
+    "as_of": "2026-11-10T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 24.06,
+    "currency": "USD",
+    "as_of": "2026-11-10T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 24.06,
+   "shares": 80655975,
+   "shares_note": "Balance sheet 2026-09-30, point in time",
+   "market_cap_usd": 1940000000,
+   "cash_and_short_term_investments_usd": 370532000,
+   "debt_usd": 0,
+   "ev_usd": 1570000000,
+   "revenue_guide_mid_usd": 591500000,
+   "ev_to_revenue": 2.65,
+   "adj_ebitda_floor_usd": 153800000,
+   "ev_to_adj_ebitda_floor": 10.2,
+   "fcf_9m_usd": 113144000,
+   "fcf_9m_annualized_usd": 150900000,
+   "fcf_yield_rough": 0.078,
+   "sbc_q3_usd": 13959000,
+   "pretax_income_9m_usd": 77600000,
+   "note": "Market cap 80.656M x 24.06 = 1.94B. Debt assumed zero from absence of borrowings in the extract (unconfirmed). FCF annualization of nine months is rough. TTM P/E not computed (comparatives missing)."
+  },
+  "price_path": {
+   "close_2026_11_04": 52.52,
+   "close_2026_11_05": 24.0,
+   "close_2026_11_06": 24.16,
+   "close_2026_11_09": 25.92,
+   "close_2026_11_10": 24.06,
+   "note": "stockanalysis.com and Yahoo agree; 11-11 provisional 25.13 vs 25.11 not used"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Cause of 54% one-day drop not established",
+  "MD&A, 10-K audit matters and tax benefit explanation unread",
+  "Peer multiples, own history and TTM not done",
+  "Debt absence not confirmed on full balance sheet",
+  "Quote origins are two publishers only",
+  "Scores not assigned"
+ ]
+}

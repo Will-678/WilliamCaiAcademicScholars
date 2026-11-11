@@ -1,6 +1,6 @@
 # Research queue (persisted)
 
-Updated 2026-11-11 12:2x ET by the four hour worker (run 33). Stages: lead, valuation_pending, researched_watch, researched_pass, blocked.
+Updated 2026-11-11 16:1x ET by the four hour worker (run 34). Stages: lead, valuation_pending, researched_watch, researched_pass, blocked.
 
 | CIK | Ticker | Exchange | Sector | Stage | Last reviewed | Next action | Due | Reason |
 |---|---|---|---|---|---|---|---|---|
@@ -61,6 +61,8 @@ Updated 2026-11-11 12:2x ET by the four hour worker (run 33). Stages: lead, valu
 | 1803696 | ADEA | Nasdaq | Technology IP licensing media and semiconductor (small-mid) | researched_watch | 2026-11-11 | Peers (XPER, RMBS, IDCC, Dolby) and history; read FY2025 10-K audit matters, call, non-GAAP reconciliation; Q4 revenue vs implied 94-134M; renewal calendar; Videotron appeal | 2026-11-18 | 15.4x TTM but recurring revenue -12% (9M growth is non-recurring), guide cut to 375-415M, new CEO, FCF yield 8.9% (6.7% after SBC), net debt 259M; journal/research/ADEA.json |
 | 715579 | ACNB | Nasdaq | Bank regional (small) | researched_watch | 2026-11-11 | Peer bank multiples; read earnings 8-K, FY2025 10-K audit matters, CRE criticized loans by type, call; special dividend confirmation; accretion fade | 2026-11-18 | 12.2x TTM, 2.0x tangible book, annualized ROTCE about 17.7%, NIM 4.56%, NPL 0.45%, CET1 15.0%, CRE 55% of loans; journal/research/ACNB.json |
 | 880631 | WT | NYSE | Asset manager ETF sponsor (small-mid) | researched_watch | 2026-11-11 | Peers (VCTR, FHI, IVZ, BEN); organic growth and flows; 8-K release exhibit; convertible hedge terms and dilution; 10-K | 2026-11-18 | 28.4x TTM GAAP, FCF yield 6.5% (5.6% after SBC), revenue +49% 9M (acquired), converts 1.08B vs cash 0.30B; journal/research/WT.json |
+| 1674101 | VRT | NYSE | Industrial technology data center power and cooling (large) | researched_watch | 2026-11-11 | Read 10-Q MD&A, backlog and customer concentration; peers (ETN, GEV, SU, HUBB); GAAP-to-adjusted reconciliation; UIG earn-out; FY2025 10-K audit matters | 2026-11-18 | Sales +61% Q3 (55% organic), orders doubled, about 27x guided adj EPS, EV about 21.5x adj operating profit, FCF yield about 3.6%, UIG 1.45B turns net cash to net debt; journal/research/VRT.json |
+| 1384101 | VCYT | Nasdaq | Healthcare diagnostics genomic testing (small-mid) | researched_watch | 2026-11-11 | Establish cause of -54% on 11-05 (Decipher volume miss, guide trim insufficient alone); read MD&A and call; peers (NTRA, GH, EXAS, GDRX); 10-K; tax benefit | 2026-11-18 | Revenue +15%, EV about 2.7x sales, guided adj EBITDA margin over 26%, 9M FCF 113M, net cash about 370M, GAAP flattered by tax benefit; journal/research/VCYT.json |
 
 Screen refresh: 2026-11-07 04:05 ET, calendar year 2025 (4,393 filers with revenue, 1,142 comparable, 419 preliminary passes; no failure).
 
@@ -122,3 +124,5 @@ Run 31 (2026-11-11 04:0x ET): screen not refreshed (metadata 2026-11-10 08:08 ET
 
 Run 32 (2026-11-11 08:0x ET): screen not refreshed (metadata 2026-11-10 08:08 ET, 23h59m old at start, no failure; due next run). Submissions rechecked only for new names (TTD, WT), no queue-wide check. Researched TTD (ad tech) and WT (asset manager), both new, watch, medium, scores null, valid, not attractive-eligible (data/quality_run32_*.json). sec.gov Archives fetches with a descriptive user agent worked this run, so 10-Qs were read in full. Third name not started; depth prioritized. Benchmark VTI pending, no paper references. Revalidated all 52 records: 52 valid, 0 attractive-eligible.
 Run 33 (2026-11-11 12:0x ET): screen refreshed 12:05 ET (previous 2026-11-10 08:08, over 24 hours; no failure): 4,396 filers with revenue, 1,142 comparable, 419 preliminary passes. Researched ADEA and ACNB (watch, medium, scores null; valid, not attractive-eligible). Third name not started; depth prioritized. Benchmark VTI pending, no paper references.
+
+Run 34 (2026-11-11 16:0x ET): screen not refreshed (4h old, no failure). Researched VRT and VCYT (watch, valid, not attractive-eligible). Third name not started; depth prioritized and sec.gov script downloads refused.

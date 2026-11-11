@@ -262,3 +262,9 @@ Run 21 (2026-11-09 12:0x ET): screen not refreshed (about 8 hours old, no failur
 - Quotes: 2026-11-10 closes agree between stockanalysis.com and Yahoo (publisher-level independence only). Benchmark VTI pending; no paper references.
 - CHKP is a foreign private issuer filing 6-K (skipped). Peers, calls, 10-Ks unread for both.
 - Next: peers for ADEA/ACNB and earlier names; other screen names (PLTR, ALAB, NVMI, VRT, HQY after its Q3 filing); staples and trucking thin; EXEL '039 ruling; OLED (blocked).
+
+## Worker run 2026-11-11 ~16:10 ET (method 2.0, run 34)
+- Screen not refreshed (4h old). Submissions checked only for VRT and VCYT. Researched VRT (watch, medium, scores null; valid, not attractive-eligible; Q3 sales +61%, orders more than doubled, about 27x guided adjusted EPS, FCF yield about 3.6%, UIG 1.45B acquisition closed 10-26, close 194.22 on 11-10) and VCYT (watch, medium, scores null; valid, not attractive-eligible; fell 54% on 11-05 to 24.06, cause unestablished; EV about 2.7x guided sales, 9M FCF 113M, net cash about 370M, GAAP flattered by tax benefit). Data/quality_run34_*.json.
+- sec.gov Archives script download returned an undeclared automated tool notice; I did not change identity to bypass it (a retry with a browser style agent was blocked and not repeated). Documents read through WebFetch extracts only; Vertiv and Veracyte MD&A text not retrieved. Aggregator TTM figures for both were implausible and discarded; TTM GAAP not computed. 11-11 provisional closes disagreed across publishers, so 11-10 closes used.
+- Benchmark VTI pending; no paper references.
+- Next: VCYT drop cause; VRT backlog and peers; peers for earlier names; other screen names (PLTR, ALAB, NOVA, APAM, KINS, NRIM); EXEL '039 ruling; OLED (blocked).

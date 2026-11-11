@@ -1,0 +1,194 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "VRT",
+ "exchange": "NYSE",
+ "currency": "USD",
+ "sector_model": "industrial technology (data center power and cooling equipment): EV/adjusted operating profit, P/E, FCF yield, organic growth, backlog and orders, acquisition effects, leverage; cyclical AI capex exposure",
+ "as_of": "2026-11-11T16:09:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Vertiv Holdings (NYSE: VRT) sells power, thermal and services equipment to data centers. Q3 2026 10-Q read (financial statements and notes; MD&A section not retrieved) and the 2026-10-28 release read. Net sales Q3 4,312.8M versus 2,675.8M (+61%; release says 55% organic, about 6% acquisitions), 9M 10,236.6M versus 7,349.9M (+39%). 9M GAAP operating profit 2,061.8M (20.1% margin versus 17.0%), 9M net income 1,652.4M, diluted EPS 4.21 versus 2.27. Release: organic orders more than doubled, Q3 adjusted operating margin 25.2%, adjusted free cash flow 652.2M (9M 2,230.3M; my GAAP OCF minus capex for 9M is 2,235.6M, matching). FY2026 guidance raised: net sales 14,450-14,850M, organic growth 37-39%, adjusted operating profit 3,475-3,555M, adjusted EPS 7.10-7.20, adjusted FCF 2,600-2,800M. Balance sheet 2026-09-30: cash 3,512.9M, total debt 2,928.5M (March 2026 2.1B senior notes repaid the term loan; 2.5B undrawn revolver, 4.0x net leverage covenant), total liabilities 12,672.5M, equity 5,502.0M. Subsequent event: UIG acquisition closed 2026-10-26 for 1.45B cash plus up to 1.15B contingent, which turns about 0.78B net cash into roughly 0.67B net debt pro forma (my arithmetic, ignores leases). At the 2026-11-10 close of 194.22 and 385.06M Class A shares (cover, 2026-10-26) market cap is about 74.8B: about 27x guided adjusted EPS midpoint 7.15, about 21.5x EV to guided adjusted operating profit midpoint (3,515M), and guided adjusted FCF yield about 3.6%. 9M GAAP EPS annualized (rough) gives about 34x. The market is paying for a doubling of orders to persist; the stock moved +14% after the print.",
+ "counterthesis": "Everything rests on AI data center capex continuing: customer concentration, order lumpiness and the delivered backlog were not read (MD&A and backlog figures unread; release gives no backlog). Q4 guide implies sales of 4,313-4,513M, flat to +5% sequentially after +61% year on year, so the growth rate must decay from here. Acquisitions (PurgeRite 1.14B, UIG 1.45B plus up to 1.15B earn-out) add integration and goodwill risk and consume the cash pile. Adjusted EPS and adjusted operating profit exclude items I have not reconciled; GAAP-to-adjusted gap, SBC and tax rate unread. At about 27x adjusted earnings and 3.6% FCF yield a capex pause by a few hyperscalers would compress both multiple and earnings. Share price moved from 176.73 to 207 in a week, so the entry is volatile. Mega cap AI exposure also overlaps with broad index funds.",
+ "invalidation": "Organic orders growth falling below revenue growth (book-to-bill under 1), backlog decline, hyperscaler capex cuts, adjusted operating margin below 22%, goodwill impairment on PurgeRite or UIG, or net leverage above about 2x after the earn-out.",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001674101.json",
+   "document_id": "SEC-submissions-CIK0001674101",
+   "origin": "SEC EDGAR submissions index fetched 2026-11-11 (script fetch, declared generic agent); latest 10-Q 2026-10-28, 8-Ks 2026-10-28, 10-27, 10-26",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T16:09:00-05:00"
+  },
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026067893/vrt-20260930.htm",
+   "document_id": "0001628280-26-067893",
+   "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-10-28; read via WebFetch extracts: income statement, balance sheet, cash flow, debt note, subsequent events; MD&A, backlog and legal sections not retrieved",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T16:09:00-05:00"
+  },
+  {
+   "id": "rel",
+   "url": "https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-Third-Quarter-2026-with-Net-Sales-Growth-of-61-Organic-Orders-Growth-over-100-and-Diluted-EPS-Growth-of-91-Adjusted-Diluted-EPS-Growth-of-78-Raises-Full-Year-2026-Guidance-Across-All-Key-Metrics/",
+   "document_id": "vertiv-ir-2026-10-28-release",
+   "origin": "Vertiv investor relations release 2026-10-28 (WebFetch extract); same underlying document as the 8-K exhibit, not independent corroboration of the 10-Q",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T16:09:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/vrt/history/",
+   "document_id": "stockanalysis-VRT-2026-11-10",
+   "origin": "stockanalysis.com history table (WebFetch extract); 2026-11-10 close 194.22",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T16:09:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/VRT/history/",
+   "document_id": "yahoo-finance-VRT-2026-11-10",
+   "origin": "finance.yahoo.com history table (WebFetch extract); 2026-11-10 close 194.22",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T16:09:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10",
+    "rel"
+   ],
+   "note": "Latest periodic filing is the Q3 10-Q filed 2026-10-28 and the same-day earnings 8-K; 8-Ks of 2026-10-27 (item 2.01, likely UIG closing) and 2026-10-26 listed but not read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Cash 3,512.9M, total debt 2,928.5M (3.4M current), total liabilities 12,672.5M, equity 5,502.0M at 2026-09-30; debt is interest-bearing notes, distinct from total liabilities."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "rel"
+   ],
+   "note": "9M OCF 2,660.6M less capex 425.0M = 2,235.6M FCF, reported capex, matching periods; release adjusted FCF 2,230.3M differs by 5.3M."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "385,060,421 Class A shares at 2026-10-26 from the 10-Q cover (point in time); dilution from equity awards not assessed."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "rel",
+    "qa",
+    "qb"
+   ],
+   "note": "Own multiples computed on guided adjusted figures and rough annualization; peers (ETN, GEV, SU, HUBB) and own history not done; TTM GAAP not computed because FY2025 and 9M 2025 comparatives were not retrieved."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "rel"
+   ],
+   "note": "Industrial equipment model: EV/adjusted EBIT, FCF with reported capex, organic growth and orders, acquisition effects."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "rel"
+   ],
+   "note": "Acquisition effects and subsequent UIG deal read; MD&A, critical audit matters, goodwill, adjusted reconciliation, customer concentration and legal not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "rel"
+   ],
+   "note": "Countercase written from figures read."
+  }
+ },
+ "price": {
+  "value": 194.22,
+  "currency": "USD",
+  "as_of": "2026-11-10T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-10",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 194.22,
+    "currency": "USD",
+    "as_of": "2026-11-10T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 194.22,
+    "currency": "USD",
+    "as_of": "2026-11-10T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 194.22,
+   "shares": 385060421,
+   "shares_note": "10-Q cover 2026-10-26, Class A, point in time",
+   "market_cap_usd": 74789000000,
+   "net_sales_9m_2026_usd": 10236600000,
+   "net_income_9m_2026_usd": 1652400000,
+   "adjusted_eps_guide_mid": 7.15,
+   "pe_on_adjusted_eps_guide": 27.2,
+   "net_cash_pre_uig_usd": 783000000,
+   "uig_cash_paid_usd": 1450000000,
+   "ev_usd": 75500000000,
+   "adj_operating_profit_guide_mid_usd": 3515000000,
+   "ev_to_adj_operating_profit": 21.5,
+   "fcf_9m_usd": 2235600000,
+   "adj_fcf_guide_mid_usd": 2700000000,
+   "fcf_yield_guided": 0.036,
+   "note": "Market cap 385.06M x 194.22 = 74.79B. EV = market cap minus pre-UIG net cash 0.78B (cash+short-term investments 3,711.7M less debt 2,928.5M, release's own net cash statement) plus 1.45B UIG cash paid = about 75.5B; excludes leases and earn-out. Guided adjusted figures are management definitions, not owner earnings."
+  },
+  "price_path": {
+   "close_2026_11_04": 205.55,
+   "close_2026_11_05": 176.73,
+   "close_2026_11_06": 182.86,
+   "close_2026_11_09": 200.47,
+   "close_2026_11_10": 194.22,
+   "note": "stockanalysis.com and Yahoo agree; 2026-11-11 provisional figures differed (207.35 vs 206.53) so not used"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "MD&A, backlog and orders dollars, customer concentration unread",
+  "Peer multiples and own history not done",
+  "FY2025 10-K audit matters, goodwill and adjusted reconciliation unread",
+  "TTM GAAP comparatives not retrieved",
+  "Quote origins are two publishers only",
+  "Scores not assigned"
+ ]
+}
