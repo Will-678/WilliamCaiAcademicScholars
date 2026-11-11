@@ -1,36 +1,37 @@
-# Morning research summary, Tuesday 2026-11-10, 9:1x a.m. ET (compiled)
-Earlier work: worker runs 21 to 26 since the last report (latest 08:15 ET today). Previous report: [2026-11-09-090954](2026-11-09-090954.md).
+# Morning research summary, Wednesday 2026-11-11, 09:08 a.m. ET (compiled)
+Earlier work: worker runs 27 to 32 since the last report (latest run 32, 08:3x ET today). Previous report: [2026-11-10-090828](2026-11-10-090828.md).
 
 ## Conclusion
-No stock is attractive today and I am not forcing a pick. Of 40 company records, 38 are on watch, 1 is avoid (MKTX) and 1 is insufficient evidence (OLED). Every score is still incomplete, because peer comparisons, accounting reviews and an independent price check are unfinished. A broad index fund remains the default; this only concerns the 5% single stock bucket.
+No stock is attractive today and I am not forcing a pick. Of 52 company records, 49 are watch, 1 is avoid (MKTX) and 1 is insufficient evidence (OLED); none has a complete score, because peer comparisons, accounting reviews and an independent price check are still unfinished. A broad index fund remains the default; this only concerns the 5% single stock bucket.
 
 ## What changed
-- Worker added 7 records since yesterday's report: QLYS, HALO, HWM, APPF, EVTC, MKTX, ZM, and finished the HCI filing read. All watch, medium confidence, except MKTX.
-- MKTX is avoid: ICE has agreed a 167.00 per share cash deal and the stock closed at 165.67, a 0.8% gap, so there is little left to research.
-- Revalidated all 40 JSON records with today's clock: 40 valid, 0 eligible for an attractive rating ([results](../data/quality_compile_2026-11-10.json)). Offline tests: 27 pass.
-- Checked SEC filing lists for ZTS, GMED and CARG: the newest filings are still the 2026-11-05 10-Qs and 8-Ks already in the records (plus insider forms). Nothing new.
+- The worker added 12 records since the last report: PEGA, NBIX, PLMR, DAVE, RDDT, TMDX, LIF, PJT, YOU, KRYS, TTD, WT. All are watch, medium confidence, scores incomplete.
+- I revalidated all 52 JSON records with today's clock: 52 structurally valid, 0 eligible for an attractive rating ([results](../data/quality_compile_2026-11-11.json)). The checker tests structure and arithmetic, not whether sources say what a note claims.
+- SEC filing lists for ZTS, GMED and CARG: the newest reports are still the 2026-11-05 10-Qs and 8-Ks already in the records. Only insider forms were added. Nothing new to read.
+- Prices moved up a little for all three leaders since the last report.
 
-## Leading candidates (closes 2026-11-06, 4 p.m. ET, USD; two publishers agree, independent origin not proven)
-1. **ZTS** (NYSE), 79.40. Watch, medium, score incomplete. About 13.4x trailing earnings, 6.9% free cash flow yield, net debt about 7.5B (my calculations). Downside: U.S. companion animal sales fell 8% and dermatology 15.7%, which may be lasting competition. Not fresh. [ZTS.md](../journal/research/ZTS.md)
-2. **GMED** (NYSE), 71.05. Watch, medium, incomplete. About 16.9x trailing earnings, 8.1% FCF yield, net cash about 871M. Downside: 2026 revenue guidance cut to 3.09B; cash flow helped by tax timing. Not fresh. [GMED.md](../journal/research/GMED.md)
-3. **CARG** (Nasdaq), 33.74. Watch, medium, incomplete. About 16.0x trailing earnings, 10.0% FCF yield (about 8.3% after stock pay). Downside: growth is mostly price, cash taxes far below tax expense, buybacks exceed FCF. Not fresh. [CARG.md](../journal/research/CARG.md)
+## Leading candidates (closes 2026-11-10, 4 p.m. ET, USD)
+The leaders are unchanged and not fresh ideas. Trailing multiples below are my recalculation using the older record figures and the new price.
+1. **ZTS** (NYSE), 82.46. Two sources agree (stockanalysis.com history, Yahoo chart; they are different publishers but may share an exchange feed). Watch, medium, score incomplete. About 13.9x trailing GAAP earnings, FCF yield about 6.7%, net debt about 7.5B. Downside: U.S. companion animal sales fell 8% and dermatology 15.7%, possibly lasting competition. Next: peers (IDXX, ELAN), 10-K notes. [ZTS.md](../journal/research/ZTS.md)
+2. **GMED** (NYSE), 74.48. One source only (stockanalysis.com); Yahoo rate limited me, so the price is **unconfirmed**. Watch, medium, incomplete. About 17.7x trailing earnings, FCF yield about 7.7%, net cash about 871M. Downside: 2026 revenue guidance cut to 3.09B and cash flow helped by tax timing. [GMED.md](../journal/research/GMED.md)
+3. **CARG** (Nasdaq), 34.59. Yahoo 34.59 and stockanalysis.com 34.58 agree. Watch, medium, incomplete. About 16.4x trailing earnings, FCF yield about 9.8% (about 8.1% after stock pay). Downside: growth is mostly pricing, cash taxes are far below tax expense, buybacks exceed free cash flow. [CARG.md](../journal/research/CARG.md)
 
-Newer, not leaders: ZM (10.1x trailing FCF, 7.2% FCF yield, but GAAP income is inflated by an investment mark-up) and HALO (24.2x GAAP, 7.5% FCF yield, down 21% since 11-04, cause unconfirmed). Cheap multiples can reflect real business decline; these are leads only.
+Newest names, leads only: TTD (22x trailing, FCF yield 11.6%, but Q4 revenue guide about 11% lower), YOU, KRYS, DAVE, RDDT. Cheap multiples can reflect real decline.
 
 ## Coverage
-Annual SEC screen (calendar 2025, refreshed 2026-11-10 08:08 ET): 4,395 filers with revenue, 1,142 comparable rows, 419 preliminary passes. This is US GAAP USD annual data, not global, not current quarter, not a valuation screen. Company records: 40 structurally valid, 0 attractive eligible. Many rely on filing extracts and XBRL numbers, not full filing reads, and none has peers compared. Failures: no independent second quote origin; OLED 10-Q link still 404. Benchmark VTI pending, no paper references, no performance claims.
+Annual SEC screen (calendar 2025, last refreshed 2026-11-10 08:08 ET, not rerun today): 4,395 filers with revenue, 1,142 comparable rows, 419 preliminary passes. It is US GAAP USD annual data, not global, not current quarter, not a valuation screen. Company records: 52 valid, 0 attractive eligible. Most rely on 10-Q and XBRL excerpts; peers, calls and 10-Ks are mostly unread. Failures: no price source with a proven independent origin; GMED second quote missing; OLED filing text still unavailable. Benchmark VTI pending; no paper references, no performance claims.
 
 ## Verified events
-From company filings only: CORT relacorilant FDA date 2026-12-17 (per its record); EXEL '039 trial "scheduled to begin in November 2026" (exact date unknown). I did not re-verify these today and add nothing else.
+I re-verified none today and add none. Earlier records mention a CORT FDA date, an EXEL trial and a DAVE appeal argument; each needs its own source check before use.
 
 ## Gaps and next priorities
-1. Peer multiples and accounting notes for ZTS, GMED, CARG (ZTS versus IDXX comparison).
-2. Full annual filing and MD&A reads for extract based records.
-3. Independent quote origin and a verified 2026-11-09 close for the leaders and VTI.
-4. QLYS and HWM reaction to results; EXEL '039 ruling; OLED filing text; thin sectors (staples, trucking, small caps).
+1. Peer multiples and 10-K notes for ZTS, GMED, CARG.
+2. Second quote for GMED; independent quote origin for all.
+3. Screen refresh (due), then new names in thin sectors (staples, trucking).
+4. EXEL '039 ruling, OLED filing, reaction to results for QLYS and HWM.
 
-Work done this run: revalidation of 40 records, tests, and SEC submissions checks for three leaders. No new company researched, since the worker added seven overnight.
+Work done this run: SEC filing checks for three leaders, quote checks, revalidation of 52 records. No new company researched, since the worker added twelve. Not Sunday, so no weekly review.
 
-Sources: https://data.sec.gov/submissions/CIK0001555280.json ; https://data.sec.gov/submissions/CIK0001237831.json ; https://data.sec.gov/submissions/CIK0001494259.json
+Sources: https://data.sec.gov/submissions/CIK0001555280.json ; https://data.sec.gov/submissions/CIK0001237831.json ; https://data.sec.gov/submissions/CIK0001494259.json ; https://stockanalysis.com/stocks/zts/history/ ; https://query2.finance.yahoo.com/v8/finance/chart/ZTS
 
 Research only. Not investment advice.

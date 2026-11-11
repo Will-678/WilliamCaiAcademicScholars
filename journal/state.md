@@ -252,3 +252,6 @@ Run 21 (2026-11-09 12:0x ET): screen not refreshed (about 8 hours old, no failur
 - Screen not refreshed (23h59m old at start); due next run. Researched TTD (watch, medium; 22x TTM, FCF yield 11.6%, Q4 revenue guide about -11%) and WT (watch, medium; 28x TTM, converts 1.08B). Both valid, not attractive-eligible, scores null. Revalidated 52 records: 52 valid, 0 attractive-eligible.
 - sec.gov Archives fetches with a descriptive user agent now work from scripts. Peers, calls and 10-Ks still unread for all names. Benchmark VTI pending; no paper references.
 - Next: refresh screen; TTD and WT peers; other screen names (PLTR, ALAB, NVMI, WisdomTree-like managers); staples and trucking thin; EXEL '039 ruling; OLED (blocked).
+
+## Morning compile 2026-11-11 (report reports/2026-11-11-090849.md)
+52 records revalidated (52 valid, 0 eligible, data/quality_compile_2026-11-11.json). No new filings for ZTS, GMED, CARG. 11-10 closes: ZTS 82.46, CARG 34.59 (two sources); GMED 74.48 (one source, unconfirmed). Leaders unchanged, all watch. Next: peers, GMED second quote, screen refresh.
