@@ -1,0 +1,217 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "LIF",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "subscription consumer software with hardware and advertising: judged on paying circle and ARPPC growth, gross margin, GAAP pretax income separate from tax benefits, free cash flow with and without stock compensation, convertible debt against cash, acquisition effects; EV/Adjusted EBITDA is management context only",
+ "as_of": "2026-11-11T00:08:26-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Life360 (Nasdaq: LIF; also ASX: 360) sells a family location and safety app. Q3 2026 revenue 174.1M (+40%), 9M 476.2M vs 343.5M (+39%); subscription 124.2M (+29%), advertising 25.4M vs 7.3M (Nativo acquired, about 57.1M cash paid), paying circles 3.4M (+26%), MAU 107.7M (+17%), subscription gross margin 87%. FY2026 guidance raised at the midpoint: revenue 665 to 681M, Adjusted EBITDA 132 to 138M (about 20% margin). Balance sheet 2026-09-30: cash 333.1M plus short-term investments 129.2M, 320M principal of 0% convertible notes due 2030 (conversion about 80.97, carrying value 312.0M), total liabilities 455.1M, equity 630.6M. TTM (FY2025 plus 9M 2026 minus 9M 2025): revenue 622.2M, OCF 104.95M, capex (PP&E 0.45M plus capitalized software 4.97M) 5.4M, FCF about 99.5M, stock compensation about 74.7M so FCF after SBC about 24.8M. At the verified 2026-11-10 close of 41.98 and 81.755M shares (cover, 2026-11-03) market cap is about 3.43B; EV about 3.29B using cash and investments of 462.4M less 320M convertible principal is about 3.29B (3.43B plus 320M less 462M). Multiples: about 24x FY2026 guided Adjusted EBITDA midpoint, FCF yield 2.9% (0.7% after SBC). GAAP TTM net income of 160.0M gives 21x but is not earnings power: FY2025 carried an income tax benefit of 118.2M (valuation allowance release) and 9M 2026 a further 9.7M benefit; TTM pretax income is only 32.3M, including fair value gains on investments and interest income, so tax-normalized earnings at 21% are about 25M (about 135x). Price fell 6.7% on 2026-11-10 after the 11-09 release (45.02 to 41.98); cause not confirmed from the call.",
+ "counterthesis": "GAAP profit is thin: 9M 2026 operating income was -0.2M on 476.2M revenue, TTM pretax income 32.3M, and reported net income depends on a large deferred tax asset (143.2M) and a 17.5M non-operating fair value gain in Q3. Stock compensation (59.2M in 9M, 12% of revenue) is nearly as large as FCF, so FCF after SBC is under 1% of market cap. Advertising growth is largely acquired (Nativo) and its guidance range was narrowed down (98 to 102M from 98 to 115M); hardware units fell 32% after exiting brick-and-mortar retail; advertising gross margin is low (Q3 cost 11.5M on 25.4M revenue). Q3 OCF 27.2M was below Adjusted EBITDA 34.6M. Related party and Aura arrangements are growing (related party revenue, deferred revenue and fair value gains). Convertible notes are 0% with a conversion price near 81 against a 42 stock, so they are debt not equity for now; maturity 2030. Competition from Apple and Google location features and Tile-related privacy litigation (arbitration compelled, no accrual). Share count rose 2.8% from year-end despite 44.4M of buybacks. Revenue growth of 36 to 39% must continue to justify about 24x Adjusted EBITDA.",
+ "invalidation": "Paying circle net additions falling below about 100 thousand per quarter or subscription growth below about 20%; subscription gross margin below 83%; GAAP operating income staying near zero while SBC exceeds 12% of revenue; advertising revenue growth stalling after the Nativo comparison; FCF before SBC below about 50M; further large non-operating gains or tax items driving net income.",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001581760.json",
+   "document_id": "SEC-submissions-CIK0001581760",
+   "origin": "SEC EDGAR submissions index fetched 2026-11-11 00:3x ET; latest 10-Q and 8-K both filed 2026-11-09",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T00:08:26-05:00"
+  },
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1581760/000158176026000184/lifx-20260930.htm",
+   "document_id": "0001581760-26-000184",
+   "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-09; direct HTML converted to text; balance sheet, statements of operations and cash flows, notes on convertible notes, buyback, taxes, litigation, MD&A cash flow read; FY2025 10-K not read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T00:08:26-05:00"
+  },
+  {
+   "id": "ex99",
+   "url": "https://www.sec.gov/Archives/edgar/data/1581760/000158176026000185/life360incq326mediarelea.htm",
+   "document_id": "0001581760-26-000185-ex99",
+   "origin": "SEC EDGAR 8-K media release 2026-11-09 (issuer release and exhibit are one document); highlights, guidance and Adjusted EBITDA text read; shareholder letter and call unread",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T00:08:26-05:00"
+  },
+  {
+   "id": "facts",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001581760.json",
+   "document_id": "SEC-companyfacts-CIK0001581760",
+   "origin": "SEC XBRL company facts: FY2025 revenue 489.5M, net income 150.8M, pretax 32.7M, tax benefit 118.2M, OCF 88.6M, capex 1.8M, software 5.7M, SBC 55.5M (10-K accession 0001581760-26-000016; 10-K text not read)",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T00:08:26-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/lif/history/",
+   "document_id": "stockanalysis-LIF-2026-11-10",
+   "origin": "stockanalysis.com history table (WebFetch extract)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T00:08:26-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/LIF/history/",
+   "document_id": "yahoo-finance-LIF-2026-11-10",
+   "origin": "finance.yahoo.com history table (WebFetch extract)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T00:08:26-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10",
+    "ex99"
+   ],
+   "note": "Submissions show the Q3 10-Q and earnings 8-K (both 2026-11-09) as the latest periodic filings; 10-Q text and release guidance read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "2026-09-30: cash 333.1M, short-term investments 129.2M, total assets 1,085.7M, total liabilities 455.1M, convertible notes 312.0M carrying (320M principal, 0%, due 2030-06-01), equity 630.6M, deferred tax assets 143.2M, goodwill 173.6M, intangibles 75.7M. Read from the balance sheet."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "facts"
+   ],
+   "note": "9M 2026 OCF 68.2M, PP&E 0.22M, internally developed software 3.79M; 9M 2025 OCF 51.8M, PP&E 1.57M, software 4.54M (10-Q); FY2025 OCF 88.6M, PP&E 1.79M, software 5.72M (XBRL, 10-K text unread). TTM FCF 99.5M uses matching periods and reported spending; acquisitions (57.1M) excluded as investing."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Point-in-time 81,755,320 shares including CDIs on the cover (2026-11-03). Diluted weighted average 85.8M for Q3 is context only. Convertible shares not included (out of the money at about 81)."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "ex99",
+    "qa",
+    "qb"
+   ],
+   "note": "EV/Adjusted EBITDA about 24x, FCF yield 2.9% (0.7% after SBC), GAAP P/E 21x flagged as tax-benefit inflated. No peer multiples (family safety and consumer subscription peers) and no own-history range."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "ex99"
+   ],
+   "note": "Subscription software with hardware and ad mix evaluated on growth, margins, pretax income, FCF before and after SBC and convertible debt; not on generic bank or REIT measures."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "facts"
+   ],
+   "note": "Tax benefit of 118.2M in FY2025 and 9.7M in 9M 2026 explains net income; fair value gains 12.7M and related party Aura items noted; 10-K critical audit matters and revenue recognition notes not read, so the review is partial."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "ex99"
+   ],
+   "note": "Written from filing evidence: thin GAAP operating income, SBC, acquired advertising growth, hardware decline, related party items, litigation."
+  }
+ },
+ "price": {
+  "value": 41.98,
+  "currency": "USD",
+  "as_of": "2026-11-10T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-10",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 41.98,
+    "currency": "USD",
+    "as_of": "2026-11-10T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 41.98,
+    "currency": "USD",
+    "as_of": "2026-11-10T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 41.98,
+   "shares": 81755320,
+   "market_cap_usd": 3432000000,
+   "ttm_period": "2025-10-01 to 2026-09-30",
+   "ttm_revenue_usd": 622198000,
+   "ttm_net_income_usd": 159985000,
+   "ttm_pretax_income_usd": 32294000,
+   "ttm_tax_benefit_usd": 127691000,
+   "pe_ttm_gaap": 21.5,
+   "ttm_ocf_usd": 104952000,
+   "ttm_capex_usd": 5412000,
+   "ttm_fcf_usd": 99540000,
+   "fcf_yield": 0.029,
+   "ttm_sbc_usd": 74701000,
+   "fcf_after_sbc_usd": 24839000,
+   "fcf_yield_after_sbc": 0.0072,
+   "cash_and_investments_usd": 462386000,
+   "convertible_principal_usd": 320000000,
+   "ev_usd": 3290000000,
+   "ev_to_guided_adj_ebitda": 24.4,
+   "note": "TTM = FY2025 + 9M 2026 - 9M 2025. Capex = PP&E + internally developed software. EV = market cap + 320M principal - cash and short-term investments. Tax-normalized earnings at 21% of 32.3M pretax about 25.5M (own approximation)."
+  },
+  "growth": {
+   "q3_revenue_yoy": 0.4,
+   "nine_month_revenue_yoy": 0.386,
+   "paying_circles_yoy": 0.26,
+   "mau_yoy": 0.17,
+   "fy26_revenue_guide_low_usd": 665000000,
+   "fy26_revenue_guide_high_usd": 681000000,
+   "fy26_adj_ebitda_guide_low_usd": 132000000,
+   "fy26_adj_ebitda_guide_high_usd": 138000000
+  },
+  "price_path": {
+   "close_2026_11_04": 48.05,
+   "close_2026_11_05": 46.87,
+   "close_2026_11_06": 47.37,
+   "close_2026_11_09": 45.02,
+   "close_2026_11_10": 41.98,
+   "note": "stockanalysis.com and Yahoo history tables identical for 11-04 to 11-10"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peer and own-history valuation not done",
+  "FY2025 10-K critical audit matters, deferred tax asset support and revenue recognition not read",
+  "Call and shareholder letter unread; cause of the 6.7% drop on 2026-11-10 unconfirmed",
+  "Tax-normalized earnings are an own approximation",
+  "Quote origins are two publishers only",
+  "Scores not assigned"
+ ]
+}

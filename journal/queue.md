@@ -1,6 +1,6 @@
 # Research queue (persisted)
 
-Updated 2026-11-10 20:1x ET by the four hour worker (run 29). Stages: lead, valuation_pending, researched_watch, researched_pass, blocked.
+Updated 2026-11-11 00:1x ET by the four hour worker (run 30). Stages: lead, valuation_pending, researched_watch, researched_pass, blocked.
 
 | CIK | Ticker | Exchange | Sector | Stage | Last reviewed | Next action | Due | Reason |
 |---|---|---|---|---|---|---|---|---|
@@ -53,6 +53,8 @@ Updated 2026-11-10 20:1x ET by the four hour worker (run 29). Stages: lead, valu
 | 1841408 | DAVE | Nasdaq | Consumer fintech short-term advances (mid) | researched_watch | 2026-11-10 | Peers (Chime, MoneyLion, Upstart, Affirm); pro forma FCF after Coastal shift; call and drop cause (-18.1% 11-05); DOJ/FTC case, MLA appeal argument 2026-11-16, Baltimore and Pennsylvania suits; FY2025 10-K audit matters; non-GAAP reconciliation | 2026-11-17 | 18.6x TTM GAAP (about 20.5x tax-normalized), revenue +31%, guidance raised, SBC 45.5M in 9M, net cash about 40M after 200M converts; journal/research/DAVE.json |
 | 1713445 | RDDT | NYSE | Consumer internet ad platform (mid-large) | researched_watch | 2026-11-10 | Peers (META, PINS, SNAP) and own history; read Ex 99.2 letter, call, FY2025 10-K audit matters; US DAUq trend and search referral; tax allowance release timing; cause of -29% on 10-30 | 2026-11-17 | 19.2x TTM GAAP (about 24x tax-normalized), FCF yield 6.3% (4.3% after SBC), revenue +53%, Q4 guide +38-42%, US DAUq -2% y/y; journal/research/RDDT.md |
 | 1756262 | TMDX | Nasdaq | Medtech transplant and aviation logistics (mid) | researched_watch | 2026-11-10 | Peers; read FY2025 10-K, CMS organ procurement rule 2026-10-30, call, non-GAAP reconciliation; material weakness remediation (Q4 evaluation); aircraft capital plan | 2026-11-17 | 21.9x TTM GAAP, FCF yield about 1.4%, 9M operating income -25% on +27% revenue, 351.5M finance lease, 460M convert at about 94; journal/research/TMDX.md |
+| 1581760 | LIF | Nasdaq | Consumer subscription software (mid) | researched_watch | 2026-11-11 | Peers; read call and FY2025 10-K deferred tax asset support; Nativo ad growth; cause of 6.7% drop 11-10 | 2026-11-18 | 21x GAAP is tax-benefit inflated (pretax TTM 32.3M); about 24x guided Adj EBITDA, FCF yield 2.9% (0.7% after SBC); journal/research/LIF.json |
+| 1626115 | PJT | NYSE | Financial advisory boutique (mid) | researched_watch | 2026-11-11 | Peers (EVR, MC, HLI, LAZ); point-in-time unit count; call and 10-K; Q4 pipeline | 2026-11-18 | Q3 revenue -14% after record 9M (+9%), about 22x to 24x tax-normalized, FCF yield about 10% (7% after SBC); journal/research/PJT.json |
 
 Screen refresh: 2026-11-07 04:05 ET, calendar year 2025 (4,393 filers with revenue, 1,142 comparable, 419 preliminary passes; no failure).
 
@@ -106,3 +108,5 @@ Run 27 (2026-11-10 12:0x ET): screen not refreshed (metadata 08:08 ET, about 4 h
 Run 28 (2026-11-10 16:0x ET): screen not refreshed (about 8 hours old, refreshed 08:08 ET, no failure). Submissions checked for all 44 queued CIKs: no new 10-Q/10-K/8-K dated 2026-11-10 or later. Researched DAVE (new, consumer fintech; watch, medium, scores null, valid, not attractive-eligible; data/quality_run28_DAVE.json). One name; depth prioritized. Benchmark VTI pending, no paper references.
 
 Run 29 (2026-11-10 20:0x ET): screen not refreshed (about 12 hours old, refreshed 08:08 ET, no failure). Submissions checked for all 44 active queued CIKs: no new 10-Q/10-K/8-K dated 2026-11-10 or later. Researched RDDT (consumer internet) and TMDX (medtech), both new, watch, medium, scores null, valid, not attractive-eligible (data/quality_run29_*.json; 46 records revalidated, 46 valid, 0 eligible, data/quality_latest.json). Third name not started; depth prioritized. Benchmark VTI pending, no paper references.
+
+Run 30 (2026-11-11 00:0x ET): screen not refreshed (metadata 2026-11-10 08:08 ET, about 16 hours old, no failure). Submissions checked for all 47 queued CIKs: no new 10-Q/10-K/8-K dated 2026-11-10 or later. Researched LIF (consumer subscription software) and PJT (advisory boutique), both new, watch, medium, scores null, valid, not attractive-eligible (data/quality_run30_*.json). Third name not started; depth prioritized. Peers, calls and 10-Ks unread for both. Benchmark VTI pending, no paper references.

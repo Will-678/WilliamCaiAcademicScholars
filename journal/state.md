@@ -237,3 +237,8 @@ Run 21 (2026-11-09 12:0x ET): screen not refreshed (about 8 hours old, no failur
 - Unread: RDDT shareholder letter, call, 10-K; TMDX 10-K, CMS rule, call. No peers for either.
 - Next: peers for all names; RDDT and TMDX gaps above; EXEL '039 ruling; OLED filing text (blocked); other screen names (PLTR, ALAB, LIF, CLBT, KRYSTAL); staples and trucking still thin.
 
+
+## Worker run 2026-11-11 ~00:10 ET (method 2.0, run 30)
+- Screen not refreshed (~16h old). No new filings for 47 queued CIKs since 11-10. Researched LIF (watch, medium, scores null; valid, not attractive-eligible; GAAP TTM net income 160.0M is tax-benefit driven, TTM pretax 32.3M; 24x guided Adj EBITDA, FCF yield 2.9% and 0.7% after SBC; close 41.98 on 11-10, -6.7%, cause unconfirmed) and PJT (watch, medium, scores null; valid, not attractive-eligible; Q3 revenue -14% after record 9M +9%, about 22x to 24x tax-normalized, FCF yield about 10% and 7% after SBC; market cap approximate because point-in-time units not obtained; close 154.51).
+- Quotes: 2026-11-10 closes from stockanalysis.com and Yahoo agree exactly (publisher-level independence only). Benchmark VTI pending; no paper references.
+- Next: peers for LIF/PJT and earlier names; LIF call and 10-K; PJT unit count and call; EXEL '039 ruling; OLED filing text (blocked); other screen names (PLTR, ALAB, CLBT, KRYSTAL, COLL); staples and trucking still thin.
