@@ -231,3 +231,9 @@ Run 21 (2026-11-09 12:0x ET): screen not refreshed (about 8 hours old, no failur
 - Benchmark VTI pending; no paper references. Quote origins are two publishers only.
 - Next: DAVE peers, call, drop cause and legal outcomes; peers for earlier names; EXEL '039 ruling; OLED filing text (blocked); other unresearched screen names (RDDT, PLTR, ALAB, LIF, TMDX, CLBT); staples and trucking still thin.
 
+## Worker run 2026-11-10 ~20:10 ET (method 2.0, run 29)
+- Screen not refreshed (about 12h old). No new filings for 44 queued CIKs since 11-09. Researched RDDT (watch, medium, scores null; valid, not attractive-eligible; 19.2x TTM GAAP, about 24x tax-normalized, FCF yield 6.3% and 4.3% after SBC, revenue +53%, Q4 guide 1,000-1,030M, US DAUq -2% y/y and -5% q/q, -29% on 10-30, close 98.67 on 11-10) and TMDX (watch, medium, scores null; valid, not attractive-eligible; 21.9x TTM GAAP, FCF yield about 1.4%, 9M operating income -25%, material weakness over inventory movement, 351.5M finance lease, +28% on 11-06, close 90.96 on 11-10).
+- Quotes: 2026-11-10 closes confirmed after the session by stockanalysis.com and Yahoo (agree within 0.02%; publisher-level independence only). Benchmark VTI pending; no paper references.
+- Unread: RDDT shareholder letter, call, 10-K; TMDX 10-K, CMS rule, call. No peers for either.
+- Next: peers for all names; RDDT and TMDX gaps above; EXEL '039 ruling; OLED filing text (blocked); other screen names (PLTR, ALAB, LIF, CLBT, KRYSTAL); staples and trucking still thin.
+

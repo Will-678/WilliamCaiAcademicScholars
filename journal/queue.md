@@ -1,6 +1,6 @@
 # Research queue (persisted)
 
-Updated 2026-11-10 16:1x ET by the four hour worker (run 28). Stages: lead, valuation_pending, researched_watch, researched_pass, blocked.
+Updated 2026-11-10 20:1x ET by the four hour worker (run 29). Stages: lead, valuation_pending, researched_watch, researched_pass, blocked.
 
 | CIK | Ticker | Exchange | Sector | Stage | Last reviewed | Next action | Due | Reason |
 |---|---|---|---|---|---|---|---|---|
@@ -51,6 +51,8 @@ Updated 2026-11-10 16:1x ET by the four hour worker (run 28). Stages: lead, valu
 | 914475 | NBIX | Nasdaq | Healthcare commercial biopharma (large) | researched_watch | 2026-11-10 | Read Ex 99.1 and call; IRA status for INGREZZA; Zydus and Alvogen ANDA timing; DOJ CID; peers (TEVA, ACAD, JAZZ); 10-K | 2026-11-17 | 24.3x TTM GAAP, FCF yield 6.1% (4.7% after SBC), revenue +41%, net cash 790M, Soleno 2.83B deal; journal/research/NBIX.json |
 | 1761312 | PLMR | Nasdaq | Insurance specialty P&C (mid) | researched_watch | 2026-11-10 | Peers (KNSL, RLI, SKWD); adjusted vs GAAP gap (about 47M); reserves and reinsurance; 10-K; release | 2026-11-17 | 19.0x TTM GAAP, 4.2x book, annualized ROE about 22%, GWP +32% 9M, liabilities/assets 76%; journal/research/PLMR.json |
 | 1841408 | DAVE | Nasdaq | Consumer fintech short-term advances (mid) | researched_watch | 2026-11-10 | Peers (Chime, MoneyLion, Upstart, Affirm); pro forma FCF after Coastal shift; call and drop cause (-18.1% 11-05); DOJ/FTC case, MLA appeal argument 2026-11-16, Baltimore and Pennsylvania suits; FY2025 10-K audit matters; non-GAAP reconciliation | 2026-11-17 | 18.6x TTM GAAP (about 20.5x tax-normalized), revenue +31%, guidance raised, SBC 45.5M in 9M, net cash about 40M after 200M converts; journal/research/DAVE.json |
+| 1713445 | RDDT | NYSE | Consumer internet ad platform (mid-large) | researched_watch | 2026-11-10 | Peers (META, PINS, SNAP) and own history; read Ex 99.2 letter, call, FY2025 10-K audit matters; US DAUq trend and search referral; tax allowance release timing; cause of -29% on 10-30 | 2026-11-17 | 19.2x TTM GAAP (about 24x tax-normalized), FCF yield 6.3% (4.3% after SBC), revenue +53%, Q4 guide +38-42%, US DAUq -2% y/y; journal/research/RDDT.md |
+| 1756262 | TMDX | Nasdaq | Medtech transplant and aviation logistics (mid) | researched_watch | 2026-11-10 | Peers; read FY2025 10-K, CMS organ procurement rule 2026-10-30, call, non-GAAP reconciliation; material weakness remediation (Q4 evaluation); aircraft capital plan | 2026-11-17 | 21.9x TTM GAAP, FCF yield about 1.4%, 9M operating income -25% on +27% revenue, 351.5M finance lease, 460M convert at about 94; journal/research/TMDX.md |
 
 Screen refresh: 2026-11-07 04:05 ET, calendar year 2025 (4,393 filers with revenue, 1,142 comparable, 419 preliminary passes; no failure).
 
@@ -102,3 +104,5 @@ Run 26 (2026-11-10 08:1x ET): screen refreshed 08:08 ET (previous 28 hours old, 
 Run 27 (2026-11-10 12:0x ET): screen not refreshed (metadata 08:08 ET, about 4 hours old, no failure). Submissions checked for the three new CIKs; no new filings for queued names were checked beyond run 26 (about 3.5 hours earlier). Researched PEGA, NBIX and PLMR (all new, watch, medium, scores null, valid, not attractive-eligible; data/quality_run27_*.json). Only 10-Q and XBRL based; releases for NBIX and PLMR unread; no peers. Benchmark VTI pending, no paper references.
 
 Run 28 (2026-11-10 16:0x ET): screen not refreshed (about 8 hours old, refreshed 08:08 ET, no failure). Submissions checked for all 44 queued CIKs: no new 10-Q/10-K/8-K dated 2026-11-10 or later. Researched DAVE (new, consumer fintech; watch, medium, scores null, valid, not attractive-eligible; data/quality_run28_DAVE.json). One name; depth prioritized. Benchmark VTI pending, no paper references.
+
+Run 29 (2026-11-10 20:0x ET): screen not refreshed (about 12 hours old, refreshed 08:08 ET, no failure). Submissions checked for all 44 active queued CIKs: no new 10-Q/10-K/8-K dated 2026-11-10 or later. Researched RDDT (consumer internet) and TMDX (medtech), both new, watch, medium, scores null, valid, not attractive-eligible (data/quality_run29_*.json; 46 records revalidated, 46 valid, 0 eligible, data/quality_latest.json). Third name not started; depth prioritized. Benchmark VTI pending, no paper references.
