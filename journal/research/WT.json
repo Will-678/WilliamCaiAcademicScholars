@@ -1,0 +1,219 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "WT",
+ "exchange": "NYSE",
+ "currency": "USD",
+ "sector_model": "asset manager (nonfinancial treatment of fee income): AUM, fee rate, flows, operating margin, FCF after SBC, convertible leverage; not a bank or insurer",
+ "as_of": "2026-11-11T08:09:58-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "WisdomTree (NYSE: WT) is an ETF and ETP sponsor (gold, crypto, equity income, tokenized funds) that also bought Ceres Partners and, on 2026-05-01, Atlantic House (209.1M cash). Q3 2026 (10-Q read): revenue 179.4M (+42.8%), 9M revenue 516.0M (+49%, partly acquired), 9M operating income 205.3M (vs 114.4M), 9M net income 70.4M (vs 69.1M) after a 68.9M loss on convertible note repurchases; US listed ETF AUM 101.6B, European ETP AUM 66.0B, onchain 1.27B. TTM revenue 663.4M, operating income 265.0M, net income 110.4M, OCF 207.8M, FCF 203.9M, SBC 28.7M so FCF after SBC 175.2M. At the 2026-11-10 close of 20.77 and 150.9M shares, market cap 3.13B: 28.4x TTM GAAP net income, FCF yield 6.5% (5.6% after SBC). Convertible principal 1,078.75M against cash 299.7M; EV about 3.87B or 14.6x TTM operating income. Market may price WT as a crypto and gold flow sensitive manager with growing leverage; the evidence is growth in fee revenue and operating income, but earnings per share has not kept pace.",
+ "counterthesis": "Revenue growth is largely acquired and tied to gold, crypto and fee rate mix, so a commodity or crypto drawdown reduces AUM and revenue together. Net debt is about 0.78B (convertibles 1,078.75M less cash 299.7M) versus TTM operating income 265M, and interest on the convertibles is about 52M a year; 9M net income barely rose (+1.8%) because of a 68.9M repurchase loss and higher interest and tax (35% rate). The 2030 notes (conversion 19.15) are in the money, so equity dilution of about 25M shares (about 16%) is likely if the price holds, and the capped call or hedge terms are unread. Part of reported fees arrive as gold and crypto (69.1M non-cash in 9M), so OCF understates and cash conversion depends on selling those assets. Goodwill and intangibles are 1.18B against equity 446M. Related party receivables are 60.5M. Single stock price fell about 5% around 11-05 and 11-03 volume was 7.4M, showing sentiment sensitivity.",
+ "invalidation": "Net outflows or AUM decline in the next quarterly update, revenue growth excluding acquisitions below about 10%, operating margin under about 35%, convertible dilution beyond the 2030 and 2031 note share counts, further repurchase losses without cash benefit, a gold or crypto price break that cuts AUM sharply, or goodwill impairment.",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0000880631.json",
+   "document_id": "SEC-submissions-CIK0000880631",
+   "origin": "SEC EDGAR submissions index fetched 2026-11-11; latest 10-Q filed 2026-11-05, 8-K 2026-10-30",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T08:09:58-05:00"
+  },
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/880631/000121465926013785/wti-20260930.htm",
+   "document_id": "0001214659-26-013785",
+   "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-05; full text downloaded; balance sheet, income, cash flow, notes 9 and acquisition note, MD&A AUM and revenue read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T08:09:58-05:00"
+  },
+  {
+   "id": "k8",
+   "url": "https://www.sec.gov/Archives/edgar/data/880631/000121465926013478/b10282638k.htm",
+   "document_id": "0001214659-26-013478",
+   "origin": "SEC EDGAR 8-K filed 2026-10-30 read (cover and items only; release exhibit contents not read)",
+   "kind": "earnings_release",
+   "read_status": "snippet",
+   "accessed_at": "2026-11-11T08:09:58-05:00"
+  },
+  {
+   "id": "facts",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000880631.json",
+   "document_id": "SEC-companyfacts-CIK0000880631",
+   "origin": "SEC XBRL company facts FY2025 10-K values (revenue, net income, OCF, capex, SBC, operating income) for TTM; 10-K text not read",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T08:09:58-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/wt/history/",
+   "document_id": "stockanalysis-WT-2026-11-10",
+   "origin": "stockanalysis.com history table (WebFetch extract)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T08:09:58-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/WT/history/",
+   "document_id": "yahoo-finance-WT-2026-11-10",
+   "origin": "finance.yahoo.com history table (WebFetch extract)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T08:09:58-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10"
+   ],
+   "note": "Submissions show Q3 10-Q filed 2026-11-05 as latest periodic filing; 10-Q downloaded in full and statements, convertible note and acquisition notes, MD&A read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Total assets 1,647.1M, total liabilities 1,201.3M, equity 445.7M, cash 299.7M, convertible notes carrying 1,058.7M (principal 1,078.75M: 2030 notes 475.0M at 4.625% and 2031 notes 603.75M at 4.50%), goodwill and intangibles 1,183.9M after Atlantic House; payable to GBH 14.7M."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "facts"
+   ],
+   "note": "9M 2026 OCF 153.1M, capex 0.25M, software 2.7M (10-Q); FY2025 OCF 147.9M (XBRL); TTM FCF 203.9M matching periods. OCF is after 69.1M of non-cash fees received in gold and crypto; acquisition cash is in investing."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "150,883,924 shares at 2026-11-03 (10-Q cover); convertible note dilution computed separately and not in market cap."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "facts",
+    "qa",
+    "qb"
+   ],
+   "note": "Own TTM multiples computed; asset manager peers (VCTR, FHI, IVZ, BEN) and own history not done; organic growth and flows unread; TTM includes partial acquisition periods."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Asset manager: judged on AUM, fee rate, flows, operating margin, FCF after SBC and leverage; not a bank or insurer model."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Read: 68.9M loss on convert repurchase, gold and crypto fee payments adjustment, goodwill and intangibles from Atlantic House (209.1M) and Ceres, contingent consideration remeasurement, related party receivables (60.5M from related parties). 10-K audit matters, GBH relationship and MD&A flows unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Countercase written from figures read."
+  }
+ },
+ "price": {
+  "value": 20.77,
+  "currency": "USD",
+  "as_of": "2026-11-10T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-10",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 20.77,
+    "currency": "USD",
+    "as_of": "2026-11-10T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 20.77,
+    "currency": "USD",
+    "as_of": "2026-11-10T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 20.77,
+   "shares": 150883924,
+   "shares_note": "150,883,924 common shares at 2026-11-03 (10-Q cover), point in time; excludes dilution from 1,078.75M convertible notes (2030 notes convert at 19.15, in the money at 20.77, about 24.8M shares; 2031 notes at 21.58)",
+   "market_cap_usd": 3133859101,
+   "ttm_period": "2025-10-01 to 2026-09-30",
+   "ttm_revenue_usd": 663439000,
+   "ttm_net_income_usd": 110395000,
+   "ttm_operating_income_usd": 265030000,
+   "ttm_ocf_usd": 207834000,
+   "ttm_capex_ppe_usd": 313000,
+   "ttm_capitalized_software_usd": 3612000,
+   "ttm_fcf_usd": 203909000,
+   "fcf_yield": 0.065,
+   "ttm_sbc_usd": 28675000,
+   "fcf_after_sbc_usd": 175234000,
+   "fcf_yield_after_sbc": 0.056,
+   "pe_ttm": 28.4,
+   "cash_and_equivalents_usd": 299740000,
+   "financial_instruments_owned_usd": 41014000,
+   "convertible_notes_principal_usd": 1078750000,
+   "enterprise_value_approx_usd": 3871855101,
+   "ev_to_ttm_operating_income": 14.6,
+   "note": "TTM = FY2025 (10-K XBRL) + 9M 2026 - 9M 2025. TTM includes only 5 months of Atlantic House (closed 2026-05-01) and part-period Ceres, so run rate revenue is higher than TTM while acquisition costs of 209.1M cash are not in operating cash flow (investing). 9M net income includes a 68.9M loss on repurchase of convertible notes; OCF excludes 69.1M of advisory and license fees received in gold, other metals and cryptocurrency (non-cash), so FCF understates cash-equivalent economics unless those assets are sold. Cash includes restricted cash per the line label (299.7M)."
+  },
+  "growth": {
+   "q3_revenue_usd": 179375000,
+   "q3_revenue_yoy": 0.428,
+   "nine_month_revenue_yoy": 0.49,
+   "nine_month_revenue_usd": 516005000,
+   "nine_month_operating_income_usd": 205283000,
+   "nine_month_operating_income_prior_usd": 114448000,
+   "nine_month_net_income_usd": 70369000,
+   "nine_month_net_income_prior_usd": 69107000,
+   "q3_net_income_usd": 49216000,
+   "q3_net_income_prior_usd": 19701000,
+   "us_listed_etf_aum_usd": 101600000000,
+   "european_etp_aum_usd": 66000000000,
+   "onchain_aum_usd": 1273000000
+  },
+  "capital_return": {
+   "nine_month_share_repurchases_usd": 61506000,
+   "nine_month_dividends_usd": 13451000,
+   "convert_repurchases_9m_usd": 542545000,
+   "convert_issued_9m_usd": 603750000,
+   "atlantic_house_cash_paid_usd": 209099000
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peer (asset manager) and own history valuation not done",
+  "Organic growth, net flows, total AUM, fee rate trends and operating margin by product unread",
+  "10-K critical audit matters, GBH payable arrangement, convertible hedge terms unread",
+  "8-K release exhibit of 2026-10-30 unread",
+  "Quote origins are two publishers only",
+  "Scores not assigned"
+ ]
+}

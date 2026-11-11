@@ -1,0 +1,228 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "TTD",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "ad tech platform (nonfinancial): growth, take rate, margins, FCF after SBC, net cash, dilution; not a bank or REIT model",
+ "as_of": "2026-11-11T08:08:52-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "The Trade Desk (Nasdaq: TTD) runs a self-service programmatic ad buying platform. Q3 2026 (10-Q and release read): revenue 736.0M (-0.5% y/y), 9M revenue 2,139.9M (+4%), 9M operating income 260.8M (-21.5%), 9M net income 142.4M (-44%) with a 64% Q3 tax rate from stock award detriments; customer retention above 95%; Q4 outlook revenue at least 755M (about -11% versus Q4 2025 of 846.8M) and Adjusted EBITDA at least 280M. TTM (FY2025 + 9M 2026 - 9M 2025): revenue 2,986.7M, net income 329.4M, operating income 517.7M, OCF 1,115.3M, capex plus capitalized software 268.3M, FCF 847.0M, SBC 425.9M so FCF after SBC 421.1M. At the 2026-11-10 close of 15.42 and 472.9M Class A plus Class B shares, market cap is 7.29B: 22.1x TTM net income, FCF yield 11.6% (5.8% after SBC), net cash 1.65B with no debt, EV about 10.9x TTM operating income. The stock rose 15.5% on 11-09 and 3.3% on 11-10 after the report. Question the market is asking: whether a former growth leader is now a share losing, margin compressing ad platform; the price already assumes that, but trailing figures are higher than the near term run rate.",
+ "counterthesis": "Revenue is now flat to down (Q3 -0.5%, Q4 guide about -11%) and the 4% 9M growth includes 15M non-recurring partner revenue and a shift of costs from revenue reductions into platform operations. Operating income fell 21.5% in 9M and Adjusted EBITDA margin dropped from 39% to 33%, so TTM FCF and earnings overstate the run rate. FCF after SBC is only about 5.8% of market cap because SBC is 14% of TTM revenue. Net income is helped by a longer equipment life (about 7M) and an 18M asset sale gain, and operating cash flow by a 203M working capital inflow (receivables collected, payables paid). The 2026 restructuring cost 44M, 14.4M options were repriced on 2026-10-19 (incremental expense not yet measured), and a CEO performance option was struck at 14.97. Securities class actions over 2023 to 2025 statements and a Delaware reincorporation suit are pending. Competition from Amazon and walled gardens, and net versus gross revenue presentation changes, could keep growth below 10%. The 15% two day rebound leaves little margin for a failed recovery.",
+ "invalidation": "Q4 revenue below the 755M floor, 2027 growth that stays negative or low single digit, Adjusted EBITDA margin staying under about 33%, retention falling below 95%, FCF after SBC turning negative, or an adverse ruling or large settlement in the securities class action. Conversely, revenue growth returning to double digits would change the thesis to a recovery case.",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001671933.json",
+   "document_id": "SEC-submissions-CIK0001671933",
+   "origin": "SEC EDGAR submissions index fetched 2026-11-11; latest 10-Q and 8-K filed 2026-11-09",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T08:08:52-05:00"
+  },
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1671933/000167193326000116/ttd-20260930.htm",
+   "document_id": "0001671933-26-000116",
+   "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-09; full text downloaded; statements, notes 4,6,7,12,13, MD&A, litigation read",
+   "kind": "quarterly_filing",
+   "read_status": "full",
+   "accessed_at": "2026-11-11T08:08:52-05:00"
+  },
+  {
+   "id": "ex99",
+   "url": "https://www.sec.gov/Archives/edgar/data/1671933/000167193326000115/ttd-20261109x8kexx991.htm",
+   "document_id": "0001671933-26-000115-ex99",
+   "origin": "SEC EDGAR 8-K Ex 99.1 earnings release 2026-11-09 (issuer release and exhibit are one document); highlights and Q4 outlook read, call unread",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T08:08:52-05:00"
+  },
+  {
+   "id": "facts",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001671933.json",
+   "document_id": "SEC-companyfacts-CIK0001671933",
+   "origin": "SEC XBRL company facts FY2025 10-K values (revenue, net income, OCF, capex, SBC, operating income) for TTM; 10-K text not read",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T08:08:52-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/ttd/history/",
+   "document_id": "stockanalysis-TTD-2026-11-10",
+   "origin": "stockanalysis.com history table (WebFetch extract)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T08:08:52-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/TTD/history/",
+   "document_id": "yahoo-finance-TTD-2026-11-10",
+   "origin": "finance.yahoo.com history table (WebFetch extract)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-11T08:08:52-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10",
+    "ex99"
+   ],
+   "note": "Submissions show Q3 10-Q and earnings 8-K filed 2026-11-09 as latest periodic filings; 10-Q downloaded in full and release highlights and Q4 outlook read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Total assets 5,947.6M, total liabilities 3,245.1M, cash 1,229.3M, short term investments 420.4M; no borrowings under the revolver (availability 745M, maturity 2031); lease liabilities not separately examined."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "facts"
+   ],
+   "note": "9M 2026 OCF 803.7M, capex 226.7M, capitalized software 11.6M (10-Q); FY2025 OCF 992.7M, capex 197.0M (XBRL); TTM FCF 847.0M with matching periods and reported capex. 9M includes 203M net working capital inflow and 33.5M asset sale proceeds (excluded)."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Class A 429,792,121 and Class B 43,095,689 at 2026-10-31 (10-Q cover); market cap uses both classes, point in time."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "facts",
+    "qa",
+    "qb"
+   ],
+   "note": "Own TTM multiples computed; peers (adtech, ad platforms) and own multiple history not done, and forward numbers rest on a single quarter guide."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Ad tech platform: judged on revenue growth, gross spend and take rate, margins, FCF after SBC, net cash and dilution; not a bank, insurer or REIT model."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "ex99"
+   ],
+   "note": "Read: depreciation life change from 3 to 4 years (raises 9M net income by about 7M), 17.7M gain on asset sale, restructuring 44.3M, Q3 tax rate 64%, 15M non-recurring partner revenue, net versus gross presentation language, option repricing. 10-K critical audit matters, Item 4 controls detail and call not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "ex99"
+   ],
+   "note": "Countercase written from figures read."
+  }
+ },
+ "price": {
+  "value": 15.42,
+  "currency": "USD",
+  "as_of": "2026-11-10T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-10",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 15.42,
+    "currency": "USD",
+    "as_of": "2026-11-10T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 15.42,
+    "currency": "USD",
+    "as_of": "2026-11-10T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 15.42,
+   "shares": 472887810,
+   "shares_note": "Class A 429,792,121 plus Class B 43,095,689 at 2026-10-31 (10-Q cover); point in time; Class B converts 1:1",
+   "market_cap_usd": 7291930030,
+   "ttm_period": "2025-10-01 to 2026-09-30",
+   "ttm_revenue_usd": 2986670000,
+   "ttm_net_income_usd": 329391000,
+   "ttm_operating_income_usd": 517703000,
+   "ttm_ocf_usd": 1115257000,
+   "ttm_capex_ppe_usd": 253068000,
+   "ttm_capitalized_software_usd": 15226000,
+   "ttm_fcf_usd": 846963000,
+   "fcf_yield": 0.116,
+   "ttm_sbc_usd": 425868000,
+   "fcf_after_sbc_usd": 421095000,
+   "fcf_yield_after_sbc": 0.058,
+   "pe_ttm": 22.1,
+   "cash_and_short_term_investments_usd": 1649668000,
+   "debt_usd": 0,
+   "debt_note": "No borrowings under revolver at 2026-09-30 (10-Q); operating lease liabilities excluded from EV",
+   "enterprise_value_approx_usd": 5642262030,
+   "ev_to_ttm_operating_income": 10.9,
+   "note": "TTM = FY2025 (10-K XBRL) + 9M 2026 - 9M 2025. Capex = purchases of property and equipment as reported; proceeds of 33.5M from asset sales excluded. 9M 2026 OCF includes a net working capital inflow of 203M. Cash and short term investments include client related float timing (receivables 675M collected vs payables -501M paid)."
+  },
+  "growth": {
+   "q3_revenue_yoy": -0.005,
+   "nine_month_revenue_yoy": 0.04,
+   "q3_net_income_usd": 38050000,
+   "q3_net_income_prior_usd": 115547000,
+   "nine_month_net_income_usd": 142441000,
+   "nine_month_net_income_prior_usd": 256354000,
+   "nine_month_operating_income_usd": 260830000,
+   "nine_month_operating_income_prior_usd": 332448000,
+   "q3_effective_tax_rate": 0.643,
+   "q4_2026_revenue_guide_floor_usd": 755000000,
+   "q4_2025_revenue_usd": 846791000,
+   "q4_guide_floor_vs_prior_year": -0.108,
+   "q4_adj_ebitda_guide_floor_usd": 280000000,
+   "adj_ebitda_9m_usd": 713182000,
+   "adj_ebitda_9m_prior_usd": 796110000
+  },
+  "capital_return": {
+   "nine_month_buybacks_usd": 241331000,
+   "repurchase_authorization_available_after_nov_2026_usd": 1000000000,
+   "restructuring_charges_9m_usd": 44258000,
+   "option_repricing_approved": "2026-10-19, about 14.4M options, incremental SBC not yet valued"
+  },
+  "price_path": {
+   "close_2026_11_06": 12.93,
+   "close_2026_11_09": 14.93,
+   "close_2026_11_10": 15.42,
+   "note": "+15.5% on 11-09 and +3.3% on 11-10; CEO option exercise price 14.97 set on 2026-09-14 close; stockanalysis.com and Yahoo identical"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peer (adtech, ad platform) and own history valuation not done",
+  "FY2025 10-K critical audit matters, risk factors and Q3 call unread",
+  "Quote origins are two publishers only; no independent timestamped exchange source",
+  "Securities class action exposure unquantified",
+  "Scores not assigned"
+ ]
+}

@@ -1,6 +1,6 @@
 # Research queue (persisted)
 
-Updated 2026-11-11 04:1x ET by the four hour worker (run 31). Stages: lead, valuation_pending, researched_watch, researched_pass, blocked.
+Updated 2026-11-11 08:3x ET by the four hour worker (run 32). Stages: lead, valuation_pending, researched_watch, researched_pass, blocked.
 
 | CIK | Ticker | Exchange | Sector | Stage | Last reviewed | Next action | Due | Reason |
 |---|---|---|---|---|---|---|---|---|
@@ -57,6 +57,8 @@ Updated 2026-11-11 04:1x ET by the four hour worker (run 31). Stages: lead, valu
 | 1626115 | PJT | NYSE | Financial advisory boutique (mid) | researched_watch | 2026-11-11 | Peers (EVR, MC, HLI, LAZ); point-in-time unit count; call and 10-K; Q4 pipeline | 2026-11-18 | Q3 revenue -14% after record 9M (+9%), about 22x to 24x tax-normalized, FCF yield about 10% (7% after SBC); journal/research/PJT.json |
 | 1856314 | YOU | NYSE | Consumer identity subscription (mid, Up-C) | researched_watch | 2026-11-11 | Peers; read MD&A, debt/TRA notes, nature of ~315M Q3 partnership liability settlement; 10-K audit matters; call | 2026-11-18 | 29x TTM net income, FCF yield 6.3% (5.6% after SBC), revenue +28%, +23.7% on 11-04, net cash ~633M, debt unverified; journal/research/YOU.json |
 | 1711279 | KRYS | Nasdaq | Healthcare commercial biotech (mid) | researched_watch | 2026-11-11 | Peers; DOJ subpoena exposure, payer mix, 10-K; KB111 interim data before year end; call | 2026-11-18 | ~40x TTM GAAP (44x normalized tax), EV 35x operating income, FCF yield 3.4%, net cash 1.19B, revenue +30%, 400M buyback; journal/research/KRYS.json |
+| 1671933 | TTD | Nasdaq | Ad tech platform (mid) | researched_watch | 2026-11-11 | Peers (adtech, ad platforms); call and FY2025 10-K audit matters; securities class action exposure; Q4 result vs 755M floor | 2026-11-18 | 22.1x TTM, FCF yield 11.6% (5.8% after SBC), net cash 1.65B, but Q3 revenue -0.5%, Q4 guide about -11%, 9M operating income -21.5%; +19% in two sessions; journal/research/TTD.json |
+| 880631 | WT | NYSE | Asset manager ETF sponsor (small-mid) | researched_watch | 2026-11-11 | Peers (VCTR, FHI, IVZ, BEN); organic growth and flows; 8-K release exhibit; convertible hedge terms and dilution; 10-K | 2026-11-18 | 28.4x TTM GAAP, FCF yield 6.5% (5.6% after SBC), revenue +49% 9M (acquired), converts 1.08B vs cash 0.30B; journal/research/WT.json |
 
 Screen refresh: 2026-11-07 04:05 ET, calendar year 2025 (4,393 filers with revenue, 1,142 comparable, 419 preliminary passes; no failure).
 
@@ -114,3 +116,6 @@ Run 29 (2026-11-10 20:0x ET): screen not refreshed (about 12 hours old, refreshe
 Run 30 (2026-11-11 00:0x ET): screen not refreshed (metadata 2026-11-10 08:08 ET, about 16 hours old, no failure). Submissions checked for all 47 queued CIKs: no new 10-Q/10-K/8-K dated 2026-11-10 or later. Researched LIF (consumer subscription software) and PJT (advisory boutique), both new, watch, medium, scores null, valid, not attractive-eligible (data/quality_run30_*.json). Third name not started; depth prioritized. Peers, calls and 10-Ks unread for both. Benchmark VTI pending, no paper references.
 
 Run 31 (2026-11-11 04:0x ET): screen not refreshed (metadata 2026-11-10 08:08 ET, about 20 hours old, no failure). Submissions checked for 49 queued CIKs: no new 10-Q/10-K/8-K dated 2026-11-10 or later. Researched YOU (consumer identity subscription) and KRYS (commercial biotech), both new, watch, medium, scores null, valid, not attractive-eligible (data/quality_run31_*.json). Third name not started; depth prioritized. sec.gov Archives document fetches from scripts returned 403, so documents were read through WebFetch (excerpts only); MD&A for YOU unavailable. Benchmark VTI pending, no paper references.
+
+
+Run 32 (2026-11-11 08:0x ET): screen not refreshed (metadata 2026-11-10 08:08 ET, 23h59m old at start, no failure; due next run). Submissions rechecked only for new names (TTD, WT), no queue-wide check. Researched TTD (ad tech) and WT (asset manager), both new, watch, medium, scores null, valid, not attractive-eligible (data/quality_run32_*.json). sec.gov Archives fetches with a descriptive user agent worked this run, so 10-Qs were read in full. Third name not started; depth prioritized. Benchmark VTI pending, no paper references. Revalidated all 52 records: 52 valid, 0 attractive-eligible.
