@@ -1,0 +1,191 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "NRIM",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "bank: P/E, price to tangible book, NIM, provision, nonaccrual, ACL coverage, segment mix, merger dilution; generic FCF not used",
+ "as_of": "2026-11-12T04:09:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Northrim BanCorp (Nasdaq: NRIM) is an Alaska bank holding company with community banking, home mortgage and specialty finance segments. Q3 2026 10-Q (statements, segment, nonaccrual and merger notes, MD&A highlights read) filed 2026-10-30. Q3 net income 14.4M ($0.63 diluted) versus 27.1M ($1.20); the prior-year quarter included a 13.9M gain on sale of assets by Pacific Wealth Advisors. Nine-month net income 43.4M ($1.92 vs $2.32). Q3 NIM 4.96% (+13bp). Total assets 3.58B (+8.8% in nine months), deposits 3.05B, equity 356.1M, tangible equity 305.3M. Nonaccrual loans net of guarantees rose to 40.1M from 12.0M at year end (C&I 27.4M vs 4.3M); Q3 provision 7.7M (Specialty Finance 8.4M provision, segment loss 4.3M) versus 1.7M. Pending all-stock acquisition of PBCO Financial (1.160 shares per share, PBCO holders to own about 21%, approved 2026-10-20, expected close about 2027-01-01). Close 24.05 on 2026-11-11: market cap about 535M, about 9.6x TTM net income (55.9M), 9.4x annualized nine-month EPS, 1.50x book and 1.75x tangible book, dividend 0.17 quarterly (2.8% yield). Cheap on earnings with high NIM, but credit quality deteriorated in the specialty finance and C&I books.",
+ "counterthesis": "Nonaccrual loans tripled in nine months to 40.1M (about 1.7% of 2.40B loans; I did not read the loan total precisely beyond the maturity table) and Specialty Finance swung to a loss, so the low P/E may capitalize earnings that fall as provisions rise. The nine-month ACL of 33.3M covers 83% of nonaccrual, and part of it sits on loans with no ACL needed because of collateral or guarantees. The merger adds about 21% new shares and integration risk, and regulatory approval is still pending. TTM earnings include one-time gains that I did not isolate in Q4 2025. The bank is Alaska concentrated (economy tied to energy and government). Peers and ROTCE not compared; no CRE breakdown or capital ratios read.",
+ "invalidation": "Nonaccrual above about 3% of loans, further Specialty Finance losses, provision above 10M a quarter, NIM below 4.5%, merger terms or approval failing, or CET1 falling below peer norms after the merger.",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001163370.json",
+   "document_id": "SEC-submissions-CIK0001163370",
+   "origin": "SEC EDGAR submissions fetched 2026-11-12; latest 10-Q 2026-10-30, 8-Ks 10-15 and 10-22, S-4/A and 424B3 for PBCO merger in September",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T04:09:00-05:00"
+  },
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1163370/000116337026000036/nrim-20260930.htm",
+   "document_id": "0001163370-26-000036",
+   "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-10-30; full text downloaded; balance sheet, income statement, cash flow, segments, nonaccrual, merger note and MD&A highlights read; CRE composition and capital ratios not read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T04:09:00-05:00"
+  },
+  {
+   "id": "cf",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001163370.json",
+   "document_id": "SEC-companyfacts-CIK0001163370",
+   "origin": "SEC XBRL company facts, FY2025 10-K values (accession 0001163370-26-000007)",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T04:09:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/nrim/",
+   "document_id": "stockanalysis-NRIM-2026-11-11",
+   "origin": "stockanalysis.com quote page (WebFetch): 24.05 at 4:00 PM EST 2026-11-11, Nasdaq",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T04:09:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/NRIM/history/",
+   "document_id": "yahoo-finance-NRIM-2026-11-11",
+   "origin": "finance.yahoo.com history (WebFetch): 24.05 close 2026-11-11 with 5 session table",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T04:09:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10"
+   ],
+   "note": "10-Q filed 2026-10-30 latest; 8-Ks 10-15 and 10-22 contents not read; merger approved by both shareholder groups 2026-10-20."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "2026-09-30: assets 3,580.0M (3,290.3M), deposits 3,051.3M, equity 356.1M, goodwill 49.9M, intangibles 0.95M, ACL on loans 33.3M (23.7M)."
+  },
+  "cashflow_basis_verified": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "cf"
+   ],
+   "note": "Bank: operating cash flow not used as valuation; FY2025 OCF 139.3M and capex 5.5M (XBRL) noted but includes mortgage-held-for-sale flows; 9M cash flow not analysed."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "22,244,766 shares outstanding at 2026-10-30 (cover); merger will issue shares for about 21% of combined company."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "cf",
+    "qa",
+    "qb"
+   ],
+   "note": "P/E and P/TBV computed; peer banks, ROTCE and history not compared; pro forma merger effect not modelled."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Bank model: P/E, price to tangible book, NIM, provision, nonaccrual, segment mix; generic FCF not used."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Q3 prior-year base included a 13.9M asset sale gain; nonaccrual jump and Specialty Finance loss noted; audit matters and CRE detail unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Nonaccrual, specialty finance loss, merger dilution and earnings decline set out."
+  }
+ },
+ "price": {
+  "value": 24.05,
+  "currency": "USD",
+  "as_of": "2026-11-11T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-11",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 24.05,
+    "currency": "USD",
+    "as_of": "2026-11-11T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 24.05,
+    "currency": "USD",
+    "as_of": "2026-11-11T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 24.05,
+   "shares_outstanding": 22244766,
+   "market_cap_usd": 535000000,
+   "ttm_net_income_usd": 55866000,
+   "ttm_basis": "FY2025 64.608M minus 9M2025 52.167M plus 9M2026 43.425M",
+   "pe_ttm": 9.6,
+   "annualized_9m_eps": 2.56,
+   "pe_annualized_9m": 9.4,
+   "book_value_usd": 356111000,
+   "price_to_book": 1.5,
+   "tangible_book_usd": 305287000,
+   "price_to_tangible_book": 1.75,
+   "dividend_per_share_quarterly": 0.17,
+   "dividend_yield_pct": 2.8
+  },
+  "credit": {
+   "nonaccrual_usd": 40100000,
+   "nonaccrual_prior_year_end_usd": 12000000,
+   "q3_provision_usd": 7724000,
+   "q3_provision_prior_usd": 1716000,
+   "acl_loans_usd": 33293000,
+   "q3_nim_pct": 4.96,
+   "q3_net_income_usd": 14408000,
+   "q3_net_income_prior_usd": 27065000
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peer bank multiples and ROTCE not computed",
+  "CRE by property type, capital ratios (CET1) and uninsured deposits unread",
+  "Cause and collateral of the 27.4M C&I nonaccrual unread beyond the table",
+  "Pro forma effect of PBCO merger unmodelled",
+  "8-Ks of 10-15 and 10-22 unread; earnings release and call unread",
+  "Q4 2025 earnings quality not examined",
+  "Quote origins are two publishers only (publisher-level independence)",
+  "Scores not assigned"
+ ]
+}

@@ -1,0 +1,201 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "ALAB",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "fabless semiconductor, AI connectivity: revenue growth, gross margin, customer concentration, inventory and receivables build, SBC and dilution, EV/sales and P/E; no debt model",
+ "as_of": "2026-11-12T04:09:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Astera Labs (Nasdaq: ALAB) sells high-speed connectivity chips (retimers, switches, controllers) plus COSMOS software to AI and cloud infrastructure customers. Q3 2026 10-Q (full financial statements, concentration and tax notes read) filed 2026-11-04. Q3 revenue 584.9M (+153.7% from 230.6M), nine months 1,285.7M (+120.9%); Q3 gross margin 72.3%, operating income 179.1M (30.6% margin). TTM revenue 1,556.2M, TTM GAAP net income 461.3M (tax benefit 48.1M in 9M26 lifted GAAP; pretax 9M 368.3M). Cash and marketable securities 1,378M, no borrowings, equity 2.0B. 9M OCF 341.5M after 347M working-capital build (receivables 284M vs 83M, inventory 201M vs 59M); capex 73.4M (+289%). TTM FCF about 345M. Close 230.91 on 2026-11-11 (+6.8% that day; +28.7% since 11-05 close 179.47). Market cap about 40.4B (174.78M shares at 10-31), EV about 39.0B: about 87x TTM GAAP earnings, 25x TTM sales, 0.85% FCF yield (0.27% after SBC). The business is high quality and growing very fast; the price already capitalizes years of continued hypergrowth.",
+ "counterthesis": "At 25x sales and 87x earnings, any deceleration, a customer shifting to in-house or competitor silicon (Broadcom, Marvell, Credo), or lower AI capex would cut the multiple sharply. Customer A was 53% of Q3 revenue and 58% of receivables, and the 10-Q says concentration moves between manufacturing partners, so end-customer exposure is not fully visible. SBC is 195M in nine months (15% of revenue) with about 10M dilutive shares above basic; warrants issued to customers reduce revenue (30.4M) and signal pricing concessions. Working capital absorbed more than a third of net income plus SBC; inventory is 3.4x year-end. GAAP profit is helped by tax benefits and a valuation allowance that is still in place. Insider Forms 144 and 4 filed 11-05 and 11-09 (contents unread). The stock moved +29% in six sessions with no unread-evidence explanation, so the entry price embeds momentum. Peers and consensus are unknown to me. A director resigned 11-03.",
+ "invalidation": "Revenue growth below about 50% year on year, gross margin below 70%, a top customer falling below 30% share without replacement, inventory and receivables growing faster than revenue for two quarters, or export-control restrictions on China-linked customers. A price decline to a multiple that peers justify would change the valuation view but not the quality view.",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001736297.json",
+   "document_id": "SEC-submissions-CIK0001736297",
+   "origin": "SEC EDGAR submissions index fetched by script 2026-11-12; latest 10-Q 2026-11-04, 8-K 2026-11-04 (director resignation only), Form 4 and 144 sales 11-05 and 11-09",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T04:09:00-05:00"
+  },
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000045/alab-20260930.htm",
+   "document_id": "0001736297-26-000045",
+   "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-04; full text downloaded; balance sheet, income statement, cash flow, customer concentration, tax note, cover share count read; MD&A not fully read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T04:09:00-05:00"
+  },
+  {
+   "id": "k8",
+   "url": "https://www.sec.gov/Archives/edgar/data/1736297/000162828026070258/alab-20261102.htm",
+   "document_id": "0001628280-26-070258",
+   "origin": "SEC EDGAR 8-K 2026-11-04 (Item 5.02 board resignation) read in full; earnings release exhibit not read",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T04:09:00-05:00"
+  },
+  {
+   "id": "cf",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001736297.json",
+   "document_id": "SEC-companyfacts-CIK0001736297",
+   "origin": "SEC XBRL company facts, FY2025 10-K values (accession 0001736297-26-000010)",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T04:09:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/alab/",
+   "document_id": "stockanalysis-ALAB-2026-11-11",
+   "origin": "stockanalysis.com quote page (WebFetch): 230.91 at 4:00 PM EST 2026-11-11, Nasdaq",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T04:09:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/ALAB/history/",
+   "document_id": "yahoo-finance-ALAB-2026-11-11",
+   "origin": "finance.yahoo.com history (WebFetch): 230.91 close 2026-11-11 with 5 session table",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T04:09:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10",
+    "k8"
+   ],
+   "note": "10-Q filed 2026-11-04 is the latest periodic filing; nothing later except Forms 4/144; earnings release exhibit unread."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "2026-09-30: cash 209.4M, marketable securities 1,168.8M, no debt line, total liabilities 300.9M, equity 1,999.5M, receivables 284.3M (vs 83.2M), inventory 200.9M (vs 59.0M)."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "cf"
+   ],
+   "note": "9M26 OCF 341.5M, capex 73.4M; 9M25 224.0M and 18.9M; FY2025 OCF 319.3M and capex 37.5M (XBRL). TTM FCF 344.7M, SBC TTM 236.9M. 9M26 OCF depressed by 347M working-capital build."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "174,782,075 shares outstanding at 2026-10-31 (cover); diluted weighted 184.1M for Q3 used only for EPS."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "cf",
+    "qa",
+    "qb"
+   ],
+   "note": "Trailing multiples computed; peers (AVGO, MRVL, CRDO, CLS) and forward estimates not obtained."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Fabless semiconductor: gross margin, customer concentration, inventory, SBC, EV/sales and P/E; no leverage model needed (no debt)."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Warrant contra-revenue 30.4M 9M, tax valuation allowance, SBC 195M noted; 10-K audit matters and non-GAAP reconciliation not fully read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Valuation, customer concentration, working capital and insider selling set out."
+  }
+ },
+ "price": {
+  "value": 230.91,
+  "currency": "USD",
+  "as_of": "2026-11-11T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-11",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 230.91,
+    "currency": "USD",
+    "as_of": "2026-11-11T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 230.91,
+    "currency": "USD",
+    "as_of": "2026-11-11T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 230.91,
+   "shares_outstanding": 174782075,
+   "market_cap_usd": 40356000000,
+   "cash_and_securities_usd": 1378243000,
+   "enterprise_value_usd": 38978000000,
+   "ttm_revenue_usd": 1556243000,
+   "ttm_net_income_usd": 461324000,
+   "ttm_ocf_usd": 436742000,
+   "ttm_capex_usd": 92052000,
+   "ttm_fcf_usd": 344690000,
+   "ttm_sbc_usd": 236869000,
+   "pe_ttm": 87.5,
+   "ev_sales_ttm": 25.0,
+   "fcf_yield_pct": 0.85,
+   "fcf_yield_after_sbc_pct": 0.27,
+   "ttm_basis": "FY2025 10-K XBRL minus 9M2025 plus 9M2026 from 10-Q; revenue 852.5-581.9+1285.7",
+   "note": "Market cap uses point-in-time shares; diluted count about 184M raises it about 5%."
+  },
+  "growth": {
+   "q3_revenue_usd": 584899000,
+   "q3_revenue_prior_usd": 230575000,
+   "q3_growth_pct": 153.7,
+   "nine_month_growth_pct": 120.9,
+   "q3_gross_margin_pct": 72.3,
+   "q3_operating_margin_pct": 30.6,
+   "customer_a_share_q3_pct": 53
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers (AVGO, MRVL, CRDO) and consensus not compared",
+  "Earnings release exhibit, call, MD&A, 10-K risk factors and audit matters unread",
+  "Forms 4 and 144 contents unread",
+  "Customer end-demand and design-win durability unverified",
+  "Quote origins are two publishers only (publisher-level independence)",
+  "Scores not assigned"
+ ]
+}
