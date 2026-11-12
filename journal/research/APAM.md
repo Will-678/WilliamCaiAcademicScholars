@@ -1,0 +1,22 @@
+# APAM: APAM (NYSE, USD)
+
+Snapshot 2026-11-12T00:08:00-05:00 (run 36). Method 2.0. Status: **watch**. Confidence: medium. Score: incomplete (components null). Record: APAM.json; validator result in data/quality_run36_APAM.json. Price: 38.49 close 2026-11-11 (stockanalysis.com and Yahoo agree; publisher-level independence only). Paper reference: none (benchmark VTI pending). Fresh idea: yes (first record).
+
+## Thesis and valuation
+Artisan Partners (NYSE: APAM) is an active equity asset manager. Q3 2026 10-Q (full text downloaded and key statements, AUM table, debt, dividend and equity notes read) filed 2026-10-29; submissions checked 2026-11-12 (later 8-K 2026-11-10 is a preliminary Oct 31 AUM release, exhibit not read). AUM 168.7B at 2026-09-30 versus 181.3B a year earlier (-6.9%) and 179.9B at 2025-12-31; average AUM 180.5B in Q3 (+1.8%). Net client cash flows -10.6B in Q3 (-2.3B a year earlier) and -24.2B for nine months (-7.0B). Revenue Q3 312.5M (+3.7%), nine months 923.4M (+7.2%); weighted average fee 68.0 bps. GAAP operating income 288.6M for nine months (31.3% margin versus 31.1%); adjusted margin 33.2% (33.4%). Net income attributable to APAM 214.1M for nine months (EPS 2.96 versus 2.73); net income before noncontrolling interests 257.1M. TTM net income before NCI 375.2M (FY2025 ProfitLoss 377.9M less 9M25 259.8M plus 9M26 257.1M) and attributable 308.9M (290.3M less 195.5M plus 214.1M); FY2025 contains a Q4 that I did not examine and may be flattered. Price 38.49 (NYSE close 2026-11-11, two publishers; -4.3% that day, cause unestablished). Economic units: 71.02M Class A plus 10.05M Holdings LP units (Class B and C) equals about 81.07M; market cap about 3.12B; about 8.3x TTM pre-NCI income and about 9.7x annualized nine-month attributable EPS (3.95). Cash 352.4M plus investment securities 253.3M less borrowings 190.0M (principal; notes due 2027, 2030, 2032) gives net liquid assets about 416M before a 265.1M tax receivable agreement liability, 25.9M contingent consideration and 255.6M accrued incentive compensation (124.4M short-term is seasonal and paid in Q4). Nine month operating cash flow 407.5M (249.2M), capex 2.6M; but FY2025 OCF was only 172.0M so Q4 2025 OCF was about -77M, so TTM OCF 330.3M is noisy. Dividends declared 3.15 per share in nine months (variable; Q3 quarterly dividend 0.88 declared 2026-10-27, record 2026-11-16 per 10-Q, about 80% of September quarter cash generated plus TRA savings); stockanalysis shows 4.03 annual and 10.5% yield, which is a payout of cyclical cash, not a fixed yield. Grandview real estate acquisition closed 2026-01-02 (22.5M cash).
+
+## Countercase
+The low multiple and 10% yield reflect shrinking client assets: net outflows of 24.2B in nine months equal about 13% of opening AUM (about 18% annualized) and Q3 alone lost 10.6B, so revenue growth rests on market appreciation of average AUM (+6.6%) which can reverse. Gross inflows rose (25.9B versus 19.3B) but outflows rose faster. Earnings are cyclical and the dividend is a variable payout (about 80% of quarterly cash), so the yield is not secured and falls with markets and flows. Nine month GAAP profit includes 32.9M non-operating income versus 73.5M a year earlier; the tax rate fell (20.0% versus 24.0%); the TTM figure leans on a strong Q4 2025 I did not verify; OCF is volatile (Q4 2025 about -77M, nine months 2026 +158M on working capital timing). Compensation and benefits are 55% of revenue and mostly variable but G&A and technology are rising. The 4.3% fall on 2026-11-11 followed the 2026-11-10 AUM release and I did not read it. Peers (T. Rowe, Franklin, Invesco, Federated Hermes, AllianceBernstein) were not compared; active managers face structural fee pressure. Key person and investment team departures not examined.
+
+## Invalidation
+Net outflows continuing above about 8B per quarter for two or more quarters, AUM falling below about 160B at constant markets, weighted fee rate below 65 bps, adjusted margin below 30%, dividend payout cut because cash generation fell, or investment team departures. Supportive: net flows turning toward zero with positive investment performance.
+
+## Unresolved gaps
+- Peer multiples and own history not done
+- 10-K critical audit matters and risk factors unread
+- Earnings call not read
+- Quote origins are two publishers only (publisher-level independence)
+- Scores not assigned
+- Oct 31 AUM release (Exhibit 99.1) and 11-11 drop cause unread
+- Q4 2025 earnings quality not examined
+- Dividend sustainability versus flows not modelled

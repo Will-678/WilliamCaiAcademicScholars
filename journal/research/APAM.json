@@ -1,0 +1,201 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "APAM",
+ "exchange": "NYSE",
+ "currency": "USD",
+ "sector_model": "asset manager: P/E on GAAP and pre-NCI income, AUM and net flows, fee rate, operating margin, payout versus cash generation, tax receivable agreement liability, net cash; generic FCF ratios not interchangeable",
+ "as_of": "2026-11-12T00:08:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Artisan Partners (NYSE: APAM) is an active equity asset manager. Q3 2026 10-Q (full text downloaded and key statements, AUM table, debt, dividend and equity notes read) filed 2026-10-29; submissions checked 2026-11-12 (later 8-K 2026-11-10 is a preliminary Oct 31 AUM release, exhibit not read). AUM 168.7B at 2026-09-30 versus 181.3B a year earlier (-6.9%) and 179.9B at 2025-12-31; average AUM 180.5B in Q3 (+1.8%). Net client cash flows -10.6B in Q3 (-2.3B a year earlier) and -24.2B for nine months (-7.0B). Revenue Q3 312.5M (+3.7%), nine months 923.4M (+7.2%); weighted average fee 68.0 bps. GAAP operating income 288.6M for nine months (31.3% margin versus 31.1%); adjusted margin 33.2% (33.4%). Net income attributable to APAM 214.1M for nine months (EPS 2.96 versus 2.73); net income before noncontrolling interests 257.1M. TTM net income before NCI 375.2M (FY2025 ProfitLoss 377.9M less 9M25 259.8M plus 9M26 257.1M) and attributable 308.9M (290.3M less 195.5M plus 214.1M); FY2025 contains a Q4 that I did not examine and may be flattered. Price 38.49 (NYSE close 2026-11-11, two publishers; -4.3% that day, cause unestablished). Economic units: 71.02M Class A plus 10.05M Holdings LP units (Class B and C) equals about 81.07M; market cap about 3.12B; about 8.3x TTM pre-NCI income and about 9.7x annualized nine-month attributable EPS (3.95). Cash 352.4M plus investment securities 253.3M less borrowings 190.0M (principal; notes due 2027, 2030, 2032) gives net liquid assets about 416M before a 265.1M tax receivable agreement liability, 25.9M contingent consideration and 255.6M accrued incentive compensation (124.4M short-term is seasonal and paid in Q4). Nine month operating cash flow 407.5M (249.2M), capex 2.6M; but FY2025 OCF was only 172.0M so Q4 2025 OCF was about -77M, so TTM OCF 330.3M is noisy. Dividends declared 3.15 per share in nine months (variable; Q3 quarterly dividend 0.88 declared 2026-10-27, record 2026-11-16 per 10-Q, about 80% of September quarter cash generated plus TRA savings); stockanalysis shows 4.03 annual and 10.5% yield, which is a payout of cyclical cash, not a fixed yield. Grandview real estate acquisition closed 2026-01-02 (22.5M cash).",
+ "counterthesis": "The low multiple and 10% yield reflect shrinking client assets: net outflows of 24.2B in nine months equal about 13% of opening AUM (about 18% annualized) and Q3 alone lost 10.6B, so revenue growth rests on market appreciation of average AUM (+6.6%) which can reverse. Gross inflows rose (25.9B versus 19.3B) but outflows rose faster. Earnings are cyclical and the dividend is a variable payout (about 80% of quarterly cash), so the yield is not secured and falls with markets and flows. Nine month GAAP profit includes 32.9M non-operating income versus 73.5M a year earlier; the tax rate fell (20.0% versus 24.0%); the TTM figure leans on a strong Q4 2025 I did not verify; OCF is volatile (Q4 2025 about -77M, nine months 2026 +158M on working capital timing). Compensation and benefits are 55% of revenue and mostly variable but G&A and technology are rising. The 4.3% fall on 2026-11-11 followed the 2026-11-10 AUM release and I did not read it. Peers (T. Rowe, Franklin, Invesco, Federated Hermes, AllianceBernstein) were not compared; active managers face structural fee pressure. Key person and investment team departures not examined.",
+ "invalidation": "Net outflows continuing above about 8B per quarter for two or more quarters, AUM falling below about 160B at constant markets, weighted fee rate below 65 bps, adjusted margin below 30%, dividend payout cut because cash generation fell, or investment team departures. Supportive: net flows turning toward zero with positive investment performance.",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001517302.json",
+   "document_id": "SEC-submissions-CIK0001517302",
+   "origin": "SEC EDGAR submissions index fetched by script 2026-11-12 00:0x ET; no filings after those listed below",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T00:08:00-05:00"
+  },
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1517302/000151730226000133/apam-20260930.htm",
+   "document_id": "0001517302-26-000133",
+   "origin": "SEC EDGAR 10-Q for period 2026-09-30 filed 2026-10-29; full text downloaded; statements, AUM and flows, debt, dividend, acquisition and equity notes read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T00:08:00-05:00"
+  },
+  {
+   "id": "k8",
+   "url": "https://www.sec.gov/Archives/edgar/data/1517302/000151730226000135/apam-20261110.htm",
+   "document_id": "0001517302-26-000135",
+   "origin": "SEC EDGAR 8-K 2026-11-10 body read (preliminary AUM as of 2026-10-31); Exhibit 99.1 not read",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T00:08:00-05:00"
+  },
+  {
+   "id": "cf",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001517302.json",
+   "document_id": "SEC-companyfacts-CIK0001517302",
+   "origin": "SEC XBRL company facts, FY2025 10-K values",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T00:08:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/apam/",
+   "document_id": "stockanalysis-APAM-2026-11-11",
+   "origin": "stockanalysis.com quote page (WebFetch): 38.49 at 4:00 PM EST 2026-11-11",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T00:08:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/APAM/history/",
+   "document_id": "yahoo-finance-APAM-2026-11-11",
+   "origin": "finance.yahoo.com history (WebFetch): 38.49 close 2026-11-11 with 5 session table",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T00:08:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10",
+    "k8"
+   ],
+   "note": "Latest 10-Q filed 2026-10-29; 8-K 2026-11-10 preliminary AUM; nothing later in submissions (recent list through 2026-11-10)."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "At 2026-09-30: cash 352.4M, investment securities 253.3M, borrowings 189.3M (principal 190.0M), TRA payable 265.1M, total liabilities 929.9M, total assets 1,515.6M."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "cf"
+   ],
+   "note": "9M OCF 407.5M, capex 2.4M plus 0.2M leasehold; FY2025 OCF 172.0M and capex 0.371M from XBRL; Q4 2025 swing flagged."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Class A 71,019,106; Class B 1,137,160; Class C 8,917,476 at 2026-09-30 (balance sheet); weighted basic and diluted 66.38M used only for EPS."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "cf",
+    "qa",
+    "qb"
+   ],
+   "note": "P/E, net liquid assets and payout described; peers and own history not compared; no forward estimates."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Asset manager model: AUM, flows, fee rate, margin, TRA and payout rather than generic leverage ratios."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Tax rate, non-operating gains and TRA noted; audit matters, consolidated investment product effects and Q4 2025 unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Outflows, cyclical payout, volatile OCF and unread drop cause set out."
+  }
+ },
+ "price": {
+  "value": 38.49,
+  "currency": "USD",
+  "as_of": "2026-11-11T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-11",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 38.49,
+    "currency": "USD",
+    "as_of": "2026-11-11T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 38.49,
+    "currency": "USD",
+    "as_of": "2026-11-11T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 38.49,
+   "class_a_shares": 71019106,
+   "holdings_lp_units": 10054636,
+   "economic_units": 81073742,
+   "market_cap_usd": 3120600000,
+   "ttm_net_income_before_nci_usd": 375200000,
+   "ttm_net_income_attributable_usd": 308900000,
+   "pe_ttm_pre_nci": 8.3,
+   "annualized_9m_eps": 3.95,
+   "pe_annualized_9m_eps": 9.7,
+   "net_liquid_assets_usd": 415700000,
+   "tra_liability_usd": 265100000,
+   "ttm_ocf_usd": 330300000,
+   "nine_month_ocf_usd": 407500000,
+   "nine_month_capex_usd": 2584000,
+   "ttm_basis": "FY2025 10-K XBRL ProfitLoss 377,879k and NetIncomeLoss 290,320k minus 9M2025 plus 9M2026 from 10-Q",
+   "note": "Q4 2025 OCF about -77M (FY 172.0M less 9M 249.2M); TTM OCF yield about 10.6% is unreliable; units count B and C as Holdings LP units (reconciles to 10,215,519 at 2025-12-31)."
+  },
+  "flows": {
+   "aum_end_usd_b": 168.744,
+   "aum_prior_year_usd_b": 181.306,
+   "net_flows_q3_usd_b": -10.558,
+   "net_flows_9m_usd_b": -24.174,
+   "gross_inflows_9m_usd_b": 25.871
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peer multiples and own history not done",
+  "10-K critical audit matters and risk factors unread",
+  "Earnings call not read",
+  "Quote origins are two publishers only (publisher-level independence)",
+  "Scores not assigned",
+  "Oct 31 AUM release (Exhibit 99.1) and 11-11 drop cause unread",
+  "Q4 2025 earnings quality not examined",
+  "Dividend sustainability versus flows not modelled"
+ ]
+}

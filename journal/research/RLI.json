@@ -1,0 +1,196 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "RLI",
+ "exchange": "NYSE",
+ "currency": "USD",
+ "sector_model": "specialty P&C insurer: combined ratio and reserve development, premiums, book value and ROE, investment income and unrealized gains, reserves, leverage; generic FCF not used",
+ "as_of": "2026-11-12T00:08:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "RLI Corp (NYSE: RLI) writes specialty casualty, property and surety insurance. Q3 2026 10-Q (full text downloaded; income statement, balance sheet, cash flow, segment tables, reserve development, debt and capital sections read) filed 2026-10-21; 8-K 2026-11-09 is a director retirement only; earnings release exhibit not read. Nine month gross premiums written 1,605.8M (+3%), net premiums earned 1,253.4M (+3.8%); casualty NPE up on commercial excess and personal umbrella (+19%). Combined ratio 85.9% versus 84.0% (casualty 98.7%, property 59.6%, surety 86.9%). Underwriting income 176.5M (193.3M). Net investment income 135.1M (+15%). Net earnings 303.9M versus 312.2M for nine months and 81.0M versus 124.6M in Q3 (unrealized equity gains -3.3M versus +42.0M; realized gains 8.6M versus 18.3M). TTM net earnings 395.1M (FY2025 403.3M less 312.2M plus 303.9M). Shares 91,732,032 (2026-09-30 and 2026-10-14 cover); price 68.70 (NYSE close 2026-11-11, two publishers); market cap about 6.30B; about 15.9x TTM earnings. Shareholders equity 1,696.2M (total assets 6,445.6M less liabilities 4,749.4M), so 3.7x book; nine month return on average equity about 17.5% (about 23% annualized). Equity fell from 1,778.2M despite earnings because of a 2.00 special dividend and 145.5M other comprehensive loss (117.8M in Q3). Debt 297.0M (5.375% notes due 2036 issued 2026-03-03; 100M short-term debt repaid), about 15% of capital. Favorable prior-year reserve development 98M in nine months (74M a year earlier). Nine month OCF 382.7M (457.5M); capex 6.2M. Repurchases 18M under the 250M plan authorized 2026-05-14. Investments and cash 4.91B.",
+ "counterthesis": "Reserve releases of 98M equal about 7.8 points of net premiums earned, so the combined ratio excluding releases is about 93.7%; casualty at 98.7% includes 36M of releases, so underlying casualty (the growing segment) is above 100%. Premium growth is only 3% and the property segment's 59.6% ratio looks like a benign catastrophe year that will not persist. At 3.7x book and 15.9x earnings the price already pays for a premium return; a normalized catastrophe year and lower releases would cut earnings substantially. Q3 net earnings fell 35% and OCF fell 16%. Excess casualty and umbrella lines carry social inflation and long-tail reserve risk (unpaid losses 3.0B, 1.8x equity). Equity is sensitive to interest rates (OCI -145M in nine months). The 3.96% headline yield includes the 2.00 special dividend (inferred: regular dividend about 0.72), so the regular yield is about 1%. Peers (Kinsale, Palomar, Markel, W.R. Berkley) were not compared and I did not establish why the stock is flat since 2026-11-05.",
+ "invalidation": "Reserve development turning adverse, combined ratio ex-releases above 100% in casualty with no pricing offset, net premiums earned growth below inflation, equity falling again because of rates, or a large catastrophe loss year. Supportive: stable combined ratio below 90% with premium growth above 5%.",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0000084246.json",
+   "document_id": "SEC-submissions-CIK0000084246",
+   "origin": "SEC EDGAR submissions index fetched by script 2026-11-12 00:0x ET; no filings after those listed below",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T00:08:00-05:00"
+  },
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/84246/000110465926117864/rli-20260930x10q.htm",
+   "document_id": "0001104659-26-117864",
+   "origin": "SEC EDGAR 10-Q for period 2026-09-30 filed 2026-10-21; full text downloaded; statements, MD&A premiums, combined ratio, reserve development, capital section read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T00:08:00-05:00"
+  },
+  {
+   "id": "k8",
+   "url": "https://www.sec.gov/Archives/edgar/data/84246/000110465926125237/rli-20261109x8k.htm",
+   "document_id": "0001104659-26-125237",
+   "origin": "SEC EDGAR 8-K 2026-11-09 filed 2026-11-10; director retirement Item 5.02 read",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T00:08:00-05:00"
+  },
+  {
+   "id": "cf",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000084246.json",
+   "document_id": "SEC-companyfacts-CIK0000084246",
+   "origin": "SEC XBRL company facts, FY2025 10-K values",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T00:08:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/rli/",
+   "document_id": "stockanalysis-RLI-2026-11-11",
+   "origin": "stockanalysis.com quote page (WebFetch): 68.7 at 4:00 PM EST 2026-11-11",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T00:08:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/RLI/history/",
+   "document_id": "yahoo-finance-RLI-2026-11-11",
+   "origin": "finance.yahoo.com history (WebFetch): 68.7 close 2026-11-11 with 5 session table",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T00:08:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10",
+    "k8"
+   ],
+   "note": "10-Q filed 2026-10-21 is latest financial filing; 8-K 2026-10-21 and 2026-10-19 listed but not read; 8-K 2026-11-09 director retirement only."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "At 2026-09-30: total assets 6,445.6M, total liabilities 4,749.4M, unpaid losses 2,997.6M, unearned premiums 1,069.4M, long-term debt 297.0M, investments and cash 4,907.4M."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "cf"
+   ],
+   "note": "9M OCF 382.7M and capex 6.2M; FY2025 OCF 614.2M and capex 5.5M; insurer OCF not treated as free cash flow."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "91,732,032 outstanding at 2026-09-30 and on the 2026-10-14 cover; weighted diluted 92.3M used only for EPS."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "cf",
+    "qa",
+    "qb"
+   ],
+   "note": "P/E, price to book and ROE computed; peers and own history missing; no forward estimates."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Insurer model: combined ratio, reserve releases, book value, ROE and leverage."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Reserve release dependence and unrealized gain swings noted; 10-K audit matters and reserve detail unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Release-adjusted combined ratio, benign property year and valuation set out."
+  }
+ },
+ "price": {
+  "value": 68.7,
+  "currency": "USD",
+  "as_of": "2026-11-11T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-11",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 68.7,
+    "currency": "USD",
+    "as_of": "2026-11-11T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 68.7,
+    "currency": "USD",
+    "as_of": "2026-11-11T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 68.7,
+   "shares": 91732032,
+   "market_cap_usd": 6302000000,
+   "ttm_net_income_usd": 395100000,
+   "pe_ttm": 15.9,
+   "equity_usd": 1696173000,
+   "price_to_book": 3.71,
+   "debt_usd": 297044000,
+   "debt_to_capital": 0.149,
+   "nine_month_roe_annualized": 0.233,
+   "ttm_basis": "FY2025 403,337k minus 9M2025 312,160k plus 9M2026 303,922k"
+  },
+  "underwriting": {
+   "combined_ratio_9m_2026": 85.9,
+   "combined_ratio_9m_2025": 84.0,
+   "favorable_development_9m_usd": 98000000,
+   "npe_9m_usd": 1253396000,
+   "combined_ratio_ex_release_approx": 93.7,
+   "note": "Ex-release ratio is approximate: 85.9 plus 98/1253.4 equals 7.8 points."
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peer multiples and own history not done",
+  "10-K critical audit matters and risk factors unread",
+  "Earnings call not read",
+  "Quote origins are two publishers only (publisher-level independence)",
+  "Scores not assigned",
+  "Earnings release exhibit and call unread",
+  "Reserve triangle by accident year unread",
+  "Cause of Q3 earnings drop beyond investment gains not split by underwriting"
+ ]
+}

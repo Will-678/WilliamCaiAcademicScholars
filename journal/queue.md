@@ -1,6 +1,6 @@
 # Research queue (persisted)
 
-Updated 2026-11-11 20:1x ET by the four hour worker (run 35). Stages: lead, valuation_pending, researched_watch, researched_pass, blocked.
+Updated 2026-11-12 00:1x ET by the four hour worker (run 36). Stages: lead, valuation_pending, researched_watch, researched_pass, blocked.
 
 | CIK | Ticker | Exchange | Sector | Stage | Last reviewed | Next action | Due | Reason |
 |---|---|---|---|---|---|---|---|---|
@@ -130,3 +130,6 @@ Run 33 (2026-11-11 12:0x ET): screen refreshed 12:05 ET (previous 2026-11-10 08:
 Run 34 (2026-11-11 16:0x ET): screen not refreshed (4h old, no failure). Researched VRT and VCYT (watch, valid, not attractive-eligible). Third name not started; depth prioritized and sec.gov script downloads refused.
 
 Run 35 (2026-11-11 20:0x ET): screen not refreshed (metadata 2026-11-11 12:05 ET, 8 hours old, no failure). Submissions checked only for ESNT and HRMY (no queue-wide check). Researched ESNT and HRMY (both new, watch, medium, scores null, valid, not attractive-eligible; data/quality_run35_*.json). Both 10-Qs read in full text from sec.gov Archives via script with a descriptive identity; HRMY release exhibit read, ESNT release exhibit not read. Third name not started; depth prioritized. Benchmark VTI pending, no paper references.
+| 1517302 | APAM | NYSE | Asset manager (mid) | researched_watch | 2026-11-12 | Read 2026-11-10 AUM 8-K Exhibit 99.1 and cause of -4.3% on 11-11; peers (TROW, BEN, IVZ, FHI, AB); Q4 2025 earnings quality; dividend cover vs flows; 10-K | 2026-11-19 | ~8.3x TTM pre-NCI, 10% variable yield, but net outflows -24.2B in 9M, AUM -6.9% y/y; journal/research/APAM.json |
+| 84246 | RLI | NYSE | Insurance specialty P&C (mid) | researched_watch | 2026-11-12 | Peers (KNSL, PLMR, WRB, MKL); reserve triangle; release (Ex 99.1) and call; 10-K audit matters | 2026-11-19 | 15.9x TTM, 3.7x book, combined ratio 85.9% but ~93.7% ex reserve releases, casualty 98.7%; journal/research/RLI.json |
+| 879101 | KIM | NYSE | REIT retail shopping centers (large) | researched_watch | 2026-11-12 | AFFO, net debt/EBITDA, maturities, JV debt; peers (REG, FRT, BRX); read 10-29 8-K and 11-05 S-3; index overlap | 2026-11-19 | ~13.8x annualized FFO, same property NOI +3.3%, payouts and buybacks exceeded OCF in 9M; journal/research/KIM.json |

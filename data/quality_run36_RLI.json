@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-11-12T05:08:33.717194+00:00",
+  "records": [
+    {
+      "path": "journal/research/RLI.json",
+      "valid": true,
+      "eligible_attractive": false,
+      "errors": [],
+      "blockers": [
+        "Read the annual filing and a distinct recent filing or earnings document",
+        "valuation_complete requires a passed, explained, sourced check",
+        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
+        "Complete the score components before promotion",
+        "Critical evidence gaps remain"
+      ]
+    }
+  ],
+  "valid": true
+}
