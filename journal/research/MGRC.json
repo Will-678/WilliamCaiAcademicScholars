@@ -1,0 +1,227 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "MGRC",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "equipment rental: P/E, price to book, EV/Adjusted EBITDA, gross rental capex, net debt, utilization; FCF burdened by growth capex",
+ "as_of": "2026-11-12T16:08:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "McGrath RentCorp (Nasdaq: MGRC) rents modular buildings, portable storage and test equipment (TRS-RenTelco) and builds modular units (Enviroplex). Q3 2026: revenue 274.6M (+7%), net income 48.8M ($2.00 vs $1.72, +15%), Adjusted EBITDA 106.5M (+10%). Segments: TRS-RenTelco rental revenue +26%, Adj EBITDA +27% (data center projects), Mobile Modular rental +4% but EBITDA -3% and sales -10%, Portable Storage rental -3% and EBITDA -20% in soft demand. Nine months: revenue 694.3M (+1.0%), NI 109.5M (+2.8%), EPS 4.46 vs 4.32. Guidance 2026: revenue cut to 945-960M, Adj EBITDA 365-373M, gross rental equipment capex raised sharply to 270-290M. Nine month OCF 178.0M versus rental equipment purchases 218.7M and other capex 38.0M: FCF about -78.7M (approximate, sales proceeds not netted); notes payable rose to 618.3M from 514.9M, plus a 75M 6.53% Series H note on 2026-11-02 (8-K). Equity 1.278B, debt/equity 0.48. Close 129.98 on 2026-11-12: market cap 3.17B, 20.0x TTM EPS 6.49, 2.5x book, about 10.3x EV to guided Adj EBITDA, dividend 1.98 (1.5%). Reasonable valuation for a cyclical lessor but the case rests on TRS data center rentals while debt funds capex; no clear mispricing.",
+ "counterthesis": "Earnings quality is rental growth in one segment (TRS) that depends on data center and electronics demand, while the two largest legacy businesses are flat to weak; revenue guidance was cut. Capex is being raised by about 70M while FCF is negative and debt rose 103M in nine months, with only 1M cash; the new notes cost 6.53%, above the equity yield. Net income growth of 2.8% in nine months does not justify 20x. Management transition (CEO) adds uncertainty. Used equipment sale gains, depreciation assumptions and fleet quality were not examined, so earnings may be overstated if equipment lives are long. Peers, MD&A, debt note covenant ratios and 10-K were not read.",
+ "invalidation": "Valuation case would require a price near 14-15x earnings or evidence that TRS capex earns returns well above 6.5% cost of debt. Thesis fails if TRS utilization and yield roll over, Mobile Modular rental turns negative, net debt/Adj EBITDA rises above about 2x, or covenant headroom narrows.",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0000752714.json",
+   "document_id": "SEC-submissions-CIK0000752714",
+   "origin": "SEC EDGAR submissions JSON fetched 2026-11-12: 10-Q 2026-10-28, 8-K 2026-10-28 (2.02), 8-K 2026-11-04 (1.01, 2.03, 9.01); no later filings except Forms 4 and 144",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T16:08:00-05:00"
+  },
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/752714/000119312526436106/mgrc-20260930.htm",
+   "document_id": "0001193125-26-436106",
+   "origin": "SEC EDGAR 10-Q period 2026-09-30 via WebFetch: balance sheet, income statement, cash flow, cover read; text truncated before debt note and MD&A",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T16:08:00-05:00"
+  },
+  {
+   "id": "rel",
+   "url": "https://www.sec.gov/Archives/edgar/data/752714/000119312526436105/mgrc-ex99_1.htm",
+   "document_id": "0001193125-26-436105-EX99.1",
+   "origin": "Issuer Q3 release Ex 99.1 filed 2026-10-28 via WebFetch: segments, utilization, guidance, debt movement",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T16:08:00-05:00"
+  },
+  {
+   "id": "k8",
+   "url": "https://www.sec.gov/Archives/edgar/data/752714/000119312526447163/mgrc-20261104.htm",
+   "document_id": "0001193125-26-447163",
+   "origin": "SEC 8-K 2026-11-04: First Amendment 2026-11-02 to PGIM note agreement, 75M 6.53% Series H senior notes due 2031, shelf raised to 350M",
+   "kind": "secondary",
+   "read_status": "full",
+   "accessed_at": "2026-11-12T16:08:00-05:00"
+  },
+  {
+   "id": "cf",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000752714.json",
+   "document_id": "SEC-companyfacts-CIK0000752714",
+   "origin": "SEC XBRL companyfacts: FY2025 10-K (filed 2026-02-25) NI 156.308M, OCF 255.683M, revenue 944.235M, SBC 11.225M; nine month 2026 and 2025 values",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T16:08:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/mgrc/",
+   "document_id": "stockanalysis-MGRC-2026-11-12",
+   "origin": "stockanalysis.com via WebFetch 2026-11-12 after close: 129.61 (Nov 12 4:00 PM EST, market closed), prior close 128.79, shares 24.36M",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T16:08:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/MGRC/history/",
+   "document_id": "yahoo-finance-MGRC-2026-11-12",
+   "origin": "finance.yahoo.com history via WebFetch: close 129.98 on 2026-11-12, 128.79 on 2026-11-11 (delayed)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T16:08:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10",
+    "rel",
+    "k8"
+   ],
+   "note": "10-Q and release 2026-10-28 and 8-K 2026-11-04 are the latest; FY2025 10-K not read in text."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "rel"
+   ],
+   "note": "2026-09-30 (thousands): cash 1,038; rental equipment net 1,557,142; total assets 2,575,817; total liabilities 1,297,710; notes payable 618,257 (514.9M at 2025-12-31 per release); equity 1,278,107. Post-quarter 75M Series H notes 2026-11-02."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "cf"
+   ],
+   "note": "Nine month OCF 177.971M less rental equipment purchases 218.745M and PP&E capex 37.969M = FCF -78.743M (growth capex; proceeds from equipment sales not netted, so approximate). FY2025 OCF 255.683M from XBRL."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "qa"
+   ],
+   "note": "24,364,345 shares at 2026-10-27 (10-Q cover) matches 24.36M on stockanalysis; weighted diluted 24.451M Q3."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "rel",
+    "q10",
+    "qa",
+    "qb"
+   ],
+   "note": "P/E, P/B, EV/Adj EBITDA computed; peers (URI, HRI, WSC, AL, CAI) and history not compared."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "rel"
+   ],
+   "note": "Equipment rental: earnings, adjusted EBITDA, gross rental capex, net debt, utilization and yield; FCF shown only as growth-capex-burdened, not owner earnings."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "rel"
+   ],
+   "note": "Used equipment sale gains, depreciation lives and Adjusted EBITDA reconciliation not read; debt note and MD&A truncated; CEO transition noted in release."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "rel",
+    "k8",
+    "cf"
+   ],
+   "note": "Countercase covers heavy capex and debt growth, soft portable storage, guidance cut on revenue, CEO transition and data center demand concentration in TRS."
+  }
+ },
+ "price": {
+  "value": 129.98,
+  "currency": "USD",
+  "as_of": "2026-11-12T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-12",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 129.61,
+    "currency": "USD",
+    "as_of": "2026-11-12T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 129.98,
+    "currency": "USD",
+    "as_of": "2026-11-12T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 129.98,
+   "shares_outstanding": 24364345,
+   "market_cap_usd": 3166877563,
+   "debt_usd": 618257000,
+   "cash_usd": 1038000,
+   "enterprise_value_usd": 3784096563,
+   "ttm_net_income_usd": 159337000,
+   "ttm_basis": "FY2025 156.308M minus 9M2025 106.479M plus 9M2026 109.508M",
+   "ttm_eps_diluted": 6.49,
+   "pe_ttm": 20.0,
+   "price_to_book": 2.48,
+   "adj_ebitda_guide_midpoint_usd": 369000000,
+   "ev_to_adj_ebitda_guide": 10.3,
+   "dividend_per_share_annual": 1.98,
+   "dividend_yield_pct": 1.52
+  },
+  "cash_flow": {
+   "ocf_9m_usd": 177971000,
+   "rental_equipment_purchases_9m_usd": 218745000,
+   "ppe_capex_9m_usd": 37969000,
+   "fcf_9m_after_all_capex_usd": -78743
+  },
+  "leverage": {
+   "debt_to_equity": 0.48,
+   "net_borrowings_bank_lines_9m_usd": 163300000,
+   "series_e_repaid_usd": 60000000,
+   "debt_increase_9m_usd": 103357000
+  },
+  "growth": {
+   "revenue_9m_growth_pct": 1.0,
+   "net_income_9m_growth_pct": 2.8,
+   "q3_revenue_growth_pct": 7.1,
+   "q3_net_income_growth_pct": 15.4,
+   "gross_rental_capex_guide": "270-290M (was 200-220M)",
+   "revenue_guide": "945-960M (was 955-985M)"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peer multiples (URI, WSC, HRI, AL) and MGRC history not compared",
+  "10-Q MD&A, debt note, covenant ratios and FY2025 10-K audit matters unread (WebFetch truncated)",
+  "Used equipment sales proceeds not netted into FCF; depreciation policy and fleet age unread",
+  "CEO transition details and 8-K Item 5.02 not checked",
+  "Quote origins are two publishers only (stockanalysis 129.61 vs Yahoo 129.98, 0.28% apart)",
+  "Scores not assigned"
+ ]
+}

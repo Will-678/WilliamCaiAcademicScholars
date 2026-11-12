@@ -1,0 +1,211 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "EXPO",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "asset light consulting: P/E on GAAP and SBC-adjusted FCF, EV/sales, EBITDA margin, utilization, net cash, payout cover",
+ "as_of": "2026-11-12T16:08:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Exponent (Nasdaq: EXPO) is a science and engineering consulting firm (failure analysis, user research, health and environmental) with about 950 consultants and no debt. Q3 FY26 (period ended 2026-10-02): total revenue 173.7M (+18%), revenue before reimbursements 153.1M (+12%), net income 30.9M ($0.64 vs $0.55), EBITDA margin 29.4% (28.3%), utilization 77%; nine months NI 89.9M (+10.7%), EPS 1.83 vs 1.58 (helped by a 4.4% lower diluted share count). FY guidance raised to revenue before reimbursements +10-11%, EBITDA margin 28.0-28.3%; Q4 +8-10%, margin 26.3-26.8%. Balance sheet 2026-10-02: cash 114.7M (down from 221.9M), no borrowings, equity 307.9M, total liabilities 387.0M mostly deferred comp, leases and payables. TTM FCF 140.6M (OCF 148.7M less capex 8.1M), 3.4% yield on 4.10B market cap (2.8% after 27.5M SBC). Close 86.22 on 2026-11-12: TTM GAAP EPS 2.32 gives 37.2x, EV/sales 6.0x, dividend 1.24 (1.4%). Nine month buybacks 146.1M at about 64.6 per share plus dividends 46.1M (192M) exceeded OCF 93.1M and drained cash by 107M. High quality, net cash and raised guidance, but the price already reflects it: no mispricing found.",
+ "counterthesis": "At about 37x TTM earnings and 3% FCF yield after SBC the market pays a premium for steady mid-teens EBITDA growth; guidance implies Q4 growth slows to 8-10% and margin falls about 3 points year on year in guidance terms. Management repurchased shares at about 65 and now they trade 33% higher; payouts exceeded cash generation and cash fell by half, so buyback capacity is limited unless it borrows. Total revenue growth of 18% includes pass-through reimbursements; the underlying figure is 12%. Litigation and dispute demand is cyclical, utilization of 77% leaves little further margin gain, and 22M of SBC is a real cost. Peers, MD&A, segment margins, backlog-like indicators, concentration and the 10-K were not read.",
+ "invalidation": "Attractive valuation would need a price near 20x earnings or evidence that earnings growth is far above guidance. Quality thesis fails if utilization falls below about 72%, revenue before reimbursements growth drops to low single digits, or the company borrows to fund repurchases.",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0000851520.json",
+   "document_id": "SEC-submissions-CIK0000851520",
+   "origin": "SEC EDGAR submissions JSON fetched 2026-11-12: 10-Q 2026-11-06 (period 2026-10-02), 8-K 2026-10-29 (Items 2.02, 7.01, 9.01); no later 10-K/8-K",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T16:08:00-05:00"
+  },
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/851520/000119312526451840/expo-20261002.htm",
+   "document_id": "0001193125-26-451840",
+   "origin": "SEC EDGAR 10-Q period 2026-10-02 via WebFetch: balance sheet, income statement, equity statement, cover read; text truncated before cash flow statement and MD&A",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T16:08:00-05:00"
+  },
+  {
+   "id": "rel",
+   "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326006972/exh_991.htm",
+   "document_id": "0001171843-26-006972-EX99.1",
+   "origin": "Issuer Q3 release Ex 99.1 filed 2026-10-29 via WebFetch: revenue, EBITDA, utilization, segments, raised guidance",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T16:08:00-05:00"
+  },
+  {
+   "id": "cf",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000851520.json",
+   "document_id": "SEC-companyfacts-CIK0000851520",
+   "origin": "SEC XBRL companyfacts: FY2025 10-K (filed 2026-02-27) OCF 131.730M, capex 9.390M, NI 106.009M, SBC 23.795M; 10-Q 2026-11-06 nine month OCF 93.129M, capex 5.388M, dividends 46.080M, repurchases 146.138M, SBC 22.432M",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T16:08:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/expo/",
+   "document_id": "stockanalysis-EXPO-2026-11-12",
+   "origin": "stockanalysis.com via WebFetch 2026-11-12 after close: 86.25 (marked Nov 12 4:00 PM EST, market closed), prior close 86.20, shares 47.55M",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T16:08:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/EXPO/history/",
+   "document_id": "yahoo-finance-EXPO-2026-11-12",
+   "origin": "finance.yahoo.com history via WebFetch: close 86.22 on 2026-11-12, 86.20 on 2026-11-11",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T16:08:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10",
+    "rel"
+   ],
+   "note": "10-Q filed 2026-11-06 and Q3 release 2026-10-29 are the latest per submissions JSON on 2026-11-12; FY2025 10-K filed 2026-02-27 not read in text."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "2026-10-02 (thousands): cash 114,689; total assets 694,884; total liabilities 386,998 (includes operating leases 81,139); equity 307,886; no borrowings line found. Cash 221,930 and equity 390,341 at 2026-01-02."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "cf",
+    "q10"
+   ],
+   "note": "Nine month OCF 93.129M less capex (PP&E) 5.388M = FCF 87.741M; TTM OCF 148.711M and capex 8.075M from XBRL with matching periods (FY25 minus 39 weeks 2025 plus 39 weeks 2026); SBC 27.46M TTM. Cash flow statement itself came via XBRL, not text."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "qa"
+   ],
+   "note": "47,552,453 shares outstanding at 2026-10-30 (10-Q cover) matches 47.55M on stockanalysis; weighted diluted 48.422M Q3."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "rel",
+    "q10",
+    "qa",
+    "qb"
+   ],
+   "note": "P/E, EV/sales, FCF yield computed; peers (FTI, CRAI, ICFI, FCN, BAH) and history not compared, so incomplete."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "rel"
+   ],
+   "note": "Asset light professional services: earnings, FCF after SBC, EBITDA, utilization, net cash and payout cover used."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "cf"
+   ],
+   "note": "Reimbursements inflate total revenue (173.7M vs 153.1M before reimbursements); SBC 22.4M in nine months; auditor matters, MD&A and notes beyond statements not read (truncated)."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "rel",
+    "cf"
+   ],
+   "note": "Countercase covers valuation premium, buyback and dividend above FCF, guidance deceleration, utilization and concentration unknowns."
+  }
+ },
+ "price": {
+  "value": 86.22,
+  "currency": "USD",
+  "as_of": "2026-11-12T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-12",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 86.25,
+    "currency": "USD",
+    "as_of": "2026-11-12T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 86.22,
+    "currency": "USD",
+    "as_of": "2026-11-12T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 86.22,
+   "shares_outstanding": 47552453,
+   "market_cap_usd": 4099972498,
+   "cash_usd": 114689000,
+   "debt_usd": 0,
+   "enterprise_value_usd": 3985283498,
+   "ttm_net_income_usd": 114669000,
+   "ttm_basis": "FY2025 106.009M minus 39wk2025 81.247M plus 39wk2026 89.907M",
+   "ttm_eps_diluted": 2.32,
+   "pe_ttm": 37.2,
+   "ttm_revenue_usd": 659073000,
+   "ev_to_sales": 6.05,
+   "ttm_fcf_usd": 140636000,
+   "fcf_yield_pct": 3.43,
+   "ttm_fcf_after_sbc_usd": 113176000,
+   "fcf_yield_after_sbc_pct": 2.76,
+   "dividend_per_share_annual": 1.24,
+   "dividend_yield_pct": 1.44
+  },
+  "growth": {
+   "revenue_9m_growth_pct": 17.7,
+   "rev_before_reimbursements_9m_growth_pct": 11,
+   "net_income_9m_growth_pct": 10.7,
+   "guidance_fy26_rev_before_reimb": "up 10-11%",
+   "guidance_q4": "up 8-10%"
+  },
+  "capital_return": {
+   "buybacks_9m_usd": 146138000,
+   "dividends_9m_usd": 46080000,
+   "ocf_9m_usd": 93129000,
+   "avg_buyback_price_9m": 64.62,
+   "cash_decline_9m_usd": 107241000
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peer multiples (FTI, CRAI, ICFI, FCN) and EXPO history not compared",
+  "10-Q MD&A, cash flow statement text, notes and FY2025 10-K audit matters unread (WebFetch truncated); cash flow figures from XBRL",
+  "Q3 call and buyback authorization unread; Ex 99.2 unread",
+  "Quote origins are two publishers only (stockanalysis 86.25 vs Yahoo 86.22)",
+  "Scores not assigned"
+ ]
+}

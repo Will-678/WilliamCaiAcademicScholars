@@ -296,3 +296,9 @@ Screen not refreshed (retrieved 2026-11-11 12:05 ET, under 24h; 4,396 revenue fi
 - Local checkout was stale again (3 old commits); kept as branch backup-stale-local-8f10180 (not pushed), reset to origin shared branch head. Screen refreshed 12:05 ET: 4,396 filers with revenue, 1,142 comparable, 419 preliminary passes; annual US GAAP USD only, not valuation, not global.
 - Researched CINF (insurer; watch, medium, scores null; valid, not attractive-eligible; 189.78 close 11-11, ~19.4x trailing operating EPS, 1.80x book, 9M combined 95.8%). EXPO and MGRC not researched: sec.gov blocks scripts without declared contact identity (not supplied) and WebFetch 404 on those 10-Qs; CINF 10-Q MD&A truncated. Benchmark VTI pending; no paper references.
 - Next: retry EXPO/MGRC fetch, CINF peers (TRV, CB, WRB), other screen names (PLTR, NOVA, KGS, COGN, HQY).
+
+## Worker run 2026-11-12 ~16:10 ET (method 2.0, run 40)
+- Screen not refreshed (4h old, refreshed 12:05 ET; 4,396 revenue filers, 1,142 comparable, 419 preliminary passes). Submissions checked for EXPO and MGRC only.
+- Researched EXPO (watch, medium; ~37x TTM EPS, FCF yield 3.4%, net cash, close 86.22) and MGRC (watch, medium; 20x TTM EPS, 2.5x book, 9M FCF -78.7M, debt +103M, close 129.98). Scores null; valid, not attractive-eligible. Revalidated 68 records: 68 valid, 0 eligible.
+- sec.gov scripted downloads still blocked (no spoofing); WebFetch worked but truncated before MD&A. 2026-11-12 closes agree within 0.5% between stockanalysis.com and Yahoo (publisher-level independence only). Benchmark VTI pending; no paper references.
+- Next: peers for EXPO/MGRC/CINF; MD&A and 10-Ks; other screen names (PLTR, NOVA, KGS, COGN, HQY); EXEL '039 ruling; OLED blocked.
