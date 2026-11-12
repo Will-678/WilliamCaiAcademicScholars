@@ -1,0 +1,212 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "CINF",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "insurance P&C: P/E on operating income, price to book, combined ratio, reserve development, catastrophe load, investment portfolio; generic FCF not used",
+ "as_of": "2026-11-12T12:10:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Cincinnati Financial (Nasdaq: CINF) is a large US property casualty insurer (commercial, personal, excess and surplus, reinsurance) with a life insurer and a 33.1B investment portfolio. Q3 2026 10-Q (financial statements, notes through Note 3) and Ex 99.1 release read. Q3 net income 459M ($2.96) vs 1,122M ($7.11), but Q3 non-GAAP operating income 443M ($2.86) vs 449M ($2.85): the GAAP drop is the swing in equity security gains (net investment gains 20M vs 853M). Nine month non-GAAP operating income 997M ($6.39) vs 723M ($4.58); P&C combined ratio 95.8% vs 98.4% (Q3 90.9% vs 88.2%, catastrophe load up 7.0 points, favorable prior year development 3.6 points). Net written premiums +2% in Q3, +4% nine months. Pretax investment income 962M nine months (+12%). Book value per share 105.42 (+3.0% in nine months, value creation ratio 5.8%). Equity 16.18B, debt 0.80B principal (793M), 153.5M shares. Close 189.78 on 2026-11-11: market cap about 29.1B; 19.4x trailing operating EPS (9.76: Q4 2025 3.37 plus nine months 6.39), about 10.9x TTM GAAP net income (2,664M, flattered by 1.26B nine month investment gains), 1.80x book, dividend 3.76 (2.0%). Buybacks 396M in nine months vs 102M. Quality insurer with a conservative balance sheet, priced at a premium to book and to normalized earnings; no obvious mispricing found.",
+ "counterthesis": "The market already pays about 19x trailing operating earnings and 1.8x book for a mid single digit premium grower; the trailing figure includes a Q4 2025 with only 1.2 points of catastrophe losses, so normalized earnings may be lower. Nine month combined ratio of 95.8% is inside the 92 to 98 target but leaves little margin and 2026 benefited from 2.9 points of favorable reserve development, which may fade. GAAP earnings and book value are swollen by equity gains (about 1.26B nine months) that reverse in a drawdown: the value creation ratio was negative 2.1% in Q3. Growth is slowing (NWP +2% in Q3) as commercial pricing softens. Cat exposure (severe convective storms) and equity market sensitivity are the thesis breakers. I did not read the MD&A, reserve tables, reinsurance or the investment concentration, so reserve adequacy is unverified.",
+ "invalidation": "Valuation case would only appear on a drop toward book (about 1.3x) without deterioration; thesis of steady quality compounding fails if the combined ratio runs above 98% for a year, reserve development turns adverse, net written premium growth turns negative, or equity portfolio losses cut book value by more than 10%.",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0000020286.json",
+   "document_id": "SEC-submissions-CIK0000020286",
+   "origin": "SEC EDGAR submissions JSON fetched 2026-11-12: 10-Q 2026-10-26 (period 2026-09-30), 8-K 2026-10-26 (Item 2.02), 8-K 2026-11-09 (Items 7.01, 9.01, contents unread)",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T12:10:00-05:00"
+  },
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/20286/000002028626000060/cinf-20260930.htm",
+   "document_id": "0000020286-26-000060",
+   "origin": "SEC EDGAR 10-Q period 2026-09-30 via WebFetch: balance sheet, income statement, investment gains, repurchases, debt note read; MD&A and notes after Note 3 not retrievable (page truncated)",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T12:10:00-05:00"
+  },
+  {
+   "id": "rel",
+   "url": "https://www.sec.gov/Archives/edgar/data/20286/000002028626000059/exhibit9913q26.htm",
+   "document_id": "0000020286-26-000059-EX99.1",
+   "origin": "Issuer earnings release Ex 99.1 filed 2026-10-26 with the 8-K; read via WebFetch (operating income, combined ratio, cat, reserve development, premiums, BVPS, VCR)",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T12:10:00-05:00"
+  },
+  {
+   "id": "rel25",
+   "url": "https://www.sec.gov/Archives/edgar/data/20286/000002028626000005/exhibit991q425.htm",
+   "document_id": "0000020286-26-000005-EX99.1",
+   "origin": "Issuer Q4 2025 release Ex 99.1 filed 2026-02-09 (full year and Q4 2025 operating income, cat)",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T12:10:00-05:00"
+  },
+  {
+   "id": "cf",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000020286.json",
+   "document_id": "SEC-companyfacts-CIK0000020286",
+   "origin": "SEC XBRL company facts: FY2025 10-K (0000020286-26-000008) net income 2,393M, OCF 3,112M, repurchases 205M, equity 15,911M",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T12:10:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/cinf/",
+   "document_id": "stockanalysis-CINF-2026-11-11",
+   "origin": "stockanalysis.com page via WebFetch 2026-11-12 midday: previous close 189.78 (2026-11-11), shares 153.51M, dividend 3.76",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T12:10:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/CINF/history/",
+   "document_id": "yahoo-finance-CINF-2026-11-11",
+   "origin": "finance.yahoo.com history via WebFetch: 189.78 close 2026-11-11 (Nov 12 row intraday, ignored)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T12:10:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10",
+    "rel"
+   ],
+   "note": "10-Q and Q3 release filed 2026-10-26 are the latest; 8-K 2026-11-09 (Item 7.01) listed but not read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "2026-09-30: total investments 33,139M, total assets 42,611M, equity 16,182M, long-term debt and lease obligations 858M (principal 793M), note payable 17M."
+  },
+  "cashflow_basis_verified": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "cf"
+   ],
+   "note": "Insurer: FCF not used. Nine month OCF 2,147M vs 2,165M and repurchases 396M noted; full cash flow statement not analysed."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "qa"
+   ],
+   "note": "153,510,324 shares outstanding at 2026-10-22 (10-Q cover, via WebFetch); matches 153.51M on stockanalysis."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "rel",
+    "rel25",
+    "q10",
+    "qa",
+    "qb"
+   ],
+   "note": "P/E on operating and GAAP income and P/B computed; peers (TRV, CB, WRB, ALL, HIG) and own history not compared."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "rel",
+    "q10"
+   ],
+   "note": "Insurance model: operating income, combined ratio, reserve development, cat load, book value; generic FCF not used."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "rel"
+   ],
+   "note": "Equity gain distortion of GAAP and 3.6 point favorable reserve release identified; reserve triangles, MD&A and audit matters unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "rel",
+    "q10"
+   ],
+   "note": "Premium valuation, cat normalization, reserve release fade, equity sensitivity and slowing growth set out."
+  }
+ },
+ "price": {
+  "value": 189.78,
+  "currency": "USD",
+  "as_of": "2026-11-11T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-11",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 189.78,
+    "currency": "USD",
+    "as_of": "2026-11-11T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 189.78,
+    "currency": "USD",
+    "as_of": "2026-11-11T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 189.78,
+   "shares_outstanding": 153510324,
+   "market_cap_usd": 29133189289,
+   "ttm_non_gaap_operating_income_usd": 1528000000,
+   "ttm_operating_basis": "Q4 2025 531M plus nine months 2026 997M (company non-GAAP)",
+   "ttm_operating_eps": 9.76,
+   "pe_operating_ttm": 19.4,
+   "ttm_net_income_usd": 2664000000,
+   "ttm_basis": "FY2025 2,393M minus 9M2025 1,717M plus 9M2026 1,988M",
+   "pe_ttm_gaap": 10.9,
+   "book_value_per_share": 105.42,
+   "price_to_book": 1.8,
+   "dividend_per_share_annual": 3.76,
+   "dividend_yield_pct": 2.0
+  },
+  "underwriting": {
+   "combined_ratio_q3_2026": 90.9,
+   "combined_ratio_q3_2025": 88.2,
+   "combined_ratio_9m_2026": 95.8,
+   "combined_ratio_9m_2025": 98.4,
+   "favorable_reserve_dev_points_9m_2026": 2.9,
+   "nwp_growth_q3_pct": 2,
+   "nwp_growth_9m_pct": 4
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peer multiples (TRV, CB, WRB, ALL, HIG) and CINF history not compared",
+  "MD&A, reserve development by line, reinsurance and cat detail unread (10-Q text truncated via WebFetch)",
+  "FY2025 10-K audit matters unread; 8-K 2026-11-09 unread",
+  "Quote origins are two publishers only (publisher-level independence)",
+  "Normalized cat load earnings not modelled",
+  "Scores not assigned"
+ ]
+}

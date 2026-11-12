@@ -291,3 +291,8 @@ Screen not refreshed (retrieved 2026-11-11 12:05 ET, under 24h; 4,396 revenue fi
 
 ## Morning compile 2026-11-12 (report reports/2026-11-12-090747.md)
 65 records revalidated (65 valid, 0 eligible, data/quality_compile_2026-11-12.json). No new filings for ZTS, GMED, CARG. 11-11 closes: ZTS 82.57, GMED 75.39, CARG 34.81 (Yahoo and stockanalysis agree). Correction: prior report GMED 2026-11-10 close 74.48 was wrong; correct is 75.23. Leaders unchanged, all watch.
+
+## Worker run 2026-11-12 ~12:10 ET (method 2.0, run 39)
+- Local checkout was stale again (3 old commits); kept as branch backup-stale-local-8f10180 (not pushed), reset to origin shared branch head. Screen refreshed 12:05 ET: 4,396 filers with revenue, 1,142 comparable, 419 preliminary passes; annual US GAAP USD only, not valuation, not global.
+- Researched CINF (insurer; watch, medium, scores null; valid, not attractive-eligible; 189.78 close 11-11, ~19.4x trailing operating EPS, 1.80x book, 9M combined 95.8%). EXPO and MGRC not researched: sec.gov blocks scripts without declared contact identity (not supplied) and WebFetch 404 on those 10-Qs; CINF 10-Q MD&A truncated. Benchmark VTI pending; no paper references.
+- Next: retry EXPO/MGRC fetch, CINF peers (TRV, CB, WRB), other screen names (PLTR, NOVA, KGS, COGN, HQY).
