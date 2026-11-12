@@ -1,0 +1,220 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "FRSH",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "nonfinancial",
+ "as_of": "2026-11-12T08:10:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Freshworks (Nasdaq: FRSH) sells customer and employee service software. Q3 2026 revenue 245.4M (+14%), GAAP operating income 28.2M (11.5% margin) versus a 7.5M loss a year earlier, 9M GAAP operating income 26.2M, TTM FCF about 236M (GAAP-basis OCF less PP&E and capitalized software), crossed 1B ARR after quarter end, FY2026 revenue guide 965-966M. At 12.08 (2026-11-11 close) market cap is about 3.17B, EV about 2.47B: 2.6x revenue, about 10.5x TTM FCF (7.4% yield), but only 3.7% after deducting SBC of about 118M. Net cash about 696M, no borrowings seen. Cheap on headline FCF; the question is whether SBC-adjusted earnings power and 104% net retention justify a higher multiple. Not shown to be mispriced.",
+ "counterthesis": "SBC is about 12.6% of TTM revenue and halves the FCF yield; GAAP operating margin is only about 7% TTM; net income is distorted by a 130.4M FY2025 tax benefit; net dollar retention of 104% is flat and customers above 5K ARR grew only 5%; AI-native competition may pressure seat-based service software; stock fell from 13.26 (11-04) to 12.08 after a beat-and-raise-like print (cause not established); buybacks (234.6M 9M) exceed what is needed to offset dilution only modestly; acquisition expense appears in adjustments.",
+ "invalidation": "Revenue growth below 10%, net retention below 100%, SBC-adjusted FCF turning negative, GAAP operating margin falling back to breakeven, or FCF growth coming only from working capital such as deferred revenue (404M current).",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001544522.json",
+   "document_id": "SEC-submissions-CIK0001544522",
+   "origin": "SEC EDGAR submissions fetched 2026-11-12; latest 10-Q and earnings 8-K both filed 2026-11-03",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T08:10:00-05:00"
+  },
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1544522/000154452226000172/frsh-20260930.htm",
+   "document_id": "0001544522-26-000172",
+   "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-11-03; WebFetch extract of cover, balance sheet, income statement, cash flow; MD&A, notes and risk factors not read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T08:10:00-05:00"
+  },
+  {
+   "id": "rel",
+   "url": "https://www.sec.gov/Archives/edgar/data/1544522/000154452226000170/q326quarterlyearningsrelea.htm",
+   "document_id": "0001544522-26-000170",
+   "origin": "SEC EDGAR 8-K Ex 99.1 earnings release 2026-11-03 (one document with issuer release); WebFetch extract",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T08:10:00-05:00"
+  },
+  {
+   "id": "cf",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001544522.json",
+   "document_id": "SEC-companyfacts-CIK0001544522",
+   "origin": "SEC XBRL companyfacts; FY2025 10-K accession 0001544522-26-000036",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T08:10:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/frsh/history/",
+   "document_id": "stockanalysis-FRSH-2026-11-11",
+   "origin": "stockanalysis.com history table (WebFetch extract); 2026-11-11 close 12.08",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T08:10:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/FRSH/history/",
+   "document_id": "yahoo-finance-FRSH-2026-11-11",
+   "origin": "finance.yahoo.com history table (WebFetch extract); 2026-11-11 close 12.08; may share an upstream feed with stockanalysis, so independence is publisher-level only",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T08:10:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10",
+    "rel"
+   ],
+   "note": "Submissions list shows 10-Q and earnings 8-K 2026-11-03 as latest; both read in relevant sections."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "2026-09-30: cash 466.65M, marketable securities 229.54M, total assets 1,497.7M, total liabilities 583.3M, current deferred revenue 404.4M, equity 914.4M; no debt line seen."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "cf"
+   ],
+   "note": "OCF less reported PP&E purchases and capitalized internal-use software; TTM from FY2025 10-K plus 9M differences, same units. Company's adjusted FCF (73.9M Q3) adds back acquisition and restructuring cash and was not used."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Class A plus Class B shares from cover at 2026-10-29 used for market cap."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "qa",
+    "qb"
+   ],
+   "note": "EV/sales, FCF yield and SBC-adjusted yield computed; peer multiples (Zendesk-type private comps, HubSpot, Monday, Five9) and own history not done; buyback authorization size unverified."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "rel"
+   ],
+   "note": "Software model: SBC-adjusted FCF, deferred revenue, retention and tax-benefit normalization."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Tax benefit cause, 10-K critical audit matters, MD&A and deferred revenue drivers not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "rel"
+   ],
+   "note": "Written from figures read; see counterthesis."
+  }
+ },
+ "price": {
+  "value": 12.08,
+  "currency": "USD",
+  "as_of": "2026-11-11T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-11",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 12.08,
+    "currency": "USD",
+    "as_of": "2026-11-11T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 12.08,
+    "currency": "USD",
+    "as_of": "2026-11-11T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 12.08,
+   "shares": 262327908,
+   "shares_note": "Class A 240,386,572 + Class B 21,941,336 at 2026-10-29, point in time",
+   "market_cap_usd": 3168900000,
+   "cash_and_securities_usd": 696192000,
+   "debt_usd": 0,
+   "ev_usd": 2472700000,
+   "note": "Debt zero because no borrowing line appears on the balance sheet extract (leases not included); release cash figure 697.3M includes restricted cash."
+  },
+  "ttm": {
+   "basis": "FY2025 + 9M2026 - 9M2025, USD",
+   "revenue": 934178000,
+   "operating_income_gaap": 65951000,
+   "ocf": 260983000,
+   "capex_ppe_and_cap_software": 24771000,
+   "fcf": 236212000,
+   "sbc": 117914000,
+   "fcf_less_sbc": 118298000,
+   "net_income": 208148000,
+   "note": "FY2025 NI 183.7M includes income tax BENEFIT of 130.4M (likely valuation allowance release, unconfirmed), so TTM net income is not an earnings power measure; TTM P/E not used. 9M2026 OCF 198.6M, PP&E 11.8M, cap software 7.0M; 9M2025 OCF 180.0M, 3.5M, 11.9M; FY2025 OCF 242.4M, 5.7M, 15.8M. SBC FY2025 146.8M, 9M2026 120.6M, 9M2025 149.5M."
+  },
+  "multiples": {
+   "ev_to_revenue": 2.65,
+   "ev_to_ttm_fcf": 10.5,
+   "fcf_yield_on_market_cap": 0.0745,
+   "fcf_less_sbc_yield": 0.0373,
+   "gaap_op_margin_ttm": 0.071,
+   "note": "Peer and own-history multiples not done."
+  },
+  "capital_return": {
+   "buybacks_9m_2026_usd": 234623000,
+   "buybacks_9m_2025_usd": 386306000,
+   "note": "Buybacks of 234.6M in 9M2026 about equal SBC 120.6M plus roughly 114M extra; authorization size not stated in documents read."
+  },
+  "guidance": {
+   "fy2026_revenue": "965-966M",
+   "fy2026_nongaap_op_income": "238-240M",
+   "q4_revenue": "253.5-254.5M"
+  },
+  "operating": {
+   "q3_revenue_growth": 0.141,
+   "nrr": 1.04,
+   "customers_over_100k_arr": 1821,
+   "note": "Net dollar retention 104%, flat; growth is new-logo and upmarket led."
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peer multiples and own valuation history not done",
+  "MD&A, notes, 10-K audit matters and nature of FY2025 tax benefit unread",
+  "Buyback authorization size not verified",
+  "Cause of post-earnings price drift not established",
+  "Quote origins are two publishers only (possible shared upstream)",
+  "Scores not assigned"
+ ]
+}

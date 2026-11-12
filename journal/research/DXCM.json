@@ -1,0 +1,213 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "DXCM",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "nonfinancial",
+ "as_of": "2026-11-12T08:10:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "DexCom (Nasdaq: DXCM) makes continuous glucose monitors (G7, Stelo). Q3 2026 revenue 1,344.5M (+11%; US +14%, international +5%), GAAP operating margin 24.3% (+420bp), FY2026 revenue guide 5.20-5.25B with margin guidance raised. TTM revenue about 5.10B, operating income 1.22B, FCF about 1.10B. At 80.35 (2026-11-11 close) market cap is about 29.97B, EV about 29.4B: about 30x TTM GAAP earnings, 5.8x revenue, 3.7% FCF yield. Net cash about 0.57B after the 1.25B 0.375% 2028 convertible (conversion 162.41, no maturity before May 2028); undrawn 200M revolver. Quality is high; price assumes durable low-teens growth and margin gains. Not shown to be mispriced.",
+ "counterthesis": "Growth is decelerating to 11% with international only +5%; distributor channel is 85% of revenue so a few distributors matter; securities class action, derivative actions and G6/G7 class action are unquantified; 9M OCF fell to 1,120M from 1,147M while buybacks ran 1.0B, so buybacks outpace cash generation and cash fell; net income comparisons include non-operating items; competitive (Abbott) and reimbursement risk not examined; stock fell from 88.48 (11-04) to 80.35 despite a raised margin guide, cause not established.",
+ "invalidation": "Revenue growth below 8%, operating margin guidance cut, adverse ruling in the G6/G7 litigation, loss of a major distributor or payer coverage, or evidence that the type 2 non-insulin expansion (NEJM CONNECT trial) is not converting to volume.",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001093557.json",
+   "document_id": "SEC-submissions-CIK0001093557",
+   "origin": "SEC EDGAR submissions fetched 2026-11-12; latest 10-Q and earnings 8-K both filed 2026-10-29",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T08:10:00-05:00"
+  },
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1093557/000109355726000195/dxcm-20260930.htm",
+   "document_id": "0001093557-26-000195",
+   "origin": "SEC EDGAR 10-Q period 2026-09-30 filed 2026-10-29; WebFetch extract of cover, balance sheet, income statement, cash flow, debt and legal notes; MD&A and risk factors not read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T08:10:00-05:00"
+  },
+  {
+   "id": "rel",
+   "url": "https://www.sec.gov/Archives/edgar/data/1093557/000109355726000193/dxcm09302026-exhibit991.htm",
+   "document_id": "0001093557-26-000193",
+   "origin": "SEC EDGAR 8-K Ex 99.1 earnings release 2026-10-29 (issuer release and exhibit are one document); WebFetch extract; Item 8.01 buyback read from the 8-K main document",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T08:10:00-05:00"
+  },
+  {
+   "id": "cf",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001093557.json",
+   "document_id": "SEC-companyfacts-CIK0001093557",
+   "origin": "SEC XBRL companyfacts; FY2025 10-K accession 0001093557-26-000027 values for revenue, net income, OCF, capex, operating income",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T08:10:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/dxcm/history/",
+   "document_id": "stockanalysis-DXCM-2026-11-11",
+   "origin": "stockanalysis.com history table (WebFetch extract); 2026-11-11 close 80.35",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T08:10:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/DXCM/history/",
+   "document_id": "yahoo-finance-DXCM-2026-11-11",
+   "origin": "finance.yahoo.com history table (WebFetch extract); 2026-11-11 close 80.35; may share an upstream feed with stockanalysis, so independence is publisher-level only",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T08:10:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10",
+    "rel"
+   ],
+   "note": "Submissions list shows 10-Q and earnings 8-K 2026-10-29 as latest; both read in relevant sections."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "2026-09-30: cash 961.4M, ST securities 856.5M, total assets 6,238.8M, total liabilities 3,703.4M, convertible notes 1,243.7M, equity 2,535.4M."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "cf"
+   ],
+   "note": "9M OCF 1,120.4M less purchases of PP&E 214.2M; TTM built from FY2025 10-K facts plus 9M differences, same units and periods; capitalized software not separated."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "372,950,922 shares at 2026-10-22 from cover used for market cap, not weighted diluted."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "qa",
+    "qb"
+   ],
+   "note": "EV, P/E, EV/sales, FCF yield computed; peers (Abbott Libre, Insulet, Tandem), own history and SBC-adjusted FCF not done."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Nonfinancial medtech model: recurring-sensor revenue, distributor concentration, convert debt, FCF and buyback coverage."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "10-K critical audit matters, MD&A, litigation detail, source of non-operating gains not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "rel"
+   ],
+   "note": "Written from figures read; see counterthesis."
+  }
+ },
+ "price": {
+  "value": 80.35,
+  "currency": "USD",
+  "as_of": "2026-11-11T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-11",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 80.35,
+    "currency": "USD",
+    "as_of": "2026-11-11T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 80.35,
+    "currency": "USD",
+    "as_of": "2026-11-11T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 80.35,
+   "shares": 372950922,
+   "shares_note": "Cover page 2026-10-22, point in time",
+   "market_cap_usd": 29967000000,
+   "cash_and_securities_usd": 1817900000,
+   "convert_carrying_usd": 1243700000,
+   "convert_principal_usd": 1250000000,
+   "ev_usd": 29393000000,
+   "note": "EV = market cap + convertible carrying amount - cash and short-term marketable securities (961.4+856.5). Excludes leases and other liabilities."
+  },
+  "ttm": {
+   "basis": "FY2025 + 9M2026 - 9M2025, USD",
+   "revenue": 5104400000,
+   "net_income": 991000000,
+   "operating_income": 1223800000,
+   "ocf": 1414400000,
+   "capex": 316100000,
+   "fcf": 1098300000,
+   "note": "FY2025 revenue 4662.0, NI 836.3, op inc 911.8, OCF 1440.7, capex 363.5 (companyfacts); 9M2026 3844.8/723.7/900.8/1120.4/214.2; 9M2025 3402.4/569.0/588.8/1146.7/261.6. NI flattered in some periods by non-operating items (Q3 2025 NI 283.8 exceeded operating income 242.5); not decomposed."
+  },
+  "multiples": {
+   "pe_ttm": 30.2,
+   "ev_to_revenue": 5.76,
+   "ev_to_ttm_fcf": 26.8,
+   "fcf_yield_on_market_cap": 0.0366,
+   "op_margin_ttm": 0.24,
+   "note": "GAAP FCF = OCF less reported PP&E purchases; capitalized software not separated. SBC 9M2026 119.1M not deducted. Peer and own-history multiples not done."
+  },
+  "capital_return": {
+   "buybacks_9m_2026_usd": 1003600000,
+   "buybacks_9m_2025_usd": 187200000,
+   "new_authorization_usd": 1000000000,
+   "note": "9M2026 repurchases equal about 89% of TTM FCF; funded in part by cash drawdown and repayment of 1.21B 2025 converts in Nov 2025."
+  },
+  "guidance": {
+   "fy2026_revenue": "5.20-5.25B",
+   "nongaap_op_margin": "about 24% (raised)",
+   "adj_ebitda_margin": "about 32% (raised)"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peer multiples and own valuation history not done",
+  "MD&A, risk factors, 10-K audit matters and litigation exposure unread",
+  "Cause of post-earnings decline not established",
+  "Net income quality and SBC-adjusted FCF not analysed",
+  "Quote origins are two publishers only (possible shared upstream)",
+  "Scores not assigned"
+ ]
+}

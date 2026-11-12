@@ -1,6 +1,6 @@
 # Research queue (persisted)
 
-Updated 2026-11-12 04:1x ET by the four hour worker (run 37). Stages: lead, valuation_pending, researched_watch, researched_pass, blocked.
+Updated 2026-11-12 04:1x ET by the four hour worker (run 37); run 38 2026-11-12 08:10 ET added DXCM, FRSH. Stages: lead, valuation_pending, researched_watch, researched_pass, blocked.
 
 | CIK | Ticker | Exchange | Sector | Stage | Last reviewed | Next action | Due | Reason |
 |---|---|---|---|---|---|---|---|---|
@@ -135,3 +135,5 @@ Run 35 (2026-11-11 20:0x ET): screen not refreshed (metadata 2026-11-11 12:05 ET
 | 879101 | KIM | NYSE | REIT retail shopping centers (large) | researched_watch | 2026-11-12 | AFFO, net debt/EBITDA, maturities, JV debt; peers (REG, FRT, BRX); read 10-29 8-K and 11-05 S-3; index overlap | 2026-11-19 | ~13.8x annualized FFO, same property NOI +3.3%, payouts and buybacks exceeded OCF in 9M; journal/research/KIM.json |
 | 1736297 | ALAB | Nasdaq | Semiconductors AI connectivity (large) | researched_watch | 2026-11-12 | Peers (AVGO, MRVL, CRDO); read earnings release exhibit, call, 10-K; Forms 4/144 content; customer A 53% concentration | 2026-11-19 | About 87x TTM GAAP, 25x sales, FCF yield 0.85% (0.27% after SBC), revenue +154% Q3, +29% in six sessions; journal/research/ALAB.json |
 | 1163370 | NRIM | Nasdaq | Bank regional Alaska (small) | researched_watch | 2026-11-12 | Peer banks, ROTCE, CET1, CRE detail; cause of 27.4M C&I nonaccrual; PBCO merger pro forma; 8-Ks 10-15 and 10-22 | 2026-11-19 | About 9.6x TTM, 1.75x tangible book, NIM 4.96%, but nonaccrual 12.0M to 40.1M and Q3 net income -47%; journal/research/NRIM.json |
+| 1093557 | DXCM | Nasdaq | Healthcare medtech CGM (large) | researched_watch | 2026-11-12 | Peers (ABT, PODD, TNDM); MD&A, litigation, 10-K audit matters; SBC-adjusted FCF | 2026-11-19 | ~30x TTM, 3.7% FCF yield, buybacks above OCF; journal/research/DXCM.md |
+| 1544522 | FRSH | Nasdaq | Software (small) | researched_watch | 2026-11-12 | Peers; FY2025 tax benefit cause; buyback size; MD&A | 2026-11-19 | 7.4% FCF yield but 3.7% after SBC, NRR 104%; journal/research/FRSH.md |
