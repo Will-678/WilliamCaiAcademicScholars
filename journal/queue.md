@@ -1,6 +1,6 @@
 # Research queue (persisted)
 
-Updated 2026-11-11 16:1x ET by the four hour worker (run 34). Stages: lead, valuation_pending, researched_watch, researched_pass, blocked.
+Updated 2026-11-11 20:1x ET by the four hour worker (run 35). Stages: lead, valuation_pending, researched_watch, researched_pass, blocked.
 
 | CIK | Ticker | Exchange | Sector | Stage | Last reviewed | Next action | Due | Reason |
 |---|---|---|---|---|---|---|---|---|
@@ -63,6 +63,8 @@ Updated 2026-11-11 16:1x ET by the four hour worker (run 34). Stages: lead, valu
 | 880631 | WT | NYSE | Asset manager ETF sponsor (small-mid) | researched_watch | 2026-11-11 | Peers (VCTR, FHI, IVZ, BEN); organic growth and flows; 8-K release exhibit; convertible hedge terms and dilution; 10-K | 2026-11-18 | 28.4x TTM GAAP, FCF yield 6.5% (5.6% after SBC), revenue +49% 9M (acquired), converts 1.08B vs cash 0.30B; journal/research/WT.json |
 | 1674101 | VRT | NYSE | Industrial technology data center power and cooling (large) | researched_watch | 2026-11-11 | Read 10-Q MD&A, backlog and customer concentration; peers (ETN, GEV, SU, HUBB); GAAP-to-adjusted reconciliation; UIG earn-out; FY2025 10-K audit matters | 2026-11-18 | Sales +61% Q3 (55% organic), orders doubled, about 27x guided adj EPS, EV about 21.5x adj operating profit, FCF yield about 3.6%, UIG 1.45B turns net cash to net debt; journal/research/VRT.json |
 | 1384101 | VCYT | Nasdaq | Healthcare diagnostics genomic testing (small-mid) | researched_watch | 2026-11-11 | Establish cause of -54% on 11-05 (Decipher volume miss, guide trim insufficient alone); read MD&A and call; peers (NTRA, GH, EXAS, GDRX); 10-K; tax benefit | 2026-11-18 | Revenue +15%, EV about 2.7x sales, guided adj EBITDA margin over 26%, 9M FCF 113M, net cash about 370M, GAAP flattered by tax benefit; journal/research/VCYT.json |
+| 1448893 | ESNT | NYSE | Insurance mortgage (mid) | researched_watch | 2026-11-11 | Default counts, cure rates and reserve development; peers (MTG, RDN, NMIH, Enact); read release exhibit; cause of -7.6% on 11-06; 10-K audit matters | 2026-11-18 | 8.4x TTM, 1.03x book, loss ratio 28.7% in Q3 versus 18.2%, PMIERs 177%, buybacks 85% of OCF; journal/research/ESNT.json |
+| 1802665 | HRMY | Nasdaq | Healthcare single-product biopharma (small) | researched_watch | 2026-11-11 | Peers (Jazz, Supernus, Neurocrine); gross-to-net and audit matters; Q4 2025 capex and licensing; reason for -12% after Q3; business development plans | 2026-11-18 | 11.3x TTM, net cash about 902M, WAKIX sole product, generics July 2030, gross margin falling; journal/research/HRMY.json |
 
 Screen refresh: 2026-11-07 04:05 ET, calendar year 2025 (4,393 filers with revenue, 1,142 comparable, 419 preliminary passes; no failure).
 
@@ -126,3 +128,5 @@ Run 32 (2026-11-11 08:0x ET): screen not refreshed (metadata 2026-11-10 08:08 ET
 Run 33 (2026-11-11 12:0x ET): screen refreshed 12:05 ET (previous 2026-11-10 08:08, over 24 hours; no failure): 4,396 filers with revenue, 1,142 comparable, 419 preliminary passes. Researched ADEA and ACNB (watch, medium, scores null; valid, not attractive-eligible). Third name not started; depth prioritized. Benchmark VTI pending, no paper references.
 
 Run 34 (2026-11-11 16:0x ET): screen not refreshed (4h old, no failure). Researched VRT and VCYT (watch, valid, not attractive-eligible). Third name not started; depth prioritized and sec.gov script downloads refused.
+
+Run 35 (2026-11-11 20:0x ET): screen not refreshed (metadata 2026-11-11 12:05 ET, 8 hours old, no failure). Submissions checked only for ESNT and HRMY (no queue-wide check). Researched ESNT and HRMY (both new, watch, medium, scores null, valid, not attractive-eligible; data/quality_run35_*.json). Both 10-Qs read in full text from sec.gov Archives via script with a descriptive identity; HRMY release exhibit read, ESNT release exhibit not read. Third name not started; depth prioritized. Benchmark VTI pending, no paper references.

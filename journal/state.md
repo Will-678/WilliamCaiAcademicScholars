@@ -268,3 +268,8 @@ Run 21 (2026-11-09 12:0x ET): screen not refreshed (about 8 hours old, no failur
 - sec.gov Archives script download returned an undeclared automated tool notice; I did not change identity to bypass it (a retry with a browser style agent was blocked and not repeated). Documents read through WebFetch extracts only; Vertiv and Veracyte MD&A text not retrieved. Aggregator TTM figures for both were implausible and discarded; TTM GAAP not computed. 11-11 provisional closes disagreed across publishers, so 11-10 closes used.
 - Benchmark VTI pending; no paper references.
 - Next: VCYT drop cause; VRT backlog and peers; peers for earlier names; other screen names (PLTR, ALAB, NOVA, APAM, KINS, NRIM); EXEL '039 ruling; OLED (blocked).
+
+## Worker run 2026-11-11 ~20:10 ET (method 2.0, run 35)
+- Screen not refreshed (8h old, refreshed 12:05 ET). Researched ESNT (watch, medium, scores null; valid, not attractive-eligible; 8.4x TTM, 1.03x book, Q3 loss ratio 28.7% versus 18.2%, PMIERs 177%, buybacks 85% of operating cash flow, close 64.82) and HRMY (watch, medium, scores null; valid, not attractive-eligible; 11.3x TTM, net cash about 902M, WAKIX only product, generic entry July 2030 under settlements, gross margin 74.7% versus 79.2%, close 34.22). Data/quality_run35_*.json.
+- 2026-11-11 closes agree between stockanalysis.com and Yahoo (publisher-level independence only). Both 10-Qs read in full via sec.gov Archives with a descriptive script identity. Peers, calls, 10-Ks unread. Benchmark VTI pending; no paper references.
+- Next: ESNT default counts and peers (compare NMIH); HRMY peers and Q4 2025 capex; other screen names (PLTR, ALAB, NOVA, APAM, KINS, NRIM, RLI, HQY); EXEL '039 ruling; OLED (blocked); staples and trucking thin.
