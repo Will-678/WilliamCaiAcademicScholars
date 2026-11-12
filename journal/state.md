@@ -288,3 +288,6 @@ Run 21 (2026-11-09 12:0x ET): screen not refreshed (about 8 hours old, no failur
 
 ## Run 38, 2026-11-12 08:10 ET
 Screen not refreshed (retrieved 2026-11-11 12:05 ET, under 24h; 4,396 revenue filers, 1,142 comparable, 419 preliminary passes). Local branch had unrelated stale history; it was kept as local-backup-pre-run38 and the shared branch head used. Researched DXCM and FRSH (both watch, scores null, validator valid, not attractive-eligible). Marvell not done: Q3 FY27 report due late November. Benchmark pending; no paper references. Unverified: peers, MD&A, 10-K audit matters, quote independence beyond two publishers.
+
+## Morning compile 2026-11-12 (report reports/2026-11-12-090747.md)
+65 records revalidated (65 valid, 0 eligible, data/quality_compile_2026-11-12.json). No new filings for ZTS, GMED, CARG. 11-11 closes: ZTS 82.57, GMED 75.39, CARG 34.81 (Yahoo and stockanalysis agree). Correction: prior report GMED 2026-11-10 close 74.48 was wrong; correct is 75.23. Leaders unchanged, all watch.
