@@ -331,3 +331,9 @@ Morning compile 2026-11-13 09:56 ET: reports/2026-11-13-095604.md. 76 records re
 - Revalidated 78 records: 78 valid, 0 attractive-eligible (data/quality_latest.json). First validation failed only because I stamped as_of 32 minutes in the future; corrected to the real clock.
 - Unverified: peers, 10-Ks, Exhibit 99.1 releases and guidance, META finance leases and segment detail, COLL cash taxes and brand revenue, quote independence beyond two publishers. Benchmark VTI pending; no paper references.
 - Next: refresh screen; peers for META/COLL; COLL patent-cliff scenario; Blackstone, MRVL, CAMT, Cellebrite, Ligand.
+
+## Worker run 2026-11-13 ~16:10 ET (method 2.0, run 46)
+- Screen refreshed 2026-11-13 16:05 ET (previous 11-12 12:05 was 28h old): 4,397 revenue filers, 1,142 comparable, 419 preliminary passes; annual US GAAP USD only, not global, not valuation; missing capex stays missing (1,029 rows excluded for it).
+- Researched ACAD (watch, medium; Q3 revenue +22.8%, net cash 976M, TTM FCF 82M = 2.5% yield, 0.6% after SBC, EV/FCF 27.6x; reported ~9x P/E is a tax-benefit artifact; stock fell after RADIANT Phase 2 primary miss p=0.0603 on 9-24; CTAD data 11-16 to 11-19 per 8-K; close 18.74 on 11-13) and BX (watch, medium; Q3 DE/share 1.32 -13%, FRE +6%, AUM 1,368B +10%, 26.8x TTM GAAP EPS, 5.06 trailing dividends; close 120.17 on 11-13; 1.1B notes issued 11-02). Scores null; not attractive-eligible.
+- Unverified: ACAD Exhibit 99.1, guidance, Nuplazid generic timing, legal proceedings, controls; BX 10-Q text, corporate vs fund debt, unit count, TTM DE; peers for both; quote independence beyond two publishers. WebFetch of sec.gov 10-Q truncates before MD&A. Benchmark VTI pending; no paper references.
+- Next: MRVL, CAMT, Cellebrite, Ligand; peers for recent names; EXEL '039 ruling; VCTR Oct AUM.

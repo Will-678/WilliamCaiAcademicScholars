@@ -1,0 +1,190 @@
+{
+ "method_version": "2.0",
+ "schema_version": 2,
+ "currency": "USD",
+ "as_of": "2026-11-13T16:06:01-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "ticker": "BX",
+ "exchange": "NYSE",
+ "sector_model": "alternative asset manager: fee related earnings, distributable earnings, performance revenue and dividend; consolidated GAAP cash flow and debt not comparable",
+ "thesis": "Blackstone Inc. (NYSE: BX), largest alternative asset manager. Q3 2026 (release Exhibit 99.1, 2026-10-22): GAAP net income to Blackstone 662M (+6%), Distributable Earnings 1.7B (-9%), DE per share 1.32 (vs 1.52, -13%), Fee Related Earnings 1.6B (+6%; 1.26 per share), fee-related performance revenues 540M (+19%), total AUM 1,368.3B (+10%), inflows 63.3B, deployment 30.1B, realizations 33.1B, net accrued performance revenues 7.3B (5.84 per share, -3% q/q). Dividend 1.12 for Q3, 5.06 over the last twelve months. At 120.17 (2026-11-13 close; 52-week 101.73-165.14, so about 27% below the high) TTM GAAP EPS is 4.49 (3.87 FY2025 + 3.19 9M26 - 2.57 9M25), P/E 26.8x; trailing dividend yield about 4.2% on 5.06. Q3 DE per share annualized would imply about 22.8x, shown only as context because realizations are lumpy. The market may be discounting weaker realizations and the 9% DE decline while fee earnings and AUM keep growing.",
+ "counterthesis": "DE fell 9% and DE per share 13% while FRE rose 6%: earnings quality depends on performance revenues and realizations that are cyclical, and net accrued performance revenue slipped 3% q/q. Stock-based compensation was 1.25B in 9M26 and is a real cost; GAAP share count (751M Class A versus about 1.24B including partnership units) must be handled with care. Debt on the consolidated balance sheet is 13.4B including consolidated funds and a new 1.1B senior note offering (5.650% 2031 and 5.900% 2033, 8-K 2026-11-02, use of proceeds not stated). Private credit and real estate marks, retail product redemptions, fee compression and a weak realization market are thesis breakers. The stock is a large index holding, so it duplicates exposure already held in broad US funds.",
+ "invalidation": "Thesis breaks if quarterly DE per share keeps falling with falling inflows, retail fund redemptions accelerate, net accrued performance revenue declines for several quarters, or fee-related earnings growth stalls.",
+ "sources": [
+  {
+   "id": "e8",
+   "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526428297/d160590dex991.htm",
+   "document_id": "0001193125-26-428297",
+   "origin": "Exhibit 99.1 Q3 2026 release read via WebFetch (key results table; full text not read); 8-K 2026-10-22 item 2.02",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T16:06:01-05:00"
+  },
+  {
+   "id": "n8",
+   "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526443854/d377521d8k.htm",
+   "document_id": "0001193125-26-443854",
+   "origin": "8-K 2026-11-02 senior notes 600M 5.650% due 2031 and 500M 5.900% due 2033",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T16:06:01-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001393818.json",
+   "document_id": "SEC-submissions-CIK0001393818",
+   "origin": "SEC submissions JSON 2026-11-13: 10-Q 2026-11-06, 8-Ks 2026-10-22 and 11-02, 424B5 10-27 and 10-29",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T16:06:01-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001393818.json",
+   "document_id": "SEC-companyfacts-CIK0001393818",
+   "origin": "SEC XBRL companyfacts: EPS diluted FY2025 3.87, 9M26 3.19, 9M25 2.57; SBC 9M26 1.246B; long-term debt 13.52B at 2026-09-30 (consolidated); Class A cover shares 751,115,317 at 2026-10-30. 10-Q document itself not read",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T16:06:01-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/bx/",
+   "document_id": "stockanalysis-BX-2026-11-13",
+   "origin": "stockanalysis.com via WebFetch: close 120.17 at 2026-11-13 4:00 PM EST, market cap 149.4B on 1.24B shares, 52-week 101.73-165.14, P/E 26.79",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T16:06:01-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/BX/history/",
+   "document_id": "yahoo-finance-BX-2026-11-13",
+   "origin": "Yahoo Finance history via WebFetch: close 120.17 on 2026-11-13, 118.54 on 2026-11-12",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T16:06:01-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "e8",
+    "n8"
+   ],
+   "note": "Latest 10-Q filed 2026-11-06, earnings 8-K 2026-10-22, notes 8-K 2026-11-02; 10-Q text itself not read."
+  },
+  "balance_sheet_verified": {
+   "passed": false,
+   "source_ids": [
+    "fy"
+   ],
+   "note": "Only XBRL totals seen (liabilities 28.6B, equity 8.84B, debt 13.4B at 2026-09-30) and these include consolidated funds; corporate debt separate from fund debt not verified."
+  },
+  "cashflow_basis_verified": {
+   "passed": false,
+   "source_ids": [
+    "fy"
+   ],
+   "note": "Consolidated OCF (9M26 4.895B) mixes consolidated fund activity; not usable as owner earnings. DE from the release is the intended basis but TTM DE not assembled."
+  },
+  "share_count_basis_verified": {
+   "passed": false,
+   "source_ids": [
+    "fy",
+    "qa"
+   ],
+   "note": "Class A 751.1M (cover) versus 1.24B total including partnership units (stockanalysis); per-share DE basis not reconciled to the 10-Q."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "qa",
+    "qb",
+    "e8"
+   ],
+   "note": "TTM GAAP P/E and trailing dividend yield computed; TTM DE, price to DE, peers (KKR, APO, ARES, CG) and history not done."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "e8"
+   ],
+   "note": "Alternative asset manager: DE, FRE, performance revenue and dividend used; generic FCF and liability ratios not used."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "fy"
+   ],
+   "note": "Noted consolidated funds, SBC 1.25B 9M26 and performance revenue timing; 10-Q notes, valuation marks and controls unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "e8",
+    "n8"
+   ],
+   "note": "Covers DE decline, performance revenue cyclicality, SBC, leverage, private credit and index duplication."
+  }
+ },
+ "price": {
+  "value": 120.17,
+  "currency": "USD",
+  "as_of": "2026-11-13T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-13",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 120.17,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 120.17,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   }
+  ]
+ },
+ "calculations": {
+  "valuation": {
+   "price": 120.17,
+   "shares_outstanding": 751115317,
+   "share_basis": "Class A common on 10-Q cover 2026-10-30; total including partnership units about 1.24B (stockanalysis, unreconciled)",
+   "market_cap_usd": 149400000000.0,
+   "market_cap_note": "stockanalysis, uses 1.24B units",
+   "ttm_eps_usd": 4.49,
+   "pe_ttm": 26.8,
+   "ttm_eps_basis": "FY2025 3.87 + 9M26 3.19 - 9M25 2.57",
+   "trailing_dividend_per_share_usd": 5.06,
+   "trailing_dividend_yield_pct": 4.2
+  },
+  "growth": {
+   "q3_aum_growth_yoy_pct": 10,
+   "q3_de_growth_yoy_pct": -9,
+   "q3_de_per_share_growth_yoy_pct": -13,
+   "q3_fre_growth_yoy_pct": 6
+  },
+  "sbc_9m26_usd": 1245840000
+ },
+ "unresolved_critical_gaps": [
+  "TTM DE, price to DE and peers not done",
+  "10-Q notes, corporate versus fund debt, share and unit basis unread",
+  "Quotes: two publishers, publisher-level independence only",
+  "Scores not assigned"
+ ]
+}
