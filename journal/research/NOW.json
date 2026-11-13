@@ -1,0 +1,196 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "NOW",
+ "exchange": "NYSE",
+ "currency": "USD",
+ "sector_model": "enterprise software platform: GAAP P/E, EV/sales, FCF before and after SBC, net debt after acquisition financing, RPO, goodwill share of assets",
+ "as_of": "2026-11-13T09:02:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "ServiceNow (NYSE: NOW; 5-for-1 split Dec 2025) sells subscription workflow software. Q3 2026 revenue 4,106M (+20.5%; includes Armis and Veza acquisitions), subscription 3,988M (+20.9%); 9M revenue 11,863M (+22.2%); non-cancellable RPO 29.7B. GAAP operating income Q3 385M (9.4% margin vs 16.8%) and 9M 1,050M vs 1,381M; 9M OCF 3,096M vs 3,206M, capex 346M. TTM revenue 15,431M, GAAP NI 1,445M, OCF 5,334M, capex 584M, FCF 4,750M, SBC 2,323M. Debt 7,524M (commercial paper 2,100M principal, senior notes 5,500M) vs cash and marketable securities 6,961M: net debt about 563M versus about 8.6B net cash at 2025 year-end after 9.2B of 2026 acquisitions (Armis 7.6B, Veza 1.2B). At 100.66 (2026-11-12 close; 52-week 81.24-175.00): market cap about 104.5B on 1,037.9M shares, EV about 105.0B, 6.8x TTM sales, 72x TTM GAAP earnings, FCF yield 4.5% (2.3% after SBC). Growth is strong but the price is down about 42% from the 52-week high, so the market is already doubting something; cheapness is not shown at 72x GAAP earnings.",
+ "counterthesis": "GAAP margins fell sharply after the acquisitions (Q3 operating margin 9.4% vs 16.8%), SBC is about 15% of revenue, so FCF after SBC yield is only 2.3%. Reported 2026 growth is inflated by 7.6B Armis and 1.2B Veza; organic growth is unread. 9M net income includes 367M of upward strategic-investment gains. Goodwill rose from 3.6B to 10.0B and intangibles from 1.1B to 3.6B, so impairment risk and amortization drag now matter. One US federal channel partner is 12% of revenue and 20% of receivables. A workforce restructuring started in 2026 (amount unread). Concern about AI agents displacing seat-based software may explain the de-rating and has not been tested. Peers, guidance, cRPO, risk factors and the 10-K unread.",
+ "invalidation": "Thesis weakens if organic subscription growth falls below high teens, GAAP operating margin stays below 12% after integration, federal concentration cuts hit revenue, or buybacks keep being funded by commercial paper. A valuation case needs FCF yield after SBC well above 4% or evidence of stable margin recovery.",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001373715.json",
+   "document_id": "SEC-submissions-CIK0001373715",
+   "origin": "SEC submissions JSON 2026-11-13: latest 10-Q 2026-10-28, 8-K 2026-10-28 (Q3 results); only Forms 4 and 144 since",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T09:02:00-05:00"
+  },
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000096/now-20260930.htm",
+   "document_id": "0001373715-26-000096",
+   "origin": "10-Q for 2026-09-30 via WebFetch: balance sheet, debt note, acquisitions, cash flow, revenue, RPO, concentration; extract truncated after Note 12 so Item 1A, MD&A and guidance unread",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T09:02:00-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001373715.json",
+   "document_id": "SEC-companyfacts-CIK0001373715",
+   "origin": "SEC XBRL companyfacts via curl: FY2025 revenue 13,278M, NI 1,748M, OCF 5,444M, capex 868M, SBC 1,955M; 9M25 comparatives from 10-Qs",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T09:02:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/now/",
+   "document_id": "stockanalysis-NOW-2026-11-12",
+   "origin": "stockanalysis.com via WebFetch: 100.66 close Nov 12 2026 4:00 PM EST NYSE; shares 1.04B; 52-week 81.24-175.00",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T09:02:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/NOW/history/",
+   "document_id": "yahoo-finance-NOW-2026-11-12",
+   "origin": "finance.yahoo.com history via WebFetch: 100.66 close Nov 12, split-adjusted",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T09:02:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10"
+   ],
+   "note": "Q3 10-Q filed 2026-10-28 is the latest periodic filing; later filings are Forms 4 and 144 only. FY2025 10-K text not read, only XBRL facts; 8-K earnings exhibit and guidance not read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "2026-09-30 USD M: cash 2,393, marketable securities 4,568 (2,214 current plus 2,354 long-term), total 6,961; commercial paper 2,086 net (2,100 principal, 4.05%), senior notes 5,438 net (5,500 principal, 2030-2056), term loan 4,000 drawn April and repaid May; revolver 3,000 undrawn to 2031; total liabilities 18,734; equity 13,096; strategic investments 2,050 excluded from cash."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "fy"
+   ],
+   "note": "TTM = FY2025 + 9M26 - 9M25 (USD M): OCF 5,444+3,096-3,206=5,334; capex (PP&E) 868+346-630=584; FCF 4,750; SBC 1,955+1,829-1,461=2,323. Capitalized software not separately disclosed in the extract; capex reported, not missing."
+  },
+  "share_count_basis_verified": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "qa"
+   ],
+   "note": "1,037.9M from XBRL cover/balance data and about 1.04B stockanalysis; exact cover date not confirmed in the extract; 9M repurchase 20.15M shares; dilution from RSUs excluded. Pre-split XBRL values for 2025 comparatives are not split-adjusted in some tags (207.5M) and were ignored."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "qa",
+    "qb"
+   ],
+   "note": "P/E, EV/sales, FCF yield before and after SBC computed; peers (CRM, WDAY, ADBE, PLTR, MSFT), own history, guidance and organic growth not compared."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Software model with SBC-adjusted FCF, net debt after cash-funded acquisitions, RPO, goodwill and concentration."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Identified 367M strategic-investment gains in 9M other income, 118M acquisition costs, goodwill and intangibles tripling, SBC 15% of revenue, 12% federal channel-partner concentration. Auditor critical matters, purchase accounting and restructuring amount unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "qa"
+   ],
+   "note": "Countercase covers margin compression, SBC, acquisition-inflated growth, leverage shift, goodwill, concentration and AI disruption."
+  }
+ },
+ "price": {
+  "value": 100.66,
+  "currency": "USD",
+  "as_of": "2026-11-12T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-12",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 100.66,
+    "currency": "USD",
+    "as_of": "2026-11-12T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 100.66,
+    "currency": "USD",
+    "as_of": "2026-11-12T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 100.66,
+   "shares_outstanding": 1037917000,
+   "share_basis": "XBRL balance-sheet share count at 2026-09-30, approximation; cover date unconfirmed",
+   "market_cap_usd": 104476725220,
+   "cash_and_securities_usd": 6961000000,
+   "total_debt_usd": 7524000000,
+   "net_debt_usd": 563000000,
+   "enterprise_value_usd": 105039725220,
+   "ttm_revenue_usd": 15431000000,
+   "ttm_net_income_usd": 1445000000,
+   "ttm_basis": "FY2025 10-K + 9M26 - 9M25",
+   "ev_to_sales": 6.81,
+   "pe_ttm": 72.3,
+   "ttm_ocf_usd": 5334000000,
+   "ttm_capex_usd": 584000000,
+   "ttm_fcf_usd": 4750000000,
+   "fcf_yield_pct": 4.55,
+   "ttm_sbc_usd": 2323000000,
+   "ttm_fcf_after_sbc_usd": 2427000000,
+   "fcf_yield_after_sbc_pct": 2.32
+  },
+  "growth": {
+   "q3_revenue_growth_yoy_pct": 20.5,
+   "nine_month_revenue_growth_pct": 22.2,
+   "subscription_growth_q3_pct": 20.9
+  },
+  "quality": {
+   "q3_gaap_operating_margin_pct": 9.4,
+   "prior_q3_gaap_operating_margin_pct": 16.8,
+   "nine_month_buybacks_usd": 2225000000
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers, guidance, organic growth and cRPO unread",
+  "Share count cover date unconfirmed",
+  "10-K, risk factors and auditor matters unread",
+  "Restructuring amount unread",
+  "Quotes: two publishers, publisher-level independence only",
+  "Scores not assigned"
+ ]
+}

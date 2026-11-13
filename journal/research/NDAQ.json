@@ -1,0 +1,193 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "NDAQ",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "exchange and financial technology operator (not a bank): GAAP P/E, EV/revenue, FCF yield, net debt, clearing assets excluded, goodwill share",
+ "as_of": "2026-11-13T09:02:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Nasdaq, Inc. (Nasdaq: NDAQ) runs exchanges, clearing, listings, index and fintech/regtech software. Q3 2026 total revenues 2,393M (+20.9%), net revenues 1,481M (+12.6%; 9M 4,388M, +13.8%); GAAP operating income 732M (+24.9%), 9M 2,101M vs 1,702M; diluted EPS 0.96 vs 0.73. Segments 9M: Capital Access Platforms +17.3%, Financial Technology +17.2%, Market Services +13.5%. TTM revenue 9,150M, GAAP NI 2,084M, OCF 2,546M, capex 288M, FCF 2,258M, SBC 177M. Debt 8,740M (long-term 8,471M, short-term 269M) vs cash and short-term investments 516M, net debt about 8.2B. At 108.65 (2026-11-12 close; 52-week 76.55-111.45): market cap about 60.3B on 554.96M shares (cover 2026-10-16), EV about 68.5B, 28.9x TTM GAAP earnings, FCF yield 3.7%. Quality recurring business near its 52-week high; not cheap.",
+ "counterthesis": "At 29x GAAP earnings and a price within 3% of the 52-week high, the market already pays for double-digit net revenue growth. Market Services growth (+26% in Q3) depends on elevated trading volumes and may reverse. Net debt of about 8.2B from the Adenza deal limits flexibility, tax rate rose to 22.9% from 18.9%, 9M includes an 84M divestiture gain, and buybacks accelerated to 1.2B (pace funded partly by commercial paper). TTM revenue combines bases that were restated (9M25 6,138M originally vs 6,175M now). Segment net revenue, ARR, non-GAAP reconciliation, guidance, litigation, Adenza integration and peers (ICE, CME, CBOE, LSEG, TW) unread.",
+ "invalidation": "Thesis weakens if net revenue growth drops below high single digits when volumes normalize, Financial Technology ARR growth slows, or leverage rises. A valuation case needs a price near a 5% FCF yield or evidence of durable low-teens growth.",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001120193.json",
+   "document_id": "SEC-submissions-CIK0001120193",
+   "origin": "SEC submissions JSON 2026-11-13: latest 10-Q 2026-10-22, 8-K 2026-10-22 and 2026-10-26; only Forms 3/4/144 since",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T09:02:00-05:00"
+  },
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1120193/000112019326000020/ndaq-20260930.htm",
+   "document_id": "0001120193-26-000020",
+   "origin": "10-Q for 2026-09-30 via WebFetch: cover shares, balance sheet, revenue by segment, operating income, cash flow, divestitures, buybacks; extract truncated so ARR, non-GAAP, guidance, debt table, litigation unread",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T09:02:00-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001120193.json",
+   "document_id": "SEC-companyfacts-CIK0001120193",
+   "origin": "SEC XBRL companyfacts via curl: FY2025 revenue 8,262M, NI 1,788M, OCF 2,255M, capex 266M, SBC 165M, operating income 2,331M",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T09:02:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/ndaq/",
+   "document_id": "stockanalysis-NDAQ-2026-11-12",
+   "origin": "stockanalysis.com via WebFetch: 108.65 close Nov 12 2026 4:00 PM EST NASDAQ; shares 554.96M; 52-week 76.55-111.45",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T09:02:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/NDAQ/history/",
+   "document_id": "yahoo-finance-NDAQ-2026-11-12",
+   "origin": "finance.yahoo.com history via WebFetch: 108.65 close Nov 12 on NasdaqGS",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T09:02:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10"
+   ],
+   "note": "Q3 10-Q filed 2026-10-22 is the latest periodic filing; 8-Ks 2026-10-22 and 2026-10-26 not read; FY2025 10-K text not read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "2026-09-30 USD M: cash 365, short-term investments 151, restricted cash 28; short-term debt 269, long-term debt 8,471; goodwill 14,247, intangibles 6,106; total liabilities 15,380 (12,850 excluding 2,530 default funds and margin deposits); equity 11,999. Debt by instrument and maturities incomplete."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "fy"
+   ],
+   "note": "TTM = FY2025 + 9M26 - 9M25 (USD M): OCF 2,255+1,921-1,630=2,546; capex 266+199-177=288; FCF 2,258; SBC 165+134-122=177. Capitalized software not separately shown in the extract; capex reported. Clearing flows and Section 31 fee timing (90M payable) may affect OCF."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "qa"
+   ],
+   "note": "554,962,751 shares on the 10-Q cover as of 2026-10-16 (point in time), matches stockanalysis 554.96M."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "qa",
+    "qb"
+   ],
+   "note": "P/E, EV/revenue and FCF yield computed; peers (ICE, CME, CBOE, LSEG, TW), own history and company guidance not compared."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Exchange/fintech operator model: clearing assets and default funds excluded from debt and cash, net debt used; not a bank or insurer."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Noted 84M divestiture gain, restated 2025 revenue base, tax rate step-up, Section 31 fee payable swing, goodwill+intangibles 20.4B of 27.4B assets. Auditor matters, non-GAAP reconciliation and litigation unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "qa"
+   ],
+   "note": "Countercase covers valuation near high, volume-driven revenue, leverage, buyback funding, tax rate and restatement."
+  }
+ },
+ "price": {
+  "value": 108.65,
+  "currency": "USD",
+  "as_of": "2026-11-12T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-12",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 108.65,
+    "currency": "USD",
+    "as_of": "2026-11-12T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 108.65,
+    "currency": "USD",
+    "as_of": "2026-11-12T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 108.65,
+   "shares_outstanding": 554962751,
+   "share_basis": "10-Q cover 2026-10-16",
+   "market_cap_usd": 60296702896,
+   "cash_and_securities_usd": 516000000,
+   "total_debt_usd": 8740000000,
+   "net_debt_usd": 8224000000,
+   "enterprise_value_usd": 68520702896,
+   "ttm_revenue_usd": 9150000000,
+   "ttm_net_income_usd": 2084000000,
+   "ttm_basis": "FY2025 + 9M26 - 9M25; 9M25 revenue on restated 6,175M basis",
+   "ev_to_sales": 7.49,
+   "pe_ttm": 28.9,
+   "ttm_ocf_usd": 2546000000,
+   "ttm_capex_usd": 288000000,
+   "ttm_fcf_usd": 2258000000,
+   "fcf_yield_pct": 3.74,
+   "ttm_sbc_usd": 177000000,
+   "ttm_fcf_after_sbc_usd": 2081000000,
+   "fcf_yield_after_sbc_pct": 3.45
+  },
+  "growth": {
+   "q3_revenue_growth_yoy_pct": 20.9,
+   "q3_net_revenue_growth_yoy_pct": 12.6,
+   "nine_month_net_revenue_growth_pct": 13.8
+  },
+  "quality": {
+   "nine_month_buybacks_usd": 1226000000,
+   "nine_month_effective_tax_rate_pct": 22.9
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers, guidance, ARR and non-GAAP unread",
+  "FY2025 10-K, debt table and litigation unread",
+  "Quotes: two publishers, publisher-level independence only",
+  "Scores not assigned"
+ ]
+}

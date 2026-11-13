@@ -67,6 +67,8 @@ Updated 2026-11-12 04:1x ET by the four hour worker (run 37); run 38 2026-11-12 
 | 1802665 | HRMY | Nasdaq | Healthcare single-product biopharma (small) | researched_watch | 2026-11-11 | Peers (Jazz, Supernus, Neurocrine); gross-to-net and audit matters; Q4 2025 capex and licensing; reason for -12% after Q3; business development plans | 2026-11-18 | 11.3x TTM, net cash about 902M, WAKIX sole product, generics July 2030, gross margin falling; journal/research/HRMY.json |
 
 Screen refresh: 2026-11-07 04:05 ET, calendar year 2025 (4,393 filers with revenue, 1,142 comparable, 419 preliminary passes; no failure).
+| 1373715 | NOW | NYSE | Software enterprise platform (large) | researched_watch | 2026-11-13 | Peers (CRM, WDAY, ADBE); guidance and organic growth; 10-K; restructuring; Armis purchase accounting; federal concentration | 2026-11-20 | 72x TTM GAAP, FCF yield 4.5% (2.3% after SBC), revenue +22% with 8.8B acquisitions, op margin 9.4%, -42% from high; journal/research/NOW.json |
+| 1120193 | NDAQ | Nasdaq | Exchange and fintech operator (large) | researched_watch | 2026-11-13 | Peers (ICE, CME, CBOE, TW); ARR and guidance; 10-K; debt table; volume sensitivity | 2026-11-20 | 28.9x TTM GAAP, FCF yield 3.7%, net revenue +12.6%, net debt 8.2B, near 52-week high; journal/research/NDAQ.json |
 
 Run 2 (2026-11-06 ET): screen not refreshed (metadata under 24 hours old). Researched IDCC and MEDP; closed the second quote gap for USLM and EXEL. Third name (FSLR) not started; depth was prioritized.
 
@@ -157,3 +159,6 @@ Run 41 (2026-11-12 20:0x ET): screen not refreshed (retrieved 12:05 ET, ~8h old,
 Run 42 (2026-11-13 00:0x ET): screen not refreshed (retrieved 11-12 12:05 ET, ~12h old, no failure). Submissions checked for all 71 queued CIKs: only new 8-Ks were VCTR (Oct AUM release, unread exhibit), PLMR (investor presentation, no figures), RLI (special dividend $3.00 plus $0.18, record 11-30, paid 12-07). Researched PLTR and NVMI (watch, medium, scores null, valid, not attractive-eligible; data/quality_run42_*.json). CPRX deregistration confirmed (15-12G). Third name not started; depth prioritized. sec.gov Archives scripted downloads still 403; read via WebFetch. Benchmark VTI pending, no paper references.
 
 Run 43 (2026-11-13 04:1x ET): screen not refreshed (retrieved 11-12 12:05 ET, ~16h old). Researched CHKP and BSY (both watch, medium, scores null, valid, not attractive-eligible; data/quality_run43_*.json). Next screen names: NDAQ, Blackstone, NOW, MRVL (earnings late Nov), CAMT, Cellebrite.
+
+
+Run 44 (2026-11-13 09:0x ET): screen not refreshed (retrieved 11-12 12:05 ET, ~21h old). Submissions checked for NOW and NDAQ only (Forms 4/144 after the 10-Qs). Researched NOW and NDAQ (both watch, medium, scores null, valid, not attractive-eligible; data/quality_run44_*.json). data.sec.gov companyfacts via curl works; Archives read via WebFetch (extract truncated before MD&A/guidance). Remaining screen names: Blackstone, MRVL (earnings late Nov), CAMT, Cellebrite. Benchmark VTI pending, no paper references.
