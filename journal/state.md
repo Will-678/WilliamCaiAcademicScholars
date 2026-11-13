@@ -322,3 +322,5 @@ Screen not refreshed (retrieved 2026-11-11 12:05 ET, under 24h; 4,396 revenue fi
 - Next: peers for CHKP/BSY and earlier names; NDAQ, Blackstone, NOW; EXEL '039 ruling; VCTR Oct AUM.
 
 Run 44 (2026-11-13 09:0x ET): screen not refreshed (~21h old). Researched NOW (72x GAAP, FCF yield 4.5%/2.3% after SBC, net debt after 8.8B acquisitions) and NDAQ (28.9x, FCF yield 3.7%, net debt 8.2B); both watch, medium, scores null, valid, not attractive-eligible. Truncated 10-Q extracts left guidance, MD&A and peers unread. Next: Blackstone, MRVL, CAMT, Cellebrite; peers for NOW/NDAQ. Benchmark VTI pending.
+
+Morning compile 2026-11-13 09:56 ET: reports/2026-11-13-095604.md. 76 records revalidated (data/quality_compile_2026-11-13.json), 0 eligible. ZTS 11-12 close 82.96 (two publishers). No new leader filings. Next: peers, independent quote origin, screen refresh, Sunday review 11-15.
