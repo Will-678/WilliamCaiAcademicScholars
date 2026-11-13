@@ -1,0 +1,206 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "NVMI",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "semicap metrology: P/E GAAP and guided, EV/sales, FCF yield after SBC, net cash after convertible",
+ "as_of": "2026-11-13T00:08:03-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Nova Ltd. (Nasdaq: NVMI; Israel based foreign private issuer reporting US GAAP USD on 6-K/20-F) sells process control metrology to chipmakers. Q3 2026 revenue 287.8M (+28% y/y, +13% q/q), GAAP net income 90.0M (EPS 2.64), GAAP gross margin 57.7%, OCF 138.1M; Q4 guide revenue 305-315M and GAAP EPS 2.78-2.93. Cash, deposits and securities about 1.79B against 734.6M convertible notes (net cash about 1,055M). TTM revenue 1,001M, GAAP NI 299M, FCF 255M (capex 24.7M). At 327.64 (2026-11-12 close; 52-week range 266.43-615.99): market cap about 10.4B on 31.78M shares (approximation), EV about 9.4B, 9.4x TTM sales, 35x TTM GAAP earnings, about 29x annualized Q4 guided GAAP EPS, FCF yield 2.4%. Strong growth and balance sheet; valuation is full but far below PLTR; mispricing not demonstrated.",
+ "counterthesis": "Semicap metrology is cyclical and concentrated: a few large customers, China and export-control exposure, and a stock that fell 47% from its high shows how fast sentiment turns (a drop from a high is not proof of cheapness). The Q3 jump in OCF may reflect working capital; convertible notes of 734.6M add dilution (diluted weighted shares 34.4M vs 31.8M basic); the share count used is a year-end approximation. Israeli operations add geopolitical risk. Peers, convertible terms, 20-F risk factors and notes unread.",
+ "invalidation": "Thesis fails if quarterly revenue growth turns negative, gross margin falls below 55%, or advanced packaging and memory orders cancel. Valuation case needs P/E on guided GAAP EPS below about 20x or FCF yield above 5%.",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001109345.json",
+   "document_id": "SEC-submissions-CIK0001109345",
+   "origin": "SEC submissions JSON 2026-11-13: foreign private issuer (20-F 2026-02-17; 6-Ks 2026-11-02, 11-05, 11-10); no 10-Q exists",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T00:08:03-05:00"
+  },
+  {
+   "id": "rel",
+   "url": "https://www.sec.gov/Archives/edgar/data/1109345/000117891326005034/zk2636340.htm",
+   "document_id": "0001178913-26-005034",
+   "origin": "Issuer Q3 2026 results 6-K (press release) 2026-11-05 via WebFetch: income statement, nine months, balance sheet summary, guidance, risk language; no share count in release",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T00:08:03-05:00"
+  },
+  {
+   "id": "cf",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001109345.json",
+   "document_id": "SEC-companyfacts-CIK0001109345",
+   "origin": "SEC XBRL companyfacts from 20-F FY2025: revenue 880.577M, NI 259.223M, OCF 245.613M, capex 27.698M, SBC 26.291M, shares 31,780,111 at 2025-12-31",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T00:08:03-05:00"
+  },
+  {
+   "id": "conf",
+   "url": "https://www.sec.gov/Archives/edgar/data/1109345/000117891326005111/zk2636368.htm",
+   "document_id": "0001178913-26-005111",
+   "origin": "Issuer 6-K 2026-11-10: investor conference announcement (CFO meetings Nov 18, Dec 1); no financial data",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T00:08:03-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/nvmi/",
+   "document_id": "stockanalysis-NVMI-2026-11-12",
+   "origin": "stockanalysis.com via WebFetch: 327.64 close Nov 12 2026 4:00 PM EST, prior 340.62, P/E 37.52, shares 31.78M",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T00:08:03-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/NVMI/history/",
+   "document_id": "yahoo-finance-NVMI-2026-11-12",
+   "origin": "finance.yahoo.com history via WebFetch: 327.64 at close Nov 12 on NasdaqGS (Nov 11 340.62)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T00:08:03-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "rel"
+   ],
+   "note": "Q3 6-K (2026-11-05) is the latest results document; Nova files 20-F/6-K, not 10-Q, so there is no SEC-reviewed quarterly report. FY2025 20-F not read in text."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "rel"
+   ],
+   "note": "2026-09-30 (USD thousands): cash 188.2M, short-term deposits 395.9M, marketable securities 1,205.1M (493.3M current, 711.8M non-current), convertible notes net 734,559, total liabilities 1,064,456, equity 1,511,671. Convertible principal, rate, maturity and conversion price not read."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "rel",
+    "cf"
+   ],
+   "note": "9M26 OCF 219,077, capex 12,896, SBC 21,148 (USD thousands) from release; TTM built from FY25 20-F companyfacts less 9M25; Q3 OCF 138.1M is large versus 9M, working capital swing unverified."
+  },
+  "share_count_basis_verified": {
+   "passed": false,
+   "source_ids": [
+    "cf",
+    "qa",
+    "rel"
+   ],
+   "note": "Only 31,780,111 shares at 2025-12-31 and weighted 9M26 basic 31.807M / diluted 34.442M are known; current outstanding unverified; convertible dilution of about 2.6M shares not in market cap."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "rel",
+    "qa",
+    "qb"
+   ],
+   "note": "P/E, EV/sales, FCF yield computed; peers (KLAC, ONTO, CAMT, AMAT) and history not compared."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "rel"
+   ],
+   "note": "Semicap metrology model: P/E on GAAP and guided EPS, EV/sales, FCF yield, net cash after convertible, customer concentration."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "rel"
+   ],
+   "note": "Non-GAAP net income 98.4M vs GAAP 90.0M in Q3; convertible terms, customer concentration percentages, Israel operations risk, 20-F notes unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "rel",
+    "qa"
+   ],
+   "note": "Countercase on cyclicality, concentration, export controls and the 47% drawdown from the 52-week high written."
+  }
+ },
+ "price": {
+  "value": 327.64,
+  "currency": "USD",
+  "as_of": "2026-11-12T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-12",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 327.64,
+    "currency": "USD",
+    "as_of": "2026-11-12T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 327.64,
+    "currency": "USD",
+    "as_of": "2026-11-12T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 327.64,
+   "shares_outstanding": 31780111,
+   "share_basis": "31,780,111 at 2025-12-31 per 20-F (companyfacts; current count not disclosed in Q3 release; 9M weighted basic 31.807M), approximation",
+   "market_cap_usd": 10412435568,
+   "cash_deposits_securities_usd": 1789100000,
+   "convertible_notes_net_usd": 734559000,
+   "net_cash_usd": 1054541000,
+   "enterprise_value_usd": 9357894568,
+   "ttm_revenue_usd": 1000731000,
+   "ttm_net_income_usd": 298917000,
+   "ttm_basis": "FY2025 20-F + 9M26 - 9M25 (Q3 6-K)",
+   "ev_to_sales": 9.4,
+   "pe_ttm": 34.8,
+   "pe_on_q4_guide_gaap_eps_annualized": 28.7,
+   "ttm_ocf_usd": 279205000,
+   "ttm_capex_usd": 24666000,
+   "ttm_fcf_usd": 254539000,
+   "fcf_yield_pct": 2.44,
+   "ttm_sbc_usd": 28125000,
+   "ttm_fcf_after_sbc_usd": 226414000,
+   "fcf_yield_after_sbc_pct": 2.17
+  },
+  "growth": {
+   "q3_revenue_growth_yoy_pct": 28,
+   "nine_month_revenue_growth_pct": 18.3,
+   "q4_guide_revenue_usd": "305-315M"
+  },
+  "quality": {
+   "q3_gaap_gross_margin_pct": 57.7,
+   "nine_month_buybacks_usd": 38461000,
+   "nine_month_ocf_usd": 219077000
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Current share count and convertible terms unverified",
+  "Peers and history not compared",
+  "FY2025 20-F, risk factors, customer concentration unread",
+  "Quotes: two publishers, publisher-level independence only",
+  "Scores not assigned"
+ ]
+}

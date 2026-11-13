@@ -308,3 +308,9 @@ Screen not refreshed (retrieved 2026-11-11 12:05 ET, under 24h; 4,396 revenue fi
 - Researched SPSC (watch, medium; 4% growth, FCF yield 6.9%/4.8% after SBC, 35x TTM GAAP, close 82.25) and KINS (watch, medium; 8.0x TTM EPS, 2.5x book, Q3 combined ratio 65.6% non-run-rate, close 23.23). Scores null; valid, not attractive-eligible. SPSC Q1 10-Q/A is a disclosure-only amendment (CEO 10b5-1 plan), not a restatement.
 - Unverified: peers, 10-Ks, controls, KINS reserves/reinsurance and Form 144, quote independence beyond two publishers. Benchmark VTI pending; no paper references.
 - Next: peers for SPSC/KINS/EXPO/CINF; EXEL '039 ruling; screen names HQY, Cellebrite, Bentley, PLTR, NOVA.
+
+## Worker run 2026-11-13 ~00:30 ET (method 2.0, run 42)
+- Screen not refreshed (12h old; 4,396 revenue filers, 1,142 comparable, 419 preliminary passes; annual US GAAP USD only, not global, not valuation). Submissions checked for all 71 queued CIKs: new 8-Ks only VCTR (Oct AUM exhibit unread), PLMR (presentation), RLI (special dividend $3.00, record 11-30, paid 12-07; RLI price/yield comparisons must adjust). CPRX deregistered (Form 15-12G 2026-07-24).
+- Researched PLTR (watch, medium; rev +96% Q3, ~55x TTM sales, FCF yield 0.98%/0.74% after SBC, ~113x TTM GAAP, close 171.58) and NVMI (watch, medium; Q3 rev +28%, ~35x TTM GAAP, FCF yield 2.4%, net cash ~1.05B after 735M convertible, close 327.64, -47% from high). Scores null; valid, not attractive-eligible. Revalidated 72 records: 72 valid, 0 eligible (data/quality_latest.json).
+- Unverified: peers, 10-K/20-F, Item 4, PLTR ~1% tax rate, NVMI current share count and convertible terms, quote independence beyond two publishers. Benchmark VTI pending; no paper references.
+- Next: peers for PLTR/NVMI/SPSC/KINS/EXPO/CINF; VCTR Oct AUM; EXEL '039 ruling; screen names HQY, Cellebrite, Bentley, Blackstone, NOW.

@@ -1,920 +1,297 @@
 {
-  "checked_at": "2026-11-13T01:08:01.966094+00:00",
-  "records": [
-    {
-      "path": "journal/research/ACNB.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/ADBE.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/ADEA.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/AGX.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Quote is stale at validation time",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/ALAB.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/APAM.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/APH.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/APPF.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/ATO.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "share_count_basis_verified requires a passed, explained, sourced check",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/CARG.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "valuation_complete requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/CINF.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "cashflow_basis_verified requires a passed, explained, sourced check",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/CORT.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/DAVE.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "cashflow_basis_verified requires a passed, explained, sourced check",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/DTM.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/DUOL.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/DXCM.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/ESNT.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "latest_filing_checked requires a passed, explained, sourced check",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/EVTC.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/EXE.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/EXEL.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Quote is stale at validation time",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/EXPO.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/FRSH.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/FSLR.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Quote is stale at validation time",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/GABC.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/GMED.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/HALO.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/HCI.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/HRMY.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/HWM.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/IDCC.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "cashflow_basis_verified requires a passed, explained, sourced check",
-        "valuation_complete requires a passed, explained, sourced check",
-        "Quote is stale at validation time",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/IDXX.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/JOE.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "cashflow_basis_verified requires a passed, explained, sourced check",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/KIM.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/KINS.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/KNSL.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/KRYS.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/LIF.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/MCO.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/MCRI.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/MEDP.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "Quote is stale at validation time",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/MGRC.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/MKTX.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "cashflow_basis_verified requires a passed, explained, sourced check",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/MPWR.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/NBIX.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/NMIH.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/NRIM.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "cashflow_basis_verified requires a passed, explained, sourced check",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/OLED.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "latest_filing_checked requires a passed, explained, sourced check",
-        "balance_sheet_verified requires a passed, explained, sourced check",
-        "cashflow_basis_verified requires a passed, explained, sourced check",
-        "share_count_basis_verified requires a passed, explained, sourced check",
-        "valuation_complete requires a passed, explained, sourced check",
-        "sector_model_appropriate requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/PEGA.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/PJT.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "share_count_basis_verified requires a passed, explained, sourced check",
-        "valuation_complete requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/PLMR.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "cashflow_basis_verified requires a passed, explained, sourced check",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/QLYS.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/RDDT.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/RLI.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/ROL.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/SPSC.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/TMDX.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/TRNO.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/TTD.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/TW.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "valuation_complete requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/TXRH.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/USLM.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Quote is stale at validation time",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/UTHR.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "valuation_complete requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/VCTR.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/VCYT.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/VRT.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/WLFC.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/WT.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/YOU.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "balance_sheet_verified requires a passed, explained, sourced check",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/ZM.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    },
-    {
-      "path": "journal/research/ZTS.json",
-      "valid": true,
-      "eligible_attractive": false,
-      "errors": [],
-      "blockers": [
-        "Read the annual filing and a distinct recent filing or earnings document",
-        "valuation_complete requires a passed, explained, sourced check",
-        "accounting_red_flags_reviewed requires a passed, explained, sourced check",
-        "Complete the score components before promotion",
-        "Critical evidence gaps remain"
-      ]
-    }
-  ],
-  "valid": true
+ "run": "42",
+ "checked_at": "2026-11-13",
+ "count": 72,
+ "valid": 72,
+ "eligible_attractive": 0,
+ "records": {
+  "ACNB": {
+   "valid": true,
+   "eligible": null
+  },
+  "ADBE": {
+   "valid": true,
+   "eligible": null
+  },
+  "ADEA": {
+   "valid": true,
+   "eligible": null
+  },
+  "AGX": {
+   "valid": true,
+   "eligible": null
+  },
+  "ALAB": {
+   "valid": true,
+   "eligible": null
+  },
+  "APAM": {
+   "valid": true,
+   "eligible": null
+  },
+  "APH": {
+   "valid": true,
+   "eligible": null
+  },
+  "APPF": {
+   "valid": true,
+   "eligible": null
+  },
+  "ATO": {
+   "valid": true,
+   "eligible": null
+  },
+  "CARG": {
+   "valid": true,
+   "eligible": null
+  },
+  "CINF": {
+   "valid": true,
+   "eligible": null
+  },
+  "CORT": {
+   "valid": true,
+   "eligible": null
+  },
+  "DAVE": {
+   "valid": true,
+   "eligible": null
+  },
+  "DTM": {
+   "valid": true,
+   "eligible": null
+  },
+  "DUOL": {
+   "valid": true,
+   "eligible": null
+  },
+  "DXCM": {
+   "valid": true,
+   "eligible": null
+  },
+  "ESNT": {
+   "valid": true,
+   "eligible": null
+  },
+  "EVTC": {
+   "valid": true,
+   "eligible": null
+  },
+  "EXE": {
+   "valid": true,
+   "eligible": null
+  },
+  "EXEL": {
+   "valid": true,
+   "eligible": null
+  },
+  "EXPO": {
+   "valid": true,
+   "eligible": null
+  },
+  "FRSH": {
+   "valid": true,
+   "eligible": null
+  },
+  "FSLR": {
+   "valid": true,
+   "eligible": null
+  },
+  "GABC": {
+   "valid": true,
+   "eligible": null
+  },
+  "GMED": {
+   "valid": true,
+   "eligible": null
+  },
+  "HALO": {
+   "valid": true,
+   "eligible": null
+  },
+  "HCI": {
+   "valid": true,
+   "eligible": null
+  },
+  "HRMY": {
+   "valid": true,
+   "eligible": null
+  },
+  "HWM": {
+   "valid": true,
+   "eligible": null
+  },
+  "IDCC": {
+   "valid": true,
+   "eligible": null
+  },
+  "IDXX": {
+   "valid": true,
+   "eligible": null
+  },
+  "JOE": {
+   "valid": true,
+   "eligible": null
+  },
+  "KIM": {
+   "valid": true,
+   "eligible": null
+  },
+  "KINS": {
+   "valid": true,
+   "eligible": null
+  },
+  "KNSL": {
+   "valid": true,
+   "eligible": null
+  },
+  "KRYS": {
+   "valid": true,
+   "eligible": null
+  },
+  "LIF": {
+   "valid": true,
+   "eligible": null
+  },
+  "MCO": {
+   "valid": true,
+   "eligible": null
+  },
+  "MCRI": {
+   "valid": true,
+   "eligible": null
+  },
+  "MEDP": {
+   "valid": true,
+   "eligible": null
+  },
+  "MGRC": {
+   "valid": true,
+   "eligible": null
+  },
+  "MKTX": {
+   "valid": true,
+   "eligible": null
+  },
+  "MPWR": {
+   "valid": true,
+   "eligible": null
+  },
+  "NBIX": {
+   "valid": true,
+   "eligible": null
+  },
+  "NMIH": {
+   "valid": true,
+   "eligible": null
+  },
+  "NRIM": {
+   "valid": true,
+   "eligible": null
+  },
+  "NVMI": {
+   "valid": true,
+   "eligible": null
+  },
+  "OLED": {
+   "valid": true,
+   "eligible": null
+  },
+  "PEGA": {
+   "valid": true,
+   "eligible": null
+  },
+  "PJT": {
+   "valid": true,
+   "eligible": null
+  },
+  "PLMR": {
+   "valid": true,
+   "eligible": null
+  },
+  "PLTR": {
+   "valid": true,
+   "eligible": null
+  },
+  "QLYS": {
+   "valid": true,
+   "eligible": null
+  },
+  "RDDT": {
+   "valid": true,
+   "eligible": null
+  },
+  "RLI": {
+   "valid": true,
+   "eligible": null
+  },
+  "ROL": {
+   "valid": true,
+   "eligible": null
+  },
+  "SPSC": {
+   "valid": true,
+   "eligible": null
+  },
+  "TMDX": {
+   "valid": true,
+   "eligible": null
+  },
+  "TRNO": {
+   "valid": true,
+   "eligible": null
+  },
+  "TTD": {
+   "valid": true,
+   "eligible": null
+  },
+  "TW": {
+   "valid": true,
+   "eligible": null
+  },
+  "TXRH": {
+   "valid": true,
+   "eligible": null
+  },
+  "USLM": {
+   "valid": true,
+   "eligible": null
+  },
+  "UTHR": {
+   "valid": true,
+   "eligible": null
+  },
+  "VCTR": {
+   "valid": true,
+   "eligible": null
+  },
+  "VCYT": {
+   "valid": true,
+   "eligible": null
+  },
+  "VRT": {
+   "valid": true,
+   "eligible": null
+  },
+  "WLFC": {
+   "valid": true,
+   "eligible": null
+  },
+  "WT": {
+   "valid": true,
+   "eligible": null
+  },
+  "YOU": {
+   "valid": true,
+   "eligible": null
+  },
+  "ZM": {
+   "valid": true,
+   "eligible": null
+  },
+  "ZTS": {
+   "valid": true,
+   "eligible": null
+  }
+ }
 }

@@ -1,0 +1,212 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "PLTR",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "software/AI platform: EV/sales, P/E GAAP, FCF yield after SBC, net cash, dilution",
+ "as_of": "2026-11-13T00:08:03-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Palantir (Nasdaq: PLTR) is growing extremely fast: Q3 2026 revenue 2,313.4M (+96%), government +81%, commercial +113%, GAAP operating income 1,084.8M (47% margin), GAAP net income attributable 1,128.0M, FY26 revenue guide 8.53B and adjusted FCF 4.8-5.0B. Balance sheet 10.56B cash and securities, no borrowings. TTM revenue 7,288M, TTM FCF 4,054M (capex only 43M), SBC TTM 982M. At 171.58 (2026-11-12 close) market cap about 413B, EV about 403B: 55x TTM sales, 47x FY26 guided sales, 113x TTM GAAP earnings, FCF yield 0.98% (0.74% after SBC). Business quality is evidently high; the price already assumes growth near current rates for many years. No mispricing demonstrated; this is a strong business at a demanding price.",
+ "counterthesis": "At about 55x TTM sales and about 1% FCF yield the price requires sustained 50%+ growth; a deceleration or any government budget shift would compress the multiple sharply (52-week range 106.37-212.94, now 19% below high; that is not evidence of cheapness). GAAP net income is flattered by a tax provision of only about 1% of pretax income and by interest income; SBC is 13% of 9M revenue and diluted shares exceed basic shares by about 7%. Customer I is 27% of receivables; government is about half of revenue. Peer comparison, 10-K risk factors, Item 4 and auditor matters unread; quotes from two publishers only.",
+ "invalidation": "Quality thesis fails if quarterly revenue growth falls below about 40%, GAAP operating margin falls below 30%, or SBC dilution accelerates. Valuation case would need a price near 10-15x guided sales or FCF yield after SBC above 4%, none close to current.",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001321655.json",
+   "document_id": "SEC-submissions-CIK0001321655",
+   "origin": "SEC EDGAR submissions JSON checked 2026-11-13: latest 10-Q 2026-11-03 (period 2026-09-30), 8-K 2026-11-02 (Q3 release)",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T00:08:03-05:00"
+  },
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+   "document_id": "0001321655-26-000048",
+   "origin": "SEC 10-Q period 2026-09-30 via WebFetch: first 100,000 of 118,607 characters read (cover, statements, notes, MD&A start); Item 4 and later sections not read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T00:08:03-05:00"
+  },
+  {
+   "id": "rel",
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+   "document_id": "0001321655-26-000045-EX99.1",
+   "origin": "Issuer Q3 release Ex 99.1 filed 2026-11-02 via WebFetch: guidance, non-GAAP definitions, tax and other income",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T00:08:03-05:00"
+  },
+  {
+   "id": "cf",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001321655.json",
+   "document_id": "SEC-companyfacts-CIK0001321655",
+   "origin": "SEC XBRL companyfacts: FY2025 10-K and 2025/2026 10-Q revenue, NI, OCF, capex, SBC",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T00:08:03-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/pltr/",
+   "document_id": "stockanalysis-PLTR-2026-11-12",
+   "origin": "stockanalysis.com via WebFetch: 171.58 close Nov 12 2026 4:00 PM EST, prior 172.40",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T00:08:03-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/PLTR/history/",
+   "document_id": "yahoo-finance-PLTR-2026-11-12",
+   "origin": "finance.yahoo.com history via WebFetch: 171.58 at close Nov 12 (Nov 11 172.40); same exchange data feed family as other publisher",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T00:08:03-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10",
+    "rel"
+   ],
+   "note": "10-Q (filed 2026-11-03) and Q3 8-K (2026-11-02) are the latest financial filings per submissions JSON 2026-11-13. FY2025 10-K not read in text."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "2026-09-30 (USD): cash 3,619.4M, marketable securities 6,942.1M, total liabilities 2,067.9M, equity 11,345.1M incl. NCI; no borrowings under 500M facility maturing 2027-03-31."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "cf"
+   ],
+   "note": "9M26 OCF 3,319.9M, capex 30.0M, SBC 785.7M read from 10-Q; TTM = FY25 + 9M26 - 9M25 from companyfacts; employer payroll tax on SBC not deducted."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "qa"
+   ],
+   "note": "Class A 2,306,705,341 + B 101,787,133 + F 1,005,000 at 2026-10-26 = 2.409B (stockanalysis 2.41B); diluted weighted 2,573.9M in Q3, so options/RSUs add about 6.8% dilution not in market cap."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "rel",
+    "q10",
+    "qa",
+    "qb"
+   ],
+   "note": "P/E, EV/sales, FCF yield, guided multiple computed; peers (software/AI), history and reverse-DCF not done."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "rel"
+   ],
+   "note": "Software/AI platform model: FCF after SBC, EV/sales, GAAP versus adjusted, net cash."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "rel"
+   ],
+   "note": "Tax provision about 1% of pretax income (likely valuation allowance/SBC deductions, cause not read); SBC 13% of 9M revenue; Customer I 27% of receivables; Item 4, 10-K and notes unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "rel",
+    "cf"
+   ],
+   "note": "Countercase on valuation, SBC, tax rate, concentration and growth deceleration written."
+  }
+ },
+ "price": {
+  "value": 171.58,
+  "currency": "USD",
+  "as_of": "2026-11-12T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-12",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 171.58,
+    "currency": "USD",
+    "as_of": "2026-11-12T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 171.58,
+    "currency": "USD",
+    "as_of": "2026-11-12T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 171.58,
+   "shares_outstanding": 2409497474,
+   "share_basis": "Class A+B+F per 10-Q cover at 2026-10-26",
+   "market_cap_usd": 413421576589,
+   "cash_and_securities_usd": 10561531000,
+   "debt_usd": 0,
+   "enterprise_value_usd": 402860045589,
+   "ttm_revenue_usd": 7288260000,
+   "ttm_net_income_attrib_usd": 3669105000,
+   "ttm_basis": "FY2025 + 9M26 - 9M25 (XBRL companyfacts)",
+   "ev_to_sales": 55.3,
+   "pe_ttm": 112.7,
+   "ttm_ocf_usd": 4097197000,
+   "ttm_capex_usd": 43241000,
+   "ttm_fcf_usd": 4053956000,
+   "fcf_yield_pct": 0.98,
+   "ttm_sbc_usd": 982095000,
+   "ttm_fcf_after_sbc_usd": 3071861000,
+   "fcf_yield_after_sbc_pct": 0.74,
+   "fy26_revenue_guide_usd": 8532000000,
+   "fy26_adj_fcf_guide_usd": "4.8-5.0B",
+   "ev_to_fy26_guided_sales": 47.2
+  },
+  "growth": {
+   "q3_revenue_growth_pct": 96,
+   "nine_month_revenue_growth_pct": 92,
+   "gov_q3_pct": 81,
+   "commercial_q3_pct": 113
+  },
+  "quality": {
+   "q3_gaap_op_margin_pct": 46.9,
+   "q3_income_tax_pct_of_pretax": 1,
+   "sbc_9m_pct_revenue": 13.4
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers and history not compared; no reverse DCF",
+  "10-K, Item 4 controls, notes and audit matters unread",
+  "Reason for ~1% tax rate unread",
+  "Quotes: two publishers, publisher-level independence only",
+  "Scores not assigned"
+ ]
+}
