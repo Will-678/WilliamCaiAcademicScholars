@@ -314,3 +314,9 @@ Screen not refreshed (retrieved 2026-11-11 12:05 ET, under 24h; 4,396 revenue fi
 - Researched PLTR (watch, medium; rev +96% Q3, ~55x TTM sales, FCF yield 0.98%/0.74% after SBC, ~113x TTM GAAP, close 171.58) and NVMI (watch, medium; Q3 rev +28%, ~35x TTM GAAP, FCF yield 2.4%, net cash ~1.05B after 735M convertible, close 327.64, -47% from high). Scores null; valid, not attractive-eligible. Revalidated 72 records: 72 valid, 0 eligible (data/quality_latest.json).
 - Unverified: peers, 10-K/20-F, Item 4, PLTR ~1% tax rate, NVMI current share count and convertible terms, quote independence beyond two publishers. Benchmark VTI pending; no paper references.
 - Next: peers for PLTR/NVMI/SPSC/KINS/EXPO/CINF; VCTR Oct AUM; EXEL '039 ruling; screen names HQY, Cellebrite, Bentley, Blackstone, NOW.
+
+## Worker run 2026-11-13 ~04:10 ET (method 2.0, run 43)
+- Screen not refreshed (~16h old; 4,396 revenue filers, 1,142 comparable, 419 preliminary passes; annual US GAAP USD only, not global, not valuation). Submissions checked for CHKP and BSY only (CHKP 6-K 11-02; BSY 10-Q and 8-K 11-05).
+- Researched CHKP (watch, medium; 17.2x TTM GAAP, FCF yield 7.5%/6.0% after SBC, revenue -1% Q3, 2B convertible with buybacks, close 147.49) and BSY (watch, medium; 41x TTM GAAP, FCF yield 3.7%/3.0% after SBC, ARR +13%, net debt ~1.01B, close 44.19). Scores null; valid, not attractive-eligible. Revalidated all records: see data/quality_latest.json.
+- Unverified: peers, 20-F/10-K text, convertible terms, CHKP period-end share count, quote independence beyond two publishers. A first validation failed only because I stamped as_of in the future; corrected to the real clock. Benchmark VTI pending; no paper references.
+- Next: peers for CHKP/BSY and earlier names; NDAQ, Blackstone, NOW; EXEL '039 ruling; VCTR Oct AUM.

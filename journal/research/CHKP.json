@@ -1,0 +1,197 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "CHKP",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "cybersecurity software (foreign private issuer, US GAAP): P/E GAAP, EV/sales, FCF yield before and after SBC, net cash after convertible, deferred revenue",
+ "as_of": "2026-11-13T04:08:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Check Point Software (Nasdaq: CHKP; Israel based, files 20-F/6-K, US GAAP USD) sells network security and subscriptions. Q3 2026 revenue 669.8M (-1% y/y); security subscriptions +11%, products and licenses -20% (105.5M vs 130.4M, unexplained in release); GAAP operating income 177.2M (-11%), GAAP EPS 1.82 vs 3.28 (Q3 2025 had about 1.47 tax settlement benefit); 9M OCF 881.0M vs 923.8M. TTM revenue 2,756.7M, GAAP NI 875.1M (excludes the Q3 2025 tax benefit), FCF 1,126.5M, SBC 226.9M. Cash and securities 4,122.9M vs 1,976.3M convertible notes (net cash about 2,147M). At 147.49 (2026-11-12 close; 52-week range 112.23-205.81): market cap about 15.06B on 102.10M shares (aggregator; period-end count not in release), EV about 12.9B, 4.7x TTM sales, 17.2x TTM GAAP earnings, FCF yield 7.5% (6.0% after SBC). Cheap on cash flow versus most software, but revenue is flat to down, margins are slipping and buybacks (975M in 9M26) are funded partly by new convertible debt.",
+ "counterthesis": "The low multiple may be fair: total revenue is shrinking, GAAP operating margin fell from 30.2% to 27.2% (9M), hardware refresh product revenue fell 20% in Q3 and management only expects gradual improvement beginning in Q4 with no numeric guidance. SBC is high (about 8% of revenue). A 2B convertible with capped calls was issued while buying back about 975M of stock: this is leverage-assisted EPS support, and conversion terms (price, maturity, coupon) are unread. The 31% drop from the 52-week high is not evidence of cheapness. Israel geopolitical risk, security-platform competition (Palo Alto, Fortinet, Zscaler) and cash held partly in long-term marketable securities (1,969M) also matter. Peers, 20-F and convertible indenture unread.",
+ "invalidation": "Thesis weakens if subscriptions growth falls below high single digits, total revenue declines again in Q4 and Q1, or operating margin falls below 25%. Valuation case needs sustained FCF yield above 6% after SBC with revenue stabilizing.",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001015922.json",
+   "document_id": "SEC-submissions-CIK0001015922",
+   "origin": "SEC submissions JSON 2026-11-13: latest 6-K 2026-11-02 (Q3 results); 20-F filed 2026-03-31; no newer material filing; insider Form 4s and 144 only",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T04:08:00-05:00"
+  },
+  {
+   "id": "rel",
+   "url": "https://www.sec.gov/Archives/edgar/data/1015922/000117891326004953/zk2636310.htm",
+   "document_id": "0001178913-26-004953",
+   "origin": "Issuer Q3 2026 results 6-K 2026-11-02 via WebFetch: income statement, 9M, balance sheet, cash flow, non-GAAP reconciliation; no conversion terms, no period-end share count",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T04:08:00-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001015922.json",
+   "document_id": "0001178913-26-001932",
+   "origin": "SEC XBRL companyfacts from FY2025 20-F: revenue 2,725.4M, NI 1,056.9M, OCF 1,199.4M, capex 26.6M, SBC 205.6M, operating income 831.1M, shares 105,596,035 at 2025-12-31",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T04:08:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/chkp/",
+   "document_id": "stockanalysis-CHKP-2026-11-12",
+   "origin": "stockanalysis.com via WebFetch: 147.49 close Nov 12 2026 4:00 PM EST NASDAQ; shares 102.10M, P/E 17.66, 52-week 112.23-205.81, prior close 146.58",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T04:08:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/CHKP/history/",
+   "document_id": "yahoo-finance-CHKP-2026-11-12",
+   "origin": "finance.yahoo.com history via WebFetch: 147.49 close Nov 12 on NasdaqGS",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T04:08:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "rel"
+   ],
+   "note": "Q3 6-K filed 2026-11-02 is the latest results document; foreign private issuer, no 10-Q. FY2025 20-F text not read, only XBRL facts."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "rel"
+   ],
+   "note": "2026-09-30 USD M: cash 496.0, current securities and deposits 1,657.9, long-term securities 1,969.0 (total 4,122.9); convertible notes net 1,976.3; total assets 7,435.2, total liabilities 4,797.1, equity 2,638.1; deferred revenue 1,991.6. Conversion terms not read."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "rel",
+    "fy"
+   ],
+   "note": "TTM = FY2025 20-F + 9M26 - 9M25 (USD M): OCF 1,199.4+881.0-923.8=1,156.6; capex 26.6+22.9-19.4=30.1; FCF 1,126.5; SBC 205.6+170.5-149.2=226.9. Capex reported, not missing."
+  },
+  "share_count_basis_verified": {
+   "passed": false,
+   "source_ids": [
+    "qa",
+    "rel"
+   ],
+   "note": "102.10M from stockanalysis.com only; release gives weighted basic 101.4M and diluted 101.9M for Q3, no period-end count; convertible dilution not included."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "rel",
+    "qa",
+    "qb"
+   ],
+   "note": "P/E, EV/sales, FCF yield computed; peers (FTNT, PANW, ZS, CYBR, CRWD) and own multiple history not compared."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "rel"
+   ],
+   "note": "Software model: GAAP P/E, EV/sales, FCF before and after SBC, net cash after convertible, deferred revenue and RPO (2.5B, +5%)."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "rel"
+   ],
+   "note": "Q3 2025 tax settlement benefit identified and excluded from TTM; non-GAAP NI 253.8M vs GAAP 185.2M (SBC 54.8M, amortization 18.7M); convertible terms, 20-F notes, auditor matters and tax rate drivers unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "rel",
+    "qa"
+   ],
+   "note": "Countercase covers shrinking revenue, margin slide, SBC, convertible funded buybacks, geopolitics and competition."
+  }
+ },
+ "price": {
+  "value": 147.49,
+  "currency": "USD",
+  "as_of": "2026-11-12T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-12",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 147.49,
+    "currency": "USD",
+    "as_of": "2026-11-12T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 147.49,
+    "currency": "USD",
+    "as_of": "2026-11-12T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 147.49,
+   "shares_outstanding": 102100000,
+   "share_basis": "stockanalysis.com 102.10M, approximation (weighted diluted Q3 101.9M)",
+   "market_cap_usd": 15060000000,
+   "cash_and_securities_usd": 4122900000,
+   "convertible_notes_net_usd": 1976300000,
+   "net_cash_usd": 2146600000,
+   "enterprise_value_usd": 12913400000,
+   "ttm_revenue_usd": 2756700000,
+   "ttm_net_income_usd": 875100000,
+   "ttm_basis": "FY2025 20-F + 9M26 - 9M25",
+   "ev_to_sales": 4.68,
+   "pe_ttm": 17.2,
+   "ttm_ocf_usd": 1156600000,
+   "ttm_capex_usd": 30100000,
+   "ttm_fcf_usd": 1126500000,
+   "fcf_yield_pct": 7.48,
+   "ttm_sbc_usd": 226900000,
+   "ttm_fcf_after_sbc_usd": 899600000,
+   "fcf_yield_after_sbc_pct": 5.97
+  },
+  "growth": {
+   "q3_revenue_growth_yoy_pct": -1.1,
+   "nine_month_revenue_growth_pct": 1.6,
+   "subscription_growth_q3_pct": 11,
+   "products_licenses_growth_q3_pct": -19.1
+  },
+  "quality": {
+   "nine_month_gaap_operating_margin_pct": 27.2,
+   "prior_nine_month_gaap_operating_margin_pct": 30.2,
+   "nine_month_buybacks_usd": 974900000
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Convertible terms and period-end share count unverified",
+  "Peers and history not compared",
+  "20-F risk factors, notes and auditor matters unread",
+  "Cause of products and licenses decline not read",
+  "Quotes: two publishers, publisher-level independence only",
+  "Scores not assigned"
+ ]
+}
