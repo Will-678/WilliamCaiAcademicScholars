@@ -324,3 +324,10 @@ Screen not refreshed (retrieved 2026-11-11 12:05 ET, under 24h; 4,396 revenue fi
 Run 44 (2026-11-13 09:0x ET): screen not refreshed (~21h old). Researched NOW (72x GAAP, FCF yield 4.5%/2.3% after SBC, net debt after 8.8B acquisitions) and NDAQ (28.9x, FCF yield 3.7%, net debt 8.2B); both watch, medium, scores null, valid, not attractive-eligible. Truncated 10-Q extracts left guidance, MD&A and peers unread. Next: Blackstone, MRVL, CAMT, Cellebrite; peers for NOW/NDAQ. Benchmark VTI pending.
 
 Morning compile 2026-11-13 09:56 ET: reports/2026-11-13-095604.md. 76 records revalidated (data/quality_compile_2026-11-13.json), 0 eligible. ZTS 11-12 close 82.96 (two publishers). No new leader filings. Next: peers, independent quote origin, screen refresh, Sunday review 11-15.
+
+## Worker run 2026-11-13 ~12:05 ET (method 2.0, run 45)
+- Screen not refreshed (11-12 12:05:38 ET, about 24h old at start; 4,396 revenue filers, 1,142 comparable, 419 preliminary passes; annual US GAAP USD only, not global, not valuation). Refresh is due next run.
+- Researched META (watch, medium, scores null; valid, not attractive-eligible; close 623.61 on 11-12; Q3 revenue +26%, 21x TTM GAAP, TTM FCF 28.6B = 1.8% yield, 0.1% after SBC; 2026 capex guide 135-145B; 25B forward equity sale, mandatory convertible preferred, EUR 9B bonds; Class C 1:1 dividend effective 2027-01-19; 9.89B legal charge in Q3) and COLL (watch, medium, scores null; valid, not attractive-eligible; close 24.95; TTM FCF 336M = 43% of market cap, EV/FCF 5.1x, base revenue about -9% Q3, debt 1.08B, Nucynta patents to 2028-09, opioid litigation).
+- Revalidated 78 records: 78 valid, 0 attractive-eligible (data/quality_latest.json). First validation failed only because I stamped as_of 32 minutes in the future; corrected to the real clock.
+- Unverified: peers, 10-Ks, Exhibit 99.1 releases and guidance, META finance leases and segment detail, COLL cash taxes and brand revenue, quote independence beyond two publishers. Benchmark VTI pending; no paper references.
+- Next: refresh screen; peers for META/COLL; COLL patent-cliff scenario; Blackstone, MRVL, CAMT, Cellebrite, Ligand.

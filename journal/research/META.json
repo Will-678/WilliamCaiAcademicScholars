@@ -1,0 +1,228 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "META",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "internet advertising platform (mega cap): GAAP P/E, FCF after capex and SBC, net debt, capex intensity",
+ "as_of": "2026-11-13T12:08:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Meta Platforms (Nasdaq: META) Q3 2026 revenue 64.60B (+26% y/y; impressions +10%, price per ad +14%); income from operations 12.99B (-37%) after a 9.89B charge for the August 2026 multistate attorneys general agreement plus AI infrastructure and token costs; net income 9.86B (Q3 2025 had a large tax charge, tax 18.95B on 21.7B pretax). 9M revenue 181.7B (+28.8%), operating income 54.6B vs 58.5B. TTM revenue 241.6B, GAAP net income 75.2B, OCF 133.1B, capex (property and equipment purchases) 104.4B, FCF 28.6B, SBC 26.9B. 2026 capex guided 135B to 145B; 9M capex already 83.1B, so Q4 FCF is likely near zero or negative. Balance sheet 2026-09-30: cash and securities 82.4B, debt 83.7B incl 2.7B current (net debt about 1.2B before the EUR 9B notes closed 2026-11-12 and a 6.50% mandatory convertible preferred), property and equipment 253B (176B at year end), buybacks 0 in 2026 (26.2B in 9M25). Financing: forward sale of 40M Class A shares at 625 (25B, settle by 2027-11-19), concurrent preferred, EUR bonds; Class C non-voting 1:1 stock dividend effective 2027-01-19 (a share-count doubling, so per-share figures change then). At 623.61 (2026-11-12 close; 52-week 520.26-779.82): market cap about 1,594B, 21.2x TTM GAAP earnings, FCF yield 1.8% (0.11% after SBC). Price is 20% below the 52-week high; the gap reflects an investment cycle in which earnings are strong but free cash flow is nearly absorbed by capex.",
+ "counterthesis": "Capex has doubled and now consumes about 85% of OCF; SBC of 26.9B exceeds TTM FCF, so owner earnings after SBC are about zero. The company is now raising external capital (equity forward, preferred, euro and dollar bonds), which reverses the 2025 buyback policy and signals that internal cash no longer funds the AI build. Operating income fell 37% in Q3 even after backing out the one-off legal charge (cost growth outpaces revenue), legal exposure continues (New Mexico verdict, personal-injury bellwethers March and August 2027, remaining state cases), and the Q3 2025 tax charge flatters y/y net income comparison. Property and equipment depreciation will rise sharply. The Class C recapitalization and founder alignment agreement concentrate control. Segment data (Reality Labs losses), depreciation schedule, peers (GOOGL, AMZN, MSFT, PINS, SNAP) and guidance detail are unread.",
+ "invalidation": "Thesis of a quality compounder at a reasonable multiple breaks if revenue growth falls toward low double digits while capex stays above 135B, if financing needs grow, or if legal costs recur. A price case needs evidence that AI capex earns returns (revenue per ad and impressions growth sustained) and visible FCF recovery in 2027.",
+ "sources": [
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+   "document_id": "0001628280-26-066773",
+   "origin": "10-Q period 2026-09-30 downloaded via sec.gov Archives script with descriptive identity; cover, balance sheet, income statement, cash flow, MD&A summary lines, debt and legal note headings read; segment and depreciation notes not read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T12:08:00-05:00"
+  },
+  {
+   "id": "k8",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-20261019.htm",
+   "document_id": "0001628280-26-066700",
+   "origin": "8-K 2026-10-21: Class C recapitalization, Founder Alignment Agreement, earnings release reference (Exhibit 99.1 not read)",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T12:08:00-05:00"
+  },
+  {
+   "id": "p5",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526436410/d94886d424b5.htm",
+   "document_id": "0001193125-26-436410",
+   "origin": "424B5 2026-10-28: 40M share forward sale at 625, concurrent 6.50% mandatory convertible preferred, Class C dividend effective 2027-01-19",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T12:08:00-05:00"
+  },
+  {
+   "id": "e8",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526458525/d177728d8k.htm",
+   "document_id": "0001193125-26-458525",
+   "origin": "8-K 2026-11-12: EUR 9.0B senior notes 4.300% 2031 to 6.400% 2065 completed",
+   "kind": "secondary",
+   "read_status": "full",
+   "accessed_at": "2026-11-13T12:08:00-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001326801.json",
+   "document_id": "SEC-submissions-CIK0001326801",
+   "origin": "SEC submissions JSON 2026-11-13: latest 10-Q 2026-10-22; no 10-K since FY2025 filing",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T12:08:00-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json",
+   "document_id": "SEC-companyfacts-CIK0001326801",
+   "origin": "SEC XBRL companyfacts: FY2025 revenue 200,966M, NI 60,458M, OCF 115,800M, capex 69,691M, SBC 20,427M",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T12:08:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/meta/",
+   "document_id": "stockanalysis-META-2026-11-12",
+   "origin": "stockanalysis.com via WebFetch 2026-11-13 12:05 ET: previous close 623.61, shares 2.56B, 52-week 520.26-779.82",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T12:08:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/META/history/",
+   "document_id": "yahoo-finance-META-2026-11-12",
+   "origin": "Yahoo Finance history via WebFetch: Nov 12 2026 close 623.61 NasdaqGS",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T12:08:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10",
+    "k8",
+    "p5",
+    "e8"
+   ],
+   "note": "Latest 10-Q filed 2026-10-22; 8-Ks 2026-10-21, 10-29, 11-05, 11-12, and 424B5s 10-26 to 11-06 identified, those relevant read; Exhibit 99.1 and FY2025 10-K text not read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "2026-09-30 USD M: cash 11,222, marketable securities 71,227; long-term debt non-current 80,922 plus current 2,747 (accrued liabilities note); total liabilities 206,450; equity 272,386; total assets 478,836. Finance lease liabilities and post-quarter issuance not added."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "fy"
+   ],
+   "note": "TTM = FY2025 + 9M26 - 9M25 (USD M): OCF 115,800+96,873-79,586=133,087; capex (purchases of property and equipment) 69,691+83,055-48,308=104,438; FCF 28,649. Finance lease principal payments excluded from capex, so FCF may be overstated. SBC 26,943."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "qa"
+   ],
+   "note": "Cover 2026-10-16: Class A 2,214,472,367 + Class B 341,768,886 = 2,556,241,253; matches stockanalysis 2.56B. Excludes forward-sale shares and future Class C dividend."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "qa",
+    "qb",
+    "p5"
+   ],
+   "note": "P/E, EV/sales, FCF yield computed; peers, own history, depreciation outlook and 2027 consensus not compared."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "Mega-cap internet advertising platform; GAAP P/E, FCF after capex and SBC, net debt used; not a bank or insurer."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "k8"
+   ],
+   "note": "Noted 9.89B legal charge, prior-year tax charge, rising depreciation, finance leases and non-marketable equity investments 32.6B; auditor critical matters, segment note and non-GAAP reconciliation unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "p5",
+    "k8"
+   ],
+   "note": "Countercase covers capex absorbing cash, financing reversal, SBC, legal, control concentration and flattering comparisons."
+  }
+ },
+ "price": {
+  "value": 623.61,
+  "currency": "USD",
+  "as_of": "2026-11-12T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-12",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 623.61,
+    "currency": "USD",
+    "as_of": "2026-11-12T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 623.61,
+    "currency": "USD",
+    "as_of": "2026-11-12T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 623.61,
+   "shares_outstanding": 2556241253,
+   "share_basis": "10-Q cover 2026-10-16, Class A 2,214,472,367 + Class B 341,768,886 (point in time; excludes unsettled 40M-share forward sale and Class C dividend effective 2027-01-19)",
+   "market_cap_usd": 1594097607783,
+   "cash_and_securities_usd": 82449000000,
+   "total_debt_usd": 83669000000,
+   "net_debt_usd": 1220000000,
+   "enterprise_value_usd": 1595317607783,
+   "ttm_revenue_usd": 241605000000.0,
+   "ttm_net_income_usd": 75249000000.0,
+   "ttm_basis": "FY2025 + 9M26 - 9M25 from 10-K/10-Q XBRL",
+   "ev_to_sales": 6.6,
+   "pe_ttm": 21.2,
+   "ttm_ocf_usd": 133087000000.0,
+   "ttm_capex_usd": 104438000000.0,
+   "ttm_fcf_usd": 28649000000.0,
+   "fcf_yield_pct": 1.8,
+   "ttm_sbc_usd": 26943000000.0,
+   "ttm_fcf_after_sbc_usd": 1706000000.0,
+   "fcf_yield_after_sbc_pct": 0.11
+  },
+  "growth": {
+   "q3_revenue_growth_yoy_pct": 26.1,
+   "nine_month_revenue_growth_pct": 28.8
+  },
+  "quality": {
+   "nine_month_capex_usd": 83055000000.0,
+   "guided_2026_capex_usd_range": "135B to 145B (10-Q)",
+   "nine_month_buybacks_usd": 0,
+   "q3_legal_charge_usd": 9890000000.0
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers, depreciation schedule, segment (Reality Labs) and guidance detail unread",
+  "FY2025 10-K and Exhibit 99.1 unread",
+  "Finance leases and EUR 9B notes not in debt figure",
+  "Quotes: two publishers, publisher-level independence only",
+  "Scores not assigned"
+ ]
+}
