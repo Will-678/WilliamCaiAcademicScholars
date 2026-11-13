@@ -302,3 +302,9 @@ Screen not refreshed (retrieved 2026-11-11 12:05 ET, under 24h; 4,396 revenue fi
 - Researched EXPO (watch, medium; ~37x TTM EPS, FCF yield 3.4%, net cash, close 86.22) and MGRC (watch, medium; 20x TTM EPS, 2.5x book, 9M FCF -78.7M, debt +103M, close 129.98). Scores null; valid, not attractive-eligible. Revalidated 68 records: 68 valid, 0 eligible.
 - sec.gov scripted downloads still blocked (no spoofing); WebFetch worked but truncated before MD&A. 2026-11-12 closes agree within 0.5% between stockanalysis.com and Yahoo (publisher-level independence only). Benchmark VTI pending; no paper references.
 - Next: peers for EXPO/MGRC/CINF; MD&A and 10-Ks; other screen names (PLTR, NOVA, KGS, COGN, HQY); EXEL '039 ruling; OLED blocked.
+
+## Worker run 2026-11-12 ~20:10 ET (method 2.0, run 41)
+- Screen not refreshed (retrieved 12:05 ET, ~8h old; 4,396 revenue filers, 1,142 comparable, 419 preliminary passes; annual US GAAP USD only, not global, not valuation).
+- Researched SPSC (watch, medium; 4% growth, FCF yield 6.9%/4.8% after SBC, 35x TTM GAAP, close 82.25) and KINS (watch, medium; 8.0x TTM EPS, 2.5x book, Q3 combined ratio 65.6% non-run-rate, close 23.23). Scores null; valid, not attractive-eligible. SPSC Q1 10-Q/A is a disclosure-only amendment (CEO 10b5-1 plan), not a restatement.
+- Unverified: peers, 10-Ks, controls, KINS reserves/reinsurance and Form 144, quote independence beyond two publishers. Benchmark VTI pending; no paper references.
+- Next: peers for SPSC/KINS/EXPO/CINF; EXEL '039 ruling; screen names HQY, Cellebrite, Bentley, PLTR, NOVA.

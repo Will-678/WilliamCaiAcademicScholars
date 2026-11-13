@@ -1,0 +1,220 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "SPSC",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "software/SaaS supply-chain network: P/E GAAP and non-GAAP, FCF yield after SBC, EV/sales, EBITDA margin, net cash, buyback cover",
+ "as_of": "2026-11-12T20:08:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "SPS Commerce (Nasdaq: SPSC) runs a cloud retail supply-chain network (EDI/fulfillment, analytics) with no debt. Q3 2026 (ended 2026-09-30): revenue 197.6M (+4%), GAAP NI 30.7M ($0.85 vs $0.67), non-GAAP EPS $1.39 (vs $1.13), adjusted EBITDA 70.9M (36% margin vs 32%). Nine-month revenue 587.6M (+5%); nine-month GAAP NI 57.3M (vs 67.5M) after a 23.5M loss on the 2026-06-30 sale of the 3P revenue recovery business. FY26 guidance: revenue 786.9-788.9M (~+5%), non-GAAP EPS 5.05-5.11, adjusted EBITDA margin ~34%. Balance sheet 2026-09-30: cash 153.8M plus short-term investments 29.7M, no debt shown, total liabilities 199.7M, equity 932.9M. TTM OCF 231.5M less capex 28.9M = FCF 202.6M; SBC 62.9M TTM so FCF after SBC 139.8M. Close 82.25 (2026-11-12): market cap about 2.92B on 35.44M shares, EV about 2.73B, EV/TTM sales 3.5x, FCF yield 7.0% (4.8% after SBC), 35x TTM GAAP EPS (about 27x ignoring the 23.5M divestiture loss), 16x FY26 non-GAAP EPS guidance. Nine-month buybacks 147.2M (about 79% of OCF). Possibly cheap versus its own history (52-week range 49.04-96.54, now mid-range) if growth holds, but growth is only mid single digit and the cheap-looking non-GAAP multiple excludes about 1.7 dollars per share of SBC; no clear mispricing proven.",
+ "counterthesis": "Revenue growth has slowed to 4-5% (recurring +4%, customer count -15% largely from the divestiture); a mid-single-digit grower with 62.9M TTM SBC (8% of sales) is not obviously cheap at 4.8% FCF yield after SBC and 27-35x GAAP earnings. Non-GAAP EPS of 5.08 excludes SBC and amortization, so the 16x multiple is flattered. Margin gains in 2026 partly reflect the divestiture and cost control; Q2 GAAP NI was only 6.9M. Retail customer concentration/tariff-driven volume risk, AI-driven disruption of EDI software, and large buybacks at higher prices than the 2025 low are risks. Peer multiples (descriptions: Descartes, Manhattan, Kinaxis, Appfolio, Paycom) and 10-K risk factors/audit matters were not read; CEO 10b5-1 plan and leadership transition are unassessed.",
+ "invalidation": "Valuation case would need FCF yield after SBC above about 6% or evidence growth reaccelerates above 8% organically. Quality thesis fails if organic recurring revenue growth falls below 3%, adjusted EBITDA margin drops below 30%, or SBC rises faster than revenue.",
+ "sources": [
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001092699.json",
+   "document_id": "SEC-submissions-CIK0001092699",
+   "origin": "SEC EDGAR submissions JSON 2026-11-12: 10-Q 2026-10-29 (period 2026-09-30), 8-K 2026-10-29, 10-Q/A 2026-07-21 (Q1); nothing newer except Form 4/144 insider filings",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T20:08:00-05:00"
+  },
+  {
+   "id": "q10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1092699/000109269926000075/spsc-20260930.htm",
+   "document_id": "0001092699-26-000075",
+   "origin": "SEC 10-Q period 2026-09-30 via WebFetch: balance sheet, income statement, cash flow, cover, MD&A revenue drivers read; text truncated before Item 4 controls",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T20:08:00-05:00"
+  },
+  {
+   "id": "rel",
+   "url": "https://www.sec.gov/Archives/edgar/data/1092699/000109269926000074/er_q326.htm",
+   "document_id": "0001092699-26-000074-EX99.1",
+   "origin": "Issuer Q3 release Ex 99.1 filed 2026-10-29 via WebFetch: non-GAAP EPS, adjusted EBITDA, FY26 guidance, 3P divestiture",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T20:08:00-05:00"
+  },
+  {
+   "id": "qa10",
+   "url": "https://www.sec.gov/Archives/edgar/data/1092699/000109269926000059/spsc-20260331.htm",
+   "document_id": "0001092699-26-000059",
+   "origin": "SEC 10-Q/A for Q1 2026 via WebFetch: explanatory note only (adds omitted Rule 10b5-1 plan disclosure for CEO, no restatement)",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T20:08:00-05:00"
+  },
+  {
+   "id": "cf",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001092699.json",
+   "document_id": "SEC-companyfacts-CIK0001092699",
+   "origin": "SEC XBRL companyfacts: FY2025 10-K OCF 178.790M, capex 26.524M, NI 93.339M, revenue 751.505M, SBC 53.728M; 9M25 and 9M26 10-Q values",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T20:08:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/spsc/",
+   "document_id": "stockanalysis-SPSC-2026-11-12",
+   "origin": "stockanalysis.com via WebFetch: 82.25 at Nov 12 2026 4:00 PM EST (-0.60, prior close 82.85), shares 35.44M",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T20:08:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/SPSC/history/",
+   "document_id": "yahoo-finance-SPSC-2026-11-11",
+   "origin": "finance.yahoo.com history via WebFetch: header 'At close: November 12' 82.25 (table rows through Nov 11: 82.85, Nov 10 80.92); same underlying exchange data as other publisher",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-12T20:08:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q10",
+    "rel",
+    "qa10"
+   ],
+   "note": "10-Q and 8-K Q3 release filed 2026-10-29 are latest financial filings per submissions JSON on 2026-11-12; later items are Forms 4 and 144 only. FY2025 10-K not read in text. 10-Q/A for Q1 is an Item 5 disclosure amendment, not a restatement."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10"
+   ],
+   "note": "2026-09-30 (thousands): cash 153,818; short-term investments 29,683; total assets 1,132,598; total liabilities 199,696 (operating leases 6,624); equity 932,902; no debt line. Dec 2025: cash 151,355, equity 973,893."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "cf"
+   ],
+   "note": "Nine-month OCF 185.664M and capex (PP&E) 21.246M read from 10-Q; TTM OCF 231.535M = FY25 178.790 + 9M26 185.664 - 9M25 132.919; capex 28.897M similarly; SBC TTM 62.872M. Capitalized software not separately disclosed in cash flow (possible capitalized internal-use software inside investing; unverified)."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "qa"
+   ],
+   "note": "35,440,926 shares outstanding at 2026-10-22 (10-Q cover) matches 35.44M on stockanalysis; weighted diluted 36.209M Q3, 36.740M nine months."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "rel",
+    "q10",
+    "qa",
+    "qb"
+   ],
+   "note": "P/E, EV/sales, FCF yield computed; peers and company history not compared; price from two publishers, publisher-level independence."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "rel"
+   ],
+   "note": "Software model: FCF after SBC, non-GAAP vs GAAP reconciliation, net cash, buybacks versus OCF; adjusted EBITDA is management defined."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q10",
+    "qa10",
+    "rel"
+   ],
+   "note": "Divestiture loss 23.5M inflates TTM GAAP distortion; SBC and non-GAAP exclusions noted; 10-Q/A is disclosure only; controls (Item 4), notes, auditor matters and 10-K unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q10",
+    "rel",
+    "cf"
+   ],
+   "note": "Countercase covers slow growth, SBC, non-GAAP flattery, divestiture effect, buyback at higher prices, unverified peers."
+  }
+ },
+ "price": {
+  "value": 82.25,
+  "currency": "USD",
+  "as_of": "2026-11-12T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-12",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 82.25,
+    "currency": "USD",
+    "as_of": "2026-11-12T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 82.25,
+    "currency": "USD",
+    "as_of": "2026-11-12T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 82.25,
+   "shares_outstanding": 35440926,
+   "market_cap_usd": 2915004000,
+   "cash_and_short_term_investments_usd": 183501000,
+   "debt_usd": 0,
+   "enterprise_value_usd": 2731503000,
+   "ttm_revenue_usd": 780235000,
+   "ttm_net_income_usd": 83117000,
+   "ttm_basis": "FY2025 93.339M minus 9M25 67.498M plus 9M26 57.276M",
+   "ev_to_sales": 3.50,
+   "ttm_ocf_usd": 231535000,
+   "ttm_capex_usd": 28897000,
+   "ttm_fcf_usd": 202638000,
+   "fcf_yield_pct": 6.95,
+   "ttm_sbc_usd": 62872000,
+   "ttm_fcf_after_sbc_usd": 139766000,
+   "fcf_yield_after_sbc_pct": 4.79,
+   "fy26_nongaap_eps_guide_midpoint": 5.08,
+   "pe_on_guided_nongaap": 16.3,
+   "close_2026_11_11": 82.85
+  },
+  "growth": {
+   "q3_revenue_growth_pct": 4,
+   "nine_month_revenue_growth_pct": 5.1,
+   "guide_fy26_revenue_growth_pct": 5
+  },
+  "capital_return": {
+   "buybacks_9m_usd": 147205000,
+   "ocf_9m_usd": 185664000,
+   "buyback_to_ocf_pct": 79.3
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peer multiples and SPSC history not compared",
+  "FY2025 10-K, Item 4 controls, notes and audit matters unread",
+  "Nov 12 close agrees between two publishers (Yahoo header, stockanalysis) but publisher-level independence only; Yahoo history table lacked the Nov 12 row",
+  "Organic growth ex-divestiture not disclosed; capitalized software unverified",
+  "Scores not assigned"
+ ]
+}
