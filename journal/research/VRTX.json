@@ -1,0 +1,204 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "VRTX",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "large-cap biopharma: product revenue concentration, FCF after SBC, net cash after acquisition financing, pipeline and acquired intangibles",
+ "as_of": "2026-11-14T04:07:15-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Vertex Pharmaceuticals (Nasdaq: VRTX), cystic fibrosis franchise plus Journavx, Casgevy and, since 2026-09-01, Crinetics (Palsonify, atumelnant). Q3 2026 (10-Q filed 2026-11-03): revenue 3,440.8M (+11.8% vs 3,076.4M), operating income 712.9M (vs 1,186.2M), net income 653.6M (diluted EPS 2.56 vs 4.20). The profit drop reflects the Crinetics deal: 409.6M accelerated equity award expense and 58.9M transaction costs in SG&A, SG&A 844.1M vs 445.1M, R&D 1,320.6M vs 977.7M. Crinetics cost 10.0B cash equity value (9.0B net of acquired cash); goodwill 1,335.4M, Palsonify intangible 3,010.0M, atumelnant IPR&D 5,116.0M. Financing: 4,496.8M term loan proceeds in 9M; debt 999.6M short-term plus 3,497.0M long-term (about 4.50B) vs zero at 2025-12-31. Cash and marketable securities 9,821.2M (vs 12,320.4M at year end), so net cash about 5.32B. 9M OCF 3,196.6M less capex 342.9M = FCF 2,853.7M; TTM OCF 3,694.6M (FY25 3,631.4 - 9M25 3,133.4 + 3,196.6) less TTM capex 492.3M = FCF 3,202.3M. At 538.60 (2026-11-13 close, 52-week 412.27-568.67) and 253.54M shares, market cap about 136.6B, EV about 131.2B, TTM FCF yield 2.3%, EV/FCF 41x; TTM SBC about 668.6M (includes the 409.6M one-off acceleration), FCF after SBC about 2.53B (1.9%). Trailing GAAP P/E about 34.6x (stockanalysis) is depressed by acquisition charges, so ex-charge multiples are lower but I did not reconcile them. Buybacks 933.1M in 9M but only 120.8M in Q3 as cash went to the deal. Why the market may price it this way: a 34x trailing multiple on 12% growth assumes Journavx and Casgevy ramps plus pipeline value; what differs: the CF franchise is highly cash generative and net cash remains large; what would close the gap: product revenue splits and guidance, which I did not read.",
+ "counterthesis": "Quality is high but price attractiveness is not shown: FCF yield about 2.3% with 12% growth. Cystic fibrosis revenue is concentrated, with competition and patent timelines I did not review. The 10B Crinetics deal paid for pre-revenue IPR&D (5.1B atumelnant) that can be written down on trial failure, and leverage went from zero to 4.5B (term loan terms, rates and covenants unread). Opioid-alternative Journavx and Casgevy ramps are unverified. Product revenue breakdown, guidance and legal proceedings were in truncated parts of the 10-Q and the earnings release (8-K 2026-11-02, URL not retrievable) was not read. Form 144 filings 11-06 and 11-12 indicate insider sales (content unread).",
+ "invalidation": "Thesis would fail if CF revenue growth stalls, Journavx or Casgevy ramps disappoint, atumelnant trials fail forcing impairment, or the term loan and integration costs constrain buybacks and returns.",
+ "sources": [
+  {
+   "id": "k1",
+   "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000291/vrtx-20260930.htm",
+   "document_id": "0000875320-26-000291",
+   "origin": "Form 10-Q for quarter ended 2026-09-30 filed 2026-11-03 via WebFetch extract; income statement, Crinetics note, debt, cash and repurchases read; product revenue, guidance and legal sections truncated",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T04:07:15-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000875320.json",
+   "document_id": "SEC-companyfacts-CIK0000875320",
+   "origin": "SEC XBRL companyfacts: FY2025 10-K and 2026 10-Qs: OCF, capex, SBC, EPS, shares 253,537,674 at 2026-10-31",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T04:07:15-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0000875320.json",
+   "document_id": "SEC-submissions-CIK0000875320",
+   "origin": "SEC submissions JSON 2026-11-14: 8-K 2.02 on 2026-11-02, 10-Q 2026-11-03, Forms 144 on 11-06 and 11-12",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T04:07:15-05:00"
+  },
+  {
+   "id": "e1",
+   "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000100/vrtx-20261102.htm",
+   "document_id": "vrtx-20261102-8k",
+   "origin": "Earnings 8-K filed 2026-11-02; URL guess returned 404 so the release was not read",
+   "kind": "earnings_release",
+   "read_status": "unread",
+   "accessed_at": "2026-11-14T04:07:15-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/vrtx/",
+   "document_id": "stockanalysis-VRTX-2026-11-13",
+   "origin": "stockanalysis.com via WebFetch: close 538.60 at 4:00 PM EST 2026-11-13, 253.54M shares, market cap 136.56B, P/E 34.64",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T04:07:15-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/VRTX/history/",
+   "document_id": "yahoo-finance-VRTX-2026-11-13",
+   "origin": "Yahoo Finance via WebFetch: close 538.60 on 2026-11-13; 542.62 on 11-12",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T04:07:15-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "k1",
+    "sub"
+   ],
+   "note": "10-Q filed 2026-11-03 read in part; submissions show no later periodic report, only Forms 4/144 and a 13G/A."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "k1"
+   ],
+   "note": "Cash 4,979.3M, current securities 1,324.0M, long-term securities 3,517.9M; short-term debt 999.6M, long-term debt 3,497.0M; leases and other liabilities not read."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "k1",
+    "fy"
+   ],
+   "note": "9M26 OCF 3,196.6M less capex 342.9M = 2,853.7M; TTM built from FY25 10-K minus 9M25 plus 9M26, all from SEC XBRL with matching periods."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "fy",
+    "qa"
+   ],
+   "note": "253,537,674 shares at 2026-10-31 from 10-Q cover (XBRL dei) agrees with stockanalysis 253.54M."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "qa",
+    "fy"
+   ],
+   "note": "FCF yield and EV computed; no peers (REGN, GILD, AMGN, BIIB), history, or ex-charge earnings; guidance unread."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "k1"
+   ],
+   "note": "Biopharma: FCF after SBC, net cash, acquired IPR&D, product concentration; bank ratios not applicable."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "k1"
+   ],
+   "note": "Acquisition charges identified, but purchase accounting, term loan covenants, legal proceedings and audit matters not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "k1",
+    "fy"
+   ],
+   "note": "Covers valuation, concentration, IPR&D impairment, leverage and insider sales."
+  }
+ },
+ "price": {
+  "value": 538.6,
+  "currency": "USD",
+  "as_of": "2026-11-13T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-13",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 538.6,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 538.6,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 538.6,
+   "shares_outstanding": 253537674,
+   "share_basis": "10-Q cover shares at 2026-10-31",
+   "market_cap_usd": 136555000000,
+   "pe_ttm_stockanalysis": 34.64
+  },
+  "cash_flow": {
+   "nine_month_ocf_musd": 3196.6,
+   "nine_month_capex_musd": 342.9,
+   "nine_month_fcf_musd": 2853.7,
+   "ttm_ocf_musd": 3694.6,
+   "ttm_capex_musd": 492.3,
+   "ttm_fcf_musd": 3202.3,
+   "fcf_yield_pct": 2.35,
+   "ttm_sbc_musd": 668.6,
+   "fcf_after_sbc_musd": 2533.7,
+   "fcf_yield_after_sbc_pct": 1.86,
+   "ev_to_fcf": 41.0,
+   "basis": "SEC XBRL, matching periods; SBC includes 409.6M acceleration in Q3"
+  },
+  "balance_sheet": {
+   "cash_and_securities_musd": 9821.2,
+   "debt_musd": 4496.6,
+   "net_cash_musd": 5324.6,
+   "period_end": "2026-09-30"
+  },
+  "growth": {
+   "q3_revenue_growth_pct": 11.85,
+   "nine_month_revenue_growth_pct": 10.8
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Earnings release and guidance unread",
+  "Product revenue split unread",
+  "Peers and history not done",
+  "Term loan terms and covenants unread",
+  "Legal proceedings unread",
+  "Quotes: two publishers, publisher-level independence only",
+  "Scores not assigned"
+ ]
+}
