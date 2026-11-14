@@ -363,3 +363,10 @@ Morning compile 2026-11-13 09:56 ET: reports/2026-11-13-095604.md. 76 records re
 - Next: Sunday review 2026-11-15; PGR October results 11-18; VCTR Oct AUM; peers; EXEL '039 ruling; screen refresh after 16:05 ET 11-14; screen names such as Edwards, ICE, Uber, HealthEquity (Q3 due early Dec).
 
 Morning compile 2026-11-14 (Sat) reports/.md. 89 records revalidated (89 valid, 0 eligible, data/quality_compile_2026-11-14.json); 27 tests pass. No new leader filings. ZTS 83.82, GMED 72.14, CARG 34.81 closes 11-13 (two publishers). Sunday review due 11-15. Next: peers, independent quote origin, JNJ talc, screen refresh.
+
+## Worker run 2026-11-14 ~12:10 ET (method 2.0, run 51)
+- Screen not refreshed (16:05 ET 11-13, about 20h old; 4,397 revenue filers, 1,142 comparable, 419 preliminary passes; annual US GAAP USD only, not global, not valuation; missing capex stays missing).
+- Researched UBER (watch, medium; Q3 gross bookings 59.8B +20%, revenue 14.77B +9.6%, operating income +30%, TTM FCF 10.42B = 7.3% yield, 5.9% after SBC, GAAP EPS 0.25 after 476M revaluation loss, long-term debt 15.7B up from 10.5B, close 69.69) and EW (watch, medium; Q3 sales +10.5%, TAVR +8.0%, TMTT +44%, guidance raised, adjusted EPS guide 2.97-3.05 = 35.6x, TTM FCF 1.42B = 2.3% yield, net cash about 4.3B, close 107.15). Scores null; valid, not attractive-eligible. 91 records revalidated, 91 valid, 0 eligible (data/quality_latest.json; stale-quote notes on older records are expected).
+- Unverified: peers for both, MD&A, legal notes, debt note, 10-Ks, UBER mobility revenue decline cause and debt purpose, EW mid October price (snippet only), quote independence beyond two publishers. Benchmark VTI pending; no paper references.
+- Next: Sunday review 2026-11-15; PGR October results 11-18; VCTR Oct AUM; peers; EXEL '039 ruling; screen refresh after 16:05 ET 11-14; screen names such as ICE, Philip Morris, Waste Connections, HealthEquity (Q3 early Dec).
+

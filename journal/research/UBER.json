@@ -1,0 +1,206 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "UBER",
+ "exchange": "NYSE",
+ "currency": "USD",
+ "sector_model": "Consumer internet marketplace and platform: gross bookings, take rate, FCF after SBC; investment revaluations excluded from earnings power",
+ "as_of": "2026-11-14T12:07:36-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Uber Technologies (NYSE: UBER), global mobility, delivery and freight marketplace. Q3 2026 10-Q (0001543151-26-000041, filed 2026-11-04) and earnings release (8-K 0001543151-26-000039). Q3 gross bookings 59.8B USD (+20%; mobility 29.5B +18%, delivery 28.5B +22%, freight 1.8B +35%); revenue 14,766M (+9.6%; mobility revenue -2%, delivery +23%); income from operations 1,447M (1,113M); adjusted EBITDA 2,963M (+31%, 5.0% of bookings, no longer a key management measure). GAAP net income 512M (EPS 0.25) vs 6,626M a year ago, which held a 4,046M tax benefit and large other income; Q3 2026 other expense of 616M includes a 476M pretax loss on equity investment revaluations, so GAAP is not earnings power either way. TTM (FY2025 10-K plus 9M26 minus 9M25, XBRL): revenue 56,526M, operating cash flow 10,735M, capex 314M, FCF 10,421M (matches company TTM figure), SBC 2,065M so FCF after SBC 8,356M, net income 3,465M. Shares 2,041.9M (10-Q cover, 2026-10-30), market cap about 142.3B at 69.69, so FCF yield 7.3%, 5.9% after SBC, 41x TTM GAAP earnings (distorted by revaluations). Q4 guide: bookings 63.25-65.25B (+18-22% cc), adjusted EBITDA 3.13-3.23B, non-GAAP EPS 0.95-0.99. Balance sheet 2026-09-30: cash 9,558M, short-term investments 510M, non-current investments 7,975M (equity stakes), restricted investments 8,768M (insurance related, not free), long-term debt 15,664M (10,521M at 2025-12-31; current portion unread). Buybacks 4,279M in 9M26 (about 56.6M shares), 902M spent on acquisitions in Q3. Market view: price near 70 versus 52 week range suggests worry over autonomous vehicle disruption and competition; evidence against that is 20% bookings growth with rising margin and 7% FCF yield. What closes the gap: sustained bookings growth near 20% with operating income growth ahead of revenue and buybacks absorbing SBC.",
+ "counterthesis": "Autonomous vehicle makers could take mobility supply or pricing and Uber is spending (debt up 5.1B in nine months, acquisition purchases) to partner or own. Mobility revenue fell 2% while bookings rose 18%, which points to business model or accounting changes (agency versus principal, driver incentives) that were not read in MD&A. FCF includes working capital and insurance reserve effects, and restricted investments of 8.8B back insurance liabilities. SBC of about 2.1B is a real cost. Q3 GAAP net income fell 92% on revaluation swings and prior tax benefits, so reported EPS is unreliable. Legal and regulatory risk (driver classification, insurance costs, antitrust, tax) in the 10-Q notes was not read. Freight revenue is flat to growing only via acquisitions. Peer multiples (DASH, LYFT, GRAB, BKNG) and Uber's own history were not compared.",
+ "invalidation": "Thesis fails if gross bookings growth drops below about 12%, FCF falls with operating income, debt keeps rising to fund deals without matching cash flow, autonomous vehicle competitors win key cities, or a legal ruling forces worker reclassification costs.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000041/uber-20260930.htm",
+   "document_id": "0001543151-26-000041",
+   "origin": "Q3 2026 Form 10-Q via WebFetch extract (cover, statements, Level 3 table); MD&A, debt note, legal notes cut off",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T12:07:36-05:00"
+  },
+  {
+   "id": "e",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001543151/000154315126000039/uberq326earningspressrelea.htm",
+   "document_id": "0001543151-26-000039 Ex99",
+   "origin": "Q3 2026 earnings release, Exhibit 99.1 to 8-K filed 2026-11-04 via WebFetch; issuer release",
+   "kind": "earnings_release",
+   "read_status": "full",
+   "accessed_at": "2026-11-14T12:07:36-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001543151.json",
+   "document_id": "SEC-companyfacts-CIK0001543151",
+   "origin": "SEC XBRL companyfacts: FY2025 10-K revenue 52,017M, OCF 10,099M, capex 336M, SBC 1,826M, NI 10,053M; 10-K text not read",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T12:07:36-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001543151.json",
+   "document_id": "SEC-submissions-CIK0001543151",
+   "origin": "SEC submissions JSON 2026-11-14: latest 10-Q and 8-K both 2026-11-04, only Form 4/144 since",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T12:07:36-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/uber/history/",
+   "document_id": "stockanalysis-UBER-2026-11-13",
+   "origin": "stockanalysis.com via WebFetch: NYSE USD close 69.69 on 2026-11-13, 69.12 on 11-12",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T12:07:36-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/UBER/history/",
+   "document_id": "yahoo-finance-UBER-2026-11-13",
+   "origin": "Yahoo Finance via WebFetch: close 69.69 on 2026-11-13, 69.12 on 11-12",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T12:07:36-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "e",
+    "sub"
+   ],
+   "note": "Q3 10-Q and earnings release (both 2026-11-04) read; submissions show nothing later except Form 4/144; 10-K text not read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Cash 9,558M, ST investments 510M, long-term debt 15,664M at 2026-09-30 from the 10-Q balance sheet; current debt portion, maturities and insurance reserves not read."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "fy",
+    "q",
+    "e"
+   ],
+   "note": "TTM OCF 10,735M and capex 314M from XBRL 10-K and 10-Q periods (2025-01-01 to 2025-12-31, 9M25, 9M26) match the company TTM FCF 10,421M; SBC 2,065M deducted separately; capex reported, not missing."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "2,041,898,070 shares on the 10-Q cover at 2026-10-30; point in time count used."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "qa",
+    "fy",
+    "e"
+   ],
+   "note": "FCF yield and GAAP multiple computed; peers and Uber's own history not compared; GAAP earnings distorted."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "e",
+    "q"
+   ],
+   "note": "Marketplace model: bookings, take rate, operating income, FCF after SBC; equity revaluations excluded."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "e"
+   ],
+   "note": "Revaluation losses, 2025 tax benefit and mobility revenue decline versus bookings noted; MD&A, debt note, insurance reserves and legal notes not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "e",
+    "q"
+   ],
+   "note": "Covers autonomous vehicles, revenue accounting, SBC, debt build, earnings noise and legal risk."
+  }
+ },
+ "price": {
+  "value": 69.69,
+  "currency": "USD",
+  "as_of": "2026-11-13T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-13",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 69.69,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 69.69,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 69.69,
+   "shares_outstanding": 2041898070,
+   "share_basis": "10-Q cover 2026-10-30",
+   "market_cap_usd": 142299876498,
+   "ttm_revenue_musd": 56526,
+   "ttm_net_income_musd": 3465,
+   "pe_ttm": 41.1,
+   "ttm_fcf_musd": 10421,
+   "fcf_yield_pct": 7.3,
+   "sbc_ttm_musd": 2065,
+   "fcf_after_sbc_yield_pct": 5.9,
+   "basis": "TTM = FY2025 + 9M26 - 9M25, USD millions, from SEC XBRL"
+  },
+  "cash_flow": {
+   "ocf_ttm_musd": 10735,
+   "capex_ttm_musd": 314,
+   "ocf_9m26_musd": 7852,
+   "capex_9m26_musd": 239,
+   "fcf_q3_musd": 2535,
+   "basis": "USD millions; periods 2025-01-01 to 2025-12-31 minus 2025-01-01 to 2025-09-30 plus 2026-01-01 to 2026-09-30"
+  },
+  "balance_sheet": {
+   "cash_musd": 9558,
+   "short_term_investments_musd": 510,
+   "noncurrent_investments_musd": 7975,
+   "restricted_investments_musd": 8768,
+   "long_term_debt_musd": 15664,
+   "period_end": "2026-09-30",
+   "net_debt_note": "long-term debt less cash and short-term investments about 5,596M excluding current debt portion, unread"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers (DASH, LYFT, BKNG, GRAB) and Uber history not compared",
+  "MD&A, debt note, insurance reserves, legal notes and 10-K not read; mobility revenue -2% versus bookings +18% unexplained",
+  "Debt increase 5.1B in 9M purpose unverified",
+  "Quote independence is publisher level only",
+  "Scores not assigned"
+ ]
+}

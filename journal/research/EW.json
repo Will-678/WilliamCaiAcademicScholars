@@ -1,0 +1,204 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "EW",
+ "exchange": "NYSE",
+ "currency": "USD",
+ "sector_model": "Medical device: segment growth, gross and operating margin on adjusted and GAAP bases, FCF after SBC, IPR&D and acquisition accounting",
+ "as_of": "2026-11-14T12:07:36-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Edwards Lifesciences (NYSE: EW), transcatheter aortic valve replacement (TAVR), transcatheter mitral and tricuspid therapies (TMTT) and surgical valves. Q3 2026 10-Q (0001099800-26-000054) and earnings release Exhibit 99.1 (0001099800-26-000053), both filed 2026-11-04. Q3 sales 1,715.5M (+10.5%, +11.2% constant currency): TAVR 1,241.6M (+8.0%), TMTT 209.5M (+44.3%), surgical 264.4M (+2.5%). Nine month sales 5,105.1M (+13.5%). Q3 GAAP EPS 0.53 vs adjusted 0.80 (+19%); GAAP includes a 220.2M impairment of an acquired IPR&D asset (218.4M IPR&D), excluded from adjusted; 9M GAAP also has a 163.6M loss on impairment of investments and 418.5M tax provision. Adjusted operating margin 30.3% vs GAAP 17.4%; gross margin 78.5% GAAP. 2026 guidance raised: sales growth about 11.5% cc, TAVR +9-9.5%, TMTT 780-790M, adjusted EPS 2.97-3.05, Q4 sales 1.67-1.75B, adjusted EPS 0.61-0.69. TTM (FY2025 10-K plus 9M26 minus 9M25, XBRL): net income 1021.3M (GAAP EPS about 1.78, 60x), OCF 1716.9M, capex 292.8M, FCF 1424.1M, SBC 172.8M. Shares 575.0M (10-Q cover 2026-10-31), market cap about 61.6B at 107.15; FCF yield 2.3% (2.0% after SBC); 35.6x the adjusted EPS guide midpoint of 3.01. Balance sheet 2026-09-30: cash 3,110.8M, short-term investments 1,533.9M, long-term investments 262.6M, long-term debt 598.8M, so net cash about 4.3B (EV about 57.3B). Buybacks 714M in 9M26, 1.3B authorization left. Market view: stock about 85 on 2026-10-14 (Investing.com snippet, unverified) and 107.15 now implies the market already pays for durable low double digit growth and margin expansion. Evidence for the company's case: TMTT momentum and three guidance raises; evidence against cheapness: 2% FCF yield. What closes the gap: TAVR volume growth above 9% with TMTT scaling, FCF conversion rising toward net income.",
+ "counterthesis": "Price near a high multiple leaves little room: 36x adjusted EPS and 2% FCF yield. TAVR growth guided mostly from procedure volume rather than share gains, and competitors (Medtronic, Abbott, Boston Scientific) in TAVR and mitral/tricuspid could take share. Adjusted EPS excludes recurring acquisition related impairments (220M this quarter, 163.6M investment losses in 9M), so adjusted results overstate owner earnings. GAAP EPS fell to 1.61 from 1.67 for nine months while sales grew 13.5%. Gross margin guided at the low end of 78-79%. TMTT growth depends on reimbursement coverage, and the effective tax rate guided high end of 16-19%. Legal matters and the 10-K audit matters were not read; peer multiples and history were not compared; the Q3 stock reaction was not measured from verified prices.",
+ "invalidation": "Thesis fails if TAVR growth falls below about 6%, TMTT growth stalls, adjusted operating margin guidance is cut, further impairments show acquired assets underperform, or the multiple compresses without earnings growth.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/1099800/000109980026000054/ew-20260930.htm",
+   "document_id": "0001099800-26-000054",
+   "origin": "Q3 2026 Form 10-Q via WebFetch extract (cover, statements); segment note, MD&A and legal notes cut off",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T12:07:36-05:00"
+  },
+  {
+   "id": "e",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001099800/000109980026000053/ex-991q32026.htm",
+   "document_id": "0001099800-26-000053 Ex99.1",
+   "origin": "Q3 2026 earnings release Exhibit 99.1 to 8-K filed 2026-11-04 via WebFetch; issuer release",
+   "kind": "earnings_release",
+   "read_status": "full",
+   "accessed_at": "2026-11-14T12:07:36-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001099800.json",
+   "document_id": "SEC-companyfacts-CIK0001099800",
+   "origin": "SEC XBRL companyfacts: FY2025 10-K sales 6,067.6M, NI attributable 1,073.5M, OCF 1,595.2M, capex 260.2M, SBC 158.1M; 10-K text not read",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T12:07:36-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001099800.json",
+   "document_id": "SEC-submissions-CIK0001099800",
+   "origin": "SEC submissions JSON 2026-11-14: latest 10-Q and 8-K 2026-11-04, only Form 4/144 since",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T12:07:36-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/ew/history/",
+   "document_id": "stockanalysis-EW-2026-11-13",
+   "origin": "stockanalysis.com via WebFetch: NYSE USD close 107.15 on 2026-11-13, 105.80 on 11-12",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T12:07:36-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/EW/history/",
+   "document_id": "yahoo-finance-EW-2026-11-13",
+   "origin": "Yahoo Finance via WebFetch: close 107.15 on 2026-11-13, 105.80 on 11-12",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T12:07:36-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "e",
+    "sub"
+   ],
+   "note": "Q3 10-Q and release (2026-11-04) read; submissions show nothing later except Form 4/144; 10-K text not read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Cash 3,110.8M, short-term investments 1,533.9M, long-term investments 262.6M and long-term debt 598.8M at 2026-09-30 from the 10-Q balance sheet; current debt, leases and contingent consideration unread."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "fy",
+    "q"
+   ],
+   "note": "TTM OCF 1,716.9M and capex 292.8M from XBRL periods 2025-01-01 to 2025-12-31 minus 9M25 plus 9M26 (USD millions); capex reported; SBC deducted separately."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "575.0M shares on the 10-Q cover at 2026-10-31 (balance sheet 575.6M); point in time count used."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "qa",
+    "fy",
+    "e"
+   ],
+   "note": "GAAP and adjusted multiples and FCF yield computed; peers (ABT, MDT, BSX, SYK) and EW history not compared."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "e",
+    "q"
+   ],
+   "note": "Device model: segment growth, adjusted versus GAAP margins, FCF after SBC."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "e"
+   ],
+   "note": "220.2M IPR&D impairment, 163.6M investment loss and tax provision noted; MD&A, litigation, contingent consideration and 10-K audit matters not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "e",
+    "q"
+   ],
+   "note": "Covers valuation, competition, adjusted earnings exclusions, margins and reimbursement."
+  }
+ },
+ "price": {
+  "value": 107.15,
+  "currency": "USD",
+  "as_of": "2026-11-13T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-13",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 107.15,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 107.15,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 107.15,
+   "shares_outstanding": 575000000,
+   "share_basis": "10-Q cover 2026-10-31 (approximate 575.0M as printed in millions)",
+   "market_cap_usd": 61611250000,
+   "ttm_net_income_musd": 1021.3,
+   "pe_ttm_gaap": 60.3,
+   "adjusted_eps_guide_midpoint": 3.01,
+   "pe_adjusted_guide": 35.6,
+   "ttm_fcf_musd": 1424.1,
+   "fcf_yield_pct": 2.3,
+   "sbc_ttm_musd": 172.8,
+   "fcf_after_sbc_yield_pct": 2.0,
+   "basis": "TTM = FY2025 + 9M26 - 9M25, USD millions, SEC XBRL"
+  },
+  "cash_flow": {
+   "ocf_ttm_musd": 1716.9,
+   "capex_ttm_musd": 292.8,
+   "ocf_9m26_musd": 1266.0,
+   "capex_9m26_musd": 195.4,
+   "basis": "USD millions"
+  },
+  "balance_sheet": {
+   "cash_musd": 3110.8,
+   "short_term_investments_musd": 1533.9,
+   "long_term_investments_musd": 262.6,
+   "long_term_debt_musd": 598.8,
+   "net_cash_musd": 4307.3,
+   "period_end": "2026-09-30"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers (ABT, MDT, BSX, SYK) and EW history not compared",
+  "MD&A, legal notes, contingent consideration and 10-K not read",
+  "Mid October price near 85 is an unverified snippet; no verified post-earnings reaction",
+  "Quote independence is publisher level only",
+  "Scores not assigned"
+ ]
+}
