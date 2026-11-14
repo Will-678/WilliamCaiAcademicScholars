@@ -1,0 +1,209 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "NUTX",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "Healthcare facilities: visits, revenue per visit, receivables, lease adjusted debt and noncontrolling interest leakage; non-cash contract credit excluded from earnings power",
+ "as_of": "2026-11-14T16:09:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Nutex Health (Nasdaq: NUTX), operator of 28 micro-hospitals and emergency facilities in 12 states plus a small population health unit. Q3 2026 10-Q (0001628280-26-070993, filed 2026-11-05) and release (8-K 0001628280-26-071003). Q3 revenue 217.6M USD (-18.7%; hospital division 209.1M, -19.7%; same hospital revenue -20.1%) even though hospital visits rose 18.1% (same hospital +12.4%); the release says 2025 revenue was lifted by higher 2024 service estimates from collection data and a Q4 2025 chart reconciliation, so revenue per visit fell sharply (the key collectability question). Net income attributable to Nutex Q3 40.2M (55.4M), 9M 152.9M (59.0M) but 9M includes a 52.3M non-cash HaloMD amendment and CMS fee reduction credited to contract services (25.0M, 4.83 per diluted share, to Nutex). Adjusted EBITDA attributable Q3 63.9M (98.5M), 9M 211.4M (243.0M). TTM (XBRL): revenue 796.5M, OCF 258.5M, capex 10.4M, FCF 248.1M, net income attributable 164.7M. Shares 6.857M (release; 6.861M on the 10-Q cover at 2026-11-02 including earn-out shares), so market cap about 1.19B at 173.67; TTM P/E 7.2x (8.5x excluding the 25M HaloMD effect), FCF yield 20.8%, but 9M members' distributions to noncontrolling holders were 53.7M and finance lease payments 20.7M, so FCF after those about 14.6% yield. Balance sheet 2026-09-30: cash 249.9M, term and other debt 42.7M, finance lease liabilities 294.7M, total liabilities 491.5M, Nutex equity 435.6M, noncontrolling interests 105.3M, accounts receivable 356.1M (about 163 days of TTM revenue, no allowance line in the extract). Buybacks about 25M in 2026 under two programs, both finished, plus 147k shares retired in settlements with former physician owners; no Q3 repurchases. Arbitration: 50-60% of billable visits go to No Surprises Act IDR, company says it wins over 80% and collects over 80% of awards (inception through March 2026); Q3 arbitration cost 27.8M, accrued 51.3M. Cyber incident (8-K 2026-08-24, 08-31): data taken, no material operational or reporting impact identified, class actions filed, costs and insurance unquantified. No numerical guidance; two hospitals due Q4. Market view: price 173.67 is down from 205.22 on 11-04 (-15%) on the revenue fall; what price assumes is that the 2025 revenue peak was inflated and collections per visit will keep resetting down. Evidence against: visit growth, 20% FCF yield, net cash on funded debt. What would close the gap: stable revenue per visit for two quarters and cash conversion of receivables.",
+ "counterthesis": "Revenue per visit fell by roughly a third year on year while volumes grew, which suggests prior revenue estimates were too high and receivables of 356M (163 days) may carry further write-downs; operating cash flow 258M TTM is not clearly separate from collections of old balances. Earnings are inflated by a 52.3M non-cash contract services credit from the HaloMD amendment, and adjusted EBITDA includes it. The business depends on No Surprises Act arbitration outcomes, third-party arbitration provider HaloMD, and insurer lawsuits against that provider; a rule change or adverse rulings would hit revenue directly. Finance lease liabilities of 295M (mostly real estate) are debt like and larger than reported debt of 43M. Noncontrolling interests take about 28% of consolidated net income. Share count is tiny (6.9M) and daily volume 80k to 200k shares, so price moves are large (-15% in a week, 171 to 189 in a day) and liquidity is thin. Cyber breach exposes patient data with litigation and regulatory cost unquantified. Securities class actions and earn-out disputes are in the risk list. MD&A, legal proceedings and 10-K were not read, peers (HCA, UHS, other emergency operators) not compared. Share count history (about 6.9M shares, likely a reverse split) not verified.",
+ "invalidation": "Thesis fails if revenue per visit keeps falling, receivables rise faster than revenue or require large write-offs, IDR rules or the arbitration vendor's position deteriorate, cash conversion drops below net income, or the cyber incident brings material cost or regulatory penalty.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/1479681/000162828026070993/nutx-20260930.htm",
+   "document_id": "0001628280-26-070993",
+   "origin": "Q3 2026 Form 10-Q via WebFetch extract: cover, financial statements and notes to Note 16; MD&A, legal proceedings, risk factors cut off",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T16:09:00-05:00"
+  },
+  {
+   "id": "e",
+   "url": "https://www.sec.gov/Archives/edgar/data/1479681/000162828026071003/nutx-20260930xexx99.htm",
+   "document_id": "0001628280-26-071003 Ex99.1",
+   "origin": "Q3 2026 earnings release, Exhibit 99.1 to 8-K filed 2026-11-05 via WebFetch; issuer release",
+   "kind": "earnings_release",
+   "read_status": "full",
+   "accessed_at": "2026-11-14T16:09:00-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001479681.json",
+   "document_id": "SEC-companyfacts-CIK0001479681",
+   "origin": "SEC XBRL companyfacts: FY2025 10-K revenue 875M, OCF 248M, capex 2.5M, NI attributable 70.8M; 10-K text not read",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T16:09:00-05:00"
+  },
+  {
+   "id": "c8",
+   "url": "https://www.sec.gov/Archives/edgar/data/1479681/000162828026059602/nutx-20260831.htm",
+   "document_id": "0001628280-26-059602",
+   "origin": "8-K Item 1.05 filed 2026-08-31 via WebFetch: data taken from servers, no material operational or financial reporting impact identified yet",
+   "kind": "secondary",
+   "read_status": "full",
+   "accessed_at": "2026-11-14T16:09:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/nutx/history/",
+   "document_id": "stockanalysis-NUTX-2026-11-13",
+   "origin": "stockanalysis.com via WebFetch: Nasdaq USD close 173.67 on 2026-11-13, 171.41 on 11-12",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T16:09:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/NUTX/history/",
+   "document_id": "yahoo-finance-NUTX-2026-11-13",
+   "origin": "Yahoo Finance via WebFetch: close 173.67 on 2026-11-13, 171.41 on 11-12",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T16:09:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "e",
+    "c8"
+   ],
+   "note": "10-Q and release of 2026-11-05 plus cyber 8-Ks read; submissions list shows only a 13G/A on 2026-11-13 since; 10-K text and MD&A not read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "e"
+   ],
+   "note": "Cash 249.9M, debt 42.7M, finance leases 294.7M, liabilities 491.5M, equity 435.6M plus NCI 105.3M, receivables 356.1M at 2026-09-30 from the 10-Q; allowance, lease maturities and VIE note not read."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "fy",
+    "q",
+    "e"
+   ],
+   "note": "TTM OCF 258.5M and capex 10.4M from XBRL periods FY2025, 9M26, 9M25 (capex reported: 2.5M, 8.9M, 1.1M); OCF includes a 52.3M non-cash adjustment; distributions to NCI and finance lease payments shown separately."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "e"
+   ],
+   "note": "6,857,504 shares (release) versus 6,860,794 on the 10-Q cover at 2026-11-02 including earn-out shares; point in time count used; weighted diluted not used."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "qa",
+    "fy",
+    "e"
+   ],
+   "note": "P/E, FCF yield and adjusted yields computed; peers and company history not compared; collectability of receivables unresolved."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "e",
+    "q"
+   ],
+   "note": "Healthcare facility model: visits, revenue per visit, receivables and collections, lease adjusted debt, NCI leakage."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "e"
+   ],
+   "note": "HaloMD credit, revenue estimate resets, receivables size and NCI noted; MD&A, auditor and legal items unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "e",
+    "q",
+    "c8"
+   ],
+   "note": "Covers revenue per visit, collectability, one-off credit, arbitration dependence, leases, NCI, liquidity and cyber."
+  }
+ },
+ "price": {
+  "value": 173.67,
+  "currency": "USD",
+  "as_of": "2026-11-13T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-13",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 173.67,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 173.67,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 173.67,
+   "shares_outstanding": 6857504,
+   "share_basis": "release shares at 2026-09-30 (10-Q cover 6,860,794 at 2026-11-02)",
+   "market_cap_usd": 1190942720,
+   "ttm_revenue_musd": 796.5,
+   "ttm_net_income_musd": 164.7,
+   "pe_ttm": 7.2,
+   "ttm_fcf_musd": 248.1,
+   "fcf_yield_pct": 20.8,
+   "sbc_ttm_musd": null,
+   "fcf_after_sbc_yield_pct": null,
+   "basis": "TTM = FY2025 + 9M26 - 9M25, USD millions, SEC XBRL; net income attributable to Nutex; 9M26 includes 25M HaloMD effect; yield after NCI distributions (53.7M) and finance lease payments (20.7M) about 14.6%"
+  },
+  "cash_flow": {
+   "ocf_ttm_musd": 258.5,
+   "capex_ttm_musd": 10.4,
+   "ocf_9m26_musd": 188.1,
+   "capex_9m26_musd": 8.9,
+   "fcf_q3_musd": null,
+   "basis": "USD millions; periods 2025-01-01 to 2025-12-31 minus 2025-01-01 to 2025-09-30 plus 2026-01-01 to 2026-09-30"
+  },
+  "balance_sheet": {
+   "cash_musd": 249.9,
+   "debt_musd": 42.7,
+   "finance_leases_musd": 294.7,
+   "total_liabilities_musd": 491.5,
+   "receivables_musd": 356.1,
+   "basis": "10-Q 2026-09-30"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers (HCA, UHS, other ER operators) and history not compared",
+  "MD&A, legal proceedings, risk factors and 10-K not read; revenue per visit decline and receivable allowance unverified",
+  "Cyber incident cost and insurance unquantified",
+  "Arbitration vendor lawsuits and rule risk unread",
+  "Quote independence is publisher level only",
+  "Scores not assigned"
+ ]
+}

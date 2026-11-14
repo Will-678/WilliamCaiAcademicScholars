@@ -1,0 +1,207 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "NFLX",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "Subscription streaming and advertising: revenue growth, operating margin, FCF after SBC, cash content spend versus amortization; one-off termination fee excluded from earnings power",
+ "as_of": "2026-11-14T16:09:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Netflix (Nasdaq: NFLX), global subscription streaming, with advertising growing. Q3 2026 10-Q (0001065280-26-000291, filed 2026-10-21) and shareholder letter (8-K 0001065280-26-000290, 2026-10-20). Q3 revenue 12.87B USD (+12%, +11% FX neutral); operating income 4.46B (+37%, margin 34.6% vs 28.2%), which the letter attributes partly to expense timing; net income 3.66B, diluted EPS 0.87 (0.59); OCF 3.16B, capex 0.28B, FCF 2.88B. Q4 guide: revenue 13.4B, operating income 3.5B (26.0% margin, includes about 120 bp headcount reduction cost), EPS 0.67. FY2026 guide: revenue 51.1B (+13%), operating margin 31.5% (29.5% in 2025), FCF about 12.0B (cut from 12.5B, a Q4 real estate transaction), ad revenue about 2.7B (was about 3B, slower ad product rollout), cash content spend about 1.1x amortization. Comparability: 9M26 interest and other income of 2.95B includes the 2.8B termination fee paid in Q1 2026 after Warner Bros. Discovery ended its deal with Netflix for Paramount Skydance (10-Q Note 6); no Netflix borrowing under the abandoned financing. TTM (XBRL, FY2025 plus 9M26 minus 9M25): revenue 49,735M, operating income 15,565M, OCF 12,308M, capex 933M, FCF 11,375M, SBC 540M, net income 14,767M (includes the fee; about 20x ex fee on a rough 21% tax assumption, unverified). Shares 4,106.3M (10-Q), market cap about 255.2B at 62.15 (post 10-for-1 split of 2025-11), so FCF yield 4.5% (4.2% after SBC), TTM P/E 17.3x as reported, EV/TTM operating income about 16.9x using company net debt of about 7.1B (gross debt 15.3B). Q3 buybacks 4.8B (63.9M shares), 22.3B authorization left; short-term debt 2.47B and long-term 12.66B; content liabilities 5.61B and content assets 34.6B on balance sheet. Price fell from 66.39 (11-04) to 62.15 after earnings and is the lowest of the eight sessions seen. Market view: worry over slower ad rollout, margin gains from timing, and Q4 guide implying a margin drop. Evidence against: 12% growth, 31.5% margin and 4.5% FCF yield for a scaled franchise. What would close the gap: ad revenue ramp, 2027 margin holding above 30%, FCF near 12B.",
+ "counterthesis": "Q3 operating margin was helped by expense timing, so 34.6% is not a run rate; Q4 guide is 26%. Ad revenue target was cut about 10%, which weakens a key growth leg. FCF guide was cut by 0.5B. TTM GAAP earnings include a 2.8B one-off fee, so 17x flatters. Content amortization is a large accounting judgment (34.6B content assets); cash content spend ratio 1.1x means cash outlays exceed expense. Buybacks (10.8B in 9M26, 4.8B in Q3) are financed partly by rising debt (gross 15.3B, up 1B in Q3) and exceed FCF in Q3. Competition (YouTube, Disney, Amazon, Paramount-WBD combination) and price increase fatigue not examined; the letter does not report subscribers. Peers and Netflix's own multiple history not compared. Legal notes, MD&A, 10-K risk factors and content commitments were not read. 1-day sample of quote context only; price is near the low of the 8 sessions viewed but no 52-week data was obtained.",
+ "invalidation": "Thesis fails if revenue growth falls below about 8%, ad revenue misses even the lowered 2.7B target, operating margin guide for 2027 falls below 30%, FCF drops materially below 12B ex real estate, or debt rises to fund buybacks beyond FCF.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000291/nflx-20260930.htm",
+   "document_id": "0001065280-26-000291",
+   "origin": "Q3 2026 Form 10-Q via WebFetch extract: cover, balance sheet, other income, Note 6 WBD; Note 8 onward, MD&A, legal and content commitments not seen",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T16:09:00-05:00"
+  },
+  {
+   "id": "e",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/ex991_q326.htm",
+   "document_id": "0001065280-26-000290 Ex99.1",
+   "origin": "Q3 2026 shareholder letter, Exhibit 99.1 to 8-K filed 2026-10-20 via WebFetch; issuer release",
+   "kind": "earnings_release",
+   "read_status": "full",
+   "accessed_at": "2026-11-14T16:09:00-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001065280.json",
+   "document_id": "SEC-companyfacts-CIK0001065280",
+   "origin": "SEC XBRL companyfacts: FY2025 10-K revenue 45,183M, OCF 10,149M, capex 688M, SBC 368M, NI 10,981M, op income 13,327M; 10-K text not read",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T16:09:00-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001065280.json",
+   "document_id": "SEC-submissions-CIK0001065280",
+   "origin": "SEC submissions JSON 2026-11-14: latest 10-Q 2026-10-21 and earnings 8-K 2026-10-20; only Form 4/144 since",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T16:09:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/nflx/history/",
+   "document_id": "stockanalysis-NFLX-2026-11-13",
+   "origin": "stockanalysis.com via WebFetch: Nasdaq USD close 62.15 on 2026-11-13, 62.69 on 11-12",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T16:09:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/NFLX/history/",
+   "document_id": "yahoo-finance-NFLX-2026-11-13",
+   "origin": "Yahoo Finance via WebFetch: close 62.15 on 2026-11-13, 62.69 on 11-12",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T16:09:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "e",
+    "sub"
+   ],
+   "note": "10-Q and shareholder letter (2026-10-20/21) read in extract; submissions show nothing since except Form 4/144; 10-K text not read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "e"
+   ],
+   "note": "Cash 8,194M, ST investments 29M, ST debt 2,475M, LT debt 12,658M, total liabilities 29,396M, content assets 34,605M at 2026-09-30 from the 10-Q balance sheet; maturities and content commitments (Note 9) not read."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "fy",
+    "q",
+    "e"
+   ],
+   "note": "TTM OCF 12,308M and capex 933M from XBRL periods 2025-01-01 to 12-31, 9M25, 9M26; company Q3 FCF 2.88B matches OCF minus capex; SBC 540M deducted separately; capex reported, not missing."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "4,106,325,903 shares from the 10-Q cover/balance sheet, point in time, after the 2025 10-for-1 split; extract gave date as 2026-09-30 so cover date treated as approximate."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "qa",
+    "fy",
+    "e"
+   ],
+   "note": "FCF yield, TTM P/E and EV/operating income computed; peers (DIS, WBD, SPOT, GOOGL) and Netflix history not compared."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "e",
+    "q"
+   ],
+   "note": "Subscription media model: revenue growth, operating margin, FCF, cash versus amortized content spend, one-off fee separated."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "e"
+   ],
+   "note": "WBD fee, expense timing and Q4 margin step down noted; content amortization policy, MD&A, legal notes and 10-K audit matters not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "e",
+    "q"
+   ],
+   "note": "Covers margin timing, ad cut, FCF cut, one-off fee, content accounting, debt funded buybacks and competition."
+  }
+ },
+ "price": {
+  "value": 62.15,
+  "currency": "USD",
+  "as_of": "2026-11-13T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-13",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 62.15,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 62.15,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 62.15,
+   "shares_outstanding": 4106325903,
+   "share_basis": "10-Q 2026-09-30 (post 10-for-1 split)",
+   "market_cap_usd": 255208154871,
+   "ttm_revenue_musd": 49735,
+   "ttm_net_income_musd": 14767,
+   "pe_ttm": 17.3,
+   "ttm_fcf_musd": 11375,
+   "fcf_yield_pct": 4.46,
+   "sbc_ttm_musd": 540,
+   "fcf_after_sbc_yield_pct": 4.25,
+   "basis": "TTM = FY2025 + 9M26 - 9M25, USD millions, SEC XBRL; net income includes 2.8B termination fee"
+  },
+  "cash_flow": {
+   "ocf_ttm_musd": 12308,
+   "capex_ttm_musd": 933,
+   "ocf_9m26_musd": 10196,
+   "capex_9m26_musd": 694,
+   "fcf_q3_musd": 2884,
+   "basis": "USD millions; periods 2025-01-01 to 2025-12-31 minus 2025-01-01 to 2025-09-30 plus 2026-01-01 to 2026-09-30"
+  },
+  "balance_sheet": {
+   "cash_musd": 8194,
+   "short_term_debt_musd": 2475,
+   "long_term_debt_musd": 12658,
+   "total_liabilities_musd": 29396,
+   "content_assets_musd": 34605,
+   "basis": "10-Q 2026-09-30; company net debt about 7.1B"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers (DIS, SPOT, GOOGL) and Netflix history not compared",
+  "MD&A, content commitments, legal notes and 10-K not read",
+  "How much of Q3 margin was timing is only the letter's statement",
+  "Ex fee earnings not verified",
+  "Quote independence is publisher level only",
+  "Scores not assigned"
+ ]
+}
