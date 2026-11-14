@@ -1,0 +1,234 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "MRVL",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "fabless semiconductor: growth, FCF after SBC and net debt; announced stock acquisition adds dilution and regulatory risk",
+ "as_of": "2026-11-14T05:05:19+00:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Marvell Technology (Nasdaq: MRVL), custom AI silicon and data-center connectivity, large cap. FY27 Q2 (to 2026-08-01, 10-Q filed 2026-08-28): revenue 2.739B (+36.5%), GAAP net income 308M (EPS 0.33), cash 3.93B, debt principal 5.00B (no maturities before FY2029; 1.5B revolver undrawn), 876.9M shares. TTM (FY26 10-K + 6M FY27 - 6M FY26): revenue 9.45B, GAAP NI 2.64B (EPS 3.02, includes a large FY26 Q3 profit of 1.90B that I did not trace to a cause), OCF 2.20B, capex 0.47B, FCF 1.73B. At 156.76 (2026-11-13 close, -4.7% on the day, 52-week 70.69-329.88, about 52% below the high) market cap is about 137.6B: 52x TTM GAAP EPS, FCF yield 1.26% (0.65% after 0.83B SBC). The new fact is the all-stock deal to buy Lumentum announced 2026-11-02 (agreement 2026-11-01): 4.500 Marvell shares per Lumentum share, about 115B enterprise value (about 1,132 per share, 23.9% premium to 10-28), Marvell holders to own about 67% of the combined company, expected close first half 2028, outside date 2027-11-01 extendable to 2028-08-01. Marvell would issue roughly 430M shares (about 49% more than today's count; my estimate from the 67/33 split) and pays 5.8B if its board withdraws support, 3.2B regulatory break fee. Stock moved from 171.97 (11-03) to 133.55 (11-05) and 168.80 (11-11). So a growing AI hardware supplier is priced on forward earnings (forward P/E 27.8x per stockanalysis, unverified) while trailing cash yield is thin and the standalone company is about to become a different, larger, less visible one.",
+ "counterthesis": "Trailing cash yield 1.3% (0.7% after SBC) and 52x GAAP EPS leave no cushion if AI capex slows. The deal is a very large, stock-funded bet: about 49% dilution, 5.8B/3.2B termination exposure, regulatory risk (HSR, China is 42% of revenue by destination so approvals elsewhere may matter), integration of a different business, a 1.5 to 2 year wait with deal uncertainty, and Marvell's own shares are the currency, so a falling share price changes what Lumentum holders receive in value terms. Barron's items cited on stockanalysis tie the recent drop to dilution and merger doubts and a separate report about Nvidia's CEO; I did not verify them. I have not read Lumentum financials, so I cannot judge what is being bought. Customer concentration, custom silicon dependence on a few hyperscalers, and the FY26 one-off profit are unresolved.",
+ "invalidation": "Evidence for the thesis fails if revenue growth falls well below 20% for two quarters, FCF stays under about 2% of market value while capex rises, or the Lumentum deal terms or approval risk turn out worse than the stock price implies; deal termination would reset the case.",
+ "sources": [
+  {
+   "id": "q1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm",
+   "document_id": "0001835632-26-000025",
+   "origin": "10-Q quarter ended 2026-08-01 filed 2026-08-28 via WebFetch; first 100,000 of 101,272 characters read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T05:05:19+00:00"
+  },
+  {
+   "id": "a1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526442717/d352474d8k.htm",
+   "document_id": "0001193125-26-442717",
+   "origin": "8-K item 1.01 filed 2026-11-02 (merger agreement with Lumentum) via WebFetch",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T05:05:19+00:00"
+  },
+  {
+   "id": "a2",
+   "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526442714/d81187d8k.htm",
+   "document_id": "0001193125-26-442714",
+   "origin": "8-K items 2.02/7.01 filed 2026-11-02; exhibits (press release, preliminary Q3 revenue) not read",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T05:05:19+00:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001835632.json",
+   "document_id": "SEC-companyfacts-CIK0001835632",
+   "origin": "SEC XBRL companyfacts: FY2026 10-K (filed 2026-03-11) revenue 8.1946B, NI 2.6701B, OCF 1.7505B, capex 0.3541B, SBC 0.5908B, plus 10-Q YTD figures",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T05:05:19+00:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001835632.json",
+   "document_id": "SEC-submissions-CIK0001835632",
+   "origin": "SEC submissions JSON 2026-11-14: latest 10-Q 2026-08-28; 8-Ks 11-02 and 11-12; many 425 filings; Forms 3 on 11-13",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T05:05:19+00:00"
+  },
+  {
+   "id": "d1",
+   "url": "https://benton.org/node/361537",
+   "document_id": "benton-361537",
+   "origin": "Republished Marvell/Lumentum deal press release via WebFetch: 4.500 exchange ratio, about 115B EV, about 1,132 per Lumentum share, 23.9% premium, 67%/33% ownership",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T05:05:19+00:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/mrvl/",
+   "document_id": "stockanalysis-MRVL-2026-11-13",
+   "origin": "stockanalysis.com via WebFetch: close 156.76 at 4:00 PM EST 2026-11-13, 877.99M shares, market cap 137.63B, 52-week 70.69-329.88",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T05:05:19+00:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/MRVL/history/",
+   "document_id": "yahoo-finance-MRVL-2026-11-13",
+   "origin": "Yahoo Finance via WebFetch: close 156.76 on 2026-11-13; 164.45 on 11-12; 168.80 on 11-11; 171.41 on 11-02",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T05:05:19+00:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "q1",
+    "a1",
+    "a2",
+    "sub"
+   ],
+   "note": "10-Q 2026-08-28 is latest periodic filing; 8-Ks of 11-02 and 11-12 and the 425 stream checked through submissions; Q3 FY27 report is not due until about late Nov (unverified date)."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q1"
+   ],
+   "note": "Cash 3,932.8M, debt face 4,999.9M (net 4,962.9M), maturities FY2029 1,249.9M, 2030 500M, 2031 500M, thereafter 2,750M, revolver 1.5B undrawn at 2026-08-01; last 1,272 characters of the 10-Q unread."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "fy",
+    "q1"
+   ],
+   "note": "TTM OCF and reported PP&E capex from matching FY26 10-K and 10-Q periods; SBC separate; capitalized software and acquisition spending not included."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q1",
+    "qa"
+   ],
+   "note": "876.9M cover shares at 2026-08-21 vs 877.99M on stockanalysis; point-in-time count used; Lumentum deal would add roughly 430M (estimate from the 67/33 split)."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "qa"
+   ],
+   "note": "Trailing P/E and FCF yield computed; forward P/E from one aggregator; no peer (AVGO, NVDA, CRDO, ALAB) multiples; pro forma combined valuation not possible without Lumentum figures."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q1",
+    "fy"
+   ],
+   "note": "Fabless semiconductor: growth, margins, FCF after SBC, net debt, customer concentration; bank ratios not applicable."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q1",
+    "fy"
+   ],
+   "note": "FY26 Q3 profit of 1.90B unexplained, acquisitions/divestiture effects, purchased intangibles and customer concentration not traced; 10-K risk factors not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q1",
+    "a1",
+    "d1"
+   ],
+   "note": "Covers valuation, dilution, termination fees, regulatory and AI-cycle risks."
+  }
+ },
+ "price": {
+  "value": 156.76,
+  "currency": "USD",
+  "as_of": "2026-11-13T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-13",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 156.76,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 156.76,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 156.76,
+   "shares_outstanding": 877990000.0,
+   "share_basis": "stockanalysis.com 877.99M; 10-Q cover 876.9M at 2026-08-21",
+   "market_cap_usd": 137633712400,
+   "ttm_eps_usd": 3.02,
+   "ttm_eps_basis": "FY26 3.07 + 6M FY27 0.38 - 6M FY26 0.43 (GAAP diluted)",
+   "pe_ttm": 51.9,
+   "forward_pe_unverified": 27.79
+  },
+  "cash_flow": {
+   "ttm_revenue_busd": 9.45,
+   "ttm_ocf_busd": 2.2,
+   "ttm_capex_busd": 0.47,
+   "ttm_fcf_busd": 1.73,
+   "fcf_yield_pct": 1.26,
+   "ttm_sbc_busd": 0.829,
+   "fcf_after_sbc_yield_pct": 0.65,
+   "basis": "FY26 10-K + 6M FY27 10-Q - 6M FY26 10-Q, USD millions converted; Marvell FY ends late Jan"
+  },
+  "balance_sheet": {
+   "cash_busd": 3.933,
+   "debt_principal_busd": 5.0,
+   "net_debt_busd": 1.067,
+   "period_end": "2026-08-01"
+  },
+  "deal": {
+   "counterparty": "Lumentum Holdings",
+   "exchange_ratio": 4.5,
+   "implied_ev_busd": 115,
+   "per_share_usd": 1132,
+   "premium_pct": 23.9,
+   "marvell_holder_ownership_pct": 67,
+   "estimated_new_marvell_shares_m": 432,
+   "termination_fee_busd": 5.8,
+   "regulatory_fee_busd": 3.2
+  },
+  "growth": {
+   "q2_fy27_revenue_growth_pct": 36.5,
+   "six_month_fy27_revenue_growth_pct": 32.2
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Lumentum financials, deal accretion and pro forma leverage unread",
+  "Peer multiples and own history not done",
+  "FY26 Q3 1.90B profit not traced; 10-K risk factors unread",
+  "Quotes: two publishers, publisher-level independence only",
+  "Scores not assigned"
+ ]
+}
