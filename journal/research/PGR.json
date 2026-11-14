@@ -1,0 +1,208 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "PGR",
+ "exchange": "NYSE",
+ "currency": "USD",
+ "sector_model": "P&C insurer: combined ratio, premiums, book value, ROE; generic FCF not used",
+ "as_of": "2026-11-14T08:06:34-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Progressive Corp (NYSE: PGR), largest US personal auto insurer plus commercial lines and property. 10-Q for Q3 2026 (accession 0000080661-26-000379, filed 2026-11-02) and Q3 8-K release (0000080661-26-000367, 2026-10-14). Q3 net premiums written 22,301M (+4%), earned 21,869M (+5%), net income 2,542M (-3%, EPS 4.37 vs 4.45), combined ratio 88.7 (89.5); 9M 2026 net income 8,671M (EPS 14.83 vs 14.21), combined ratio 87.5, NPW 67,019M (+5%). Policies in force 40.49M (+6%). September NPW growth slowed to +2% (companywide), personal lines +1%. Equity 34,485M, debt 8,389M, investments 99,197M, BVPS 59.51 (release). TTM net income about 11,622M (FY2025 11,308 - 9M25 8,357 + 9M26 8,671); TTM diluted EPS 19.85, so 11.9x at the 235.78 close (2026-11-13), P/B 4.0x on BVPS, TTM ROE about 33% on average of Sept 2025 and Sept 2026 equity. Market cap about 136.6B (579.36M shares on 10-Q cover, 2026-10-01). Dividends paid 9M 2026 were 8,088M (about 5.9% of market cap; the annual variable dividend paid in January, funded partly by selling investments per the 10-Q). Market view: priced for a peak margin period as growth decelerates; evidence against that is 9M combined ratio 87.5 with unit growth +6%. What closes the gap: continued mid single digit growth with combined ratio below 95. Sector model: P&C insurer, so earnings, combined ratio, book value and reserves, not generic FCF (OCF 9M 12,492M, capex 317M reported but not used as owner earnings).",
+ "counterthesis": "Auto insurance margins are cyclical: a 87.5 combined ratio invites competition, rate cuts and ad spending, and September NPW growth already slowed to +2% with Direct and Agency vehicle premiums +1%. Q4 has hurricane and winter catastrophe exposure and Florida/Texas weather; prior-year reserve development, litigation and tariff driven repair cost inflation were not read in the MD&A. September had pretax realized losses of 231M and a comprehensive loss of 679M, showing rate sensitivity of 99B of investments. The 2025 comparison includes a 950M policyholder credit expense (Florida excess profit related per release; cause not fully read), flattering YTD growth. The variable dividend is discretionary and funded by selling investments. At 4.0x book the stock already assumes sustained high ROE; peers (ALL, TRV, CB, GEICO as part of BRK) and PGR's own historical multiple were not compared.",
+ "invalidation": "Thesis fails if the companywide combined ratio runs above about 95 for two quarters, NPW growth turns negative, adverse prior-year reserve development appears, or the stock reaches a multiple that prices peak margins as permanent without growth.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000379/pgr-20260930.htm",
+   "document_id": "0000080661-26-000379",
+   "origin": "Q3 2026 Form 10-Q via WebFetch extract (cover, financial statements); MD&A, reserves and legal notes were cut off and not read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T08:06:34-05:00"
+  },
+  {
+   "id": "e",
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000367/pgr202609ex99earningsrelea.htm",
+   "document_id": "0000080661-26-000367 Ex99",
+   "origin": "September and Q3 2026 earnings release (Exhibit 99 to 8-K filed 2026-10-14) via WebFetch; issuer release",
+   "kind": "earnings_release",
+   "read_status": "full",
+   "accessed_at": "2026-11-14T08:06:34-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000080661.json",
+   "document_id": "SEC-companyfacts-CIK0000080661",
+   "origin": "SEC XBRL companyfacts, FY2025 10-K 0000080661-26-000086 values: NI 11,308M, EPS 19.23, equity 30,323M; 10-K text not read",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T08:06:34-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0000080661.json",
+   "document_id": "SEC-submissions-CIK0000080661",
+   "origin": "SEC submissions JSON 2026-11-14: latest 10-Q 2026-11-02, 8-K 2026-10-14; no later 8-K; October results due 2026-11-18 per release",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T08:06:34-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/pgr/",
+   "document_id": "stockanalysis-PGR-2026-11-13",
+   "origin": "stockanalysis.com via WebFetch: close 235.78 at 4:00 PM EST 2026-11-13, 579.36M shares, market cap 136.60B, PE 11.88",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T08:06:34-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/PGR/history/",
+   "document_id": "yahoo-finance-PGR-2026-11-13",
+   "origin": "Yahoo Finance via WebFetch: close 235.78 on 2026-11-13, 235.49 on 11-12",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T08:06:34-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "e",
+    "sub"
+   ],
+   "note": "Q3 10-Q (2026-11-02) and 2026-10-14 release read; submissions show nothing later; 10-K text not read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Investments 99,197M, debt 8,389M, equity 34,485M at 2026-09-30 from the 10-Q balance sheet; debt maturities and reserves not read."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "fy",
+    "q"
+   ],
+   "note": "9M OCF 12,492M and capex 317M from XBRL; insurer valuation uses earnings and book, not FCF; dividend paid 8,088M from the 10-Q cash flow statement."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "qa"
+   ],
+   "note": "579,362,175 shares on the 10-Q cover at 2026-10-01 agrees with stockanalysis 579.36M; point in time count used."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "qa",
+    "fy",
+    "e"
+   ],
+   "note": "P/E 11.9x TTM, P/B 4.0x, ROE about 33% computed; peers and PGR's own history not compared."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "e",
+    "q"
+   ],
+   "note": "Insurance model: combined ratio, premiums, book value, ROE, investments."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "e"
+   ],
+   "note": "Reserve development, loss reserves note 46,786M, legal matters and 950M 2025 policyholder credit cause not read in MD&A."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "e",
+    "q"
+   ],
+   "note": "Covers margin cycle, growth slowdown, cat, rate and dividend funding risk."
+  }
+ },
+ "price": {
+  "value": 235.78,
+  "currency": "USD",
+  "as_of": "2026-11-13T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-13",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 235.78,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 235.78,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 235.78,
+   "shares_outstanding": 579362175,
+   "share_basis": "10-Q cover 2026-10-01",
+   "market_cap_usd": 136602013622,
+   "ttm_net_income_musd": 11622,
+   "ttm_eps": 19.85,
+   "pe_ttm": 11.88,
+   "bvps": 59.51,
+   "price_to_book": 3.96,
+   "roe_ttm_pct": 33.2,
+   "roe_basis": "TTM NI over average of equity 2025-09-30 35,445M and 2026-09-30 34,485M"
+  },
+  "insurance": {
+   "q3_combined_ratio": 88.7,
+   "ytd_combined_ratio": 87.5,
+   "q3_npw_musd": 22301,
+   "ytd_npw_growth_pct": 5,
+   "sept_npw_growth_pct": 2,
+   "policies_in_force_thousands": 40489
+  },
+  "cash_flow": {
+   "ocf_9m_musd": 12492,
+   "capex_9m_musd": 317,
+   "dividends_paid_9m_musd": 8088,
+   "basis": "period 2026-01-01 to 2026-09-30, USD millions; not used as owner earnings for an insurer"
+  },
+  "balance_sheet": {
+   "investments_musd": 99197,
+   "debt_musd": 8389,
+   "equity_musd": 34485,
+   "period_end": "2026-09-30"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers (ALL, TRV, CB) and PGR history not compared",
+  "MD&A, reserve development, legal notes and 10-K not read",
+  "Quote independence is publisher level only",
+  "October results due 2026-11-18 not yet seen",
+  "Scores not assigned"
+ ]
+}
