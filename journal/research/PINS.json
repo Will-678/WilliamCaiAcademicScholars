@@ -1,0 +1,218 @@
+{
+ "method_version": "2.0",
+ "schema_version": 2,
+ "currency": "USD",
+ "as_of": "2026-11-13T20:08:37-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "ticker": "PINS",
+ "exchange": "NYSE",
+ "sector_model": "advertising platform: revenue, MAU and ARPU, adjusted EBITDA, FCF and FCF after SBC; bank or REIT ratios not applicable",
+ "thesis": "Pinterest, Inc. (NYSE: PINS), visual discovery advertising platform. Q3 2026 (release 2026-10-29): revenue 1,173.9M (+12%), MAU 661M (+10%), global ARPU 1.80 (+1%), US and Canada ARPU 8.38 (+10%), adjusted EBITDA 339.2M (+11%, 29% margin), GAAP net income 21.5M (vs 92.1M), non-GAAP EPS 0.46. Q4 guide revenue 1,425-1,475M (+8-12%), adjusted EBITDA 538-588M. TTM FCF about 1.26B is an 11.5% yield on a 10.98B market cap at 19.15 (2026-11-13 close, 52-week 13.84-27.96), but TTM SBC is 1.08B so FCF after SBC is only about 0.18B (1.7%) and trailing GAAP P/E is about 80x. In 2026 the company cut under 15% of staff, bought tvScientific for 465.1M, issued a 1.0B convertible to Elliott affiliates and spent 2.0B on repurchases including a 1.0B ASR. Net cash is about 0.49B. The market may be pricing slowing monetization and heavy dilution; the evidence is that cash generation is real but mostly reflects non-cash pay, so cheapness depends on whether SBC is treated as a cost.",
+ "counterthesis": "SBC of 847.7M in nine months (about 25% of revenue) is a real cost: buybacks of 2.0B in 2026 largely offset dilution and equity fell 35%. GAAP operating income was negative for 9M26 (-105M), net loss 98.7M. Global ARPU grew only 1% and Europe ARPU fell 7%; Q4 growth guide decelerates to 8-12%; competition from Meta, Google, Amazon and AI search shifts. The 1.0B convertible is related-party debt at 1.75% with cap-call cost; the 2026 acquisition added goodwill. A stock that fell 41% from a year ago and sits near the low end of its range is not cheap on SBC-adjusted earnings. Forms 144 sales continue (content unread).",
+ "invalidation": "Thesis breaks if revenue growth drops below the 8% guide floor, ARPU declines globally, SBC keeps above 20% of revenue while buybacks fail to offset share count, or free cash flow after SBC stays near zero.",
+ "sources": [
+  {
+   "id": "e1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629326000151/q3-26xpressrelease.htm",
+   "document_id": "0001506293-26-000151",
+   "origin": "Q3 2026 press release exhibit (8-K 2026-10-29 item 2.02) read via WebFetch; guidance, adjusted EBITDA and non-GAAP reconciliation",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T20:08:37-05:00"
+  },
+  {
+   "id": "q1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629326000153/pins-20260930.htm",
+   "document_id": "0001506293-26-000153",
+   "origin": "10-Q 2026-09-30 filed 2026-10-29 read via WebFetch; last 1,087 chars of extract unread",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T20:08:37-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001506293.json",
+   "document_id": "SEC-companyfacts-CIK0001506293",
+   "origin": "SEC XBRL companyfacts: FY2025 10-K revenue 4,221.8M, OCF 1,284.3M, capex 32.4M, SBC 880.5M, EPS 0.61",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T20:08:37-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001506293.json",
+   "document_id": "SEC-submissions-CIK0001506293",
+   "origin": "SEC submissions JSON 2026-11-13: 10-Q and 8-K 2026-10-29, 13G/A, Forms 4/144 through 11-12",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T20:08:37-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/pins/",
+   "document_id": "stockanalysis-PINS-2026-11-13",
+   "origin": "stockanalysis.com via WebFetch: close 19.15 at 2026-11-13 4:00 PM EST, market cap 10.98B, 573.51M shares, 52-week 13.84-27.96, forward P/E 8.98",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T20:08:37-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/PINS/history/",
+   "document_id": "yahoo-finance-PINS-2026-11-13",
+   "origin": "Yahoo Finance via WebFetch: header close 19.15 on 2026-11-13; table 19.12 on 11-12, 21.22 on 11-04, 19.79 on 11-05",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T20:08:37-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q1",
+    "e1"
+   ],
+   "note": "10-Q and Q3 release filed 2026-10-29; no later 8-K; read statements, notes extract and release."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q1",
+    "fy"
+   ],
+   "note": "Cash 654.3M and AFS securities 815.7M, 1.0B 1.75% convertible notes due 2031 (carrying 982.1M, issued to Elliott affiliates, related party, conversion about 22.72), equity 3,104.3M, new 700M undrawn revolver; operating leases and other liabilities not reviewed."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "fy",
+    "q1",
+    "e1"
+   ],
+   "note": "OCF minus reported PP&E capex over matching periods; 9M26 FCF 881.9M agrees with release; SBC deducted separately."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q1",
+    "qa"
+   ],
+   "note": "573.51M (Class A 500.5M plus B 73.0M, cover 2026-10-23) matches stockanalysis; converts at 22.72 would add about 44M shares; ASR retired 54.8M shares in March."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "qa",
+    "e1"
+   ],
+   "note": "GAAP P/E 80x, FCF yield 11.5% (1.7% after SBC), forward P/E 9.0x (stockanalysis, non-GAAP basis, unverified); peers (SNAP, META, RDDT) and history not done."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "e1",
+    "q1"
+   ],
+   "note": "Advertising platform: revenue, MAU and ARPU, adjusted EBITDA, FCF and SBC-adjusted FCF used; adjusted metrics reconciled to the release."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q1",
+    "e1"
+   ],
+   "note": "SBC is 25% of revenue (288M in Q3); restructuring 65.5M 9M; D&A 8.0M versus 10.9M in reconciliation unexplained; tvScientific goodwill 375M; related-party convertible; MD&A and controls unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "e1",
+    "q1"
+   ],
+   "note": "Covers SBC, GAAP losses, ARPU, Europe, related-party financing and competition."
+  }
+ },
+ "price": {
+  "value": 19.15,
+  "currency": "USD",
+  "as_of": "2026-11-13T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-13",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 19.15,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 19.15,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   }
+  ]
+ },
+ "calculations": {
+  "valuation": {
+   "price": 19.15,
+   "shares_outstanding": 573507840,
+   "share_basis": "10-Q cover 2026-10-23: Class A 500,526,454 plus Class B 72,981,386",
+   "market_cap_usd": 10982716500,
+   "ttm_eps_usd": 0.24,
+   "ttm_eps_basis": "FY2025 0.61 + 9M26 -0.17 - 9M25 0.20 (GAAP diluted)",
+   "pe_ttm": 79.8,
+   "non_gaap_q3_eps": 0.46,
+   "non_gaap_note": "excludes SBC 288M, uses 20% tax rate"
+  },
+  "cash_flow": {
+   "ttm_revenue_musd": 4680.4,
+   "ttm_ocf_musd": 1327.9,
+   "ttm_capex_musd": 65.6,
+   "ttm_fcf_musd": 1262.3,
+   "fcf_yield_pct": 11.49,
+   "ttm_sbc_musd": 1078.3,
+   "fcf_after_sbc_musd": 183.9,
+   "fcf_after_sbc_yield_pct": 1.67,
+   "ttm_net_income_musd": 178.3,
+   "basis": "FY2025 10-K + 9M26 10-Q - 9M25 10-Q, USD millions; XBRL sums, 9M26 FCF 881.9M matches release"
+  },
+  "balance_sheet": {
+   "cash_musd": 654.3,
+   "available_for_sale_securities_musd": 815.7,
+   "convertible_notes_principal_musd": 1000.0,
+   "convertible_carrying_musd": 982.1,
+   "net_cash_musd": 487.9,
+   "equity_musd": 3104.3,
+   "revolver_musd": 700.0,
+   "revolver_drawn_musd": 0
+  },
+  "growth": {
+   "q3_revenue_growth_pct": 12,
+   "mau_growth_pct": 10,
+   "arpu_growth_pct": 1,
+   "q4_revenue_guide_growth_pct": "8-12",
+   "q3_adj_ebitda_musd": 339.2,
+   "q3_adj_ebitda_growth_pct": 11
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers (SNAP, META, RDDT) and history not done",
+  "10-Q MD&A, controls and last 1,087 chars unread",
+  "Forward P/E basis unverified",
+  "Elliott convertible terms and governance rights not read in full",
+  "Quotes: two publishers, publisher-level independence only",
+  "Scores not assigned"
+ ]
+}

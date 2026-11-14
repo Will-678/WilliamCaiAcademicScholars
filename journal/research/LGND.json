@@ -1,0 +1,226 @@
+{
+ "method_version": "2.0",
+ "schema_version": 2,
+ "currency": "USD",
+ "as_of": "2026-11-13T20:08:37-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "ticker": "LGND",
+ "exchange": "Nasdaq",
+ "sector_model": "royalty aggregator and specialty licensing: royalty revenue, adjusted EPS and net debt; generic gross margin and liability ratios not comparable",
+ "thesis": "Ligand Pharmaceuticals (Nasdaq: LGND), royalty and Captisol licensing company. Closed the XOMA Royalty acquisition on 2026-07-14 (cash paid net 782.9M in 9M26 per 10-Q), more than doubling royalty assets to over 200. Q3 2026: total revenue 78.7M (-32% because Q3 2025 had 53.1M Pelthos income; +26% excluding it), royalties 70.3M (+51%), GAAP net loss 28.5M (-1.43 per share) after 35.7M investment fair value loss and 72.6M G&A including 23.9M transaction and integration costs; adjusted EPS 2.67 (-14%). 2026 guidance: royalty 225-250M, total revenue 270-310M, adjusted EPS raised to about 9.50-9.75 from 9.00-9.50. At 308.79 (2026-11-13 close; 52-week 175.89-326.63; market cap about 6.18B) trailing GAAP P/E is about 124x, about 32x the adjusted EPS guide midpoint, TTM FCF 90.7M is a 1.5% yield (0.55% after SBC), and net debt is about 0.71B (1.16B convertible principal less 447M cash and short-term investments). The market is paying for royalty growth from XOMA, Filspari and Ohtuvayre and a long royalty runway; the evidence for that is real but the price already embeds much of it.",
+ "counterthesis": "Valuation is the problem: 124x GAAP and 24x sales with a 1.5% FCF yield. The gap between adjusted EPS (about 9.6) and GAAP (about 2.5 TTM) comes from SBC (56.7M TTM, 42.4M in 9M26), intangible amortization, deal costs and fair value marks that recur for an acquisitive royalty buyer. Leverage rose from 0.45B to 1.16B principal; cash fell to 447M from 734M. The stock is only about 5% below its 52-week high and analysts have been raising targets. Revenue concentration in a few royalties (Filspari, Ohtuvayre, Vabysmo) and patent or competitive loss, integration cost overruns and a failed capital allocation would break the thesis. Forms 144 sales appear frequently in submissions (content unread).",
+ "invalidation": "Thesis breaks if royalty revenue growth stalls below guidance, adjusted EPS guide is cut, Ohtuvayre or Filspari royalties fall materially, XOMA integration costs or contingent liabilities grow, or leverage rises without matching royalty income.",
+ "sources": [
+  {
+   "id": "e1",
+   "url": "https://www.sec.gov/Archives/edgar/data/886163/000088616326000058/q32026earningsrelease_ex991.htm",
+   "document_id": "0000886163-26-000058",
+   "origin": "Exhibit 99.1 Q3 2026 release (8-K 2026-10-29 item 2.02) read via WebFetch; reconciliation table and guidance",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T20:08:37-05:00"
+  },
+  {
+   "id": "q1",
+   "url": "https://www.sec.gov/Archives/edgar/data/886163/000088616326000060/lgnd-20260930.htm",
+   "document_id": "0000886163-26-000060",
+   "origin": "10-Q 2026-09-30 filed 2026-10-30; statements and notes read via WebFetch; extract truncated before MD&A, guidance, legal",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T20:08:37-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000886163.json",
+   "document_id": "SEC-companyfacts-CIK0000886163",
+   "origin": "SEC XBRL companyfacts: FY2025 10-K revenue 268.087M, OCF 49.359M, capex 0.452M, SBC 46.849M, EPS 6.13; 9M figures from 10-Qs",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T20:08:37-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0000886163.json",
+   "document_id": "SEC-submissions-CIK0000886163",
+   "origin": "SEC submissions JSON 2026-11-13: 10-Q 10-30, 8-K 10-29, 09-24, 09-22, 07-14, 06-25; Forms 4 and 144 through 11-12",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T20:08:37-05:00"
+  },
+  {
+   "id": "cv",
+   "url": "https://www.nasdaq.com/articles/ligand-prices-upsized-625-million-convertible-senior-notes-offering",
+   "document_id": "web-search-LGND-2031-notes",
+   "origin": "Web search summary of 2031 notes pricing (0% coupon, due 2031-09-15, conversion about 334.27, capped-call cap about 524.34); 8-K itself not read (WebFetch 404)",
+   "kind": "secondary",
+   "read_status": "snippet",
+   "accessed_at": "2026-11-13T20:08:37-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/lgnd/",
+   "document_id": "stockanalysis-LGND-2026-11-13",
+   "origin": "stockanalysis.com via WebFetch: close 308.79 at 2026-11-13 4:00 PM EST, market cap 6.18B, 20.00M shares, 52-week 175.89-326.63, P/E 129",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T20:08:37-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/LGND/history/",
+   "document_id": "yahoo-finance-LGND-2026-11-13",
+   "origin": "Yahoo Finance via WebFetch: close 308.79 on 2026-11-13 (header), 316.27 on 11-12",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T20:08:37-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q1",
+    "e1"
+   ],
+   "note": "10-Q filed 2026-10-30 and 8-K Q3 release 2026-10-29 are the latest financial filings; statements and release read; MD&A not read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q1",
+    "e1"
+   ],
+   "note": "Sept 30 2026 balance sheet read: cash 56.0M, short-term investments 391.4M, convertible notes 1,128.2M carrying (current 448.3M, noncurrent 679.9M), equity 961.8M; 2030 note terms and the 448M current portion maturity not read."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "fy",
+    "q1"
+   ],
+   "note": "OCF minus reported PP&E capex (0.4M) over matching periods; OCF includes interest and royalty collections and only 2.5 months of XOMA, so TTM is not a run rate."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q1",
+    "qa"
+   ],
+   "note": "20.001M shares outstanding at 2026-09-30 (XBRL) matches stockanalysis 20.00M; dilution from converts (2031 notes about 2.09M shares at 334.27 if converted) not in market cap."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "qa",
+    "e1"
+   ],
+   "note": "GAAP P/E 124x and adjusted guide P/E about 32x computed; peers (royalty companies such as Royalty Pharma, XOMA history), sum of the parts and history not done."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "e1"
+   ],
+   "note": "Royalty aggregator: royalty revenue, adjusted EPS and net debt used; generic gross margin ratios not used. Adjusted EPS treated as management metric, not owner earnings."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q1",
+    "e1"
+   ],
+   "note": "Noted fair value losses on investments (35.7M), contingent liability marks, financial royalty asset income and 23.9M integration costs; MD&A, credit loss and royalty asset accounting not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "e1",
+    "q1",
+    "cv"
+   ],
+   "note": "Covers GAAP-adjusted gap, leverage, concentration, deal integration and valuation."
+  }
+ },
+ "price": {
+  "value": 308.79,
+  "currency": "USD",
+  "as_of": "2026-11-13T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-13",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 308.79,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 308.79,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   }
+  ]
+ },
+ "calculations": {
+  "valuation": {
+   "price": 308.79,
+   "shares_outstanding": 20001000,
+   "share_basis": "10-Q XBRL shares outstanding 2026-09-30 (20.001M); stockanalysis shows 20.00M; convertible dilution not included",
+   "market_cap_usd": 6176108790,
+   "ttm_eps_usd": 2.49,
+   "ttm_eps_basis": "FY2025 6.13 + 9M26 0.31 - 9M25 3.95 (GAAP diluted)",
+   "pe_ttm": 124.0,
+   "adjusted_eps_guide_2026_usd": "9.50-9.75 (management adjusted; excludes SBC, intangible amortization, contingent liabilities, mark-to-market)",
+   "pe_on_adjusted_guide_mid": 32.1
+  },
+  "cash_flow": {
+   "ttm_revenue_musd": 253.8,
+   "ttm_ocf_musd": 91.0,
+   "ttm_capex_musd": 0.405,
+   "ttm_fcf_musd": 90.6,
+   "fcf_yield_pct": 1.47,
+   "ttm_sbc_musd": 56.7,
+   "fcf_after_sbc_musd": 33.9,
+   "fcf_after_sbc_yield_pct": 0.55,
+   "basis": "FY2025 10-K + 9M26 10-Q - 9M25 10-Q, all USD millions; XOMA included only from 2026-07-14"
+  },
+  "balance_sheet": {
+   "cash_and_equivalents_musd": 55.958,
+   "short_term_investments_musd": 391.437,
+   "cash_plus_sti_musd": 447.4,
+   "convertible_notes_principal_musd": 1160,
+   "convertible_notes_carrying_musd": 1128.2,
+   "net_debt_musd": 712.6,
+   "ev_musd": 6889.0,
+   "equity_musd": 961.8,
+   "liabilities_musd": 1275.7
+  },
+  "growth": {
+   "q3_total_revenue_growth_pct": -32,
+   "q3_royalty_growth_pct": 51,
+   "q3_revenue_ex_pelthos_growth_pct": 26,
+   "q3_gaap_net_income_musd": -28.5,
+   "q3_adjusted_eps": 2.67,
+   "q3_adjusted_eps_growth_pct": -14
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers and valuation history not done",
+  "10-Q MD&A, 2031 and 2030 convert terms from filings, credit agreement terms unread",
+  "Royalty concentration by product not quantified",
+  "Forms 4/144 content unread",
+  "Quotes: two publishers, publisher-level independence only",
+  "Scores not assigned"
+ ]
+}

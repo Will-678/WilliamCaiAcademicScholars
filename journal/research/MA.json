@@ -1,0 +1,212 @@
+{
+ "method_version": "2.0",
+ "schema_version": 2,
+ "currency": "USD",
+ "as_of": "2026-11-13T20:08:37-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "ticker": "MA",
+ "exchange": "NYSE",
+ "sector_model": "payment network: revenue growth, adjusted EPS, FCF after SBC and buybacks versus net debt; bank ratios not applicable",
+ "thesis": "Mastercard Inc. (NYSE: MA), global payment network, mega cap. Q3 2026 (release 2026-10-29): net revenue 9.807B (+14%, currency-neutral +14%), payment network +11%, value-added services +18.5%, GAAP EPS 5.28, adjusted EPS 5.31 (+21%), cross-border volume +11%, switched transactions +9%; Q3 buybacks 3.0B. TTM GAAP EPS 19.11, TTM FCF about 16.1B. At 661.19 (2026-11-13 close, 52-week 464.52-681.99, about 3% below the high) P/E is 34.6x, FCF yield 2.8% (2.7% after SBC), dividend yield 0.5%, net debt about 13.9B after a 5.0B note issue in June and the 1.4B BVNK stablecoin acquisition in August. Quality is high and growth is steady; the question is price, not business. The market is paying a premium multiple for durable mid-teens growth and buybacks.",
+ "counterthesis": "A 34.6x trailing multiple and 2.8% FCF yield leave little margin: a deceleration to high single digits or an interchange or surcharge regulatory change would compress it. Regulation (U.S. merchant litigation, UK and EU interchange cases, Credit Card Competition Act style proposals), stablecoin and account-to-account disruption, tariffs on cross-border travel and debt-funded buybacks (equity only 6.8B) are risks. Litigation accrual dropped to 262M, so earlier charges may reverse the tailwind. It is also a large holding in broad US index funds, so exposure duplicates the core allocation.",
+ "invalidation": "Thesis breaks if net revenue growth falls below about 10% for several quarters, cross-border volume turns negative, a binding interchange cap is enacted, or a large unaccrued settlement hits.",
+ "sources": [
+  {
+   "id": "e1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000122/ma09302026-exx991xearnings.htm",
+   "document_id": "0001141391-26-000122",
+   "origin": "Exhibit 99.1 Q3 2026 release (8-K 2026-10-29 item 2.02) read via WebFetch; no guidance given",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T20:08:37-05:00"
+  },
+  {
+   "id": "q1",
+   "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000124/ma-20260930.htm",
+   "document_id": "0001141391-26-000124",
+   "origin": "10-Q 2026-09-30 filed 2026-10-29 read via WebFetch; extract truncated, legal detail and settlement guarantee unquantified",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T20:08:37-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001141391.json",
+   "document_id": "SEC-companyfacts-CIK0001141391",
+   "origin": "SEC XBRL companyfacts: FY2025 10-K revenue 32.791B, OCF 17.648B, capex 0.489B, SBC 0.597B, EPS 16.52",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T20:08:37-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001141391.json",
+   "document_id": "SEC-submissions-CIK0001141391",
+   "origin": "SEC submissions JSON 2026-11-13: 10-Q and 8-K 2026-10-29; only Forms 4/144 since",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T20:08:37-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/ma/",
+   "document_id": "stockanalysis-MA-2026-11-13",
+   "origin": "stockanalysis.com via WebFetch: close 661.19 at 2026-11-13 4:00 PM EST, market cap 576.0B, 871.18M shares, 52-week 464.52-681.99, P/E 34.6",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T20:08:37-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/MA/history/",
+   "document_id": "yahoo-finance-MA-2026-11-13",
+   "origin": "Yahoo Finance via WebFetch: header close 661.19 on 2026-11-13; table 652.60 on 11-12",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-13T20:08:37-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q1",
+    "e1"
+   ],
+   "note": "10-Q and Q3 release filed 2026-10-29 are latest; no later 8-K; read statements, MD&A figures and legal note excerpts."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q1",
+    "fy"
+   ],
+   "note": "Cash 10.147B, debt principal 24.081B (short-term 1.749B), equity 6.753B at 2026-09-30; June 2026 5.0B notes and BVNK 1.4B cash acquisition (plus up to 300M contingent) read; maturity ladder not read."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "fy",
+    "q1"
+   ],
+   "note": "OCF minus reported PP&E capex over matching periods; capitalized software and other investing items not included in capex; SBC separate."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q1",
+    "qa"
+   ],
+   "note": "871.18M shares (Class A plus B from cover, 2026-10-26) matches stockanalysis; diluted weighted 876M in Q3."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "qa",
+    "e1"
+   ],
+   "note": "TTM P/E 34.6x, forward 29.7x (stockanalysis only, unverified), FCF yield computed; Visa and other peer multiples and history not done."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "e1",
+    "q1"
+   ],
+   "note": "Payment network: revenue growth, adjusted EPS, FCF and buybacks versus net debt; settlement guarantee noted but unquantified."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q1",
+    "e1"
+   ],
+   "note": "Litigation accrual fell from 800M to 262M; 202M restructuring excluded from adjusted results YTD; merchant opt-out settlements ongoing; full legal note, rebates and incentives unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "e1",
+    "q1"
+   ],
+   "note": "Covers valuation, regulation, litigation, stablecoin disruption and leverage."
+  }
+ },
+ "price": {
+  "value": 661.19,
+  "currency": "USD",
+  "as_of": "2026-11-13T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-13",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 661.19,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 661.19,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   }
+  ]
+ },
+ "calculations": {
+  "valuation": {
+   "price": 661.19,
+   "shares_outstanding": 871176114,
+   "share_basis": "10-Q cover 2026-10-26: Class A 864,657,109 plus Class B 6,519,005",
+   "market_cap_usd": 576015504200,
+   "ttm_eps_usd": 19.11,
+   "ttm_eps_basis": "FY2025 16.52 + 9M26 14.59 - 9M25 12.00 (GAAP diluted)",
+   "pe_ttm": 34.6,
+   "q3_adjusted_eps": 5.31,
+   "dividend_yield_pct": 0.53
+  },
+  "cash_flow": {
+   "ttm_revenue_busd": 36.288,
+   "ttm_ocf_busd": 16.861,
+   "ttm_capex_busd": 0.779,
+   "ttm_fcf_busd": 16.082,
+   "fcf_yield_pct": 2.79,
+   "ttm_sbc_busd": 0.637,
+   "fcf_after_sbc_yield_pct": 2.68,
+   "ttm_buybacks_busd": 15.451,
+   "basis": "FY2025 10-K + 9M26 10-Q - 9M25 10-Q, USD billions; OCF not adjusted for settlement-related timing"
+  },
+  "balance_sheet": {
+   "cash_busd": 10.147,
+   "debt_principal_busd": 24.081,
+   "short_term_debt_busd": 1.749,
+   "net_debt_busd": 13.93,
+   "equity_busd": 6.753,
+   "accrued_litigation_busd": 0.262
+  },
+  "growth": {
+   "q3_net_revenue_growth_pct": 14.0,
+   "q3_payment_network_growth_pct": 11.0,
+   "q3_vas_growth_pct": 18.5,
+   "q3_adjusted_eps_growth_pct": 21,
+   "cross_border_volume_growth_pct": 11
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Visa and peer multiples and history not done",
+  "Full legal note, settlement guarantee and debt maturity ladder unread",
+  "Forward P/E from stockanalysis only",
+  "Quotes: two publishers, publisher-level independence only",
+  "Scores not assigned"
+ ]
+}
