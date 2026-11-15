@@ -1,0 +1,41 @@
+# PM research record, method 2.0
+
+As of 2026-11-15T08:09:00-05:00. Status: **watch**, confidence medium. Scores: null (incomplete). Validator: see data/quality_run56_PM.json. Close 198.96 USD on 2026-11-13 (NYSE; two publishers, publisher-level independence only).
+
+## Sector model
+Consumer staples tobacco (large): earnings, FCF after capex, dividend coverage, net debt/EBITDA; stockholders' deficit makes book ratios meaningless
+
+## Thesis and valuation
+Philip Morris International (NYSE: PM). Q3 2026 release (8-K 0001628280-26-066596 Ex99.1, relevant sections read) and 10-Q 0001628280-26-066976 (financial statements read, MD&A and legal narrative not in the excerpt): net revenues 11,438M vs 10,845M (+5.5% reported, +7.1% organic); operating income 4,866M vs 4,263M (+14.1%); adjusted operating margin 44.7% (+1.6 pts); adjusted EPS 2.36 (+5.4%), reported 2.12 vs 2.23 (RBH equity-investment impairment of 0.33/share in 9M and a 0.22/share fair-value charge). 9M: revenue 32,776M (+8.2%), operating income 13,289M, net earnings to PMI 8,568M vs 9,207M, OCF 10,445M vs 7,524M, capex 1,115M. International smoke-free 9M 11.6B (+9.9% organic), US 9M revenue -5.5% organic, ZYN Q3 3.2B pouches (+4.2%), smoke-free over 40% of revenue, cigarette volume 9M -1.2%. Guidance (2026, updated for currency only): organic revenue +5-7%, adjusted EPS 8.29-8.44, reported EPS 7.11-7.26, OCF about 13.5B, capex 1.4-1.6B, no buybacks, net debt about 2.0x adjusted EBITDA by year end. Valuation: close 198.96 (2026-11-13) x 1,558.66M shares (10-Q cover 2026-10-16) = market cap about 310.1B; 23.8x guided adjusted EPS midpoint (8.365), 27.6x reported guide midpoint (7.185), 29.0x TTM reported EPS 6.85 (7.26 FY25 + 5.48 - 5.89); TTM FCF 13,595M (OCF 15,154M minus capex 1,559M) = 4.4% yield; TTM dividends paid 9,198M (FCF covers 1.48x); dividend raised 8.8% to 1.60 quarterly (3.2% yield at 198.96, release via search summary). Net debt 40.9B (debt 47,562M less cash 6,683M). Market view: a slow-growing tobacco incumbent re-rated as a smoke-free growth company; evidence for: double-digit operating income growth, record margins, ZYN FDA authorizations; evidence against: US decline and valuation near 24x.
+
+## Countercase
+The price already pays for smoke-free growth: 23.8x adjusted EPS for a company guiding 5-7% organic revenue growth and a declining cigarette base. Total debt is 47.6B and stockholders' deficit is 7.9B, so leverage is high and the 2.0x net debt/EBITDA target relies on cash generation; no buybacks means per-share growth rests on operations and currency (adjusted EPS guide ex-currency +7.5-9.5%, the rest is FX). TTM FCF yield 4.4% is below the dividend plus interest burden ratio of safety for a falling combustible base; dividend 9.2B uses 68% of FCF. US revenue fell 5.5% organic over 9M and ZYN shipments grew only 4.2% in Q3 (competition, regulation). The RBH impairment (Canadian CCAA tobacco litigation settlement path) and several legal matters (Brazil tax, Italy, health-care cost recovery) are named in the 10-Q but amounts and status not read. Adjusted EPS excludes impairments and fair-value changes: reported TTM EPS is 6.85 versus guided adjusted 8.37. Peers (BTI, MO, IMBBY) and PM history not compared. 9M OCF rose 39% partly on working capital timing (not reconciled).
+
+## Invalidation
+Thesis fails if smoke-free organic growth falls toward mid single digits while US ZYN share erodes, cigarette volume decline accelerates beyond about 3% with weaker pricing, FDA or tax actions curb pouches/heated tobacco, or leverage stays above 2.0x so the dividend is not covered by FCF.
+
+## Checks
+- latest_filing_checked: pass: SEC submissions list 10-Q filed 2026-10-23 and 8-K 2026-10-21 as latest periodic filing and earnings release; no later 10-Q/10-K; MD&A and legal note narrative not read.
+- balance_sheet_verified: pass: Cash 6,683M, short-term borrowings 2,525M, current LTD 3,328M, LTD 41,709M, total debt 47,562M, PMI stockholders' deficit (7,937)M at 2026-09-30 from the 10-Q statements.
+- cashflow_basis_verified: pass: OCF TTM 15,154M = 12,233 + 10,445 - 7,524; capex TTM 1,559M = 1,569 + 1,115 - 1,125 (XBRL, USD, matching periods); FCF 13,595M; working capital contribution to the 9M OCF increase not reconciled.
+- share_count_basis_verified: pass: 1,558,655,629 shares at 2026-10-16 from the 10-Q cover; used for market cap.
+- valuation_complete: NOT passed: Multiples vs guidance and TTM computed; peers (BTI, MO) and PM history not compared; no buybacks planned.
+- sector_model_appropriate: pass: Staples model: adjusted and reported EPS, FCF after capex, dividend coverage and net debt; book value not used because equity is a deficit.
+- accounting_red_flags_reviewed: NOT passed: Impairment of RBH investment (511M 9M) and fair-value adjustments identified; contingencies note, tax matters and non-GAAP reconciliation not read.
+- counterthesis_written: pass: Covers valuation, leverage, US decline, ZYN growth, legal items, FX share of EPS growth and non-GAAP gap.
+
+## Sources
+- e: earnings_release, relevant_sections: Q3 2026 earnings release via WebFetch; issuer release (https://www.sec.gov/Archives/edgar/data/0001413329/000162828026066596/earningsreleasepm-ex991xq3.htm)
+- q: quarterly_filing, relevant_sections: Q3 2026 10-Q via WebFetch: financial statements and cover; MD&A and legal note narrative cut off (https://www.sec.gov/Archives/edgar/data/1413329/000162828026066976/pm-20260930.htm)
+- fy: annual_filing, relevant_sections: FY2025 10-K (filed 2026-02-06) figures via SEC XBRL companyfacts only; 10-K text not opened (https://data.sec.gov/api/xbrl/companyfacts/CIK0001413329.json)
+- qa: quote, relevant_sections: stockanalysis.com via WebFetch: USD close 2026-11-13 (https://stockanalysis.com/stocks/pm/history/)
+- qb: quote, relevant_sections: Yahoo Finance via WebFetch: USD close 2026-11-13 (https://finance.yahoo.com/quote/PM/history/)
+
+## Unresolved gaps
+- Peer multiples (BTI, MO) and PM history not compared
+- 10-Q MD&A, legal contingencies note (CCAA, Brazil, Italy) and 10-K not read
+- Working capital effect on 9M OCF not reconciled
+- Quote independence is publisher level only
+- Scores not assigned
+
+Benchmark and paper reference: pending; no outperformance claim.
