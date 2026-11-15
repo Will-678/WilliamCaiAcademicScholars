@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-11-15T17:05:39.329048+00:00",
+  "checked_at": "2026-11-15T17:05:58.017285+00:00",
   "records": [
     {
       "path": "journal/research/GMED.json",
       "valid": false,
       "eligible_attractive": false,
       "errors": [
-        "peers: invalid accessed_at"
+        "peers: source access is later than the research snapshot"
       ],
       "blockers": [
         "Read the annual filing and a distinct recent filing or earnings document",
