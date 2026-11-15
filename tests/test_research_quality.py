@@ -38,6 +38,8 @@ def complete_record():
         dict(id="quote2", document_id="close-provider-two", origin="provider-two", kind="quote"),
     ]
     for source in sources:
+        if source["kind"] == "quote":
+            source.update(origin_verified=True, origin_evidence_url="https://example.org/provider-documentation")
         source.update(url="https://example.org/" + source["id"], read_status="relevant_sections",
                       accessed_at="2026-11-05T18:00:00-05:00")
     price_time = "2026-11-05T16:00:00-05:00"
@@ -116,6 +118,14 @@ class ResearchTests(unittest.TestCase):
         result = quality.validate(record, later)
         self.assertFalse(result["eligible_attractive"])
         self.assertIn("Quote is stale at validation time", result["blockers"])
+
+    def test_publisher_labels_do_not_prove_quote_independence(self):
+        record = complete_record()
+        for source in record["sources"]:
+            source.pop("origin_verified", None)
+            source.pop("origin_evidence_url", None)
+        result = quality.validate(record, NOW)
+        self.assertFalse(result["eligible_attractive"])
 
     def test_complete_fixture_passes(self):
         self.assertTrue(quality.validate(complete_record(), NOW)["eligible_attractive"])

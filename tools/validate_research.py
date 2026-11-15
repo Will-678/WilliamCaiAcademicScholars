@@ -149,6 +149,8 @@ def validate(record, now=None):
         source = by_id.get(source_id, {}) if isinstance(source_id, str) else {}
         qt = timestamp(quote.get("as_of"))
         if (source.get("kind") == "quote" and source.get("read_status") in ("full", "relevant_sections")
+                and source.get("origin_verified") is True
+                and public_url(source.get("origin_evidence_url"))
                 and number(quote.get("value")) and number(price.get("value")) and price["value"] > 0
                 and abs(quote["value"] / price["value"] - 1) <= .005
                 and quote.get("currency") == price.get("currency")

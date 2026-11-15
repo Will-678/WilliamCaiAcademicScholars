@@ -36,3 +36,7 @@ Fixed stale quote eligibility when an old record is revalidated. Reproduced with
 
 ## 2026-11-08 compiler review
 Validator no longer counts XBRL or submissions API URLs as the annual filing read (evidence: five records labelled companyfacts as annual_filing). Regression test added; 27 tests pass; 26 records still valid, 0 eligible. Rollback reference 50e22e01ab5b519a4a389f03310742cd5754d604 for tools/validate_research.py and tests/test_research_quality.py. Details in reviews/2026-11-08.md.
+
+## 2026-11-15 independent audit
+
+Required explicit documented underlying quote origins before sources count toward independent confirmation. New regression failed before the fix; all 28 tests passed afterward. All 105 current records remain structurally valid and none attractive-eligible. Spot-checked ADMA, FSS and PM figures against primary filings. Added reporting of an existing leader's gap attempt/outcome to address recurring breadth-over-depth drift. Source flags and ratings were not backfilled. Full report: reviews/2026-11-15-independent.md. Rollback versions for changed validator, tests and workflow: e71a5351372e70d2ca5fe66acea0cd34c61cc2d9, restored only through a new commit. No score thresholds or cadence changed.
