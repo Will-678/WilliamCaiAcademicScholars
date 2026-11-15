@@ -28,3 +28,6 @@ Guidance cut, flat Q3 sales, weak international, growth bought through Nevro, in
 Peer and own-history multiples, call commentary, receivables and inventory quality, 10-K audit matters, scores.
 
 Research only; no trade implied.
+
+## Update 2026-11-15 12:2x ET (run 57, leader gap)
+Peer gap partly closed. Aggregator snapshot at 2026-11-13 close (stockanalysis.com statistics, not filings, definitions unaudited): GMED 72.14 (PE 17.8 trailing, 14.0 forward, EV/EBITDA 8.6, FCF yield 8.0%); ZBH 103.21 (26.1, 11.7, 10.5, 6.6%); SYK 309.64 (33.0, 19.4, 17.3, 3.9%). GMED is below both on trailing multiples; ZBH is lower on forward PE. Still open: LIVN, ATEC, own history, call commentary, 10-K. Status stays watch, score null.

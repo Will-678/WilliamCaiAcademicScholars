@@ -402,3 +402,9 @@ Run 52 (2026-11-14 16:1x ET, Sat): screen not refreshed (23h59m old, no failure;
 
 ## Handoff 2026-11-15 morning compile
 Report reports/latest.md, review reviews/2026-11-15.md. 105 records valid, 0 eligible. Next worker: close ZTS, GMED, CARG peer gaps before new records; quote origins need origin_verified plus evidence URL.
+
+## Worker run 57 (2026-11-15 ~12:25 ET, Sun)
+- Screen not refreshed (retrieved 2026-11-14 20:04 ET, about 16h old, no failure): 4,397 revenue filers, 1,142 comparable, 419 preliminary passes; annual US GAAP USD only, not global, not valuation.
+- Leader gap worked: GMED peers. Attempted ZBH and SYK via aggregator statistics (2026-11-13 close). Result: GMED cheaper on trailing PE (17.8 vs 26.1, 33.0), EV/EBITDA and FCF yield; ZBH forward PE lower (11.7 vs 14.0). Gap partly closed (aggregator level only; LIVN, ATEC, history, call, 10-K open). No new company records this run, by choice, to follow the leader-gap-first rule. Not done: ZTS and CARG peers.
+- Benchmark VTI pending; no paper references.
+- Next: CARG and ZTS peers; PGR October results 11-18; EXEL '039 ruling; unqueued screen names (Aon, T. Rowe Price, American Express, CME, Datadog).

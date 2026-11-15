@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-11-15T17:05:39.329048+00:00",
+  "records": [
+    {
+      "path": "journal/research/GMED.json",
+      "valid": false,
+      "eligible_attractive": false,
+      "errors": [
+        "peers: invalid accessed_at"
+      ],
+      "blockers": [
+        "Read the annual filing and a distinct recent filing or earnings document",
+        "valuation_complete requires a passed, explained, sourced check",
+        "Quote is stale at validation time",
+        "Two matching quote sources with different underlying origins are required",
+        "Complete the score components before promotion",
+        "Critical evidence gaps remain"
+      ]
+    }
+  ],
+  "valid": false
+}
