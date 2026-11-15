@@ -1,0 +1,194 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "BUSE",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "Bank holding company: P/TBV and ROTCE, NIM, credit quality (nonaccrual, ACL, classified), CET1, deposit cost; no FCF or EV multiples",
+ "as_of": "2026-11-15T00:04:38-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "First Busey (Nasdaq: BUSE), Midwest regional bank holding, about 18.6B assets after the March 2025 CrossFirst Bankshares merger. Q3 2026 release (8-K 0000314489-26-000066) and 10-Q (0000314489-26-000070, filed 2026-11-05). Q3 net income 55.8M, diluted EPS 0.61 (adjusted 0.63) versus 63.2M in Q2 and 57.1M in Q3 2025; NIM 3.58% (adjusted 3.46%); efficiency ratio 54.4%; ROTCE 12.93%; CET1 12.47%, total capital 16.10%; tangible book value per share 19.37 (down from 20.40 in Q2 on buybacks and a lower AOCI, AOCI -241.9M); 188.4M repurchased in 2026 (80.26M shares on 2026-11-05 versus 88.41M a year earlier). Credit: nonaccrual 80.9M (62.8M in Q2), NPAs 0.45% of assets, ACL 164.3M = 1.28% of portfolio loans, Q3 net charge-offs 0.35% annualized, classified assets 244.9M (+83.8M year over year); one 37.6M Central region commercial relationship went nonaccrual with a 10.0M charge-off. Loans fell to 12.82B (about 65M lender finance moved to held for sale), deposits rose to 15.54B, loan to deposit 82.5%. Valuation at 28.87 (close 2026-11-13): price to tangible book 1.49x, price to common book about 1.14x; TTM net income 229.8M (FY2025 135.3M + 9M26 169.0M - 9M25 74.5M) less about 18.4M preferred dividends (222.75M at 8.25%, my estimate) gives about 211M to common, about 11x on period-end shares; dividend 1.04 annualized = 3.6% yield. Market view: a bank earning low-teens ROTCE priced under 1.5x tangible book with a credit scare; evidence for: strong capital, large buybacks, falling funding cost trend; the price gap closes if classified assets stop rising.",
+ "counterthesis": "Credit signals are worsening: classified assets rose 83.8M in a year to 244.9M, nonaccrual rose 18M in one quarter, the provision quadrupled to 9.6M and a single relationship needed a 10.0M charge-off, which can mean more hidden weakness in the Central region and the CrossFirst book acquired in 2025. CRE is 41% of loans (office share not disclosed). Loan balances shrank and NIM fell 14 basis points from Q2, so earnings are drifting down (EPS 0.61 versus 0.63 estimate 0.67 in a secondary source). Tangible book fell about 5% in one quarter because 60M was repurchased above tangible book; heavy buybacks (188M year to date, about 8% of shares) reduce capital cushion if credit deteriorates. Nine month and FY2025 earnings include merger charges and restructuring (13.4M), so TTM is not clean. The TTM multiple uses an estimated preferred dividend and period-end shares. Peers and own history of P/TBV not compared; MD&A, loan note, deposit insurance and 10-K not read.",
+ "invalidation": "Thesis fails if nonaccrual loans and classified assets keep rising for another quarter, net charge-offs exceed about 0.5% annualized, CET1 falls toward 11%, NIM falls below about 3.4% or ROTCE drops under 11%.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/314489/000031448926000070/buse-20260930.htm",
+   "document_id": "0000314489-26-000070",
+   "origin": "Q3 2026 10-Q via WebFetch, balance sheet, income statement and equity statement read; MD&A, notes and Item 4 not reached (page text truncated)",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-15T00:04:38-05:00"
+  },
+  {
+   "id": "e",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000314489/000031448926000066/buse_20261027x26q3xex991.htm",
+   "document_id": "0000314489-26-000066 Ex99.1",
+   "origin": "Q3 2026 earnings release via WebFetch; issuer release",
+   "kind": "earnings_release",
+   "read_status": "full",
+   "accessed_at": "2026-11-15T00:04:38-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000314489.json",
+   "document_id": "SEC-companyfacts-CIK0000314489",
+   "origin": "SEC XBRL companyfacts via curl; FY2025 10-K 0000314489-26-000013 via XBRL only, 10-K text not opened",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-15T00:04:38-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/buse/history/",
+   "document_id": "stockanalysis-BUSE-2026-11-13",
+   "origin": "stockanalysis.com via WebFetch: USD close 2026-11-13",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-15T00:04:38-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/BUSE/history/",
+   "document_id": "yahoo-finance-BUSE-2026-11-13",
+   "origin": "Yahoo Finance via WebFetch: NasdaqGS USD close 2026-11-13",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-15T00:04:38-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "e"
+   ],
+   "note": "10-Q filed 2026-11-05 and 8-K release 2026-10-27 read; submissions list shows 8-K 2026-11-06 (preferred dividend, read) and Form 4s only since."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "fy",
+    "e"
+   ],
+   "note": "Assets 18.56B, deposits 15.54B, portfolio loans net 12.66B, ACL 164.3M, equity 2,256.3M including 222.75M preferred at 2026-09-30 (10-Q statements and XBRL); liabilities derived."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "fy"
+   ],
+   "note": "Operating cash flow 164.2M for 9M26 recorded but not used for valuation; bank valued on earnings and tangible book, not FCF; no capex-based FCF claimed."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "80,256,870 shares at 2026-11-05 (cover) and 81,276,654 at 2026-09-30; period-end count used for market cap; TTM EPS would need weighted average shares, so P/E is an approximation."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "qa",
+    "qb",
+    "e",
+    "fy"
+   ],
+   "note": "P/TBV 1.49x, P/B, dividend yield and approximate TTM P/E computed; peer multiples (Old National, Associated, Simmons) and BUSE history not compared."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "e",
+    "q"
+   ],
+   "note": "Bank model applied: tangible book, ROTCE, NIM, credit, CET1; no FCF or EV."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "e",
+    "q"
+   ],
+   "note": "ACL ratio, charge-off, buyback pace and merger charges noted; loan composition note, CECL assumptions, auditor items and the Illinois franchise tax matter not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "e",
+    "q"
+   ],
+   "note": "Covers credit trend, CRE, buybacks, margin, merger noise, estimate approximations."
+  }
+ },
+ "price": {
+  "value": 28.87,
+  "currency": "USD",
+  "as_of": "2026-11-13T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-13",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 28.87,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 28.87,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 28.87,
+   "shares_outstanding": 80256870,
+   "share_basis": "10-Q cover 2026-11-05",
+   "market_cap_usd": 2317000000,
+   "ttm_net_income_musd": 229.8,
+   "preferred_dividend_est_musd": 18.4,
+   "pe_ttm_approx": 11.0,
+   "price_to_tbv": 1.49,
+   "tbv_per_share": 19.37,
+   "dividend_yield_pct": 3.6,
+   "ttm_fcf_musd": null,
+   "fcf_yield_pct": null,
+   "basis": "TTM = FY2025 + 9M26 - 9M25 USD millions XBRL; P/E = market cap / (TTM net income - estimated preferred dividend); FCF not used for banks"
+  },
+  "balance_sheet": {
+   "total_assets_musd": 18558.6,
+   "deposits_musd": 15537.6,
+   "equity_musd": 2256.3,
+   "preferred_musd": 222.75,
+   "acl_musd": 164.3,
+   "nonaccrual_musd": 80.9,
+   "cet1_pct": 12.47,
+   "basis": "2026-09-30; release figures marked preliminary by the company"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peer bank multiples and own P/TBV history not compared",
+  "10-Q MD&A, loan and CECL notes, Item 4 and 10-K not read",
+  "Office CRE exposure not disclosed in sources read",
+  "Illinois franchise tax matter unexplained",
+  "Preferred dividend and TTM EPS estimated",
+  "Quote independence is publisher level only",
+  "Scores not assigned"
+ ]
+}

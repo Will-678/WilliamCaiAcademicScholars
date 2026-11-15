@@ -1,0 +1,197 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "GRND",
+ "exchange": "NYSE",
+ "currency": "USD",
+ "sector_model": "Consumer internet subscription and advertising app: ARPPU/users not disclosed, leveraged buyback, litigation, SBC, acquisition",
+ "as_of": "2026-11-15T00:04:38-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Grindr (NYSE: GRND), LGBTQ social app with subscriptions and advertising. Q3 2026 10-Q (0001820144-26-000042, filed 2026-11-06) and release Ex99.1 (8-K 0001820144-26-000039). Q3 revenue 141.4M (+22%), 9M revenue 409.5M (+30%); Q3 GAAP net loss -6.6M after about 33M litigation charge (UK group action settled for GBP 26M in two payments, Israeli class action settled) versus +30.8M a year ago; adjusted EBITDA 61.7M (43.7% margin versus 47.4%); adjusted net income 21.0M. 2026 guide raised to about 560M revenue and 236M adjusted EBITDA; first 2027 outlook at least 705M and 275M. Cash 49.4M at 2026-09-30; term loan principal 385M at 6.7%, maturing 2031; 152M revolver draw on 2026-10-30 funded the 2026-11-02 PurposeMed (Freddie telehealth) acquisition (190M cash, 3.85M shares, up to 70M 2027 earnout). TTM (XBRL: FY2025 + 9M26 - 9M25): revenue 535.5M, net income 58.2M, OCF 150.3M, capex 1.1M plus capitalized software 6.7M, FCF 142.5M; SBC 76.0M. Market cap 2.62B at 14.84 on 176.73M shares (cover, 2026-11-04): TTM GAAP P/E 45x, FCF yield 5.4% (2.5% after SBC). Pro forma net debt about 526M (385M + 152M - about 11M cash after deal), about 2.2x 2026 adjusted EBITDA guide; EV about 3.15B or 13.3x guided adjusted EBITDA. Market view: a high-margin growing platform whose price assumes the acquisition and 2027 guide are delivered; evidence for: growth, 43% margin, guide raised; gap closing depends on SBC fading and leverage falling.",
+ "counterthesis": "Adjusted EBITDA excludes SBC that jumped to 19.3M in Q3 (6.0M a year ago; 54.9M over nine months), so owner earnings are far lower: FCF after SBC about 66M or 2.5% yield. Debt rose from 280M (Sep 2025) to about 537M pro forma, with a variable-rate revolver, to buy a telehealth business unrelated to the core app, and the release does not say whether guidance includes Freddie. Privacy litigation (Norway GDPR, Israel, UK) shows a recurring regulatory risk for sensitive data; the 33M charge may not be the last. Adjusted EBITDA margin fell 3.7 points and the company will lose about 10M of Freddie advertising (secondary report, not verified). The 2025 net income (94.8M) and quarterly net income show noise; buybacks used prepaid puts, ASRs and forward contracts with a derivative loss (3.7M in Q3). Paying users and ARPPU not disclosed in the release. Peers (Bumble, Match) and history not compared; 10-K text and MD&A non-GAAP section not read.",
+ "invalidation": "Thesis fails if revenue growth falls below guidance, adjusted EBITDA margin keeps compressing, SBC stays above 10% of revenue, further privacy fines or settlements appear, or the revolver is not paid down while Freddie earns below its cost.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/1820144/000182014426000042/grnd-20260930.htm",
+   "document_id": "0001820144-26-000042",
+   "origin": "Q3 2026 10-Q via WebFetch, first 100,000 of 112,515 characters plus the remainder; MD&A non-GAAP section truncated",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-15T00:04:38-05:00"
+  },
+  {
+   "id": "e",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001820144/000182014426000039/exhibit991-q32026pressrele.htm",
+   "document_id": "0001820144-26-000039 Ex99.1",
+   "origin": "Q3 2026 earnings release via WebFetch; issuer release",
+   "kind": "earnings_release",
+   "read_status": "full",
+   "accessed_at": "2026-11-15T00:04:38-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001820144.json",
+   "document_id": "SEC-companyfacts-CIK0001820144",
+   "origin": "SEC XBRL companyfacts via curl; FY2025 10-K 0001820144-26-000007 figures only via XBRL, 10-K text not opened",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-15T00:04:38-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/grnd/history/",
+   "document_id": "stockanalysis-GRND-2026-11-13",
+   "origin": "stockanalysis.com via WebFetch: NYSE USD close 2026-11-13",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-15T00:04:38-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/GRND/history/",
+   "document_id": "yahoo-finance-GRND-2026-11-13",
+   "origin": "Yahoo Finance via WebFetch: NYSE USD close 2026-11-13",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-15T00:04:38-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "e"
+   ],
+   "note": "10-Q filed 2026-11-06 and 8-K release 2026-11-05 read; submissions list shows S-3ASR 2026-11-06, 8-K 2026-11-02 (acquisition close) and Form 4 and 13D/A since; the S-3ASR and 11-02 8-K text were not opened."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "fy"
+   ],
+   "note": "Cash 49.4M, term loan principal 385M (carrying 381.6M), revolver 200M undrawn at 2026-09-30, 152M drawn 2026-10-30; liabilities 515.4M at 2026-09-30 per XBRL; pro forma cash is my estimate."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "fy"
+   ],
+   "note": "OCF 9M26 125.5M, 9M25 116.8M, FY25 141.5M; capex PPE and capitalized software separate and included; USD millions, TTM = FY25 + 9M26 - 9M25; OCF is after interest."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "176,729,538 shares at 2026-11-04 (10-Q cover) versus 173,660,801 at 2026-09-30; includes the 3.85M acquisition shares; diluted EPS Q3 -0.04."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "qa",
+    "fy",
+    "e"
+   ],
+   "note": "P/E, FCF yield, EV/EBITDA computed; peers (Match, Bumble) and history not compared; guidance inclusion of Freddie unknown."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "e",
+    "q"
+   ],
+   "note": "Consumer internet subscription model with leverage, SBC and litigation lens; ARPPU not available."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "e"
+   ],
+   "note": "Litigation accrual, derivative on forward repurchase and SBC noted; controls conclusion and auditor items not in the extract; 10-K not opened."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "e",
+    "fy"
+   ],
+   "note": "Covers SBC, acquisition debt, privacy litigation, margin, buyback structure."
+  }
+ },
+ "price": {
+  "value": 14.84,
+  "currency": "USD",
+  "as_of": "2026-11-13T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-13",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 14.84,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 14.84,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 14.84,
+   "shares_outstanding": 176729538,
+   "share_basis": "10-Q cover 2026-11-04",
+   "market_cap_usd": 2622800000,
+   "ttm_revenue_musd": 535.5,
+   "ttm_net_income_musd": 58.2,
+   "pe_ttm": 45.1,
+   "ttm_fcf_musd": 142.5,
+   "fcf_yield_pct": 5.4,
+   "sbc_ttm_musd": 76.0,
+   "fcf_after_sbc_yield_pct": 2.5,
+   "ev_musd": 3150,
+   "ev_to_2026_adj_ebitda_guide": 13.3,
+   "basis": "TTM = FY2025 + 9M26 - 9M25 USD millions XBRL; FCF = OCF 150.3 - capex 1.1 - capitalized software 6.7; EV = market cap + 537M debt - about 11M pro forma cash (estimate)"
+  },
+  "cash_flow": {
+   "ocf_ttm_musd": 150.3,
+   "capex_ttm_musd": 7.8,
+   "ocf_9m26_musd": 125.5,
+   "capex_9m26_musd": 4.8,
+   "basis": "USD millions; capex includes capitalized software"
+  },
+  "balance_sheet": {
+   "cash_musd": 49.4,
+   "debt_musd": 537.0,
+   "total_liabilities_musd": 515.4,
+   "basis": "Term loan principal 385M at 2026-09-30 plus 152M revolver draw 2026-10-30; liabilities at 2026-09-30"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers (Match, Bumble) and history not compared",
+  "10-K text, MD&A non-GAAP section and controls conclusion not read",
+  "Whether 2026 and 2027 guidance include Freddie unknown",
+  "Paying users and ARPPU not disclosed in sources read",
+  "Pro forma cash is an estimate",
+  "Quote independence is publisher level only",
+  "Scores not assigned"
+ ]
+}

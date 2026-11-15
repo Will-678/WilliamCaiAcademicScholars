@@ -1,0 +1,192 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "ICE",
+ "exchange": "NYSE",
+ "currency": "USD",
+ "sector_model": "Exchange and financial data/mortgage technology operator: net revenue, adjusted margin, recurring revenue, leverage and acquisition financing; clearing balances excluded from debt judgement not yet verified",
+ "as_of": "2026-11-15T00:04:38-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Intercontinental Exchange (NYSE: ICE), operator of exchanges (energy, interest rate, NYSE), fixed income and data services, and mortgage technology. Q3 2026 release (8-K 0001104659-26-119880) and 10-Q 0001571949-26-000015: Q3 net revenues 2,765M (+15%), GAAP net income to ICE 940M (+15%), GAAP diluted EPS 1.67, adjusted EPS 2.02 (+18%); 9M GAAP EPS 5.85 versus 4.28 helped by a 452M equity investment fair value gain (excluded from adjusted EPS 6.27); energy revenue 603M (+25%); Mortgage Technology 549M (+4%) with 2% GAAP margin (40% adjusted). Guidance: 2026 Exchange recurring revenue growth 9%, Fixed Income and Data 8%, capex about 1.05B, Q4 adjusted expenses 1.082-1.092B. Pending MarketAxess acquisition: HSR early termination 2026-10-21, close now expected Q1 2027, terms and financing not in the release. Total debt 23.3B (2,959M short-term, 20,345M long-term) against 936M unrestricted cash. TTM (XBRL: FY2025 + 9M26 - 9M25): GAAP net income 4,162M, OCF 5,761M, capex 484M plus capitalized software 446M, FCF 4,831M, SBC 285M. Shares 558.86M (10-Q cover 2026-10-26), market cap 99.8B at 178.51 (2026-11-13 close): GAAP TTM P/E 24.0x (flattered by the 452M gain), about 21 to 22x on annualized adjusted EPS (indicative only), FCF yield 4.8% (4.6% after SBC), EV about 122B on balance sheet debt. Market view: a compounding exchange franchise priced at a premium multiple, rerated about 10% since Q3 results (163.04 on 2026-10-29 to 178.51); evidence for: double-digit growth, high margin, buybacks, recurring revenue; the gap closes only if MarketAxess adds value and leverage falls.",
+ "counterthesis": "The stock rose about 9.5% after earnings (163.04 to 178.51) so the cheap-looking moment has passed; a 24x GAAP multiple is not low for 8-9% guided recurring growth. Reported GAAP growth is inflated by a 452M investment gain and 283M of Section 31 fees that appear in revenue and expense in 2026 but not Q3 2025 (net revenue figure is stated net of transaction-based expenses; effect on margin not analyzed). Mortgage Technology grows 4% with only 2% GAAP margin and exposure to housing volumes. Debt is 23.3B with short-term borrowings up from 1.0B at year-end to 3.0B, and the MarketAxess deal will add acquisition financing and goodwill; ICE itself promises a deleveraging plan. Regulatory and antitrust review of other approvals is pending. Energy revenue growth (+25%) may reflect volatile commodity trading. Adjusted EPS excludes about 290M per quarter of amortization and deal costs. Peers (CME, Nasdaq, CBOE, LSEG) not compared; MD&A, debt note (including clearing house items), legal notes, merger terms and 10-K not read.",
+ "invalidation": "Thesis fails if recurring revenue growth falls below high single digits, Mortgage Technology margin stays near zero, MarketAxess terms or financing materially dilute or raise leverage, or the multiple compresses with energy and rate-volatility volumes.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001571949.json",
+   "document_id": "0001571949-26-000015",
+   "origin": "Q3 2026 10-Q 0001571949-26-000015 (cover share count, cash flow, borrowings) via SEC XBRL companyfacts; 10-Q text not opened",
+   "kind": "quarterly_filing",
+   "read_status": "snippet",
+   "accessed_at": "2026-11-15T00:04:38-05:00"
+  },
+  {
+   "id": "e",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001571949/000110465926119880/tm2628301d1_ex99-1.htm",
+   "document_id": "0001104659-26-119880 Ex99.1",
+   "origin": "Q3 2026 earnings release via WebFetch; issuer release",
+   "kind": "earnings_release",
+   "read_status": "full",
+   "accessed_at": "2026-11-15T00:04:38-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001571949.json",
+   "document_id": "SEC-companyfacts-CIK0001571949",
+   "origin": "SEC XBRL companyfacts via curl; FY2025 10-K 0001571949-26-000004 figures via XBRL only, 10-K text not opened",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-15T00:04:38-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/ice/history/",
+   "document_id": "stockanalysis-ICE-2026-11-13",
+   "origin": "stockanalysis.com via WebFetch: NYSE USD close 2026-11-13",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-15T00:04:38-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/ICE/history/",
+   "document_id": "yahoo-finance-ICE-2026-11-13",
+   "origin": "Yahoo Finance via WebFetch: USD close 2026-11-13",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-15T00:04:38-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "e",
+    "q"
+   ],
+   "note": "Release 2026-10-29 read in full; 10-Q accession identified from XBRL and cover share date 2026-10-26; submissions list since shows only Forms 4 and 144 (to 2026-11-13); 10-Q text not opened."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "e",
+    "fy"
+   ],
+   "note": "Debt 2,959M short-term and 20,345M long-term, cash 936M at 2026-09-30 per release and XBRL ShortTermBorrowings; clearing house and restricted balances not analyzed."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "fy",
+    "e"
+   ],
+   "note": "OCF 5,761M, capex 484M, capitalized software 446M TTM from XBRL cash flow facts (FY2025 + 9M26 - 9M25, USD); OCF may include working capital and clearing items, not examined."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "558,858,412 shares at 2026-10-26 from 10-Q cover dei; Q4 diluted guide 558-563M."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "qa",
+    "qb",
+    "e",
+    "fy"
+   ],
+   "note": "GAAP P/E, FCF yield, EV computed; adjusted TTM EPS requires Q4 2025 (not gathered) so adjusted P/E is indicative; peers (CME, NDAQ, CBOE, MKTX) and history not compared; MarketAxess terms unknown."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "e"
+   ],
+   "note": "Exchange operator model on net revenue, adjusted margin, recurring growth and leverage; not valued on book value."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "e",
+    "fy"
+   ],
+   "note": "Investment gain, Section 31 fees and acquisition costs noted; notes, auditor items and clearing house accounting unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "e",
+    "fy"
+   ],
+   "note": "Covers post-earnings rally, one-offs, mortgage margin, leverage and merger, peer comparison gap."
+  }
+ },
+ "price": {
+  "value": 178.51,
+  "currency": "USD",
+  "as_of": "2026-11-13T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-13",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 178.51,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 178.51,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 178.51,
+   "shares_outstanding": 558858412,
+   "share_basis": "10-Q cover dei 2026-10-26",
+   "market_cap_usd": 99770000000,
+   "ttm_net_income_musd": 4162,
+   "pe_ttm": 24.0,
+   "ttm_fcf_musd": 4831,
+   "fcf_yield_pct": 4.8,
+   "sbc_ttm_musd": 285,
+   "fcf_after_sbc_yield_pct": 4.6,
+   "ev_musd": 122000,
+   "basis": "TTM = FY2025 + 9M26 - 9M25 USD millions XBRL; FCF = OCF 5,761 - capex 484 - capitalized software 446; EV = market cap + total debt 23.3B - cash 0.94B (rounded)"
+  },
+  "cash_flow": {
+   "ocf_ttm_musd": 5761,
+   "capex_ttm_musd": 930,
+   "ocf_9m26_musd": 4486,
+   "capex_9m26_musd": 664,
+   "basis": "USD millions; capex = property plus capitalized software"
+  },
+  "balance_sheet": {
+   "cash_musd": 936,
+   "debt_musd": 23304,
+   "basis": "2026-09-30 release; short-term 2,959M and long-term 20,345M"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peer multiples (CME, NDAQ, CBOE, MKTX) and ICE history not compared",
+  "MarketAxess merger terms, financing and leverage not read",
+  "10-Q MD&A, debt note, legal notes and 10-K not read",
+  "Adjusted TTM EPS needs Q4 2025",
+  "Quote independence is publisher level only",
+  "Scores not assigned"
+ ]
+}
