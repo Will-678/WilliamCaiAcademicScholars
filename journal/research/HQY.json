@@ -1,0 +1,192 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "HQY",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "Fee and custodial platform: HSA assets and members, custodial yield, interest rate sensitivity, SBC and acquired amortization",
+ "as_of": "2026-11-14T20:07:56-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "HealthEquity (Nasdaq: HQY), largest HSA custodian: 10.7M HSAs (+8%), 37.9B assets (+14%). Fiscal Q2 FY2027 (quarter to 2026-07-31; 10-Q 0001428336-26-000041 filed 2026-08-27; release Ex99.1 of 8-K 0001428336-26-000040). Revenue 350.7M (+8%): service 124.4M, custodial 175.9M, interchange 50.4M; net income 65.6M (+10%), GAAP EPS 0.78, adjusted EBITDA 167.0M. FY2027 guidance (year to 2027-01-31) raised: revenue 1.411-1.421B, GAAP EPS 2.88-2.96, adjusted EBITDA 628-636M, non-GAAP EPS 4.66-4.73 (about 84M diluted shares); non-GAAP adds back 104M amortization and 87M SBC. TTM (FY ended 2026-01-31 + H1 FY27 - H1 FY26, XBRL): revenue 1,362M, net income 236.5M, OCF 490.2M, capex 53.2M (PP&E 2.5M plus capitalized software 50.8M), FCF 437.0M. Shares 82.715M (10-Q cover 2026-08-20), market cap about 8.56B at 103.46: TTM P/E 36.2x, 35.4x on GAAP guide midpoint 2.92, 22.0x on non-GAAP guide; FCF yield 5.1%, about 4.1% after FY27 SBC outlook of 87M; EV about 9.2B (cash 256.0M, long term debt 931.1M) or 14.6x adjusted EBITDA guide. Buybacks 231.1M in H1 FY27, 948.4M authorization remains. Market view: a steady compounder whose custodial income depends on rates and sweep economics. Evidence for: member and asset growth, raised guide, cash conversion. Gap closing: sustained 8-10% revenue growth with margin expansion as the next quarter reports (fiscal Q3 expected early December, date unverified).",
+ "counterthesis": "Custodial revenue (50% of total) is tied to interest rates and the yield HealthEquity earns on cash held at partner banks; lower rates or worse sweep terms cut it directly, and the stock is priced at 35x GAAP earnings. GAAP earnings carry 104M of acquired intangible amortization from the WageWorks deal, so non-GAAP flatters but SBC of 87M is a real cost. Debt of 931M (about 1.5x adjusted EBITDA) is modest but buybacks of 231M in six months exceeded free cash flow after SBC. Competitors (Fidelity, banks, Lively, employers' platforms) and regulatory change to HSA rules or interchange could compress fees. A 5.02 officer-change 8-K of 2026-10-09 is unread. MD&A, risk factors and debt covenants were not read, peers (Paylocity-style HR/benefit processors, WEX, Fidelity) not compared, and the customer concentration in partner banks is unverified.",
+ "invalidation": "Thesis fails if custodial yield falls faster than asset growth, HSA member growth slows below about 5%, free cash flow stops covering buybacks, or regulation or partner bank terms reduce custodial economics.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/1428336/000142833626000041/hqy-20260731.htm",
+   "document_id": "0001428336-26-000041",
+   "origin": "Q2 FY2027 10-Q: share count and statements taken from SEC XBRL companyfacts; the document text itself was not opened",
+   "kind": "quarterly_filing",
+   "read_status": "snippet",
+   "accessed_at": "2026-11-14T20:07:56-05:00"
+  },
+  {
+   "id": "e",
+   "url": "https://www.sec.gov/Archives/edgar/data/1428336/000142833626000040/hqyearningsrelease-fy27q2.htm",
+   "document_id": "0001428336-26-000040 Ex99.1",
+   "origin": "Q2 FY2027 earnings release Ex99.1 via WebFetch; issuer release",
+   "kind": "earnings_release",
+   "read_status": "full",
+   "accessed_at": "2026-11-14T20:07:56-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001428336.json",
+   "document_id": "SEC-companyfacts-CIK0001428336",
+   "origin": "SEC XBRL companyfacts fetched by curl; periods and accession numbers matched",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T20:07:56-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/hqy/history/",
+   "document_id": "stockanalysis-HQY-2026-11-13",
+   "origin": "stockanalysis.com via WebFetch: Nasdaq USD close on 2026-11-13",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T20:07:56-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/HQY/history/",
+   "document_id": "yahoo-finance-HQY-2026-11-13",
+   "origin": "Yahoo Finance via WebFetch: same close, delayed quote",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T20:07:56-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "e",
+    "fy"
+   ],
+   "note": "Latest 10-Q 2026-08-27 and release read via release and XBRL; submissions list shows only Form 4s, 13G/A and a 5.02 8-K (2026-10-09, unread) since; fiscal Q3 not yet due."
+  },
+  "balance_sheet_verified": {
+   "passed": false,
+   "source_ids": [
+    "e"
+   ],
+   "note": "Cash 256.0M and long term debt 931.1M from the release only; the 10-Q balance sheet, total liabilities and lease obligations not read."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "fy",
+    "e"
+   ],
+   "note": "TTM OCF 490.2M and PP&E 2.5M plus capitalized software 50.8M from XBRL periods FY ended 2026-01-31, 6M to 2025-07-31 and 6M to 2026-07-31; release six month OCF 233.7M and capex 32.1M agree."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "fy"
+   ],
+   "note": "82,715,296 shares from 10-Q cover dei at 2026-08-20; weighted diluted of about 84M used only for guidance."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "qa",
+    "fy",
+    "e"
+   ],
+   "note": "P/E, FCF yield and EV/EBITDA computed; peers and multi-year history not compared."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "e"
+   ],
+   "note": "Fee and custodial model: assets, members, custodial yield, SBC and amortization separated; not treated as a bank."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "e"
+   ],
+   "note": "Intangible amortization and SBC adjustments noted; 10-Q, auditor items and partner bank terms unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "e",
+    "fy"
+   ],
+   "note": "Covers rate sensitivity, amortization, SBC, buybacks versus FCF, competition and regulation."
+  }
+ },
+ "price": {
+  "value": 103.46,
+  "currency": "USD",
+  "as_of": "2026-11-13T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-13",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 103.46,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 103.46,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 103.46,
+   "shares_outstanding": 82715296,
+   "share_basis": "10-Q cover dei at 2026-08-20 via XBRL",
+   "market_cap_usd": 8557700000,
+   "ttm_revenue_musd": 1362.1,
+   "ttm_net_income_musd": 236.5,
+   "pe_ttm": 36.2,
+   "ttm_fcf_musd": 437.0,
+   "fcf_yield_pct": 5.1,
+   "sbc_ttm_musd": 87.0,
+   "fcf_after_sbc_yield_pct": 4.1,
+   "basis": "TTM = FY ended 2026-01-31 + 6M to 2026-07-31 - 6M to 2025-07-31, USD millions, XBRL; SBC is the FY2027 outlook from the release, not TTM actual"
+  },
+  "cash_flow": {
+   "ocf_ttm_musd": 490.2,
+   "capex_ttm_musd": 53.2,
+   "ocf_9m26_musd": null,
+   "capex_9m26_musd": null,
+   "fcf_q3_musd": null,
+   "basis": "USD millions; capex = PP&E plus capitalized software; periods as above"
+  },
+  "balance_sheet": {
+   "cash_musd": 256.0,
+   "debt_musd": 931.1,
+   "total_liabilities_musd": null,
+   "basis": "release 2026-07-31; liabilities unread"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers and history not compared",
+  "10-Q text, MD&A, risk factors and custodial partner terms not read",
+  "5.02 8-K of 2026-10-09 unread",
+  "SBC TTM actual not extracted",
+  "Fiscal Q3 date (early December) unverified",
+  "Quote independence is publisher level only",
+  "Scores not assigned"
+ ]
+}

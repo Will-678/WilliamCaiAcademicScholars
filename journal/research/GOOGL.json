@@ -1,0 +1,196 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "GOOGL",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "Large cap internet platform: segment operating income, capex versus operating cash flow, cloud backlog, mark to market investment gains excluded from earnings power",
+ "as_of": "2026-11-14T20:07:56-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Alphabet (Nasdaq: GOOGL, Class A; GOOG, GOOGL both quoted). Q3 2026 10-Q (0001652044-26-000084, filed 2026-10-29) and release Ex 99.1 (8-K 0001652044-26-000080). Q3 revenue 127.6B (+25%): Search 63.35B (+12%), YouTube ads 11.2B (+9%), Cloud 30.7B (+103%, operating income 11.1B vs 3.6B), total operating income 40.6B (31.8% margin, +30%). Cloud remaining performance obligations 560.8B (567.7B total), 55% recognized within 24 months, including 16.8B from Crux AI, an unconsolidated related party JV. GAAP net income 26.5B (-24%) because equity securities lost 8.7B in Q3 versus a 10.7B gain a year ago; 9M net income 201.2B includes 126.8B of net gains on debt and equity securities (marketable equity includes 75.2B of SpaceX shares under short term sale restrictions). Capex 51.4B in Q3 (+114%) and 131.95B in 9M against operating cash flow 127.1B in 9M; Q3 FCF -9.1B, TTM FCF 19.7B (OCF 179.6B less capex 159.8B; period math FY2025 - 9M25 + 9M26). Balance sheet 2026-09-30: cash and marketable securities 265.1B, long term debt 125.1B (46.5B at 2025-12-31; Q3 notes with 28.7B net proceeds), total liabilities 325.8B, equity 677.5B; 12.4B at the market stock issuance in Q3, no Q3 buybacks, mandatory convertible preferred 18.0B. Shares 12,294M (Class A 5,888M, B 827M, C 5,579M, 10-Q cover 2026-10-21), market cap about 3.64T at 295.77. TTM GAAP net income 235.7B gives 15.4x, but that is mostly investment gains; TTM operating income 157.0B (129.0 - 93.1 + 121.0) gives EV/EBIT about 22x using net cash of roughly 140B (current debt not included). TTM FCF yield 0.54%. Market view: price assumes AI capex returns through Cloud growth and backlog conversion. Evidence for: Cloud doubling, 560.8B backlog, Search still growing 12%. What closes the gap: capex growth slowing relative to OCF.",
+ "counterthesis": "Free cash flow has gone to roughly zero and negative: capex exceeded operating cash flow in 2026 and was funded by 80B of added long term debt, 12.4B of stock issuance and a preferred issue, reversing the buyback story (no repurchases in Q3). GAAP earnings are dominated by mark to market gains on private holdings and SpaceX shares that can reverse, as Q3 showed. Cloud backlog is concentrated in AI customers and includes a related party JV (Crux AI 16.8B). R&D grew 36% and Alphabet level costs rose to 7.7B. Antitrust remedies and Digital Markets Act cases (amounts in Note 10, not read) threaten Search and Network. Debt interest expense rose from 143M to 967M a quarter. At 3.6T market cap the price needs sustained AI monetization; payables of 35.9B for property and equipment mean capex cash outflow will continue.",
+ "invalidation": "Thesis fails if Cloud growth slows while capex keeps rising, TTM FCF stays near zero or negative after 2027 spending, backlog conversion lags, antitrust remedies cut Search distribution, or investment gains reverse and are mistaken for earnings power.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+   "document_id": "0001652044-26-000084",
+   "origin": "Q3 2026 Form 10-Q via WebFetch extract (first 100k characters): cover, balance sheet, cash flow, equity investments, RPO; Note 10 legal and MD&A cut off",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T20:07:56-05:00"
+  },
+  {
+   "id": "e",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+   "document_id": "0001652044-26-000080 Ex99.1",
+   "origin": "Q3 2026 earnings release Ex99.1 via WebFetch; issuer release",
+   "kind": "earnings_release",
+   "read_status": "full",
+   "accessed_at": "2026-11-14T20:07:56-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
+   "document_id": "SEC-companyfacts-CIK0001652044",
+   "origin": "SEC XBRL companyfacts fetched by curl; periods and accession numbers matched",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T20:07:56-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/googl/history/",
+   "document_id": "stockanalysis-GOOGL-2026-11-13",
+   "origin": "stockanalysis.com via WebFetch: Nasdaq USD close on 2026-11-13",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T20:07:56-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/GOOGL/history/",
+   "document_id": "yahoo-finance-GOOGL-2026-11-13",
+   "origin": "Yahoo Finance via WebFetch: same close, delayed quote",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T20:07:56-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "e"
+   ],
+   "note": "Submissions list shows 10-Q 2026-10-29, 8-K 2026-11-05 (Item 8.01, 9.01; unread) and 424B2/FWP notes offering 2026-11-02 to 11-04 (unread) since; 10-K 2025 not read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "e"
+   ],
+   "note": "Cash and securities 265.1B, long term debt 125.1B, liabilities 325.8B, equity 677.5B at 2026-09-30 from 10-Q and release; current debt and lease obligations not read, so net cash is approximate."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "fy",
+    "q",
+    "e"
+   ],
+   "note": "TTM OCF 179.551B and capex 159.804B from XBRL (FY2025 minus 9M25 plus 9M26, reported purchases of property and equipment); release TTM FCF 19.747B agrees."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Point in time shares 5,888M A, 827M B, 5,579M C at 2026-10-21 from 10-Q cover; mandatory convertible preferred (18.0B) not converted into the count."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "qa",
+    "fy",
+    "e"
+   ],
+   "note": "P/E, EV/EBIT and FCF yield computed; peers (MSFT, AMZN, META), history and normalized earnings excluding investment gains not done."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "e",
+    "q"
+   ],
+   "note": "Large cap internet platform model: segment margins, capex versus OCF, backlog, investment gains separated from operating earnings."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "e"
+   ],
+   "note": "Equity gains, related party backlog, capex payables noted; MD&A, auditor matters, legal note amounts unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "e",
+    "q"
+   ],
+   "note": "Covers FCF collapse, funding by debt and equity, mark to market gains, backlog quality, antitrust, interest cost."
+  }
+ },
+ "price": {
+  "value": 295.77,
+  "currency": "USD",
+  "as_of": "2026-11-13T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-13",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 295.77,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 295.77,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 295.77,
+   "shares_outstanding": 12294000000,
+   "share_basis": "Class A+B+C at 2026-10-21 from 10-Q cover",
+   "market_cap_usd": 3636196380000,
+   "ttm_revenue_musd": null,
+   "ttm_net_income_musd": 235694,
+   "pe_ttm": 15.4,
+   "ttm_operating_income_musd": 156976,
+   "ttm_fcf_musd": 19747,
+   "fcf_yield_pct": 0.54,
+   "sbc_ttm_musd": null,
+   "fcf_after_sbc_yield_pct": null,
+   "basis": "TTM = FY2025 + 9M26 - 9M25, USD millions, SEC XBRL; net income includes about 126.8B 9M26 securities gains; EV/EBIT about 22x on net cash about 140B (cash and securities less long term debt only)"
+  },
+  "cash_flow": {
+   "ocf_ttm_musd": 179551,
+   "capex_ttm_musd": 159804,
+   "ocf_9m26_musd": 127149,
+   "capex_9m26_musd": 131953,
+   "fcf_q3_musd": -9065,
+   "basis": "USD millions; 2025-01-01..12-31 minus 2025-01-01..09-30 plus 2026-01-01..09-30"
+  },
+  "balance_sheet": {
+   "cash_musd": 265098,
+   "debt_musd": 125102,
+   "total_liabilities_musd": 325763,
+   "basis": "10-Q 2026-09-30; debt is long term only"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers (MSFT, AMZN, META) and history not compared",
+  "MD&A, legal note amounts (EC, DMA), capex commitments and 10-K not read",
+  "8-K 2026-11-05 and notes prospectus unread; current debt and leases missing",
+  "Normalized earnings excluding investment gains not built",
+  "Quote independence is publisher level only",
+  "Scores not assigned"
+ ]
+}

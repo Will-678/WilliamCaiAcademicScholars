@@ -1,0 +1,193 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "INOD",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "IT and AI data services: customer concentration, gross margin, working capital and customer prepayments, SBC",
+ "as_of": "2026-11-14T20:07:56-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Innodata (Nasdaq: INOD), AI data engineering and annotation services. Q3 2026 10-Q (0001104659-26-123437, filed 2026-11-05) and release Ex99.1 (8-K 0001104659-26-123324). Q3 revenue 95.6M (+53%), net income 10.3M (diluted EPS 0.29), adjusted EBITDA 17.7M (18.5%), GAAP gross margin 37%. 2026 revenue growth guide raised to about 42% or more. A customer under 5% of revenue a year ago became the largest in Q3 (percentage undisclosed). TTM (XBRL: FY2025 + 9M26 - 9M25): revenue 350.2M, net income 48.5M, OCF 93.5M (Q3 alone -84.0M after H1 164.4M), capex 10.5M, FCF 83.0M, 9M SBC 19.9M. Cash 164.0M at 2026-09-30 (240.3M at 2026-06-30), about 153.7M net of customer prepayments; long term obligations 11.3M; liabilities 93.1M; equity 176.5M. Shares 34.41M (10-Q cover 2026-10-30), market cap about 1.22B at 35.46: TTM P/E 25.1x, FCF yield 6.8% but inflated by customer prepayments that reversed in Q3, EV about 1.07B. Market view: a small AI services winner whose price assumes the new top customer stays; evidence for: growth, net cash, profits; gap closing needs revenue per customer visibility.",
+ "counterthesis": "Revenue growth rests on a few large technology customers whose spending is lumpy and can move to in-house or competing labeling vendors (Scale-type firms, offshore vendors); the new largest customer was under 5% a year ago, which shows how fast concentration shifts. Q3 operating cash flow was about -84M, so trailing FCF of 83M reflects prepayment timing, not steady earnings power. SBC of about 20M over nine months is 7% of revenue and dilutes (diluted shares 35.6M versus 34.4M outstanding). Net income grew only 24% on 53% revenue growth, so margins are compressing (gross margin 37%). Small cap with a history of sharp swings (35 to 38 in a week). 10-Q text, MD&A, customer concentration note and peers were not read.",
+ "invalidation": "Thesis fails if the largest customer cuts volume, revenue per quarter stalls, gross margin falls further, operating cash flow stays negative after prepayments, or dilution accelerates.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/903651/000110465926123437/inod-20260930x10q.htm",
+   "document_id": "0001104659-26-123437",
+   "origin": "Q3 2026 10-Q: figures taken from SEC XBRL companyfacts; the document text itself was not opened",
+   "kind": "quarterly_filing",
+   "read_status": "snippet",
+   "accessed_at": "2026-11-14T20:07:56-05:00"
+  },
+  {
+   "id": "e",
+   "url": "https://www.sec.gov/Archives/edgar/data/903651/000110465926123324/tm2628333d1_ex99-1.htm",
+   "document_id": "0001104659-26-123324 Ex99.1",
+   "origin": "Q3 2026 earnings release Ex99.1 via WebFetch; issuer release",
+   "kind": "earnings_release",
+   "read_status": "full",
+   "accessed_at": "2026-11-14T20:07:56-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000903651.json",
+   "document_id": "SEC-companyfacts-CIK0000903651",
+   "origin": "SEC XBRL companyfacts fetched by curl; periods and accession numbers matched",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T20:07:56-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/inod/history/",
+   "document_id": "stockanalysis-INOD-2026-11-13",
+   "origin": "stockanalysis.com via WebFetch: Nasdaq USD close on 2026-11-13",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T20:07:56-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/INOD/history/",
+   "document_id": "yahoo-finance-INOD-2026-11-13",
+   "origin": "Yahoo Finance via WebFetch: same close, delayed quote",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-14T20:07:56-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "e",
+    "fy"
+   ],
+   "note": "10-Q and release of 2026-11-05 identified; submissions list shows 13G/A filings, an S-8 (2026-10-27) and 5.02 8-Ks (Sept) unread since; 10-Q text not opened."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "fy",
+    "e"
+   ],
+   "note": "Cash 164.0M, liabilities 93.1M, equity 176.5M at 2026-09-30 from XBRL; release debt like obligations 11.3M and prepayments about 10.3M; notes not read."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "fy",
+    "e"
+   ],
+   "note": "TTM OCF 93.5M and capex 10.5M from XBRL FY2025, 9M25, 9M26 (9M25 OCF appears as 33.7M and 33.9M in two filings, lower used); Q3 OCF implied -84.0M; prepayment distortion flagged."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "fy"
+   ],
+   "note": "34,412,692 shares at 2026-10-30 from 10-Q cover dei; weighted diluted 35.6M noted."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "qa",
+    "fy",
+    "e"
+   ],
+   "note": "P/E and FCF yield computed; peers (TaskUs, TTEC, Telus Digital, Appen) and history not compared; customer concentration unknown."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "e"
+   ],
+   "note": "IT services model: revenue concentration, gross margin, working capital and prepayments, SBC."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "e",
+    "fy"
+   ],
+   "note": "Prepayment swing and SBC noted; 10-Q notes, revenue recognition and auditor items unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "e",
+    "fy"
+   ],
+   "note": "Covers concentration, prepayment cash flow, SBC dilution, margin, volatility."
+  }
+ },
+ "price": {
+  "value": 35.46,
+  "currency": "USD",
+  "as_of": "2026-11-13T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-13",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 35.46,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 35.46,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 35.46,
+   "shares_outstanding": 34412692,
+   "share_basis": "10-Q cover dei at 2026-10-30 via XBRL",
+   "market_cap_usd": 1220300000,
+   "ttm_revenue_musd": 350.2,
+   "ttm_net_income_musd": 48.5,
+   "pe_ttm": 25.1,
+   "ttm_fcf_musd": 83.0,
+   "fcf_yield_pct": 6.8,
+   "sbc_ttm_musd": null,
+   "fcf_after_sbc_yield_pct": null,
+   "basis": "TTM = FY2025 + 9M26 - 9M25, USD millions, XBRL; FCF inflated by customer prepayments; 9M26 SBC 19.9M"
+  },
+  "cash_flow": {
+   "ocf_ttm_musd": 93.5,
+   "capex_ttm_musd": 10.5,
+   "ocf_9m26_musd": 80.5,
+   "capex_9m26_musd": 7.7,
+   "fcf_q3_musd": -86.4,
+   "basis": "USD millions; Q3 OCF implied as 9M 80.484 minus H1 164.441; capex Q3 not isolated so Q3 capex 2.4M = 9M 7.714 minus H1 5.309"
+  },
+  "balance_sheet": {
+   "cash_musd": 164.0,
+   "debt_musd": 11.3,
+   "total_liabilities_musd": 93.1,
+   "basis": "2026-09-30 XBRL and release"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers and history not compared",
+  "10-Q text, MD&A and customer concentration note not read",
+  "Largest customer share and identity unknown",
+  "SBC TTM and dilution path unverified",
+  "Quote independence is publisher level only",
+  "Scores not assigned"
+ ]
+}

@@ -1,6 +1,6 @@
 # Research queue (persisted)
 
-Updated 2026-11-12 04:1x ET by the four hour worker (run 37); run 38 2026-11-12 08:10 ET added DXCM, FRSH. Stages: lead, valuation_pending, researched_watch, researched_pass, blocked.
+Updated 2026-11-12 04:1x ET by the four hour worker (run 37); run 38 2026-11-12 08:10 ET added DXCM, FRSH. Stages: lead, valuation_pending, researched_watch, researched_pass, blocked. Run 53 2026-11-14 20:xx ET added GOOGL, HQY, INOD.
 
 | CIK | Ticker | Exchange | Sector | Stage | Last reviewed | Next action | Due | Reason |
 |---|---|---|---|---|---|---|---|---|
@@ -196,5 +196,8 @@ Run 51 (2026-11-14 12:0x ET): screen not refreshed (retrieved 2026-11-13 16:05 E
 
 | 1065280 | NFLX | Nasdaq | Streaming and advertising (mega) | researched_watch | 2026-11-14 | Peers (DIS, SPOT, GOOGL); MD&A and content commitments; ad revenue ramp; Q4 margin 26% guide; Q4 real estate transaction | 2026-11-21 | 17.3x TTM GAAP incl 2.8B WBD fee, FCF yield 4.5%, FY26 margin guide 31.5%, close 62.15; journal/research/NFLX.json |
 | 1479681 | NUTX | Nasdaq | Healthcare facilities (small) | researched_watch | 2026-11-14 | 10-Q MD&A and 10-K: revenue per visit, receivable allowance, HaloMD, IDR arbitration; peers (HCA, UHS); cyber costs; call transcript 11-06 | 2026-11-21 | 7.2x TTM, FCF yield 20.8%, Q3 revenue -18.7% with visits +18%; 52.3M non-cash credit in 9M; journal/research/NUTX.json |
+| 1652044 | GOOGL | Nasdaq | Internet platform (mega) | researched_watch | 2026-11-14 | Peers (MSFT, AMZN, META); read 8-K 2026-11-05 and notes prospectus; MD&A, Note 10 legal, capex commitments; normalized earnings ex investment gains | 2026-11-21 | TTM FCF 19.7B = 0.54% yield, capex 160B vs OCF 180B, debt 125B, Cloud RPO 561B; journal/research/GOOGL.json |
+| 1428336 | HQY | Nasdaq | Fee/custodial platform (mid) | researched_watch | 2026-11-14 | Peers; read 10-Q and MD&A; custodial partner terms; 5.02 8-K 2026-10-09; fiscal Q3 report (early Dec, unverified) | 2026-11-21 | 36x GAAP TTM, 22x non-GAAP guide, FCF yield 5.1% (4.1% after SBC), guide raised; journal/research/HQY.json |
+| 903651 | INOD | Nasdaq | AI data services (small) | researched_watch | 2026-11-14 | Peers (TaskUs, TTEC, Appen); read 10-Q concentration note; largest customer share; prepayment cash flow | 2026-11-21 | 25x TTM, Q3 revenue +53%, Q3 OCF about -84M after prepayments; journal/research/INOD.json |
 
 Run 52 (2026-11-14 16:1x ET): screen not refreshed (retrieved 2026-11-13 16:05 ET, just under 24h old, no failure; 4,397 revenue filers, 1,142 comparable, 419 preliminary passes; annual US GAAP USD only, not global, not valuation). Submissions checked for NFLX and NUTX: NFLX only Form 4/144 since 10-Q 10-21; NUTX only 13G/A 11-13 since 11-05 10-Q. Researched NFLX and NUTX (both watch, medium, scores null, valid, not attractive-eligible; data/quality_run52_*.json). Third name not started; depth prioritized. 10-Q extracts via WebFetch cut off before MD&A for NUTX. Benchmark VTI pending, no paper references.
