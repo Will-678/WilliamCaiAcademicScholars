@@ -5,7 +5,7 @@
   "exchange": "NYSE",
   "currency": "USD",
   "sector_model": "nonfinancial: animal health pharma; EPS, FCF yield, net debt/EBITDA-style leverage, organic growth by franchise",
-  "as_of": "2026-11-08T08:10:00-05:00",
+  "as_of": "2026-11-15T16:07:00-05:00",
   "status": "watch",
   "confidence": "medium",
   "thesis": "Zoetis (animal health leader) closed 79.40 on 2026-11-06 (-11% over two sessions after Q3 results on 11-05, from 89.20 on 11-04). Market cap about 32.3B on 406,316,147 shares (10-Q cover, 2026-10-30). TTM GAAP EPS about 5.93 gives about 13.4x; 2026 adjusted EPS guide 6.25 to 6.35 (raised) gives about 12.6x management-adjusted. TTM operating cash flow 2.73B less capex 0.49B = FCF 2.24B, a 6.9% yield on market cap. Net debt about 7.5B (9.05B debt less 1.33B cash and 0.2B short-term investments). The market appears to price a structural decline in U.S. companion animal (Q3 -8% organic, dermatology -15.7%) from competition, generics and price sensitivity, while international (+3.9% Q3, +9.3% 9M), livestock (+6.8%) and vaccines (+5.5%) grow.",
@@ -65,6 +65,33 @@
       "kind": "quote",
       "read_status": "relevant_sections",
       "accessed_at": "2026-11-08T08:10:00-05:00"
+    },
+    {
+      "id": "pzts",
+      "url": "https://stockanalysis.com/stocks/zts/statistics/",
+      "document_id": "stockanalysis-stats-ZTS-2026-11-13",
+      "origin": "stockanalysis.com statistics page (aggregator), close 2026-11-13 4:00 PM EST, page checked 2026-11-15",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-15T16:07:00-05:00"
+    },
+    {
+      "id": "pelan",
+      "url": "https://stockanalysis.com/stocks/elan/statistics/",
+      "document_id": "stockanalysis-stats-ELAN-2026-11-13",
+      "origin": "stockanalysis.com statistics page (aggregator), close 2026-11-13 4:00 PM EST, page checked 2026-11-15",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-15T16:07:00-05:00"
+    },
+    {
+      "id": "pidxx",
+      "url": "https://stockanalysis.com/stocks/idxx/statistics/",
+      "document_id": "stockanalysis-stats-IDXX-2026-11-13",
+      "origin": "stockanalysis.com statistics page (aggregator), close 2026-11-13 4:00 PM EST, page checked 2026-11-15",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-15T16:07:00-05:00"
     }
   ],
   "checks": {
@@ -107,9 +134,12 @@
         "q10",
         "rel",
         "qa",
-        "qb"
+        "qb",
+        "pzts",
+        "pelan",
+        "pidxx"
       ],
-      "note": "No peer multiples (Elanco, IDEXX, Merck Animal Health unavailable, Phibro) or own-history multiples gathered; no EBITDA-based leverage computed; adjusted-to-GAAP reconciliation not read."
+      "note": "Peers gathered for ELAN and IDXX (aggregator only); own history, 10-K and drivers of the discount still open"
     },
     "sector_model_appropriate": {
       "passed": true,
@@ -229,13 +259,38 @@
       "close_2026_11_04": 89.2,
       "close_2026_11_05": 82.11,
       "close_2026_11_06": 79.4
+    },
+    "peer_snapshot_2026_11_13": {
+      "source": "stockanalysis.com aggregator",
+      "ZTS": {
+        "close": 83.82,
+        "trailing_pe": 14.15,
+        "forward_pe": 13.55,
+        "ev_ebitda": 10.36,
+        "fcf_yield": 0.0656,
+        "net_debt_usd": 7720000000
+      },
+      "ELAN": {
+        "close": 26.78,
+        "trailing_pe": null,
+        "forward_pe": 21.7,
+        "ev_ebitda": 15.87,
+        "fcf_yield": 0.0305
+      },
+      "IDXX": {
+        "close": 704.23,
+        "trailing_pe": 47.48,
+        "forward_pe": 43.06,
+        "ev_ebitda": 33.63,
+        "fcf_yield": 0.0235
+      }
     }
   },
   "unresolved_critical_gaps": [
-    "Peer and own-history multiples not gathered",
     "10-K and 10-Q notes (critical audit matters, litigation, tariffs, debt maturities) not read",
     "Adjusted-to-GAAP reconciliation not read",
     "Two quote sources are two publishers, underlying exchange feed shared (publisher-level independence only)",
-    "Scores not assigned"
+    "Scores not assigned",
+    "Peers partly gathered 2026-11-15 (aggregator): ZTS 13.6x forward PE and 10.4x EV/EBITDA versus ELAN 21.7x and 15.9x and IDXX 43.1x and 33.6x; ZTS has the highest FCF yield (6.6%) but also net debt 7.7B and capital return above FCF. Merck Animal Health unit and own history not gathered."
   ]
 }

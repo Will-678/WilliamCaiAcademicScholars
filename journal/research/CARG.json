@@ -5,7 +5,7 @@
   "exchange": "Nasdaq",
   "currency": "USD",
   "sector_model": "nonfinancial consumer internet and dealer software marketplace; use GAAP earnings, FCF after capitalized website costs, SBC and cash tax normalization, net cash",
-  "as_of": "2026-11-07T08:06:00-05:00",
+  "as_of": "2026-11-15T16:07:00-05:00",
   "status": "watch",
   "confidence": "medium",
   "thesis": "CarGurus runs the most visited U.S. car shopping site and sells listings and software to about 34.7K dealers. After a 6.7% fall to 33.74 on 2026-11-06 (the day after Q3 results) it trades near 16.0x TTM GAAP earnings from continuing operations and a 10.0% TTM FCF yield (after capitalized website costs), with no financial debt and 164.9M cash. Q3 revenue grew 12% with 92% gross margin, guidance for 2026 revenue is 1,011.5 to 1,016.5M (+11.5% to 12.1%), and the share count is down 8.2% year on year through buybacks (225M in 9M26).",
@@ -74,6 +74,33 @@
       "kind": "quote",
       "read_status": "relevant_sections",
       "accessed_at": "2026-11-07T08:06:00-05:00"
+    },
+    {
+      "id": "pcars",
+      "url": "https://stockanalysis.com/stocks/cars/statistics/",
+      "document_id": "stockanalysis-stats-CARS-2026-11-13",
+      "origin": "stockanalysis.com statistics page (aggregator), close 2026-11-13 4:00 PM EST, page checked 2026-11-15",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-15T16:07:00-05:00"
+    },
+    {
+      "id": "pcarg",
+      "url": "https://stockanalysis.com/stocks/carg/statistics/",
+      "document_id": "stockanalysis-stats-CARG-2026-11-13",
+      "origin": "stockanalysis.com statistics page (aggregator), close 2026-11-13 4:00 PM EST, page checked 2026-11-15",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-15T16:07:00-05:00"
+    },
+    {
+      "id": "pzg",
+      "url": "https://stockanalysis.com/stocks/zg/statistics/",
+      "document_id": "stockanalysis-stats-ZG-2026-11-13",
+      "origin": "stockanalysis.com statistics page (aggregator), close 2026-11-13 4:00 PM EST, page checked 2026-11-15",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-15T16:07:00-05:00"
     }
   ],
   "checks": {
@@ -115,9 +142,12 @@
         "rel",
         "k10",
         "qa",
-        "qb"
+        "qb",
+        "pcars",
+        "pcarg",
+        "pzg"
       ],
-      "note": "P/E, FCF yield, EV, SBC and cash tax adjusted yield computed. Peer multiples (Cars.com, TrueCar, Autotrader/Cox, CoStar, Zillow) and own multiple history not gathered."
+      "note": "Peers gathered for CARS and ZG only; TrueCar, CoStar and own-history multiples, call commentary and drop cause still open"
     },
     "sector_model_appropriate": {
       "passed": true,
@@ -222,13 +252,39 @@
       "close_2026_11_04": 36.52,
       "close_2026_11_05": 36.15,
       "close_2026_11_06": 33.74
+    },
+    "peer_snapshot_2026_11_13": {
+      "source": "stockanalysis.com, aggregator definitions differ from our continuing-operations basis",
+      "CARG": {
+        "close": 34.81,
+        "trailing_pe": 22.73,
+        "forward_pe": 11.82,
+        "ev_ebitda": 11.25,
+        "fcf_yield": 0.1045
+      },
+      "CARS": {
+        "close": 12.71,
+        "trailing_pe": 17.24,
+        "forward_pe": 5.68,
+        "ev_ebitda": 6.42,
+        "fcf_yield": 0.2275,
+        "net_debt_usd": 377880000
+      },
+      "ZG": {
+        "close": 30.11,
+        "trailing_pe": null,
+        "forward_pe": 14.5,
+        "ev_ebitda": 30.09,
+        "fcf_yield": 0.0461
+      },
+      "note": "Close 34.81 is one aggregator only; record price stays 2026-11-06 two-source value"
     }
   },
   "unresolved_critical_gaps": [
-    "Peer and own-history multiples not gathered",
     "Cause of 6.7% fall on 2026-11-06 and call commentary not read",
     "Cash tax normalization and discontinued-ops cash flow effect only estimated",
     "Scores not assigned",
-    "Quote origins are two publishers, independence not proven"
+    "Quote origins are two publishers, independence not proven",
+    "Peers partly gathered 2026-11-15 (aggregator, 2026-11-13 close): CARG forward PE 11.8 and EV/EBITDA 11.3 sit between CARS (5.7, 6.4; levered, 22.8% FCF yield, low growth) and ZG (14.5, 30.1). TrueCar, CoStar and own multiple history not gathered; CARG trailing PE 22.7 on aggregator differs from our 16.0 continuing-operations basis."
   ]
 }

@@ -26,3 +26,6 @@ Cash taxes 7.1M versus 39.0M provision flatter FCF; SBC; discontinued CarOffer f
 Peer and own-history multiples, cause of the 11-06 drop, call commentary, scores.
 
 Research only; no trade implied.
+
+## Update 2026-11-15 (peer gap, partly closed)
+Aggregator snapshot at 2026-11-13 close (stockanalysis.com, one origin): CARG 34.81, forward PE 11.8, EV/EBITDA 11.3, FCF yield 10.4%. CARS 12.71: forward PE 5.7, EV/EBITDA 6.4, FCF yield 22.8%, net debt 378M, 3 year revenue growth forecast 1.8%. ZG 30.11: forward PE 14.5, EV/EBITDA 30.1, FCF yield 4.6%. CARG is not the cheapest in the group; CARS is cheaper but levered and ex-growth. Aggregator trailing PE for CARG (22.7) differs from our 16.0 continuing-operations figure, unreconciled. Still open: TRUE, CSGP, own history, call, drop cause. Status unchanged: watch.

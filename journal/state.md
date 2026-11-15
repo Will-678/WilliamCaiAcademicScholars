@@ -408,3 +408,9 @@ Report reports/latest.md, review reviews/2026-11-15.md. 105 records valid, 0 eli
 - Leader gap worked: GMED peers. Attempted ZBH and SYK via aggregator statistics (2026-11-13 close). Result: GMED cheaper on trailing PE (17.8 vs 26.1, 33.0), EV/EBITDA and FCF yield; ZBH forward PE lower (11.7 vs 14.0). Gap partly closed (aggregator level only; LIVN, ATEC, history, call, 10-K open). No new company records this run, by choice, to follow the leader-gap-first rule. Not done: ZTS and CARG peers.
 - Benchmark VTI pending; no paper references.
 - Next: CARG and ZTS peers; PGR October results 11-18; EXEL '039 ruling; unqueued screen names (Aon, T. Rowe Price, American Express, CME, Datadog).
+
+## Worker run 58 (2026-11-15 ~16:10 ET, Sun)
+- Screen not refreshed (retrieved 2026-11-14 20:04 ET, about 20h old, no failure): 4,397 revenue filers, 1,142 comparable, 419 preliminary passes; annual US GAAP USD only, not global, not valuation.
+- Leader gaps worked (this run did no new company records by choice): CARG peers: CARG forward PE 11.8 and EV/EBITDA 11.3 versus CARS 5.7 and 6.4 (levered, low growth) and ZG 14.5 and 30.1; aggregator trailing PE 22.7 differs from our 16.0 continuing-operations basis, unreconciled. ZTS peers: ZTS 13.6x forward PE, 10.4x EV/EBITDA, 6.6% FCF yield versus ELAN 21.7x and 15.9x, IDXX 43.1x and 33.6x. Both gaps partly closed (stockanalysis.com only, 2026-11-13 closes, one origin). Ratings unchanged: watch, scores null. Validator: both valid, not attractive-eligible (data/quality_run58_CARG.json, quality_run58_ZTS.json).
+- Not done: TRUE, CSGP, own-history multiples, calls, 10-K text; no new filings check for other candidates; benchmark VTI pending; no paper references.
+- Next: PGR October results 11-18; EXEL '039 ruling; remaining peer gaps; unqueued screen names (Aon, T. Rowe Price, American Express, CME, Datadog).

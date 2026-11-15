@@ -16,3 +16,6 @@ Record: journal/research/ZTS.json (validator valid, not attractive-eligible; dat
 
 ## Appended 2026-11-15 (morning compile)
 Read the 10-Q cash flow and equity statements (accession 0001555280-26-000050). 9M operating cash flow 1,880M (prior year recast 2,056M), capex 334M, FCF 1,546M. Treasury purchases 1,690M plus dividends 666M = 2,356M. Cash fell 1,117M to 1,333M. Total equity 3,303M. Shares outstanding about 407.5M (501.9M issued less 94.4M treasury). Conclusion unchanged: watch, score null.
+
+## Update 2026-11-15 (peer gap, partly closed)
+Aggregator snapshot at 2026-11-13 close (one origin): ZTS 83.82, trailing PE 14.2, forward 13.6, EV/EBITDA 10.4, FCF yield 6.6%, net debt 7.7B. ELAN 26.78: forward PE 21.7, EV/EBITDA 15.9, FCF 3.1%. IDXX 704.23: forward PE 43.1, EV/EBITDA 33.6, FCF 2.3%. ZTS is the cheapest of the three on every measure, consistent with a discount for slowing growth and capital return above FCF. Open: own history, 10-K, growth comparison. Status unchanged: watch.
