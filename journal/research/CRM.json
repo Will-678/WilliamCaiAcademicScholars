@@ -1,0 +1,222 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "currency": "USD",
+ "as_of": "2026-11-15T04:08:30-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "ticker": "CRM",
+ "exchange": "NYSE",
+ "sector_model": "Enterprise software: subscription growth, GAAP and non-GAAP margin, FCF after SBC, leverage after debt-funded buyback and acquisitions",
+ "thesis": "Salesforce (NYSE: CRM), CRM and data software. Q2 FY27 release (quarter ended 2026-07-31, read in full from IR page) and 10-Q 0001108524-26-000190 (XBRL; text fetch returned HTTP 503): revenue 11,345M (+11%, includes 456M from Informatica), subscription 10,820M (+12%), GAAP operating margin 20.5%, non-GAAP 34.1%; GAAP net income 3,526M includes 2,613M gains on strategic investments (about 2.43 of 4.29 EPS), so operating income was flat (2,331M vs 2,332M). Q2 OCF 1,269M, FCF 1,098M; cRPO 33.5B (+14% CC), RPO 66.3B. FY27 guide: revenue 46.1-46.4B, non-GAAP EPS 16.67-16.71, GAAP EPS 10.21-10.25, OCF growth 4-5%. Capital structure changed sharply: debt 39,288M (versus 14,439M at 2026-01-31; net proceeds 24,842M in six months) funded a 27,332M six-month buyback including a 25B accelerated share repurchase (final settlement expected October 2026); cash and securities about 11.4B. New deals: Braze at 47.50 cash per share, about 5.66B enterprise value (8-K 2026-10-20, close in FY28), Contentful and Fin pending. Price 217.84 (2026-11-13 close; 242.43 on 2026-10-20 before the Braze news = -10%); 823M shares (10-Q cover 2026-08-20, before final ASR delivery, so overstated) gives market cap at most about 179B. TTM GAAP net income 9,662M (FY26 7,457 + H1 FY27 5,633 - H1 FY26 3,428; includes gains) = 18.6x; TTM FCF 15,154M (OCF 15,750 - capex 596) = 8.5% yield, 6.4% after 3,665M SBC; EV about 207B; about 13.1x guided non-GAAP EPS. Market view: a mature software franchise priced below history on AI disruption fear; evidence for: cash generation, cRPO +14%, huge buyback; evidence against: leverage and growth that is partly acquired.",
+ "counterthesis": "Organic growth is lower than 11%: Informatica adds about 3 points, and Contentful and Fin add 200M to the guide, so organic is perhaps 8%. GAAP net income is inflated by 2.6B of investment gains, and non-GAAP EPS (16.69) excludes about 3.7B SBC and acquired-intangible amortisation. Debt rose from 14.4B to 39.3B to fund the buyback, adding interest cost; FCF yield is on a market cap that may include shares not yet retired and excludes about 25B of debt-funded purchase, and the company now plans 5.66B cash for Braze plus further deals, which increases leverage and integration risk and shows acquisition appetite. Operating cash flow growth guide is only 4-5%, FCF growth the same, so earnings growth leans on the lower share count. AI agents could erode seat-based pricing. Price fell after the Braze announcement. Peers (MSFT, NOW, ADBE, SAP) and history not compared; 10-Q text (debt note, tax, legal), 10-K and Q3 FY27 results (due early December, date unverified) not read.",
+ "invalidation": "Thesis fails if organic cRPO growth falls below about 10%, non-GAAP operating margin drops below about 33%, leverage rises further through acquisitions without FCF growth, or AI-driven seat compression shows in subscription renewals.",
+ "sources": [
+  {
+   "id": "e",
+   "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx",
+   "document_id": "Salesforce Q2 FY27 earnings release 2026-08-26",
+   "origin": "Issuer IR release via WebFetch (same underlying document as 8-K 0001108524-26-000187 Ex99.1, which returned HTTP 503)",
+   "kind": "earnings_release",
+   "read_status": "full",
+   "accessed_at": "2026-11-15T04:08:30-05:00"
+  },
+  {
+   "id": "b",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312526425881/d516983dex991.htm",
+   "document_id": "0001193125-26-425881 Ex99.1",
+   "origin": "Braze acquisition joint press release 2026-10-20 via WebFetch; issuer release",
+   "kind": "secondary",
+   "read_status": "full",
+   "accessed_at": "2026-11-15T04:08:30-05:00"
+  },
+  {
+   "id": "q",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001108524.json",
+   "document_id": "0001108524-26-000190",
+   "origin": "Q2 FY27 10-Q cover share count, cash flow, SBC via SEC XBRL companyfacts; 10-Q text fetch returned HTTP 503",
+   "kind": "quarterly_filing",
+   "read_status": "snippet",
+   "accessed_at": "2026-11-15T04:08:30-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001108524.json",
+   "document_id": "SEC-companyfacts-CIK0001108524",
+   "origin": "FY2026 10-K 0001108524-26-000060 figures via SEC XBRL only; 10-K text not opened",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-15T04:08:30-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/crm/history/",
+   "document_id": "stockanalysis-CRM-2026-11-13",
+   "origin": "stockanalysis.com via WebFetch: USD close 2026-11-13",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-15T04:08:30-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/CRM/history/",
+   "document_id": "yahoo-finance-CRM-2026-11-13",
+   "origin": "Yahoo Finance via WebFetch: USD close 2026-11-13",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-15T04:08:30-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "e",
+    "q",
+    "b"
+   ],
+   "note": "Latest periodic filing is the 10-Q filed 2026-08-27; newer 8-Ks (2026-09-04, 09-17, 10-20) listed in submissions, only the Braze 8-K read; Q3 FY27 results not yet released; 10-Q text not opened (503)."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "e",
+    "q"
+   ],
+   "note": "Debt 39,288M noncurrent, cash 8,310M plus marketable securities 3,093M at 2026-07-31 per release; XBRL LongTermDebt 39,288M and cash 8,310M agree; debt components not read."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "fy",
+    "e"
+   ],
+   "note": "TTM OCF 15,750M = 14,996 + 7,970 - 7,216; capex 596M = 594 + 316 - 314; SBC 3,665M = 3,509 + 1,763 - 1,607 (XBRL, USD); capitalized software not separately found."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "823M shares at 2026-08-20 from 10-Q cover dei (rounded); final ASR delivery in October will reduce the count, so market cap is an upper bound."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "qa",
+    "qb",
+    "e",
+    "fy"
+   ],
+   "note": "P/E, FCF yield, EV computed; non-GAAP multiple uses management EPS; peers and history not compared; shares post-ASR unknown."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "e"
+   ],
+   "note": "Software model with FCF after SBC and leverage after debt-funded buyback."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "e",
+    "fy"
+   ],
+   "note": "Investment gains, SBC, acquired revenue, non-GAAP exclusions noted; 10-Q notes and auditor items unread (503)."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "e",
+    "fy",
+    "b"
+   ],
+   "note": "Covers organic growth, gains, leverage, deals, AI risk and missing peers."
+  }
+ },
+ "price": {
+  "value": 217.84,
+  "currency": "USD",
+  "as_of": "2026-11-13T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-13",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 217.84,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 217.84,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   }
+  ]
+ },
+ "calculations": {
+  "valuation": {
+   "price": 217.84,
+   "shares": 823000000,
+   "share_basis": "10-Q cover dei 2026-08-20 (rounded, pre final ASR delivery)",
+   "market_cap_usd": 179290000000,
+   "ttm_net_income_musd": 9662,
+   "ttm_net_income_note": "FY2026 7,457 + H1 FY27 5,633 - H1 FY26 3,428 (companyfacts); includes at least 2,613M Q2 investment gains",
+   "pe_ttm": 18.6,
+   "ttm_fcf_musd": 15154,
+   "fcf_yield_pct": 8.5,
+   "sbc_ttm_musd": 3665,
+   "fcf_after_sbc_yield_pct": 6.4,
+   "ev_musd": 207200,
+   "debt_musd": 39288,
+   "cash_securities_musd": 11403,
+   "price_to_guided_nongaap_eps": 13.1,
+   "basis": "FCF = OCF 15,750 - capex 596; EV = market cap + debt 39,288 - cash and securities 11,403"
+  },
+  "fcf": {
+   "ocf": {
+    "value": 15750,
+    "unit": "USD millions",
+    "period_start": "2025-08-01",
+    "period_end": "2026-07-31"
+   },
+   "capex": {
+    "value": 596,
+    "unit": "USD millions",
+    "period_start": "2025-08-01",
+    "period_end": "2026-07-31"
+   },
+   "value": 15154
+  },
+  "cash_flow": {
+   "ocf_ttm_musd": 15750,
+   "capex_ttm_musd": 596,
+   "basis": "USD millions, fiscal periods ending 2026-07-31"
+  },
+  "price_path": {
+   "close_2026_10_19": 242.45,
+   "close_2026_10_20": 242.43,
+   "close_2026_11_12": 217.57,
+   "close_2026_11_13": 217.84
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peer multiples (MSFT, NOW, ADBE, SAP) and CRM history not compared",
+  "10-Q text (debt note, tax, legal) and 10-K not read (HTTP 503)",
+  "Post-ASR share count and Braze, Contentful, Fin financing unknown",
+  "Q3 FY27 results not yet released",
+  "Quote independence is publisher level only",
+  "Scores not assigned"
+ ]
+}
