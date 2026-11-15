@@ -13,3 +13,6 @@ Record: journal/research/ZTS.json (validator valid, not attractive-eligible; dat
 **Invalidation.** U.S. companion animal below -8% for two more quarters, adjusted EPS guide cut, leverage above about 3x, recurring impairments.
 
 **Unverified.** Peers and own-history multiples, 10-K and 10-Q notes (CAMs, litigation, tariffs, maturities), adjusted reconciliation, scores.
+
+## Appended 2026-11-15 (morning compile)
+Read the 10-Q cash flow and equity statements (accession 0001555280-26-000050). 9M operating cash flow 1,880M (prior year recast 2,056M), capex 334M, FCF 1,546M. Treasury purchases 1,690M plus dividends 666M = 2,356M. Cash fell 1,117M to 1,333M. Total equity 3,303M. Shares outstanding about 407.5M (501.9M issued less 94.4M treasury). Conclusion unchanged: watch, score null.

@@ -40,3 +40,6 @@ Validator no longer counts XBRL or submissions API URLs as the annual filing rea
 ## 2026-11-15 independent audit
 
 Required explicit documented underlying quote origins before sources count toward independent confirmation. New regression failed before the fix; all 28 tests passed afterward. All 105 current records remain structurally valid and none attractive-eligible. Spot-checked ADMA, FSS and PM figures against primary filings. Added reporting of an existing leader's gap attempt/outcome to address recurring breadth-over-depth drift. Source flags and ratings were not backfilled. Full report: reviews/2026-11-15-independent.md. Rollback versions for changed validator, tests and workflow: e71a5351372e70d2ca5fe66acea0cd34c61cc2d9, restored only through a new commit. No score thresholds or cadence changed.
+
+## 2026-11-15 compiler review
+No additional code change; the independent audit's quote origin fix covers the main issue found. Recommendation recorded: deepen leaders before adding more records. Details in reviews/2026-11-15.md.
