@@ -1,0 +1,7 @@
+{
+ "checked_at": "2026-11-16T16:10 ET",
+ "records": 116,
+ "valid": 116,
+ "eligible_attractive": 0,
+ "note": "all journal/research/*.json revalidated individually; per-record outputs for UPWK and UVE in quality_run64_*.json"
+}

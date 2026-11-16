@@ -1,0 +1,73 @@
+# UPWK (Nasdaq) research record, run 64
+
+Status: watch. Confidence: medium. Scores: null (incomplete). Validator: data/quality_run64_UPWK.json.
+As of 2026-11-16T16:08:00-05:00. Close 9.93 USD on 2026-11-13 (stockanalysis.com and Yahoo Finance agree; publisher-level independence only, origin not documented). Benchmark VTI pending; no paper reference.
+
+## Sector model
+Online labor marketplace (take-rate platform): GSV, active clients, take rate, SBC, capitalized software, client funds in escrow excluded from cash; not valued on generic liabilities.
+
+## Thesis and evidence
+Upwork (Nasdaq: UPWK), Q3 2026 10-Q (0001627475-26-000055, filed 2026-11-02; MD&A read to the key metrics table, remainder truncated). Q3 revenue 185.6M vs 201.7M (-8.0%), 9M 572.7M vs 589.4M (-2.8%). GSV Q3 914.1M -10% (9M 2.87B -5%); Marketplace take rate 20.0% vs 18.9% (+110 bps) from ads, Business Plus and variable pricing; Adjusted EBITDA 63.8M +7% (9M 185.3M vs 172.7M); GAAP NI Q3 31.8M, 9M 88.7M vs 99.8M. TTM (FY2025 + 9M26 - 9M25): NI 104.3M, OCF 199.5M, capex 8.0M, capitalized software 31.6M, FCF 159.9M, SBC 56.1M (FCF after SBC 103.8M). Close 9.93 on 2026-11-13 (stockanalysis, Yahoo agree), 125,777,139 shares (cover 2026-10-29): market cap 1,249M, 12.0x TTM GAAP NI, FCF yield 12.8% (8.3% after SBC). Balance sheet 2026-09-30: cash 228.0M, marketable securities 76.3M, no debt (360.998M converts repaid 2026-08-15 from cash; 150M revolver undrawn), total liabilities 277.1M, equity 654.0M; excludes 164.6M escrow funds. WorkMotion (German employer-of-record) bought 2026-10-30 for about 129.7M cash, so cash plus securities falls to about 175M pro forma. 8.3M shares bought back for 109.7M in 9M26 (none in Q3; 254.3M authorization left). 2026 restructuring cut workforce about 20% (18.1M charges 9M). The market probably prices a shrinking marketplace hurt by AI and SEO changes; evidence that differs is rising take rate, EBITDA growth and net cash, but the revenue base is still falling and management says GSV, clients and revenue pressures continue through 2026.
+
+## Countercase
+GSV fell 10% in Q3 and the decline accelerated from -5% in 9M; revenue is held up only by take rate, which has limits and may be pushed through on a shrinking client base. Management cites difficulty acquiring and keeping clients, AI substituting for some freelance work, SEO changes and macro. Cheap multiples can be a value trap if earnings follow GSV down. GAAP NI is lowered by higher amortization of capitalized software and restructuring; FCF is flattered by SBC (56M TTM) and capitalized software excluded by many aggregators. 9M OCF fell to 135.8M from 184.6M. Cash was used for a 129.7M acquisition on top of buybacks of 109.7M, so the cushion is thinner; acquisition accounting, goodwill and integration are unread. Peers (FVRR, FIVR-like, marketplaces), own history, full MD&A client counts, guidance and 10-K risk factors not read.
+
+## Invalidation
+Thesis fails if quarterly GSV declines worsen beyond about -10% with take rate gains exhausted, Adjusted EBITDA turns down, OCF stays below roughly 150M annualized, or acquisitions and buybacks consume net cash without stabilizing the client count.
+
+## Sources
+- q: quarterly_filing, relevant_sections: https://www.sec.gov/Archives/edgar/data/1627475/000162747526000055/upwk-20260930.htm (Q3 2026 10-Q via WebFetch extraction (cover, balance sheet, cash flow, tax, restructuring, key metrics; text up to MD&A key metrics table; remainder truncated))
+- fy: annual_filing, relevant_sections: https://data.sec.gov/api/xbrl/companyfacts/CIK0001627475.json (SEC XBRL companyfacts by curl; FY2025 10-K and 10-Q periods matched (revenue, NI, OCF, capex, PaymentsToDevelopSoftware, SBC))
+- sub: secondary, relevant_sections: https://data.sec.gov/submissions/CIK0001627475.json (SEC submissions list read 2026-11-16: 10-Q and 8-K (2026-11-02), 8-K/A 2026-11-12 (unread))
+- qa: quote, relevant_sections: https://stockanalysis.com/stocks/upwk/history/ (stockanalysis.com via WebFetch; close 2026-11-13 (origin undocumented))
+- qb: quote, relevant_sections: https://finance.yahoo.com/quote/UPWK/history/ (Yahoo Finance via WebFetch; close 2026-11-13 (origin undocumented))
+
+## Checks
+- latest_filing_checked: pass: 10-Q filed 2026-11-02 read in part; earnings 8-K 2026-11-02 and 8-K/A 2026-11-12 unread; no later periodic filing in the submissions list.
+- balance_sheet_verified: pass: Cash 227,986K, marketable securities 76,346K, escrow funds 164,606K, converts 0 (359,770K at 2025-12-31), total liabilities 277,072K, equity 654,025K at 2026-09-30.
+- cashflow_basis_verified: pass: OCF FY25 248.3M, 9M26 135.8M, 9M25 184.6M; capex 5.8M, 7.5M, 5.3M; PaymentsToDevelopSoftware 19.3M, 25.65M, 13.4M; SBC 65.4M, 38.7M (cash flow statement), 48.0M; TTM matched; the filing shows SBC 43.5M in the equity statement, unreconciled.
+- share_count_basis_verified: pass: 125,777,139 shares at 2026-10-29 from the cover; market cap uses point-in-time shares.
+- valuation_complete: NOT passed: Trailing multiples and FCF yield computed; peers, own history, forward estimates not compared.
+- sector_model_appropriate: NOT passed: GSV, take rate, revenue by segment read; active client counts, guidance, retention and WorkMotion purchase accounting not read (MD&A truncated).
+- accounting_red_flags_reviewed: NOT passed: Restructuring, capitalized software growth, SBC mismatch, repaid converts noted; 8-K/A, 10-K controls and goodwill not read.
+- counterthesis_written: pass: Covers GSV decline, AI and SEO, take rate limits, SBC, acquisition and buyback cash use.
+
+## Calculations
+```
+{
+ "valuation": {
+  "price": 9.93,
+  "shares_outstanding": 125777139,
+  "share_basis": "10-Q cover 2026-10-29",
+  "market_cap_usd": 1248966990,
+  "ttm_revenue_musd": 771.1,
+  "ttm_net_income_musd": 104.3,
+  "pe_ttm": 12.0,
+  "ttm_fcf_musd": 159.9,
+  "fcf_yield_pct": 12.8,
+  "basis": "TTM = FY2025 + 9M26 - 9M25, USD millions: revenue 787.8+572.7-589.4; NI 115.4+88.7-99.8; OCF 248.3+135.8-184.6 = 199.5; capex 5.8+7.5-5.3 = 8.0; capitalized software 19.3+25.65-13.4 = 31.6; FCF = 199.5-8.0-31.6 = 159.9"
+ },
+ "cash_flow": {
+  "ocf_ttm_musd": 199.5,
+  "capex_ttm_musd": 8.0,
+  "capitalized_software_ttm_musd": 31.6,
+  "ocf_9m26_musd": 135.8,
+  "capex_9m26_musd": 7.5,
+  "fcf_q3_musd": null,
+  "basis": "USD millions; capex = PP&E purchases; internal-use software shown separately and deducted in FCF"
+ },
+ "balance_sheet": {
+  "cash_musd": 228.0,
+  "debt_musd": 0.0,
+  "total_liabilities_musd": 277.1,
+  "basis": "10-Q 2026-09-30; cash excludes 76.3M marketable securities and 164.6M escrow funds; converts repaid 2026-08-15; 129.7M cash acquisition 2026-10-30 subsequent"
+ }
+}
+```
+
+## Unresolved gaps
+- Active clients, guidance and MD&A remainder not read
+- 8-K and 8-K/A (2026-11-02, 2026-11-12) unread; WorkMotion purchase accounting
+- Peers and own-history multiples not compared
+- Quote independence is publisher level only
+- Scores not assigned
