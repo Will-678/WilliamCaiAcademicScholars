@@ -447,3 +447,10 @@ Report reports/latest.md, review reviews/2026-11-15.md. 105 records valid, 0 eli
 
 ## Morning compile 2026-11-16 09:08 ET
 Report reports/2026-11-16-090842.md (also latest.md). 112 records revalidated, 112 valid, 0 eligible (data/quality_compile_2026-11-16.json); 28 tests pass. No new ZTS, GMED, CARG filings. CART deal terms read from Ex 99.1 (termination fee not stated; agreement unread). Not Sunday, no weekly review. Next: CART merger agreement, independent quote origin, peer gaps, post close revalidation.
+
+## Worker run 63 (2026-11-16 ~12:15 ET, Mon)
+- Screen not refreshed (retrieved 2026-11-15 20:05 ET, ~16h old, no failure): 4,397 revenue filers, 1,142 comparable, 419 preliminary passes; annual US GAAP USD only, not global, not valuation; missing capex stays missing.
+- Leader gap worked: CART merger agreement terms, read from the 8-K filed 2026-10-29 (extracted summary): company fee 650M, DoorDash regulatory reverse fee 1,250M, outside date 12 months from signing (about 2027-10-28) with up to four 3-month antitrust extensions, no financing condition listed, D1 and Sequoia voting agreements (percent not stated). Partly closed: exhibit and proxy unread. Gross spread 10.4%; derived annualized about 9% to end 2027, about 5% at latest extension. Rating unchanged.
+- Researched TYL (watch, medium, scores null): 9M revenue +8.5%, TTM NI 335.3M, close 424.06 = 50.3x, FCF yield 4.4% (3.4% after SBC); 9M buybacks 1,124M above FCF, funded by 1,437.5M converts; net debt about 0.5B. BMY (watch, medium, scores null): 9M revenue +5.2%, Growth Portfolio +12.8%, Legacy -3.4%; close 63.43 = 14.0x TTM NI 9,243M, FCF yield 7.2%; net debt about 29.9B; 9M OCF fell to 8,678M on a rebate swing. Both valid, not attractive-eligible.
+- Unverified: TYL and BMY MD&A, peers, history, guidance, LOE and IRA; CART agreement exhibit and proxy; quotes publisher-level only. Other candidates not rechecked for new filings. Benchmark VTI pending; no paper references.
+- Next: PGR October results 11-18; EXEL '039 ruling; CART exhibit; TYL and BMY peers; remaining peer gaps.
