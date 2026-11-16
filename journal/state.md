@@ -444,3 +444,6 @@ Report reports/latest.md, review reviews/2026-11-15.md. 105 records valid, 0 eli
 - Unverified: FHI MD&A, flows, peers, 8-Ks, share count (73.93M cover vs 70.45M aggregator); CART merger agreement, termination terms, regulatory path, MD&A; quotes publisher-level only. Other candidates not rechecked for new filings. Benchmark VTI pending; no paper references.
 - Next: PGR October results 11-18; EXEL '039 ruling; open CART 8-K; FHI MD&A and peers; remaining peer gaps; unqueued screen names (screen lacks corporate action check).
 - Revalidated all 112 records at 08:2x ET: 112 valid, 0 eligible.
+
+## Morning compile 2026-11-16 09:08 ET
+Report reports/2026-11-16-090842.md (also latest.md). 112 records revalidated, 112 valid, 0 eligible (data/quality_compile_2026-11-16.json); 28 tests pass. No new ZTS, GMED, CARG filings. CART deal terms read from Ex 99.1 (termination fee not stated; agreement unread). Not Sunday, no weekly review. Next: CART merger agreement, independent quote origin, peer gaps, post close revalidation.

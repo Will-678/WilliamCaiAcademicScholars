@@ -37,3 +37,6 @@ Interest changes if an HSR second request or regulatory block emerges, the sprea
 - Peers not compared; standalone valuation secondary to deal price
 - Quote independence is publisher level only
 - Scores not assigned
+
+## Update 2026-11-16 (morning compile): deal terms now read from the issuer release
+I opened the DoorDash press release (SEC Exhibit 99.1, https://www.sec.gov/Archives/edgar/data/0001579091/000119312526437075/d171568dex991.htm). Confirmed: 65.00 per share (26% premium to the 2026-10-22 close, about 17B equity value); at least 75% cash; stock capped at 25% of total consideration with proration; close expected end of 2027 or first half of 2028; conditions are Instacart holder vote, Hart-Scott-Rodino waiting period, Canada and Israel competition clearances; holders of about 19% have agreed to vote yes; no financing condition; JPMorgan 364-day bridge commitment. The release states no termination fee amounts, so those remain unverified. The merger agreement and proxy are still unread. The record JSON was not changed (its deal source stays marked snippet until the agreement is read). Gross spread at the 2026-11-13 close of 58.87 is 10.4% over roughly 13 to 20 months, before break risk. Rating unchanged: watch, medium, score incomplete.
