@@ -1,0 +1,197 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "AXP",
+ "exchange": "NYSE",
+ "currency": "USD",
+ "sector_model": "Card issuer and payments network with bank funding: credit costs, net write-off rates, delinquency, funding (deposits and long term debt), CET1, ROE, regulatory exposure; not a generic industrial and FCF is secondary to earnings and capital.",
+ "as_of": "2026-11-16T00:06:53-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "American Express (NYSE: AXP). Q3 2026 10-Q (0000004962-26-000409, filed 2026-10-23): revenue net of interest expense 20,062M +9% (9M 58,606M +10%); net income 3,712M +28% (9M 9,794M +17%); diluted EPS 5.42 vs 4.14 (9M 14.22 vs 11.85). Q3 includes a 982M pretax (751M after tax, 1.11/share) gain on GBTG equity sale and a 336M pretax (253M after tax, 0.37/share) restructuring charge, net about +498M after tax, so underlying Q3 NI is about 3.21B. Credit: Q3 provisions 985M vs 1,287M (reserve release); net write-off rate principal, interest and fees 2.1% vs 2.2%; 30+ days past due consumer and small business 1.2% vs 1.3%. Card balances 221.1B +7%; deposits 155.0B; long term debt 58.5B; cash 43.2B vs 54.7B a year ago; total assets 310.3B, liabilities 274.5B, equity 35.8B. ROE 42.4% Q3, 38.0% 9M; CET1 10.9% (target 10 to 11%). 8-K 2026-10-08: AENB consented to an OCC order with a 350M civil money penalty (part reserved earlier), Federal Reserve order for the parent, no asset cap, no expected effect on 2026 or 2027 guidance (per 8-K text read). TTM NI (FY2025 10,833M + 9M26 9,794M - 9M25 8,371M) = 12,256M; shares 670,552,018 (cover 2026-10-15); close 320.60 gives market cap 215.0B, 17.5x TTM reported (about 18.3x if the net 498M one-off gain is removed from Q3 only, approximate), 6.0x book, dividend 0.95 quarterly (yield about 1.2%). 9M buybacks 5,805M. TTM operating cash flow 17,626M less PP&E capex 3,716M = 13.9B (6.5% of market cap), but for a lender operating cash flow includes financing-like working capital, so P/E, ROE and credit are the primary lenses. Market view: premium franchise earning a high return with a closed loop network; price assumes ROE near high 30s persists and credit stays benign. Evidence for: growth near 10%, falling write-offs, CET1 at target.",
+ "counterthesis": "Valuation is 17.5x earnings at 6x book on a 38% ROE, so the price already pays for peak-like returns; the Q3 EPS jump of 31% is flattered by the reserve release and net one-off gains. Provisions fell 23% while 9M write-offs rose, so credit benefit may reverse in a downturn. Customer rewards and engagement expense growth is the main cost lever (management says growth will moderate next quarter). Funding relies on 155B deposits and 58.5B debt; cash is down 11.5B y/y. Regulatory: 350M OCC penalty and Fed order over financial crimes compliance (resolved but order compliance costs and any later findings are risk); interchange and CFPB rules (late fee, swipe fee legislation) are tail risks. Rich-income households and millennials are the growth engine and are cyclical. Peers (V, MA, COF, DFS-type issuers) and own-history multiples were not read, 10-Q MD&A was read only in part, and risk factors and 10-K were not read.",
+ "invalidation": "Thesis fails if net write-off rate and delinquencies rise materially above 2.2% and 1.2%, billed business growth falls below high single digits, ROE drops well below 30%, or regulators restrict growth or capital return.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000409/axp-20260930.htm",
+   "document_id": "0000004962-26-000409",
+   "origin": "Q3 2026 10-Q via WebFetch extraction (income statement, credit tables, cover, MD&A segment sections; balance sheet and cash flow from SEC XBRL)",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-16T00:06:53-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000004962.json",
+   "document_id": "SEC-companyfacts-CIK0000004962",
+   "origin": "SEC XBRL companyfacts fetched by curl; FY2025 10-K and 2026 10-Q periods matched",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-16T00:06:53-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0000004962.json",
+   "document_id": "SEC-submissions-CIK0000004962",
+   "origin": "SEC submissions list read 2026-11-16",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-16T00:06:53-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/axp/statistics/",
+   "document_id": "stockanalysis-AXP-2026-11-13",
+   "origin": "stockanalysis.com via WebFetch; close 2026-11-13 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-16T00:06:53-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/AXP/history/",
+   "document_id": "yahoo-finance-AXP-2026-11-13",
+   "origin": "Yahoo Finance via WebFetch; close 2026-11-13 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-16T00:06:53-05:00"
+  },
+  {
+   "id": "k8",
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000376/axp-20261008.htm",
+   "document_id": "0000004962-26-000376",
+   "origin": "8-K Item 7.01 filed 2026-10-08 via WebFetch, regulatory settlement summary",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-16T00:06:53-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "sub"
+   ],
+   "note": "10-Q filed 2026-10-23 read in relevant sections; submissions list shows 8-Ks 2026-10-30 (unread) and Form 4/144 since."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "fy"
+   ],
+   "note": "Assets 310,275M, liabilities 274,478M, equity 35,797M from XBRL; deposits 155,019M, long term debt 58,538M, cash 43,203M from 10-Q text."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "fy"
+   ],
+   "note": "OCF and PP&E capex for FY2025, 9M25 and 9M26 from XBRL, TTM computed on matching periods."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "670,552,018 shares at 2026-10-15 from the 10-Q cover."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "qa",
+    "fy"
+   ],
+   "note": "P/E, P/B and yield computed; peers and own history not compared."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Treated as a card lender and network: credit, funding, CET1 and ROE examined; FCF flagged as secondary."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "k8"
+   ],
+   "note": "GBTG gain, restructuring and OCC penalty identified; legal note, reserve note and auditor critical matters not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "k8"
+   ],
+   "note": "Covers valuation at peak ROE, reserve release, funding, regulatory orders and cyclicality."
+  }
+ },
+ "price": {
+  "value": 320.6,
+  "currency": "USD",
+  "as_of": "2026-11-13T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-13",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 320.6,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 320.6,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 320.6,
+   "shares_outstanding": 670552018,
+   "share_basis": "10-Q cover 2026-10-15",
+   "market_cap_usd": 214975000000,
+   "ttm_net_income_musd": 12256.0,
+   "pe_ttm": 17.5,
+   "ttm_fcf_musd": 13910.0,
+   "fcf_yield_pct": 6.5,
+   "basis": "TTM = FY2025 + 9M26 - 9M25, USD millions; OCF 17,626 less PP&E capex 3,716; FCF is secondary for a card lender; TTM reported NI includes Q3 gain 751M and restructuring 253M after tax"
+  },
+  "cash_flow": {
+   "ocf_ttm_musd": 17626.0,
+   "capex_ttm_musd": 3716.0,
+   "ocf_9m26_musd": 14559.0,
+   "capex_9m26_musd": 2994.0,
+   "fcf_q3_musd": null,
+   "basis": "USD millions; PP&E capex per XBRL"
+  },
+  "balance_sheet": {
+   "cash_musd": 43203.0,
+   "debt_musd": 58538.0,
+   "total_liabilities_musd": 274478.0,
+   "basis": "10-Q 2026-09-30; long term debt 58,538M; deposits 155,019M; liabilities mostly deposits and funding, not comparable to industrial debt"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "10-Q MD&A read only in part; legal proceedings, risk factors and 10-K not read",
+  "Peers (V, MA, COF) and own-history multiples not compared",
+  "Tangible book, funding maturities and reserve build direction not verified",
+  "OCC and Fed orders read through the 8-K summary only, not the order text",
+  "Quote independence is publisher level only",
+  "Scores not assigned"
+ ]
+}

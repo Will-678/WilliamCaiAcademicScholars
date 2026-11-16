@@ -179,7 +179,7 @@
   }
  },
  "unresolved_critical_gaps": [
-  "Peers (ICE, NDAQ, CBOE) only at aggregator level; own-history multiples not compared",
+  "Peers partly checked at aggregator level 2026-11-16 (stockanalysis, 2026-11-13 closes): CME trailing PE 26.1, forward 24.6, EV/EBITDA 23.3 vs ICE 24.3, 20.8, 17.5; CBOE 26.7, 24.8, 18.8; NDAQ 29.6, 23.7, 19.8; CME is highest on EV/EBITDA, so not cheap relative to peers; own-history multiples not compared",
   "10-Q MD&A, risk factors and 8-K 2026-10-21 not read; Q3 release non-GAAP not read",
   "Capitalized software capex not separated; FCF is an upper bound",
   "Annual variable dividend vs FCF and cash decline not reconciled to year end plan",

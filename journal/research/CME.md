@@ -19,3 +19,6 @@ Thesis fails if average daily volume falls materially from 2026 levels, interest
 - Annual variable dividend vs FCF and cash decline not reconciled to year end plan
 - Quote independence is publisher level only
 - Scores not assigned
+
+## Run 60 peer update (2026-11-16)
+Aggregator peers, 2026-11-13 closes (one origin): CME trailing PE 26.1, forward 24.6, EV/EBITDA 23.3; ICE 24.3, 20.8, 17.5; CBOE 26.7, 24.8, 18.8; NDAQ 29.6, 23.7, 19.8. CME carries the highest EV/EBITDA and mid-range P/E, so no relative valuation edge. Gap partly closed; own history and MD&A still open. Rating unchanged: watch.
