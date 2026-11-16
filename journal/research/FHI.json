@@ -1,0 +1,187 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "FHI",
+ "exchange": "NYSE",
+ "currency": "USD",
+ "sector_model": "Active asset manager with money market concentration: AUM, flows by asset class, fee waivers, margin, acquisitions, capital return; not valued on generic cash flow alone.",
+ "as_of": "2026-11-16T08:10:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Federated Hermes (NYSE: FHI). Q3 2026 10-Q (0001056288-26-000030, filed 2026-10-30): revenue 507.3M vs 469.4M (+8.1%), 9M 1,489.1M vs 1,317.8M (+13.0%, includes 80% FCP acquisition closed 2026-04-09); operating income 153.3M vs 129.5M (9M 412.5M vs 378.3M); net income attributable 111.9M vs 104.1M (9M 312.6M vs 296.3M); diluted EPS 1.50 vs 1.34 (9M 4.15 vs 3.75). Money market revenue 251.9M in Q3, 49% of revenue (52% year ago); fee waivers 109.3M in Q3. 9M OCF 243.9M vs 136.1M; capex 20.0M vs 3.2M; dividends 83.1M; buybacks 186.1M. Cash 373.7M (582.5M at year end after the FCP deal), senior notes 348.6M, total liabilities 1,004.2M. TTM (matched periods): revenue 1,971.9M, NI 419.6M, OCF 405.1M, capex 19.6M, FCF 385.6M. Close 63.76 on 2026-11-13 (two aggregators agree; origin not documented), shares 73.93M (cover 2026-10-23): market cap 4.71B, 11.2x TTM, FCF yield 8.2%, dividend 1.52 (2.4%). Aggregator: forward P/E 10.6, EV/EBITDA 7.7. Market view: money market assets are rate cyclical and could shrink as cash yields fall; price assumes that. Evidence that differs: money market revenue still rising (+3% Q3) and diversification via acquisitions. Edward Jones about 10% of revenue. Not a bargain proof: cheap on earnings, cyclical earnings base, OCF in 9M25 was depressed so TTM FCF yield flatters versus NI.",
+ "counterthesis": "Falling short term rates reduce money fund yields and may push assets or fee waivers either way; 51% of revenue is money market. Fee waivers of 329.6M in 9M are a margin cap that can reverse or grow. FCP integration costs and preliminary purchase accounting (goodwill 1,114.3M); contingent consideration 41.5M. Securities gains fell (8.6M vs 19.8M). Working capital: FY25 OCF 297M was far below NI 403M, so cash conversion has been volatile. Insider Form 4 and Form 144 on 2026-11-09 unread. Peers (TROW, BEN, IVZ, AMG), AUM and flows, own history, MD&A and legal Note 18 not read.",
+ "invalidation": "Thesis fails if money market assets decline materially with rate cuts, fee waivers rise, the operating margin falls below about 25%, or OCF stays well below net income.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/1056288/000105628826000030/fhi-20260930.htm",
+   "document_id": "0001056288-26-000030",
+   "origin": "Q3 2026 10-Q via WebFetch extraction (statements, notes; MD&A and Note 18 truncated)",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-16T08:10:00-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001056288.json",
+   "document_id": "SEC-companyfacts-CIK0001056288",
+   "origin": "SEC XBRL companyfacts fetched by curl; FY2025 10-K (0001056288-26-000007) and 10-Q periods matched",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-16T08:10:00-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001056288.json",
+   "document_id": "SEC-submissions-CIK0001056288",
+   "origin": "SEC submissions list read 2026-11-16",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-16T08:10:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/fhi/statistics/",
+   "document_id": "stockanalysis-FHI-2026-11-13",
+   "origin": "stockanalysis.com via WebFetch; close 2026-11-13 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-16T08:10:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/FHI/history/",
+   "document_id": "yahoo-finance-FHI-2026-11-13",
+   "origin": "Yahoo Finance via WebFetch; close 2026-11-13 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-16T08:10:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "sub"
+   ],
+   "note": "10-Q filed 2026-10-30 read in part; submissions list shows 8-Ks 2026-10-29 (likely earnings) and 2026-11-04, both unread."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Cash 373.7M, long-term debt 348.6M, total assets 2,467.1M, total liabilities 1,004.2M at 2026-09-30 read from the 10-Q."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "fy",
+    "q"
+   ],
+   "note": "OCF 9M26 243.9M, 9M25 136.1M, FY25 297.3M; capex 20.0M, 3.2M, 2.8M; TTM matched periods from XBRL and 10-Q."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "73,921,682 Class B plus 9,000 Class A at 2026-10-23 from the cover; aggregator shows 70.45M, difference unreconciled (possibly later buybacks or definition)."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "qa",
+    "fy"
+   ],
+   "note": "P/E and FCF yield computed; peers and own history not compared."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Asset manager lens: revenue mix (money market 51% of 9M revenue), fee waivers, operating margin, buybacks reviewed; AUM and flows not read (MD&A truncated)."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q"
+   ],
+   "note": "FCP acquisition costs, securities gains, contingent consideration noted; MD&A, legal Note 18, goodwill allocation not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Covers money market rate sensitivity, fee waivers, acquisition, concentration, working capital swings."
+  }
+ },
+ "price": {
+  "value": 63.76,
+  "currency": "USD",
+  "as_of": "2026-11-13T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-13",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 63.76,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 63.76,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 63.76,
+   "shares_outstanding": 73930682,
+   "share_basis": "10-Q cover 2026-10-23 (Class A+B)",
+   "market_cap_usd": 4713800000,
+   "ttm_revenue_musd": 1971.9,
+   "ttm_net_income_musd": 419.6,
+   "pe_ttm": 11.2,
+   "ttm_fcf_musd": 385.6,
+   "fcf_yield_pct": 8.2,
+   "basis": "TTM = FY2025 + 9M26 - 9M25, USD millions: revenue 1,800.7+1,489.1-1,317.8; NI 403.3+312.6-296.3; OCF 297.3+243.9-136.1 = 405.1; capex 2.8+20.0-3.2 = 19.6; FCF 385.6"
+  },
+  "cash_flow": {
+   "ocf_ttm_musd": 405.1,
+   "capex_ttm_musd": 19.6,
+   "ocf_9m26_musd": 243.9,
+   "capex_9m26_musd": 20.0,
+   "fcf_q3_musd": null,
+   "basis": "USD millions, 10-Q and XBRL"
+  },
+  "balance_sheet": {
+   "cash_musd": 373.7,
+   "debt_musd": 348.6,
+   "total_liabilities_musd": 1004.2,
+   "basis": "10-Q 2026-09-30; long-term debt senior notes"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "MD&A (AUM, net flows by asset class, fee waivers detail) and legal Note 18 not read",
+  "Peers compared only informally (TROW 10.6x, BEN 18.3x trailing from run 61); own history not compared",
+  "8-Ks 2026-10-29 and 2026-11-04 and Form 144 2026-11-09 unread",
+  "Share count 73.93M cover vs 70.45M aggregator unreconciled",
+  "Quote independence is publisher level only",
+  "Scores not assigned"
+ ]
+}

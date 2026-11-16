@@ -1,0 +1,199 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "CART",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "Marketplace under pending cash acquisition: deal terms, spread and regulatory path dominate; standalone GOV, take rate and SBC secondary. Treated as merger situation, not generic value.",
+ "as_of": "2026-11-16T08:10:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Maplebear (Instacart, Nasdaq: CART) is under a definitive agreement to be acquired by DoorDash (10-Q note, signed 2026-10-28). Per a search summary of the 8-K and 425 filings (documents not opened): 65.00 per share, cash or 0.3372 DoorDash shares or 48.75 cash plus 0.0843 shares, stock capped at 25%, about 17B equity value, 26% premium to the 2026-10-22 close, expected close end 2027 or first half 2028, needs HSR, Canada, Israel and shareholder approval; holders of about 19% have agreed to vote in favor. Close 58.87 on 2026-11-13 (two aggregators agree) leaves a 10.4% gross spread to 65.00 (cash election; stock election moves with DoorDash). Standalone: Q3 revenue 1,095M vs 939M (+17%), net income 147M, EPS 0.60; TTM revenue 4,149M, NI 484M, OCF 1,268M, capex 58M, FCF 1,210M (SBC 440M TTM: 770M after SBC), market cap 13.93B at 236.63M shares: 28.8x TTM, FCF yield 8.7% (5.5% after SBC). Cash 830M plus 105M securities. Conclusion: a stock whose price is anchored to a cash takeover, so ordinary valuation research is not the right lens. It is merger arbitrage with long timing and antitrust risk, not a long term growth or value idea, and the 10% spread over 1 to 1.5 years is compensation for break risk (the pre-deal price was about 51.6 by implication of the 26% premium).",
+ "counterthesis": "Antitrust review of two leading US delivery platforms could take until 2028 or block the deal; if it breaks the price may fall toward the undisturbed level near 52 (derived from the stated premium, not a read quote). Capital is tied up for 1 to 1.5 years for about 10% gross, before opportunity cost. Upside above 65 is capped. SBC is large. Deal terms were taken from a search summary, not read filings.",
+ "invalidation": "Interest changes if an HSR second request or regulatory block emerges, the spread widens sharply, or DoorDash financing or votes fail.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/1579091/000157909126000055/cart-20260930.htm",
+   "document_id": "0001579091-26-000055",
+   "origin": "Q3 2026 10-Q via WebFetch extraction (statements; MD&A, Note 17 and legal truncated)",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-16T08:10:00-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001579091.json",
+   "document_id": "SEC-companyfacts-CIK0001579091",
+   "origin": "SEC XBRL companyfacts fetched by curl; FY2025 10-K (0001579091-26-000018) and 10-Q periods matched",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-16T08:10:00-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001579091.json",
+   "document_id": "SEC-submissions-CIK0001579091",
+   "origin": "SEC submissions list read 2026-11-16: 10-Q 2026-11-05, many 425 filings 10-29 to 11-13",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-16T08:10:00-05:00"
+  },
+  {
+   "id": "deal",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001579091/000119312526437075/d171568dex991.htm",
+   "document_id": "0001193125-26-437075 Ex 99.1",
+   "origin": "Deal terms from a web search summary of the 8-K and 425 filings; the documents themselves were not opened",
+   "kind": "secondary",
+   "read_status": "snippet",
+   "accessed_at": "2026-11-16T08:10:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/cart/statistics/",
+   "document_id": "stockanalysis-CART-2026-11-13",
+   "origin": "stockanalysis.com via WebFetch; close 2026-11-13 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-16T08:10:00-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/CART/history/",
+   "document_id": "yahoo-finance-CART-2026-11-13",
+   "origin": "Yahoo Finance via WebFetch; close 2026-11-13 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-16T08:10:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "sub"
+   ],
+   "note": "10-Q filed 2026-11-05 read in part; numerous 425 merger filings through 2026-11-13 seen in the list, not read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Cash 830M, marketable securities 105M, restricted cash 93M at 2026-09-30; no borrowings seen, revolver drawn amount and total liabilities not read."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "fy",
+    "q"
+   ],
+   "note": "OCF FY25 971M, 9M26 1,085M, 9M25 788M; PP&E capex 61M, 46M, 49M; SBC 352M, 341M, 253M; TTM matched from XBRL. Capitalized software not separated."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "236,630,090 shares at 2026-10-30 from the cover."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "qa",
+    "fy",
+    "deal"
+   ],
+   "note": "Standalone multiples computed but the price is governed by the 65.00 cash offer; spread analysis rests on an unread-document summary; no peers."
+  },
+  "sector_model_appropriate": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "deal"
+   ],
+   "note": "Marketplace model (GOV, orders, take rate) not read: MD&A truncated; situation is a pending merger so standalone model is secondary."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q"
+   ],
+   "note": "SBC 440M TTM flagged; legal, FTC, Note 17 and merger agreement termination terms not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "deal"
+   ],
+   "note": "Covers antitrust timing, capped upside, SBC, break risk."
+  }
+ },
+ "price": {
+  "value": 58.87,
+  "currency": "USD",
+  "as_of": "2026-11-13T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-13",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 58.87,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 58.87,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 58.87,
+   "shares_outstanding": 236630090,
+   "share_basis": "10-Q cover 2026-10-30",
+   "market_cap_usd": 13931000000,
+   "ttm_revenue_musd": 4149.0,
+   "ttm_net_income_musd": 484.0,
+   "pe_ttm": 28.8,
+   "ttm_fcf_musd": 1210.0,
+   "fcf_yield_pct": 8.7,
+   "basis": "TTM = FY2025 + 9M26 - 9M25, USD millions: revenue 3,742+3,157-2,750; NI 447+403-366; OCF 971+1,085-788 = 1,268; PP&E capex 61+46-49 = 58; FCF 1,210; SBC TTM 440 gives 770 (5.5%) after SBC; reported NI is rounded to millions"
+  },
+  "cash_flow": {
+   "ocf_ttm_musd": 1268.0,
+   "capex_ttm_musd": 58.0,
+   "ocf_9m26_musd": 1085.0,
+   "capex_9m26_musd": 46.0,
+   "fcf_q3_musd": null,
+   "basis": "USD millions, 10-Q and XBRL"
+  },
+  "balance_sheet": {
+   "cash_musd": 830.0,
+   "debt_musd": null,
+   "total_liabilities_musd": null,
+   "basis": "10-Q 2026-09-30; no borrowings visible; revolver and total liabilities not read"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Merger agreement, 8-K and proxy not opened: terms, termination fee, outside date, regulatory conditions unverified",
+  "MD&A (GOV, orders, take rate) and legal proceedings not read",
+  "Total liabilities and revolver not read",
+  "Peers not compared; standalone valuation secondary to deal price",
+  "Quote independence is publisher level only",
+  "Scores not assigned"
+ ]
+}
