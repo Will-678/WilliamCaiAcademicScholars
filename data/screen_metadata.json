@@ -1,7 +1,7 @@
 {
   "method_version": "2.0",
   "requested_calendar_year": 2025,
-  "retrieved_at": "2026-11-14T20:04:50.240082-05:00",
+  "retrieved_at": "2026-11-15T20:05:21.196165-05:00",
   "scope": "Standard US GAAP USD annual SEC frame facts; not a global listed-company universe",
   "price_coverage": false,
   "point_in_time_backtest_safe": false,

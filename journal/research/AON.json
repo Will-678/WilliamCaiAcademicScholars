@@ -1,0 +1,189 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "AON",
+ "exchange": "NYSE",
+ "currency": "USD",
+ "sector_model": "Insurance broker and risk services: organic growth, adjusted margin, fiduciary assets excluded from debt and cash, acquisition leverage, restructuring cash, pension. Not an insurer; no reserve model.",
+ "as_of": "2026-11-15T20:07:31-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Aon plc (NYSE: AON), global insurance broker. Q3 2026 (10-Q 0001628280-26-067879 filed 2026-10-28): revenue 4,101M vs 3,997M (+2.6%), operating income 809M vs 816M, net income 476M vs 458M, diluted EPS 2.23 vs 2.11. 9M revenue 13,381M (+3.9%), operating income 3,439M, NI 2,239M (+11.8%), EPS 10.46 vs 9.21; restructuring (Accelerating Aon United) 281M in 9M, about 1.3B total program. TTM NI 3,932M (FY2025 3,695M + 9M26 - 9M25); OCF 3,574M, capex 308M, FCF 3,266M. Shares 212.157M (cover 2026-10-27), market cap 71.8B at 338.31: TTM P/E 18.3x, FCF yield 4.55%. Balance sheet moved sharply: total debt 28,041M at 2026-09-30 versus 15,249M at year end (13,404M of debt issued in 9M), cash 2,017M, equity 10.2B. Cause: 8-K 2026-08-31, agreement to buy USI Advantage Corp for 17B cash (merger agreement dated 2026-08-30; outside date 2026-06-01 extendable twice by three months; regulatory approvals). Press reports (not primary) state the price is about 14.5x synergized trailing EBITDA, financing by new debt, pro forma leverage about 4.5x and buybacks paused; the 10-Q shows no Q3 repurchases and 1.1B in H1. Market view: stock dropped about 7 to 10% on announcement; at 18x earnings it is cheaper than exchanges (CME 25.8x) but the earnings base excludes USI and the debt for it has already been raised in part. What the price assumes: successful integration and de-levering. Evidence for: EPS +14% in 9M, cash conversion 83% of NI. Against: organic growth not read, OCF 9M up only 4.5%.",
+ "counterthesis": "Pro forma debt could reach about 45B including the 17B USI purchase (28.0B already, part may be pre-funded cash), against equity of 10.2B and TTM FCF of 3.3B; interest cost rises and buybacks stop, so per-share growth slows. Brokerage organic growth and margins depend on the P&C pricing cycle; softening rates cut commissions. Restructuring cash of about 1.2B is a recurring cost labelled one-time. USI price is 17B, and KKR's expected multiple return implies seller-favorable terms. The 2016 plane crash litigation is mentioned without amounts. Regulatory approval could delay or modify the deal. Not read: 10-Q MD&A (organic growth, adjusted margin), debt note maturity table, 10-K, Ex 99.1 and 99.2, financing 8-Ks of September; peers (MMC, WTW, BRO, AJG) not compared; shares 'outstanding' excludes any change since 2026-10-27.",
+ "invalidation": "Thesis fails if organic growth falls below about 4%, pro forma leverage exceeds about 4.5x without a clear path down, free cash flow after interest does not cover dividends, or USI regulatory remedies or integration costs exceed plan.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/315293/000162828026067879/aon-20260930.htm",
+   "document_id": "0001628280-26-067879",
+   "origin": "Q3 2026 10-Q via WebFetch extraction of statements, cover, notes (relevant sections; MD&A organic growth not in extract)",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-15T20:07:31-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000315293.json",
+   "document_id": "SEC-companyfacts-CIK0000315293",
+   "origin": "SEC XBRL companyfacts fetched by curl; FY2025 10-K accession 0001628280-26-008116",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-15T20:07:31-05:00"
+  },
+  {
+   "id": "k",
+   "url": "https://www.sec.gov/Archives/edgar/data/315293/000119312526375328/d108801d8k.htm",
+   "document_id": "0001193125-26-375328",
+   "origin": "8-K filed 2026-08-31 read via WebFetch: USI merger agreement; issuer filing; Ex 99.1 and 99.2 not opened",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-15T20:07:31-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/aon/statistics/",
+   "document_id": "stockanalysis-AON-2026-11-13",
+   "origin": "stockanalysis.com via WebFetch: NYSE USD close 338.31 on 2026-11-13",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-15T20:07:31-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/AON/history/",
+   "document_id": "yahoo-finance-AON-2026-11-13",
+   "origin": "Yahoo Finance via WebFetch: NYSE USD close 338.31 on 2026-11-13, 333.42 on 2026-11-12",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-15T20:07:31-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "k"
+   ],
+   "note": "10-Q filed 2026-10-28 read in relevant sections; submissions list showed 8-Ks 2026-09-11 to 2026-09-22 (financing, unread) and 8-K 2026-08-31 (USI, read)."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Cash 2,017M, short-term debt 1,722M, long-term debt 26,319M, total assets 65,139M, total liabilities 54,922M (includes fiduciary liabilities 18,890M), equity 10,197M from the 10-Q extract."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "fy",
+    "q"
+   ],
+   "note": "OCF and capital expenditures from XBRL for FY2025, 9M25 and 9M26 matching 10-Q; capex line labelled Capital expenditures, composition not separated."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "212,157,176 Class A shares at 2026-10-27 from 10-Q cover."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "qa",
+    "fy",
+    "q"
+   ],
+   "note": "P/E and FCF yield computed; no EV/EBITDA on pro forma basis, no peers beyond aggregator, no adjusted EPS."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Broker model: fiduciary assets and liabilities excluded from debt and cash; leverage assessed on interest bearing debt only."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Restructuring and acquisition debt noted; MD&A, non-GAAP reconciliation, auditor matters and legal note not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "k"
+   ],
+   "note": "Covers leverage, restructuring cash, rate cycle, deal price and regulatory timing, litigation."
+  }
+ },
+ "price": {
+  "value": 338.31,
+  "currency": "USD",
+  "as_of": "2026-11-13T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-13",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 338.31,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 338.31,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 338.31,
+   "shares_outstanding": 212157176,
+   "share_basis": "10-Q cover 2026-10-27",
+   "market_cap_usd": 71780000000,
+   "ttm_revenue_musd": null,
+   "ttm_net_income_musd": 3932.0,
+   "pe_ttm": 18.3,
+   "ttm_fcf_musd": 3266.0,
+   "fcf_yield_pct": 4.5,
+   "basis": "TTM = FY2025 + 9M to 2026-09-30 - 9M to 2025-09-30, USD millions; capex as labelled Capital expenditures; TTM revenue not extracted"
+  },
+  "cash_flow": {
+   "ocf_ttm_musd": 3574.0,
+   "capex_ttm_musd": 308.0,
+   "ocf_9m26_musd": 2177.0,
+   "capex_9m26_musd": 234.0,
+   "fcf_q3_musd": null,
+   "basis": "USD millions"
+  },
+  "balance_sheet": {
+   "cash_musd": 2017.0,
+   "debt_musd": 28041.0,
+   "total_liabilities_musd": 54922.0,
+   "basis": "10-Q 2026-09-30; debt = short-term 1,722 plus long-term 26,319; total liabilities include 18,890 fiduciary liabilities"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "10-Q MD&A (organic growth, adjusted margin) not read",
+  "USI financing: September 2026 8-Ks, debt maturity table, pro forma leverage unread (4.5x is from press)",
+  "Peers (MMC, WTW, BRO, AJG) not compared",
+  "Restructuring cash and legal note not reconciled",
+  "Quote independence is publisher level only",
+  "Scores not assigned"
+ ]
+}

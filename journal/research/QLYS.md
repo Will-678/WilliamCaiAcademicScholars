@@ -24,3 +24,6 @@ High quality, net cash, 35% operating margin, but growth is about 10% and slowin
 Peers and own-history multiples, drop cause and reaction, call, audit matters and tax/revenue notes, FY2025 10-K text, scores, truly independent quote origin.
 
 Research only; no trade implied.
+
+## Update 2026-11-15 (run 59): peer gap partly closed
+Source: stockanalysis.com statistics pages, closes 2026-11-13 (single aggregator origin, not independently confirmed; https://stockanalysis.com/stocks/qlys/statistics/). QLYS 172.94: trailing PE 28.8, forward PE 20.3, EV/EBITDA 20.2, FCF yield 5.4%, operating margin 34.5%, net cash 757M. TENB 40.76: trailing PE 315.9, forward PE 17.2, EV/EBITDA 82.1, FCF yield 6.6%, operating margin 5.7%, net debt 346M. RPD 14.41: forward PE 7.6, EV/EBITDA 17.2, FCF yield 14.2%, operating margin 3.1%, net debt 226M. Reading: QLYS carries the highest forward PE of the three but by far the highest margin and a net cash balance; peers are lower-margin and levered. CRWD not compared; own history, call and 10-K audit matters still open. Rating unchanged (watch, scores null).

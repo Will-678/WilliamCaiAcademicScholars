@@ -1,0 +1,189 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "CME",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "Exchange and clearing house: volume and rate per contract driven revenue, operating margin, interest on performance bonds net of distributions, clearing default exposure, dividends including annual variable. Not a bank or generic industrial.",
+ "as_of": "2026-11-15T20:07:31-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "CME Group (Nasdaq: CME), largest US derivatives exchange and clearing house. Q3 2026 (10-Q 0001156375-26-000068 filed 2026-10-23): revenue 1,737.3M vs 1,537.6M (+13.0%), operating income 1,141.4M (65.7% margin), net income 1,036.9M, diluted EPS 2.89 vs 2.49. 9M revenue 5,323.6M (+9.3%), NI 3,233.0M (+11.9%), EPS 8.96 vs 7.92. FY2025 (10-K): revenue 6,520.6M, NI 4,072.2M, OCF 4,277.1M, PP&E capex 83.5M. TTM (FY2025 + 9M26 - 9M25): revenue 6,972.3M, NI 4,415.9M, OCF 4,426.8M, capex 93.7M (PP&E only; capitalized software not separated, so FCF about 4,333M is an upper bound). Shares 357.93M Class A (cover 2026-10-14) so market cap 113.8B at 317.97: TTM P/E 25.8x, FCF yield about 3.8%. Debt 3,425M carrying (par 3,450M), cash 2,198.5M (down from 4,416.9M at year end), equity 26.56B. Capital return: 9M dividends 3,637.7M (10.05 per share declared, includes annual variable) versus 9M FCF about 3,232M; buybacks 1.8B in 9M at average 272.89 (Q3 average 255.81, so the stock is now about 24% above Q3 average), 1.0B authorization left. Interest earned on performance bonds and guaranty fund 4,151.5M in 9M less distributions 3,783.9M, so net about 368M. Market view: a toll-booth with 63% net margin and near zero capex. What the price assumes: continued double digit volume growth in a volatile-rate year; at 25.8x it is not cheap versus ICE (24x GAAP TTM, run 54) and NDAQ (28.9x). Evidence for: record revenue, operating margin 65.7%, low debt, cash conversion above 98% of NI. Gap closing needs: durable volume growth and a valuation below peers, neither shown.",
+ "counterthesis": "Revenue is tied to market volatility and rates; 2026 growth may be a high-activity peak and the shares are about 24% above the Q3 buyback price. Dividends (3.6% yield, annual variable) already exceed free cash flow in 9M, and cash fell 2.2B in nine months, so payout depends on drawing cash. FCF uses PP&E capex only, so true FCF may be lower. Competition from ICE, Cboe, Eurex and new venues, a Treasury clearing mandate shift, CFTC rule changes, and a clearing default (guaranty fund) are tail risks; the Class B shareholder case is on appeal. Impairments of 28.9M on private investments are small. The 10-Q MD&A, 10-K risk factors and the 2026 Q3 earnings release (non-GAAP) were not read; no peer or own-history multiples beyond aggregator data (CME trailing PE 26.1, forward 24.6, EV/EBITDA 23.3 on stockanalysis) were compared.",
+ "invalidation": "Thesis fails if average daily volume falls materially from 2026 levels, interest-income net of distributions declines, free cash flow stops covering the regular dividend, or a competitor or regulator takes share of core rate and equity-index contracts.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/1156375/000115637526000068/cme-20260930.htm",
+   "document_id": "0001156375-26-000068",
+   "origin": "Q3 2026 10-Q via WebFetch extraction of income statement, cash flow, balance sheet, cover, notes (relevant sections; MD&A not read in full)",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-15T20:07:31-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001156375.json",
+   "document_id": "SEC-companyfacts-CIK0001156375",
+   "origin": "SEC XBRL companyfacts fetched by curl; FY2025 10-K accession 0001156375-26-000009 and 10-Q periods matched",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-15T20:07:31-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001156375.json",
+   "document_id": "SEC-submissions-CIK0001156375",
+   "origin": "SEC submissions list: latest periodic filing 10-Q 2026-10-23, 8-K 2026-10-21, no later 10-Q/10-K/8-K as of 2026-11-15",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-15T20:07:31-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/cme/statistics/",
+   "document_id": "stockanalysis-CME-2026-11-13",
+   "origin": "stockanalysis.com via WebFetch: Nasdaq USD close 317.97 on 2026-11-13",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-15T20:07:31-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/CME/history/",
+   "document_id": "yahoo-finance-CME-2026-11-13",
+   "origin": "Yahoo Finance via WebFetch: NasdaqGS USD close 317.97 on 2026-11-13, 315.50 on 2026-11-12",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-15T20:07:31-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "sub"
+   ],
+   "note": "Latest 10-Q filed 2026-10-23 read in relevant sections; submissions list shows only Form 4/144 and 8-K 2026-10-21 (unread) since."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Cash 2,198.5M, total debt 3,425.1M carrying, total assets 192,092.5M and liabilities 165,532.2M (includes 155.2B performance bonds and guaranty funds) read from the 10-Q balance sheet extract."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "fy",
+    "q"
+   ],
+   "note": "OCF and PP&E capex for FY2025, 9M25 and 9M26 from XBRL and 10-Q; capitalized software not separately reported, flagged as upper bound."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "357,930,746 Class A shares at 2026-10-14 from 10-Q cover; Class B 3,138 shares immaterial."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "qa",
+    "fy",
+    "q"
+   ],
+   "note": "P/E and FCF yield computed; peers and own history only at aggregator level, no multi-year own-history comparison."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Exchange and clearing model: net interest on performance bonds, payout and clearing exposure examined; not treated as a bank."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Impairments, tax rate (22.9%) and clearing disclosures read from extract; MD&A, auditor critical matters and 8-K 2026-10-21 not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "fy"
+   ],
+   "note": "Covers volume cyclicality, payout above FCF, price above buyback average, clearing tail risk, competition and litigation."
+  }
+ },
+ "price": {
+  "value": 317.97,
+  "currency": "USD",
+  "as_of": "2026-11-13T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-13",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 317.97,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 317.97,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 317.97,
+   "shares_outstanding": 357930746,
+   "share_basis": "10-Q cover 2026-10-14",
+   "market_cap_usd": 113810000000,
+   "ttm_revenue_musd": 6972.3,
+   "ttm_net_income_musd": 4415.9,
+   "pe_ttm": 25.8,
+   "ttm_fcf_musd": 4333.1,
+   "fcf_yield_pct": 3.8,
+   "basis": "TTM = FY2025 + 9M to 2026-09-30 - 9M to 2025-09-30, USD millions; capex is PP&E only (capitalized software not separated), so FCF is an upper bound"
+  },
+  "cash_flow": {
+   "ocf_ttm_musd": 4426.8,
+   "capex_ttm_musd": 93.7,
+   "ocf_9m26_musd": 3292.9,
+   "capex_9m26_musd": 61.2,
+   "fcf_q3_musd": null,
+   "basis": "USD millions; PP&E capex only"
+  },
+  "balance_sheet": {
+   "cash_musd": 2198.5,
+   "debt_musd": 3425.1,
+   "total_liabilities_musd": 165532.2,
+   "basis": "10-Q 2026-09-30; liabilities include 155.2B performance bonds and guaranty fund obligations, not interest bearing debt"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers (ICE, NDAQ, CBOE) only at aggregator level; own-history multiples not compared",
+  "10-Q MD&A, risk factors and 8-K 2026-10-21 not read; Q3 release non-GAAP not read",
+  "Capitalized software capex not separated; FCF is an upper bound",
+  "Annual variable dividend vs FCF and cash decline not reconciled to year end plan",
+  "Quote independence is publisher level only",
+  "Scores not assigned"
+ ]
+}
