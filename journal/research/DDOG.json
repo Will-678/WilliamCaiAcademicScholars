@@ -1,0 +1,186 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "DDOG",
+ "exchange": "Nasdaq",
+ "currency": "USD",
+ "sector_model": "Infrastructure software (observability, subscription): growth, remaining performance obligations, GAAP margin, SBC and dilution, FCF after capitalized software, convertible debt, net cash. Valued on growth adjusted multiples, not generic earnings.",
+ "as_of": "2026-11-16T04:06:47-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "thesis": "Datadog (Nasdaq: DDOG). Q3 2026 10-Q (0001628280-26-070292, filed 2026-11-04): revenue 1,197.1M vs 885.7M (+35.2%); 9M 3,325.0M vs 2,474.0M (+34.4%). GAAP operating income 74.7M (Q3) vs loss 5.8M; 9M 87.5M vs loss 53.7M. Net income 118.3M Q3, 215.4M 9M, helped by interest income and an 8.41% 9M tax rate (full valuation allowance, OBBBA effects). Remaining performance obligations 3,847.7M vs 3,461.2M at year end. Cash 881.2M plus marketable securities 4,352.4M (5.23B) vs 1.0B 2029 convertible notes (fair value about 1.4B); total liabilities 3,123.2M. TTM (FY2025 + 9M26 - 9M25): revenue 4,278.2M, net income 262.0M, OCF 1,267.5M, PP&E capex 41.0M, capitalized software 117.1M, FCF 1,109.5M; cash flow SBC 859.7M, so FCF after SBC about 249.8M. Shares 337,307,033 Class A + 23,735,512 Class B = 361,042,545 (cover 2026-10-28); close 184.16 (2026-11-13) gives market cap 66.49B: 253.8x TTM GAAP earnings, 15.5x TTM revenue, FCF yield 1.67% (0.4% after SBC). Market view: category leader compounding at 35% with expanding margins deserves a premium. What the price assumes: growth sustained well above 25% for years and SBC dilution contained. Evidence that differs: none found; the price already embeds the thesis. Quality is high; price attractiveness is not established and likely low.",
+ "counterthesis": "Valuation leaves no margin of safety: 15.5x revenue, FCF yield 1.7% and 0.4% after SBC. SBC of about 860M TTM is 20% of revenue and 77% of FCF; GAAP operating margin is only 6% in Q3. Net income includes interest on 5.2B of investments and a low tax rate under a full valuation allowance. A growth deceleration or AI-native workload shifts to cheaper rivals or hyperscaler tools could compress the multiple sharply. Growth acceleration to 35% may include AI-customer concentration and usage volatility (customer counts, net retention and concentration were not read; MD&A text was cut off). Class B share structure gives founders control. Peers (DT, NEWR-type, CRWD, SNOW) and own-history multiples were not compared; 10-K risk factors unread. Valuation aggregator figures differ from our computation only in definition (aggregator trailing PE 257 vs 253.8).",
+ "invalidation": "Thesis (high quality at fair price) fails if growth falls below about 25%, RPO growth lags revenue, GAAP operating margin stalls below 10%, or SBC keeps FCF after SBC under 1% of market cap; a lower price would be needed to reconsider.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026070292/ddog-20260930.htm",
+   "document_id": "0001628280-26-070292",
+   "origin": "Q3 2026 10-Q via WebFetch (statements and notes; first 100,000 of 102,120 characters; MD&A not in text)",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-16T04:06:47-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001561550.json",
+   "document_id": "SEC-companyfacts-CIK0001561550",
+   "origin": "SEC XBRL companyfacts fetched by curl; FY2025 10-K and 9M periods matched",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-16T04:06:47-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001561550.json",
+   "document_id": "SEC-submissions-CIK0001561550",
+   "origin": "SEC submissions list read 2026-11-16: 10-Q and 8-K 2026-11-04, Form 4s and 144s since",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-16T04:06:47-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/ddog/statistics/",
+   "document_id": "stockanalysis-DDOG-2026-11-13",
+   "origin": "stockanalysis.com via WebFetch; close 2026-11-13 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-16T04:06:47-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/DDOG/history/",
+   "document_id": "yahoo-finance-DDOG-2026-11-13",
+   "origin": "Yahoo Finance via WebFetch; close 2026-11-13 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-16T04:06:47-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "sub"
+   ],
+   "note": "10-Q filed 2026-11-04 read in statements and notes; submissions list shows 8-K 2026-11-04 (earnings, unread) and only Form 4/144 since."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Cash 881.2M, marketable securities 4,352.4M, convertible notes 1,000M principal, total liabilities 3,123.2M read from the 10-Q."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "fy",
+    "q"
+   ],
+   "note": "9M26 OCF 940.4M, PP&E 32.1M, capitalized software 89.9M from 10-Q; FY2025 and 9M25 from XBRL; TTM matched, capitalized software included in FCF."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "337,307,033 Class A and 23,735,512 Class B at 2026-10-28 from the 10-Q cover."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "qa",
+    "fy"
+   ],
+   "note": "PE, revenue multiple, FCF yield computed; peers and own history not compared."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Software lens: growth, RPO, SBC, FCF after SBC, converts examined; customer metrics unread."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Tax rate, interest income, SBC and capitalized software noted; MD&A, auditor matters and risk factors not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Covers valuation, SBC, margin, interest income, tax rate, concentration, competition and control structure."
+  }
+ },
+ "price": {
+  "value": 184.16,
+  "currency": "USD",
+  "as_of": "2026-11-13T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-13",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 184.16,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 184.16,
+    "currency": "USD",
+    "as_of": "2026-11-13T16:00:00-05:00"
+   }
+  ]
+ },
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "calculations": {
+  "valuation": {
+   "price": 184.16,
+   "shares_outstanding": 361042545,
+   "share_basis": "10-Q cover 2026-10-28, Class A plus Class B",
+   "market_cap_usd": 66489595087,
+   "ttm_revenue_musd": 4278.2,
+   "ttm_net_income_musd": 262.0,
+   "pe_ttm": 253.8,
+   "ttm_fcf_musd": 1109.5,
+   "fcf_yield_pct": 1.67,
+   "basis": "TTM = FY2025 + 9M26 - 9M25, USD millions; FCF = OCF 1,267.5 less PP&E 41.0 and capitalized software 117.1; cash flow SBC TTM 859.7 not deducted"
+  },
+  "cash_flow": {
+   "ocf_ttm_musd": 1267.5,
+   "capex_ttm_musd": 158.1,
+   "ocf_9m26_musd": 940.4,
+   "capex_9m26_musd": 122.0,
+   "fcf_q3_musd": null,
+   "basis": "USD millions; capex = PP&E plus capitalized software"
+  },
+  "balance_sheet": {
+   "cash_musd": 5233.6,
+   "debt_musd": 1000.0,
+   "total_liabilities_musd": 3123.2,
+   "basis": "10-Q 2026-09-30; cash plus marketable securities; debt is 2029 convertible notes principal"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "10-Q MD&A (customer counts, net retention, concentration), risk factors not read",
+  "Peers (DT, CRWD, SNOW, NOW) and own-history multiples not compared",
+  "8-K 2026-11-04 earnings release and guidance not read",
+  "Quote independence is publisher level only",
+  "Scores not assigned"
+ ]
+}

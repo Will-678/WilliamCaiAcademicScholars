@@ -429,3 +429,10 @@ Report reports/latest.md, review reviews/2026-11-15.md. 105 records valid, 0 eli
 - Unverified: peers for both; AXP MD&A in part, legal note, 10-K, order text; TROW MD&A, risk factors, 8-K 2026-11-10; quotes are two aggregators (publisher-level independence only). Existing candidates other than CME were not rechecked for new filings. Benchmark VTI pending; no paper references.
 - Next: PGR October results 11-18; EXEL '039 ruling; peers for AXP (V, MA, COF) and TROW (BEN, IVZ); Datadog and other unqueued screen names.
 - Correction (run 60): the revalidation covered 109 records (109 valid, 0 eligible), not 110; 28 unit tests pass.
+
+## Worker run 61 (2026-11-16 ~04:15 ET, Mon)
+- Screen not refreshed (retrieved 2026-11-15 20:05 ET, ~8h old, no failure): 4,397 revenue filers, 1,142 comparable, 419 preliminary passes; annual US GAAP USD only, not global, not valuation.
+- Leader gaps worked: AXP peers (aggregator, 2026-11-13 closes): V 34.8x, MA 34.6x, COF 11.6x trailing vs AXP 17.5x, hybrid, no discount. TROW peers: BEN 18.3x trailing (fwd 11.15), IVZ fwd 9.2x vs TROW 10.6x. Both partly closed (one aggregator origin); ratings unchanged.
+- Researched DDOG (watch, medium, scores null): Q3 revenue +35.2%, GAAP op income 74.7M, TTM FCF 1,109.5M after capitalized software, SBC 859.7M; close 184.16 = 253.8x TTM NI, 15.5x revenue, FCF yield 1.67% (0.4% after SBC); 5.23B cash and investments vs 1.0B converts. Valid, not attractive-eligible. 110 records revalidated, 110 valid (data/quality_latest.json, quality_run61_*.json). Only one new name: depth over quota.
+- Unverified: DDOG MD&A metrics, peers, 8-K guidance, 10-K; AXP/TROW remaining peers, history, MD&A; quotes publisher-level only. Other candidates not rechecked for new filings. Benchmark VTI pending; no paper references.
+- Next: PGR October results 11-18; EXEL '039 ruling; DDOG peers; remaining peer gaps; unqueued screen names.
