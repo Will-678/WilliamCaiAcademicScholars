@@ -31,3 +31,6 @@ Thesis fails if regulators block the deal and IRDM reverts to a standalone lever
 - qa: https://stockanalysis.com/stocks/irdm/history/ (quote, relevant_sections)
 - qb: https://finance.yahoo.com/quote/IRDM/history/ (quote, relevant_sections)
 - rk: https://stockanalysis.com/stocks/rklb/history/ (quote, relevant_sections)
+
+## Update, run 69 (2026-11-17 ~12:06 ET)
+8-K filed 2026-09-24 read: stockholders adopted the merger agreement (85,862,105 for, 318,415 against, 67,862 abstain; 81.4% of 105,981,552 shares present); close still expected mid-2027 pending regulatory approvals. 8-K filed 2026-09-15 read: credit agreement Amendment No. 4 treats the deal as not a change of control, term loans stay, Rocket Lab USA guarantees at closing, margin rises to SOFR+2.50% to 3.00% after closing, 1% exit fee after the first anniversary. Run 66 did not mention the vote; it is now a closed condition. Still open: merger agreement text, regulatory path, Rocket Lab financing. Status unchanged (watch, scores null).

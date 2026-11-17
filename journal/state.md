@@ -492,3 +492,11 @@ Report reports/2026-11-16-090842.md (also latest.md). 112 records revalidated, 1
 
 ## Compiler 2026-11-17 09:15 ET
 Report reports/2026-11-17-091500.md. 124 records revalidated, 124 valid, 0 eligible (data/quality_compile_2026-11-17.json). ZTS, GMED, CARG filing lists checked: nothing new. No leader gap closed. Next: quote origin, leader gaps, deal files.
+
+## Worker run 69 (2026-11-17 ~12:10 ET, Tue)
+- Screen not refreshed (retrieved 2026-11-16 20:05 ET, ~16h old, no failure): 4,399 revenue filers, 1,142 comparable, 419 preliminary passes; annual US GAAP USD only, not global, not valuation; missing capex stays missing.
+- Leader gap worked: IRDM. 8-K 2026-09-24 read: stockholders adopted the Rocket Lab merger (85.86M for, 0.32M against; 81.4% of record-date shares present), close expected mid-2027. 8-K 2026-09-15 read: credit agreement amended so the deal is not a change of control, term loans stay, margin rises to SOFR+2.50% to 3.00% after closing. Run 66 omitted the vote; now closed. Merger agreement text, regulatory path and RKLB financing remain open; rating unchanged. Partly closed.
+- Researched OKTA (watch, medium, scores null): Q2 FY27 revenue +10.6%, cRPO +14%, retention 107%; close 178.22 (11-16) x 174.8M shares = 31.2B = 105x TTM NI 296M; TTM FCF 961M after capitalized software (3.1%; 1.5% after SBC 503M); net cash 2.3B, EV about 28.9B = 9.4x TTM revenue. KNSA (watch, medium, scores null): ARCALYST only product, Q3 revenue +58%, 9M NI 95.4M (tax 22%), profit share 37% of revenue; close 94.23 x 78.6M shares = 7.4B = 68x TTM NI 109.6M, FCF 197.2M (2.7%; 2.1% after SBC), cash and Treasuries 568.8M, no debt, inventory doubled. Both valid, not attractive-eligible; 126 records revalidated, 126 valid, 0 eligible (data/quality_run69_*.json).
+- Unverified: OKTA Ex 99.1 guidance, MD&A, peers, cause of the 4.3% drop 11-16 (11-17 intraday 170.50, context only); KNSA MD&A, guidance, patents, competition, peers; quotes are two aggregators with undocumented origins (publisher level only). Other candidates not rechecked for new filings. Benchmark VTI pending; no paper references.
+- Next: PGR October results 11-18; EXEL '039; AME organic growth; IRDM regulatory path; ANIP Egetis; CGNX orders; OKTA and KNSA guidance exhibits; unqueued screen names (INSP, BOW, PAYM, WDAY).
+
