@@ -1,0 +1,197 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "currency": "USD",
+  "as_of": "2026-11-17T04:07:54-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "ticker": "ANIP",
+  "exchange": "Nasdaq",
+  "cik": 1023024,
+  "sector_model": "Specialty and generic pharmaceuticals (small-mid): product concentration (Cortrophin Gel), generics pricing, acquisition and refinancing risk, debt maturities, FCF after capitalized product rights; not a generic software or bank screen.",
+  "thesis": "ANI Pharmaceuticals (Nasdaq: ANIP), Q3 2026 10-Q filed 2026-11-05 (statements and notes read, last 3.5K characters unread). Q3 revenue 290.8M vs 227.8M (+27.6%), 9M 794.3M vs 636.3M (+24.8%); Cortrophin Gel Q3 138.7M vs 101.9M (+36%), 9M 330.9M; generics Q3 +10.4% (104.5M vs 94.4M). 9M GAAP NI 89.4M vs 50.8M; Q3 NI 35.1M, diluted EPS 1.51. TTM (FY25 + 9M26 - 9M25): revenue 1,041.3M, NI 116.8M. Close 70.89 (2026-11-16) x 22,718,931 shares (cover 2026-10-29) = market cap 1,610.5M = 13.8x TTM NI. TTM OCF 229.2M, capex 23.9M, FCF 205.3M (yield 12.7%); SBC TTM 43.0M leaves 162.3M (10.1%). Cash 420.8M, debt carrying 607.2M (convertible 2.25% notes 316.3M principal due 2029-09-01; Term Loan A 300.6M due 2029-09-16), net debt about 186M. Pending Egetis Therapeutics AB cash offer, about SEK 5.6B (~559.9M USD), funded by a 676M 364-day bridge (SOFR+2.75%) that also refinances the term loans; 42.2% irrevocable undertakings, 90% minimum tender, undertakings lapse 2027-03-31 if not unconditional. Pro forma net debt would rise toward roughly 750M (derived; EBITDA unread). The price implies the Cortrophin growth runs well below its current pace or the deal destroys value.",
+  "counterthesis": "Cheap multiple is on a cash-flow-rich but concentrated base: Cortrophin is 42% of 9M revenue, and Q3 includes 11.5M brand royalties and 9M 50.7M royalties of a non-recurring or contract-limited nature (Harmony agreement). Net income is still helped by lower prior-year bases; contingent consideration gains were smaller this year (1.3M vs 25.3M in 9M), so quality of the comparison improved, but earlier-year profit was depressed by items not itemized here. The Egetis deal adds about 560M of debt-funded acquisition, a short bridge needing refinancing in capital markets, secured liens on substantially all assets, and a rare-disease asset (not yet characterized from filings). Acquired-intangible and product-right payments (5.3M in 9M) are small but historically the company grows by acquisition. SBC is high at 3-4% of revenue. 22.7M shares means each large block or secondary moves price.",
+  "invalidation": "Thesis fails if Cortrophin growth stalls or net pricing/rebates erode, if the bridge cannot be termed out at reasonable cost, Egetis integration or valuation disappoints, or leverage after the deal exceeds a level that restricts cash flow.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1023024/000102302426000078/anip-20260930.htm",
+      "document_id": "0001023024-26-000078",
+      "origin": "Q3 2026 10-Q via WebFetch, statements, debt and segment notes; final 3,492 characters not read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T04:07:54-05:00"
+    },
+    {
+      "id": "fy",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001023024.json",
+      "document_id": "SEC-companyfacts-CIK0001023024",
+      "origin": "SEC XBRL companyfacts by script: FY2025 10-K 0001023024-26-000014 and 9M25 and 9M26 periods matched",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T04:07:54-05:00"
+    },
+    {
+      "id": "k8",
+      "url": "https://www.sec.gov/Archives/edgar/data/1023024/000110465926123446/tm2628706d1_8k.htm",
+      "document_id": "0001104659-26-123446",
+      "origin": "8-K filed 2026-11-05 Items 1.01, 2.03, 8.01 via WebFetch (bridge credit agreement and Egetis offer)",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T04:07:54-05:00"
+    },
+    {
+      "id": "p8",
+      "url": "https://www.sec.gov/Archives/edgar/data/1023024/000102302426000082/ani-20261116.htm",
+      "document_id": "0001023024-26-000082",
+      "origin": "8-K filed 2026-11-16 Item 7.01: investor presentation posted; presentation exhibit not opened",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T04:07:54-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/anip/history/",
+      "document_id": "stockanalysis-ANIP-2026-11-16",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-16 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T04:07:54-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/ANIP/history/",
+      "document_id": "yahoo-finance-ANIP-2026-11-16",
+      "origin": "Yahoo Finance via WebFetch; close 2026-11-16 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T04:07:54-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "k8",
+        "p8"
+      ],
+      "note": "10-Q filed 2026-11-05, 8-K 2026-11-05 (bridge and Egetis) and 8-K 2026-11-16 (presentation only) checked; earnings release exhibit and presentation unread."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "2026-09-30 cash 420.758M, convertible notes carrying 309.556M (principal about 316.3M), Term Loan A principal 300.625M, total liabilities 930.548M, total assets 1,567.661M; maturities 2026 to 2029 read; $74.9M revolver availability."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "fy",
+        "q"
+      ],
+      "note": "OCF FY25 185.225M, 9M26 198.830M, 9M25 154.858M; PP&E capex 13.835M, 22.630M, 12.591M; TTM matched; product-right payments 5.25M 9M26 not included in capex."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "22,718,931 common shares at 2026-10-29 cover plus 10,864 Class C special shares (not included); dilution from convertible not modeled."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "qa",
+        "qb",
+        "fy",
+        "q"
+      ],
+      "note": "Trailing P/E, FCF yield computed; EV/EBITDA, peers, own history and pro forma Egetis economics not computed."
+    },
+    "sector_model_appropriate": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Pharma model needs product durability, rebate and pricing trends, patent and generic-entry risk, pipeline and Egetis asset value; only revenue mix and debt read."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Contingent consideration gains, royalties, intangible amortization noted; MD&A, audit matters and tax unread."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "k8"
+      ],
+      "note": "Covers concentration, nonrecurring royalties, deal leverage, bridge risk, SBC, small float."
+    }
+  },
+  "price": {
+    "value": 70.89,
+    "currency": "USD",
+    "as_of": "2026-11-16T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-16",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 70.89,
+        "currency": "USD",
+        "as_of": "2026-11-16T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 70.89,
+        "currency": "USD",
+        "as_of": "2026-11-16T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "valuation": {
+      "price": 70.89,
+      "shares_outstanding": 22718931,
+      "share_basis": "10-Q cover 2026-10-29",
+      "market_cap_usd": 1610545019,
+      "ttm_revenue_musd": 1041.343,
+      "ttm_net_income_musd": 116.842,
+      "pe_ttm": 13.78,
+      "ttm_fcf_musd": 205.323,
+      "fcf_yield_pct": 12.75,
+      "basis": "TTM=FY2025+9M26-9M25 USD millions: revenue 883.366+794.283-636.306; NI 78.337+89.352-50.847; OCF 185.225+198.830-154.858=229.197; capex 13.835+22.630-12.591=23.874; FCF 205.323; SBC 37.929+33.228-28.161=42.996, FCF after SBC 162.327 (10.1%)."
+    },
+    "cash_flow": {
+      "ocf_ttm_musd": 229.2,
+      "capex_ttm_musd": 23.9,
+      "basis": "USD millions, PP&E purchases only"
+    },
+    "balance_sheet": {
+      "cash_musd": 420.8,
+      "debt_musd": 607.2,
+      "total_liabilities_musd": 930.5,
+      "basis": "10-Q 2026-09-30; debt is carrying value of convertible notes plus Term Loan A, not principal (principal about 616.9M)"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "MD&A, Cortrophin durability, rebates and pricing, patents, Adjusted EBITDA unread",
+    "Egetis asset, offer timeline and bridge takeout unread beyond 8-K summary; pro forma leverage derived only",
+    "Peers and own-history multiples not compared; royalty revenue durability unknown",
+    "Quote independence is publisher level only",
+    "Scores not assigned"
+  ]
+}
