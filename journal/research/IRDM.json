@@ -1,0 +1,227 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "IRDM",
+  "exchange": "Nasdaq",
+  "currency": "USD",
+  "cik": 1418819,
+  "sector_model": "Satellite telecom with a pending acquisition: OEBITDA, leverage, subscribers, government revenue and deal terms; not a generic screen.",
+  "as_of": "2026-11-17T00:07:09-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Iridium (Nasdaq: IRDM) is being acquired by Rocket Lab for 27.00 cash plus 0.4000 RKLB shares when the RKLB 10-day VWAP is at or below 67.50 (collar to 112.50; DEFM14A filed 2026-08-26), expected to close mid-2027. At the 2026-11-16 closes (IRDM 45.03, RKLB 57.37) the consideration is about 49.95 per share, a 10.9% gross spread, but the stock leg falls one for one with RKLB below 67.50 (RKLB fell 10.5% in four sessions). Q3 2026: revenue 245.7M +8%, service revenue 187.5M +13% (Aireon closed 2026-07-02), subscribers 2,696K +6%, OEBITDA 135.6M -1%, net income 106.9M including a 103.9M Aireon gain. TTM revenue 903.0M, NI 163.0M, FCF 277.6M (capex PP&E only) = 5.8% yield on 4,780M market cap; 9M buybacks zero versus 186.5M in 9M25. Net debt 2,061.6M, 4.2x TTM OEBITDA. Dividend 0.15 rising to 0.16. This is a merger-arbitrage and Rocket Lab stock-risk situation, not a standalone value idea.",
+  "counterthesis": "The spread exists because the deal can fail or RKLB can fall: Iridium owes a 223.6M termination fee in some cases, closing needs HSR, FCC and other approvals with an end date of 2027-06-28 extendable to 2027-12-28, and Rocket Lab funds cash through a 3.6B bridge, debt or equity, with no financing condition. Standalone, leverage is 4.2x with a 5.0x covenant at Aireon and 183.4M seller debt due about July 2027; OEBITDA fell in Q3; GAAP earnings are inflated by the gain. Government revenue is about 29% of 9M sales and the EMSS contract extension runs only to March 2027.",
+  "invalidation": "Thesis fails if regulators block the deal and IRDM reverts to a standalone leveraged multiple, if RKLB falls further so consideration drops well below the current price, or if OEBITDA turns down on lost government revenue.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000052/irdm-20260930.htm",
+      "document_id": "0001418819-26-000052",
+      "origin": "Q3 2026 10-Q via WebFetch, first 100,000 of 117,083 characters (statements, debt, cover, risk items); last 17,083 unread",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T00:07:09-05:00"
+    },
+    {
+      "id": "er",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000053/pressreleaseq32026.htm",
+      "document_id": "0001418819-26-000053",
+      "origin": "Earnings release Ex 99.1 to 8-K filed 2026-10-20 via WebFetch (same underlying document as issuer IR release)",
+      "kind": "earnings_release",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T00:07:09-05:00"
+    },
+    {
+      "id": "px",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418819/000175392626001637/g085903_def14am.htm",
+      "document_id": "0001753926-26-001637",
+      "origin": "DEFM14A filed 2026-08-26 via WebFetch, first 100,000 of 240,104 characters (consideration, collar, fees, end date)",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T00:07:09-05:00"
+    },
+    {
+      "id": "fy",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001418819.json",
+      "document_id": "SEC-companyfacts-CIK0001418819",
+      "origin": "SEC XBRL companyfacts by script; FY2025 and 10-Q periods matched",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T00:07:09-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001418819.json",
+      "document_id": "SEC-submissions-CIK0001418819",
+      "origin": "SEC submissions list read 2026-11-17: latest periodic 10-Q 2026-10-20; only Form 4, 144 and 13G/A since",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T00:07:09-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/irdm/history/",
+      "document_id": "stockanalysis-IRDM-2026-11-16",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-16 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T00:07:09-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/IRDM/history/",
+      "document_id": "yahoo-finance-IRDM-2026-11-16",
+      "origin": "Yahoo Finance via WebFetch; close 2026-11-16 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T00:07:09-05:00"
+    },
+    {
+      "id": "rk",
+      "url": "https://stockanalysis.com/stocks/rklb/history/",
+      "document_id": "stockanalysis-RKLB-2026-11-16",
+      "origin": "stockanalysis.com RKLB close 57.37 on 2026-11-16, single source, used only for deal spread context",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T00:07:09-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "sub"
+      ],
+      "note": "10-Q and 8-K filed 2026-10-20 read; submissions list shows no newer periodic or 8-K filing through 2026-11-16."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "er"
+      ],
+      "note": "Cash 97.9M; Term Loan and Aireon Loans 2,109.5M plus 50.0M revolver; company net debt 2,061.6M, gross 2,159.5M, net leverage 4.2x TTM OEBITDA; includes 183.4M Aireon seller debt due about July 2027."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "fy",
+        "q"
+      ],
+      "note": "OCF FY25 400.073M, 9M26 281.706M, 9M25 291.478M; capex (PP&E) 100.280M, 79.238M, 66.791M; TTM matched; capitalized software not separately disclosed so FCF may be overstated."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "106,158,479 shares at 2026-10-13 cover; market cap uses point in time shares."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "qa",
+        "qb",
+        "px",
+        "rk"
+      ],
+      "note": "Standalone multiples computed but price is governed by a pending stock-and-cash merger; deal spread computed from one RKLB source; exchange ratio formula read, merger agreement, RKLB financing and regulatory risk unread."
+    },
+    "sector_model_appropriate": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "er"
+      ],
+      "note": "Telecom satellite model: OEBITDA, leverage and subscribers read; ARPU, government contract detail, spectrum and satellite replacement capex beyond 10-Q not read."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "er"
+      ],
+      "note": "Q3 net income 106.9M includes a 103.9M Aireon remeasurement gain; ex-gain earnings far lower. Purchase accounting and 10-K audit matters unread."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "er",
+        "px"
+      ],
+      "note": "Covers deal dependency, leverage, gain-inflated earnings, FCF basis, termination fee."
+    }
+  },
+  "price": {
+    "value": 45.03,
+    "currency": "USD",
+    "as_of": "2026-11-16T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-16",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 45.03,
+        "currency": "USD",
+        "as_of": "2026-11-16T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 45.03,
+        "currency": "USD",
+        "as_of": "2026-11-16T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 45.03,
+      "shares_outstanding": 106158479,
+      "share_basis": "10-Q cover 2026-10-13",
+      "market_cap_usd": 4780316309,
+      "ttm_revenue_musd": 903.0,
+      "ttm_net_income_musd": 163.0,
+      "pe_ttm": 29.3,
+      "ttm_fcf_musd": 277.6,
+      "fcf_yield_pct": 5.81,
+      "basis": "TTM=FY2025+9M26-9M25 USD millions: revenue 871.659+690.027-658.719; NI 114.372+138.169-89.507 (includes 103.9M Q3 Aireon gain); OCF 400.073+281.706-291.478=390.301; capex 100.280+79.238-66.791=112.727; FCF 277.574"
+    },
+    "deal": {
+      "cash_per_share": 27.0,
+      "exchange_ratio_at_rklb_below_67_50": 0.4,
+      "rklb_close": 57.37,
+      "stock_value": 22.95,
+      "implied_consideration": 49.95,
+      "gross_spread_pct": 10.9,
+      "basis": "DEFM14A collar: ratio 0.4000 at or below 67.50 RKLB VWAP; spot close used instead of 10-day VWAP, so illustrative; value moves with RKLB"
+    },
+    "cash_flow": {
+      "ocf_ttm_musd": 390.3,
+      "capex_ttm_musd": 112.7,
+      "basis": "USD millions"
+    },
+    "balance_sheet": {
+      "cash_musd": 97.9,
+      "debt_musd": 2159.5,
+      "total_liabilities_musd": null,
+      "basis": "10-Q and release 2026-09-30; gross debt per release, includes 50.0M revolver"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Merger agreement, S-4 risk factors, regulatory approvals and RKLB financing unread; deal spread uses single-source RKLB close and spot not VWAP",
+    "Peers, own-history multiples, EMSS renewal terms and 10-K audit matters not compared",
+    "Last 17,083 characters of 10-Q unread; capitalized software not disclosed",
+    "Quote independence is publisher level only",
+    "Scores not assigned"
+  ]
+}

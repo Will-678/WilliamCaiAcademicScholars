@@ -197,12 +197,13 @@
       "debt_musd": 6669.4,
       "total_liabilities_musd": null,
       "basis": "10-Q 2026-09-30; debt = short-term borrowings and current portion 639.8M + long-term 6,029.6M; total liabilities not extracted"
-    }
+    },
+    "run66_note": "8-K 2026-11-06 (0001037868-26-000199) read 2026-11-17: director resignation only; no organic growth, orders or financing content. Gap on organic growth remains open."
   },
   "unresolved_critical_gaps": [
     "Organic growth, orders and backlog not quantified in sources read",
     "Peers and own-history multiples not compared",
-    "MD&A, 8-K 2026-11-06 and 10-K risk factors and audit matters unread",
+    "MD&A and 10-K risk factors and audit matters unread",
     "Quote independence is publisher level only",
     "Scores not assigned"
   ]

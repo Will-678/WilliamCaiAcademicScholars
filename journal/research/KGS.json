@@ -1,0 +1,186 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "KGS",
+  "exchange": "NYSE",
+  "currency": "USD",
+  "cik": 1767042,
+  "sector_model": "Midstream compression services (energy infrastructure, small to mid): utilization, contract backlog, growth versus maintenance capex, leverage and dividend coverage; not a generic screen.",
+  "as_of": "2026-11-17T00:07:09-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Kodiak Gas Services (NYSE: KGS), Q3 2026 10-Q filed 2026-11-09 (statements read, MD&A not in extraction). Q3 revenue 401.8M vs 322.7M (+24.5%), 9M 1,138.7M vs 975.2M (+16.8%); Q3 operating income 138.5M vs 64.2M; Q3 net income 71.5M vs a 14.2M loss (the prior quarter had a 38.2M asset-sale loss; Q3 2026 asset-sale loss 2.0M; interest expense 47.4M vs 56.4M); 9M NI 141.3M includes a 36.5M debt extinguishment loss. TTM revenue 1,471.5M, NI 165.9M. Close 42.67 (2026-11-16, ex-dividend day) and 101.38M shares: market cap 4,326M = 26.1x TTM NI. Capex 544.3M in 9M26 versus OCF 366.9M gives negative 9M FCF of 177.4M and TTM FCF of negative 35.3M (yield -0.8%), while dividends paid were 142.7M (0.49 quarterly; yield about 4.6% on 1.96 annualized). Long-term debt 2,760.5M (2,555.3M at year end), cash 86.9M. The growth is capital funded; the price assumes new horsepower earns contracted returns above the cost of the debt.",
+  "counterthesis": "Dividends and growth capex exceed operating cash flow, so the gap is funded with debt (net debt about 2.7B, roughly 4.8x TTM OCF, EBITDA not read). Q3 profit growth partly reflects a smaller asset-sale loss and lower interest, not only operations. Compression is capital intensive, contract renewals and natural gas activity are cyclical, and utilization, backlog, customer concentration and covenants were not read. Insiders filed Forms 4 and 144 in November; transactions unread.",
+  "invalidation": "Thesis fails if utilization or contract pricing weakens, debt rises faster than EBITDA without capex slowing, or the dividend is cut to fund growth.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1767042/000176704226000079/kgs-20260930.htm",
+      "document_id": "0001767042-26-000079",
+      "origin": "Q3 2026 10-Q via WebFetch, financial statements through Note 8; MD&A, debt, segment and commitments notes were not in the extracted text (78,022 characters)",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T00:07:09-05:00"
+    },
+    {
+      "id": "fy",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001767042.json",
+      "document_id": "SEC-companyfacts-CIK0001767042",
+      "origin": "SEC XBRL companyfacts by script; FY2025 and 10-Q periods matched",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T00:07:09-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001767042.json",
+      "document_id": "SEC-submissions-CIK0001767042",
+      "origin": "SEC submissions list read 2026-11-17: 10-Q 2026-11-09, 8-Ks 2026-11-05 and 2026-11-09 (unread), Form 4 and 144 since",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T00:07:09-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/kgs/history/",
+      "document_id": "stockanalysis-KGS-2026-11-16",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-16 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T00:07:09-05:00"
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/KGS/history/",
+      "document_id": "yahoo-finance-KGS-2026-11-16",
+      "origin": "Yahoo Finance via WebFetch; close 2026-11-16, ex-dividend 0.51 that day (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T00:07:09-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "sub"
+      ],
+      "note": "10-Q filed 2026-11-09 read in part; 8-Ks 2026-11-05 and 2026-11-09 not opened (likely earnings and financing)."
+    },
+    "balance_sheet_verified": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Long-term debt net of costs 2,760.5M and cash 86.9M at 2026-09-30 read; principal, maturities, ABL availability and covenants not in extraction."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "fy",
+        "q"
+      ],
+      "note": "OCF FY25 599.740M, 9M26 366.937M, 9M25 404.878M; PP&E purchases 315.472M, 544.300M, 262.641M; TTM matched; capex includes growth spending, not split from maintenance."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "101,377,475 shares at 2026-11-04 cover."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "qa",
+        "qb",
+        "fy"
+      ],
+      "note": "Trailing P/E, FCF and dividend yield computed; EV/EBITDA, peers and history not computed; Adjusted EBITDA not read."
+    },
+    "sector_model_appropriate": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Compression services need horsepower, utilization, contract backlog and maintenance versus growth capex; none read."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "36.5M 9M debt extinguishment loss and asset-sale losses noted; MD&A and audit matters unread."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "fy"
+      ],
+      "note": "Covers negative FCF, dividend funded by debt, leverage, cyclicality."
+    }
+  },
+  "price": {
+    "value": 42.67,
+    "currency": "USD",
+    "as_of": "2026-11-16T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-16",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 42.67,
+        "currency": "USD",
+        "as_of": "2026-11-16T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 42.67,
+        "currency": "USD",
+        "as_of": "2026-11-16T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 42.67,
+      "shares_outstanding": 101377475,
+      "share_basis": "10-Q cover 2026-11-04",
+      "market_cap_usd": 4325776858,
+      "ttm_revenue_musd": 1471.5,
+      "ttm_net_income_musd": 165.9,
+      "pe_ttm": 26.1,
+      "ttm_fcf_musd": -35.3,
+      "fcf_yield_pct": -0.82,
+      "basis": "TTM=FY2025+9M26-9M25 USD millions: revenue 1308.100+1138.671-975.229; NI attributable 80.521+141.309-55.896; OCF 599.740+366.937-404.878=561.799; capex 315.472+544.300-262.641=597.131; FCF -35.332. Dividend yield 4.6% on 1.96 annualized (0.49 x4) is derived."
+    },
+    "cash_flow": {
+      "ocf_ttm_musd": 561.8,
+      "capex_ttm_musd": 597.1,
+      "basis": "USD millions; 9M26 FCF 366.937-544.300=-177.363M vs dividends paid 142.684M"
+    },
+    "balance_sheet": {
+      "cash_musd": 86.9,
+      "debt_musd": 2760.5,
+      "total_liabilities_musd": null,
+      "basis": "10-Q 2026-09-30; debt is long-term debt net of issuance costs, not principal"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "MD&A, horsepower, utilization, backlog, growth versus maintenance capex, Adjusted EBITDA and debt terms unread",
+    "8-Ks 2026-11-05 and 2026-11-09 unread; insider transactions unread",
+    "Peers (e.g. Archrock, USA Compression) and own-history multiples not compared",
+    "Quote independence is publisher level only",
+    "Scores not assigned"
+  ]
+}
