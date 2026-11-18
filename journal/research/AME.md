@@ -72,3 +72,6 @@ Thesis fails if organic growth (once disclosed) is flat to negative, FCF convers
 - MD&A, 8-K 2026-11-06 and 10-K risk factors and audit matters unread
 - Quote independence is publisher level only
 - Scores not assigned
+
+## Run 72 update (2026-11-18, gap check)
+8-K 2026-11-03 Ex 99.1 read: Q3 sales 2,220.3M (+17%), GAAP EPS 1.85, adjusted 2.21, OCF 560.6M, FCF 527.4M, cash 666.2M, total debt 6.67B (derived), net debt about 6.0B; guidance raised to adjusted EPS 8.53 to 8.57; Q4 sales up low 20% range. Organic growth percent, orders and backlog are NOT quantified in the release; the 10-Q MD&A could not be retrieved (text ended before Item 2). 10-Q notes: Indicor price 5,154.1M, goodwill 2,698.5M, Indicor sales about 1.1B, RPO beyond one year 767.7M. 424B5 filings 2026-11-12 (CAD tranche read; USD, EUR concurrent) repay term loan (4.0B, maturities 2029 to 2031) and revolver (975.7M drawn) borrowings; no pro forma leverage in the draft. Gap partly closed; rating unchanged.

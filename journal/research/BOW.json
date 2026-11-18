@@ -1,0 +1,210 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "BOW",
+  "exchange": "NYSE",
+  "cik": 2002473,
+  "currency": "USD",
+  "as_of": "2026-11-18T00:07:28-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "sector_model": "Insurance (specialty P&C): premiums, combined ratio, reserves, book value and investment income; OCF is not free cash flow. Pending cash acquisition, so the price is set by the deal terms, not by fundamentals.",
+  "thesis": "Bowhead Specialty Holdings (NYSE: BOW) is being acquired for cash by American Family Mutual Insurance Company, S.I. (merger agreement dated 2026-08-02, announced 08-03; about 1.2B). 8-K 2026-11-13 (read in full): stockholders approved the merger at the 11-13 special meeting, 80.60% of outstanding shares for (77.33% excluding parent and recused directors); closing remains subject to the agreement's other conditions (regulatory approvals per news coverage; not listed in the 8-K). Deal price 34.00 per share in cash, about 11% over the 07-31 unaffected 30.59 close; the 34.00 comes from search summaries of news and the deal press release (not read directly). Close 11-17 is 34.17 (34.12 on 11-16, 34.13 on 11-13), 0.5% above 34.00, so the market is pricing near-certain completion and a possible small dividend or other value, which is unexplained here. Q3 2026 (release read): gross written premium 256.4M (+10.8%), net earned premium 150.2M (+17.0%), net income 12.9M, combined ratio 95.9%; 9M NI 45.1M, combined ratio 95.7%; BVPS 13.75, equity 451.1M, debt 146.7M, reserves 1,432.4M, investments 1,622.9M. TTM NI 59.9M; market cap about 1126M (32,945,158 shares at the 10-12 record date) = 18.8x TTM NI, 2.50x book. The upside is capped near the offer; this is a merger-arbitrage situation, not a fundamental value idea, and a fresh buyer earns about the spread (negative) unless a higher bid emerges.",
+  "counterthesis": "At 34.17 against a 34.00 cash offer there is no positive spread to capture and downside if the deal breaks (unaffected price 30.59, about 10% lower, or lower if regulators or reserves intervene). Going-private deals with an existing 14.3% holder carry conflict risk; eleven demand letters and two complaints seek to enjoin it. CFO Mulcahey announced departure in April 2027. Valuation at 2.5x book and 18.8x TTM NI reflects the buyer's premium, not an organic discount. Reserve adequacy for casualty lines (reserves 1,432M against equity 451M) was not examined.",
+  "invalidation": "The watch view changes if regulators block or delay the deal beyond year-end, if an injunction is granted, if a competing bid appears (upside), or if reserve charges alter the buyer's willingness to close.",
+  "sources": [
+    {
+      "id": "e",
+      "url": "https://www.sec.gov/Archives/edgar/data/2002473/000162828026069082/earningsreleaseq32026.htm",
+      "document_id": "0001628280-26-069082",
+      "origin": "8-K 2026-11-03 Ex 99.1 Q3 2026 earnings release read",
+      "kind": "earnings_release",
+      "read_status": "full",
+      "accessed_at": "2026-11-18T00:07:28-05:00"
+    },
+    {
+      "id": "v",
+      "url": "https://www.sec.gov/Archives/edgar/data/2002473/000162828026073860/bow-20261113.htm",
+      "document_id": "0001628280-26-073860",
+      "origin": "8-K 2026-11-13 Item 5.07 vote results and Item 5.02 read",
+      "kind": "quarterly_filing",
+      "read_status": "full",
+      "accessed_at": "2026-11-18T00:07:28-05:00"
+    },
+    {
+      "id": "p",
+      "url": "https://www.sec.gov/Archives/edgar/data/2002473/000114036126041829/ny20084701x1_defa14a.htm",
+      "document_id": "0001140361-26-041829",
+      "origin": "DEFA14A proxy supplement 2026-11-03 read; price not stated in it",
+      "kind": "secondary",
+      "read_status": "full",
+      "accessed_at": "2026-11-18T00:07:28-05:00"
+    },
+    {
+      "id": "d",
+      "url": "https://www.sec.gov/Archives/edgar/data/0002002473/000162828026051540/bowheadpressrelease-fina.htm",
+      "document_id": "0001628280-26-051540",
+      "origin": "Deal press release 8-K (August 2026), seen only as a search result title; 34.00 per share terms taken from search summary of news coverage, not read directly",
+      "kind": "secondary",
+      "read_status": "snippet",
+      "accessed_at": "2026-11-18T00:07:28-05:00"
+    },
+    {
+      "id": "fy",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0002002473.json",
+      "document_id": "SEC-companyfacts-CIK0002002473",
+      "origin": "SEC XBRL companyfacts via script: FY25 10-K, 9M25 and 9M26",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T00:07:28-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0002002473.json",
+      "document_id": "SEC-submissions-CIK0002002473",
+      "origin": "SEC submissions list: 8-Ks 11-03 and 11-13, SC 13E3/A 11-03, 10-Q 11-03",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T00:07:28-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/bow/history/",
+      "document_id": "stockanalysis-BOW-2026-11-17",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-17 34.17 (origin undocumented; fetched after the 16:00 ET close)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T00:07:28-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/BOW/history/",
+      "document_id": "yahoo-finance-BOW-2026-11-17",
+      "origin": "Yahoo Finance via WebFetch; close 2026-11-17 34.17 (origin undocumented; fetched after the 16:00 ET close)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T00:07:28-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "v",
+        "e"
+      ],
+      "note": "Submissions list shows the 10-Q (11-03), earnings 8-K (11-03), proxy supplement and the 11-13 8-K as the latest; vote 8-K and release read in full; the 10-Q text was not read."
+    },
+    "balance_sheet_verified": {
+      "passed": false,
+      "source_ids": [
+        "e",
+        "fy"
+      ],
+      "note": "Equity 451.1M, debt 146.7M, reserves 1,432.4M and investments 1,622.9M from the release; statements in the 10-Q unread; debt covenants and maturities unchecked."
+    },
+    "cashflow_basis_verified": {
+      "passed": false,
+      "source_ids": [
+        "fy"
+      ],
+      "note": "OCF of 351.9M for 9M26 is insurance float growth and not free cash flow; no FCF computed; insurer model uses earnings and book."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "v"
+      ],
+      "note": "32,945,158 shares outstanding at the 2026-10-12 record date per the 8-K 5.07; basic point-in-time count."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "fy",
+        "e",
+        "v"
+      ],
+      "note": "Price to TTM NI and book computed, deal premium noted; offer price not read from a primary document; peers and spread-to-offer analysis incomplete."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "e"
+      ],
+      "note": "Specialty P&C model: combined ratio, premium growth, book value; deal-situation framing applied."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "p",
+        "e"
+      ],
+      "note": "Fairness opinion fee disclosure and litigation noted from the supplement; reserve development and audit matters unread."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "p",
+        "v",
+        "e"
+      ],
+      "note": "Counterthesis covers deal break, litigation, conflict and reserves."
+    }
+  },
+  "price": {
+    "value": 34.17,
+    "currency": "USD",
+    "as_of": "2026-11-17T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-17",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 34.17,
+        "currency": "USD",
+        "as_of": "2026-11-17T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 34.17,
+        "currency": "USD",
+        "as_of": "2026-11-17T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "valuation": {
+      "price": 34.17,
+      "shares_outstanding": 32945158,
+      "share_basis": "8-K 2026-11-13, record date 2026-10-12",
+      "market_cap_usd": 1125736049,
+      "ttm_net_income_musd": 59.933,
+      "pe_ttm": 18.8,
+      "price_to_book": 2.5,
+      "basis": "TTM NI = FY25 53.786 + 9M26 45.090 - 9M25 38.943 (USD millions). Book 451.121M at 2026-09-30. Offer 34.00 per share (news summary, not read directly); price is 0.5% above the offer."
+    },
+    "balance_sheet": {
+      "debt_musd": 146.7,
+      "equity_musd": 451.1,
+      "basis": "release 2026-09-30; reserves 1,432.4M, investments 1,622.9M"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Deal price and regulatory conditions not read from the merger 8-K or proxy",
+    "Why the stock trades above 34.00 unexplained",
+    "10-Q reserves, notes and debt terms unread",
+    "Peers not compared",
+    "Quote origins undocumented (publisher-level only)"
+  ]
+}

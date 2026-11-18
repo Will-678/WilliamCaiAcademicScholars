@@ -1,0 +1,197 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "INSP",
+  "exchange": "NYSE",
+  "cik": 1609550,
+  "currency": "USD",
+  "as_of": "2026-11-18T00:07:28-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "sector_model": "Medical device, single-product (hypoglossal nerve stimulation for sleep apnea): US reimbursement and CPT coding drive revenue; SBC is large relative to cash flow; adjusted metrics exclude SBC, so GAAP and after-SBC cash flow are the primary lens.",
+  "thesis": "Inspire Medical Systems (NYSE: INSP). Q3 2026 release (8-K 2026-11-02, Ex 99.1 read in full): revenue 206.7M, down 7.9% from 224.5M, attributed to lower US revenue from coding and reimbursement challenges; gross margin 86.0%; GAAP operating loss 28.7M; net loss 24.4M (EPS -0.84); adjusted EBITDA 37.9M (18.3%). 9M revenue 611.9M (-4.8%), net loss 35.4M. FY26 revenue guide narrowed to 850M to 860M (from 835M to 875M), adjusted EPS 1.20 to 1.40, GAAP EPS -0.36 to -0.10. Cash and investments 453.1M, no debt. AMA CPT panel approved a Category I code for single-lead HGNS effective 2028-01-01. TTM (FY25 + 9M26 - 9M25, XBRL): revenue 880.9M, net income 100.7M (FY25 was 145.4M; the TTM is positive only because of a strong H1 2025 comparison base effect, 9M26 is a loss), OCF 135.0M, capex 37.1M, FCF 97.9M, SBC 116.8M so FCF after SBC -19.0M. Shares 28,941,555 (release) x close 59.41 = market cap 1719M; TTM P/E 17.1x (not meaningful because earnings are falling), FCF yield 5.7% before SBC and negative after SBC; EV about 1266M = 1.44x TTM revenue. Close 59.41 is the lowest in the two month table seen (high close 76.78 on 2026-09-18); a price below a prior high is not evidence of cheapness.",
+  "counterthesis": "Revenue is shrinking after reimbursement and coding disruption, GAAP operating income has turned negative, and FCF is only positive before 117M of SBC, so owners are not yet earning a cash return. The market may be right that the competition or coding problem is structural; the new CPT code does not start until 2028. Adjusted EPS excludes SBC, which is about 13% of TTM revenue. The 10-Q MD&A, risk factors, competitor (e.g. Nyxoah, LivaNova) and GLP-1 demand effects, inventory and receivables were not read; the 13G/A flurry 11-09 to 11-16 was not read (could be holder sales).",
+  "invalidation": "Thesis of a recoverable franchise fails if US revenue keeps falling past FY26 guidance (below 850M), gross margin drops below 83%, cash burn after capex turns negative, or reimbursement problems persist beyond the 2028 CPT effective date.",
+  "sources": [
+    {
+      "id": "e",
+      "url": "https://www.sec.gov/Archives/edgar/data/1609550/000160955026000051/insp2026-q3pressreleaseex9.htm",
+      "document_id": "0001609550-26-000051",
+      "origin": "8-K 2026-11-02 Ex 99.1 Q3 2026 earnings release read (same underlying document as the 8-K)",
+      "kind": "earnings_release",
+      "read_status": "full",
+      "accessed_at": "2026-11-18T00:07:28-05:00"
+    },
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1609550/000160955026000053/insp-20260930.htm",
+      "document_id": "0001609550-26-000053",
+      "origin": "Q3 2026 10-Q filed 2026-11-02; main document located but only its XBRL facts (via companyfacts) were used; text not read",
+      "kind": "quarterly_filing",
+      "read_status": "snippet",
+      "accessed_at": "2026-11-18T00:07:28-05:00"
+    },
+    {
+      "id": "fy",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001609550.json",
+      "document_id": "SEC-companyfacts-CIK0001609550",
+      "origin": "SEC XBRL companyfacts via script: FY25 10-K (filed 2026-02-13), 9M25 and 9M26 periods",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T00:07:28-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001609550.json",
+      "document_id": "SEC-submissions-CIK0001609550",
+      "origin": "SEC submissions list: 10-Q and 8-K 2026-11-02, 13G/As 2026-10-30, 11-09, 11-12, 11-16 (unread)",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T00:07:28-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/insp/history/",
+      "document_id": "stockanalysis-INSP-2026-11-17",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-17 59.41 (origin undocumented; fetched after the 16:00 ET close)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T00:07:28-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/INSP/history/",
+      "document_id": "yahoo-finance-INSP-2026-11-17",
+      "origin": "Yahoo Finance via WebFetch; close 2026-11-17 59.41 (origin undocumented; fetched after the 16:00 ET close)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T00:07:28-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "e"
+      ],
+      "note": "Submissions list shows 10-Q and 8-K Ex 99.1 filed 2026-11-02 as the latest periodic documents; the release was read in full; the 10-Q text itself was not read."
+    },
+    "balance_sheet_verified": {
+      "passed": false,
+      "source_ids": [
+        "e",
+        "fy"
+      ],
+      "note": "Cash and investments 453.1M and no debt line from the release; total liabilities 126.1M from XBRL; balance sheet statement itself and lease obligations not read in the 10-Q."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "fy"
+      ],
+      "note": "OCF and PP&E capex from XBRL companyfacts, matching FY25 10-K and 9M periods, all USD; TTM arithmetic recorded in calculations; capitalized software not separately checked."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "e"
+      ],
+      "note": "28,941,555 common shares outstanding at 2026-09-30 per release; basic point-in-time count, fine for market cap."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "fy",
+        "e"
+      ],
+      "note": "TTM multiples, FCF yield and EV/revenue computed; peers and own history not compared; forward earnings are SBC-excluded and not comparable."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "e"
+      ],
+      "note": "Single-product device model: reimbursement, gross margin, SBC-adjusted cash flow used; revenue multiple only as context."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "e"
+      ],
+      "note": "Large SBC and adjusted metrics noted; auditor matters, revenue recognition and inventory notes unread."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "e",
+        "fy"
+      ],
+      "note": "Counterthesis written from the release and XBRL data; the thesis breakers are measurable."
+    }
+  },
+  "price": {
+    "value": 59.41,
+    "currency": "USD",
+    "as_of": "2026-11-17T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-17",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 59.41,
+        "currency": "USD",
+        "as_of": "2026-11-17T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 59.41,
+        "currency": "USD",
+        "as_of": "2026-11-17T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "valuation": {
+      "price": 59.41,
+      "shares_outstanding": 28941555,
+      "share_basis": "release, 2026-09-30 common shares",
+      "market_cap_usd": 1719417783,
+      "ttm_revenue_musd": 880.936,
+      "ttm_net_income_musd": 100.716,
+      "pe_ttm": 17.1,
+      "ttm_fcf_musd": 97.888,
+      "fcf_yield_pct": 5.69,
+      "basis": "TTM=FY25+9M26-9M25 USD millions: revenue 911.981+611.859-642.904; NI 145.422-35.374-9.332; OCF 116.976+82.503-64.507; capex (PP&E only) 38.499+26.428-27.843; SBC 130.259+88.832-102.247=116.844; FCF after SBC -19.0; EV 1266 = market cap less 453.1 cash and investments."
+    },
+    "cash_flow": {
+      "ocf_ttm_musd": 134.972,
+      "capex_ttm_musd": 37.084,
+      "basis": "USD millions, PP&E purchases only"
+    },
+    "balance_sheet": {
+      "cash_musd": 453.1,
+      "debt_musd": 0.0,
+      "total_liabilities_musd": 126.084,
+      "basis": "cash plus short and long term investments per release 2026-09-30; no debt line; liabilities from XBRL"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "10-Q MD&A, notes and risk factors unread",
+    "Peers and own multiple history not compared",
+    "Competition and reimbursement path beyond 2028 unverified",
+    "13G/A filings of 2026-11-09 to 11-16 unread",
+    "Cause of 11-16 drop (-3.2%) unconfirmed",
+    "Quote origins undocumented (publisher-level only)"
+  ]
+}
