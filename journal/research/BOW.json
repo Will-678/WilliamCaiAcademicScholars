@@ -5,7 +5,7 @@
   "exchange": "NYSE",
   "cik": 2002473,
   "currency": "USD",
-  "as_of": "2026-11-18T04:07:37-05:00",
+  "as_of": "2026-11-18T12:09:03-05:00",
   "status": "watch",
   "confidence": "medium",
   "scores": {
@@ -17,7 +17,7 @@
   },
   "score_total": null,
   "sector_model": "Insurance (specialty P&C): premiums, combined ratio, reserves, book value and investment income; OCF is not free cash flow. Pending cash acquisition, so the price is set by the deal terms, not by fundamentals.",
-  "thesis": "Bowhead Specialty Holdings (NYSE: BOW) is being acquired for cash by American Family Mutual Insurance Company, S.I. (merger agreement dated 2026-08-02, announced 08-03; about 1.2B). 8-K 2026-11-13 (read in full): stockholders approved the merger at the 11-13 special meeting, 80.60% of outstanding shares for (77.33% excluding parent and recused directors); closing remains subject to the agreement's other conditions (the deal press release lists required regulatory approvals and says a governmental entity may prohibit, delay or refuse approval; the 11-13 8-K does not list them). Deal price 34.00 per share in cash, about 11% over the 07-31 unaffected 30.59 close; the 34.00 cash price, the 11% premium to the 07-31 close, the target close before the end of 2026, the absence of any financing condition and the regulatory approval condition were read in the 8-K deal press release on 2026-11-18 (run 73); no termination fee or interim dividend is stated in that release. Close 11-17 is 34.17 (34.12 on 11-16, 34.13 on 11-13), 0.5% above 34.00, so the market is pricing near-certain completion and a possible small dividend or other value, which is unexplained here. Q3 2026 (release read): gross written premium 256.4M (+10.8%), net earned premium 150.2M (+17.0%), net income 12.9M, combined ratio 95.9%; 9M NI 45.1M, combined ratio 95.7%; BVPS 13.75, equity 451.1M, debt 146.7M, reserves 1,432.4M, investments 1,622.9M. TTM NI 59.9M; market cap about 1126M (32,945,158 shares at the 10-12 record date) = 18.8x TTM NI, 2.50x book. The upside is capped near the offer; this is a merger-arbitrage situation, not a fundamental value idea, and a fresh buyer earns about the spread (negative) unless a higher bid emerges.",
+  "thesis": "Bowhead Specialty Holdings (NYSE: BOW) is being acquired for cash by American Family Mutual Insurance Company, S.I. (merger agreement dated 2026-08-02, announced 08-03; about 1.2B). 8-K 2026-11-13 (read in full): stockholders approved the merger at the 11-13 special meeting, 80.60% of outstanding shares for (77.33% excluding parent and recused directors); closing remains subject to the agreement's other conditions (the deal press release lists required regulatory approvals and says a governmental entity may prohibit, delay or refuse approval; the 11-13 8-K does not list them). Deal price 34.00 per share in cash, about 11% over the 07-31 unaffected 30.59 close; the 34.00 cash price, the 11% premium to the 07-31 close, the target close before the end of 2026, the absence of any financing condition and the regulatory approval condition were read in the 8-K deal press release on 2026-11-18 (run 73); no termination fee or interim dividend is stated in that release. Close 11-17 is 34.17 (34.12 on 11-16, 34.13 on 11-13), 0.5% above 34.00, so the market is pricing near-certain completion and a possible small dividend or other value, which is unexplained here. Q3 2026 (release read): gross written premium 256.4M (+10.8%), net earned premium 150.2M (+17.0%), net income 12.9M, combined ratio 95.9%; 9M NI 45.1M, combined ratio 95.7%; BVPS 13.75, equity 451.1M, debt 146.7M, reserves 1,432.4M, investments 1,622.9M. TTM NI 59.9M; market cap about 1126M (32,945,158 shares at the 10-12 record date) = 18.8x TTM NI, 2.50x book. The upside is capped near the offer; this is a merger-arbitrage situation, not a fundamental value idea, and a fresh buyer earns about the spread (negative) unless a higher bid emerges. Run 75 update: DEFM14A summary term sheet read: 34.00 cash; outside date 2027-04-02 extendable to 2027-06-02 if only regulatory conditions remain; company termination fee 35M; no financing condition; HSR waiting period expired 2026-09-28; Texas non-objection 2026-09-15; Wisconsin hearing 2026-11-23 with no decision posted; about 1.04B funds needed; 27.2% holder GPC supports the deal; majority of minority vote already approved 11-13.",
   "counterthesis": "At 34.17 against a 34.00 cash offer there is no positive spread to capture and downside if the deal breaks (unaffected price 30.59, about 10% lower, or lower if regulators or reserves intervene). Going-private deals with an existing 14.3% holder carry conflict risk; eleven demand letters and two complaints seek to enjoin it. CFO Mulcahey announced departure in April 2027. Valuation at 2.5x book and 18.8x TTM NI reflects the buyer's premium, not an organic discount. Reserve adequacy for casualty lines (reserves 1,432M against equity 451M) was not examined.",
   "invalidation": "The watch view changes if regulators block or delay the deal beyond year-end, if an injunction is granted, if a competing bid appears (upside), or if reserve charges alter the buyer's willingness to close.",
   "sources": [
@@ -94,6 +94,24 @@
       "read_status": "relevant_sections",
       "accessed_at": "2026-11-18T04:07:37-05:00",
       "origin_verified": false
+    },
+    {
+      "id": "dm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2002473/000114036126039513/ny20080231x9_defm14a.htm",
+      "document_id": "0001140361-26-039513",
+      "origin": "DEFM14A filed 2026-10-14, first 100,000 of about 362,000 characters read via WebFetch (summary term sheet)",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T12:09:03-05:00"
+    },
+    {
+      "id": "wi",
+      "url": "https://oci.wi.gov/Pages/Companies/AcqBowhead.aspx",
+      "document_id": "WI-OCI-Bowhead-acquisition-page",
+      "origin": "Wisconsin OCI page last updated 2026-10-28: public hearing 2026-11-23, no decision posted",
+      "kind": "secondary",
+      "read_status": "full",
+      "accessed_at": "2026-11-18T12:09:03-05:00"
     }
   ],
   "checks": {
@@ -201,10 +219,10 @@
     }
   },
   "unresolved_critical_gaps": [
-    "Merger agreement or proxy not read: outside date, termination fee, specific regulatory approvals and status",
-    "Why the stock trades 0.5% above 34.00 unexplained (no dividend mentioned in the release)",
-    "10-Q reserves, notes and debt terms unread",
+    "Wisconsin OCI approval pending (hearing 2026-11-23, no decision posted); reverse termination fee and interim dividend terms not read (truncated)",
+    "Why close 34.17 exceeds 34.00 cash offer unexplained",
     "Peers not compared",
-    "Quote origins undocumented (publisher-level only)"
+    "Quote origins undocumented (publisher level only)",
+    "10-Q reserves, notes and debt terms unread"
   ]
 }

@@ -1,0 +1,189 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "PODD",
+  "exchange": "Nasdaq",
+  "cik": 1145197,
+  "currency": "USD",
+  "as_of": "2026-11-18T12:08:54-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "sector_model": "Medical device growth (insulin pump consumables): value on TTM earnings and FCF after SBC and heavy capex, net debt, growth durability, reimbursement and competition; one time device correction charges and a lower tax rate flatter or distort earnings.",
+  "thesis": "Insulet (Nasdaq: PODD) came out of the annual screen as a growth and quality lead. Q3 2026 10-Q (balance sheet, income statement, revenue discussion read; MD&A truncated after R&D and SG&A): Q3 revenue 842.0M (US Omnipod 570.4M +14.7%, international 266.2M +31.7%, Drug Delivery 5.5M), 9M revenue 2,405.4M (+25.0% vs 1,924.3M), gross profit 9M 1,723.8M (71.7%), operating income Q3 189.8M, 9M net income 327.1M (vs 145.5M), diluted EPS Q3 2.03. Effective tax rate fell to 20.0% for 9M from 27.0%, which adds roughly 29M to 9M net income versus the old rate (my estimate). 9M includes a 38.5M net cost for a voluntary cannula correction (about 50M total expected) and a 7.0M warranty reserve release in Q3. Balance sheet 2026-09-30: cash 584.4M; debt 962.2M (Term Loan B 473.8M, notes 450.0M, plant and equipment financing about 50M), net debt 377.8M; liabilities 1,836.0M; equity 1,579.1M. TTM (FY2025 10-K plus 9M26 less 9M25): revenue 3,189.2M, net income 428.7M, OCF 509.0M, capex 249.0M, FCF 260.0M, SBC 81.8M, FCF after SBC 178.2M. Price: close 145.34 on 2026-11-17 x 69,371,043 shares (10-Q cover, 2026-10-27) = 10.08B market cap = 23.5x TTM net income, FCF yield 2.6% (1.8% after SBC), EV about 10.46B. Stock fell from 152.48 (11-13) to 145.34 (11-17), cause not identified. 9M buybacks 300M and a new 1B authorization in October. Growth of 25% at about 24x earnings is not demanding on its face, but FCF is small because of capex and the multiple leans on a reduced tax rate; a quality and growth lead, not a demonstrated mispricing.",
+  "counterthesis": "Earnings are helped by a tax rate down 7 points and a warranty release; at the old rate TTM earnings would be lower, so the multiple is higher than 23x. FCF yield 2.6% (1.8% after SBC) is low because capex is large (249M TTM, 113.9M in 9M26 versus 56.5M a year earlier). Debt 962M plus a 1B buyback authorization raises leverage if funded with debt. A cannula tear correction signals product quality risk; a securities class action (Hu v. Insulet, filed 2026-07-02) and the tariff exemption for medical devices are open risks. Competition in automated insulin delivery, GLP-1 effects on diabetes demand, and reimbursement were not reviewed (MD&A truncated). US growth slowed to 14.7% versus 31.7% international.",
+  "invalidation": "Invalidated if US Omnipod growth falls below about 10% with margin pressure, if corrections or recalls recur, if the tax rate reverts toward 27% with flat pretax income, if capex stays above 8% of revenue without FCF growth, or if debt rises to fund buybacks while FCF after SBC stays under 2% of market cap.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000192/podd-20260930.htm",
+      "document_id": "0001145197-26-000192",
+      "origin": "10-Q for quarter ended 2026-09-30 filed 2026-11-04, read via WebFetch: balance sheet, income statement, revenue and tax discussion; MD&A truncated after R&D and SG&A; no guidance or competition text retrieved",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T12:08:54-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001145197.json",
+      "document_id": "SEC-companyfacts-CIK0001145197",
+      "origin": "SEC XBRL company facts JSON, downloaded and parsed: revenue, net income, OCF, capex, SBC, buybacks, shares (10-K filed 2026-02-18 and 10-Qs)",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T12:08:54-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001145197.json",
+      "document_id": "SEC-submissions-CIK0001145197",
+      "origin": "SEC submissions list: latest 10-Q 2026-11-04, 8-K 2026-11-04 (items 2.02, 7.01, 9.01, release not read), no Forms 4 or 144 since 11-10",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T12:08:54-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/podd/history/",
+      "document_id": "stockanalysis-PODD-2026-11-17",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-17 145.34 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T12:08:54-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/PODD/history/",
+      "document_id": "yahoo-finance-PODD-2026-11-17",
+      "origin": "Yahoo Finance via WebFetch; close 2026-11-17 145.34 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T12:08:54-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q"
+      ],
+      "note": "Submissions list: 10-Q and 8-K both 2026-11-04; 10-Q read in part; the 8-K earnings release was not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Cash 584.4M, debt net 962.2M (current 19.1M, long-term 943.0M), liabilities 1,836.0M, equity 1,579.1M, USD millions, 2026-09-30; no convertible notes outstanding."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "x"
+      ],
+      "note": "TTM OCF 509.0M = 569.3 - 386.0 + 325.7; capex 249.0M = 191.6 - 56.5 + 113.9; SBC 81.8M = 62.7 - 42.4 + 61.5; USD from XBRL facts, matching periods; cash flow statement text not read."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "x",
+        "q"
+      ],
+      "note": "69,371,043 shares at 2026-10-27 (dei cover facts of the 10-Q); point in time, not weighted."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x",
+        "qa",
+        "qb"
+      ],
+      "note": "Multiples computed; peers (Tandem, DexCom, Medtronic diabetes), history and tax normalized earnings not compared."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Growth medtech model with capex, SBC and tax rate adjustments; generic score not used."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Tax rate drop, correction charges, warranty release and capex jump noted; MD&A, risk factors and audit matters unread."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "Covers tax rate, capex, leverage, buyback, product correction, litigation, tariffs."
+    }
+  },
+  "price": {
+    "value": 145.34,
+    "currency": "USD",
+    "as_of": "2026-11-17T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-17",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 145.34,
+        "currency": "USD",
+        "as_of": "2026-11-17T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 145.34,
+        "currency": "USD",
+        "as_of": "2026-11-17T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "valuation": {
+      "price": 145.34,
+      "shares_outstanding": 69371043,
+      "share_basis": "10-Q cover, 2026-10-27",
+      "market_cap_usd": 10082387390,
+      "pe_ttm": 23.5,
+      "fcf_yield_ttm": 0.0258,
+      "fcf_yield_after_sbc_ttm": 0.0177,
+      "basis": "TTM net income 428.7M = 247.1 - 145.5 + 327.1; TTM FCF 260.0M = OCF 509.0M less capex 249.0M; SBC 81.8M; net debt 377.8M; USD millions"
+    },
+    "cash_flow": {
+      "ocf_9m_musd": 325.7,
+      "capex_9m_musd": 113.9,
+      "basis": "USD millions, nine months to 2026-09-30"
+    },
+    "balance_sheet": {
+      "cash_musd": 584.4,
+      "marketable_securities_musd": 0.0,
+      "debt_musd": 962.2,
+      "total_liabilities_musd": 1836.0,
+      "equity_musd": 1579.1,
+      "basis": "10-Q 2026-09-30"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "MD&A, guidance, competition and reimbursement text unread",
+    "Peers and tax normalized earnings not compared",
+    "Cause of fall from 152.48 to 145.34 unknown; 2026-11-04 earnings release unread",
+    "Cash flow statement text unread",
+    "Quote origins undocumented (publisher level only)"
+  ]
+}

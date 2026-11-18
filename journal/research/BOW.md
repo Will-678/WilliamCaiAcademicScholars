@@ -31,3 +31,6 @@ The watch view changes if regulators block or delay the deal beyond year-end, if
 - sub: https://data.sec.gov/submissions/CIK0002002473.json (secondary, relevant_sections)
 - qa: https://stockanalysis.com/stocks/bow/history/ (quote, relevant_sections)
 - qb: https://finance.yahoo.com/quote/BOW/history/ (quote, relevant_sections)
+
+## Run 75 update (2026-11-18T12:09:03-05:00)
+DEFM14A summary read: 34.00 cash; outside date 2027-04-02 (extendable to 2027-06-02); company termination fee 35M; no financing condition; HSR expired 2026-09-28; Texas non-objection 2026-09-15; Wisconsin public hearing 2026-11-23, no decision posted as of the page's 2026-10-28 update (https://oci.wi.gov/Pages/Companies/AcqBowhead.aspx). Still unexplained: why shares closed at 34.17 above 34.00. Rating unchanged: watch.
