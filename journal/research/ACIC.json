@@ -1,0 +1,185 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "ACIC",
+  "exchange": "Nasdaq",
+  "cik": 1401521,
+  "currency": "USD",
+  "as_of": "2026-11-18T04:07:37-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "sector_model": "Florida property insurer (homeowners, reciprocal exchange affiliate, quota share and catastrophe reinsurance): earnings, book value, combined ratio, reserves and hurricane exposure; OCF is not free cash flow and peak cycle ratios need normalization.",
+  "thesis": "American Coastal Insurance Corp (Nasdaq: ACIC) screened strongly on FY2025 (revenue 335.4M, net income 106.8M). Q3 2026 10-Q (extracted through a summarizing fetch, not read line by line): 9M26 net income 60.5M (9M25 80.3M), Q3 19.4M (32.5M); revenue 9M26 224.5M (249.1M); net premiums earned 9M 200.8M (227.5M, -11.8%); gross premiums written 9M 439.8M (498.0M, -11.7%); diluted EPS 9M 1.23. Equity 355.7M (317.6M at year end), total assets 1,117.6M, liabilities 761.9M, notes payable 149.6M, unpaid losses and LAE 95.2M (165.7M at year end; the fall is unexplained here), goodwill 59.5M, AFS fixed maturities carried 14.4M below cost, retained deficit 54.0M. TTM net income 87.1M (FY25 106.837 + 9M26 60.547 - 9M25 80.273). Close 10.01 on 2026-11-17 x 47,289,189 shares (11-02 cover) = 473.4M = 5.4x TTM net income and 1.33x book; TTM operating cash flow 69.6M (71.025 + 117.319 - 118.777; insurance float, not FCF). The company repurchased about 1.8M shares at about 19.4M in 2026 and shows no dividend. Computed combined ratio 68.5% for 9M26 (my calculation from net premiums earned, 60.6% a year earlier) is unusually low because of heavy ceded reinsurance and fee income and is not a reported ratio; expense ratio rose to 50.0% from 44.7%. Low multiple reflects peak or near peak earnings that are falling (9M NI -24.6%), a shrinking premium base and Florida catastrophe exposure; it is not shown to be mispriced.",
+  "counterthesis": "Earnings are declining and premiums are shrinking about 12% a year; 5.4x earnings is the market pricing a normal hurricane year or reserve or reinsurance cost normalization, not an anomaly. A single Florida hurricane could erase several years of earnings; the 2026-27 reinsurance program, retention and prior-year reserve development were not read. Debt of 149.6M against equity 355.7M, a retained deficit, and 59.5M goodwill reduce tangible equity (about 296M, so about 1.6x tangible book). The reserve drop from 165.7M to 95.2M needs explanation (run-off, commutation or sale). Peers (HCI, HRTG, UVE, KINS) not compared; UVE is already a watch at 5.8x and similar peak-cycle logic.",
+  "invalidation": "The low multiple view fails if a major Florida hurricane or adverse reserve development hits, if reinsurance renewal costs jump, if premiums keep falling faster than expenses, or if quarterly earnings keep dropping so TTM NI falls below about 60M.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1401521/000140152126000045/acic-20260930.htm",
+      "document_id": "0001401521-26-000045",
+      "origin": "10-Q for the quarter ended 2026-09-30, filed 2026-11-05, balance sheet, income statement and equity statements extracted via WebFetch; truncated, notes on reinsurance, reserves, debt maturity and cash flow not retrieved",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T04:07:37-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001401521.json",
+      "document_id": "SEC-submissions-CIK0001401521",
+      "origin": "SEC submissions list: 10-Q 2026-11-05, 8-K 2026-10-29 and 2026-10-02 (unread), Forms 4 and 144 in September",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T04:07:37-05:00"
+    },
+    {
+      "id": "fy",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001401521.json",
+      "document_id": "SEC-companyfacts-CIK0001401521",
+      "origin": "SEC XBRL companyfacts via script: NetIncomeLoss FY25 106.837M, 9M25 80.273M, 9M26 60.547M; Revenues FY25 335.439M; OCF FY25 71.025M, 9M25 118.777M, 9M26 117.319M",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T04:07:37-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/acic/history/",
+      "document_id": "stockanalysis-ACIC-2026-11-17",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-17 10.01 (origin undocumented; fetched after the close)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T04:07:37-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/ACIC/history/",
+      "document_id": "yahoo-finance-ACIC-2026-11-17",
+      "origin": "Yahoo Finance via WebFetch; close 2026-11-17 10.01 (origin undocumented; fetched after the close)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T04:07:37-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q"
+      ],
+      "note": "Submissions list shows the 10-Q of 2026-11-05 as latest periodic filing; 8-Ks of 10-29 and 10-02 unread."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Equity 355.679M, assets 1,117.605M, liabilities 761.926M, notes payable 149.603M at 2026-09-30 from the 10-Q statements as extracted; debt maturity not retrieved."
+    },
+    "cashflow_basis_verified": {
+      "passed": false,
+      "source_ids": [
+        "fy"
+      ],
+      "note": "OCF totals from XBRL (TTM 69.567M) are insurance float and not FCF; the cash flow statement itself and capex not read."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "47,289,189 shares at 2026-11-02 from the 10-Q cover (point in time)."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "fy",
+        "qa",
+        "qb"
+      ],
+      "note": "P/E 5.4x and 1.33x book computed; peers, reserve development, reinsurance cost and normalized catastrophe load not examined."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Insurer model with book value and earnings; combined ratio flagged as my calculation."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Reserve fall, goodwill, unrealized losses noted; audit matters, reserve development and related party reciprocal exchange arrangements unread."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "fy"
+      ],
+      "note": "Counterthesis covers hurricane tail, falling premiums, leverage, tangible book and reserves."
+    }
+  },
+  "price": {
+    "value": 10.01,
+    "currency": "USD",
+    "as_of": "2026-11-17T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-17",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 10.01,
+        "currency": "USD",
+        "as_of": "2026-11-17T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 10.01,
+        "currency": "USD",
+        "as_of": "2026-11-17T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "valuation": {
+      "price": 10.01,
+      "shares_outstanding": 47289189,
+      "share_basis": "10-Q cover, 2026-11-02",
+      "market_cap_usd": 473364782,
+      "ttm_net_income_musd": 87.111,
+      "pe_ttm": 5.43,
+      "price_to_book": 1.33,
+      "basis": "TTM NI = FY25 106.837 + 9M26 60.547 - 9M25 80.273 (USD millions). Book 355.679M at 2026-09-30. Tangible book about 296.2M (equity less goodwill 59.476M)."
+    },
+    "cash_flow": {
+      "ocf_ttm_musd": 69.567,
+      "basis": "USD millions: FY25 71.025 + 9M26 117.319 - 9M25 118.777; insurance operating cash flow, not free cash flow; capex not retrieved"
+    },
+    "balance_sheet": {
+      "debt_musd": 149.603,
+      "equity_musd": 355.679,
+      "total_liabilities_musd": 761.926,
+      "basis": "10-Q 2026-09-30"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "10-Q notes: reserve development, reinsurance program and retention, debt maturity unread",
+    "Reserve fall 165.7M to 95.2M unexplained",
+    "Peers (HCI, HRTG, UVE, KINS) not compared",
+    "8-Ks of 2026-10-29 and 10-02 unread",
+    "Quote origins undocumented (publisher-level only)"
+  ]
+}
