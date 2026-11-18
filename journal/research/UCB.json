@@ -1,0 +1,191 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "currency": "USD",
+ "as_of": "2026-11-18T16:08:21-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "ticker": "UCB",
+ "exchange": "NYSE",
+ "cik": 857855,
+ "sector_model": "Regional bank (mid): value on price to tangible book, operating earnings and ROTCE, credit quality, capital and funding; GAAP earnings distorted by one-time balance sheet repositioning; no FCF.",
+ "thesis": "United Community Banks (NYSE: UCB). Q3 2026 earnings release (8-K Ex 99.1 filed 2026-10-20) read in full for the figures cited; the 10-Q filed 2026-11-04 returned only XBRL header text, so its narrative is unread. Q3 GAAP net loss 139.7M (EPS -1.16) from a 366.1M pre-tax securities repositioning loss (2.5B amortized cost of long-dated securities sold for 2.1B; proceeds and 2.0B Navitas sale cash redeployed into higher-yielding securities and used to repay borrowings), partly offset by a 62.2M gain on the Navitas Credit sale (closed 2026-09-01 at a 7% premium to par, about 1.8 to 1.9B of equipment finance loans left the books), 6.5M merger charges and a 76.9M tax effect. Operating net income 93.7M (EPS 0.77; Q3 2025 94.2M, 0.75), ROTCE operating 13.9%, NIM 3.68%, efficiency 53.1%; 9M operating net income 264.8M, GAAP 60.2M. Peach State Bancshares closed 2026-08-01 (520M loans, 678M deposits). Balance sheet: assets 28.88B, loans 18.99B, deposits 24.89B, equity 3.51B, BVPS 29.27, TBVPS 20.80; NPAs 81.3M (0.28% of assets), annualized net charge-offs 0.09%, ACL 1.05%, CET1 13.0% preliminary; debt fell to 39.7M long-term and no short-term borrowings. Price: close 36.56 on 2026-11-18 x 119,827,028 shares = 4,381M = 1.25x book, 1.76x tangible book, dividend yield 2.8% (1.02 annualized), about 12.4x 9M operating earnings scaled by 4/3 (approximation, not TTM). Buyback 50M in Q3 at 35.81 average, new 100M authorization. The market is pricing a healthy southeastern bank at a modest premium to tangible book; the repositioning should lift future net interest income but the earnings benefit is management's expectation, not shown in reported results.",
+ "counterthesis": "The headline GAAP loss is from a deliberate 366M securities loss; tangible book was reduced and the payback depends on rates and reinvestment yield that are not quantified in the release. Operating earnings exclude that loss, merger charges and the Navitas gain, which management chooses. Selling Navitas removes a high-yield equipment finance business with its earnings. Credit looks clean now (NPAs 0.28%) but the cycle is untested and the 10-Q credit and CRE concentration text is unread. Pro forma earnings, deposit beta and the Peach State deal terms were not read.",
+ "invalidation": "Invalidated if operating ROTCE falls below about 11%, NIM does not rise after the repositioning, NPAs exceed about 0.8% of assets, CET1 falls below 11%, or deposit costs rise faster than asset yields.",
+ "sources": [
+  {
+   "id": "er",
+   "url": "https://www.sec.gov/Archives/edgar/data/857855/000110465926117113/tm2627820d1_ex99-1.htm",
+   "document_id": "0001104659-26-117113",
+   "origin": "Issuer Q3 2026 earnings release (8-K Ex 99.1 filed 2026-10-20), read via WebFetch in two targeted passes",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-18T16:08:21-05:00"
+  },
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/857855/000085785526000092/ucbi-20260930.htm",
+   "document_id": "0000857855-26-000092",
+   "origin": "10-Q for quarter ended 2026-09-30 filed 2026-11-04; fetch returned only the first 100,000 characters of XBRL header; narrative not read",
+   "kind": "quarterly_filing",
+   "read_status": "snippet",
+   "accessed_at": "2026-11-18T16:08:21-05:00"
+  },
+  {
+   "id": "x",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000857855.json",
+   "document_id": "SEC-companyfacts-CIK0000857855",
+   "origin": "SEC XBRL company facts JSON, downloaded and parsed: net income, dividends, equity, assets, deposits, goodwill",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-18T16:08:21-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0000857855.json",
+   "document_id": "SEC-submissions-CIK0000857855",
+   "origin": "SEC submissions list: 10-Q 2026-11-04; 8-K 2026-10-20 (2.02, 7.01, 9.01); 8-Ks 2026-09-08 (7.01) and 2026-09-01 (8.01) unread",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-18T16:08:21-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/ucb/history/",
+   "document_id": "stockanalysis-UCB-2026-11-18",
+   "origin": "stockanalysis.com via WebFetch; close 2026-11-18 36.56 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-18T16:08:21-05:00",
+   "origin_verified": false
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/UCB/history/",
+   "document_id": "yahoo-finance-UCB-2026-11-18",
+   "origin": "Yahoo Finance via WebFetch; close 2026-11-18 36.56 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-18T16:08:21-05:00",
+   "origin_verified": false
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "er"
+   ],
+   "note": "Submissions list shows 10-Q 2026-11-04 and earnings 8-K 2026-10-20; the release was read, the 10-Q narrative was not."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "er",
+    "x"
+   ],
+   "note": "Assets 28,882.0M, deposits 24,887.9M, equity 3,507.3M at 2026-09-30 (USD), release and XBRL agree."
+  },
+  "cashflow_basis_verified": {
+   "passed": false,
+   "source_ids": [
+    "x"
+   ],
+   "note": "Not applicable to bank valuation; earnings basis used instead (GAAP TTM 146.6M and 9M operating 264.8M); cash flow statement unread."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "er"
+   ],
+   "note": "119,827,028 shares at 2026-09-30 from the release; point in time; 10-Q cover share count not read."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "er",
+    "x",
+    "qa"
+   ],
+   "note": "P/B, P/TBV, yield and approximate operating multiple computed; peers (Synovus, Pinnacle, Ameris, Cadence), history and TTM operating earnings not compared."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "er"
+   ],
+   "note": "Bank model on tangible book, operating earnings, credit and capital."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "er"
+   ],
+   "note": "Held-to-maturity reclassification, 366M loss and operating adjustments noted; 10-Q notes, CRE mix and fair value disclosures unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "er",
+    "x"
+   ],
+   "note": "Covers repositioning loss, adjusted earnings, Navitas loss of earnings, untested credit."
+  }
+ },
+ "price": {
+  "value": 36.56,
+  "currency": "USD",
+  "as_of": "2026-11-18T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-18",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 36.56,
+    "currency": "USD",
+    "as_of": "2026-11-18T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 36.56,
+    "currency": "USD",
+    "as_of": "2026-11-18T16:00:00-05:00"
+   }
+  ]
+ },
+ "calculations": {
+  "valuation": {
+   "price": 36.56,
+   "shares_outstanding": 119827028,
+   "share_basis": "Q3 2026 release, shares outstanding 2026-09-30",
+   "market_cap_usd": 4380876144,
+   "pe_ttm": null,
+   "pb": 1.25,
+   "ptbv": 1.76,
+   "dividend_yield": 0.0279,
+   "basis": "Bank model, USD millions: GAAP TTM net income 146.6 = FY25 328.1 + 9M26 60.2 - 9M25 241.6 (depressed by 366.1M pre-tax securities repositioning loss, partly offset by 62.2M Navitas gain); 9M26 operating net income 264.8M, simple 4/3 scaling to about 353M is an approximation, giving about 12.4x (not a TTM figure); equity 3,507.3M, BVPS 29.27, TBVPS 20.80; dividend 0.26 per quarter"
+  },
+  "balance_sheet": {
+   "total_assets_musd": 28882.0,
+   "loans_musd": 18988.0,
+   "deposits_musd": 24888.0,
+   "equity_musd": 3507.3,
+   "basis": "Q3 2026 release and 10-Q XBRL, 2026-09-30"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "10-Q narrative unread (credit, CRE concentration, securities, capital detail)",
+  "Peers and own history not compared; TTM operating earnings unavailable",
+  "Earnings power after repositioning and Navitas sale not quantified",
+  "Quote origins undocumented (publisher level only)"
+ ]
+}

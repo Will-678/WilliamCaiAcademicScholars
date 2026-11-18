@@ -1,199 +1,208 @@
 {
-  "schema_version": 2,
-  "method_version": "2.0",
-  "ticker": "YELP",
-  "exchange": "NYSE",
-  "cik": 1345016,
+ "schema_version": 2,
+ "method_version": "2.0",
+ "ticker": "YELP",
+ "exchange": "NYSE",
+ "cik": 1345016,
+ "currency": "USD",
+ "as_of": "2026-11-18T16:08:21-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "sector_model": "Advertising-funded consumer internet (small cap): CPC auction revenue, paying advertiser locations, SBC-heavy cash flow, buybacks; generic FCF model with SBC deducted.",
+ "thesis": "Yelp (NYSE: YELP), Q3 2026 10-Q filed 2026-11-06 (statements, MD&A overview/outlook excerpts, liabilities, legal read; 10-K not read). Net revenue Q3 370.9M vs 376.0M (-1.4%), 9M 1,107.9M vs 1,105.0M (+0.3%); paying locations 509K vs 512K (-1%), Services -4%. TTM (FY25 + 9M26 - 9M25): revenue 1,467.9M, NI 121.7M, OCF 318.1M, capex 55.0M, FCF 263.0M; SBC TTM 108.2M leaves 154.8M. Shares 54,492,897 (cover 2026-10-30) x 20.14 (2026-11-17 close) = market cap 1,097.5M = 9.0x TTM NI, FCF yield 24.0% (14.1% after SBC). Revolver 75.0M, cash 119.8M (net cash about 44.8M), EV about 1,052.7M = 0.72x TTM revenue. The price implies advertising revenue keeps shrinking and FCF falls well below the TTM level; evidence for a different view: 9M FCF is still 190.8M and 200.1M of stock was repurchased in 9M, retiring about 9% of shares (59.99M to 54.47M issued since 2025-12-31). Run 76 update: shareholder letter read. Q4 guide revenue 347M to 352M, FY26 revenue 1,455M to 1,460M (vs 1,465M in 2025), adjusted EBITDA 320M to 325M (vs 369M in 2025); Q3 services revenue -2%, restaurants/retail/other -13%, ad clicks -8%; Hatch acquisition net cash paid 263.6M year to date (about 37M run-rate revenue, +55%); buyback paused after about 200M year to date to repay the revolver (75M outstanding), 339M authorization remains; about 30M Q4 tax benefit will lift GAAP net income, so TTM earnings multiple should not be relied on. YTD FCF 190.8M vs 251.4M.",
+ "counterthesis": "Management says adverse advertising conditions persist with a modest Q4 revenue decline and rising Q4 expenses (Hatch, Yelp Host); other revenue (AI products) targets a 250M run rate only by end 2028. 9M FCF fell to 190.8M from 251.4M (-24%) and adjusted EBITDA to 263.1M from 283.5M. Heavy buybacks were partly funded by 75M net revolver borrowing (165M drawn, 90M repaid in 9M) and the cash pile dropped from 216.1M plus 103.3M securities at year-end to 119.8M, so the cheap multiple may reflect a shrinking core and AI search disintermediation. SBC is 7% of revenue. 9M investing outflow 199.0M (acquisitions incl. RepairPal-related items, not itemised here) suggests purchased growth. Cause of the share price level and recent move unconfirmed. Letter confirms falling ad clicks, a 13% drop in restaurant advertising, lower full-year EBITDA than 2025, borrowing used for an acquisition and buybacks, and a Q4 tax benefit that inflates net income.",
+ "invalidation": "Thesis of a mispriced cash generator fails if net revenue declines more than about 5% year on year, paying locations fall further, FCF after SBC drops below about 100M, or leverage-funded buybacks continue while core advertising shrinks.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/1345016/000134501626000075/yelp-20260930.htm",
+   "document_id": "0001345016-26-000075",
+   "origin": "Q3 2026 10-Q fetched by script and text parsed; statements, liquidity, MD&A overview and outlook excerpts, legal proceedings read; most MD&A narrative, notes on acquisitions and risk factors not read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-17T16:07:00-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001345016.json",
+   "document_id": "SEC-companyfacts-CIK0001345016",
+   "origin": "SEC XBRL companyfacts by script: FY2025 10-K 0001345016-26-000019 and 9M25/9M26 periods",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-17T16:07:00-05:00"
+  },
+  {
+   "id": "er",
+   "url": "https://www.sec.gov/Archives/edgar/data/1345016/000134501626000072/yelp-20261105.htm",
+   "document_id": "0001345016-26-000072",
+   "origin": "8-K filed 2026-11-05 Item 2.02 cover only; Ex 99.1 release and Ex 99.2 shareholder letter not opened",
+   "kind": "earnings_release",
+   "read_status": "snippet",
+   "accessed_at": "2026-11-17T16:07:00-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001345016.json",
+   "document_id": "SEC-submissions-CIK0001345016",
+   "origin": "SEC submissions list: 10-Q 2026-11-06, 8-K 2026-11-05, Forms 4, 144, 13G/A through 2026-11-04",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-17T16:07:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/yelp/history/",
+   "document_id": "stockanalysis-YELP-2026-11-17",
+   "origin": "stockanalysis.com via WebFetch; close 2026-11-17 (origin undocumented; fetched after the 16:00 ET close)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-17T16:07:00-05:00",
+   "origin_verified": false
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/YELP/history/",
+   "document_id": "yahoo-finance-YELP-2026-11-17",
+   "origin": "Yahoo Finance via WebFetch; close 2026-11-17 (origin undocumented; fetched after the 16:00 ET close)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-17T16:07:00-05:00",
+   "origin_verified": false
+  },
+  {
+   "id": "ltr",
+   "url": "https://www.sec.gov/Archives/edgar/data/1345016/000134501626000072/yelpq32026ex992lettertos.htm",
+   "document_id": "0001345016-26-000072",
+   "origin": "Issuer Q3 2026 shareholder letter (8-K Ex 99.2 filed 2026-11-05), read via WebFetch; same underlying issuer release set as the Ex 99.1",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-18T16:08:21-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "sub"
+   ],
+   "note": "10-Q filed 2026-11-06 is the latest periodic filing; 8-K 2026-11-05 (earnings) is newer than nothing else; no later 10-Q/8-K in submissions list."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "2026-09-30: cash 119.840M, revolving credit facility 75.000M, total liabilities 330.813M, total assets 1,002.738M, equity 671.925M; no marketable securities (0 vs 103.290M at 2025-12-31)."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "fy",
+    "q"
+   ],
+   "note": "OCF FY25 372.029M, 9M26 233.589M, 9M25 287.547M; capex PP&E and software 48.353M, 42.820M, 36.136M; TTM matched; USD millions; 10-Q free cash flow 190.769M vs 251.411M agrees."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "fy"
+   ],
+   "note": "54,492,897 shares at 2026-10-30 (dei cover) versus 54.472M issued at 2026-09-30; basic count, SBC dilution not added."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "qa",
+    "qb",
+    "fy",
+    "q"
+   ],
+   "note": "TTM P/E, FCF yield, EV/revenue computed; peers (e.g. Angi, Thryv, Ziprecruiter class) and own multiple history not compared; forward guidance exhibit unread."
+  },
+  "sector_model_appropriate": {
+   "passed": false,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Ad platform model needs ad-location cohorts, traffic mix, other revenue growth and take-up of AI products; only headline paying-location and revenue lines read."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Revolver-funded buybacks, falling cash and 199M investing outflow noted; acquisition notes, audit matters and 10-K not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Covers shrinking revenue, FCF decline, leverage-funded buybacks, SBC, acquisition spending and AI search risk."
+  }
+ },
+ "price": {
+  "value": 20.14,
   "currency": "USD",
-  "as_of": "2026-11-17T16:07:00-05:00",
-  "status": "watch",
-  "confidence": "medium",
-  "scores": {
-    "business_quality": null,
-    "cash_generation_growth": null,
-    "financial_resilience": null,
-    "valuation": null,
-    "catalysts_evidence": null
-  },
-  "score_total": null,
-  "sector_model": "Advertising-funded consumer internet (small cap): CPC auction revenue, paying advertiser locations, SBC-heavy cash flow, buybacks; generic FCF model with SBC deducted.",
-  "thesis": "Yelp (NYSE: YELP), Q3 2026 10-Q filed 2026-11-06 (statements, MD&A overview/outlook excerpts, liabilities, legal read; 10-K not read). Net revenue Q3 370.9M vs 376.0M (-1.4%), 9M 1,107.9M vs 1,105.0M (+0.3%); paying locations 509K vs 512K (-1%), Services -4%. TTM (FY25 + 9M26 - 9M25): revenue 1,467.9M, NI 121.7M, OCF 318.1M, capex 55.0M, FCF 263.0M; SBC TTM 108.2M leaves 154.8M. Shares 54,492,897 (cover 2026-10-30) x 20.14 (2026-11-17 close) = market cap 1,097.5M = 9.0x TTM NI, FCF yield 24.0% (14.1% after SBC). Revolver 75.0M, cash 119.8M (net cash about 44.8M), EV about 1,052.7M = 0.72x TTM revenue. The price implies advertising revenue keeps shrinking and FCF falls well below the TTM level; evidence for a different view: 9M FCF is still 190.8M and 200.1M of stock was repurchased in 9M, retiring about 9% of shares (59.99M to 54.47M issued since 2025-12-31).",
-  "counterthesis": "Management says adverse advertising conditions persist with a modest Q4 revenue decline and rising Q4 expenses (Hatch, Yelp Host); other revenue (AI products) targets a 250M run rate only by end 2028. 9M FCF fell to 190.8M from 251.4M (-24%) and adjusted EBITDA to 263.1M from 283.5M. Heavy buybacks were partly funded by 75M net revolver borrowing (165M drawn, 90M repaid in 9M) and the cash pile dropped from 216.1M plus 103.3M securities at year-end to 119.8M, so the cheap multiple may reflect a shrinking core and AI search disintermediation. SBC is 7% of revenue. 9M investing outflow 199.0M (acquisitions incl. RepairPal-related items, not itemised here) suggests purchased growth. Cause of the share price level and recent move unconfirmed.",
-  "invalidation": "Thesis of a mispriced cash generator fails if net revenue declines more than about 5% year on year, paying locations fall further, FCF after SBC drops below about 100M, or leverage-funded buybacks continue while core advertising shrinks.",
+  "as_of": "2026-11-17T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-17",
   "sources": [
-    {
-      "id": "q",
-      "url": "https://www.sec.gov/Archives/edgar/data/1345016/000134501626000075/yelp-20260930.htm",
-      "document_id": "0001345016-26-000075",
-      "origin": "Q3 2026 10-Q fetched by script and text parsed; statements, liquidity, MD&A overview and outlook excerpts, legal proceedings read; most MD&A narrative, notes on acquisitions and risk factors not read",
-      "kind": "quarterly_filing",
-      "read_status": "relevant_sections",
-      "accessed_at": "2026-11-17T16:07:00-05:00"
-    },
-    {
-      "id": "fy",
-      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001345016.json",
-      "document_id": "SEC-companyfacts-CIK0001345016",
-      "origin": "SEC XBRL companyfacts by script: FY2025 10-K 0001345016-26-000019 and 9M25/9M26 periods",
-      "kind": "annual_filing",
-      "read_status": "relevant_sections",
-      "accessed_at": "2026-11-17T16:07:00-05:00"
-    },
-    {
-      "id": "er",
-      "url": "https://www.sec.gov/Archives/edgar/data/1345016/000134501626000072/yelp-20261105.htm",
-      "document_id": "0001345016-26-000072",
-      "origin": "8-K filed 2026-11-05 Item 2.02 cover only; Ex 99.1 release and Ex 99.2 shareholder letter not opened",
-      "kind": "earnings_release",
-      "read_status": "snippet",
-      "accessed_at": "2026-11-17T16:07:00-05:00"
-    },
-    {
-      "id": "sub",
-      "url": "https://data.sec.gov/submissions/CIK0001345016.json",
-      "document_id": "SEC-submissions-CIK0001345016",
-      "origin": "SEC submissions list: 10-Q 2026-11-06, 8-K 2026-11-05, Forms 4, 144, 13G/A through 2026-11-04",
-      "kind": "secondary",
-      "read_status": "relevant_sections",
-      "accessed_at": "2026-11-17T16:07:00-05:00"
-    },
-    {
-      "id": "qa",
-      "url": "https://stockanalysis.com/stocks/yelp/history/",
-      "document_id": "stockanalysis-YELP-2026-11-17",
-      "origin": "stockanalysis.com via WebFetch; close 2026-11-17 (origin undocumented; fetched after the 16:00 ET close)",
-      "kind": "quote",
-      "read_status": "relevant_sections",
-      "accessed_at": "2026-11-17T16:07:00-05:00",
-      "origin_verified": false
-    },
-    {
-      "id": "qb",
-      "url": "https://finance.yahoo.com/quote/YELP/history/",
-      "document_id": "yahoo-finance-YELP-2026-11-17",
-      "origin": "Yahoo Finance via WebFetch; close 2026-11-17 (origin undocumented; fetched after the 16:00 ET close)",
-      "kind": "quote",
-      "read_status": "relevant_sections",
-      "accessed_at": "2026-11-17T16:07:00-05:00",
-      "origin_verified": false
-    }
-  ],
-  "checks": {
-    "latest_filing_checked": {
-      "passed": true,
-      "source_ids": [
-        "q",
-        "sub"
-      ],
-      "note": "10-Q filed 2026-11-06 is the latest periodic filing; 8-K 2026-11-05 (earnings) is newer than nothing else; no later 10-Q/8-K in submissions list."
-    },
-    "balance_sheet_verified": {
-      "passed": true,
-      "source_ids": [
-        "q"
-      ],
-      "note": "2026-09-30: cash 119.840M, revolving credit facility 75.000M, total liabilities 330.813M, total assets 1,002.738M, equity 671.925M; no marketable securities (0 vs 103.290M at 2025-12-31)."
-    },
-    "cashflow_basis_verified": {
-      "passed": true,
-      "source_ids": [
-        "fy",
-        "q"
-      ],
-      "note": "OCF FY25 372.029M, 9M26 233.589M, 9M25 287.547M; capex PP&E and software 48.353M, 42.820M, 36.136M; TTM matched; USD millions; 10-Q free cash flow 190.769M vs 251.411M agrees."
-    },
-    "share_count_basis_verified": {
-      "passed": true,
-      "source_ids": [
-        "q",
-        "fy"
-      ],
-      "note": "54,492,897 shares at 2026-10-30 (dei cover) versus 54.472M issued at 2026-09-30; basic count, SBC dilution not added."
-    },
-    "valuation_complete": {
-      "passed": false,
-      "source_ids": [
-        "qa",
-        "qb",
-        "fy",
-        "q"
-      ],
-      "note": "TTM P/E, FCF yield, EV/revenue computed; peers (e.g. Angi, Thryv, Ziprecruiter class) and own multiple history not compared; forward guidance exhibit unread."
-    },
-    "sector_model_appropriate": {
-      "passed": false,
-      "source_ids": [
-        "q"
-      ],
-      "note": "Ad platform model needs ad-location cohorts, traffic mix, other revenue growth and take-up of AI products; only headline paying-location and revenue lines read."
-    },
-    "accounting_red_flags_reviewed": {
-      "passed": false,
-      "source_ids": [
-        "q"
-      ],
-      "note": "Revolver-funded buybacks, falling cash and 199M investing outflow noted; acquisition notes, audit matters and 10-K not read."
-    },
-    "counterthesis_written": {
-      "passed": true,
-      "source_ids": [
-        "q"
-      ],
-      "note": "Covers shrinking revenue, FCF decline, leverage-funded buybacks, SBC, acquisition spending and AI search risk."
-    }
-  },
-  "price": {
+   {
+    "source_id": "qa",
     "value": 20.14,
     "currency": "USD",
-    "as_of": "2026-11-17T16:00:00-05:00",
-    "status": "previous_close",
-    "last_completed_session": "2026-11-17",
-    "sources": [
-      {
-        "source_id": "qa",
-        "value": 20.14,
-        "currency": "USD",
-        "as_of": "2026-11-17T16:00:00-05:00"
-      },
-      {
-        "source_id": "qb",
-        "value": 20.16,
-        "currency": "USD",
-        "as_of": "2026-11-17T16:00:00-05:00"
-      }
-    ]
-  },
-  "calculations": {
-    "valuation": {
-      "price": 20.14,
-      "shares_outstanding": 54492897,
-      "share_basis": "10-Q cover 2026-10-30 (basic)",
-      "market_cap_usd": 1097486946,
-      "ttm_revenue_musd": 1467.884,
-      "ttm_net_income_musd": 121.736,
-      "pe_ttm": 9.0,
-      "ttm_fcf_musd": 263.034,
-      "fcf_yield_pct": 23.97,
-      "basis": "TTM=FY25+9M26-9M25 USD millions: revenue 1464.955+1107.895-1104.966=1467.884; NI 145.600+83.939-107.804=121.735; OCF 372.029+233.589-287.547=318.071; capex 48.353+42.820-36.136=55.037; FCF 263.034; SBC 133.993+79.344-105.125=108.212, FCF after SBC 154.822 (yield 14.1%). Quote 20.14 stockanalysis, 20.16 Yahoo."
-    },
-    "cash_flow": {
-      "ocf_ttm_musd": 318.1,
-      "capex_ttm_musd": 55.0,
-      "basis": "USD millions, PP&E and capitalized software purchases"
-    },
-    "balance_sheet": {
-      "cash_musd": 119.8,
-      "debt_musd": 75.0,
-      "total_liabilities_musd": 330.8,
-      "basis": "10-Q 2026-09-30; debt is the revolver only; operating leases excluded"
-    }
-  },
-  "unresolved_critical_gaps": [
-    "Peers and own history not compared",
-    "Earnings release, shareholder letter and guidance exhibits unread",
-    "Acquisition spending (9M investing outflow 199.0M) not itemised",
-    "10-K audit matters and risk factors unread",
-    "Cause of weak share price not confirmed",
-    "Quote origins undocumented (publisher-level only)"
+    "as_of": "2026-11-17T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 20.16,
+    "currency": "USD",
+    "as_of": "2026-11-17T16:00:00-05:00"
+   }
   ]
+ },
+ "calculations": {
+  "valuation": {
+   "price": 20.14,
+   "shares_outstanding": 54492897,
+   "share_basis": "10-Q cover 2026-10-30 (basic)",
+   "market_cap_usd": 1097486946,
+   "ttm_revenue_musd": 1467.884,
+   "ttm_net_income_musd": 121.736,
+   "pe_ttm": 9.0,
+   "ttm_fcf_musd": 263.034,
+   "fcf_yield_pct": 23.97,
+   "basis": "TTM=FY25+9M26-9M25 USD millions: revenue 1464.955+1107.895-1104.966=1467.884; NI 145.600+83.939-107.804=121.735; OCF 372.029+233.589-287.547=318.071; capex 48.353+42.820-36.136=55.037; FCF 263.034; SBC 133.993+79.344-105.125=108.212, FCF after SBC 154.822 (yield 14.1%). Quote 20.14 stockanalysis, 20.16 Yahoo."
+  },
+  "cash_flow": {
+   "ocf_ttm_musd": 318.1,
+   "capex_ttm_musd": 55.0,
+   "basis": "USD millions, PP&E and capitalized software purchases"
+  },
+  "balance_sheet": {
+   "cash_musd": 119.8,
+   "debt_musd": 75.0,
+   "total_liabilities_musd": 330.8,
+   "basis": "10-Q 2026-09-30; debt is the revolver only; operating leases excluded"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers and own history not compared",
+  "10-K audit matters and risk factors unread",
+  "Cause of weak share price not confirmed",
+  "Quote origins undocumented (publisher-level only)",
+  "Peers (ANGI, THRY) and own multiple history not compared",
+  "10-Q text read for Hatch purchase accounting not done"
+ ]
 }

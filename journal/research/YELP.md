@@ -27,3 +27,6 @@ TTM=FY25+9M26-9M25 USD millions: revenue 1464.955+1107.895-1104.966=1467.884; NI
 - Quote origins undocumented (publisher-level only)
 
 Structured record: journal/research/YELP.json
+
+## Run 76 update (2026-11-18)
+Shareholder letter (8-K Ex 99.2, 2026-11-05) read: Q4 revenue guide 347M to 352M; FY26 revenue 1,455M to 1,460M (2025: 1,465M); adjusted EBITDA 320M to 325M (2025: 369M); Q3 services revenue -2%, restaurants, retail and other -13%, ad clicks -8%; Hatch net cash paid 263.6M YTD; buyback paused after about 200M YTD to repay the 75M revolver, 339M authorization left; about 30M Q4 tax benefit will inflate net income; YTD FCF 190.8M vs 251.4M. Rating unchanged (watch, medium); peers and 10-Q acquisition accounting still unread. Validator: data/quality_run76_YELP.json.

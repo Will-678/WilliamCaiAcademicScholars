@@ -1,0 +1,202 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "currency": "USD",
+ "as_of": "2026-11-18T16:08:21-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "ticker": "PD",
+ "exchange": "NYSE",
+ "cik": 1568100,
+ "sector_model": "Small-cap enterprise software with flat growth: value on FCF after SBC and capitalized software, convertible debt versus cash, buybacks versus FCF; GAAP net income is distorted by a prior-year tax valuation allowance release.",
+ "thesis": "PagerDuty (NYSE: PD), fiscal year ends Jan 31. Q2 FY27 10-Q (to 2026-07-31; first 100,000 of 101,450 characters read) and 2026-08-27 release read. Revenue 124.4M (+0.8%), six months 245.4M (+0.9%); ARR 501.4M (+0.5%); dollar-based net retention 98%; GAAP operating income 10.2M (8.2%), non-GAAP 23.7%; Q2 FCF 32.8M (26.3%). Guide: Q3 revenue 123.0M to 125.0M, FY27 491.5M to 496.5M (below FY26 492.5M at midpoint, about flat), non-GAAP operating margin 25.0% to 26.0%. About 15% headcount reduction announced August 2026, charges 5.5M to 7.5M mostly in Q3. TTM revenue 495M, FCF 117M (OCF 131M less capex and capitalized software 14M), SBC 81M, FCF after SBC 37M. Close 15.81 on 2026-11-18 x 78,649,873 shares (10-Q cover 2026-08-25) = 1,243M market cap; FCF yield 9.4% (3.0% after SBC); net cash about 67.5M, EV about 1,176M, EV/revenue 2.4x. The screen's 35% net margin is not real: TTM net income 184M includes about 161.6M Q3 FY26 net income largely from releasing a valuation allowance. The market prices a no-growth, AI-exposed incident software vendor; the case for a different view is cash conversion (about 24% FCF margin) and SBC falling to about 14% of revenue in the first half, but there is no growth, retention is below 100%, and the margin gain is partly cost cuts.",
+ "counterthesis": "Revenue and ARR are flat and net retention is 98%, so the base is shrinking within accounts; AI-driven observability and incident tools can substitute. SBC is about 80M TTM, about 68% of FCF, leaving FCF after SBC near 37M. Buybacks of about 208M TTM exceeded TTM FCF of 117M; the 2025 notes were repaid (57.5M in Q2) and 402.5M of 2028 converts remain against cash and investments of 470.0M. Cash plus investments was flat from January to July despite those outflows and the movement is not reconciled here. Restructuring may flatter margins without restoring growth.",
+ "invalidation": "Invalidated if ARR turns negative with net retention below 95%, if FCF after SBC stays under 3% of market cap, if repurchases are funded from cash while 2028 converts are unaddressed, or if a take-private or growth reacceleration thesis fails to appear and margins fall.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/1568100/000156810026000045/pd-20260731.htm",
+   "document_id": "0001568100-26-000045",
+   "origin": "10-Q for quarter ended 2026-07-31 filed 2026-08-27, read via WebFetch (first 100,000 of 101,450 characters; balance sheet, revenue, taxes, restructuring subsequent event, buybacks)",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-18T16:08:21-05:00"
+  },
+  {
+   "id": "er",
+   "url": "https://www.sec.gov/Archives/edgar/data/1568100/000156810026000044/ex991-pagerdutyq2fy27earni.htm",
+   "document_id": "0001568100-26-000044",
+   "origin": "Issuer Q2 FY27 earnings release (8-K Ex 99.1 filed 2026-08-27), read via WebFetch",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-18T16:08:21-05:00"
+  },
+  {
+   "id": "x",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001568100.json",
+   "document_id": "SEC-companyfacts-CIK0001568100",
+   "origin": "SEC XBRL company facts JSON, downloaded and parsed: revenue, net income, OCF, capex, capitalized software, SBC, repurchases, dei shares",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-18T16:08:21-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001568100.json",
+   "document_id": "SEC-submissions-CIK0001568100",
+   "origin": "SEC submissions list: latest 10-Q and 8-K 2026-08-27 (2.02, 2.05, 9.01); 8-Ks 2026-07-14 and 2026-06-22 (5.02 officer changes, not read)",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-18T16:08:21-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/pd/history/",
+   "document_id": "stockanalysis-PD-2026-11-18",
+   "origin": "stockanalysis.com via WebFetch; close 2026-11-18 15.81 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-18T16:08:21-05:00",
+   "origin_verified": false
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/PD/history/",
+   "document_id": "yahoo-finance-PD-2026-11-18",
+   "origin": "Yahoo Finance via WebFetch; close 2026-11-18 15.8 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-18T16:08:21-05:00",
+   "origin_verified": false
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q",
+    "er"
+   ],
+   "note": "10-Q and earnings 8-K both 2026-08-27 are latest; both read in part; Q3 FY27 report not yet filed (expected late November, date unverified)."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Cash 233.7M, investments 236.4M, convertible notes net 396.9M (principal 402.5M, 1.50%, due 2028-10-15), liabilities 711.4M, equity 232.0M at 2026-07-31 (USD)."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "x",
+    "q"
+   ],
+   "note": "TTM OCF 131.4M = 114.9 + 81.2 - 64.6; capex 4.8M; capitalized software 9.2M; SBC 80.5M; USD, matching periods; all reported."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "x"
+   ],
+   "note": "78,649,873 shares at 2026-08-25 (dei cover fact of the 10-Q); point in time."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "x",
+    "qa"
+   ],
+   "note": "Multiples computed; peers (Datadog, Dynatrace, Atlassian, Rootly), history and P/E (distorted) not compared."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "er"
+   ],
+   "note": "Software model with net cash, SBC and tax-distortion adjustments; generic score not used."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Valuation allowance release, SBC, restructuring and buybacks versus FCF noted; risk factors, audit matters and cash reconciliation unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "er",
+    "x"
+   ],
+   "note": "Covers growth, retention, SBC, buybacks, converts, AI risk."
+  }
+ },
+ "price": {
+  "value": 15.81,
+  "currency": "USD",
+  "as_of": "2026-11-18T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-18",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 15.81,
+    "currency": "USD",
+    "as_of": "2026-11-18T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 15.8,
+    "currency": "USD",
+    "as_of": "2026-11-18T16:00:00-05:00"
+   }
+  ]
+ },
+ "calculations": {
+  "valuation": {
+   "price": 15.81,
+   "shares_outstanding": 78649873,
+   "share_basis": "10-Q cover 2026-08-25",
+   "market_cap_usd": 1243454492,
+   "pe_ttm": null,
+   "fcf_yield_ttm": 0.0945,
+   "fcf_yield_after_sbc_ttm": 0.0297,
+   "basis": "TTM (FY26 10-K to 2026-01-31 plus H1 FY27 less H1 FY26, USD millions): revenue 494.7, OCF 131.4, PP&E capex 4.8, capitalized software 9.2, FCF 117.5, SBC 80.5; TTM GAAP net income 184.0M includes about 161.6M Q3 FY26 net income largely from a US valuation allowance release, so P/E is not meaningful; cash and investments 470.0M less 402.5M 2028 convertible principal = net cash about 67.5M; EV about 1176M"
+  },
+  "cash_flow": {
+   "ocf_6m_musd": 81.229,
+   "capex_6m_musd": 3.191,
+   "sbc_6m_musd": 34.435,
+   "buyback_6m_musd": 72.933,
+   "basis": "USD millions, six months to 2026-07-31"
+  },
+  "balance_sheet": {
+   "cash_musd": 233.651,
+   "marketable_securities_musd": 236.392,
+   "debt_musd": 396.93,
+   "total_liabilities_musd": 711.415,
+   "equity_musd": 231.961,
+   "basis": "10-Q 2026-07-31; debt is 1.50% convertible notes due 2028, principal 402.5M"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers and own multiple history not compared",
+  "Cash and investments flat despite buybacks and note repayment: not reconciled",
+  "Restructuring savings, 2026-07-14 and 2026-06-22 officer 8-Ks unread",
+  "Q3 FY27 report unread",
+  "Quote origins undocumented (publisher level only)"
+ ]
+}
