@@ -1,0 +1,209 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "WDAY",
+  "exchange": "Nasdaq",
+  "cik": 1327811,
+  "currency": "USD",
+  "as_of": "2026-11-17T20:07:22-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "sector_model": "Enterprise application software (large, subscription): RPO and subscription growth, GAAP versus adjusted margin, SBC as a real cost, buybacks, tax items; not a bank or insurer model.",
+  "thesis": "Workday (Nasdaq: WDAY), fiscal year ends Jan 31. Q2 FY27 10-Q (quarter to 2026-07-31, filed 2026-08-27; statements, cover, debt, buyback, tax notes read via WebFetch; MD&A not retrievable) and 8-Ks of 2026-09-29, 2026-10-01, 2026-10-13, 2026-10-23 read. Revenue Q2 2,649M vs 2,348M (+12.8%); subscription 2,471M vs 2,169M (+13.9%); subscription backlog 27.4B, 9.0B within 12 months. TTM to 2026-07-31 (FY26 + 6M27 - 6M26): revenue 9,552+5,191-4,588 = 10,155M; GAAP operating income 721+651-287 = 1,085M (10.7%); NI 693+854-296 = 1,251M but 6M27 NI includes a 172M tax benefit (Q2 305M benefit from an intra-entity IP transfer, 374M deferred tax asset), so NI is inflated; OCF 2,939+1,215-1,073 = 3,081M; capex 162+139-64 = 237M; FCF 2,844M; SBC 1,626+871-851 = 1,646M, FCF after SBC 1,198M. Shares about 241M (196M Class A + 45M Class B, cover 2026-08-25) x 182.80 = market cap about 44.1B = 35x TTM NI (tax-flattered), 15.5x TTM FCF (6.5% yield; 2.7% after SBC), 4.3x TTM revenue. Cash 661M + marketable securities 2,742M = 3,403M vs 3.0B senior notes at 3 July 31; 2026-10-23 issued 2.5B notes at 5.70% to 6.50% (2029 to 2036) to retire the 1.0B 3.5% 2027 notes; new 1.5B revolver (2031) undrawn. 6M27 buybacks 2,907M, new 4.0B authorization in August 2026. Restructuring 8-K 2026-09-29: about 2.5% of workforce, 65M to 80M charges. Stock closed 182.80 on 11-17, down 5.8% from 194.06 on 11-16. Price implies low-teens growth continues with margins expanding; the evidence for a different view is the 27.4B backlog and 6.5% FCF yield pre-SBC.",
+  "counterthesis": "Owner earnings are much lower than headline FCF: SBC is 16% of revenue and the buyback (2.9B in 6M) mostly offsets dilution; FCF after SBC yield is 2.7%. GAAP operating margin is only about 11%. Net income is flattered by a one-time deferred tax asset. New notes carry 5.7% to 6.5% coupons, about double the retiring 3.5% to 3.8% notes, so the company is raising debt to fund buybacks at a high cost; debt rises from 3.0B to about 5.5B before the 2027 retirement. AI agents may pressure seat-based HCM and finance software; growth near 13% with a restructuring and ConductorOne identity acquisition (price undisclosed) suggests defence of position. Cause of the 5.8% drop on 11-17 unknown.",
+  "invalidation": "Thesis fails if subscription growth falls below about 10%, 12-month backlog growth stalls, FCF after SBC falls below about 1.0B, or debt-funded buybacks continue with margins flat.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000044/wday-20260731.htm",
+      "document_id": "0001327811-26-000044",
+      "origin": "Q2 FY27 10-Q fetched with WebFetch; cover, statements, notes on debt, equity, taxes read; MD&A truncated and not read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T20:07:22-05:00"
+    },
+    {
+      "id": "fy",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001327811.json",
+      "document_id": "SEC-companyfacts-CIK0001327811",
+      "origin": "SEC XBRL companyfacts by script: FY26 10-K (0001327811-26-000014) and 6M26/6M27 periods",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T20:07:22-05:00"
+    },
+    {
+      "id": "n",
+      "url": "https://www.sec.gov/Archives/edgar/data/1327811/000110465926118496/tm2626731d6_8k.htm",
+      "document_id": "0001104659-26-118496",
+      "origin": "8-K 2026-10-23 Items 1.01, 2.03 read: 2.5B senior notes terms",
+      "kind": "secondary",
+      "read_status": "full",
+      "accessed_at": "2026-11-17T20:07:22-05:00"
+    },
+    {
+      "id": "r",
+      "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000048/wday-20260929.htm",
+      "document_id": "0001327811-26-000048",
+      "origin": "8-K 2026-09-29 Items 2.02, 2.05 read: restructuring and guidance reiteration",
+      "kind": "secondary",
+      "read_status": "full",
+      "accessed_at": "2026-11-17T20:07:22-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001327811.json",
+      "document_id": "SEC-submissions-CIK0001327811",
+      "origin": "SEC submissions list: latest 10-Q 2026-08-27, 8-Ks to 2026-10-23, no 10-Q for Q3 FY27 yet (report due about late November, unverified)",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T20:07:22-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/wday/history/",
+      "document_id": "stockanalysis-WDAY-2026-11-17",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-17 182.8 (origin undocumented; fetched after the 16:00 ET close)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T20:07:22-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/WDAY/history/",
+      "document_id": "yahoo-finance-WDAY-2026-11-17",
+      "origin": "Yahoo Finance via WebFetch; close 2026-11-17 182.8 (origin undocumented; fetched after the 16:00 ET close)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T20:07:22-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "sub"
+      ],
+      "note": "Q2 FY27 10-Q filed 2026-08-27 is the latest periodic filing; later 8-Ks (09-29, 10-01, 10-13, 10-23) read; Q3 FY27 results not yet filed."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "fy",
+        "q"
+      ],
+      "note": "2026-07-31: cash 661M, marketable securities 2,742M, notes 3,000M principal (carrying 2,989M), liabilities 9,397M, assets 15,857M, equity 6,460M; post-quarter 2.5B notes issued."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "fy"
+      ],
+      "note": "OCF FY26 2,939M, 6M27 1,215M, 6M26 1,073M; capex PP&E 162M, 139M, 64M; TTM matched in USD millions; capitalized software not separately captured in these tags and may be missing."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Cover 2026-08-25: about 196M Class A and 45M Class B (rounded in extraction), about 241M; later buybacks and authorization not reflected, so market cap is approximate."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "fy",
+        "q"
+      ],
+      "note": "TTM multiples computed; peers (ADP, PAYC, SAP, ORCL, CRM) and own history not compared; forward guidance and Q3 FY27 report unread."
+    },
+    "sector_model_appropriate": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Subscription model needs cRPO, retention, adjusted margin reconciliation; MD&A unread."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "fy"
+      ],
+      "note": "Tax benefit from IP transfer and SBC noted; 10-K audit matters, capitalized software and non-GAAP reconciliation not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "n",
+        "r"
+      ],
+      "note": "Covers SBC, tax-flattered NI, debt-funded buybacks at higher coupons, AI disruption, restructuring."
+    }
+  },
+  "price": {
+    "value": 182.8,
+    "currency": "USD",
+    "as_of": "2026-11-17T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-17",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 182.8,
+        "currency": "USD",
+        "as_of": "2026-11-17T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 182.8,
+        "currency": "USD",
+        "as_of": "2026-11-17T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "valuation": {
+      "price": 182.8,
+      "shares_outstanding": 241000000,
+      "share_basis": "10-Q cover 2026-08-25, Class A 196M + Class B 45M (approximate, rounded)",
+      "market_cap_usd": 44054800000,
+      "ttm_revenue_musd": 10155.0,
+      "ttm_net_income_musd": 1251.0,
+      "pe_ttm": 35.2,
+      "ttm_fcf_musd": 2844.0,
+      "fcf_yield_pct": 6.46,
+      "basis": "TTM=FY26(to 2026-01-31)+6M27-6M26 USD millions: revenue 9552+5191-4588=10155; NI 693+854-296=1251; OCF 2939+1215-1073=3081; capex 162+139-64=237; FCF 2844; SBC 1626+871-851=1646, FCF after SBC 1198 (yield 2.7%). Quote 182.80 both sources."
+    },
+    "cash_flow": {
+      "ocf_ttm_musd": 3081.0,
+      "capex_ttm_musd": 237.0,
+      "basis": "USD millions, PP&E purchases only; capitalized software not captured"
+    },
+    "balance_sheet": {
+      "cash_musd": 3403.0,
+      "debt_musd": 3000.0,
+      "total_liabilities_musd": 9397.0,
+      "basis": "2026-07-31; cash includes 2,742M marketable securities; debt is senior notes principal; excludes 2.5B notes issued 2026-10-23"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Q2 FY27 MD&A, cRPO and retention unread",
+    "Peers and own history not compared",
+    "Q3 FY27 report and guidance unread",
+    "Capitalized software and non-GAAP reconciliation unverified",
+    "ConductorOne price undisclosed",
+    "Cause of 11-17 drop unconfirmed",
+    "Quote origins undocumented (publisher-level only)"
+  ]
+}

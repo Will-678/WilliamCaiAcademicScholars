@@ -1,0 +1,200 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "PAY",
+  "exchange": "NYSE",
+  "cik": 1841156,
+  "currency": "USD",
+  "as_of": "2026-11-17T20:07:22-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "sector_model": "Payments technology, bill payment software (small-mid): processing revenue includes pass-through interchange so gross profit or contribution profit, not revenue, is the denominator; customer funds held off balance sheet; SBC and settlement risk.",
+  "thesis": "Paymentus Holdings (NYSE: PAY; screen file lists the company as Paymentus Holdings, SEC ticker PAY). Q3 2026 10-Q filed 2026-11-03 (cover, statements, customer funds, concentration read; MD&A truncated) and 8-K 2026-11-02 with Ex 99.1 read. Q3 revenue 372.2M (+19.8%), gross profit 93.8M (+25.4%), contribution profit 118.5M (+20.6%), adjusted EBITDA 49.7M (+38.6%), margin 41.9% of contribution profit, transactions 219.0M (+20.1%). 9M revenue 1,091.4M (+26.0%). Guidance FY26 revenue 1,464M to 1,469M, contribution profit 466M to 468M, adjusted EBITDA 186M to 191M; Q4 revenue 373M to 378M. TTM (FY25 + 9M26 - 9M25): revenue 1,421.8M, gross profit 358.4M, NI 94.6M, OCF 168.1M, capex (PP&E plus capitalized software) 38.4M, FCF 129.7M, SBC 24.1M (FCF after SBC 105.6M). Shares 126,111,148 (78,633,959 Class A + 47,477,189 Class B, cover 2026-10-29) x 32.82 = market cap 4,139M = 43.8x TTM NI, FCF yield 3.1% (2.6% after SBC). Cash 407.6M, no debt line seen, total liabilities 120.6M; EV about 3,731M = 2.6x TTM revenue, 10.4x TTM gross profit. No customer above 10% of revenue. Close 32.82 on 11-17, down 4.1% from 34.22.",
+  "counterthesis": "Price is 44x trailing earnings; revenue growth is high but gross margin is only about 25%, and the TTM FCF yield of 3.1% needs continued 20% growth. Quality of FCF is unconfirmed (working capital, settlement timing, funds in custodial accounts of 206.1M are off balance sheet). Revenue growth may include a large reseller or low-margin pass-through volume; one reseller exceeds 10% of receivables. Insider Form 4 filings on 11-17 and 13G/A amendments on 11-05 and 11-13 were seen in submissions but not read (could be sales). Founder control through Class B (47.5M shares, 38% of total) limits minority influence. Competitors (Fiserv, ACI, Bill, PayNearMe, Invoice-based processors) not compared. Cause of the 4.1% drop on 11-17 unknown; earlier run mention of an August acquisition could not be confirmed (8-K 2026-08-03 has no Item 2.01, goodwill flat).",
+  "invalidation": "Thesis fails if growth in contribution profit slows below about 12%, adjusted EBITDA margin falls back below mid-30s, FCF conversion drops while revenue grows, or major biller or reseller losses appear.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1841156/000119312526443966/pay-20260930.htm",
+      "document_id": "0001193125-26-443966",
+      "origin": "Q3 2026 10-Q fetched with WebFetch; cover, balance sheet, income statement, customer funds and concentration read; MD&A truncated",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T20:07:22-05:00"
+    },
+    {
+      "id": "e",
+      "url": "https://www.sec.gov/Archives/edgar/data/1841156/000119312526443656/pay-ex99_1.htm",
+      "document_id": "0001193125-26-443656",
+      "origin": "8-K 2026-11-02 Ex 99.1 earnings release read (same underlying document as the 8-K cover)",
+      "kind": "earnings_release",
+      "read_status": "full",
+      "accessed_at": "2026-11-17T20:07:22-05:00"
+    },
+    {
+      "id": "fy",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001841156.json",
+      "document_id": "SEC-companyfacts-CIK0001841156",
+      "origin": "SEC XBRL companyfacts by script: FY25 10-K (filed 2026-02-24) and 9M25/9M26 periods",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T20:07:22-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001841156.json",
+      "document_id": "SEC-submissions-CIK0001841156",
+      "origin": "SEC submissions list: 10-Q 2026-11-03, 8-K 2026-11-02, Form 4s 2026-11-17 (unread), 13G/A 2026-11-05 and 11-13",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T20:07:22-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/pay/history/",
+      "document_id": "stockanalysis-PAY-2026-11-17",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-17 32.82 (origin undocumented; fetched after the 16:00 ET close)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T20:07:22-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/PAY/history/",
+      "document_id": "yahoo-finance-PAY-2026-11-17",
+      "origin": "Yahoo Finance via WebFetch; close 2026-11-17 32.82 (origin undocumented; fetched after the 16:00 ET close)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-17T20:07:22-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "sub",
+        "e"
+      ],
+      "note": "10-Q filed 2026-11-03 and 8-K 2026-11-02 are the latest periodic and earnings filings; only Forms 4 and 13G/A follow."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "2026-09-30: cash 407.616M, restricted cash 2.021M, total assets 763.872M, liabilities 120.629M, equity 643.243M, goodwill 131.777M; no debt or securities line found in extracted text."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "fy"
+      ],
+      "note": "OCF FY25 162.127M, 9M26 122.931M, 9M25 116.996M; PP&E 0.361M, 0.372M, 0.279M plus capitalized software 36.737M, 28.633M, 27.414M; TTM matched in USD millions."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Cover 2026-10-29: 78,633,959 Class A and 47,477,189 Class B; point-in-time basic count, dilution from RSUs not added."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "fy",
+        "q",
+        "e"
+      ],
+      "note": "TTM P/E, FCF yield, EV/gross profit computed; peers (FISV, ACIW, BILL, FOUR, GPN) and own multiple history not compared."
+    },
+    "sector_model_appropriate": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "e"
+      ],
+      "note": "Contribution profit used from release; MD&A on volume and biller mix unread; revenue versus gross profit separated."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Customer funds off balance sheet and reseller receivable concentration noted; 10-K audit matters, Form 4 sales and related-party items unread."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "e"
+      ],
+      "note": "Covers valuation, thin gross margin, FCF quality, concentration, controlled company, competition."
+    }
+  },
+  "price": {
+    "value": 32.82,
+    "currency": "USD",
+    "as_of": "2026-11-17T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-17",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 32.82,
+        "currency": "USD",
+        "as_of": "2026-11-17T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 32.82,
+        "currency": "USD",
+        "as_of": "2026-11-17T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "valuation": {
+      "price": 32.82,
+      "shares_outstanding": 126111148,
+      "share_basis": "10-Q cover 2026-10-29, Class A + Class B (basic)",
+      "market_cap_usd": 4138967877,
+      "ttm_revenue_musd": 1421.81,
+      "ttm_net_income_musd": 94.593,
+      "pe_ttm": 43.8,
+      "ttm_fcf_musd": 129.653,
+      "fcf_yield_pct": 3.13,
+      "basis": "TTM=FY25+9M26-9M25 USD millions: revenue 1196.507+1091.352-866.049=1421.810; NI 66.937+73.920-46.264=94.593; OCF 162.127+122.931-116.996=168.062; capex 37.098+29.005-27.693=38.410; FCF 129.652; SBC 18.627+18.386-12.929=24.084, after SBC 105.568 (yield 2.55%); gross profit 296.342+274.385-212.350=358.377. Quote 32.82 both sources."
+    },
+    "cash_flow": {
+      "ocf_ttm_musd": 168.1,
+      "capex_ttm_musd": 38.4,
+      "basis": "USD millions, PP&E plus capitalized software development"
+    },
+    "balance_sheet": {
+      "cash_musd": 407.6,
+      "debt_musd": 0.0,
+      "total_liabilities_musd": 120.6,
+      "basis": "10-Q 2026-09-30; no borrowings line found in extracted text (not exhaustively confirmed); customer funds 206.1M off balance sheet"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "MD&A volume and biller mix unread",
+    "Peers and own history not compared",
+    "Forms 4 of 2026-11-17 and 13G/A unread",
+    "No debt confirmed only from extracted statements",
+    "Contribution profit definition from release only",
+    "Cause of 11-17 drop unconfirmed",
+    "Quote origins undocumented (publisher-level only)"
+  ]
+}

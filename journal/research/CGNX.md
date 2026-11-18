@@ -28,3 +28,6 @@ Thesis fails if growth reverts to flat or negative organically, gross margin fal
 - fy: https://data.sec.gov/api/xbrl/companyfacts/CIK0000851205.json (annual_filing, relevant_sections)
 - qa: https://stockanalysis.com/stocks/cgnx/history/ (quote, relevant_sections)
 - qb: https://finance.yahoo.com/quote/CGNX/history/ (quote, relevant_sections)
+
+## Run 71 gap update (2026-11-17 20:xx ET)
+Q3 10-Q notes re-read (MD&A still not retrievable through the fetch tool; text ends before Item 2). Q3 revenue by customer location (USD thousands): Americas 135,317 vs 104,513, Europe 59,893 vs 74,687 (down), Greater China 66,935 vs 49,708, Other Asia 51,242 vs 47,984. Standard products 266,355 vs 232,619; application-specific 47,032 vs 44,273. Q3 2025 included about 13M one-time partner revenue. Effective tax rate 18% vs 72% (Q3 2025) and 41% (9M 2025), the latter from an OBBBA discrete charge. Deferred revenue and deposits 42.5M vs 21.1M at year-end. One segment; no customer concentration disclosed in the notes. Orders, tariffs, end markets and RealSense price remain unread. Gap partly closed; rating unchanged (watch).
