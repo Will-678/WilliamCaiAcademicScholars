@@ -1,0 +1,198 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "RBCAA",
+  "exchange": "Nasdaq",
+  "cik": 921557,
+  "currency": "USD",
+  "as_of": "2026-11-18T08:08:14-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "sector_model": "Bank with a specialty consumer credit line (Republic Credit Solutions) and seasonal tax refund products: value on earnings, book value, returns, credit quality and capital; free cash flow and generic liability ratios do not apply, and one quarter is not annualized.",
+  "thesis": "Republic Bancorp (Nasdaq: RBCAA, Class A) came out of the screen with a 31% net margin. Q3 2026 earnings release (Ex 99.1, read in full via WebFetch) and 10-Q XBRL: Q3 net income 31.1M (+4%), diluted EPS 1.59 (+5%); 9M net income 106.5M (-2% from 108.5M), 9M EPS 5.44; ROE 10.48% for Q3 and 12.34% for 9M (13.77% a year earlier); Core Bank NIM 4.03% (from 3.78%). Total assets 7.08B, gross loans 5.386B, equity 1,163.9M, goodwill 40.5M. FY2025 net income 131.3M, so TTM net income is about 129.3M (131.3 - 108.5 + 106.5). Price: close 88.95 on 2026-11-17 (from 91.25 on 11-13). Point in time share counts by class were not retrieved; weighted diluted shares for Q3 were 19.888M, so market cap is approximated at 1.77B (flagged), about 13.7x TTM net income and 1.52x book value; the 9M annualized ROE of 12.3% against 1.52x book gives an earnings yield on price of about 7.3%. Provision for credit losses rose to 10.5M in Q3 from 2.0M, driven by Republic Credit Solutions (gross loans 147.9M, allowance 17.80% of loans, net income down 15% to 6.2M). The price assumes steady core bank earnings; the possible mispricing is that the market may be discounting the high loss consumer credit line, but this has not been shown. Cash paid as dividends was 27.8M for 9M26 (about 26% of 9M earnings).",
+  "counterthesis": "Core Bank nonperforming loans rose to 0.63% of loans from 0.42% a year earlier and the total allowance ratio rose to 1.73% from 1.51%, so credit is deteriorating from a low base. Republic Credit Solutions is a high loss unsecured product (allowance 17.8%) whose provision more than doubled and whose profit fell 15%; regulatory or consumer finance scrutiny of tax refund and line of credit products is a standing risk. 9M earnings fell 2% and ROE slid from 13.8% to 12.3%, so growth is flat. Class A and B dual share structure and family control limit minority influence. Share counts, deposit mix, uninsured deposits, securities unrealized losses, tax refund season earnings, and the 10-Q notes were not read; the 10-Q itself exceeded the fetch limit.",
+  "invalidation": "The idea fails if Core Bank nonperforming loans keep rising above about 1% of loans, if RCS provisions keep growing faster than its revenue, if regulators restrict tax refund or line of credit products, if TTM earnings fall below about 120M, or if price rises to more than about 2x book without higher returns.",
+  "sources": [
+    {
+      "id": "r",
+      "url": "https://www.sec.gov/Archives/edgar/data/921557/000110465926118297/rbcaa-ex99d1.htm",
+      "document_id": "0001104659-26-118297",
+      "origin": "Ex 99.1 earnings release dated 2026-10-23 (furnished with 8-K), read via WebFetch: income, NIM, provision, credit quality, RCS; no deposits, equity, book value, dividends or share counts in the extract",
+      "kind": "earnings_release",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T08:08:14-05:00"
+    },
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/921557/000110465926123354/rbcaa-20260930x10q.htm",
+      "document_id": "0001104659-26-123354",
+      "origin": "10-Q for quarter ended 2026-09-30 filed 2026-11-05; the document exceeded the WebFetch size limit and was not read as text; figures taken from its XBRL facts via SEC companyfacts",
+      "kind": "quarterly_filing",
+      "read_status": "unread",
+      "accessed_at": "2026-11-18T08:08:14-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000921557.json",
+      "document_id": "SEC-companyfacts-CIK0000921557",
+      "origin": "SEC XBRL company facts: equity 1,163.865M, assets 7,081.8M, goodwill 40.5M, FY2025 net income 131.3M, 9M26 OCF 115.7M, dividends paid 27.8M, Q3 weighted diluted shares 19.888M",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T08:08:14-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0000921557.json",
+      "document_id": "SEC-submissions-CIK0000921557",
+      "origin": "SEC submissions list: 10-Q 2026-11-05, 8-K 2026-10-23",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T08:08:14-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/rbcaa/history/",
+      "document_id": "stockanalysis-RBCAA-2026-11-17",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-17 88.95 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T08:08:14-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/RBCAA/history/",
+      "document_id": "yahoo-finance-RBCAA-2026-11-17",
+      "origin": "Yahoo Finance via WebFetch; close 2026-11-17 88.95 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T08:08:14-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "r",
+        "x"
+      ],
+      "note": "Latest 10-Q 2026-11-05 and 8-K 2026-10-23 identified; the 10-Q text was not read (size limit), only its XBRL facts and the release."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "x",
+        "r"
+      ],
+      "note": "Assets 7,081.8M and equity 1,163.9M (XBRL of the 10-Q), gross loans 5.386B and allowance 93.1M (release); deposits and borrowings not retrieved."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "x"
+      ],
+      "note": "Bank model: OCF 115.7M and capex 6.8M for 9M26 recorded for reference only (USD, nine months); no FCF multiple used."
+    },
+    "share_count_basis_verified": {
+      "passed": false,
+      "source_ids": [
+        "x"
+      ],
+      "note": "Point in time Class A and B shares not retrieved; weighted diluted 19.888M for Q3 used as an approximation, so market cap 1.77B is approximate."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "r",
+        "x",
+        "qa",
+        "qb"
+      ],
+      "note": "About 13.7x TTM and 1.52x book on approximate shares; peers (regional banks), tangible book, dividend yield and tax refund seasonality not compared."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "r",
+        "x"
+      ],
+      "note": "Bank model: earnings, ROE, book, NIM, provision and credit quality, not FCF."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "r"
+      ],
+      "note": "Provision jump and RCS credit trends noted; 10-Q notes, deposit mix, securities losses and 10-K audit matters unread."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "r"
+      ],
+      "note": "Counterthesis covers credit migration, RCS loss rates, flat earnings, regulation and governance."
+    }
+  },
+  "price": {
+    "value": 88.95,
+    "currency": "USD",
+    "as_of": "2026-11-17T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-17",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 88.95,
+        "currency": "USD",
+        "as_of": "2026-11-17T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 88.95,
+        "currency": "USD",
+        "as_of": "2026-11-17T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "valuation": {
+      "price": 88.95,
+      "shares_outstanding": 19888000,
+      "share_basis": "Approximation: Q3 2026 weighted average diluted shares (XBRL); point in time Class A plus Class B not retrieved",
+      "market_cap_usd": 1769000000,
+      "pe_ttm": 13.7,
+      "price_to_book": 1.52,
+      "basis": "TTM net income about 129.3M = 131.317 (FY25) - 108.5 (9M25, release) + 106.506 (9M26); equity 1,163.865M at 2026-09-30; USD millions"
+    },
+    "cash_flow": {
+      "ocf_9m_musd": 115.7,
+      "capex_9m_musd": 6.8,
+      "basis": "USD millions, nine months to 2026-09-30; reference only for a bank"
+    },
+    "balance_sheet": {
+      "total_assets_musd": 7081.8,
+      "gross_loans_musd": 5386.0,
+      "equity_musd": 1163.9,
+      "allowance_musd": 93.1,
+      "goodwill_musd": 40.5,
+      "basis": "10-Q XBRL and release, 2026-09-30"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "10-Q text unread (exceeds fetch limit); deposits, borrowings and securities unrealized losses unknown",
+    "Point in time share counts by class not retrieved",
+    "Peers and tangible book not compared",
+    "RCS regulatory and credit trend not assessed beyond release",
+    "Quote origins undocumented (publisher level only)"
+  ]
+}

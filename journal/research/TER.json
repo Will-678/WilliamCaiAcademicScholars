@@ -1,0 +1,201 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "TER",
+  "exchange": "Nasdaq",
+  "cik": 97210,
+  "currency": "USD",
+  "as_of": "2026-11-18T08:08:14-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "sector_model": "Cyclical semiconductor test equipment: earnings are peak-cycle sensitive to AI related test demand and customer capex; use TTM earnings, FCF after SBC, net cash, inventory and order commentary, and treat a multiple on a cycle upswing as lower quality than on mid-cycle earnings.",
+  "thesis": "Teradyne (Nasdaq: TER) came out of the annual screen as a high growth, high margin name. Q3 2026 10-Q (income statement, balance sheet and equity statement read; MD&A and risk factors not retrieved): Q3 revenue 1,305.95M (+69.8% from 769.2M), 9M revenue 3,917.4M (vs 2,106.7M), 9M net income attributable 1,115.8M (vs 296.8M), diluted EPS 2.17 for Q3 and 7.08 for 9M. Release (Ex 99.1): Q3 segments Semiconductor Test 1,072M, Product Test 138M, Robotics 96M; GAAP gross margin 59.1%; Q4 guide revenue 1,250M to 1,350M and GAAP EPS 1.88 to 2.18, i.e. flat to down sequentially from Q3 (1,306M, 2.17). Balance sheet 2026-09-27: cash 460.7M, marketable securities 164.1M, no short-term debt (200M at year end), equity 3,687.9M, liabilities 1,712.2M. Cash flow (XBRL, 10-Q): 9M OCF 1,047.9M, capex 241.8M, SBC 63.6M. TTM (FY2025 10-K plus 9M26 less 9M25): revenue 5,000.8M, net income attributable 1,373.1M, OCF 1,329.5M, capex 304.7M, FCF 1,024.8M, FCF after SBC 944.7M. Price: close 234.18 on 2026-11-17 x 156,124,751 shares (cover, 2026-10-26) = 36.56B market cap = 26.6x TTM net income, FCF yield 2.8% (2.6% after SBC), EV about 35.9B on net cash 624.9M (excluding leases). The stock fell 11.9% from 265.78 (11-11) to 234.18 (11-17); the cause was not identified. At guidance midpoint Q4 EPS 2.03 annualizes to about 8.1, or 28.9x. The business is high quality and growing very fast, but the price already assumes the AI test cycle persists; this is a quality and momentum lead, not a demonstrated mispricing.",
+  "counterthesis": "TTM earnings are upswing earnings: 9M26 net income is 3.8x 9M25, and Q4 guidance midpoint implies EPS below Q3, so the growth rate is peaking in sequential terms. Semiconductor test demand is lumpy and tied to a few AI customers' capex; a pause would hit revenue and the 59% gross margin quickly. Inventory rose 51% (575.0M from 379.6M) and goodwill 27% (663.8M from 521.0M, 165.6M of 9M acquisitions) while redeemable noncontrolling interests of 49.1M appeared, so working capital and acquisition accounting need review. Buybacks fell to 173.5M for 9M26 from 518.7M, so cash is not being returned at the pace of last year. FCF yield of 2.8% is low. Customer concentration, export controls, the 11% price drop in six sessions, and Forms 144 and 4 seen in the filing list (11-16, 11-17) are unread.",
+  "invalidation": "The thesis is invalidated if Q1 2027 revenue guidance falls well below the Q4 range of 1,250M to 1,350M, if gross margin falls below about 55%, if inventory keeps growing faster than revenue, if AI test customers cut capex, or if TTM earnings normalize so that the multiple on mid-cycle earnings exceeds about 40x.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/97210/000119312526441091/ter-20260927.htm",
+      "document_id": "0001193125-26-441091",
+      "origin": "10-Q for quarter ended 2026-09-27 filed 2026-10-30; read via WebFetch: cover, income statement, balance sheet, equity statement; excerpt cut before cash flow statement, MD&A, segment note and risk factors",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T08:08:14-05:00"
+    },
+    {
+      "id": "r",
+      "url": "https://www.sec.gov/Archives/edgar/data/97210/000119312526434981/ter-ex99_1.htm",
+      "document_id": "0001193125-26-434981",
+      "origin": "Ex 99.1 press release dated 2026-10-27 (furnished with 8-K filed 2026-10-28), read via WebFetch: segment revenue, Q4 guidance, margins, buybacks; reconciliation tables truncated",
+      "kind": "earnings_release",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T08:08:14-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000097210.json",
+      "document_id": "SEC-companyfacts-CIK0000097210",
+      "origin": "SEC XBRL company facts JSON from the 10-K filed 2026-02-19 and 10-Qs: OCF, capex, SBC, buybacks, FY2025 revenue 3,190.0M and net income 554.0M",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T08:08:14-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0000097210.json",
+      "document_id": "SEC-submissions-CIK0000097210",
+      "origin": "SEC submissions list: latest 10-Q 2026-10-30, 8-K 2026-10-28, Forms 4 and 144 in November (unread)",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T08:08:14-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/ter/history/",
+      "document_id": "stockanalysis-TER-2026-11-17",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-17 234.18 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T08:08:14-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/TER/history/",
+      "document_id": "yahoo-finance-TER-2026-11-17",
+      "origin": "Yahoo Finance via WebFetch; close 2026-11-17 234.18 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-18T08:08:14-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q",
+        "r"
+      ],
+      "note": "Submissions list: latest 10-Q 2026-10-30 and 8-K 2026-10-28 both read in part; Forms 4 and 144 of November unread."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Cash 460.7M, marketable securities 5.8M current and 158.3M noncurrent, short-term debt 0, total liabilities 1,712.2M, equity 3,687.9M, from the 10-Q balance sheet (USD thousands in filing). Operating lease liabilities not separated."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "x",
+        "q"
+      ],
+      "note": "9M26 OCF 1,047.9M, capex 241.8M, SBC 63.6M (USD, nine months to 2026-09-27) from XBRL of the 10-Q; TTM built as FY2025 (10-K) plus 9M26 less 9M25 with matching units; cash flow statement itself not read as text."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "156,124,751 shares at 2026-10-26 from the 10-Q cover; used for market cap instead of 160M weighted diluted."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "r",
+        "x",
+        "qa",
+        "qb"
+      ],
+      "note": "26.6x TTM, FCF yield 2.8%, EV about 35.9B computed; peers (KLAC, LRCX, AMAT, Advantest), history and mid-cycle earnings not compared."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "r"
+      ],
+      "note": "Cyclical equipment model with peak-cycle caution; generic quality score not used."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Inventory +51%, goodwill +27% and new redeemable NCI noted; MD&A, notes, audit matters and customer concentration unread."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "r"
+      ],
+      "note": "Counterthesis covers cycle peak, guidance decline, inventory, concentration and buyback slowdown."
+    }
+  },
+  "price": {
+    "value": 234.18,
+    "currency": "USD",
+    "as_of": "2026-11-17T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-17",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 234.18,
+        "currency": "USD",
+        "as_of": "2026-11-17T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 234.18,
+        "currency": "USD",
+        "as_of": "2026-11-17T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "valuation": {
+      "price": 234.18,
+      "shares_outstanding": 156124751,
+      "share_basis": "10-Q cover, 2026-10-26",
+      "market_cap_usd": 36563000000,
+      "pe_ttm": 26.6,
+      "fcf_yield_ttm": 0.028,
+      "fcf_yield_after_sbc_ttm": 0.026,
+      "basis": "TTM net income attributable 1,373.1M = 554.047 (FY25) - 296.827 (9M25) + 1,115.849 (9M26); TTM FCF 1,024.8M = OCF 1,329.5M less capex 304.7M; SBC TTM 80.1M; net cash 624.9M; USD millions"
+    },
+    "cash_flow": {
+      "ocf_9m_musd": 1047.9,
+      "capex_9m_musd": 241.8,
+      "basis": "USD millions, nine months to 2026-09-27"
+    },
+    "balance_sheet": {
+      "cash_musd": 460.7,
+      "marketable_securities_musd": 164.1,
+      "debt_musd": 0.0,
+      "total_liabilities_musd": 1712.2,
+      "equity_musd": 3687.9,
+      "basis": "10-Q 2026-09-27"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "MD&A, risk factors, customer concentration and cash flow statement text unread",
+    "Peers (KLAC, LRCX, AMAT) and mid-cycle earnings not compared",
+    "Cause of 11.9% drop 11-11 to 11-17 and Forms 4 and 144 unread",
+    "Acquisitions behind goodwill and redeemable NCI not identified",
+    "Quote origins undocumented (publisher level only)"
+  ]
+}
