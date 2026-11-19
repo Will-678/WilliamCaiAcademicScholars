@@ -1,0 +1,213 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "currency": "USD",
+ "as_of": "2026-11-18T20:07:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "ticker": "MNDY",
+ "exchange": "Nasdaq",
+ "cik": 1845338,
+ "sector_model": "Software work management SaaS (foreign private issuer, US GAAP, files 20-F and 6-K): value on EV to revenue, FCF and FCF after SBC, net retention, remaining performance obligations, restructuring and buyback effects; adjusted FCF and non-GAAP margins are management definitions.",
+ "thesis": "monday.com (Nasdaq: MNDY). Q3 2026 release (6-K Ex 99.1, 2026-11-09) read in full for the figures cited: revenue 377.5M (+19%), 9M 1,093.4M vs 898.1M; GAAP operating income 31.2M (8%), GAAP NI 35.2M, 9M NI 66.7M; net dollar retention 108%; cRPO 759M (+22%); AI ARR 36M. Q4 guide revenue 380M to 382M (about +14%), non-GAAP operating margin about 18% vs 24% in Q3; FY26 revenue 1,473M to 1,475M, adjusted FCF 282M to 288M. The 2026-07-22 6-K shows a restructuring plan cutting about 20% of the workforce. Balance sheet 2026-09-30: cash 869.6M plus marketable securities 229.8M, no debt line, total liabilities 931.4M, equity 688.6M (down from 1,246.8M after 735.0M of share repurchases in 9M26). Price: close 74.04 on 2026-11-18 x about 42.59M Q3 weighted basic shares (approximation, point in time count not read) = about 3,153M market cap; net cash about 1,099M, EV about 2,054M = 1.44x TTM revenue 1,427.3M. TTM GAAP NI 143.4M (22.0x); TTM OCF 240.1M, less PP&E 17.2M = FCF 222.9M (7.1% of market cap; capitalized software not deducted for the FY25 part, about 3M); TTM SBC 140.3M, so FCF after SBC about 82.7M (2.6%). Market may be pricing a seat based SaaS vendor facing AI disruption and decelerating growth (Q4 guide +14% from +19%); the evidence that differs is a net cash balance sheet, 24% Q3 non-GAAP operating margin and 5,038 customers above 50K ARR (+26%). Not a verified bargain: growth is slowing sharply and FCF fell.",
+ "counterthesis": "Q3 OCF fell to 20.4M from 95.1M (accrued expenses -87.1M, restructuring payments 47.2M) and 9M OCF fell to 180.4M from 274.0M; adjusted FCF margin 17% vs 29%. Management guides Q4 growth near 14% and operating margin down to 18% citing near term operational headwinds from the AI first transformation. Net retention 108% and paid customers above 10 users only +5%. Adjusted FCF and non-GAAP income exclude SBC (140.3M TTM), restructuring, a 18.0M share donation to the Foundation and restructuring cash; GAAP operating margin 8% and 5% 9M. Equity fell by 45% after buybacks. Seat based pricing is exposed to AI agents and cheaper rivals. Non-GAAP guide growth may mask FX.",
+ "invalidation": "Invalidated if revenue growth falls below about 12% without an offsetting margin gain, net dollar retention drops below 105%, cRPO growth falls below revenue growth, adjusted FCF margin stays below 15%, or restructuring charges recur beyond the announced plan.",
+ "sources": [
+  {
+   "id": "er",
+   "url": "https://www.sec.gov/Archives/edgar/data/1845338/000117891326005085/exhibit_99-1.htm",
+   "document_id": "0001178913-26-005085",
+   "origin": "Issuer Q3 2026 earnings release (6-K Ex 99.1 furnished 2026-11-09), fetched with curl and parsed",
+   "kind": "earnings_release",
+   "read_status": "full",
+   "accessed_at": "2026-11-18T20:07:00-05:00"
+  },
+  {
+   "id": "rk",
+   "url": "https://www.sec.gov/Archives/edgar/data/1845338/000117891326003553/zk2635715.htm",
+   "document_id": "0001178913-26-003553",
+   "origin": "Issuer 6-K 2026-07-22 restructuring plan, explanatory note read (about 20% workforce reduction)",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-18T20:07:00-05:00"
+  },
+  {
+   "id": "x",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001845338.json",
+   "document_id": "SEC-companyfacts-CIK0001845338",
+   "origin": "SEC XBRL company facts from the FY2025 20-F filed 2026-03-13: revenue, net income, OCF, PP&E purchases, SBC",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-18T20:07:00-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001845338.json",
+   "document_id": "SEC-submissions-CIK0001845338",
+   "origin": "SEC submissions list at 2026-11-18: 6-K 11-09 (latest), 20-F 2026-03-13, Forms 4 on 11-16 and 11-02, Form 144 on 11-12 (unread)",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-18T20:07:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/mndy/history/",
+   "document_id": "stockanalysis-MNDY-2026-11-18",
+   "origin": "stockanalysis.com via WebFetch; close 2026-11-18 74.04 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-18T20:07:00-05:00",
+   "origin_verified": false
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/MNDY/history/",
+   "document_id": "yahoo-finance-MNDY-2026-11-18",
+   "origin": "Yahoo Finance via WebFetch; page header close 2026-11-18 74.04, 4:00 PM EST (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-18T20:07:00-05:00",
+   "origin_verified": false
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "er",
+    "sub"
+   ],
+   "note": "Submissions list shows the 6-K of 2026-11-09 as the latest earnings document; it was read in full. The FY2025 20-F text itself was not read, only XBRL facts."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "er"
+   ],
+   "note": "Cash 869.6M, securities 229.8M, total liabilities 931.4M, equity 688.6M at 2026-09-30 from the release's balance sheet (USD thousands)."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "er",
+    "x"
+   ],
+   "note": "TTM OCF 240.1M = 333.6 + 180.4 - 274.0; PP&E 17.2M = 20.4 + 10.4 - 13.6 (USD M); FY25 capitalized software not retrieved, so FCF is slightly overstated (about 3M)."
+  },
+  "share_count_basis_verified": {
+   "passed": false,
+   "source_ids": [
+    "er"
+   ],
+   "note": "Only Q3 weighted basic shares 42,588,961 (diluted 43,752,107) were read; the point in time count after 735M of buybacks was not found. Market cap is an approximation."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "er",
+    "qa",
+    "qb"
+   ],
+   "note": "EV to revenue, P/E and FCF yields computed; peers (ASAN, SMAR, TEAM, HUBS, CRM) and own history not compared."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "er"
+   ],
+   "note": "SaaS model: revenue, retention, RPO, FCF after SBC, net cash."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "er"
+   ],
+   "note": "Non-GAAP exclusions, restructuring and share donation read in the release; 20-F notes, 6-K MD&A for Q2 and the nature of the 735M buyback were not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "er"
+   ],
+   "note": "Covers cash flow drop, guide deceleration, adjusted metrics, equity shrink and AI risk."
+  }
+ },
+ "price": {
+  "value": 74.04,
+  "currency": "USD",
+  "as_of": "2026-11-18T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-18",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 74.04,
+    "currency": "USD",
+    "as_of": "2026-11-18T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 74.04,
+    "currency": "USD",
+    "as_of": "2026-11-18T16:00:00-05:00"
+   }
+  ]
+ },
+ "calculations": {
+  "fcf": {
+   "ocf": {
+    "value": 240.13,
+    "unit": "USD millions",
+    "period_start": "2025-10-01",
+    "period_end": "2026-09-30"
+   },
+   "capex": {
+    "value": 17.203,
+    "unit": "USD millions",
+    "period_start": "2025-10-01",
+    "period_end": "2026-09-30"
+   },
+   "value": 222.927,
+   "basis": "USD millions TTM = FY2025 + 9M26 - 9M25; PP&E only (capitalized software excluded for FY25 portion)"
+  },
+  "valuation": {
+   "price": 74.04,
+   "shares_outstanding": 42588961,
+   "share_basis": "Q3 2026 weighted basic shares (approximation; point in time count not read)",
+   "market_cap_usd": 3153286672,
+   "ttm_revenue_musd": 1427.299,
+   "ttm_net_income_musd": 143.384,
+   "pe_ttm": 22.0,
+   "ev_musd": 2054,
+   "ev_to_revenue": 1.44,
+   "fcf_yield_pct": 7.07,
+   "fcf_yield_after_sbc_pct": 2.62,
+   "ttm_sbc_musd": 140.25,
+   "basis": "TTM revenue 1,231.997+1,093.421-898.119; NI 118.742+66.692-42.050; SBC 177.011+100.704-137.465; cash and securities 1,099.4M, no debt line; USD millions"
+  },
+  "balance_sheet": {
+   "cash_musd": 869.554,
+   "marketable_securities_musd": 229.84,
+   "debt_musd": 0.0,
+   "total_liabilities_musd": 931.385,
+   "equity_musd": 688.572,
+   "basis": "2026-09-30 release; no debt line shown, so 0 is reported as shown; operating leases 193M are inside liabilities"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Point in time share count after 735M buyback not found",
+  "Peers and own history multiples not compared",
+  "20-F risk factors, Q2 MD&A and buyback mechanics unread",
+  "Cause of post earnings share price weakness unknown",
+  "Quote origins undocumented (publisher level only)",
+  "Scores not assigned"
+ ]
+}

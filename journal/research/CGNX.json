@@ -1,189 +1,197 @@
 {
-  "schema_version": 2,
-  "method_version": "2.0",
+ "schema_version": 2,
+ "method_version": "2.0",
+ "currency": "USD",
+ "as_of": "2026-11-18T20:07:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "ticker": "CGNX",
+ "exchange": "Nasdaq",
+ "cik": 851205,
+ "sector_model": "Industrial technology, machine vision hardware and software (mid): cyclical end-market demand, gross margin, net cash, acquisition effects, discrete tax items; not a bank or insurer model.",
+ "thesis": "Cognex (Nasdaq: CGNX), Q3 2026 10-Q filed 2026-11-05 (statements read, MD&A not in extraction) and earnings release (8-K 2026-11-04, Ex 99.1 read). Q3 revenue 313.4M vs 276.9M (+13% reported, +19% excluding a ~13M Q3 2025 one-time partnership benefit); 9M 873.1M vs 742.0M (+17.7%); 9M gross margin 70.8% vs 67.3%. Q3 NI 84.8M vs 17.7M, but Q3 2025 carried 45.2M tax expense (about 72% of pretax) so growth in GAAP profit is overstated; Q3 2026 GAAP tax rate 17.9%. 9M NI 209.3M vs 81.8M. TTM (FY25 + 9M26 - 9M25): revenue 1,105.4M, NI 241.9M. Close 48.20 (2026-11-16, down 3.62% that day) x 168,378,060 shares (cover 2026-11-01) = market cap 8,116M = 33.5x TTM NI. TTM OCF 295.6M, capex 9.5M, FCF 286.0M (yield 3.5%). Cash 694.7M plus investments 151.3M, no borrowings line seen; total liabilities 555.0M. Guidance raised: FY26 revenue 1,143M to 1,163M, adjusted EPS 1.68 to 1.72 (GAAP 9M 1.23 vs adjusted 1.31); Q4 revenue 270M to 290M. 9M buybacks 105.2M and dividends 42.8M are covered by OCF. Pending all-cash RealSense purchase (price not disclosed in the release, Q4 2026 close) funded partly by selling ~330M of bonds. Run 77 update (MD&A read): Q3 revenue 313.4M, +13% reported, +19% excluding FX and a 13M one time 2025 channel partner sale; Americas +29%, Greater China +35%, Europe -20% (consumer electronics procurement shifted to the Americas, automotive soft); gross margin 71% vs 68%, opex -7%. RealSense acquisition is 500M all cash, expected to close in Q4 2026 (Note 14); about 330M of investments were liquidated to fund it, so cash and investments of 846.0M at 2026-10-04 falls to roughly 350M after closing (approximation). Capex 9M 6.9M; 9M OCF 220.7M; buyback authorization 9.8M remaining as of 10-04.",
+ "counterthesis": "At 33.5x trailing GAAP earnings and a 3.5% FCF yield, the price already assumes sustained double-digit growth and margin gains; 9M profit growth is flattered by a prior-year tax charge and by 2025 weakness, and Q3 2025 revenue included a one-time item. Machine vision is cyclical (logistics, consumer electronics, automotive) and end-market mix, tariffs and customer concentration were not found in the extracted text. Q4 guide midpoint 280M is below Q3 313M, a sequential drop. RealSense price unknown. SBC (34.3M for 9M) is not deducted from FCF. The stock fell 3.6% on 11-16 and cause not identified. Growth leans on consumer electronics and Greater China (customer concentration text unread); the 500M deal absorbs about 60% of cash and its integration and margin effect are unknown.",
+ "invalidation": "Thesis fails if growth reverts to flat or negative organically, gross margin falls back toward 67%, RealSense is expensive or dilutive to returns, or end-market orders weaken in logistics or consumer electronics.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/851205/000085120526000082/cgnx-20261004.htm",
+   "document_id": "0000851205-26-000082",
+   "origin": "Q3 2026 10-Q via WebFetch, financial statements and segment note; MD&A and risk factors not in extraction",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-17T04:07:54-05:00"
+  },
+  {
+   "id": "e",
+   "url": "https://www.sec.gov/Archives/edgar/data/851205/000085120526000079/a10042026-xex991xq32026ear.htm",
+   "document_id": "0000851205-26-000079",
+   "origin": "Earnings release Ex 99.1 to 8-K filed 2026-11-04 via WebFetch (guidance, adjusted EPS, tax rate)",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-17T04:07:54-05:00"
+  },
+  {
+   "id": "fy",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000851205.json",
+   "document_id": "SEC-companyfacts-CIK0000851205",
+   "origin": "SEC XBRL companyfacts by script: FY2025 10-K 0000851205-26-000012; 9M25 period ended 2025-09-28 and 9M26 ended 2026-10-04",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-17T04:07:54-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/cgnx/history/",
+   "document_id": "stockanalysis-CGNX-2026-11-16",
+   "origin": "stockanalysis.com via WebFetch; close 2026-11-16 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-17T04:07:54-05:00"
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/CGNX/history/",
+   "document_id": "yahoo-finance-CGNX-2026-11-16",
+   "origin": "Yahoo Finance via WebFetch; close 2026-11-16 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-17T04:07:54-05:00"
+  },
+  {
+   "id": "qmd",
+   "url": "https://www.sec.gov/Archives/edgar/data/851205/000085120526000082/cgnx-20261004.htm",
+   "document_id": "0000851205-26-000082",
+   "origin": "10-Q for quarter ended 2026-10-04: Note 14, MD&A overview, revenue by region, liquidity read via curl (relevant sections)",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-18T20:07:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "e"
+   ],
+   "note": "10-Q filed 2026-11-05 and release 2026-11-04 read; submissions list shows no later 8-K to 2026-11-17 in recent filings viewed."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "2026-10-04 cash 694.695M, investments 151.289M, total assets 2,276.467M, total liabilities 554.977M; no debt line seen; lease and other obligations not itemized."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "fy",
+    "q"
+   ],
+   "note": "OCF FY25 245.514M, 9M26 220.661M, 9M25 170.612M; capex 8.743M, 6.928M, 6.147M; TTM matched; period ends differ by days (2025-09-28 vs 2026-10-04)."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "168,378,060 shares at 2026-11-01 cover; diluted share count and options not modeled."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "qa",
+    "qb",
+    "fy"
+   ],
+   "note": "Trailing P/E and FCF yield computed; EV/sales, peers, own-history and forward adjusted P/E (about 28x on 1.70) not compared."
+  },
+  "sector_model_appropriate": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "e"
+   ],
+   "note": "Machine vision needs organic growth, orders, end-market mix and gross margin trend; orders and end market breakdown not disclosed in extracted text."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "e"
+   ],
+   "note": "Prior-year discrete tax and one-time partnership revenue noted; MD&A, audit matters, RealSense accounting unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "e",
+    "fy"
+   ],
+   "note": "Covers valuation, tax-distorted growth, cyclicality, sequential guide drop, SBC, RealSense."
+  }
+ },
+ "price": {
+  "value": 48.2,
   "currency": "USD",
-  "as_of": "2026-11-17T04:07:54-05:00",
-  "status": "watch",
-  "confidence": "medium",
-  "scores": {
-    "business_quality": null,
-    "cash_generation_growth": null,
-    "financial_resilience": null,
-    "valuation": null,
-    "catalysts_evidence": null
-  },
-  "score_total": null,
-  "ticker": "CGNX",
-  "exchange": "Nasdaq",
-  "cik": 851205,
-  "sector_model": "Industrial technology, machine vision hardware and software (mid): cyclical end-market demand, gross margin, net cash, acquisition effects, discrete tax items; not a bank or insurer model.",
-  "thesis": "Cognex (Nasdaq: CGNX), Q3 2026 10-Q filed 2026-11-05 (statements read, MD&A not in extraction) and earnings release (8-K 2026-11-04, Ex 99.1 read). Q3 revenue 313.4M vs 276.9M (+13% reported, +19% excluding a ~13M Q3 2025 one-time partnership benefit); 9M 873.1M vs 742.0M (+17.7%); 9M gross margin 70.8% vs 67.3%. Q3 NI 84.8M vs 17.7M, but Q3 2025 carried 45.2M tax expense (about 72% of pretax) so growth in GAAP profit is overstated; Q3 2026 GAAP tax rate 17.9%. 9M NI 209.3M vs 81.8M. TTM (FY25 + 9M26 - 9M25): revenue 1,105.4M, NI 241.9M. Close 48.20 (2026-11-16, down 3.62% that day) x 168,378,060 shares (cover 2026-11-01) = market cap 8,116M = 33.5x TTM NI. TTM OCF 295.6M, capex 9.5M, FCF 286.0M (yield 3.5%). Cash 694.7M plus investments 151.3M, no borrowings line seen; total liabilities 555.0M. Guidance raised: FY26 revenue 1,143M to 1,163M, adjusted EPS 1.68 to 1.72 (GAAP 9M 1.23 vs adjusted 1.31); Q4 revenue 270M to 290M. 9M buybacks 105.2M and dividends 42.8M are covered by OCF. Pending all-cash RealSense purchase (price not disclosed in the release, Q4 2026 close) funded partly by selling ~330M of bonds.",
-  "counterthesis": "At 33.5x trailing GAAP earnings and a 3.5% FCF yield, the price already assumes sustained double-digit growth and margin gains; 9M profit growth is flattered by a prior-year tax charge and by 2025 weakness, and Q3 2025 revenue included a one-time item. Machine vision is cyclical (logistics, consumer electronics, automotive) and end-market mix, tariffs and customer concentration were not found in the extracted text. Q4 guide midpoint 280M is below Q3 313M, a sequential drop. RealSense price unknown. SBC (34.3M for 9M) is not deducted from FCF. The stock fell 3.6% on 11-16 and cause not identified.",
-  "invalidation": "Thesis fails if growth reverts to flat or negative organically, gross margin falls back toward 67%, RealSense is expensive or dilutive to returns, or end-market orders weaken in logistics or consumer electronics.",
+  "as_of": "2026-11-16T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-16",
   "sources": [
-    {
-      "id": "q",
-      "url": "https://www.sec.gov/Archives/edgar/data/851205/000085120526000082/cgnx-20261004.htm",
-      "document_id": "0000851205-26-000082",
-      "origin": "Q3 2026 10-Q via WebFetch, financial statements and segment note; MD&A and risk factors not in extraction",
-      "kind": "quarterly_filing",
-      "read_status": "relevant_sections",
-      "accessed_at": "2026-11-17T04:07:54-05:00"
-    },
-    {
-      "id": "e",
-      "url": "https://www.sec.gov/Archives/edgar/data/851205/000085120526000079/a10042026-xex991xq32026ear.htm",
-      "document_id": "0000851205-26-000079",
-      "origin": "Earnings release Ex 99.1 to 8-K filed 2026-11-04 via WebFetch (guidance, adjusted EPS, tax rate)",
-      "kind": "earnings_release",
-      "read_status": "relevant_sections",
-      "accessed_at": "2026-11-17T04:07:54-05:00"
-    },
-    {
-      "id": "fy",
-      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000851205.json",
-      "document_id": "SEC-companyfacts-CIK0000851205",
-      "origin": "SEC XBRL companyfacts by script: FY2025 10-K 0000851205-26-000012; 9M25 period ended 2025-09-28 and 9M26 ended 2026-10-04",
-      "kind": "annual_filing",
-      "read_status": "relevant_sections",
-      "accessed_at": "2026-11-17T04:07:54-05:00"
-    },
-    {
-      "id": "qa",
-      "url": "https://stockanalysis.com/stocks/cgnx/history/",
-      "document_id": "stockanalysis-CGNX-2026-11-16",
-      "origin": "stockanalysis.com via WebFetch; close 2026-11-16 (origin undocumented)",
-      "kind": "quote",
-      "read_status": "relevant_sections",
-      "accessed_at": "2026-11-17T04:07:54-05:00"
-    },
-    {
-      "id": "qb",
-      "url": "https://finance.yahoo.com/quote/CGNX/history/",
-      "document_id": "yahoo-finance-CGNX-2026-11-16",
-      "origin": "Yahoo Finance via WebFetch; close 2026-11-16 (origin undocumented)",
-      "kind": "quote",
-      "read_status": "relevant_sections",
-      "accessed_at": "2026-11-17T04:07:54-05:00"
-    }
-  ],
-  "checks": {
-    "latest_filing_checked": {
-      "passed": true,
-      "source_ids": [
-        "q",
-        "e"
-      ],
-      "note": "10-Q filed 2026-11-05 and release 2026-11-04 read; submissions list shows no later 8-K to 2026-11-17 in recent filings viewed."
-    },
-    "balance_sheet_verified": {
-      "passed": true,
-      "source_ids": [
-        "q"
-      ],
-      "note": "2026-10-04 cash 694.695M, investments 151.289M, total assets 2,276.467M, total liabilities 554.977M; no debt line seen; lease and other obligations not itemized."
-    },
-    "cashflow_basis_verified": {
-      "passed": true,
-      "source_ids": [
-        "fy",
-        "q"
-      ],
-      "note": "OCF FY25 245.514M, 9M26 220.661M, 9M25 170.612M; capex 8.743M, 6.928M, 6.147M; TTM matched; period ends differ by days (2025-09-28 vs 2026-10-04)."
-    },
-    "share_count_basis_verified": {
-      "passed": true,
-      "source_ids": [
-        "q"
-      ],
-      "note": "168,378,060 shares at 2026-11-01 cover; diluted share count and options not modeled."
-    },
-    "valuation_complete": {
-      "passed": false,
-      "source_ids": [
-        "qa",
-        "qb",
-        "fy"
-      ],
-      "note": "Trailing P/E and FCF yield computed; EV/sales, peers, own-history and forward adjusted P/E (about 28x on 1.70) not compared."
-    },
-    "sector_model_appropriate": {
-      "passed": false,
-      "source_ids": [
-        "q",
-        "e"
-      ],
-      "note": "Machine vision needs organic growth, orders, end-market mix and gross margin trend; orders and end market breakdown not disclosed in extracted text."
-    },
-    "accounting_red_flags_reviewed": {
-      "passed": false,
-      "source_ids": [
-        "q",
-        "e"
-      ],
-      "note": "Prior-year discrete tax and one-time partnership revenue noted; MD&A, audit matters, RealSense accounting unread."
-    },
-    "counterthesis_written": {
-      "passed": true,
-      "source_ids": [
-        "q",
-        "e",
-        "fy"
-      ],
-      "note": "Covers valuation, tax-distorted growth, cyclicality, sequential guide drop, SBC, RealSense."
-    }
-  },
-  "price": {
+   {
+    "source_id": "qa",
     "value": 48.2,
     "currency": "USD",
-    "as_of": "2026-11-16T16:00:00-05:00",
-    "status": "previous_close",
-    "last_completed_session": "2026-11-16",
-    "sources": [
-      {
-        "source_id": "qa",
-        "value": 48.2,
-        "currency": "USD",
-        "as_of": "2026-11-16T16:00:00-05:00"
-      },
-      {
-        "source_id": "qb",
-        "value": 48.2,
-        "currency": "USD",
-        "as_of": "2026-11-16T16:00:00-05:00"
-      }
-    ]
-  },
-  "calculations": {
-    "valuation": {
-      "price": 48.2,
-      "shares_outstanding": 168378060,
-      "share_basis": "10-Q cover 2026-11-01",
-      "market_cap_usd": 8115900000.0,
-      "ttm_revenue_musd": 1105.425,
-      "ttm_net_income_musd": 241.944,
-      "pe_ttm": 33.5,
-      "ttm_fcf_musd": 286.039,
-      "fcf_yield_pct": 3.52,
-      "basis": "TTM=FY2025+9M26-9M25 USD millions: revenue 994.359+873.087-742.021; NI 114.442+209.280-81.778; OCF 245.514+220.661-170.612=295.563; capex 8.743+6.928-6.147=9.524; FCF 286.039. Adjusted EPS guide midpoint 1.70 gives about 28.4x (management-adjusted)."
-    },
-    "cash_flow": {
-      "ocf_ttm_musd": 295.6,
-      "capex_ttm_musd": 9.5,
-      "basis": "USD millions, PP&E purchases net of proceeds"
-    },
-    "balance_sheet": {
-      "cash_musd": 694.7,
-      "debt_musd": null,
-      "total_liabilities_musd": 555.0,
-      "basis": "10-Q 2026-10-04; debt not shown as a line item in the extracted excerpt, left null; investments 151.3M additional"
-    }
-  },
-  "unresolved_critical_gaps": [
-    "MD&A, orders, end-market mix, tariffs, customer concentration unread",
-    "RealSense price and financing unknown; cause of 11-16 drop unknown",
-    "Peers and own-history multiples not compared",
-    "Quote independence is publisher level only",
-    "Scores not assigned"
+    "as_of": "2026-11-16T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 48.2,
+    "currency": "USD",
+    "as_of": "2026-11-16T16:00:00-05:00"
+   }
   ]
+ },
+ "calculations": {
+  "valuation": {
+   "price": 48.2,
+   "shares_outstanding": 168378060,
+   "share_basis": "10-Q cover 2026-11-01",
+   "market_cap_usd": 8115900000.0,
+   "ttm_revenue_musd": 1105.425,
+   "ttm_net_income_musd": 241.944,
+   "pe_ttm": 33.5,
+   "ttm_fcf_musd": 286.039,
+   "fcf_yield_pct": 3.52,
+   "basis": "TTM=FY2025+9M26-9M25 USD millions: revenue 994.359+873.087-742.021; NI 114.442+209.280-81.778; OCF 245.514+220.661-170.612=295.563; capex 8.743+6.928-6.147=9.524; FCF 286.039. Adjusted EPS guide midpoint 1.70 gives about 28.4x (management-adjusted)."
+  },
+  "cash_flow": {
+   "ocf_ttm_musd": 295.6,
+   "capex_ttm_musd": 9.5,
+   "basis": "USD millions, PP&E purchases net of proceeds"
+  },
+  "balance_sheet": {
+   "cash_musd": 694.7,
+   "debt_musd": null,
+   "total_liabilities_musd": 555.0,
+   "basis": "10-Q 2026-10-04; debt not shown as a line item in the extracted excerpt, left null; investments 151.3M additional"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Customer concentration, tariff text and orders detail unread; RealSense financials and spinout unread; cause of 11-16 drop unknown",
+  "Peers and own-history multiples not compared",
+  "Quote independence is publisher level only",
+  "Scores not assigned"
+ ]
 }
