@@ -1,0 +1,176 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "currency": "USD",
+ "as_of": "2026-11-19T08:10:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "ticker": "WTFC",
+ "exchange": "Nasdaq",
+ "cik": 1015328,
+ "sector_model": "Bank holding company (regional large): value on P/E, price to tangible common equity, ROTCE, NIM, credit quality and capital; no generic FCF or liability ratios.",
+ "thesis": "Wintrust Financial (Nasdaq: WTFC). Q3 2026 10-Q (filed 2026-11-04) read in part (statements). Q3 NI 239.1M, 9M 700.1M vs 600.8M; 9M diluted EPS 9.89; Q3 EPS 3.37; Q3 net interest income 621.6M; provision Q3 25.9M, 9M 78.6M. Loans 56.80B vs 53.11B at year end (+7.0% in nine months); deposits 62.4B; allowance 401.7M (0.71% of loans, own calculation); assets 76.0B. TTM NI to common (FY25 + 9M26 - 9M25) 889.7M. Equity 7,289.5M less preferred 425.0M, goodwill 804.7M and intangibles 110.0M = tangible common equity about 5,949.9M. Close 149.98 (2026-11-18) x 67,484,328 shares (10-Q cover, 2026-10-30) = 10.12B market cap = 11.4x TTM earnings to common and about 1.70x tangible common equity; TTM ROTCE about 15.0%. Price implies a high mid teens return on tangible equity with steady loan growth; against that, 1.7x tangible book is not demanding but 15% ROTCE already reflects strong earnings.",
+ "counterthesis": "Loan growth of 7% in nine months with an allowance of only 0.71% of loans leaves less cushion if commercial real estate or specialty finance credit sours. Nonperforming loans, CET1, NIM and CRE concentration were not extracted. A Northern Trust guardianship business purchase (tag dated 2026-09-01) has unread terms. Earnings rose partly with higher rates; margin sensitivity unverified. Equity reflects unrealized securities losses not examined. Peers (ZION, FNB, WAL, PNFP) not compared.",
+ "invalidation": "Invalidated if nonperforming loans or net charge offs rise materially, loan growth outruns capital, NIM compresses with rate cuts, or ROTCE falls below about 12%.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/1015328/000101532826000031/wtfc-20260930.htm",
+   "document_id": "0001015328-26-000031",
+   "origin": "10-Q quarter ended 2026-09-30 filed 2026-11-04, read via WebFetch in two segments (cover and financial statements); MD&A credit and capital tables not read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T08:10:00-05:00"
+  },
+  {
+   "id": "x",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001015328.json",
+   "document_id": "SEC-companyfacts-CIK0001015328",
+   "origin": "SEC XBRL company facts: NI to common FY2025, 9M25, 9M26; equity, assets, deposits",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T08:10:00-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001015328.json",
+   "document_id": "SEC-submissions-CIK0001015328",
+   "origin": "SEC submissions list: 10-Q 2026-11-04; 8-K 2026-10-19 (release not read)",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T08:10:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/wtfc/history/",
+   "document_id": "stockanalysis-WTFC-2026-11-18",
+   "origin": "stockanalysis.com via WebFetch; close 2026-11-18 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T08:10:00-05:00",
+   "origin_verified": false
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/WTFC/history/",
+   "document_id": "yahoo-finance-WTFC-2026-11-18",
+   "origin": "Yahoo Finance via WebFetch; close 2026-11-18 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T08:10:00-05:00",
+   "origin_verified": false
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q"
+   ],
+   "note": "10-Q filed 2026-11-04 is the latest; 8-K 2026-10-19 unread."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "x"
+   ],
+   "note": "Equity 7,289.5M, preferred 425.0M, goodwill 804.7M, intangibles 110.0M, loans 56,804.6M, deposits 62,435.2M, allowance 401.7M at 2026-09-30."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "x"
+   ],
+   "note": "Bank model: earnings used, not FCF; 9M26 OCF 1,540.1M noted but not used."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "67,484,328 cover shares at 2026-10-30."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "x"
+   ],
+   "note": "P/E and P/TCE computed; peer banks and own history not compared; NIM and CET1 unread."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Bank model: P/E, P/TCE, ROTCE, allowance; no FCF yield."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Allowance level noted; credit tables, securities marks, audit matters unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "x"
+   ],
+   "note": "Covers allowance, CRE, rate sensitivity and unread acquisition."
+  }
+ },
+ "price": {
+  "value": 149.98,
+  "currency": "USD",
+  "as_of": "2026-11-18T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-18",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 149.98,
+    "currency": "USD",
+    "as_of": "2026-11-18T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 149.98,
+    "currency": "USD",
+    "as_of": "2026-11-18T16:00:00-05:00"
+   }
+  ]
+ },
+ "calculations": {
+  "valuation": {
+   "price": 149.98,
+   "shares_outstanding": 67484328,
+   "share_basis": "10-Q cover 2026-10-30",
+   "market_cap_usd": 10121000000,
+   "pe_ttm": 11.4,
+   "basis": "TTM USD millions: NI to common 889.7; tangible common equity 5949.9 = 7289.5 - 425.0 - 804.7 - 110.0; P/TCE 1.70x; TTM ROTCE 15.0% on period end equity"
+  },
+  "balance_sheet": {
+   "equity_musd": 7289.5,
+   "total_liabilities_musd": 68682.1,
+   "basis": "10-Q 2026-09-30; liabilities = assets 75,971.6 less equity"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "NIM, nonperforming loans, CET1 and CRE concentration not read from MD&A",
+  "Peers and own history not compared",
+  "Northern Trust guardianship acquisition terms unread",
+  "Quote origins undocumented"
+ ]
+}

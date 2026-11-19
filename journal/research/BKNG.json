@@ -1,0 +1,176 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "currency": "USD",
+ "as_of": "2026-11-19T08:10:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "ticker": "BKNG",
+ "exchange": "Nasdaq",
+ "cik": 1075531,
+ "sector_model": "Online travel marketplace (large): value on FCF after SBC, earnings quality, buybacks and debt; litigation and FX noise in GAAP.",
+ "thesis": "Booking Holdings (Nasdaq: BKNG). Q3 2026 10-Q (filed 2026-11-03) read in part. 25 for 1 stock split effective 2026-04-02; all per share figures here are post split. Q3 revenue 8,893M vs 9,008M including a 900M reduction tied to the FTC matter; 9M 21,777M vs 20,568M (+5.9%). Q3 NI 2,717M vs 2,748M; 9M NI 5,750M vs 3,976M, helped by 655M of foreign currency gains on euro debt (vs about 1.4B losses in 9M25) and an 89M settlement gain. TTM (FY25 + 9M26 - 9M25): NI 7,178M, OCF 9,561M, capex 324M, FCF 9,237M; TTM SBC unavailable (9M26 427M). Close 153.28 (2026-11-18) x 743,701,257 shares (10-Q cover, 2026-10-26) = 114.0B market cap = 15.9x TTM NI and 8.1% FCF yield (before SBC; about 7.6% using 9M26 SBC annualized roughly, own approximation). Debt principal 20.2B against cash 15.8B (cash overlaps with 14.0B money market and CDs per note, so net debt not resolved). 9M buybacks 9.9B (56M shares), dividends 978M; 12.4B authorization remains. The price implies steady mid single digit growth plus continued heavy buybacks; the evidence shows strong cash generation, but earnings are flattered by FX gains and FCF by an accrued, unpaid 900M FTC charge.",
+ "counterthesis": "The 900M FTC revenue reduction and 100M accrued loss are accruals, so future cash outflows are likely to reduce FCF. Spain CNMC fine liability 469M. A European Commission DSA investigation opened October 2026. Revenue fell in Q3 year on year. 9M earnings growth of 45% is mostly FX and prior year impairments, not operations. Buybacks of 9.9B in nine months exceed FCF after dividends, funded partly by 1.3B of net debt growth. Large cap duplicates exposure already in broad index funds.",
+ "invalidation": "Invalidated if room nights and bookings growth turn negative, FTC or EU penalties exceed accruals materially, or buybacks keep running above FCF while debt rises.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/1075531/000107553126000045/bkng-20260930.htm",
+   "document_id": "0001075531-26-000045",
+   "origin": "10-Q quarter ended 2026-09-30 filed 2026-11-03, read via WebFetch in two segments (statements, debt, buyback and one-off notes); MD&A bookings metrics not read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T08:10:00-05:00"
+  },
+  {
+   "id": "x",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001075531.json",
+   "document_id": "SEC-companyfacts-CIK0001075531",
+   "origin": "SEC XBRL company facts: FY2025 10-K and 9M25, 9M26 revenue, OCF, capex, SBC, buybacks; FY25 NI from 10-K filed value 5,404M (PRE 14A fact)",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T08:10:00-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001075531.json",
+   "document_id": "SEC-submissions-CIK0001075531",
+   "origin": "SEC submissions list: 10-Q and 8-K 2026-11-03; 8-K 2026-11-13 and notes offering 424B5 2026-11-09 (unread)",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T08:10:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/bkng/history/",
+   "document_id": "stockanalysis-BKNG-2026-11-18",
+   "origin": "stockanalysis.com via WebFetch; close 2026-11-18 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T08:10:00-05:00",
+   "origin_verified": false
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/BKNG/history/",
+   "document_id": "yahoo-finance-BKNG-2026-11-18",
+   "origin": "Yahoo Finance via WebFetch; close 2026-11-18 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T08:10:00-05:00",
+   "origin_verified": false
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q"
+   ],
+   "note": "10-Q filed 2026-11-03 read in part; 8-K 2026-11-13 and 424B5 2026-11-09 unread."
+  },
+  "balance_sheet_verified": {
+   "passed": false,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Debt principal 20.2B and cash 15,814M read; overlap with money market holdings (13,981M) not resolved, equity not extracted."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "x",
+    "q"
+   ],
+   "note": "TTM OCF 9,561M = 9,409 + 8,071 - 7,919; capex 324M = 322 + 251 - 249; matching periods."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "743,701,257 cover shares at 2026-10-26, post split."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "x"
+   ],
+   "note": "Multiples computed; peers (EXPE, ABNB) and history not compared; TTM SBC missing."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Marketplace: FCF, SBC, buybacks, debt."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "FX gains, FTC accrual, Spain fine, settlement gain and prior impairments identified from 10-Q notes."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Covers accruals, FX distortion, buybacks, regulation."
+  }
+ },
+ "price": {
+  "value": 153.28,
+  "currency": "USD",
+  "as_of": "2026-11-18T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-18",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 153.28,
+    "currency": "USD",
+    "as_of": "2026-11-18T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 153.28,
+    "currency": "USD",
+    "as_of": "2026-11-18T16:00:00-05:00"
+   }
+  ]
+ },
+ "calculations": {
+  "valuation": {
+   "price": 153.28,
+   "shares_outstanding": 743701257,
+   "share_basis": "10-Q cover 2026-10-26, post 25 for 1 split",
+   "market_cap_usd": 114000000000,
+   "pe_ttm": 15.9,
+   "fcf_yield_ttm": 0.081,
+   "basis": "TTM USD millions: NI 7178 (FY25 5404 + 9M26 5750 - 9M25 3976), OCF 9561, capex 324, FCF 9237; SBC TTM unavailable"
+  },
+  "balance_sheet": {
+   "cash_musd": 15814,
+   "debt_musd": 20200,
+   "basis": "10-Q 2026-09-30; debt principal; cash may overlap money market funds"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Net debt unresolved (cash versus money market overlap)",
+  "TTM SBC and FY25 NI not read from a statement",
+  "Peers and history not compared; bookings and room nights unread",
+  "8-K 2026-11-13 and 424B5 2026-11-09 unread; quote origins undocumented"
+ ]
+}

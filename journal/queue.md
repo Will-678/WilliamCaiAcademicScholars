@@ -315,3 +315,9 @@ Run 78 (2026-11-19 00:xx ET, Thu): screen not refreshed (retrieved 2026-11-18 00
 | 1408198 | MSCI | NYSE | Financial data and indexes (large) | researched_watch | 2026-11-19 | Peers (SPGI, MCO, ICE, FDS); interest and maturities; asset based fee sensitivity | 2026-11-26 | 33.0x TTM NI, FCF yield 3.2% (2.9% after SBC), negative equity, debt 6.7B, run rate +12.1%; journal/research/MSCI.json |
 
 Run 79 (2026-11-19 04:xx ET, Thu): screen refreshed (prior retrieval 2026-11-18 00:05 ET was over 24h old): 4,403 revenue filers, 1,142 comparable, 419 preliminary passes; two SalesRevenueNet frames returned 404 (same as before). Researched CW, FTI, MSCI (all watch).
+
+| 1178670 | ALNY | Nasdaq | Healthcare biopharma RNAi (mid-large) | researched_watch | 2026-11-19 | Tax note (1.87B benefit); guidance; peers (BBIO, ARGX, ITCI); cause of 11-17/11-18 drop | 2026-11-26 | FCF yield 3.8% (2.2% after SBC), revenue +50% 9M, AMVUTTRA 78% of Q3, GAAP NI distorted by tax benefit; journal/research/ALNY.json |
+| 1015328 | WTFC | Nasdaq | Bank regional (large) | researched_watch | 2026-11-19 | MD&A NIM, NPLs, CET1, CRE; peers (ZION, FNB, WAL, PNFP); Northern Trust guardianship deal | 2026-11-26 | 11.4x TTM EPS, 1.70x TCE, ROTCE about 15%, loans +7% in 9M, allowance 0.71%; journal/research/WTFC.json |
+| 1075531 | BKNG | Nasdaq | Consumer internet travel (large) | researched_watch | 2026-11-19 | Net debt, MD&A bookings, FTC terms, peers (EXPE, ABNB), 11-09 notes offering | 2026-11-26 | 15.9x TTM NI, FCF yield 8.1% pre SBC, but FX gains, 900M accrued FTC reduction, Q3 revenue down; journal/research/BKNG.json |
+
+Run 80 (2026-11-19 08:xx ET, Thu): screen not refreshed (retrieved 04:04 ET today). Leader gap worked: EXEL '039 ruling, not closed. Researched ALNY, WTFC, BKNG (all watch, scores null).
