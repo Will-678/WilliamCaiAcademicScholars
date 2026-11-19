@@ -321,3 +321,8 @@ Run 79 (2026-11-19 04:xx ET, Thu): screen refreshed (prior retrieval 2026-11-18 
 | 1075531 | BKNG | Nasdaq | Consumer internet travel (large) | researched_watch | 2026-11-19 | Net debt, MD&A bookings, FTC terms, peers (EXPE, ABNB), 11-09 notes offering | 2026-11-26 | 15.9x TTM NI, FCF yield 8.1% pre SBC, but FX gains, 900M accrued FTC reduction, Q3 revenue down; journal/research/BKNG.json |
 
 Run 80 (2026-11-19 08:xx ET, Thu): screen not refreshed (retrieved 04:04 ET today). Leader gap worked: EXEL '039 ruling, not closed. Researched ALNY, WTFC, BKNG (all watch, scores null).
+
+| 1633917 | PYPL | Nasdaq | Payments platform (large) | researched_watch | 2026-11-19 | 8-K release and liquidity note; peers (Block, Fiserv, Visa); other income swing; legal outcomes (branded checkout class action, CFPB CIDs) | 2026-11-26 | 10.2x TTM NI, FCF yield 13.1% (11.1% after SBC) but operating income -8% in Q3, TPV +6%, buybacks 4.55B in 9M; journal/research/PYPL.json |
+| 51143 | IBM | NYSE | Large diversified IT, software led (large) | researched_watch | 2026-11-19 | 8-K release; organic software growth ex Confluent; TTM FCF on company definition; peers (ACN, ORCL, KD, HPE) | 2026-11-26 | 19.3x TTM NI, revenue +4.9% 9M, Software +8.1% (Confluent acquired), 9M FCF 7.8B ex financing receivables, debt 63.8B; journal/research/IBM.json |
+
+Run 81 (2026-11-19 12:xx ET, Thu): screen not refreshed (retrieved 04:04 ET today, about 8h old, no failure). Leader gap worked: WTFC credit and capital tables (NIM 3.49%, NPL 0.31% of loans, CET1 10.5%), mostly closed; next WTFC action is peers. Researched PYPL and IBM (both watch, scores null). Third slot not used: depth over quota.

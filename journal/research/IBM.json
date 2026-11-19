@@ -1,0 +1,190 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "currency": "USD",
+ "as_of": "2026-11-19T12:08:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "ticker": "IBM",
+ "exchange": "NYSE",
+ "cik": 51143,
+ "sector_model": "Large diversified IT (software led) with financing arm: value on P/E, FCF using IBM's definition excluding financing receivables, acquisition adjusted growth, net debt split between Financing and non-Financing; not a bank.",
+ "thesis": "IBM (NYSE: IBM). Q3 2026 10-Q (filed 2026-10-22) downloaded and read in part (statements, segment note, acquisitions note, MD&A liquidity and free cash flow). Q3 revenue 17,103M vs 16,331M (+4.7%); 9M 50,182M vs 47,849M (+4.9%); Software 9M 22,617M vs 20,932M (+8.1%, includes Confluent from Q1 2026, price 11,602M), Consulting 15,934M (+1.4%), Infrastructure 10,868M (+2.7%). Q3 segment profit Software +15.2%, Consulting -4.8%. 9M NI 5,571M vs 4,993M; Q3 diluted EPS 2.32 as reported. TTM (FY25 10-K + 9M26 - 9M25, USD millions): revenue 69,868; NI 11,171; GAAP OCF 15,831 (13,193+11,791-9,153), which includes financing receivable runoff (9M change 2,805M); PP&E capex 1,175 (1,091+793-709); SBC 1,969 (1,715+1,539-1,285). IBM's own 9M free cash flow 7,787M (OCF ex financing receivables 8,986M less net capex 1,200M) vs 7,181M a year earlier; this record uses that 9M figure and does not annualize it; investment in software 467M in 9M is a separate line. Close 228.53 (NYSE, 2026-11-18) x 945,120,805 shares (10-Q cover, 2026-09-30) = 216.0B market cap = 19.3x TTM NI. Debt 63.8B (Financing 12.7B, non-Financing 51.2B) vs cash, restricted cash and marketable securities 11.1B; non-Financing net debt about 40B (own subtraction, approximate, ignores Financing assets). Dividends 4.76B in 9M26 about 3.0% annualized of market cap (own calculation). Price implies mid single digit growth with software mix lifting margin; evidence differing from a no growth view: software growth and segment profit. A large part of Software growth is acquired (Confluent).",
+ "counterthesis": "Consulting is flat (+0.2% in Q3, segment profit -4.8%); Software organic growth is not separated from Confluent and other acquisitions. Acquisitions 11.4B in 9M26 funded partly with debt: total debt rose 2.6B and cash fell 3.4B, while dividends consume 4.8B so free cash flow after dividends is about 3.0B before acquisitions. Free cash flow depends on financing receivable collections (2.8B benefit in 9M26 vs 0.9B); GAAP OCF flatters. Investment in software and acquired intangibles amortization are not in capex. Reported EPS includes tax and other items; non-GAAP operating EPS 7.79 vs reported 5.86 for 9M shows a large adjustment gap (amortization, pension, acquisition charges, unread). Peers (ACN, Oracle, HPE, Kyndryl) and own history not compared; AI and mainframe cycle (z17 launched June 2025) comparisons unread.",
+ "invalidation": "Invalidated if Software growth ex acquisitions falls below mid single digits, Consulting declines, free cash flow ex financing receivables stops covering dividends plus interest, or debt keeps rising without earnings growth.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000095/ibm-20260930.htm",
+   "document_id": "0000051143-26-000095",
+   "origin": "10-Q quarter ended 2026-09-30 filed 2026-10-22; downloaded and converted to text; cover, statements, segment and acquisition notes, MD&A liquidity and free cash flow read; risk factors, pension and tax notes unread",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T12:08:00-05:00"
+  },
+  {
+   "id": "x",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000051143.json",
+   "document_id": "SEC-companyfacts-CIK0000051143",
+   "origin": "SEC XBRL company facts: NI, OCF, PP&E capex, SBC, revenue FY25, 9M25, 9M26",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T12:08:00-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0000051143.json",
+   "document_id": "SEC-submissions-CIK0000051143",
+   "origin": "SEC submissions list: 10-Q 2026-10-22 and 8-K 2026-10-21 latest; 8-K release not read",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T12:08:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/ibm/history/",
+   "document_id": "stockanalysis-IBM-2026-11-18",
+   "origin": "stockanalysis.com via WebFetch; close 2026-11-18 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T12:08:00-05:00",
+   "origin_verified": false
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/IBM/history/",
+   "document_id": "yahoo-finance-IBM-2026-11-18",
+   "origin": "Yahoo Finance via WebFetch; close 2026-11-18 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T12:08:00-05:00",
+   "origin_verified": false
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q"
+   ],
+   "note": "10-Q filed 2026-10-22 is the latest periodic filing; 8-K 2026-10-21 (earnings release) not read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Cash 9,233M, marketable securities 1,825M, restricted cash 48M, total debt 63,817M (Financing 12,652M, non-Financing 51,166M), IBM stockholders equity 35,537M at 2026-09-30 (USD)."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "x",
+    "q"
+   ],
+   "note": "TTM OCF 15,831M = 13,193+11,791-9,153; PP&E capex 1,175M = 1,091+793-709; 9M investment in software 467M and company FCF 7,787M read; TTM FCF not computed because FY25 company FCF not read."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "945,120,805 shares at 2026-09-30 from the 10-Q cover; point in time."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "x",
+    "qa",
+    "qb"
+   ],
+   "note": "P/E computed; peers, history and organic software growth not compared; TTM FCF on IBM definition missing."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Diversified IT with financing arm: FCF ex financing receivables and Financing debt split used; not a bank."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Acquisition accounting, GAAP to operating EPS gap and financing receivables noted; pension, tax, goodwill and risk factors unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "x"
+   ],
+   "note": "Covers consulting, acquired growth, leverage, FCF quality and adjustments."
+  }
+ },
+ "price": {
+  "value": 228.53,
+  "currency": "USD",
+  "as_of": "2026-11-18T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-18",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 228.53,
+    "currency": "USD",
+    "as_of": "2026-11-18T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 228.53,
+    "currency": "USD",
+    "as_of": "2026-11-18T16:00:00-05:00"
+   }
+  ]
+ },
+ "calculations": {
+  "valuation": {
+   "price": 228.53,
+   "shares_outstanding": 945120805,
+   "share_basis": "10-Q cover 2026-09-30",
+   "market_cap_usd": 215988457567,
+   "pe_ttm": 19.3,
+   "fcf_yield_ttm": null,
+   "fcf_yield_after_sbc_ttm": null,
+   "basis": "TTM USD millions: revenue 69868, NI 11171, GAAP OCF 15831, PP&E capex 1175, SBC 1969; company FCF 9M26 7787 (ex financing receivables) not annualized; TTM yield null because FY25 company FCF not read"
+  },
+  "cash_flow": {
+   "ocf_9m_musd": 11791,
+   "capex_9m_musd": 793,
+   "sbc_9m_musd": 1539,
+   "buyback_9m_musd": null,
+   "basis": "USD millions, nine months to 2026-09-30; software investment 467 not in capex; buybacks only for tax withholding 817 (not a repurchase program figure)"
+  },
+  "balance_sheet": {
+   "cash_musd": 9233,
+   "investments_musd": 1825,
+   "debt_musd": 63817,
+   "total_liabilities_musd": null,
+   "equity_musd": 35537,
+   "basis": "10-Q 2026-09-30; debt includes Financing segment debt 12652"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers and history unread",
+  "Organic software growth ex Confluent unread",
+  "TTM FCF on company definition not computed",
+  "Quote origins undocumented"
+ ]
+}
