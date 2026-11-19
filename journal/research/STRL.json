@@ -1,0 +1,194 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "currency": "USD",
+ "as_of": "2026-11-19T00:08:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "ticker": "STRL",
+ "exchange": "Nasdaq",
+ "cik": 874238,
+ "sector_model": "Engineering and construction, data center site and electrical work (mid): value on earnings and FCF through a cycle, backlog quality, customer advances in operating cash flow, acquisition goodwill; not a bank or insurer model.",
+ "thesis": "Sterling Infrastructure (Nasdaq: STRL). Q3 2026 10-Q (filed 2026-10-29) and Q3 earnings release (8-K Ex 99.1, 2026-10-28) read in part. Q3 revenue 1,563.9M vs 689.0M (+127%; CEO says 70% organic, rest mainly CEC acquired 2025-09-01); 9M 3,557.8M vs 1,734.4M. E-Infrastructure 9M 2,805.5M vs 945.8M; Transportation and Building flat to down. Q3 GAAP operating income 306.8M (19.6%), net income to Sterling 214.9M, diluted EPS 6.92. Combined backlog 6.14B (+78%; 4.14B signed, 2.00B unsigned awards); 10-Q RPO 4,048.8M vs 3,010.9M at year end, 72% expected within 12 months. FY26 guide: revenue 4.63B to 4.73B, GAAP EPS 19.16 to 19.42, adjusted EBITDA 970M to 981M. TTM (FY25 + 9M26 - 9M25, USD): revenue 4,313.4M, net income to Sterling 554.3M, OCF 613.1M, capex 141.8M, FCF 471.3M. Close 276.36 (2026-11-18) x 30,502,537 shares (cover 2026-10-27) = 8.43B market cap = 15.2x TTM NI, 14.3x guided FY26 GAAP EPS midpoint 19.29, FCF yield 5.6% (5.0% after TTM SBC 32.7M). Net cash about 121.6M (cash 216.9M less 95.3M debt; leases excluded); 1.5B revolver to 2031; goodwill 628.1M after Stone Ridge (closed 2026-06-01, 178.1M). The price (about 20% below the 2026-11-12 level of 301.60 to 275.13 on 11-16) implies the data center build cycle continues but at a modest multiple of guided earnings; what differs is backlog growth and cash conversion; what could close the gap is delivery of the guide; not shown to be mispriced because margin durability and customer concentration are unread.",
+ "counterthesis": "Earnings are tied to a data center capex cycle and a few large customers (concentration not found in extracted text). Operating cash flow is helped by contract liabilities rising 265M YTD (917.4M vs 652.4M), i.e. customer advances that reverse as projects complete; 2.00B of backlog is unsigned awards. Revenue jump is partly acquisition and guidance implies 88% growth, a hard comparison next year. Goodwill and intangibles from CEC (308.9M goodwill, 227.8M intangibles) and Stone Ridge are large; earn-out of 39.2M. Q3 NI includes noncontrolling interest. The 8% fall from 11-13 to 11-16 has an unknown cause.",
+ "invalidation": "Invalidated if backlog stops growing or unsigned awards fail to convert, gross margin falls materially, data center customer spending is cut, contract liabilities unwind faster than earnings grow, or FCF after SBC stays below net income by a widening margin.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000125/strl-20260930.htm",
+   "document_id": "0000874238-26-000125",
+   "origin": "10-Q quarter ended 2026-09-30 filed 2026-10-29, read via WebFetch (statements, RPO, acquisitions, debt, leases); segment margins and concentration not in extracted text",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T00:08:00-05:00"
+  },
+  {
+   "id": "er",
+   "url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000122/a20261028ex991earningsrele.htm",
+   "document_id": "0000874238-26-000122",
+   "origin": "Issuer Q3 2026 earnings release, 8-K Ex 99.1 filed 2026-10-28, read via WebFetch",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T00:08:00-05:00"
+  },
+  {
+   "id": "x",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000874238.json",
+   "document_id": "SEC-companyfacts-CIK0000874238",
+   "origin": "SEC XBRL company facts parsed for FY2025, 9M25, 9M26 revenue, NI, OCF, capex, SBC",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T00:08:00-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0000874238.json",
+   "document_id": "SEC-submissions-CIK0000874238",
+   "origin": "SEC submissions list: latest 10-Q 2026-10-29, 8-K 2026-10-28",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T00:08:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/strl/history/",
+   "document_id": "stockanalysis-STRL-2026-11-18",
+   "origin": "stockanalysis.com via WebFetch; close 2026-11-18 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T00:08:00-05:00",
+   "origin_verified": false
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/STRL/history/",
+   "document_id": "yahoo-finance-STRL-2026-11-18",
+   "origin": "Yahoo Finance via WebFetch; close 2026-11-18 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T00:08:00-05:00",
+   "origin_verified": false
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q",
+    "er"
+   ],
+   "note": "Submissions list shows 10-Q 2026-10-29 and 8-K 2026-10-28 as latest; both read in part."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Cash 216.9M, debt 95.3M, total liabilities 1,927.0M, Sterling equity 1,507.9M, goodwill 628.1M at 2026-09-30 (USD)."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "x",
+    "q"
+   ],
+   "note": "TTM OCF 613.1M = 440.0 + 427.1 - 253.9; capex 141.8M = 77.3 + 115.5 - 50.9; USD matching periods."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "30,502,537 shares at 2026-10-27, 10-Q cover, point in time."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "x",
+    "qa"
+   ],
+   "note": "Multiples computed; peers (PRIM, MTZ, PWR, FIX, EME) and own history not compared."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "er"
+   ],
+   "note": "Contractor model: backlog, customer advances, acquisition goodwill; not a generic score."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Advances and goodwill noted; revenue recognition estimates, audit matters and concentration unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "er",
+    "x"
+   ],
+   "note": "Covers cycle, advances, unsigned backlog, acquisition and comparison risks."
+  }
+ },
+ "price": {
+  "value": 276.36,
+  "currency": "USD",
+  "as_of": "2026-11-18T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-18",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 276.36,
+    "currency": "USD",
+    "as_of": "2026-11-18T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 276.36,
+    "currency": "USD",
+    "as_of": "2026-11-18T16:00:00-05:00"
+   }
+  ]
+ },
+ "calculations": {
+  "valuation": {
+   "price": 276.36,
+   "shares_outstanding": 30502537,
+   "share_basis": "10-Q cover 2026-10-27",
+   "market_cap_usd": 8429681125,
+   "pe_ttm": 15.2,
+   "fcf_yield_ttm": 0.0559,
+   "fcf_yield_after_sbc_ttm": 0.049,
+   "basis": "TTM USD millions: revenue 4313.4, NI to Sterling 554.3, OCF 613.1, capex 141.8, FCF 471.3, SBC 32.7"
+  },
+  "balance_sheet": {
+   "cash_musd": 216.937,
+   "debt_musd": 95.27,
+   "total_liabilities_musd": 1927.036,
+   "equity_musd": 1507.944,
+   "basis": "10-Q 2026-09-30"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers and own multiple history not compared",
+  "Customer concentration, segment margins, backlog margin unread",
+  "Unsigned awards 2.00B conversion unverified",
+  "Cause of 8% drop 11-13 to 11-16 unknown",
+  "Quote origins undocumented (publisher level only)"
+ ]
+}

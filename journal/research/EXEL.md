@@ -42,3 +42,6 @@ EXEL closed 69.57 on 2026-11-06 (stockanalysis.com and Yahoo, same feed likely).
 
 ## Run 65 correction (2026-11-16)
 The 2026-12-03 PDUFA date reported from snippets in run 64 is superseded: 8-K 0000939767-26-000108 (filed 2026-09-11, read) states the FDA's updated action date is 2027-03-03 after a major amendment. Latest SEC submissions list shows no EXEL filings after the 2026-10-29 10-Q and 8-K. The '039 ruling remains not found. Rating unchanged (watch).
+
+## Run 78 gap update (2026-11-19 00:10 ET)
+Priority gap: '039 patent trial outcome (scheduled November 2026). SEC submissions list read: latest filings are 10-Q and 8-K on 2026-10-29 and 13D/13G filings on 2026-11-09; no 8-K reports a ruling. A web search found no reported outcome either. Gap not closed; the trial result and any zanzalintinib update remain unread. Rating unchanged (watch). JSON unchanged.

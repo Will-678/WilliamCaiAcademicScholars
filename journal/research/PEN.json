@@ -1,0 +1,186 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "currency": "USD",
+ "as_of": "2026-11-19T00:08:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "ticker": "PEN",
+ "exchange": "NYSE",
+ "cik": 1321732,
+ "sector_model": "Medtech neurovascular and thrombectomy devices, pending cash-and-stock merger target (large): the price is anchored to the Boston Scientific offer, not standalone fundamentals; deal spread and regulatory risk are the model.",
+ "thesis": "Penumbra (NYSE: PEN). Q3 2026 10-Q (filed 2026-10-29) read in part. Merger Agreement dated 2026-01-14: Boston Scientific to acquire PEN at 374 per share (10-Q wording; enterprise value about 14.5B; consideration mix not stated in the text read); closing expected early 2027 subject to regulatory approvals; termination fees 525.0M payable by PEN and 900.0M by Boston Scientific in specified cases. Close 320.60 (2026-11-18) vs 374 implies a gross spread of 16.7% (374/320.60 - 1), unusually wide for a deal expected within months, which signals market doubt about regulatory approval, financing or timing (cause not verified). Standalone: Q3 revenue 410.1M vs 354.7M (+15.6%); 9M 1,174.9M (+15.4%); 9M NI 109.7M vs 130.3M (-15.9%) as tax rate rose to 23.9% from 7.9%. TTM (USD): revenue 1,560.3M, NI 157.0M, OCF 261.0M, capex 60.8M, FCF 200.2M, SBC 58.4M. Market cap 320.60 x 39,414,385 shares (cover 2026-10-14) = 12.64B = 80.5x TTM NI, FCF yield 1.6%; cash 254.3M plus marketable investments 419.3M, no borrowings (finance leases 21.4M), total liabilities 441.6M. Standalone multiples are not a valuation basis while the offer exists.",
+ "counterthesis": "If the deal fails, the stock may fall toward a standalone value: 80x trailing earnings and a 1.6% FCF yield assume sustained 15% growth and margin recovery, with the tax rate rising and 9M profit falling. The spread already prices some break risk; fees of 900M from the acquirer are not guaranteed relief. A researcher cannot add an edge on antitrust outcomes from filings alone. Duplicates medtech exposure often held through index funds.",
+ "invalidation": "For a deal-spread view: invalidated by an antitrust second request or challenge, a financing change, a termination notice or an amended lower price. For a standalone view: growth below 10% or falling margins.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/1321732/000132173226000043/pen-20260930.htm",
+   "document_id": "0001321732-26-000043",
+   "origin": "10-Q quarter ended 2026-09-30 filed 2026-10-29, read via WebFetch (statements, merger note, legal); MD&A and product revenue not in extracted text",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T00:08:00-05:00"
+  },
+  {
+   "id": "x",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001321732.json",
+   "document_id": "SEC-companyfacts-CIK0001321732",
+   "origin": "SEC XBRL company facts parsed for FY2025, 9M25, 9M26 revenue, NI, OCF, capex, SBC",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T00:08:00-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001321732.json",
+   "document_id": "SEC-submissions-CIK0001321732",
+   "origin": "SEC submissions list: latest 10-Q and 8-K 2026-10-29",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T00:08:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/pen/history/",
+   "document_id": "stockanalysis-PEN-2026-11-18",
+   "origin": "stockanalysis.com via WebFetch; close 2026-11-18 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T00:08:00-05:00",
+   "origin_verified": false
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/PEN/history/",
+   "document_id": "yahoo-finance-PEN-2026-11-18",
+   "origin": "Yahoo Finance via WebFetch; close 2026-11-18 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T00:08:00-05:00",
+   "origin_verified": false
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q"
+   ],
+   "note": "Submissions list shows 10-Q and 8-K on 2026-10-29; the 10-Q was read in part; the 8-K release (Ex 99.1) was not read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Cash 254.3M, marketable investments 419.3M, finance leases 21.4M, total liabilities 441.6M, equity 1,583.5M at 2026-09-30 (USD)."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "x",
+    "q"
+   ],
+   "note": "TTM OCF 261.0M = 238.7 + 174.6 - 152.2; capex 60.8M = 63.7 + 42.3 - 45.3; USD matching periods."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "39,414,385 shares at 2026-10-14, 10-Q cover, point in time."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "x",
+    "qa"
+   ],
+   "note": "Standalone multiples computed but the offer price governs; merger proxy, consideration mix, regulatory status and spread history unread."
+  },
+  "sector_model_appropriate": {
+   "passed": false,
+   "source_ids": [
+    "q"
+   ],
+   "note": "A merger-spread model is needed; the merger agreement and approvals were not read."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Tax rate swing noted; audit matters and full risk factors unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "x"
+   ],
+   "note": "Covers deal break, standalone valuation and tax drag."
+  }
+ },
+ "price": {
+  "value": 320.6,
+  "currency": "USD",
+  "as_of": "2026-11-18T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-18",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 320.6,
+    "currency": "USD",
+    "as_of": "2026-11-18T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 320.6,
+    "currency": "USD",
+    "as_of": "2026-11-18T16:00:00-05:00"
+   }
+  ]
+ },
+ "calculations": {
+  "valuation": {
+   "price": 320.6,
+   "shares_outstanding": 39414385,
+   "share_basis": "10-Q cover 2026-10-14",
+   "market_cap_usd": 12636251831,
+   "pe_ttm": 80.5,
+   "fcf_yield_ttm": 0.0158,
+   "basis": "TTM USD millions: revenue 1560.3, NI 157.0, OCF 261.0, capex 60.8, FCF 200.2, SBC 58.4"
+  },
+  "merger": {
+   "offer_per_share": 374.0,
+   "close": 320.6,
+   "gross_spread": 0.1666,
+   "basis": "10-Q merger note; consideration mix not verified"
+  },
+  "balance_sheet": {
+   "cash_musd": 254.282,
+   "investments_musd": 419.33,
+   "total_liabilities_musd": 441.594,
+   "equity_musd": 1583.509,
+   "basis": "10-Q 2026-09-30"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Merger proxy, consideration mix, regulatory review status unread",
+  "Reason for 16.7% spread unverified",
+  "Release and MD&A unread",
+  "Quote origins undocumented (publisher level only)"
+ ]
+}
