@@ -1,0 +1,189 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "currency": "USD",
+ "as_of": "2026-11-19T16:06:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "ticker": "DASH",
+ "exchange": "Nasdaq",
+ "cik": 1792789,
+ "sector_model": "Local commerce marketplace: value on P/E (GAAP, SBC heavy), FCF after capitalized software and SBC, GOV and order growth, net cash; operating cash flow includes merchant payable timing.",
+ "thesis": "DoorDash (Nasdaq: DASH). Q3 2026 10-Q (filed 2026-10-30) downloaded and read: statements, convertible note, credit facility, MD&A metrics. Q3 total orders 993M vs 776M (+28%), Marketplace GOV 33,941M vs 25,015M (+36%) including Deliveroo (acquired 2025-10-02, 3,724M consideration) so reported growth is partly acquired. 9M revenue 13,106M vs 9,762M (+34%); 9M NI 850M vs 722M. TTM (USD millions, FY25 10-K + 9M26 - 9M25): NI 1063 (935+850-722); OCF 2953 (2,431+2,532-2,010); PP&E capex 262 (257+208-203); capitalized software 488 (348+375-235); FCF 2203; SBC 1123 (1,051+847-775); FCF after SBC 1080. Close 166.8 (2026-11-18) x 435,976,331 shares (Class A 411,998,576 + Class B 23,977,755, 10-Q cover 2026-10-26; Class B converts 1:1, assumption) = 72.7B = 68x TTM NI; FCF yield 3.0% (1.5% after SBC). Cash 5,053M + short term investments 929M = 5,982M vs 0% convertible notes 2,728M carrying (2,750M principal due 2030-05-15): net cash about 3,254M, before merchant and Dasher payables inside 5,645M accrued liabilities. Price implies sustained 25%+ GOV growth and large margin expansion; the filing shows growth and net cash but earnings are small relative to price. Stock fell 5.8% on 2026-11-19 (157.21 stockanalysis.com, 157.13 Yahoo; cause not investigated).",
+ "counterthesis": "Valuation: 68x GAAP earnings and FCF yield 1.5% after SBC; SBC is about 38% of OCF and annual dilution is real (Class A shares +2.3M in 9M after buybacks unread). Reported growth is boosted by Deliveroo; organic growth not separated. 9M NI rose only 18% against 34% revenue growth, so margin leverage is not evident in GAAP; accrued liabilities 5,645M mean OCF benefits from merchant payable timing. Competition (Uber Eats, Instacart, Amazon), regulation of gig workers and fees, and heavy investment in autonomous delivery and international expansion are not quantified. Peers, own history, goodwill 5.5B impairment risk, legal notes and 8-K release unread.",
+ "invalidation": "Invalidated if organic order growth drops below about 15%, if GAAP operating margin does not expand while revenue grows 30%, if SBC plus buybacks do not offset dilution, or if regulatory changes raise Dasher cost materially.",
+ "sources": [
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/dash/history/",
+   "document_id": "stockanalysis-DASH-2026-11-18",
+   "origin": "stockanalysis.com via WebFetch; close 2026-11-18 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T16:06:00-05:00",
+   "origin_verified": false
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/DASH/history/",
+   "document_id": "yahoo-finance-DASH-2026-11-18",
+   "origin": "Yahoo Finance via WebFetch; close 2026-11-18 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T16:06:00-05:00",
+   "origin_verified": false
+  },
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/1792789/000179278926000070/dash-20260930.htm",
+   "document_id": "0001792789-26-000070",
+   "origin": "10-Q quarter ended 2026-09-30 filed 2026-10-30; downloaded as text; cover, balance sheet, income and cash flow statements, convertible note, credit agreement, MD&A metrics read; risk factors, legal notes, segment and Deliveroo purchase accounting detail not read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T16:06:00-05:00"
+  },
+  {
+   "id": "x",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001792789.json",
+   "document_id": "SEC-companyfacts-CIK0001792789",
+   "origin": "SEC XBRL company facts: NI, OCF, PP&E capex, capitalized software, SBC FY25 (10-K filed 2026-02-18), 9M25, 9M26",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T16:06:00-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001792789.json",
+   "document_id": "SEC-submissions-CIK0001792789",
+   "origin": "SEC submissions list: 10-Q 2026-10-30 and 8-Ks 2026-10-29 are latest; earnings release not read",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T16:06:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q"
+   ],
+   "note": "Submissions list shows 10-Q filed 2026-10-30 as latest; 8-K releases 2026-10-29 not read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "At 2026-09-30 USD millions: cash 5,053, short term investments 929, convertible notes 2,728, total liabilities 9,613, equity 10,717; funds held at payment processors 660 and restricted cash 301 excluded."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "x",
+    "q"
+   ],
+   "note": "TTM OCF 2953; PP&E capex 262; capitalized software 488; FCF 2203; SBC 1123; USD millions, matching periods; OCF includes payable timing."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Point in time 10-Q cover 2026-10-26: 411,998,576 Class A + 23,977,755 Class B; 1:1 conversion assumed, not read in the certificate."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "x",
+    "qa",
+    "qb"
+   ],
+   "note": "P/E and FCF yields computed; peers and own history not compared; organic growth not separated."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Marketplace model with FCF after capitalized software and SBC; net cash excludes merchant payables."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Deliveroo acquisition effect, SBC and accrued liability timing noted; risk factors, legal, goodwill testing unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "x"
+   ],
+   "note": "Covers valuation, acquired growth, SBC, payable timing, competition and regulation."
+  }
+ },
+ "price": {
+  "value": 166.8,
+  "currency": "USD",
+  "as_of": "2026-11-18T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-18",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 166.8,
+    "currency": "USD",
+    "as_of": "2026-11-18T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 166.8,
+    "currency": "USD",
+    "as_of": "2026-11-18T16:00:00-05:00"
+   }
+  ]
+ },
+ "calculations": {
+  "valuation": {
+   "price": 166.8,
+   "shares_outstanding": 435976331,
+   "share_basis": "10-Q cover 2026-10-26, Class A plus Class B (1:1 assumed)",
+   "market_cap_usd": 72720852011,
+   "pe_ttm": 68.4,
+   "fcf_yield_ttm": 0.0303,
+   "fcf_yield_after_sbc_ttm": 0.0149,
+   "basis": "TTM USD millions: NI 1063, OCF 2953, PP&E capex 262, capitalized software 488, FCF 2203, SBC 1123"
+  },
+  "cash_flow": {
+   "ocf_9m_musd": 2532,
+   "capex_9m_musd": 208,
+   "basis": "USD millions, nine months to 2026-09-30; plus capitalized software 375"
+  },
+  "balance_sheet": {
+   "cash_musd": 5053,
+   "investments_musd": 929,
+   "debt_musd": 2728,
+   "total_liabilities_musd": 9613,
+   "equity_musd": 10717,
+   "basis": "10-Q 2026-09-30; debt = 0% convertible notes carrying value"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers and multiple history unread",
+  "Organic growth ex Deliveroo unread",
+  "Earnings release, risk factors, legal notes unread",
+  "Cause of 2026-11-19 drop not investigated",
+  "Quote origins undocumented"
+ ]
+}

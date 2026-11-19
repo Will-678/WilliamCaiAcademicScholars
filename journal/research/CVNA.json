@@ -1,0 +1,186 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "currency": "USD",
+ "as_of": "2026-11-19T16:06:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "ticker": "CVNA",
+ "exchange": "NYSE",
+ "cik": 1690820,
+ "sector_model": "Online used car retailer with captive finance receivables (loans sold, gains in revenue): value on P/E over total earnings including LLC unit holders, FCF after inventory build and finance receivable timing, gross profit per unit, leverage and TRA; no bank capital model.",
+ "thesis": "Carvana (NYSE: CVNA). Q3 2026 10-Q (filed 2026-10-28) downloaded and read: statements, liquidity and debt notes, MD&A metrics. Q3 revenue 8,040M vs 5,647M (+42%); 9M 21,848M vs 14,719M (+48%); retail units Q3 217,385 vs 155,941 (+39%), 9M 602,103 vs 433,119; Q3 gross profit 1,521M, operating income 714M (8.9% margin) vs 552M; Q3 NI 483M (total, incl. 194M to LLC unit holders) vs 263M. Interest expense fell to 98M from 125M in Q3 after refinancing (Q3 loss on extinguishment 53M on 1.66B notes redeemed with a Term Loan B). TTM (USD millions, FY25 10-K + 9M26 - 9M25): total NI 2352 (1,895+1,401-944), NI attributable to Carvana Co. 1,706; OCF 1330 (1,036+900-606); PP&E capex 217 (147+166-96); FCF 1113; SBC 97. Close 71.78 (2026-11-18) x 1,103,261,100 shares (Class A 722,713,745 + Class B 380,547,355, 10-Q cover 2026-10-26; Class B pairs with exchangeable LLC units, 34.9% held by LLC unit holders, so A+B is used as the economic count; approximation flagged) = 79.2B = 33.7x TTM total NI; FCF yield 1.4%. Debt 5,228M (long term 4,874, current 283, short term revolvers 71) vs cash 3,049M, plus 2,130M tax receivable agreement liability and 896M finance receivables held for sale. Price implies sustained unit growth near 40% with expanding margin; evidence in the filing supports the growth but valuation is rich on cash flow and peers are unread. Stock fell 5.2% on 2026-11-19 (68.01 stockanalysis.com, 67.99 Yahoo, same day, cause not investigated).",
+ "counterthesis": "Valuation: 34x earnings and a 1.4% FCF yield, with 9M OCF of 900M after a 1,025M inventory build; growth is capital and working capital intensive. Total NI includes tax benefit effects: deferred taxes 157M in the cash flow and a 2,905M deferred tax asset; 9M26 tax rate 10.9% (171/1,572) is below statutory, so earnings may be flattered. Quality of earnings: gains on loan sales 1,084M in 9M (about 26% of gross profit) depend on securitization and loan sale markets, spreads fell in Q3; other expense includes 62M unrealized warrant loss and Root warrant revenue is non-cash. Leverage 5.2B debt, TRA 2.1B owed mostly to related parties (1,645M), related party transactions with DriveTime (VSCs, servicing). Used car price appreciation helped revenue per unit (28,263 vs 25,625). Subprime-type credit exposure, tariffs and consumer credit shocks are not assessed. Peers (CarMax, AutoNation, Lithia, Cars.com), own history and 8-K release unread.",
+ "invalidation": "Invalidated if retail unit growth falls below about 15% while gross profit per unit stops rising, if loan sale spreads compress further or securitization markets close, if FCF stays under 2% of market cap as inventory grows, or if related party or TRA obligations rise materially.",
+ "sources": [
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/cvna/history/",
+   "document_id": "stockanalysis-CVNA-2026-11-18",
+   "origin": "stockanalysis.com via WebFetch; close 2026-11-18 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T16:06:00-05:00",
+   "origin_verified": false
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/CVNA/history/",
+   "document_id": "yahoo-finance-CVNA-2026-11-18",
+   "origin": "Yahoo Finance via WebFetch; close 2026-11-18 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T16:06:00-05:00",
+   "origin_verified": false
+  },
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/1690820/000169082026000067/cvna-20260930.htm",
+   "document_id": "0001690820-26-000067",
+   "origin": "10-Q quarter ended 2026-09-30 filed 2026-10-28; downloaded as text; cover, balance sheet, income and cash flow statements, liquidity, debt, equity notes and MD&A key metrics read; risk factors, legal notes, securitization detail not read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T16:06:00-05:00"
+  },
+  {
+   "id": "x",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001690820.json",
+   "document_id": "SEC-companyfacts-CIK0001690820",
+   "origin": "SEC XBRL company facts: ProfitLoss, NetIncomeLoss, OCF, PP&E capex, SBC FY25 (10-K filed 2026-02-18), 9M25, 9M26",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T16:06:00-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001690820.json",
+   "document_id": "SEC-submissions-CIK0001690820",
+   "origin": "SEC submissions list: 10-Q and 8-K 2026-10-28 are latest periodic filings; 8-K earnings release not read",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T16:06:00-05:00"
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q"
+   ],
+   "note": "Submissions list shows 10-Q filed 2026-10-28 as latest; the same-day 8-K earnings release was not read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "At 2026-09-30 USD millions: cash 3,049, debt 5,228, TRA 2,130, total liabilities 9,542, equity 5,653 incl. NCI 1,301; debt maturity schedule not read in full."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "x",
+    "q"
+   ],
+   "note": "TTM OCF 1330 = 1,036+900-606; capex 217 = 147+166-96; FCF 1113; USD millions, matching periods, reported capex present; OCF is after 1,025M inventory build and finance receivable flows."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Point in time 10-Q cover 2026-10-26: 722,713,745 Class A + 380,547,355 Class B; B treated as economic equivalent via LLC units (approximation; 4:5 ratio language and 5-for-1 split of May 2026 noted)."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "x",
+    "qa",
+    "qb"
+   ],
+   "note": "P/E and FCF yield computed; peers and own multiple history not compared."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Retail with finance receivable sales; FCF read with inventory and receivable timing; leverage and TRA included."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Tax rate, gains on loan sales, warrants and related parties noted; risk factors, legal and securitization notes unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "x"
+   ],
+   "note": "Covers valuation, tax, loan sale gains, leverage, related parties and credit."
+  }
+ },
+ "price": {
+  "value": 71.78,
+  "currency": "USD",
+  "as_of": "2026-11-18T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-18",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 71.78,
+    "currency": "USD",
+    "as_of": "2026-11-18T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 71.78,
+    "currency": "USD",
+    "as_of": "2026-11-18T16:00:00-05:00"
+   }
+  ]
+ },
+ "calculations": {
+  "valuation": {
+   "price": 71.78,
+   "shares_outstanding": 1103261100,
+   "share_basis": "10-Q cover 2026-10-26, Class A plus Class B (LLC unit equivalents; approximation)",
+   "market_cap_usd": 79192081758,
+   "pe_ttm": 33.7,
+   "fcf_yield_ttm": 0.0141,
+   "basis": "TTM USD millions: total NI 2352, OCF 1330, capex 217, FCF 1113, SBC 97"
+  },
+  "cash_flow": {
+   "ocf_9m_musd": 900,
+   "capex_9m_musd": 166,
+   "basis": "USD millions, nine months to 2026-09-30"
+  },
+  "balance_sheet": {
+   "cash_musd": 3049,
+   "debt_musd": 5228,
+   "total_liabilities_musd": 9542,
+   "equity_musd": 5653,
+   "basis": "10-Q 2026-09-30; debt = long term 4,874 + current 283 + revolvers 71"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers and multiple history unread",
+  "8-K release, risk factors, securitization and legal notes unread",
+  "Cause of 2026-11-19 drop not investigated",
+  "Quote origins undocumented"
+ ]
+}
