@@ -1,0 +1,180 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "currency": "USD",
+ "as_of": "2026-11-19T04:08:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "ticker": "CW",
+ "exchange": "NYSE",
+ "cik": 26324,
+ "sector_model": "Industrials, defense and nuclear electronics and engineered products (large mid): value on earnings and FCF, backlog and orders, pension and acquisition goodwill; not a bank or insurer model.",
+ "thesis": "Curtiss-Wright (NYSE: CW). Q3 2026 10-Q (filed 2026-11-05) read in part (statements, backlog, debt, cash flow, MD&A orders and segments). Q3 sales 952.6M vs 869.2M (+9.6%); 9M 2,790.3M vs 2,551.4M (+9.4%); Q3 operating income 187.9M (19.7%, +60bp); 9M operating margin 18.9% (+120bp); 9M diluted EPS 11.31 vs 9.19. Backlog about 4.6B at 2026-09-30, about 90% to be recognized within 36 months; 9M new orders +379M with increases across all segments. TTM (FY25 + 9M26 - 9M25, USD): revenue 3,737.3M, net income 555.2M, OCF 708.7M, capex 118.9M, FCF 589.7M (excludes 25.5M capex grant proceeds in 9M26), SBC 29.0M. Close 456.53 (2026-11-18) x 36,272,260 shares (10-Q cover 2026-10-31) = 16.56B market cap = 29.8x TTM NI, FCF yield 3.6% (3.4% after SBC). Debt 957.1M (notes, 200M current) vs cash 281.1M, net debt about 676M, EV about 17.2B; 1B revolver to 2031. Buybacks 381.7M in 9M26 (2.3% of market cap) cut weighted diluted shares 2.1% y/y (36.99M vs 37.79M). The price implies sustained high single digit growth and margin expansion in defense and naval nuclear work; the filing shows orders and margins moving that way, so quality is evident but the valuation offers no visible discount; not shown to be mispriced.",
+ "counterthesis": "29.8x TTM earnings and a 3.6% FCF yield leave little room if naval or defense budgets slip or if margin expansion stalls. Naval and Power (44% of 9M sales) depends on U.S. Navy programs; customer concentration was not extracted. Working capital absorbed cash (receivables 1,049M vs 932M, inventories 716M vs 615M at year end). Goodwill 1,686M and intangibles 486M together equal 85% of equity (2,560M after 385M of buybacks). Pension prepaid asset 353M. Stock near highs (455 to 457) so any miss is punished.",
+ "invalidation": "Invalidated if new orders turn negative, backlog shrinks, operating margin falls back below 17%, FCF stays near 3% yield while growth slows below mid single digits, or buybacks are funded by rising debt.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/26324/000162828026070951/cw-20260930.htm",
+   "document_id": "0001628280-26-070951",
+   "origin": "10-Q quarter ended 2026-09-30 filed 2026-11-05, fetched from SEC and read in extracted text (statements, backlog, orders, debt, cash flow, EPS); risk factors, audit matters and pension note not read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T04:08:00-05:00"
+  },
+  {
+   "id": "x",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000026324.json",
+   "document_id": "SEC-companyfacts-CIK0000026324",
+   "origin": "SEC XBRL company facts: FY2025 10-K and 9M25, 9M26 revenue, NI, OCF, capex, SBC",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T04:08:00-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0000026324.json",
+   "document_id": "SEC-submissions-CIK0000026324",
+   "origin": "SEC submissions list: latest 10-Q 2026-11-05, 8-K 2026-11-05 (earnings release exhibit not separately read)",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T04:08:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/cw/history/",
+   "document_id": "stockanalysis-CW-2026-11-18",
+   "origin": "stockanalysis.com via WebFetch; close 2026-11-18 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T04:08:00-05:00",
+   "origin_verified": false
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/CW/history/",
+   "document_id": "yahoo-finance-CW-2026-11-18",
+   "origin": "Yahoo Finance via WebFetch; close 2026-11-18 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T04:08:00-05:00",
+   "origin_verified": false
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q"
+   ],
+   "note": "Submissions show 10-Q 2026-11-05 as newest periodic filing; read in part. The 2026-11-05 8-K release not read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Cash 281.1M, total debt net 957.1M (200M current), total liabilities 2,812.6M, equity 2,559.6M, goodwill 1,685.8M at 2026-09-30, USD thousands converted."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "x",
+    "q"
+   ],
+   "note": "TTM OCF 708.7M = 643.4 + 355.9 - 290.7; capex 118.9M = 89.7 + 81.3 - 52.1; matching periods; grant proceeds 25.5M excluded, so FCF is conservative."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "36,272,260 shares at 2026-10-31, 10-Q cover, point in time."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "x"
+   ],
+   "note": "Multiples computed; peers (HEI, TDG, LHX, HII, MOG) and own multiple history not compared."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Defense industrial model: backlog, orders, margin, pension and goodwill; not a generic financial model."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Working capital and goodwill noted; audit matters, pension assumptions and concentration unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "x"
+   ],
+   "note": "Covers valuation, budget, working capital, goodwill and near-high price risk."
+  }
+ },
+ "price": {
+  "value": 456.53,
+  "currency": "USD",
+  "as_of": "2026-11-18T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-18",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 456.53,
+    "currency": "USD",
+    "as_of": "2026-11-18T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 456.53,
+    "currency": "USD",
+    "as_of": "2026-11-18T16:00:00-05:00"
+   }
+  ]
+ },
+ "calculations": {
+  "valuation": {
+   "price": 456.53,
+   "shares_outstanding": 36272260,
+   "share_basis": "10-Q cover 2026-10-31",
+   "market_cap_usd": 16559374858,
+   "pe_ttm": 29.8,
+   "fcf_yield_ttm": 0.0356,
+   "fcf_yield_after_sbc_ttm": 0.0339,
+   "basis": "TTM USD millions: revenue 3737.3, NI 555.2, OCF 708.7, capex 118.9, FCF 589.7, SBC 29.0"
+  },
+  "balance_sheet": {
+   "cash_musd": 281.113,
+   "debt_musd": 957.139,
+   "total_liabilities_musd": 2812.63,
+   "equity_musd": 2559.55,
+   "basis": "10-Q 2026-09-30"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers and own multiple history not compared",
+  "Customer concentration, pension, audit matters unread",
+  "2026-11-05 earnings release and guidance not read",
+  "Quote origins undocumented (publisher level only)"
+ ]
+}

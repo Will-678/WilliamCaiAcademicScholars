@@ -1,0 +1,180 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "currency": "USD",
+ "as_of": "2026-11-19T04:08:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "ticker": "MSCI",
+ "exchange": "NYSE",
+ "cik": 1408198,
+ "sector_model": "Financial data and index licensing, asset light subscription and asset based fees (large): value on FCF after capitalized software and SBC, retention, leverage and buybacks with negative equity; not a bank or insurer model.",
+ "thesis": "MSCI (NYSE: MSCI). Q3 2026 10-Q (filed 2026-10-20) read in part (statements, debt table, run rate, retention, cash flow). 9M26 revenue 2,609.8M vs 2,311.9M (+12.9%); Q3 892.0M; Q3 NI 351.0M; 9M NI 1,099.0M vs 917.6M; 9M operating income 1,446.5M (55.4% margin). Total run rate 3,571.9M (+12.1%): recurring subscriptions 2,596.3M (+8.8%), asset based fees 975.6M (+22.0%, market and flow sensitive). Retention rate: Index 97.2% 9M (96.1% prior), Analytics 94.6%, Sustainability and Climate 92.2% (94.0% prior). TTM (FY25 + 9M26 - 9M25, USD): revenue 3,432.4M, NI 1,383.7M, OCF 1,614.8M, capex 39.6M, capitalized software 120.6M, FCF after both 1,454.7M, SBC 126.1M. Close 636.90 (2026-11-18) x 71.7M shares (10-Q, 2026-09-30, point in time, rounded to 0.1M) = about 45.7B market cap = 33.0x TTM NI, FCF yield 3.2% (2.9% after SBC). Debt 6,716.9M (principal 6,760M) vs cash 261.0M; equity is a deficit of 3,016.4M from buybacks (1,135.8M in 9M26) and dividends (447.8M); EV about 52.1B; 174.7M of acquisitions in 9M26. The price implies durable double digit growth and sustained high margins; evidence supports quality, but 33x earnings with a 3% FCF yield is not obviously cheap; not shown to be mispriced.",
+ "counterthesis": "Growth leans on asset based fees (27% of run rate, +22%) that fall with equity markets. Sustainability and Climate retention is slipping (92.2% vs 94.0%). Net debt about 6.5B with FCF fully devoted to buybacks and dividends, and the revolver drawn 810M vs 300M at year end, so capital return is partly debt financed (1,583M of buybacks and dividends in 9M26 vs 9M FCF of about 990M after software). Negative equity makes book multiples meaningless. Deferred revenue fell to 1,036.7M from 1,231.8M (seasonal). Capitalized software rose to 96.7M from 66.7M, which flatters operating cash flow relative to expense. Competition from index and data peers was not compared.",
+ "invalidation": "Invalidated if retention falls below about 92% in Index or Analytics, asset based fees decline sharply with markets, interest costs on rising debt compress FCF, or buybacks continue to outrun FCF so that leverage rises.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/1408198/000140819826000056/msci-20260930.htm",
+   "document_id": "0001408198-26-000056",
+   "origin": "10-Q quarter ended 2026-09-30 filed 2026-10-20, fetched from SEC and read in extracted text (statements, debt table, run rate, retention, cash flow); risk factors and legal not read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T04:08:00-05:00"
+  },
+  {
+   "id": "x",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001408198.json",
+   "document_id": "SEC-companyfacts-CIK0001408198",
+   "origin": "SEC XBRL company facts: FY2025 10-K and 9M25, 9M26 revenue, NI, OCF, capex, capitalized software (PaymentsForSoftware), SBC",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T04:08:00-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001408198.json",
+   "document_id": "SEC-submissions-CIK0001408198",
+   "origin": "SEC submissions list: latest 10-Q and 8-K 2026-10-20 (release not separately read)",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T04:08:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/msci/history/",
+   "document_id": "stockanalysis-MSCI-2026-11-18",
+   "origin": "stockanalysis.com via WebFetch; close 2026-11-18 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T04:08:00-05:00",
+   "origin_verified": false
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/MSCI/history/",
+   "document_id": "yahoo-finance-MSCI-2026-11-18",
+   "origin": "Yahoo Finance via WebFetch; close 2026-11-18 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T04:08:00-05:00",
+   "origin_verified": false
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q"
+   ],
+   "note": "Submissions show 10-Q and 8-K on 2026-10-20; 10-Q read in part."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Cash 261.0M, debt 6,716.9M (principal 6,760.0M), total liabilities 8,611.7M, equity deficit 3,016.4M, goodwill 3,047.8M at 2026-09-30."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "x",
+    "q"
+   ],
+   "note": "TTM OCF 1,614.8M = 1,588.4 + 1,113.7 - 1,087.3; capex 39.6M; capitalized software 120.6M = 90.5 + 96.7 - 66.7; matching periods."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "71.7M shares at 2026-09-30 from 10-Q text, point in time but rounded; cover count not extracted."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "x"
+   ],
+   "note": "Multiples computed; peers (SPGI, MCO, ICE, FDS, VRSK) and own history not compared."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Subscription data model: retention, run rate, capitalized software, leverage with negative equity."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Capitalized software and negative equity noted; audit matters and adjusted EBITDA reconciliation unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "x"
+   ],
+   "note": "Covers market sensitivity, retention, leverage-funded returns and valuation."
+  }
+ },
+ "price": {
+  "value": 636.9,
+  "currency": "USD",
+  "as_of": "2026-11-18T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-18",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 636.9,
+    "currency": "USD",
+    "as_of": "2026-11-18T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 636.9,
+    "currency": "USD",
+    "as_of": "2026-11-18T16:00:00-05:00"
+   }
+  ]
+ },
+ "calculations": {
+  "valuation": {
+   "price": 636.9,
+   "shares_outstanding": 71700000,
+   "share_basis": "10-Q text 2026-09-30, rounded to 0.1M",
+   "market_cap_usd": 45665730000,
+   "pe_ttm": 33.0,
+   "fcf_yield_ttm": 0.0319,
+   "fcf_yield_after_sbc_ttm": 0.0291,
+   "basis": "TTM USD millions: revenue 3432.4, NI 1383.7, OCF 1614.8, capex 39.6, capitalized software 120.6, FCF 1454.7, SBC 126.1"
+  },
+  "balance_sheet": {
+   "cash_musd": 261.0,
+   "debt_musd": 6716.9,
+   "total_liabilities_musd": 8611.7,
+   "equity_musd": -3016.4,
+   "basis": "10-Q 2026-09-30"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers and own multiple history not compared",
+  "Adjusted EBITDA reconciliation, audit matters unread",
+  "10-Q cover share count and 2026-10-20 release unread",
+  "Quote origins undocumented (publisher level only)"
+ ]
+}

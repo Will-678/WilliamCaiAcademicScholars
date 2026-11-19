@@ -309,3 +309,9 @@ Run 77 (2026-11-18 20:xx ET, Wed): screen not refreshed (retrieved 00:05 ET toda
 | 1048477 | BMRN | Nasdaq | Rare disease biopharma after Amicus deal (mid-large) | researched_watch | 2026-11-19 | Read 10-Q MD&A and legal; interest expense; Voxzogo competition; peers | 2026-11-26 | FCF yield 4.7% (2.8% after SBC), net debt about 3.5B, GAAP NI about zero TTM, revenue +32% Q3; journal/research/BMRN.json |
 
 Run 78 (2026-11-19 00:xx ET, Thu): screen not refreshed (retrieved 2026-11-18 00:05 ET, just under 24h, no failure). Leader gap worked: EXEL '039 trial outcome, not closed (no filing or report found). Researched STRL, PEN, BMRN (all watch, scores null; PEN is a merger target).
+
+| 26324 | CW | NYSE | Defense industrials (large mid) | researched_watch | 2026-11-19 | Peers (HEI, TDG, LHX, HII, MOG); 2026-11-05 release and guide; 10-K concentration and pension | 2026-11-26 | 29.8x TTM NI, FCF yield 3.6%, sales +9.4%, margin 18.9%; journal/research/CW.json |
+| 1681459 | FTI | NYSE | Energy services subsea (large) | researched_watch | 2026-11-19 | Peers (SLB, BKR, HAL, NOV); release guide; order outlook; project concentration | 2026-11-26 | 18.9x TTM NI, FCF yield 6.6%, net cash 645M, but 9M orders -16%, backlog -3%; journal/research/FTI.json |
+| 1408198 | MSCI | NYSE | Financial data and indexes (large) | researched_watch | 2026-11-19 | Peers (SPGI, MCO, ICE, FDS); interest and maturities; asset based fee sensitivity | 2026-11-26 | 33.0x TTM NI, FCF yield 3.2% (2.9% after SBC), negative equity, debt 6.7B, run rate +12.1%; journal/research/MSCI.json |
+
+Run 79 (2026-11-19 04:xx ET, Thu): screen refreshed (prior retrieval 2026-11-18 00:05 ET was over 24h old): 4,403 revenue filers, 1,142 comparable, 419 preliminary passes; two SalesRevenueNet frames returned 404 (same as before). Researched CW, FTI, MSCI (all watch).

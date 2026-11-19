@@ -1,0 +1,181 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "currency": "USD",
+ "as_of": "2026-11-19T04:08:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "ticker": "FTI",
+ "exchange": "NYSE",
+ "cik": 1681459,
+ "sector_model": "Energy services, subsea equipment and project execution (large): value on earnings and FCF through the oil capex cycle, backlog and inbound orders, customer advances and contract assets; not a bank or insurer model.",
+ "thesis": "TechnipFMC (NYSE: FTI; Irish plc filing US GAAP 10-Q). Q3 2026 10-Q (filed 2026-10-29) read in part (statements, debt note, orders and backlog, revenue discussion). Q3 revenue 2,895.8M vs 2,647.3M (+9.4%); 9M 8,151.6M vs 7,415.6M (+9.9%); Q3 NI to FTI 418.4M vs 309.7M; 9M NI 1,041.6M vs 721.2M; 9M diluted EPS 2.59 vs 1.71. Order backlog 16,065.8M vs 16,571.6M at year end (-3.1%); 9M inbound orders 7,198.5M vs 8,568.2M (-16%), Subsea 6,462.3M vs 7,720.1M. TTM (FY25 + 9M26 - 9M25, USD): revenue 10,668.6M, NI 1,284.3M, OCF 1,864.8M, capex 271.2M, FCF 1,593.6M. Close 62.43 (2026-11-18) x 388,833,346 shares (10-Q cover 2026-10-27) = 24.28B market cap = 18.9x TTM NI, FCF yield 6.6%. Cash 1,049.3M vs total debt 404.0M (121.5M current), net cash about 645M; EV about 23.6B. Share repurchases 1,004.9M in 9M26 (about 4.1% of market cap) reduced weighted diluted shares to 398.2M from 415.7M in Q3. The price implies the subsea cycle plateaus; evidence that differs is cash conversion and the net cash balance; what could close the gap is order recovery. Not shown to be mispriced because orders are falling.",
+ "counterthesis": "Inbound orders fell 16% in 9M26 and backlog is shrinking, so the Q3 revenue growth (backlog conversion) may peak. Subsea backlog depends on large projects (Mozambique LNG named); concentration and project risk were not fully read. OCF includes +191M from other current assets and liabilities in 9M26 and contract assets plus receivables rose about 520M since year end, so cash conversion may reverse. Employee benefit plan and share-based compensation costs were 109.4M in 9M26 vs 62.1M, so SBC is not separated and the after SBC yield is not computed. Derivative assets and liabilities (350M, 588M) and operating leases 625M are excluded from debt. 9M buybacks of 1,004.9M were covered by 9M FCF of 1,234.5M less 59.2M dividends, but depend on continued cash generation.",
+ "invalidation": "Invalidated if inbound orders keep falling and backlog drops below about 15B, subsea margins fall, contract assets and receivables keep rising faster than revenue, or oil company capex is cut sharply.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/1681459/000168145926000053/fti-20260930.htm",
+   "document_id": "0001681459-26-000053",
+   "origin": "10-Q quarter ended 2026-09-30 filed 2026-10-29, fetched from SEC and read in extracted text (statements, debt note, orders, backlog, cash flow); legal, concentration, risk factors not read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T04:08:00-05:00"
+  },
+  {
+   "id": "x",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001681459.json",
+   "document_id": "SEC-companyfacts-CIK0001681459",
+   "origin": "SEC XBRL company facts: FY2025 10-K and 9M25, 9M26 revenue, NI, OCF, capex",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T04:08:00-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001681459.json",
+   "document_id": "SEC-submissions-CIK0001681459",
+   "origin": "SEC submissions list: latest 10-Q and 8-K 2026-10-29 (release not separately read)",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T04:08:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/fti/history/",
+   "document_id": "stockanalysis-FTI-2026-11-18",
+   "origin": "stockanalysis.com via WebFetch; close 2026-11-18 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T04:08:00-05:00",
+   "origin_verified": false
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/FTI/history/",
+   "document_id": "yahoo-finance-FTI-2026-11-18",
+   "origin": "Yahoo Finance via WebFetch; close 2026-11-18 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T04:08:00-05:00",
+   "origin_verified": false
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q"
+   ],
+   "note": "Submissions show 10-Q and 8-K on 2026-10-29; 10-Q read in part."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Cash 1,049.3M, total debt 404.0M, total liabilities 7,097.7M, equity 3,331.0M at 2026-09-30, USD millions."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "x",
+    "q"
+   ],
+   "note": "TTM OCF 1,864.8M = 1,764.6 + 1,411.2 - 1,311.0; capex 271.2M = 317.2 + 176.7 - 222.7; matching periods and units."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "388,833,346 ordinary shares at 2026-10-27, 10-Q cover, point in time."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "x"
+   ],
+   "note": "Multiples computed; peers (SLB, BKR, HAL, NOV) and own history not compared; SBC not isolated."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Energy services model: backlog, orders, contract assets, net cash; not a generic financial model."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Working capital and derivatives noted; audit matters, project estimates and concentration unread."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "x"
+   ],
+   "note": "Covers order decline, working capital reversal, project risk and buyback dependence."
+  }
+ },
+ "price": {
+  "value": 62.43,
+  "currency": "USD",
+  "as_of": "2026-11-18T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-18",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 62.43,
+    "currency": "USD",
+    "as_of": "2026-11-18T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 62.43,
+    "currency": "USD",
+    "as_of": "2026-11-18T16:00:00-05:00"
+   }
+  ]
+ },
+ "calculations": {
+  "valuation": {
+   "price": 62.43,
+   "shares_outstanding": 388833346,
+   "share_basis": "10-Q cover 2026-10-27",
+   "market_cap_usd": 24274865791,
+   "pe_ttm": 18.9,
+   "fcf_yield_ttm": 0.0656,
+   "fcf_yield_after_sbc_ttm": null,
+   "basis": "TTM USD millions: revenue 10668.6, NI 1284.3, OCF 1864.8, capex 271.2, FCF 1593.6; SBC not isolated (combined benefit plan and SBC line)"
+  },
+  "balance_sheet": {
+   "cash_musd": 1049.3,
+   "debt_musd": 404.0,
+   "total_liabilities_musd": 7097.7,
+   "equity_musd": 3331.0,
+   "basis": "10-Q 2026-09-30"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers and own multiple history not compared",
+  "Project concentration, audit matters unread",
+  "SBC not separated from benefit plan costs",
+  "2026-10-29 release and guidance not read",
+  "Quote origins undocumented (publisher level only)"
+ ]
+}
