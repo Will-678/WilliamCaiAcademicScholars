@@ -31,3 +31,7 @@ Research only; no trade implied.
 
 ## Update 2026-11-15 12:2x ET (run 57, leader gap)
 Peer gap partly closed. Aggregator snapshot at 2026-11-13 close (stockanalysis.com statistics, not filings, definitions unaudited): GMED 72.14 (PE 17.8 trailing, 14.0 forward, EV/EBITDA 8.6, FCF yield 8.0%); ZBH 103.21 (26.1, 11.7, 10.5, 6.6%); SYK 309.64 (33.0, 19.4, 17.3, 3.9%). GMED is below both on trailing multiples; ZBH is lower on forward PE. Still open: LIVN, ATEC, own history, call commentary, 10-K. Status stays watch, score null.
+
+
+## Update 2026-11-19-090735 (morning compile)
+Form 4 filed 2026-11-12 (accession 0001193125-26-458867): director James Tobin exercised options and sold 41,666 shares at about 75.10 to 75.68 on 2026-11-10; no 10b5-1 plan indicated. Rating unchanged (watch). Source: https://www.sec.gov/Archives/edgar/data/1237831/000119312526458867/ownership.xml
