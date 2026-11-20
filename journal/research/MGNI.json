@@ -1,0 +1,192 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "currency": "USD",
+  "as_of": "2026-11-20T16:07:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "ticker": "MGNI",
+  "exchange": "Nasdaq",
+  "cik": 1595974,
+  "sector_model": "Advertising technology platform: P/E and FCF after reported capex and capitalized software, take rate, CTV mix, gross pass-through working capital, term loan; GAAP tax distortions, SBC and political cyclicality adjusted for.",
+  "thesis": "Magnite (Nasdaq: MGNI), sell-side programmatic advertising platform (CTV, mobile, desktop). Q3 2026 10-Q (filed 2026-11-04) read in relevant sections. Q3 revenue 204.2M (+14%), 9M revenue 561.4M (+10%) with CTV +21% in 9M; 9M NI 57.8M vs 21.6M; 9M GAAP pretax 74.9M, tax 17.1M; 9M Adjusted EBITDA 196.8M (+33%, non-GAAP). Cash 392.9M vs term loan principal 357.7M (net cash about 35M); convertible notes of 205.1M repaid in cash in March 2026; rate cut by 50bp on 2026-10-07. 9M OCF 168.8M vs 107.7M; 9M buybacks 55.6M. Close 24.78 (2026-11-20) x 143.559M shares = 3.56B = 19.7x TTM NI 180.8M (inflated by a Q4 2025 tax allowance release; 9M26 pretax 74.9M), TTM FCF 224.1M (6.3%, after capitalized software), 3.7x book (own arithmetic). Fell 13.9% over the prior five sessions (28.79 on 11-16 open to 24.78). Possible market view: a Google-dependent open-web ad intermediary facing buyer power, with political ad lift in 2026. Differing evidence: CTV growth, EBITDA expansion, cash flow and the Google antitrust remedy plus Magnite's own suit. Not a recommendation.",
+  "counterthesis": "Stock-based compensation was 55.8M in 9M (about 25% of TTM FCF if annualized), and buybacks only offset it. Q3 and 9M revenue include political advertising, which will not recur in 2027. OCF depends on gross working capital (receivables 1.43B, payables 1.74B) and swings with collection timing. Open-web display competes with Google's ad exchange; remedy outcomes and the Google Action are uncertain. Buyer concentration (large agency holding companies, demand platforms) and the five-session fall of nearly 14% were not explained. TTM earnings exaggerate normal profit because of the Q4 2025 tax release. Peers (PubMatic, Trade Desk, Criteo) and history not compared.",
+  "invalidation": "Invalidated by CTV growth falling below about 10%, take-rate or fee concessions to buyers, Adjusted EBITDA margin gains reversing, FCF falling well below NI for several quarters, or an adverse Google remedy ruling that leaves SSP economics unchanged.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1595974/000159597426000041/mgni-20260930.htm",
+      "document_id": "0001595974-26-000041",
+      "origin": "10-Q quarter ended 2026-09-30 filed 2026-11-04; downloaded and converted to text; statements, income tax note, liquidity and capital resources, Google litigation paragraph, cover read; risk factors, customer concentration and legal note not fully read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T16:07:00-05:00"
+    },
+    {
+      "id": "r",
+      "url": "https://www.sec.gov/Archives/edgar/data/1595974/000159597426000039/mgni-20261104.htm",
+      "document_id": "0001595974-26-000039",
+      "origin": "8-K Item 2.02 filed 2026-11-04 (listed in SEC submissions; exhibit 99.1 not read)",
+      "kind": "earnings_release",
+      "read_status": "snippet",
+      "accessed_at": "2026-11-20T16:07:00-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001595974.json",
+      "document_id": "SEC-companyfacts-CIK0001595974",
+      "origin": "SEC XBRL company facts: FY2025 NI 144.613M, OCF 236.168M, PPE capex 70.535M, software 13.768M (10-K 0001595974-26-000007); 9M25 NI 21.563M, OCF 107.711M, PPE 45.131M, software 10.148M",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T16:07:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001595974.json",
+      "document_id": "SEC-submissions-CIK0001595974",
+      "origin": "SEC submissions list read: 10-Q 2026-11-04; 8-K 2.02 2026-11-04; 8-K 1.01 2026-10-07 (credit amendment; described in 10-Q); 8-K 5.02 2026-09-21 cover read, detail not read",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T16:07:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/mgni/history/",
+      "document_id": "stockanalysis-MGNI-2026-11-20",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-20 4:00 PM EST, market closed (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T16:07:00-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/MGNI",
+      "document_id": "yahoo-finance-MGNI-2026-11-20",
+      "origin": "Yahoo Finance chart endpoint; last price at regularMarketTime 2026-11-20 21:00 UTC (4:00 PM EST) (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T16:07:00-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q"
+      ],
+      "note": "10-Q filed 2026-11-04 is the latest periodic filing; later 8-Ks none after 2026-11-04 in the submissions list (recent entries 2026-10-07 credit amendment 8-K, 2026-09-21 5.02)."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Balance sheet at 2026-09-30 read from 10-Q: assets 3,136.8M, liabilities 2,175.1M, cash 392.9M, term loan principal 357.7M."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "9M26 OCF 168.752M and capex 31.444M plus software 12.657M read from 10-Q; FY2025 and 9M25 from XBRL facts; periods matched for TTM."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "143,559,468 shares at 2026-10-28 from 10-Q cover; single class."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x",
+        "qa",
+        "qb"
+      ],
+      "note": "Peers and own history not compared; TTM earnings inflated by Q4 2025 tax release; quote origins undocumented."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Advertising platform valued on P/E, FCF after capitalized software, net debt; gross receivable and payable balances handled separately from debt."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Tax allowance release identified; risk factors, audit matters and non-GAAP reconciliation beyond Adjusted EBITDA table not reviewed."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Political ad lift, SBC, Google dependence, working capital and unexplained drop recorded."
+    }
+  },
+  "price": {
+    "value": 24.78,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-20",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 24.8,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 24.78,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "valuation": {
+      "price": 24.78,
+      "shares_outstanding": 143559468,
+      "share_basis": "10-Q cover 2026-10-28",
+      "market_cap_usd": 3557400000,
+      "pe_ttm": 19.7,
+      "fcf_yield_ttm": 0.063,
+      "price_to_book": 3.7,
+      "price_to_tangible_book": null,
+      "basis": "TTM NI USD M 180.836=144.613+57.786-21.563 (inflated: Q4 2025 included release of most valuation allowances); TTM OCF 297.209=236.168+168.752-107.711; capex PPE 56.848=70.535+31.444-45.131 plus capitalized software 16.277=13.768+12.657-10.148; FCF 224.084M; equity 961.685M=3136.778-2175.093"
+    },
+    "balance_sheet": {
+      "total_assets_musd": 3136.778,
+      "equity_musd": 961.685,
+      "total_liabilities_musd": 2175.093,
+      "total_debt_musd": 349.95,
+      "basis": "USD millions at 2026-09-30; debt = current 3.632 + non-current 346.318 (Term Loan B principal 357.7M gross); cash 392.862M; receivables 1,432.2M and payables 1,738.3M are gross pass-through balances, so total liabilities is not interest-bearing debt"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peers (PUBM, TTD, CRTO) and own history not compared",
+    "Cause of the 14% decline 11-16 to 11-20 not identified; earnings call and 2026-11-04 press release exhibit not read",
+    "Customer concentration, risk factors, legal note on Google Action and 10-K audit matters not read",
+    "Amount of the Q4 2025 tax valuation allowance release not read (10-K)",
+    "Quote origins undocumented (two aggregators)"
+  ]
+}

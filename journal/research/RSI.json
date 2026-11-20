@@ -1,0 +1,193 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "currency": "USD",
+  "as_of": "2026-11-20T16:07:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "ticker": "RSI",
+  "exchange": "NYSE",
+  "cik": 1793659,
+  "sector_model": "Online gaming operator, Up-C with tax receivable agreement: P/E on total economic income, FCF after capitalized software and licenses, TRA liability, regulatory and tax exposure; per-share values use Class A plus Class V units.",
+  "thesis": "Rush Street Interactive (NYSE: RSI), online casino and sports betting in 16 U.S. states, Canada and Latin America, Up-C structure. Q3 2026 10-Q (filed 2026-10-29) read in relevant sections. Q3 revenue 385.9M (+38.8%), 9M revenue 1,150.0M vs 809.5M (+42.1%); 9M pretax 142.2M, tax 58.1M (40.8% effective), total NI 84.2M of which 51.7M belongs to non-controlling interests; 9M Adjusted EBITDA 187.0M vs 109.5M (non-GAAP). Cash 381.9M, no debt; 9M OCF 143.3M vs 95.9M. Close 11.225 (2026-11-20) x 230.60M Class A plus Class V units = 2.59B = 25.1x TTM total NI 103.3M, FCF yield 7.0% (before about 10M of 9M license and intangible payments), 7.1x book (own arithmetic). Fell 5.6% over the prior five sessions. Possible market view: a regulated, tax-exposed, competitive U.S. betting operator at peak growth. Differing evidence: sustained 39 to 42% growth, rising cash conversion, no debt. Not a recommendation.",
+  "counterthesis": "Gaming tax increases and new state restrictions, customer acquisition costs and competition from large operators and prediction markets can erase margins; the 40.8% effective tax rate and the 243.4M tax receivable agreement liability (85% of tax benefits payable to unit holders; only 1.1M paid in 9M) reduce shareholder cash. Class V holders own 50.1% of units, so a Class A per-share view overstates ownership; share count differs by class basis. Revenue growth is partly Latin America and new markets and may slow. 2025 results contained a 102.8M tax benefit and 106.6M other expense that distort comparisons. Peers (DraftKings, Flutter, Sportradar) and history not compared; state-level exposure not analysed.",
+  "invalidation": "Invalidated by growth falling below about 15% with rising marketing cost, adverse state gaming tax changes, cash conversion falling well below NI, TRA payments consuming operating cash, or loss of key state licenses.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1793659/000179365926000053/rsi-20260930.htm",
+      "document_id": "0001793659-26-000053",
+      "origin": "10-Q quarter ended 2026-09-30 filed 2026-10-29; downloaded and converted to text; statements, income tax and TRA notes, debt, liquidity, cover read; risk factors not read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T16:07:00-05:00"
+    },
+    {
+      "id": "r",
+      "url": "https://www.sec.gov/Archives/edgar/data/1793659/000179365926000050/rsi-20261028.htm",
+      "document_id": "0001793659-26-000050",
+      "origin": "8-K Item 2.02 filed 2026-10-28 (listed in SEC submissions; exhibit 99.1 not read)",
+      "kind": "earnings_release",
+      "read_status": "snippet",
+      "accessed_at": "2026-11-20T16:07:00-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001793659.json",
+      "document_id": "SEC-companyfacts-CIK0001793659",
+      "origin": "SEC XBRL company facts: FY2025 ProfitLoss 74.029M, OCF 165.004M, PPE 0.767M, software 28.591M (10-K 0001793659-26-000009); 9M25 ProfitLoss 54.887M, OCF 95.915M, PPE 0.590M, software 21.612M",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T16:07:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001793659.json",
+      "document_id": "SEC-submissions-CIK0001793659",
+      "origin": "SEC submissions list read: 10-Q 2026-10-29; 8-K 2.02 2026-10-28; no later filings",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T16:07:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/rsi/history/",
+      "document_id": "stockanalysis-RSI-2026-11-20",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-20 4:00 PM EST, market closed (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T16:07:00-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/RSI",
+      "document_id": "yahoo-finance-RSI-2026-11-20",
+      "origin": "Yahoo Finance chart endpoint; last price at regularMarketTime 2026-11-20 21:00 UTC (4:00 PM EST) (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T16:07:00-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q"
+      ],
+      "note": "10-Q filed 2026-10-29 is the latest periodic filing; no later 8-K in submissions list."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Balance sheet at 2026-09-30 read: assets 828.6M, liabilities 466.2M, cash 381.9M, no debt, TRA liability 243.4M."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "9M26 OCF 143.334M, software 23.746M, PPE 1.482M, license and other intangibles 10.049M read; FY2025 and 9M25 from XBRL facts; license payments for FY2025 not extracted."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "114,931,862 Class A and 115,672,013 Class V at 2026-10-28 from 10-Q cover; economic units used for market cap."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x",
+        "qa",
+        "qb"
+      ],
+      "note": "Peers and history not compared; license payments in TTM FCF incomplete; quote origins undocumented."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Gaming operator valued on P/E and FCF with TRA and NCI treated explicitly."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Tax and TRA items read; risk factors, audit matters and non-GAAP reconciliation not reviewed."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Tax regime, TRA, NCI, competition and comparison distortions recorded."
+    }
+  },
+  "price": {
+    "value": 11.225,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-20",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 11.23,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 11.225,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "valuation": {
+      "price": 11.225,
+      "shares_outstanding": 230603875,
+      "share_basis": "Class A 114,931,862 plus Class V 115,672,013 (economic RSILP units) at 2026-10-28, 10-Q cover",
+      "market_cap_usd": 2588500000,
+      "pe_ttm": 25.1,
+      "fcf_yield_ttm": 0.0696,
+      "price_to_book": 7.14,
+      "price_to_tangible_book": null,
+      "basis": "TTM total NI incl. non-controlling interests USD M 103.320=74.029+84.178-54.887; TTM OCF 212.423=165.004+143.334-95.915; capex PPE 1.659=0.767+1.482-0.590 plus internally developed software 30.725=28.591+23.746-21.612; FCF 180.039M before license fee and other intangible payments (9M26 10.049M; FY2025 split not extracted); equity incl. NCI 362.373M"
+    },
+    "balance_sheet": {
+      "total_assets_musd": 828.605,
+      "equity_musd": 362.373,
+      "total_liabilities_musd": 466.232,
+      "total_debt_musd": 0.0,
+      "basis": "USD millions at 2026-09-30; no outstanding debt per 10-Q; cash 381.910M plus restricted 4.001M; tax receivable agreement liability non-current 243.389M is a cash obligation not counted as debt; players' liabilities 50.1M offset customer cash"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peers (DKNG, FLUT, SRAD) and own history not compared",
+    "State tax and regulatory exposure, risk factors and 10-K audit matters not read",
+    "2026-10-28 press release exhibit and call not read; guidance not verified",
+    "FY2025 license fee and other intangible payments not extracted; TTM FCF before them",
+    "TRA payment schedule and Class V exchange dilution not analysed",
+    "Quote origins undocumented (two aggregators)"
+  ]
+}
