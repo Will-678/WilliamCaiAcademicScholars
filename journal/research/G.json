@@ -1,0 +1,188 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "currency": "USD",
+ "as_of": "2026-11-19T20:09:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "ticker": "G",
+ "exchange": "NYSE",
+ "cik": 1398659,
+ "sector_model": "IT and business process services: P/E, FCF after SBC and working capital, receivables quality, net debt.",
+ "thesis": "Genpact (NYSE: G), process and AI-enabled operations services. Q3 2026 10-Q (filed 2026-11-06). Net revenues Q3 1,385.4M vs 1,291.3M (+7.3%); 9M 4,024.9M vs 3,760.6M (+7.0%); income from operations 9M 602.5M vs 554.7M (+8.6%); 9M NI 445.4M vs 409.4M (+8.8%). TTM (USD millions): NI 588.5; OCF 428.7 (812.9+142.0-526.2); PP&E capex 72.2; FCF 356.5; SBC 105.4; FCF after SBC 251.1. Payments for internally generated intangibles (24.9M in 9M26 vs 6.1M) are excluded from capex and would lower FCF about 19M on 9M basis. Close 40.84 (2026-11-19) x 167,227,005 shares (balance sheet 2026-09-30, point in time, cover count not used) = 6.83B = 11.6x TTM NI; FCF yield 5.2% (3.7% after SBC). Debt: current 26.2M + long term 1,148.0M = 1,174.2M vs cash 499.1M (down from 853.8M; 369.9M debt repaid in 9M), net debt about 0.68B; dividend 0.1875 per quarter (94.8M paid 9M26). Possible market view: AI disrupts offshore business process work; the numbers show 7% growth and margin expansion, but cash conversion has stalled. Price implies roughly flat earnings; differing evidence is steady growth, offset by receivables.",
+ "counterthesis": "9M OCF was only 142.0M vs 526.2M because receivables rose 405.8M (vs 80.3M) from an ERP implementation that delayed invoicing and collection per MD&A; if this is timing it reverses, if it is credit or dispute quality it does not, and the allowance for credit losses charge rose to 22.6M from 18.2M. TTM FCF of 357M is 5.2% yield, much below TTM NI. Prepaid and other assets rose 149.9M. Share based compensation is high (79.9M 9M, up 25%). Services demand could be hit by AI automation of customer work and client concentration (not read). Cash fell 355M; headcount and wage inflation risk to margins; peers (EXLS, WNS, ACN, CTSH) and own history not compared.",
+ "invalidation": "Invalidated if receivables and days sales outstanding do not normalize within two quarters, if revenue growth drops below low single digits, if operating margin gives back the 2026 gains, or if credit losses rise materially.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/1398659/000139865926000019/g-20260930.htm",
+   "document_id": "0001398659-26-000019",
+   "origin": "10-Q quarter ended 2026-09-30 filed 2026-11-06; downloaded, converted to text; balance sheet, income statement, cash flow, reclassification note, debt note, MD&A operating cash flow paragraph read; segment, risk factors, tax and legal notes not fully read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T20:09:00-05:00"
+  },
+  {
+   "id": "x",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001398659.json",
+   "document_id": "SEC-companyfacts-CIK0001398659",
+   "origin": "SEC XBRL company facts: FY2025 NI 552.494M, OCF 812.856M, PP&E capex 78.203M, SBC 89.616M (10-K filed 2026-02-26)",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T20:09:00-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001398659.json",
+   "document_id": "SEC-submissions-CIK0001398659",
+   "origin": "SEC submissions: 10-Q 2026-11-06, 8-K 2026-11-05 (2.02), 8-K 2026-11-12 (5.07 vote) latest; S-4/A and 424B3 filed Oct 2026 by another registrant line in list (not investigated)",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T20:09:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/g/history/",
+   "document_id": "stockanalysis-G-2026-11-19",
+   "origin": "stockanalysis.com via WebFetch; close 2026-11-19 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T20:09:00-05:00",
+   "origin_verified": false
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/G/history/",
+   "document_id": "yahoo-finance-G-2026-11-19",
+   "origin": "Yahoo Finance via WebFetch; page header close 2026-11-19 4:00 PM EST (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T20:09:00-05:00",
+   "origin_verified": false
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q"
+   ],
+   "note": "10-Q filed 2026-11-06 and 8-Ks 2026-11-05 (earnings) and 2026-11-12 (item 5.07 vote) are latest; earnings exhibit and guidance not read; nothing newer in submissions."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Cash 499,053K; current debt 26,205K; long term debt 1,147,955K; total liabilities 2,930,640K; equity 2,708,572K at 2026-09-30 (USD thousands)."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "x",
+    "q"
+   ],
+   "note": "TTM OCF 428.7M = 812.856+142.021-526.161; PP&E capex 72.3M = 78.203+54.550-60.544; SBC 105.4M; USD millions, matching periods; 2025 nine month CCA cash flows noted as classified in investing (immaterial per company) so 9M25 OCF comparison is slightly flattering to prior period."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "167,227,005 shares issued and outstanding at 2026-09-30 from the balance sheet; point in time."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "x",
+    "qa",
+    "qb"
+   ],
+   "note": "P/E and FCF yield computed; peers and own history not compared; guidance not read."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "IT and business process services: P/E, FCF after SBC and working capital, receivables quality, net debt; not a bank or REIT."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Receivable build, CCA reclassification and credit loss allowance noted; revenue recognition, tax, legal notes and 10-K audit matters not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "x"
+   ],
+   "note": "Covers cash conversion, receivables, SBC, AI disruption, cash decline."
+  }
+ },
+ "price": {
+  "value": 40.84,
+  "currency": "USD",
+  "as_of": "2026-11-19T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-19",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 40.84,
+    "currency": "USD",
+    "as_of": "2026-11-19T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 40.84,
+    "currency": "USD",
+    "as_of": "2026-11-19T16:00:00-05:00"
+   }
+  ]
+ },
+ "calculations": {
+  "valuation": {
+   "price": 40.84,
+   "shares_outstanding": 167227005,
+   "share_basis": "balance sheet 2026-09-30",
+   "market_cap_usd": 6829550884,
+   "pe_ttm": 11.6,
+   "fcf_yield_ttm": 0.0522,
+   "fcf_yield_after_sbc_ttm": 0.0368,
+   "basis": "TTM USD millions: NI 588.5, OCF 428.7, PP&E capex 72.2, FCF 356.5, SBC 105.4; intangibles payments excluded; debt 1174.2 vs cash 499.1"
+  },
+  "cash_flow": {
+   "ocf_9m_musd": 142.021,
+   "capex_9m_musd": 54.55,
+   "sbc_9m_musd": 79.863,
+   "receivables_increase_9m_musd": 405.832,
+   "basis": "USD millions, nine months to 2026-09-30"
+  },
+  "balance_sheet": {
+   "cash_musd": 499.053,
+   "total_debt_musd": 1174.16,
+   "total_liabilities_musd": 2930.64,
+   "basis": "USD millions at 2026-09-30"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Receivable build cause (ERP) not corroborated with DSO or Q4 collections",
+  "Earnings exhibit and guidance not read",
+  "Peers and own history not compared",
+  "Quote origins undocumented (two aggregators)"
+ ]
+}

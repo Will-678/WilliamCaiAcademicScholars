@@ -1,0 +1,190 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "currency": "USD",
+ "as_of": "2026-11-19T20:09:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "ticker": "VRSN",
+ "exchange": "Nasdaq",
+ "cik": 1014473,
+ "sector_model": "Registry monopoly / internet infrastructure with regulated pricing: P/E, FCF after SBC, domain base growth, pricing rights, buyback funding; negative equity expected from buybacks.",
+ "thesis": "Verisign (Nasdaq: VRSN), operator of .com and .net registries. Q3 2026 10-Q (filed 2026-10-22). Q3 revenue 443.0M vs 419.1M (+6%); 9M 1,306.5M vs 1,231.3M (+6%) from domain base growth (182.5M .com/.net names, +6.1% y/y) and .com price increases; operating margin 67.8% 9M; Q3 operating income 296.5M (+4%), NI 212.6M flat; 9M NI 643.6M (+3.9%). TTM (USD millions, FY25 + 9M26 - 9M25): NI 849.8; OCF 1061.9; capex 38.1; FCF 1023.8; SBC 76.7 (cash flow statement basis); FCF after SBC 947.1. Close 306.45 (2026-11-19) x 89.7M shares (10-Q cover 2026-10-16) = 27.49B = 32.3x TTM NI; FCF yield 3.7% (3.4% after SBC). Debt: senior notes carrying 1,785.9M (principal 550+750+500 = 1,800M, 2026 Notes issued 2026-06-26 to redeem 550M 4.75% 2017 notes); cash 206.8M plus marketable securities 269.3M = 476.1M, so net debt about 1.3B; 200M revolver undrawn. Stockholders' deficit -2,284.7M from buybacks (620.0M in 9M26, 1.36B authorization left) and dividends (0.81 per share quarterly, 220.8M in 9M26). Price implies steady mid single digit growth with pricing power intact; the market may be applying a discount for pricing and regulatory risk plus slowing renewals. This record does not show mispricing: it is a high quality, fully valued business.",
+ "counterthesis": "Substantially all revenue is .com and .net under the Cooperative Agreement with the US Department of Commerce and the ICANN .com Registry Agreement; the 10-Q states pricing provisions have been challenged and could face challenges again, up to 7% annual increases are permitted only in the final four years of each six year period and are not assured, and loss or modification of the rights would be material. Growth is price plus domain base; 9M OCF fell 3.6% (772.3M vs 801.5M) on higher payroll, vendor and cash taxes including Switzerland Pillar 2. Q3 NI flat. AI and alternative online identities could weaken registration demand. 32x earnings and 3.7% FCF yield leave little margin of safety against a mid single digit grower. Leverage is moderate on cash flow but equity is negative, so buybacks are funded partly by debt. Peers and valuation history not compared.",
+ "invalidation": "Invalidated if domain base growth turns negative or renewal rates fall, if Commerce or ICANN restrict .com pricing, if operating margin drops below about 65%, or if buybacks require debt beyond cash flow.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/1014473/000101447326000039/vrsn-20260930.htm",
+   "document_id": "0001014473-26-000039",
+   "origin": "10-Q quarter ended 2026-09-30 filed 2026-10-22; downloaded, converted to text; cover, balance sheet, income statement, cash flow, notes (debt, buyback, dividends), MD&A and .com pricing risk factor read; other risk factors and Part II not fully read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T20:09:00-05:00"
+  },
+  {
+   "id": "x",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001014473.json",
+   "document_id": "SEC-companyfacts-CIK0001014473",
+   "origin": "SEC XBRL company facts: FY2025 NI 825.7M, OCF 1,091.1M, capex 22.8M, SBC 69.7M (10-K filed 2026-02-05)",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T20:09:00-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001014473.json",
+   "document_id": "SEC-submissions-CIK0001014473",
+   "origin": "SEC submissions: 10-Q and 8-K (items 2.02, 9.01) 2026-10-22 latest periodic; later forms Forms 4, 144, 13G/A only",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T20:09:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/vrsn/history/",
+   "document_id": "stockanalysis-VRSN-2026-11-19",
+   "origin": "stockanalysis.com via WebFetch; close 2026-11-19 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T20:09:00-05:00",
+   "origin_verified": false
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/VRSN/history/",
+   "document_id": "yahoo-finance-VRSN-2026-11-19",
+   "origin": "Yahoo Finance via WebFetch; page header close 2026-11-19 4:00 PM EST (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-19T20:09:00-05:00",
+   "origin_verified": false
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q"
+   ],
+   "note": "Submissions list shows 10-Q and earnings 8-K 2026-10-22 as latest; only Forms 4, 144, 13G/A after; 8-K release exhibit not read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Cash 206.8M, marketable securities 269.3M, long term senior notes 1,785.9M, deferred revenue 1,094.4M current + 368.9M long term, total liabilities 3,564.8M, stockholders deficit (2,284.7M) at 2026-09-30 USD millions."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "x",
+    "q"
+   ],
+   "note": "TTM OCF 1,061.9M = 1,091.1+772.3-801.5; capex 38.1M = 22.8+33.6-18.3; SBC 76.7M = 69.7+58.8-51.8; USD millions, matching periods, reported capex present."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "89.7 million shares at 2026-10-16 from 10-Q cover (rounded to 0.1M, point in time)."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "x",
+    "qa",
+    "qb"
+   ],
+   "note": "P/E and FCF yield computed; peers and own history not compared; no DCF or price cap scenario."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Regulated-like registry monopoly: P/E, FCF after SBC, domain base and pricing; negative equity from buybacks not read as distress."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Deferred revenue, SBC, tax noted; audit matters in 10-K and full risk factors not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "x"
+   ],
+   "note": "Covers pricing regulation, concentration, cash flow dip, valuation and leverage."
+  }
+ },
+ "price": {
+  "value": 306.45,
+  "currency": "USD",
+  "as_of": "2026-11-19T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-19",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 306.45,
+    "currency": "USD",
+    "as_of": "2026-11-19T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 306.45,
+    "currency": "USD",
+    "as_of": "2026-11-19T16:00:00-05:00"
+   }
+  ]
+ },
+ "calculations": {
+  "valuation": {
+   "price": 306.45,
+   "shares_outstanding": 89700000.0,
+   "share_basis": "10-Q cover 2026-10-16 (89.7M, rounded)",
+   "market_cap_usd": 27488565000,
+   "pe_ttm": 32.3,
+   "fcf_yield_ttm": 0.0372,
+   "fcf_yield_after_sbc_ttm": 0.0345,
+   "basis": "TTM USD millions: NI 849.8, OCF 1061.9, capex 38.1, FCF 1023.8, SBC 76.7; cash and securities 476.1 vs senior notes carrying 1785.9"
+  },
+  "cash_flow": {
+   "ocf_9m_musd": 772.3,
+   "capex_9m_musd": 33.6,
+   "sbc_9m_musd": 58.8,
+   "buyback_9m_musd": 620.0,
+   "dividends_9m_musd": 220.8,
+   "basis": "USD millions, nine months to 2026-09-30"
+  },
+  "balance_sheet": {
+   "cash_and_securities_musd": 476.1,
+   "senior_notes_carrying_musd": 1785.9,
+   "senior_notes_principal_musd": 1800,
+   "stockholders_deficit_musd": -2284.7,
+   "basis": "USD millions at 2026-09-30"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers and own valuation history not compared",
+  "10-K audit matters, renewal rate and full risk factors not read",
+  "8-K release exhibit not read",
+  "Quote origins undocumented (two aggregators)"
+ ]
+}
