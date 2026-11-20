@@ -1,0 +1,201 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "currency": "USD",
+ "as_of": "2026-11-20T00:10:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "ticker": "LULU",
+ "exchange": "Nasdaq",
+ "cik": 1397187,
+ "sector_model": "Apparel retail and brand: P/E, FCF after SBC, inventory, comparable sales, net cash, lease liabilities treated as debt-like.",
+ "thesis": "lululemon athletica (Nasdaq: LULU), premium athletic apparel. Q2 FY2026 10-Q (quarter ended 2026-08-02, filed 2026-09-03). Q2 net revenue 2,415.6M vs 2,525.2M (-4%, -5% constant dollar); comparable sales -9% (Americas -12%, China Mainland -2%, Rest of World -4%); six month revenue 4,887.2M vs 4,895.9M; six month income from operations 730.6M vs 962.4M (-24%); six month NI 524.3M vs 685.5M. Q2 includes 134.5M IEEPA tariff refunds (cost of goods sold, +560 bp gross margin) and 4.1M interest, worth 0.86 per share. FY2026 guide (8-K Ex 99.1, 2026-09-03): revenue 10.350B to 10.500B (-5% to -7%), diluted EPS 9.48 to 9.73 including 0.86 refund benefit, so about 8.62 to 8.87 excluding it; Q3 revenue 2.290B to 2.320B (-10% to -11%), EPS 0.93 to 0.98. TTM (USD millions, FY2025 10-K plus six months 2026 less six months 2025): NI 1,418.0; OCF 1,982.0; PP&E capex 627.7; FCF 1,354.3; SBC 91.2; FCF after SBC 1,263.1. Close 105.53 (2026-11-19) x 110,710,025 shares (cover 2026-08-28: 105,594,064 common plus 5,115,961 exchangeable) = 11.68B = 8.2x TTM NI (about 8.8x excluding roughly 95M after tax refund benefit, own estimate from 0.86 x about 111M shares); FCF yield 11.6% (10.8% after SBC). Cash 1,389.7M, no borrowings on the 600M revolver; operating lease liabilities 2,141.1M (current 366.6 + non-current 1,774.5). Possible market view: Americas franchise is losing relevance and tariff costs and leadership turmoil mean earnings keep falling. Price implies roughly 12x guided FY26 EPS excluding the refund and continued shrinkage; differing evidence is net cash, 11% FCF yield and an active turnaround (new President and CPO, new COO, Wilson cooperation agreement with a board seat appointment). What could close the gap: Americas comparable sales stabilizing. 4.0B buyback program in use (695.1M in six months; 118.8M more through 2026-08-28), but guidance assumes no future repurchases.",
+ "counterthesis": "Americas comparable sales -12% with reduced traffic, conversion and average order value is a brand problem, not just tariffs; Q3 revenue is guided down 10% to 11% so the decline is accelerating; six month operating income fell 24% even with 134.5M refund in the base period of 2026. Interim Co-CEO is the CFO; Chief Brand and Product Activation Officer and Chief Supply Chain Officer departed 2026-11-06, and a new President and CPO, COO, CTO and Chief Brand Officer are not yet in place or proven, with sign-on awards and severance costs. Consumer class actions over tariff pricing (two filed) could claim refund proceeds. De minimis removal upheld 2026-08-13 and new tariffs under other authorities continue; further refunds are not guided. Operating leases of 2.1B are fixed obligations against falling sales. SBC doubled to 50.3M in six months. A low P/E can be a value trap if earnings keep falling 20%+; 8.2x TTM uses peak-like earnings. Peers (NKE, ONON, DECK, VFC) and own multiple history not compared.",
+ "invalidation": "Invalidated if Americas comparable sales keep falling at double digits through fiscal Q4, if guidance is cut again or gross margin ex refunds falls materially, if the repurchase pace uses cash faster than FCF, or if CEO succession fails.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/1397187/000139718726000127/lulu-20260802.htm",
+   "document_id": "0001397187-26-000127",
+   "origin": "10-Q quarter ended 2026-08-02 filed 2026-09-03; downloaded and converted to text; balance sheet, income statement, cash flow, revolver, repurchase and tariff notes and MD&A overview read; segment tables, risk factors and tax note not fully read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-20T00:10:00-05:00"
+  },
+  {
+   "id": "r",
+   "url": "https://www.sec.gov/Archives/edgar/data/1397187/000139718726000126/lulu-20260802xex991.htm",
+   "document_id": "0001397187-26-000126-Ex99.1",
+   "origin": "Issuer earnings release Ex 99.1 of 8-K filed 2026-09-03 (same underlying results as the 10-Q, guidance section read)",
+   "kind": "earnings_release",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-20T00:10:00-05:00"
+  },
+  {
+   "id": "x",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001397187.json",
+   "document_id": "SEC-companyfacts-CIK0001397187",
+   "origin": "SEC XBRL company facts: FY2025 (to 2026-02-01) NI 1,579.183M, OCF 1,602.477M, capex 680.802M, SBC 62.203M, revenue 11,102.6M (10-K filed 2026-03-17)",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-20T00:10:00-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001397187.json",
+   "document_id": "SEC-submissions-CIK0001397187",
+   "origin": "SEC submissions list: latest 10-Q 2026-09-03; 8-Ks 2026-09-14 (5.02/5.03), 2026-09-30 leadership changes (filed 10-07), Poseley board appointment (filed 10-22); read two of these 8-Ks in full",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-20T00:10:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/lulu/history/",
+   "document_id": "stockanalysis-LULU-2026-11-19",
+   "origin": "stockanalysis.com via WebFetch; close 2026-11-19 4:00 PM EST (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-20T00:10:00-05:00",
+   "origin_verified": false
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/LULU/history/",
+   "document_id": "yahoo-finance-LULU-2026-11-19",
+   "origin": "Yahoo Finance via WebFetch; regular close Nov 19 4:00 PM EST (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-20T00:10:00-05:00",
+   "origin_verified": false
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q",
+    "r"
+   ],
+   "note": "10-Q filed 2026-09-03 is the latest periodic filing; fiscal Q3 results are not yet reported (expected about early December, date unverified); 8-Ks filed 2026-10-07 and 2026-10-22 read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "At 2026-08-02: cash 1,389,737K; no revolver borrowings (letters of credit 6.3M); total liabilities 3,693,404K; equity 4,791,174K; lease liabilities 366,649K + 1,774,478K (USD thousands)."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "x",
+    "q"
+   ],
+   "note": "TTM OCF 1,982.0M = 1,602.477 + 589.278 - 209.722; capex 627.7M = 680.802 + 277.056 - 330.161; SBC 91.2M; USD millions, fiscal periods matched; six month OCF helped by smaller inventory build."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "110,710,025 = 105,594,064 common + 5,115,961 exchangeable shares at 2026-08-28 from the 10-Q cover; point in time but pre-dates later repurchases, so an approximation within about 1%."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "r",
+    "x",
+    "qa",
+    "qb"
+   ],
+   "note": "P/E, FCF yield and forward multiple computed; peers and own history not compared; fiscal Q3 not yet reported."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Apparel brand model with net cash and leases as debt-like; not a bank, insurer or REIT."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Tariff refund distortion, class actions and revolver read; audit matters, revenue recognition, tax note and inventory aging not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "r"
+   ],
+   "note": "Covers brand decline, accelerating guide, management turnover, refund claims, leases, SBC, value trap."
+  }
+ },
+ "price": {
+  "value": 105.53,
+  "currency": "USD",
+  "as_of": "2026-11-19T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-19",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 105.53,
+    "currency": "USD",
+    "as_of": "2026-11-19T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 105.53,
+    "currency": "USD",
+    "as_of": "2026-11-19T16:00:00-05:00"
+   }
+  ]
+ },
+ "calculations": {
+  "valuation": {
+   "price": 105.53,
+   "shares_outstanding": 110710025,
+   "share_basis": "10-Q cover 2026-08-28, common plus exchangeable",
+   "market_cap_usd": 11684100000,
+   "pe_ttm": 8.2,
+   "fcf_yield_ttm": 0.1159,
+   "fcf_yield_after_sbc_ttm": 0.1081,
+   "basis": "TTM USD millions: NI 1418.0, OCF 1982.0, capex 627.7, FCF 1354.3, SBC 91.2; includes about 95M after tax tariff refund benefit"
+  },
+  "cash_flow": {
+   "ocf_6m_musd": 589.278,
+   "capex_6m_musd": 277.056,
+   "sbc_6m_musd": 50.275,
+   "tariff_refund_musd": 134.5,
+   "basis": "USD millions, six months to 2026-08-02"
+  },
+  "balance_sheet": {
+   "cash_musd": 1389.737,
+   "total_debt_musd": 0.0,
+   "lease_liabilities_musd": 2141.127,
+   "total_liabilities_musd": 3693.404,
+   "basis": "USD millions at 2026-08-02; no borrowings"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Peers and own multiple history not compared",
+  "Fiscal Q3 report not yet out; tariff refund treatment and further refunds open",
+  "Audit matters, tax and inventory notes not read",
+  "Americas decline cause beyond MD&A text; succession plan",
+  "Quote origins undocumented (two aggregators)"
+ ]
+}

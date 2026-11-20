@@ -1,0 +1,195 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "currency": "USD",
+ "as_of": "2026-11-20T00:10:00-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "ticker": "RTX",
+ "exchange": "NYSE",
+ "cik": 101829,
+ "sector_model": "Aerospace and defense conglomerate: P/E, FCF after SBC, net debt and interest, backlog quality, pension and legal exposure; not a bank or REIT.",
+ "thesis": "RTX Corporation (NYSE: RTX): Collins Aerospace, Pratt & Whitney, Raytheon. Q3 2026 10-Q (filed 2026-10-20). Q3 net sales 24,965M vs 22,478M (+11.1%, organic +2.6B); nine month sales 71,749M vs 64,365M (+11.5%); nine month operating profit 8,703M vs 6,704M (+29.8%; includes about 0.2B tariff refunds); nine month NI to common 6,781M vs 5,110M. Backlog 340B (commercial 176B, defense 164B) vs 268B at 2025-12-31; Q3 Raytheon bookings 52B. TTM (USD millions, FY2025 10-K + 9M26 - 9M25): NI to common 8,403; OCF 12,435; capex 2,934; FCF 9,501; stock compensation 637; FCF after SBC 8,864 (also 474M of 9M26 share based 401(k) matching, non cash). Close 193.44 (2026-11-19) x 1,349,440,548 shares (cover and balance, 2026-09-30) = 261.0B = 31.1x TTM NI; FCF yield 3.6% (3.4% after SBC). Debt: short term 210M + current long term 5,679M + long term 31,490M = 37,379M vs cash 9,173M, net debt about 28.2B (principal 37,253M, average maturity about 12 years); 9M interest expense net 1,188M vs 1,349M; S&P outlook BBB+ positive; noncontrolling interest 125M in Q3 earnings. Possible market view: peak aerospace cycle priced in. Price implies sustained double digit growth and margin gains; differing evidence is the record backlog and falling interest cost, but it does not show cheapness.",
+ "counterthesis": "31x TTM earnings and a 3.6% FCF yield leave little room for error; TTM earnings include tariff refunds and non-service pension income of about 1.0B in nine months (non operating). Net debt of about 28B and 5.7B due within a year; goodwill 53.0B of 176.6B assets. Backlog jump to 340B is driven by 52B of Q3 defense bookings, lumpy and government dependent. Pratt & Whitney GTF powder metal matter remains a financial exposure (note read in outline only, amounts not extracted); DPAs, FCA settlement and a Navy Administrative Agreement (2026-09-21) carry suspension or debarment risk. Working capital: contract assets rose 2.2B and inventory 1.7B in nine months. SG&A rose 0.5B in Q3. Not a mispricing candidate on current numbers; it is a quality compounder at a full price. Peers (GE, HWM, LMT, NOC, GD) and own history not compared.",
+ "invalidation": "Thesis of resilient quality at a full price is invalidated if organic growth slows below high single digits, if commercial aftermarket weakens, if a GTF or defense program charge or debarment action appears, or if FCF falls below net income.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000031/rtx-20260930.htm",
+   "document_id": "0000101829-26-000031",
+   "origin": "10-Q quarter ended 2026-09-30 filed 2026-10-20; downloaded and converted to text; income statement, balance sheet, cash flow, debt note, backlog and MD&A sales paragraphs read; legal note read in outline; segment tables, risk factors and powder metal amounts not fully read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-20T00:10:00-05:00"
+  },
+  {
+   "id": "r",
+   "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000030/rtx-20261020.htm",
+   "document_id": "0000101829-26-000030",
+   "origin": "8-K Item 2.02 of 2026-10-20 cover read; Ex 99.1 press release and 2026 guidance not read",
+   "kind": "earnings_release",
+   "read_status": "snippet",
+   "accessed_at": "2026-11-20T00:10:00-05:00"
+  },
+  {
+   "id": "x",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000101829.json",
+   "document_id": "SEC-companyfacts-CIK0000101829",
+   "origin": "SEC XBRL company facts FY2025: NI 6,732M, OCF 10,567M, capex 2,627M, SBC 519M (10-K filed 2026-02-06)",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-20T00:10:00-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0000101829.json",
+   "document_id": "SEC-submissions-CIK0000101829",
+   "origin": "SEC submissions list: latest 10-Q 2026-10-20, 8-K 2026-10-20 (2.02), 8-K 2026-09-15 (5.02)",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-20T00:10:00-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/rtx/history/",
+   "document_id": "stockanalysis-RTX-2026-11-19",
+   "origin": "stockanalysis.com via WebFetch; close 2026-11-19 4:00 PM EST (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-20T00:10:00-05:00",
+   "origin_verified": false
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/RTX/history/",
+   "document_id": "yahoo-finance-RTX-2026-11-19",
+   "origin": "Yahoo Finance via WebFetch; regular close Nov 19 4:00 PM EST (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-20T00:10:00-05:00",
+   "origin_verified": false
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q"
+   ],
+   "note": "10-Q filed 2026-10-20 and earnings 8-K same day are the latest; 8-K 2026-09-15 item 5.02 not read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "At 2026-09-30: cash 9,173M; short term borrowings 210M; long term debt currently due 5,679M; long term debt 31,490M; total liabilities 105,604M; total equity 70,964M (USD millions)."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "x",
+    "q"
+   ],
+   "note": "TTM OCF 12,435M = 10,567 + 8,270 - 6,402; capex 2,934M = 2,627 + 1,964 - 1,657; SBC 637M = 519 + 455 - 337; USD millions, matching calendar periods."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "1,349,440,548 common shares outstanding at 2026-09-30 per 10-Q cover; diluted weighted average 1,365.8M for nine months not used for market cap."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "x",
+    "qa",
+    "qb"
+   ],
+   "note": "P/E and FCF yield computed; guidance, peers and own history not compared."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Large industrial with net debt, backlog and pension; generic liability ratios not used alone."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Tariff refunds, pension income, 401(k) share match noted; powder metal charge amounts, DPA terms, audit matters not fully read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Covers valuation, leverage, backlog lumpiness, legal exposure, working capital."
+  }
+ },
+ "price": {
+  "value": 193.44,
+  "currency": "USD",
+  "as_of": "2026-11-19T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-19",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 193.44,
+    "currency": "USD",
+    "as_of": "2026-11-19T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 193.44,
+    "currency": "USD",
+    "as_of": "2026-11-19T16:00:00-05:00"
+   }
+  ]
+ },
+ "calculations": {
+  "valuation": {
+   "price": 193.44,
+   "shares_outstanding": 1349440548,
+   "share_basis": "10-Q cover 2026-09-30",
+   "market_cap_usd": 261033000000,
+   "pe_ttm": 31.1,
+   "fcf_yield_ttm": 0.0364,
+   "fcf_yield_after_sbc_ttm": 0.034,
+   "basis": "TTM USD millions: NI to common 8403, OCF 12435, capex 2934, FCF 9501, SBC 637"
+  },
+  "cash_flow": {
+   "ocf_9m_musd": 8270,
+   "capex_9m_musd": 1964,
+   "sbc_9m_musd": 455,
+   "basis": "USD millions, nine months to 2026-09-30"
+  },
+  "balance_sheet": {
+   "cash_musd": 9173,
+   "total_debt_musd": 37379,
+   "total_liabilities_musd": 105604,
+   "basis": "USD millions at 2026-09-30"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Earnings exhibit and 2026 guidance not read",
+  "Peers and own multiple history not compared",
+  "Powder metal and DPA exposure amounts not extracted",
+  "Quote origins undocumented (two aggregators)"
+ ]
+}
