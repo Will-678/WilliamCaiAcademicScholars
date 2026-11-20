@@ -1,0 +1,191 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "currency": "USD",
+  "as_of": "2026-11-20T12:06:47-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "ticker": "AVPT",
+  "exchange": "Nasdaq",
+  "cik": 1777921,
+  "sector_model": "SaaS: ARR growth, net retention, deferred revenue, FCF after reported capex and SBC, buybacks versus dilution; P/E distorted by tax benefits.",
+  "thesis": "AvePoint (Nasdaq: AVPT), SaaS data governance, security and migration for Microsoft 365 and other platforms. Q3 2026 10-Q (filed 2026-11-05) read in relevant sections. Q3 revenue 131.1M (+19%, 20% constant currency), SaaS revenue 105.5M (+26%), total ARR 495.1M (+27%, +25% constant currency). 9M revenue 372.8M vs 304.8M (+22%); 9M NI 60.8M includes a 16.8M income tax benefit (pretax 43.9M); 9M OCF 71.6M vs 55.6M. Balance sheet 2026-09-30: cash 410.7M, no debt, deferred revenue 213.6M, equity 436.4M. 9M buybacks 141.3M, shares 215.1M to 210.0M since year end. SBC 26.9M in 9M. Close 16.94 (2026-11-19) x 210.08M = 3.56B = 7.3x TTM revenue, FCF yield 2.7%, P/E about 47x on approximate TTM NI 76.4M, 8.2x book (own arithmetic). Possible market view: a mid-growth security software vendor tied to Microsoft, now priced for growth near 20%. Differing evidence: ARR growth reaccelerating to 27%, net cash, buybacks cutting share count, SBC falling in absolute terms. Insider Form 144 sales were frequent in Sep to Oct 2026 (not examined). Not a recommendation.",
+  "counterthesis": "Valuation is not low: 7.3x revenue, FCF yield 2.7% before SBC (SBC 26.9M in 9M is about 38% of 9M OCF); GAAP earnings are small and flattered by tax benefits. Buyback of 141M in 9M consumed most cash and funds offset to dilution (diluted shares 223.5M weighted). Reliance on Microsoft ecosystem and AI-governance demand narrative; competition from Microsoft native tools and larger security firms. Frequent insider sale filings. Peers and history not compared.",
+  "invalidation": "Invalidated by ARR growth falling below about 15%, SaaS net retention weakening, Microsoft bundling that removes the product need, FCF falling while SBC rises, or large insider selling with no offsetting buyback.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1777921/000143774926035271/avpt20260930_10q.htm",
+      "document_id": "0001437749-26-035271",
+      "origin": "10-Q quarter ended 2026-09-30 filed 2026-11-05; downloaded and converted to text; income statement, balance sheet, cash flow, highlights, cover read; MD&A non-GAAP, risk factors and legal notes not fully read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T12:06:47-05:00"
+    },
+    {
+      "id": "r",
+      "url": "https://www.sec.gov/Archives/edgar/data/1777921/000117184326007179/f8k_110526.htm",
+      "document_id": "0001171843-26-007179",
+      "origin": "8-K filed 2026-11-05 (cover and items read; press release exhibit not read)",
+      "kind": "earnings_release",
+      "read_status": "snippet",
+      "accessed_at": "2026-11-20T12:06:47-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001777921.json",
+      "document_id": "SEC-companyfacts-CIK0001777921",
+      "origin": "SEC XBRL company facts: FY2025 NI 34.799M, OCF 85.257M, capex 3.683M, revenue 419.497M (10-K 0001437749-26-005907); 9M25 NI to common 19.155M, OCF 55.598M, capex 2.986M, revenue 304.810M",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T12:06:47-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001777921.json",
+      "document_id": "SEC-submissions-CIK0001777921",
+      "origin": "SEC submissions list: 10-Q 2026-11-05; 8-K 2026-11-05; frequent Form 144 and Form 4 insider sale filings Sep to Oct 2026 (not read)",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T12:06:47-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/avpt/history/",
+      "document_id": "stockanalysis-AVPT-2026-11-19",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-19 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T12:06:47-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/AVPT/history/",
+      "document_id": "yahoo-finance-AVPT-2026-11-19",
+      "origin": "Yahoo Finance via WebFetch; close Nov 19 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T12:06:47-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q"
+      ],
+      "note": "10-Q filed 2026-11-05 is latest periodic filing; earnings exhibit and Forms 144 and 4 not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "At 2026-09-30 (USD thousands): total assets 762,394; total liabilities 326,040 (deferred revenue 213,576, leases 18,143+current); equity 436,354; cash 410,730; no debt on balance sheet."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "Matching periods: TTM OCF 85.257+71.638-55.598=101.297M; TTM PP&E capex 3.683+3.964-2.986=4.661M; FCF 96.636M before capitalized internal-use software (9M26 1.572M, 9M25 1.162M; FY2025 not retrieved, so excluded and flagged). SBC 9M26 26.9M not deducted."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "210,076,688 common shares at 2026-11-04 per 10-Q cover; diluted weighted 9M26 223.5M (about 6% more)."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x",
+        "qa",
+        "qb"
+      ],
+      "note": "P/E, P/S, FCF yield computed; peers (CRWD-adjacent data security, MSFT ecosystem, Varonis, Commvault) and history not compared."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "SaaS model: ARR growth, deferred revenue, FCF after capex and SBC, buybacks versus dilution; P/E distorted by tax benefits."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Tax benefit 16.8M in 9M26 and non-GAAP reconciliations, warrant history, insider sales not read in detail; 10-K audit matters not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Tax-flattered earnings, SBC, buyback funded dilution offset, Microsoft platform dependence, insider selling."
+    }
+  },
+  "price": {
+    "value": 16.94,
+    "currency": "USD",
+    "as_of": "2026-11-19T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-19",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 16.94,
+        "currency": "USD",
+        "as_of": "2026-11-19T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 16.94,
+        "currency": "USD",
+        "as_of": "2026-11-19T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "valuation": {
+      "price": 16.94,
+      "shares_outstanding": 210076688,
+      "share_basis": "10-Q cover 2026-11-04",
+      "market_cap_usd": 3558700000,
+      "pe_ttm": 46.6,
+      "fcf_yield_ttm": 0.0272,
+      "price_to_book": 8.16,
+      "price_to_tangible_book": null,
+      "basis": "TTM NI USD M 76.4 = 34.799+60.756-19.155 (mixed total and to-common, approximate; includes 16.8M tax benefit); FCF 96.636M before capitalized software; TTM revenue 487.5M = 419.497+372.841-304.810 gives P/S 7.3x"
+    },
+    "balance_sheet": {
+      "total_assets_musd": 762.394,
+      "equity_musd": 436.354,
+      "total_liabilities_musd": 326.04,
+      "total_debt_musd": 0.0,
+      "basis": "USD millions at 2026-09-30; no borrowings seen on balance sheet; cash 410.7M"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peers and own history not compared; SBC-adjusted FCF and net retention not verified",
+    "Non-GAAP reconciliation, tax benefit cause, capitalized software for full TTM, risk factors not read",
+    "2026-11-05 press release exhibit and Forms 144 and 4 not read",
+    "Quote origins undocumented (two aggregators)"
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "currency": "USD",
+  "as_of": "2026-11-20T12:06:47-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "ticker": "GCT",
+  "exchange": "Nasdaq",
+  "cik": 1857816,
+  "sector_model": "Online B2B marketplace and logistics for large-parcel goods: P/E, FCF after reported capex, inventory and receivable turns, lease obligations, tariff sensitivity; working capital swings distort OCF.",
+  "thesis": "GigaCloud Technology (Nasdaq: GCT), B2B ecommerce marketplace for large-parcel goods (furniture, appliances), Cayman parent with California operations. Q3 2026 10-Q (filed 2026-11-05) read in relevant sections. Q3 revenue 423.6M (+27%), 9M revenue 1,194.7M (+28.9%) vs 927.2M; 9M gross profit 296.7M (24.8% margin vs 23.5%); 9M operating income 149.0M vs 104.7M; 9M NI 131.1M vs 98.9M (+32.6%); effective tax 17.0%. Balance sheet 2026-09-30: cash 374.2M, investments 43.0M, no borrowings, equity 567.9M. 9M OCF 83.1M vs 126.3M (down); capex 8.3M; buybacks 60.0M in 9M. Close 60.44 (2026-11-19) x 35.624M shares = 2.15B = 12.7x TTM NI 169.6M, FCF yield 6.3% (TTM FCF 136.4M), 3.8x book (own arithmetic). Possible market view: a tariff-exposed, consumer-cyclical furniture importer whose growth and margins are peak. Differing evidence: accelerating revenue (+27% in Q3 vs about +25% 9M25 pace not verified), margin expansion, net cash, falling share count (29.64M to 29.26M Class A). Not a recommendation.",
+  "counterthesis": "Operating cash flow fell 34% in 9M while NI rose 33%: inventory up 16% and receivables up 31% since year end absorbed cash; if demand slows, inventory write-downs follow. Tariffs, ocean freight and U.S. housing demand drive results and were not analysed from the 10-Q risk factors. Dual-class structure (6.46M Class B) concentrates control. 474.7M of operating lease liabilities are fixed obligations on a 718.6M liability base. Selling and marketing up 48% in 9M. Peers and history not compared; the 11-13 officer or director change was not read.",
+  "invalidation": "Invalidated by sustained revenue decline or gross margin below about 22%, inventory growth continuing to outpace sales, OCF staying below NI for several quarters, tariff changes that cut import economics, or governance problems.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1857816/000162828026070475/gct-20260930.htm",
+      "document_id": "0001628280-26-070475",
+      "origin": "10-Q quarter ended 2026-09-30 filed 2026-11-05; downloaded and converted to text; income statement, balance sheet, cash flow, liquidity, cover read; risk factors and tariff discussion not fully read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T12:06:47-05:00"
+    },
+    {
+      "id": "r",
+      "url": "https://www.sec.gov/Archives/edgar/data/1857816/000162828026070471/gct-20261105.htm",
+      "document_id": "0001628280-26-070471",
+      "origin": "8-K Item 2.02 filed 2026-11-05 (cover and items read; press release exhibit 99.1 not read)",
+      "kind": "earnings_release",
+      "read_status": "snippet",
+      "accessed_at": "2026-11-20T12:06:47-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001857816.json",
+      "document_id": "SEC-companyfacts-CIK0001857816",
+      "origin": "SEC XBRL company facts: FY2025 NI 137.372M, OCF 190.660M, capex 7.873M (10-K 0001857816-26-000018); 9M25 NI 98.873M, OCF 126.292M, capex 5.162M",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T12:06:47-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001857816.json",
+      "document_id": "SEC-submissions-CIK0001857816",
+      "origin": "SEC submissions list: 10-Q 2026-11-05; 8-K 2.02 2026-11-05; 8-K Item 5.02 (officer or director change) 2026-11-13 cover read, detail not read; Forms 4 on 2026-11-18 not read",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T12:06:47-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/gct/history/",
+      "document_id": "stockanalysis-GCT-2026-11-19",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-19 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T12:06:47-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/GCT/history/",
+      "document_id": "yahoo-finance-GCT-2026-11-19",
+      "origin": "Yahoo Finance via WebFetch; close Nov 19 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T12:06:47-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q"
+      ],
+      "note": "10-Q filed 2026-11-05 is the latest periodic filing; 11-13 8-K Item 5.02 identity of officer not read; Forms 4 11-18 not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "At 2026-09-30 (USD thousands): total assets 1,286,497; total liabilities 718,596 (operating lease liabilities 474,744 of it); equity 567,901; cash 374,212; investments 43,042; finance leases 655 non-current; no credit facility draw."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "Matching periods: TTM OCF 190.660+83.060-126.292=147.428M; TTM capex (PP&E purchases) 7.873+8.321-5.162=11.032M; FCF 136.396M. Reported capex present; 9M OCF fell 34% on working capital, not examined."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "35,624,024 shares at 2026-10-31 (29,167,292 Class A + 6,456,732 Class B) per 10-Q cover; excludes 579,691 repurchased not cancelled and 47,436 reserved awards."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x",
+        "qa",
+        "qb"
+      ],
+      "note": "P/E, FCF yield and P/B computed; peers (W, RH, WSM, ETSY), history and normalized tariff effects not compared."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Marketplace and logistics-heavy hardware seller: P/E, FCF, inventory, leases, working capital; leases treated as obligations."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Revenue recognition, inventory 219.0M (+16% since year end), lease liabilities read at summary level; 10-K audit matters, related-party and tariff risk not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Tariff and consumer-furniture cyclicality, inventory and receivable growth, falling OCF, dual-class control, China-linked operations."
+    }
+  },
+  "price": {
+    "value": 60.44,
+    "currency": "USD",
+    "as_of": "2026-11-19T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-19",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 60.44,
+        "currency": "USD",
+        "as_of": "2026-11-19T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 60.44,
+        "currency": "USD",
+        "as_of": "2026-11-19T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "valuation": {
+      "price": 60.44,
+      "shares_outstanding": 35624024,
+      "share_basis": "10-Q cover 2026-10-31, Class A plus Class B",
+      "market_cap_usd": 2153100000,
+      "pe_ttm": 12.7,
+      "fcf_yield_ttm": 0.0633,
+      "price_to_book": 3.79,
+      "price_to_tangible_book": null,
+      "basis": "TTM NI USD M 169.566=137.372+131.067-98.873; FCF 136.396M; equity 567.901M"
+    },
+    "balance_sheet": {
+      "total_assets_musd": 1286.497,
+      "equity_musd": 567.901,
+      "total_liabilities_musd": 718.596,
+      "total_debt_musd": 0.655,
+      "basis": "USD millions at 2026-09-30; debt = finance lease obligations only; operating leases 474.7M separate; cash 374.2M plus investments 43.0M"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peers (W, RH, WSM, ETSY) and own history not compared",
+    "OCF decline cause (inventory, receivables) and tariff exposure not analysed; risk factors and 10-K audit matters not read",
+    "2026-11-13 8-K Item 5.02 and 2026-11-05 press release exhibit not read",
+    "Quote origins undocumented (two aggregators)"
+  ]
+}
