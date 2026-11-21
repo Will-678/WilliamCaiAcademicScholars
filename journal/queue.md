@@ -376,3 +376,11 @@ Run 91 (2026-11-21 04:xx ET, Sat): screen not refreshed (retrieved 2026-11-20 04
 Run 92 (2026-11-21 08:xx ET, Sat): screen refreshed 08:05 ET (previous 28h old): 4,404 revenue filers, 1,142 comparable, 419 preliminary passes. Leader gap EXEL '039 ruling: SEC submissions rechecked, still no 8-K after 2026-10-29; not closed. WDAY has no Q3 8-K yet. Added XPEL and GRBK (both watch). Remaining screen leads: UiPath (Q3 not reported), Oddity, Trip.com, nVent, Trex, Teledyne.
 
 Run 93 (2026-11-21 12:xx ET, Sat): screen not refreshed (retrieved 08:05 ET). Leader gap EXEL '039 ruling: SEC submissions rechecked, still no 8-K after 2026-10-29 (13D/13G 11-09 only); not closed. Added ONTO and QSR (both watch). GLDD screened out: deregistered (Form 15-12G filed 2026-04-13).
+
+Run 94 (2026-11-21 16:xx ET, Sat): screen not refreshed (retrieved 08:05 ET). Leader gap EXEL '039 ruling: SEC submissions rechecked, still no 8-K after 2026-10-29 (13D 11-09 only); not closed. HubSpot and Trex 10-Q downloads failed (SEC mirror returned NoSuchKey for both, WebFetch 404 for Trex); both stay leads. Added three rows below (all watch).
+
+| CIK | Ticker | Exchange | Sector | Stage | Last reviewed | Next action | Due | Reason |
+|---|---|---|---|---|---|---|---|---|
+| 1094285 | TDY | NYSE | Industrial technology (large) | researched_watch | 2026-11-21 | Peers (AME, ROP, KEYS); tariff refund amount; risk factors; 10-21 release; cause of -3.7% on 11-20 | 2026-11-28 | 26.8x TTM, FCF yield 4.2%, 9% growth, net debt 1.47B; journal/research/TDY.json |
+| 1720635 | NVT | NYSE | Electrical infrastructure (mid-large) | researched_watch | 2026-11-21 | Peers (ETN, HUBB, VRT); Maverick contribution; organic growth; MD&A; cause of -5.8% on 11-20 | 2026-11-28 | 24.4x TTM continuing NI, FCF yield 4.1% before 1.75B Maverick deal, pro forma net debt about 2.8B; journal/research/NVT.json |
+| 824142 | AAON | Nasdaq | HVAC and data center cooling (mid) | researched_watch | 2026-11-21 | Watch for 10-K and remediation; FY25 capex for TTM FCF; peers; concentration; earnings release | 2026-11-28 | Restated Q1/Q2 2026, material weakness, 9M FCF 8.8M on NI 172.5M, 30.3x TTM; journal/research/AAON.json |

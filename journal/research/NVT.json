@@ -1,0 +1,181 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "currency": "USD",
+  "as_of": "2026-11-21T16:07:54-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "ticker": "NVT",
+  "exchange": "NYSE",
+  "cik": 1720635,
+  "sector_model": "Industrial electrical: P/E and FCF on continuing operations, pro forma net debt after acquisitions, mixed-basis TTM flagged.",
+  "thesis": "nVent Electric (NYSE: NVT): electrical connection, protection and enclosure products, with data center and utility exposure. Q3 2026 10-Q (filed 2026-10-30) read. Q3 sales 1,514.9M (+43.7%), 9M 4,228.2M (+49.6%), largely the Avail Electrical Products Group acquired 2025-05-01 for 979.6M; 9M NI from continuing operations 558.6M vs 312.7M (9M25 total NI 591.4M included discontinued gains). 9M OCF continuing 581.9M, capex 94.6M. On 2026-10-01 closed Maverick Power for about 1.75B cash (plus up to 550M contingent), financed with 800M notes due 2036 and a 600M term loan; pro forma net debt about 2.8B (own estimate). Close 101.84 (2026-11-20, -5.8% that day, cause not found) x 161.60M shares = 16.46B = 24.4x TTM continuing NI 674.4M, TTM FCF 673.0M (4.1%) before Maverick.",
+  "counterthesis": "Reported growth is acquisition-driven and the TTM multiple mixes pre- and post-deal bases; leverage rises from about 0.2x net to roughly 2.8B net debt after Maverick; 550M contingent consideration; data center capex cycle dependence not examined; tariff credits of 22.2M year to date appear in the segment reconciliation; the 5.8% one-day fall is unexplained.",
+  "invalidation": "Downgrade if organic growth fades, Maverick integration disappoints or leverage covenants tighten; revisit when two quarters including Maverick are reported.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1720635/000162828026068596/nvt-20260930.htm",
+      "document_id": "0001628280-26-068596",
+      "origin": "10-Q quarter ended 2026-09-30 filed 2026-10-30; downloaded directly from SEC, converted to text; statements, debt note, Maverick Power acquisition note, Avail pro forma, share repurchase note read; MD&A, risk factors, backlog not read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T16:07:54-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001720635.json",
+      "document_id": "SEC-companyfacts-CIK0001720635",
+      "origin": "SEC companyfacts FY2025: revenue 3,893.1M, NetIncomeLoss 710.2M (continuing 428.5M), OCF continuing 649.0M, capex 93.3M",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T16:07:54-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001720635.json",
+      "document_id": "SEC-submissions-CIK0001720635",
+      "origin": "SEC submissions: 10-Q 2026-10-30; no newer periodic filing seen",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T16:07:54-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/nvt/history/",
+      "document_id": "stockanalysis-NVT-2026-11-20",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T16:07:54-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVT",
+      "document_id": "yahoo-finance-NVT-2026-11-20",
+      "origin": "Yahoo Finance chart endpoint, daily close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T16:07:54-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q"
+      ],
+      "note": "10-Q filed 2026-10-30 is latest periodic seen in submissions; earnings exhibit not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "2026-09-30 USD M: assets 8,102.7, liabilities 3,990.2, cash 1,121.8, total debt 2,181.4 (principal 2,196.6), goodwill 2,676.1; statements and debt note read."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "9M26 OCF continuing 581.9, capex 94.6; 9M25 OCF continuing 426.6, capex 56.6; FY25 OCF continuing 649.0, capex 93.3; TTM FCF 673.0 on continuing basis; discontinued operations flows excluded."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Cover 161,598,060 shares at 2026-09-30; weighted diluted Q3 164.0M."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x",
+        "qa",
+        "qb"
+      ],
+      "note": "Peers (ETN, HUBB, VRT, PNR) and history not compared; Maverick earnings contribution unknown; MD&A and backlog not read; quote origins undocumented."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Industrial electrical: P/E and FCF on continuing operations, pro forma net debt after acquisitions, mixed-basis TTM flagged."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Discontinued operations, acquisition accounting and tariff credits noted; risk factors, MD&A, audit matters not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Acquisition-driven growth, leverage step-up, contingent consideration, cycle dependence."
+    }
+  },
+  "price": {
+    "value": 101.84,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-20",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 101.84,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 101.84,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "valuation": {
+      "price": 101.84,
+      "shares_outstanding": 161598060,
+      "share_basis": "cover page 161,598,060 ordinary shares at 2026-09-30 (weighted diluted 164.0M)",
+      "market_cap_usd": 16457000000,
+      "pe_ttm": 24.4,
+      "fcf_yield_ttm": 0.041,
+      "price_to_book": 4.0,
+      "price_to_tangible_book": null,
+      "basis": "USD M. TTM NI from continuing operations 674.4=428.5 (FY25)+558.6 (9M26)-312.7 (9M25); total NI 679.5 includes discontinued gains. TTM OCF continuing 804.3=649.0+581.9-426.6; capex 131.3=93.3+94.6-56.6; FCF 673.0. TTM excludes Maverick Power (acquired 2026-10-01 for about 1.75B cash plus up to 550M contingent) and includes Avail Electrical Products Group only from 2025-05-01, so growth and TTM multiples are mixed-basis. Pro forma net debt about 2.8B (own estimate: debt principal 2,196.6 less cash 1,121.8 plus 1,750 purchase price)."
+    },
+    "balance_sheet": {
+      "total_assets_musd": 8102.7,
+      "equity_musd": 4112.5,
+      "total_liabilities_musd": 3990.2,
+      "total_debt_musd": 2181.4,
+      "basis": "USD M at 2026-09-30; equity = assets less liabilities (own subtraction, includes any noncontrolling interest); cash 1,121.8 pre-funded for Maverick (closed 10-01) with 800M 6.150% notes due 2036 issued September 2026 and a 600M 2026 term loan; goodwill 2,676.1"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peers and own history not compared",
+    "Maverick contribution, MD&A, backlog, risk factors, earnings exhibit not read",
+    "Quote origins undocumented (two aggregators)"
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "currency": "USD",
+  "as_of": "2026-11-21T16:07:54-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "ticker": "TDY",
+  "exchange": "NYSE",
+  "cik": 1094285,
+  "sector_model": "Diversified industrial technology: P/E and FCF yield on matching TTM, net debt, acquisition goodwill exposure.",
+  "thesis": "Teledyne Technologies (NYSE: TDY): instrumentation, digital imaging, aerospace and defense electronics, engineered systems. Q3 2026 10-Q (filed 2026-10-23) read. Q3 sales 1,684.9M (+9.4%, acquisitions 11.7M), 9M 4,907.5M (+9.0%); Q3 NI 272.8M (+23.6%), 9M NI 751.3M (+21.3%) helped by lower cost of sales percentage (56.1% vs 57.2%) and tariff refunds recorded mainly in Q2 (amount not read). 9M OCF 901.7M (vs 812.3M), capex 93.2M, inventories +193.7M; repaid 450M notes in April, debt 2,027.8M vs cash 562.4M, buybacks 94.8M in 9M with 1.5B authorization left. Close 598.56 (2026-11-20, -3.7% that day, cause not found) x 46.04M shares = 27.56B = 26.8x TTM NI 1,026.9M; TTM FCF 1,147.7M (4.2%); 2.5x book.",
+  "counterthesis": "A high quality compounder priced for it: 26.8x TTM earnings and 4.2% FCF yield with 9% growth; part of margin gain is tariff refund and mix; inventories rose 18% in nine months; goodwill and intangibles are 68% of assets so acquisitions drive risk; defense and Middle East exposure not quantified; the -3.7% fall on 11-20 is unexplained.",
+  "invalidation": "Downgrade if organic growth stalls below mid single digits, margins give back the refund and mix gain, or acquisition pricing rises sharply; a valuation case needs a price near or under about 22x normalized earnings (own judgment, not a forecast).",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1094285/000109428526000059/tdy-20260927.htm",
+      "document_id": "0001094285-26-000059",
+      "origin": "10-Q quarter ended 2026-09-27 filed 2026-10-23; downloaded directly from SEC, converted to text; statements, debt note, buyback, MD&A segment discussion read; risk factors, litigation, tariff refund amount not read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T16:07:54-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001094285.json",
+      "document_id": "SEC-companyfacts-CIK0001094285",
+      "origin": "SEC companyfacts FY2025 (ended 2025-12-28, 10-K filed 2026-02-20): revenue 6,115.4M (screen), NetIncomeLoss 894.8M, OCF 1,191.3M, capex 117.3M",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T16:07:54-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001094285.json",
+      "document_id": "SEC-submissions-CIK0001094285",
+      "origin": "SEC submissions: 10-Q and 8-K 2.02 2026-10-21/23; 8-K 5.02 2026-09-28; Form 4 2026-11-12; no newer periodic filing",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T16:07:54-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/tdy/history/",
+      "document_id": "stockanalysis-TDY-2026-11-20",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T16:07:54-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/TDY",
+      "document_id": "yahoo-finance-TDY-2026-11-20",
+      "origin": "Yahoo Finance chart endpoint, daily close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T16:07:54-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q"
+      ],
+      "note": "10-Q filed 2026-10-23 is latest periodic; submissions show no later 8-K than 9-28 other than 10-21 earnings 8-K (exhibit not read)."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "2026-09-27 USD M: assets 15,565.0, liabilities 4,429.6, equity 11,135.4, cash 562.4, debt 2,027.8, goodwill 8,678.5, intangibles 1,927.4; balance sheet page and Note 7 read."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "9M26 OCF 901.7, capex 93.2; 9M25 OCF 812.3, capex 77.5; FY25 OCF 1,191.3, capex 117.3 (companyfacts CY2025); TTM FCF 1,147.7 on matching periods."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Cover 46,036,417 shares at 2026-10-14; balance sheet 46,217,345 at 2026-09-27; weighted diluted 46.9M Q3."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x",
+        "qa",
+        "qb"
+      ],
+      "note": "Peers (AME, ROP, KEYS, TDY history) not compared; tariff refund amount not read so normalized earnings unknown; quote origins undocumented."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Diversified industrial technology: P/E and FCF yield on matching TTM, net debt, acquisition goodwill exposure."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Tariff refund, inventory build and goodwill exposure noted from statements and MD&A; risk factors, audit matters and refund exhibit not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Premium multiple, refund-flattered margin, inventory build, goodwill 68% of assets."
+    }
+  },
+  "price": {
+    "value": 598.56,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-20",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 598.56,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 598.56,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "valuation": {
+      "price": 598.56,
+      "shares_outstanding": 46036417,
+      "share_basis": "cover page 46,036,417 shares at 2026-10-14 (balance sheet 46,217,345 at 2026-09-27; weighted diluted 46.9M)",
+      "market_cap_usd": 27557000000,
+      "pe_ttm": 26.8,
+      "fcf_yield_ttm": 0.042,
+      "price_to_book": 2.47,
+      "price_to_tangible_book": null,
+      "basis": "USD M. TTM NI 1,026.9=894.8 (FY25)+751.3 (9M26)-619.2 (9M25), includes tariff refunds recorded mainly in Q2 2026 (amount not read). TTM OCF 1,280.7=1,191.3+901.7-812.3; capex 133.0=117.3+93.2-77.5; FCF 1,147.7; EV about 29.0B with net debt 1,465.4 (debt 2,027.8 less cash 562.4)."
+    },
+    "balance_sheet": {
+      "total_assets_musd": 15565.0,
+      "equity_musd": 11135.4,
+      "total_liabilities_musd": 4429.6,
+      "total_debt_musd": 2027.8,
+      "basis": "USD M at 2026-09-27; debt is net of 11.1 issuance costs; 450M 2026 notes repaid; 1.2B revolver undrawn (1,158.4 available); goodwill 8,678.5 plus intangibles 1,927.4 = 68% of assets; operating leases not included"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peers and own history not compared",
+    "Tariff refund amount, risk factors, earnings exhibit not read",
+    "Quote origins undocumented (two aggregators)"
+  ]
+}

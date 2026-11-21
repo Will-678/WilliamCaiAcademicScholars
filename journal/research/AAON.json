@@ -1,0 +1,204 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "currency": "USD",
+  "as_of": "2026-11-21T16:07:54-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "ticker": "AAON",
+  "exchange": "Nasdaq",
+  "cik": 824142,
+  "sector_model": "Industrial manufacturer with percent-of-completion revenue: P/E, FCF after capex build, working capital, restatement risk.",
+  "thesis": "AAON (Nasdaq: AAON): HVAC rooftop units, coils and data center cooling (BASX). Q3 2026 10-Q (filed 2026-11-09) read. Q3 sales 707.4M (+84.1%), 9M 1,842.1M (+81.0%); BASX +207% and Coil Products +174% in Q3 on a large liquid cooling order; consolidated gross margin 26.7% vs 27.8%, AAON Oklahoma margin 25.5% vs 33.0% on Memphis plant overhead. 9M NI 172.5M vs 75.6M. 9M OCF 146.9M, capex 138.1M (9M FCF 8.8M); receivables +26% and inventories +44% since year end. On 2026-11-09 the 8-K Item 4.02 says Q1 and Q2 2026 10-Qs should not be relied on (percent-of-completion revenue and software subscription errors; restated Q1 NI 36.5M vs 39.8M, six-month NI 103.6M vs 96.5M) and the 10-Q reports a material weakness in BASX revenue controls. Close 75.21 (2026-11-20) x 82.46M = 6.20B = 30.3x TTM NI 204.6M; TTM FCF not computed (FY25 capex missing).",
+  "counterthesis": "A restatement and an open material weakness in the segment driving most growth means the revenue base is the key risk; percent-of-completion revenue on large data center orders is judgment-heavy; cash conversion is poor (9M FCF 8.8M on NI 172.5M, working capital build); gross margin fell; customer concentration in a few large orders not checked; new 250M term loan adds debt; at 30x earnings the stock prices continued hypergrowth.",
+  "invalidation": "Do not upgrade until the material weakness is remediated and a clean audited 10-K is filed; downgrade to avoid if further restatement, order cancellations, or negative operating cash flow recur.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000088/aaon-20260930.htm",
+      "document_id": "0000824142-26-000088",
+      "origin": "10-Q quarter ended 2026-09-30 filed 2026-11-09; downloaded directly from SEC, converted to text; statements, segment table, MD&A segment discussion, debt note, Item 4 controls read; full risk factors, customer concentration not read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T16:07:54-05:00"
+    },
+    {
+      "id": "k",
+      "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000083/aaon-20261109.htm",
+      "document_id": "0000824142-26-000083",
+      "origin": "8-K filed 2026-11-09 Items 2.02, 4.02, 7.01: non-reliance on Q1 and Q2 2026 10-Qs (percent-of-completion revenue and software subscription errors); press release exhibit not read",
+      "kind": "earnings_release",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T16:07:54-05:00"
+    },
+    {
+      "id": "l",
+      "url": "https://www.sec.gov/Archives/edgar/data/824142/000162828026073758/aaon-20261110.htm",
+      "document_id": "0001628280-26-073758",
+      "origin": "8-K filed 2026-11-13: new 250M term loan, 600M revolver extended to 2031-11-10, leverage covenant below 3.0x, fixed charge coverage at least 1.20x",
+      "kind": "secondary",
+      "read_status": "full",
+      "accessed_at": "2026-11-21T16:07:54-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000824142.json",
+      "document_id": "SEC-companyfacts-CIK0000824142",
+      "origin": "SEC companyfacts FY2025: NetIncomeLoss 107.6M, OCF 0.534M (as tagged in 10-K), capex not found as a CY2025 frame",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T16:07:54-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0000824142.json",
+      "document_id": "SEC-submissions-CIK0000824142",
+      "origin": "SEC submissions: 10-Q and two 10-Q/A on 2026-11-09, 8-Ks 11-09, 11-10, 11-13, 11-16 (Baird presentation, exhibit not read)",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T16:07:54-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/aaon/history/",
+      "document_id": "stockanalysis-AAON-2026-11-20",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T16:07:54-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/AAON",
+      "document_id": "yahoo-finance-AAON-2026-11-20",
+      "origin": "Yahoo Finance chart endpoint, daily close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T16:07:54-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q",
+        "k",
+        "l"
+      ],
+      "note": "10-Q and two 10-Q/A filed 2026-11-09; 8-Ks 11-09 (4.02 non-reliance), 11-13 (loan), 11-16 (conference slides) read or summarized; earnings press release and slides not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "2026-09-30 USD thousand: assets 1,953,396, equity 1,084,745, debt long-term 386,709, cash 13, restricted cash 3,658, receivables 396,849, inventories 376,045, contract assets 279,544."
+    },
+    "cashflow_basis_verified": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "9M26 OCF 146,892 and capex 138,097 read; FY25 capex not located, so TTM FCF is missing, not zero; FY25 OCF tagged 534 thousand not independently checked."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "82,459,251 shares outstanding at 2026-09-30 per balance sheet; weighted diluted 83,557,784 Q3."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x",
+        "qa",
+        "qb"
+      ],
+      "note": "TTM FCF missing; peers (Carrier, Lennox, Trane, Vertiv, Modine) not compared; restated base; quote origins undocumented."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Industrial manufacturer with percent-of-completion revenue: P/E, FCF after capex build, working capital, restatement risk."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "k"
+      ],
+      "note": "Restatement of Q1 and Q2 2026 (8-K 4.02) and BASX revenue material weakness read in 10-Q Item 4; auditor Grant Thornton consulted per 8-K; ERP deficiencies in 2025 noted; FY2025 10-K not restated but not re-audited for this issue."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "k"
+      ],
+      "note": "Restatement, material weakness, poor cash conversion, margin pressure, concentration."
+    }
+  },
+  "price": {
+    "value": 75.21,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-20",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 75.21,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 75.21,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "valuation": {
+      "price": 75.21,
+      "shares_outstanding": 82459251,
+      "share_basis": "balance sheet 82,459,251 shares at 2026-09-30 (cover count not read; weighted diluted 83.6M)",
+      "market_cap_usd": 6202000000,
+      "pe_ttm": 30.3,
+      "fcf_yield_ttm": null,
+      "price_to_book": 5.7,
+      "price_to_tangible_book": null,
+      "basis": "USD M. TTM NI 204.6=107.6 (FY25, not restated)+172.5 (9M26)-75.6 (9M25), with restated Q1 and Q2 2026 included in 9M26. FCF TTM not computed: FY25 capex not located, so missing, not zero. 9M26 OCF 146.9 less capex 138.1 = 8.8 FCF (before any TTM adjustment). 9M26 OCF 146.9 vs 9M25 -18.8; FY25 OCF 0.534 as tagged."
+    },
+    "balance_sheet": {
+      "total_assets_musd": 1953.4,
+      "equity_musd": 1084.7,
+      "total_liabilities_musd": 868.7,
+      "total_debt_musd": 394.2,
+      "basis": "USD M at 2026-09-30 (total liabilities = assets less equity, own subtraction); debt long-term 386.7 plus short-term NMTC 7.5; NMTC obligations 21.4 not included; cash 0.013 plus restricted 3.7; receivables 396.8 and inventories 376.0 up 26% and 44% since year end; leverage ratio 1.0x vs covenant 3.0x under the old agreement"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Material weakness unremediated and Q1/Q2 2026 restated",
+    "FY25 capex missing so TTM FCF not computed",
+    "Peers, customer concentration, earnings exhibit not read",
+    "Quote origins undocumented (two aggregators)"
+  ]
+}
