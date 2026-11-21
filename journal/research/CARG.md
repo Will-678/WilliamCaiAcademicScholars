@@ -29,3 +29,6 @@ Research only; no trade implied.
 
 ## Update 2026-11-15 (peer gap, partly closed)
 Aggregator snapshot at 2026-11-13 close (stockanalysis.com, one origin): CARG 34.81, forward PE 11.8, EV/EBITDA 11.3, FCF yield 10.4%. CARS 12.71: forward PE 5.7, EV/EBITDA 6.4, FCF yield 22.8%, net debt 378M, 3 year revenue growth forecast 1.8%. ZG 30.11: forward PE 14.5, EV/EBITDA 30.1, FCF yield 4.6%. CARG is not the cheapest in the group; CARS is cheaper but levered and ex-growth. Aggregator trailing PE for CARG (22.7) differs from our 16.0 continuing-operations figure, unreconciled. Still open: TRUE, CSGP, own history, call, drop cause. Status unchanged: watch.
+
+## Correction 2026-11-21 (compile)
+The earlier note that the chair's sales had no footnote explaining a plan was wrong for the Form 4 filed 2026-11-09 (accession 0001494259-26-000089, trades 2026-11-06, 215 and 316 direct shares near 37.49 and 38.21, plus 24 and 35 indirect). Its footnotes say the sales were made under a Rule 10b5-1 trading plan. About 881,375 direct shares remain. I did not re-read the 11-04 filing's footnote. Small and pre-planned; rating unchanged (watch). Source: https://www.sec.gov/Archives/edgar/data/1494259/000149425926000089/form4.xml
