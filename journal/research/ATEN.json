@@ -1,0 +1,184 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "currency": "USD",
+  "as_of": "2026-11-21T00:05:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "ticker": "ATEN",
+  "exchange": "NYSE",
+  "cik": 1580808,
+  "sector_model": "Network security/ADC hardware+software: P/E, FCF after SBC, net cash incl. convertible dilution, customer concentration.",
+  "thesis": "A10 Networks (NYSE: ATEN), application delivery and DDoS/security appliances. Q3 2026 10-Q (filed 2026-11-06) read in relevant sections. Q3 revenue 91.5M (+22.6%), 9M 246.7M (+17.4%); products +28% (hardware), services +3.5%; 9M NI 38.1M (+18%), tax 13%; 9M OCF 65.3M, capex 7.8M; inventory doubled to 36.4M (18.4M build). Cash 75.8M plus marketable securities 284.6M vs 225M 2.75% convertible due 2030 (conversion 23.46, in the money; fair value 299.8M) -> roughly net cash 60M on economic basis. Bought TrojAI (34.1M cash). Microsoft warrant for 800k shares tied to purchases (revenue reduction). Close 30.36 x 72.05M = 2.19B = 45.6x TTM NI 47.9M, FCF yield 3.4% (2.2% after SBC), 9.4x book. Top 10 end-customers 55% of revenue.",
+  "counterthesis": "Priced at ~46x earnings for a ~10-15% growth hardware vendor; the Q3 jump is product-led and may be lumpy (service providers, ten customers = 55%). Inventory build and convertible in the money add dilution/cash claims; SBC 19.6M in 9M; Microsoft warrant reduces future revenue.",
+  "invalidation": "Invalidated if product revenue growth reverses, large-customer orders slip, gross margin falls below ~77%, or inventory build turns into write-downs.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1580808/000162828026071687/aten-20260930.htm",
+      "document_id": "0001628280-26-071687",
+      "origin": "10-Q quarter ended 2026-09-30 filed 2026-11-06; downloaded and converted to text; statements, revenue, debt, repurchase, warrant sections read; risk factors, RPO and release exhibit not fully read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T00:05:00-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001580808.json",
+      "document_id": "SEC-companyfacts-CIK0001580808",
+      "origin": "SEC XBRL company facts: FY2025 NI 42.137M, OCF 84.894M, capex 20.128M, SBC 20.030M, revenue 290.557M (10-K 0001580808-26-000014); cover shares 72,051,535 at 2026-10-29",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T00:05:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001580808.json",
+      "document_id": "SEC-submissions-CIK0001580808",
+      "origin": "SEC submissions: 10-Q and 8-K 2.02 (2026-11-05, exhibit not read), 8-K 5.02 2026-09-14 (unread), 424B7 2026-08-07 (unread)",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T00:05:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/aten/history/",
+      "document_id": "stockanalysis-ATEN-2026-11-20",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T00:05:00-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/ATEN",
+      "document_id": "yahoo-finance-ATEN-2026-11-20",
+      "origin": "Yahoo Finance chart endpoint; last price at regularMarketTime 2026-11-20 21:00 UTC (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T00:05:00-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q"
+      ],
+      "note": "10-Q filed 2026-11-06 is latest periodic filing; 8-K 2026-11-05 same period; nothing later in submissions."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Balance sheet 2026-09-30 read: assets 662.9M, liabilities 430.1M, equity 232.8M, cash 75.8M, securities 284.6M, convertible 219.9M carrying."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "9M26 OCF 65.313M and capex 7.815M from 10-Q; FY2025 and 9M25 from XBRL/10-Q; matched periods; acquisitions excluded from capex."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "72,051,535 shares at 2026-10-29 cover (XBRL dei); 72,008K at 2026-09-30 balance sheet."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x",
+        "qa",
+        "qb"
+      ],
+      "note": "Peers and history not compared; convertible dilution unmodelled; quote origins undocumented."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Security hardware/software: P/E, FCF after SBC, net cash with convertible considered."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Inventory build, warrant contra-revenue and acquisition noted; risk factors, audit matters, exhibit not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Valuation, concentration, inventory, dilution and warrant effects recorded."
+    }
+  },
+  "price": {
+    "value": 30.36,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-20",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 30.36,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 30.36,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "valuation": {
+      "price": 30.36,
+      "shares_outstanding": 72051535,
+      "share_basis": "10-Q cover 2026-10-29",
+      "market_cap_usd": 2187500000,
+      "pe_ttm": 45.6,
+      "fcf_yield_ttm": 0.0336,
+      "price_to_book": 9.4,
+      "price_to_tangible_book": null,
+      "basis": "TTM NI USD M 47.939=42.137+38.074-32.272; OCF 88.020=84.894+65.313-62.187; capex 14.479=20.128+7.815-13.464; FCF 73.541M; TTM SBC 24.394M, FCF after SBC 49.1M; equity 232.822M"
+    },
+    "balance_sheet": {
+      "total_assets_musd": 662.889,
+      "equity_musd": 232.822,
+      "total_liabilities_musd": 430.067,
+      "total_debt_musd": 225.0,
+      "basis": "USD millions at 2026-09-30; 225.0M face 2.75% convertible notes due 2030 (219.884M carrying), conversion price 23.46 (in the money; fair value 299.8M); cash 75.795M + marketable securities 284.570M; liabilities include deferred revenue 157.0M"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peers (FFIV, NTCT, RDWR, CHKP) and own history not compared",
+    "Earnings release exhibit, guidance and RPO not read; 8-K 5.02 (2026-09-14) unread",
+    "Risk factors and audit matters not read; customer concentration (top 10 = 55%) not analysed",
+    "Convertible dilution/settlement not modelled; Microsoft warrant revenue effect not quantified",
+    "Quote origins undocumented (two aggregators)"
+  ]
+}

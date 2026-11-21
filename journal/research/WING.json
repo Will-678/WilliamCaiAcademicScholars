@@ -1,0 +1,184 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "currency": "USD",
+  "as_of": "2026-11-21T00:05:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "ticker": "WING",
+  "exchange": "Nasdaq",
+  "cik": 1636222,
+  "sector_model": "Franchisor with securitized debt: P/E, FCF after capex, EV/Adj EBITDA, same-store sales, leverage; negative equity from buybacks (book not meaningful).",
+  "thesis": "Wingstop (Nasdaq: WING), 98% franchised chicken-wing chain. Q3 2026 10-Q (filed 2026-10-28) read in relevant sections. Q3 revenue 185.1M (+5.3%), system sales +6.0% to 1.4B, 76 net openings (3,331 restaurants), but domestic same-store sales -5.4% (-7.2% YTD); Adj EBITDA 64.0M (+0.5%); 9M NI 90.3M (-38.8% because 2025 had a 92.5M gain on investment sale). 9M OCF 129.6M, capex 47.5M (up from 24.6M), 13 restaurants bought from franchisees for 32.0M. Securitized notes 1,220.9M face (2.84%-~5%, leverage under 5.0x), cash 104.8M plus restricted 26.0M, equity deficit -772.5M. 9M buybacks 103.8M (Q3 avg 182.10), dividends 25.6M. Close 151.53 x 27.05M = 4.10B = 35.0x TTM NI 117.0M, TTM FCF 116.6M (2.8%), EV about 5.2B.",
+  "counterthesis": "Valuation still requires growth that same-store sales declines are undermining; leverage ~1.2B securitized debt vs 130M cash with negative equity; buybacks at 182-245 were funded from cash and now cash fell 92M YTD; capex rising and company-restaurant purchases consume FCF. Stock already -14% since 11-09 and may keep derating if comps stay negative.",
+  "invalidation": "Invalidated if same-store sales stay negative while unit growth slows, franchisee economics weaken (closures), or debt refinancing costs rise materially; conversely thesis for cheapness fails because it is not cheap on FCF.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1636222/000162828026067883/wing-20260926.htm",
+      "document_id": "0001628280-26-067883",
+      "origin": "10-Q quarter ended 2026-09-26 filed 2026-10-28; downloaded and converted to text; statements, debt note, MD&A highlights, buyback table read; risk factors, release exhibit and franchisee detail not read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T00:05:00-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001636222.json",
+      "document_id": "SEC-companyfacts-CIK0001636222",
+      "origin": "SEC XBRL company facts: FY2025 NI 174.267M, OCF 153.065M, capex 47.441M, SBC 24.878M, revenue 696.853M (10-K 0001636222-26-000008); cover shares 27,053,133 at 2026-10-27",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T00:05:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001636222.json",
+      "document_id": "SEC-submissions-CIK0001636222",
+      "origin": "SEC submissions: 10-Q and 8-K 2.02 (2026-10-28, exhibit not read); later items are Forms 4/144 and 13G/A only",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T00:05:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/wing/history/",
+      "document_id": "stockanalysis-WING-2026-11-20",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T00:05:00-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/WING",
+      "document_id": "yahoo-finance-WING-2026-11-20",
+      "origin": "Yahoo Finance chart endpoint; last price at regularMarketTime 2026-11-20 21:00 UTC (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T00:05:00-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q"
+      ],
+      "note": "10-Q filed 2026-10-28 is latest periodic; 8-K 2.02 same day; later items only Forms 4/144/13G."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Balance sheet 2026-09-26 read: assets 686.6M, liabilities 1,459.2M, deficit -772.5M, cash 104.8M, notes 1,211.3M net."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "9M26 OCF 129.634M, capex 47.529M from 10-Q; FY2025 and 9M25 from XBRL/10-Q; matched periods; restaurant acquisitions excluded."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "27,053,133 shares at 2026-10-27 cover (XBRL dei)."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x",
+        "qa",
+        "qb"
+      ],
+      "note": "Peers/history not compared; EV/EBITDA missing; quote origins undocumented."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Franchisor: P/E, FCF, leverage, comps; book value not meaningful."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "2025 investment gain and negative equity noted; risk factors, audit matters, exhibit not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Negative comps, leverage, buyback timing and capex recorded."
+    }
+  },
+  "price": {
+    "value": 151.53,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-20",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 151.53,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 151.53,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "valuation": {
+      "price": 151.53,
+      "shares_outstanding": 27053133,
+      "share_basis": "10-Q cover 2026-10-27",
+      "market_cap_usd": 4099400000,
+      "pe_ttm": 35.0,
+      "fcf_yield_ttm": 0.0284,
+      "price_to_book": null,
+      "price_to_tangible_book": null,
+      "basis": "TTM NI USD M 117.036=174.267+90.275-147.506 (9M25 included 92.485M investment gain, so FY25 base inflated; TTM includes it only via Q4-25 26.761M + 9M26 90.275M, no gain); OCF 186.949=153.065+129.634-95.750; capex 70.369=47.441+47.529-24.601; FCF 116.58M; equity deficit so P/B null"
+    },
+    "balance_sheet": {
+      "total_assets_musd": 686.605,
+      "equity_musd": -772.548,
+      "total_liabilities_musd": 1459.153,
+      "total_debt_musd": 1220.925,
+      "basis": "USD millions at 2026-09-26; securitized notes face 472.8+248.125+500.0 (1,211.349 net of issuance costs); cash 104.787M plus restricted 25.994M; VFN undrawn"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peers (CAVA, DPZ, PZZA, MCD) and own history not compared",
+    "Earnings release exhibit, guidance and franchisee unit economics not read",
+    "TTM Adj EBITDA and EV/EBITDA not computed (Q4 2025 not read); risk factors and audit matters not read",
+    "Debt maturities/refinancing schedule not read in detail",
+    "Quote origins undocumented (two aggregators)"
+  ]
+}
