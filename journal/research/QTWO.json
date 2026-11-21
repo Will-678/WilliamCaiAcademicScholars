@@ -1,0 +1,193 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "currency": "USD",
+  "as_of": "2026-11-20T20:07:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "ticker": "QTWO",
+  "exchange": "NYSE",
+  "cik": 1410384,
+  "sector_model": "Bank software as a service: P/E, FCF after capitalized software and SBC, subscription growth, net cash, buybacks; GAAP tax rate distortion.",
+  "thesis": "Q2 Holdings (NYSE: QTWO), digital banking software for banks, credit unions and fintechs. Q3 2026 10-Q (filed 2026-10-28) read in relevant sections. Q3 revenue 225.8M (+11.9%), 9M 662.0M (+12.9%); subscription 9M 550.8M (+15.2%); 9M net income 89.7M vs 31.6M; effective tax rate 6.4% (NOL shield). 9M OCF 181.7M vs 137.8M; capex 10.4M and capitalized software 21.1M; SBC 60.8M in 9M. Repaid 304.0M convertible notes in cash and bought back 158.9M of shares in 9M (shares 62.74M to 61.78M); cash 116.3M plus 6.7M investments, no debt. Close 66.50 x 61.78M = 4.11B: 37.3x TTM NI 110.2M, FCF yield 5.0% (3.1% after SBC), 6.2x book.",
+  "counterthesis": "Valuation is full at 37x GAAP earnings that are flattered by a roughly 6% tax rate; FCF after SBC yield about 3%. Growth is low double digits. Bank consolidation, competition from Fiserv, Jack Henry, nCino and Alkami, and AI-driven product change could slow growth; cash fell after the buyback and note repayment.",
+  "invalidation": "Invalidated by subscription growth falling toward single digits, margin gains stalling, loss of large bank customers, or buybacks that stop offsetting SBC dilution.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1410384/000141038426000065/qtwo-20260930.htm",
+      "document_id": "0001410384-26-000065",
+      "origin": "10-Q quarter ended 2026-09-30 filed 2026-10-28; downloaded and converted to text; statements, revenue note, debt, repurchase and income tax notes read; MD&A, risk factors and RPO not fully read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T20:07:00-05:00"
+    },
+    {
+      "id": "r",
+      "url": "https://www.sec.gov/Archives/edgar/data/1410384/000141038426000062/qtwo-20261028.htm",
+      "document_id": "0001410384-26-000062",
+      "origin": "8-K Item 2.02 filed same day as the 10-Q (listed in SEC submissions; exhibit 99.1 not read)",
+      "kind": "earnings_release",
+      "read_status": "snippet",
+      "accessed_at": "2026-11-20T20:07:00-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001410384.json",
+      "document_id": "SEC-companyfacts-CIK0001410384",
+      "origin": "SEC XBRL company facts: FY2025 NI 52.008M, OCF 201.461M, PPE capex 6.81M, software payments 21.283M, SBC 86.949M (10-K 0001410384-26-000006); cover shares 61,781,542 at 2026-10-28",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T20:07:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001410384.json",
+      "document_id": "SEC-submissions-CIK0001410384",
+      "origin": "SEC submissions list read: 10-Q, 8-K 2.02 and 8-K 5.02/7.01 on 2026-10-28; 5.02 detail not read",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T20:07:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/qtwo/history/",
+      "document_id": "stockanalysis-QTWO-2026-11-20",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-20 4:00 PM EST, market closed (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T20:07:00-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/QTWO",
+      "document_id": "yahoo-finance-QTWO-2026-11-20",
+      "origin": "Yahoo Finance chart endpoint; last price at regularMarketTime 2026-11-20 21:00 UTC (4:00 PM EST) (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T20:07:00-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q"
+      ],
+      "note": "10-Q filed 2026-10-28 is the latest periodic filing; 8-K 2.02 and 8-K 5.02/7.01 same day; none later in the submissions list."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Balance sheet 2026-09-30 read: assets 1,004.1M, liabilities 346.3M, equity 657.8M, cash 116.3M, investments 6.7M; convertible notes (304.0M) repaid in cash in Q2; no borrowings; revolver 125M undrawn per table."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "9M26 OCF 181.656M, PPE 10.366M, capitalized software 21.119M read from 10-Q; FY2025 OCF 201.461M, PPE 6.81M, software 21.283M from XBRL facts; 9M25 from 10-Q comparatives; periods matched."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "61,781,542 shares at 2026-10-28 (cover value via XBRL facts); 61,782K at 2026-09-30 on balance sheet."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x",
+        "qa",
+        "qb"
+      ],
+      "note": "Peers (Alkami, nCino, Jack Henry, Fiserv) and own history not compared; GAAP tax rate of about 6% is NOL driven; quote origins undocumented."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Bank software subscription company: P/E, FCF after capitalized software and SBC, net cash, buybacks; bank customer concentration."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Low tax rate and capitalized software (68.2M net) noted; deferred implementation costs, RPO, risk factors and audit matters not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "SBC burden, tax shield, valuation, customer consolidation and AI disruption risk recorded."
+    }
+  },
+  "price": {
+    "value": 66.5,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-20",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 66.5,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 66.5,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "valuation": {
+      "price": 66.5,
+      "shares_outstanding": 61781542,
+      "share_basis": "10-Q cover 2026-10-28",
+      "market_cap_usd": 4108000000,
+      "pe_ttm": 37.3,
+      "fcf_yield_ttm": 0.05,
+      "price_to_book": 6.2,
+      "price_to_tangible_book": null,
+      "basis": "TTM NI USD M 110.160=52.008+89.717-31.565; OCF 245.352=201.461+181.656-137.765; PPE 12.364=6.81+10.366-4.812; software 26.227=21.283+21.119-16.175; FCF 206.761M; TTM SBC 80.99M=86.949+60.806-66.767, FCF after SBC 125.8M; equity 657.785M"
+    },
+    "balance_sheet": {
+      "total_assets_musd": 1004.054,
+      "equity_musd": 657.785,
+      "total_liabilities_musd": 346.269,
+      "total_debt_musd": 0,
+      "basis": "USD millions at 2026-09-30; no borrowings (304.0M convertible notes repaid in Q2 2026); cash 116.312M and investments 6.679M; liabilities are mostly deferred revenue and operating items"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peers (ALKT, NCNO, JKHY, FI) and own history not compared",
+    "Earnings release exhibit, guidance, RPO and 8-K Item 5.02 not read",
+    "Risk factors, customer concentration and audit matters not read",
+    "Normalized tax rate effect on earnings not quantified",
+    "Quote origins undocumented (two aggregators)"
+  ]
+}

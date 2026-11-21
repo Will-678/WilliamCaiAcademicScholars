@@ -1,0 +1,192 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "currency": "USD",
+  "as_of": "2026-11-20T20:07:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "ticker": "SN",
+  "exchange": "NYSE",
+  "cik": 1957132,
+  "sector_model": "Branded small home appliances (Shark, Ninja): P/E and FCF after capex with refund and tariff effects normalized, working capital (receivables, inventory), customer concentration, leverage.",
+  "thesis": "SharkNinja (NYSE: SN). Q3 2026 10-Q (filed 2026-11-04) read in relevant sections. Q3 net sales 1,976.4M (+21.2%), 9M 5,154.7M (+19.9%); Q3 net income 338.4M vs 188.7M. Q3 gross margin 59.2% includes 243.8M of accepted IEEPA tariff refund claims booked as a reduction of cost of sales, less 45.2M payable to factory partners, plus 10.5M of related interest income; 186.1M was a receivable at 9/30 and was received in October 2026. Without the net 198.6M gross profit benefit and interest, Q3 operating income would be about 244M (442.9M less 198.6M net refund benefit, own arithmetic) versus 262.9M a year earlier, i.e. down about 7% despite sales +21%. 9M OCF only 107.4M against 589.6M net income because receivables (-460.8M), inventories (-436.2M) and prepaids (-282.7M) rose, partly offset by payables and accruals (+431M). Cash 487.8M vs term loan 708.75M; 169.7M of buybacks in 9M. Close 212.64 x 140.91M shares = 29.96B: about 35.5x TTM reported NI 844.9M, about 44x excluding an estimated 161M after-tax refund benefit (own approximation, 23% tax rate), FCF yield about 1.6%, 9.5x book.",
+  "counterthesis": "The reported profit surge is mostly a one-time refund; underlying Q3 operating income appears lower year on year while selling, marketing and G&A grew faster than sales. Cash conversion is weak (9M OCF 18% of NI) and the customer concentration is high (Customer A 23.4% of Q3 sales and 28.8% of receivables). SBC jumped to 119.6M from 31.6M in 9M. The valuation (about 44x normalized earnings, 1.6% FCF yield) already prices continued 20% growth and margin recovery.",
+  "invalidation": "Invalidated as a value idea if normalized earnings do not grow into the multiple; supported only if working capital reverses into strong Q4 cash flow and growth stays near 20% without refund help. Thesis breakers: sales growth under 10%, further tariff shocks, loss of the major retail customer, receivable build continuing.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1957132/000195713226000056/sharkninja-20260930.htm",
+      "document_id": "0001957132-26-000056",
+      "origin": "10-Q quarter ended 2026-09-30 filed 2026-11-04; downloaded and converted to text; statements, tariff refund note, debt note, concentration table, MD&A for Q3 read; risk factors, audit matters and subsequent events not fully read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T20:07:00-05:00"
+    },
+    {
+      "id": "r",
+      "url": "https://www.sec.gov/Archives/edgar/data/1957132/000195713226000055/sharkninja-20261104.htm",
+      "document_id": "0001957132-26-000055",
+      "origin": "8-K Item 2.02 filed same day as the 10-Q (listed in SEC submissions; exhibit 99.1 not read)",
+      "kind": "earnings_release",
+      "read_status": "snippet",
+      "accessed_at": "2026-11-20T20:07:00-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001957132.json",
+      "document_id": "SEC-companyfacts-CIK0001957132",
+      "origin": "SEC XBRL company facts: FY2025 NI 701.374M, OCF 634.132M, PPE capex 146.082M, intangibles 12.374M, software 1.323M, revenue 6,399.188M (10-K 0001957132-26-000015)",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T20:07:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001957132.json",
+      "document_id": "SEC-submissions-CIK0001957132",
+      "origin": "SEC submissions list read: 10-Q and 8-K 2.02 on 2026-11-04; 10-Q 2026-08-05; 8-K 8.01 2026-07-13; 8-K 5.03/5.07 2026-06-18",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T20:07:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/sn/history/",
+      "document_id": "stockanalysis-SN-2026-11-20",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-20 4:00 PM EST, market closed (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T20:07:00-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SN",
+      "document_id": "yahoo-finance-SN-2026-11-20",
+      "origin": "Yahoo Finance chart endpoint; last price at regularMarketTime 2026-11-20 21:00 UTC (4:00 PM EST) (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-20T20:07:00-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q"
+      ],
+      "note": "10-Q filed 2026-11-04 is the latest periodic filing; 8-K 2.02 same day; no later 8-K in the submissions list (next entries 2026-08-05, 2026-07-13)."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Balance sheet 2026-09-30 read: assets 6,290.5M, liabilities 3,130.0M, equity 3,160.5M, cash 487.8M, term loan principal 708.75M (carrying 706.6M)."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "9M26 OCF 107.387M, PPE capex 124.629M, intangibles 12.526M, software 0 read from 10-Q; FY2025 (OCF 634.132M, PPE 146.082M, intangibles 12.374M, software 1.323M) and 9M25 from filing and XBRL facts; periods matched for TTM."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "140,911,501 ordinary shares at 2026-10-29 from 10-Q cover; 140,840,521 outstanding at 2026-09-30."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x",
+        "qa",
+        "qb"
+      ],
+      "note": "Peers (Whirlpool, iRobot, Traeger, Weber-type, Breville, Helen of Troy) and own history not compared; TTM earnings include a one-time tariff refund; quote origins undocumented."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Consumer durables brand: P/E and FCF after capex, working capital (receivables, inventory), tariff exposure, customer concentration, term loan."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Tariff refund recognition (243.8M gross, 45.2M payable to factories, 10.5M interest) identified and read in the 10-Q; audit matters, risk factors, receivable quality (bad debt up 6.9M in Q3) and non-GAAP reconciliation not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Refund-inflated earnings, cash conversion, customer concentration, SBC step-up, tariff and execution risk recorded."
+    }
+  },
+  "price": {
+    "value": 212.64,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-20",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 212.64,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 212.64,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "valuation": {
+      "price": 212.64,
+      "shares_outstanding": 140911501,
+      "share_basis": "10-Q cover 2026-10-29",
+      "market_cap_usd": 29963000000,
+      "pe_ttm": 35.5,
+      "fcf_yield_ttm": 0.016,
+      "price_to_book": 9.5,
+      "price_to_tangible_book": null,
+      "basis": "TTM NI USD M 844.851=701.374+589.639-446.162 (includes about 209M pretax refund and interest benefit in Q3 2026); TTM OCF 694.443=634.132+107.387-47.076; PPE capex 185.773=146.082+124.629-84.938; intangibles 15.121=12.374+12.526-9.779; software 0.001; FCF 493.548M; equity 3160.534M"
+    },
+    "balance_sheet": {
+      "total_assets_musd": 6290.514,
+      "equity_musd": 3160.534,
+      "total_liabilities_musd": 3129.98,
+      "total_debt_musd": 706.631,
+      "basis": "USD millions at 2026-09-30; debt = term loan net of deferred financing costs (principal 708.75M, maturity 2028-07-20); cash 487.815M; accounts payable and accruals are operating liabilities, not debt"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peers (Whirlpool, Helen of Troy, Breville, Traeger) and own history not compared",
+    "Q3 earnings release exhibit, guidance and call not read; underlying margin ex refund is own arithmetic",
+    "Receivable and inventory build versus sales not explained beyond MD&A; customer concentration risk factor not read",
+    "Risk factors, audit matters and legal notes not read",
+    "Quote origins undocumented (two aggregators)"
+  ]
+}
