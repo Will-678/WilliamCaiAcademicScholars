@@ -362,3 +362,8 @@ Run 89 (2026-11-20 20:xx ET, Fri): screen not refreshed (retrieved 04:05 ET, abo
 | 1636222 | WING | Nasdaq | Restaurant franchisor (mid) | researched_watch | 2026-11-21 | Peers (DPZ, PZZA, CAVA, MCD); TTM Adj EBITDA and EV/EBITDA; debt maturities; comps trend; release exhibit | 2026-11-28 | 35.0x TTM NI, FCF yield 2.8%, SSS -7.2% YTD, 1.22B securitized debt, equity deficit; journal/research/WING.json |
 
 Run 90 (2026-11-21 00:xx ET, Sat): screen not refreshed (retrieved 2026-11-20 04:05 ET, about 20h old, no failure). Leader gap EXEL '039 ruling: SEC submissions rechecked, still no 8-K after 2026-10-29; not closed. Added ATEN and WING (both watch). Remaining screen leads: UiPath (Q3 report due about early Dec), Oddity, Wilson Bank.
+
+| 884887 | RCL | NYSE | Consumer travel cruise (large) | researched_watch | 2026-11-21 | Peers (CCL, NCLH); EV/EBITDA; read MD&A, guidance, order book, deposits; quote origins | 2026-11-28 | 17.4x TTM NI, FCF yield 1.9%, net debt 22.0B, 5.6B maturities 2027-28, revenue +8.8% 9M, -7.5% in two sessions; journal/research/RCL.json |
+| 230557 | SIGI | Nasdaq | Insurance specialty P&C (mid) | researched_watch | 2026-11-21 | Peers (CINF, RLI, TRV); read MD&A, reserve development, reported combined ratio; quote origins | 2026-11-28 | 11.9x TTM NI, 1.88x common book, derived combined ratio about 98.3%, reserves +10.8% vs premiums +1.7%; journal/research/SIGI.json |
+
+Run 91 (2026-11-21 04:xx ET, Sat): screen not refreshed (retrieved 2026-11-20 04:05 ET, just under 24h, no failure). Leader gap EXEL '039 ruling: SEC submissions rechecked, still no 8-K after 2026-10-29; not closed. Added RCL and SIGI (both watch). Remaining screen leads: UiPath, Oddity, Wilson Bank, Kanzhun, Trip.com.

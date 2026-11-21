@@ -1,0 +1,182 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "currency": "USD",
+  "as_of": "2026-11-21T04:06:21-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "ticker": "RCL",
+  "exchange": "NYSE",
+  "cik": 884887,
+  "sector_model": "Cruise operator (capital heavy consumer travel): P/E, FCF after ship capex, net debt/EBITDA, debt maturities, yields; book value secondary.",
+  "thesis": "Royal Caribbean (NYSE: RCL). Q3 2026 10-Q (filed 2026-10-27) read via WebFetch extraction of statements. Q3 revenue 5,591M (+8.8%), 9M revenue 14,876M (+8.8%), 9M NI attributable 3,798M (vs 3,514M, +8.1%). 9M OCF 5,274M, capex 3,880M, FCF 1,394M. Debt 22,872M gross vs cash 851M, equity 11,913M; maturities 579M rest of 2026, 2,371M 2027, 3,211M 2028. Close 296.48 (2026-11-20) x 267,470,925 shares = 79.3B = 17.4x TTM NI 4,552M; TTM FCF 1,510M = 1.9% yield. Stock fell 7.5% from 320.65 on 11-18 to 296.48 on 11-20; cause not researched.",
+  "counterthesis": "Net debt about 22.0B against TTM FCF only 1.5B after heavy ship capex; earnings are cyclical and sensitive to consumer demand, fuel, and geopolitical events; 17x peak earnings is not cheap on cash. Share count and dilution, order book commitments, and customer deposits (a working capital source of OCF) not reviewed.",
+  "invalidation": "Invalidated or downgraded if bookings or yields weaken, if the order book commitments outrun cash generation, or if refinancing of the 2027-2028 maturities (5.6B) becomes costly.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000044/rcl-20260930.htm",
+      "document_id": "0000884887-26-000044",
+      "origin": "10-Q quarter ended 2026-09-30 filed 2026-10-27; fetched via WebFetch with extraction prompt (summarised, not full text); income statement, cash flow, balance sheet, debt maturities, cover shares captured; MD&A, guidance, risk factors, order book, customer deposits not read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T04:06:21-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000884887.json",
+      "document_id": "SEC-companyfacts-CIK0000884887",
+      "origin": "SEC companyfacts: FY2025 NI attributable 4,268M, OCF 6,465M, capex 5,229M (10-K filed 2026-02-11); 9M25 NI 3,514M OCF 4,842M capex 3,722M",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T04:06:21-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0000884887.json",
+      "document_id": "SEC-submissions-CIK0000884887",
+      "origin": "SEC submissions: 10-Q and 8-K 2.02 on 2026-10-27 (exhibit not read); 8-Ks 2026-09-23 (8.01), 2026-08-20 (1.01/2.03 financing, not read)",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T04:06:21-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/rcl/history/",
+      "document_id": "stockanalysis-RCL-2026-11-20",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T04:06:21-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/RCL",
+      "document_id": "yahoo-finance-RCL-2026-11-20",
+      "origin": "Yahoo Finance chart endpoint; daily close 2026-11-20 (regularMarketTime 1795208614 s, after close; origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T04:06:21-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q"
+      ],
+      "note": "10-Q filed 2026-10-27 is latest periodic; 8-K 2.02 same day; later items none in recent list."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Balance sheet 2026-09-30: assets 44,813M, liabilities 32,900M, equity 11,913M, cash 851M, debt 22,872M gross."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "9M26 OCF 5,274M capex 3,880M (10-Q); FY25 and 9M25 from XBRL facts; matched periods."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "267,470,925 shares at 2026-10-23 from cover page."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x",
+        "qa",
+        "qb"
+      ],
+      "note": "Peers/history not compared; EV/EBITDA missing; quote origins undocumented."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Cruise operator: P/E, FCF after capex and leverage used; EV/EBITDA still to add."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Customer deposits, derivatives, audit matters not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Leverage, cyclicality, capex vs FCF recorded."
+    }
+  },
+  "price": {
+    "value": 296.48,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-20",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 296.48,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 296.48,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "valuation": {
+      "price": 296.48,
+      "shares_outstanding": 267470925,
+      "share_basis": "10-Q cover 2026-10-23",
+      "market_cap_usd": 79300000000,
+      "pe_ttm": 17.4,
+      "fcf_yield_ttm": 0.019,
+      "price_to_book": 6.77,
+      "price_to_tangible_book": null,
+      "basis": "TTM NI attributable USD M 4552=4268+3798-3514 (FY25 10-K, 9M26, 9M25); OCF 6897=6465+5274-4842; capex 5387=5229+3880-3722; FCF 1510; P/B uses equity attributable to RCL 11,713M; tangible book not computed"
+    },
+    "balance_sheet": {
+      "total_assets_musd": 44813,
+      "equity_musd": 11913,
+      "total_liabilities_musd": 32900,
+      "total_debt_musd": 22872,
+      "basis": "USD millions at 2026-09-30; gross debt incl finance leases 22,872 (22,355 net of issuance costs); cash 851"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peers (CCL, NCLH) and own history not compared; EV/EBITDA not computed",
+    "Release exhibit, guidance, bookings, yields, order book and customer deposits not read",
+    "Risk factors, audit matters, share count trend not read; cause of 7.5% two-day drop unknown",
+    "Quote origins undocumented (two aggregators)"
+  ]
+}
