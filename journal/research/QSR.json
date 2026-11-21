@@ -1,0 +1,191 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "currency": "USD",
+  "as_of": "2026-11-21T12:08:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "ticker": "QSR",
+  "exchange": "NYSE",
+  "cik": 1618756,
+  "sector_model": "Franchisor with leverage: P/E on normalized tax, FCF after interest, net debt, dividend coverage; exchangeable units included in share count.",
+  "thesis": "Restaurant Brands International (NYSE and TSX: QSR), franchisor of Tim Hortons, Burger King, Popeyes, Firehouse. Q3 2026 10-Q (filed 2026-10-29) read. Q3 revenue 2,525M (+3.1%), 9M 7,309M (+4.9%); system-wide sales +6.2% Q3, comparable sales +3.8%; income from operations 9M 2,018M vs 1,581M. Reported 9M NI 1,814M includes an income tax benefit of 168M (effective rate -10.2%) from intra-group reorganization. 9M OCF 1,308M, capex 181M; paid 875M dividends and distributions and bought back 444M; debt 13.5B vs cash 0.97B; 2026-11-17 priced senior secured notes to repay term loan B. Close 72.91 (2026-11-20) x 451.3M shares including exchangeable units = 32.9B = 16.7x reported TTM NI 1,969M (about 23x normalized for tax, own estimate), TTM FCF about 1.58B (4.8%).",
+  "counterthesis": "Reported earnings are flattered by a one-off deferred tax benefit; net debt about 12.5B (about 2.7x revenue-scale leverage, secured debt); dividends plus buybacks consume nearly all FCF; the stock has drifted from 75.4 to 72.9 over a week with no catalyst found; franchisee health and Burger King US trends not examined.",
+  "invalidation": "Downgrade if comparable sales turn negative, normalized FCF per share falls, leverage rises, or the secured notes refinancing raises interest cost materially; upgrade case needs normalized earnings confirmed at a lower multiple.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1618756/000161875626000056/qsr-20260930.htm",
+      "document_id": "0001618756-26-000056",
+      "origin": "10-Q quarter ended 2026-09-30 filed 2026-10-29; downloaded directly, converted to text; statements, exchangeable units, tax rate discussion, KPIs read; debt note, risk factors, segment detail not read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T12:08:00-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001618756.json",
+      "document_id": "SEC-companyfacts-CIK0001618756",
+      "origin": "SEC companyfacts FY2025: revenue 9,434M, ProfitLoss 1,075M, OCF 1,714M (as reported total), capex 265M",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T12:08:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001618756.json",
+      "document_id": "SEC-submissions-CIK0001618756",
+      "origin": "SEC submissions: 10-Q and 8-K 2.02 2026-10-29; 8-K 1.01 and 8.01 2026-11-18 (secured notes offering, read)",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T12:08:00-05:00"
+    },
+    {
+      "id": "k",
+      "url": "https://www.sec.gov/Archives/edgar/data/1618756/000161875626000058/qsr-20261117.htm",
+      "document_id": "0001618756-26-000058",
+      "origin": "8-K for 2026-11-17: underwriting agreement for senior secured notes; proceeds repay part of term loan B; amount in exhibits not read",
+      "kind": "earnings_release",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T12:08:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/qsr/history/",
+      "document_id": "stockanalysis-QSR-2026-11-20",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T12:08:00-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/QSR",
+      "document_id": "yahoo-finance-QSR-2026-11-20",
+      "origin": "Yahoo Finance chart endpoint, daily close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T12:08:00-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q",
+        "k"
+      ],
+      "note": "10-Q filed 2026-10-29 latest periodic; 8-K 2026-11-17 offering read; earnings exhibit not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "2026-09-30 USD M: assets 25,263, liabilities 19,735, RBI equity 3,940, NCI 1,588, cash 974, long-term debt 13,184, current debt and finance leases 89, finance leases 243, goodwill 6,166, intangibles 10,880."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "9M26 OCF continuing 1,308M, capex 181M; 9M25 OCF 1,159M, capex 163M; FY25 OCF 1,714M (companyfacts total, may include discontinued) and capex 265M; TTM OCF about 1,863M, FCF about 1,580M; basis mismatch flagged."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "348,350,731 common shares plus 102,926,279 Partnership exchangeable units at 2026-10-23 = 451.28M economic shares; weighted diluted 457M."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x",
+        "qa",
+        "qb"
+      ],
+      "note": "Peers (MCD, YUM, DPZ, WEN) and history not compared; discrete tax benefit amount not read; debt maturities not read; quote origins undocumented."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Franchisor with leverage: P/E on normalized tax, FCF after interest, net debt, dividend coverage; exchangeable units included in share count."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Tax rate swing (-10.2% 9M) from intra-group reorganization benefits, FX remeasurement and derivative gains read at summary level; debt note, litigation, risk factors not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Reported earnings inflated by discrete tax benefit; leverage 13.5B; payout of dividends plus buybacks about equals FCF."
+    }
+  },
+  "price": {
+    "value": 72.91,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-20",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 72.91,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 72.91,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "valuation": {
+      "price": 72.91,
+      "shares_outstanding": 451277010,
+      "share_basis": "348,350,731 common + 102,926,279 exchangeable units, 2026-10-23",
+      "market_cap_usd": 32902000000,
+      "pe_ttm": 16.7,
+      "fcf_yield_ttm": 0.048,
+      "price_to_book": null,
+      "price_to_tangible_book": null,
+      "basis": "USD M. TTM net income incl NCI 1,969=1,075 (FY25 ProfitLoss)+1,814-920; reported, inflated by about 500M discrete deferred tax benefit (own estimate from 9M pretax 1,646 at about 22%; normalized about 23x). TTM OCF about 1,863=1,714-1,159+1,308; capex 283=265-163+181; FCF about 1,580 (FY25 OCF may include discontinued ops)."
+    },
+    "balance_sheet": {
+      "total_assets_musd": 25263,
+      "equity_musd": 5528,
+      "total_liabilities_musd": 19735,
+      "total_debt_musd": 13516,
+      "basis": "USD M at 2026-09-30; debt = long-term 13,184 + current 89 + finance leases 243; excludes operating leases 1,941 noncurrent; cash 974; net debt about 12.5B"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peers (MCD, YUM, DPZ, WEN) and own history not compared",
+    "Discrete tax benefit amount, debt maturities, risk factors, segment results and earnings exhibit not read",
+    "Quote origins undocumented (two aggregators)"
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "currency": "USD",
+  "as_of": "2026-11-21T12:08:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "ticker": "ONTO",
+  "exchange": "NYSE",
+  "cik": 704532,
+  "sector_model": "Cyclical semiconductor equipment: P/E and FCF yield on normalized earnings, net cash/debt, customer concentration; non-operating investment marked separately.",
+  "thesis": "Onto Innovation (NYSE: ONTO), semiconductor inspection and metrology. Q3 2026 10-Q (filed 2026-11-09) read. Q3 revenue 409.7M (+87.8% y/y, +19.4% q/q), 9M 1,044.8M (+41.5%); Q3 gross margin 54.8%, operating income 95.4M vs 23.7M; Q3 NI 46.8M after a 40.8M unrealized Rigaku loss. In 2026 it issued 1.5B 0% convertible notes due 2031 (conversion 381.80), bought 27% of Rigaku for 719.5M (fair value 678.7M), repurchased 205M stock, and on 2026-11-16 authorized 400M more buyback. Cash and securities 1.25B. Close 170.16 (2026-11-20, -13.2% that day, cause not found) x 49,084k = 8.35B = 55x TTM NI 151.2M (about 43.5x ex Rigaku loss, own estimate), TTM FCF 247.6M (3.0%).",
+  "counterthesis": "Four customers were 57% of 9M revenue (16.8, 14.5, 14.3, 11.5); revenue doubled off a weak prior-year quarter in a cyclical industry; valuation is high on earnings and FCF; OCF fell in 9M as receivables and inventory grew; the company now carries 1.5B of converts and a volatile Tokyo-listed stake; unexplained 13% one-day drop may signal customer or order news.",
+  "invalidation": "Downgrade if orders or revenue fall sequentially, a top customer cuts spending, gross margin slips below about 50%, or the Rigaku stake and converts become a capital allocation drag; upgrade case needs sustained growth with lower multiple after the drop is explained.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/704532/000119312526453859/onto-20260930.htm",
+      "document_id": "0001193125-26-453859",
+      "origin": "10-Q quarter ended 2026-09-30 filed 2026-11-09; downloaded directly, converted to text; statements, Rigaku, 2031 Notes, customers, MD&A overview read; risk factors not read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T12:08:00-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000704532.json",
+      "document_id": "SEC-companyfacts-CIK0000704532",
+      "origin": "SEC companyfacts FY ended 2026-01-03: revenue 1,005.263M, NI 136.759M, OCF 328.315M, capex 28.513M",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T12:08:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0000704532.json",
+      "document_id": "SEC-submissions-CIK0000704532",
+      "origin": "SEC submissions: 10-Q and 8-K 2.02 2026-11-09; 8-K 8.01 2026-11-16 (new 400M buyback authorization, read)",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T12:08:00-05:00"
+    },
+    {
+      "id": "k",
+      "url": "https://www.sec.gov/Archives/edgar/data/704532/000119312526462318/onto-20261116.htm",
+      "document_id": "0001193125-26-462318",
+      "origin": "8-K 2026-11-16: board approved up to 400M repurchase, replacing 99.9M remaining; read",
+      "kind": "earnings_release",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T12:08:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/onto/history/",
+      "document_id": "stockanalysis-ONTO-2026-11-20",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T12:08:00-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/ONTO",
+      "document_id": "yahoo-finance-ONTO-2026-11-20",
+      "origin": "Yahoo Finance chart endpoint, daily close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T12:08:00-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q",
+        "k"
+      ],
+      "note": "10-Q filed 2026-11-09 is latest periodic; 8-K 2.02 exhibit not read; 8-K 2026-11-16 buyback read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "2026-09-30: assets 3,803.0M, liabilities 1,823.7M, equity 1,979.3M, cash 400.7M, marketable securities 850.8M, 2031 Notes net 1,473.2M (principal 1,500M), Rigaku stake 678.7M, goodwill 625.8M, intangibles 239.0M."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "9M26 OCF 166.6M (working capital -126.1M), capex 8.8M; 9M25 OCF 233.3M, capex 23.4M; FY25 OCF 328.3M, capex 28.5M; TTM OCF 261.6M, FCF 247.6M. Rigaku purchase 719.5M is investing, not capex."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "49,084k shares outstanding at 2026-09-30 (balance sheet; cover count not found); diluted weighted Q3 49,256k. Point in time 9/30 used; 2031 Notes convert at 381.80 (about 3.9M shares), capped call offsets."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x",
+        "qa",
+        "qb"
+      ],
+      "note": "Peers (KLAC, CAMT, NVMI, AMAT) and own history not compared; Rigaku fair value separate; cause of -13% on 2026-11-20 unknown; quote origins undocumented."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Cyclical semicap equipment: P/E, FCF yield, net cash/debt, customer concentration, gross margin; non-operating Rigaku mark treated separately."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Rigaku fair value mark (-40.8M in Q3 NI), convertible with capped call, customer concentration read; 10-K audit matters, inventory provisions detail, risk factors not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Concentration (four customers 57% of 9M revenue), cyclical orders, 55x TTM, new leverage and Rigaku mark volatility."
+    }
+  },
+  "price": {
+    "value": 170.16,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-20",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 170.16,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 170.16,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "valuation": {
+      "price": 170.16,
+      "shares_outstanding": 49084000,
+      "share_basis": "balance sheet 2026-09-30 (cover not read)",
+      "market_cap_usd": 8353000000,
+      "pe_ttm": 55.2,
+      "fcf_yield_ttm": 0.0296,
+      "price_to_book": 4.22,
+      "price_to_tangible_book": null,
+      "basis": "USD M. TTM NI 151.2=136.759+140.698-126.230 (includes -40.8 non-cash Rigaku loss; ex-loss about 192.0, 43.5x own estimate); TTM OCF 261.6=328.315+166.579-233.319; capex 13.9=28.513+8.803-23.384; FCF 247.6; TTM revenue 1,311.7. P/B on equity 1,979.3."
+    },
+    "balance_sheet": {
+      "total_assets_musd": 3803.0,
+      "equity_musd": 1979.3,
+      "total_liabilities_musd": 1823.7,
+      "total_debt_musd": 1500.0,
+      "basis": "USD M at 2026-09-30; debt = 2031 Notes principal 1,500 (0% coupon, due 2031; carrying 1,473.2); cash plus marketable securities 1,251.5; net debt 248.5 before 678.7 Rigaku stake"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peers (KLAC, CAMT, NVMI, AMAT) and own history not compared",
+    "Cause of -13.2% drop on 2026-11-20 not found; earnings release exhibit, risk factors, 10-K audit matters not read",
+    "Quote origins undocumented (two aggregators)"
+  ]
+}
