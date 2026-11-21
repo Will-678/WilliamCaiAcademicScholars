@@ -1,0 +1,181 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "currency": "USD",
+  "as_of": "2026-11-21T08:07:32-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "ticker": "XPEL",
+  "exchange": "Nasdaq",
+  "cik": 1767258,
+  "sector_model": "Specialty product company (paint protection film, mid-small): P/E, FCF split one-off vs maintenance capex, net debt, inventory, tariff effects.",
+  "thesis": "XPEL (Nasdaq: XPEL). Q3 2026 10-Q (filed 2026-11-06) read. Q3 revenue 137.8M (+9.9%), 9M 398.2M (+12.5%); operating income 9M 57.3M (+21.5%); 9M NI attributable 44.7M (+18%). China revenue +66% 9M. Q3 includes 4.6M tariff cash recovery credited to COGS. 9M OCF 59.3M; PP&E purchases 76.7M incl about 60.4M San Antonio properties (funded by 44.8M term loan); debt 44.4M vs cash 45.7M. Close 38.12 (2026-11-20) x 27,516,898 = 1.05B = 18.0x TTM NI 58.1M; reported TTM FCF negative (-15.8M); about 4.2% on own estimate excluding the property purchase. Buybacks 5.9M at avg 46.34.",
+  "counterthesis": "Part of recent profit growth is tariff recovery; reported FCF is negative after the property purchase and leverage rose from zero; China growth and acquisitions drive revenue; inventory of 132M is large against 45.7M cash; stock traded above 46 earlier in the year so price weakness may reflect real concerns not yet read.",
+  "invalidation": "Downgrade if China/Asia growth stalls, tariff costs return, inventory builds without sales, or the new facilities fail to lower costs.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1767258/000176725826000101/xpel-20260930.htm",
+      "document_id": "0001767258-26-000101",
+      "origin": "10-Q quarter ended 2026-09-30 filed 2026-11-06; downloaded directly and converted to text; balance sheet, cash flow, notes 3, 5, 9, MD&A revenue/liquidity read; risk factors, item 4 not read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T08:07:32-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001767258.json",
+      "document_id": "SEC-companyfacts-CIK0001767258",
+      "origin": "SEC companyfacts FY2025 (10-K accn 0001767258-26-000014): NI attributable 51,226K, OCF 66,938K, capex 4,008K, revenue 476.2M",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T08:07:32-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001767258.json",
+      "document_id": "SEC-submissions-CIK0001767258",
+      "origin": "SEC submissions: 10-Q and 8-K 2.02 (2026-11-04, exhibit not read); no later filings",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T08:07:32-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/xpel/history/",
+      "document_id": "stockanalysis-XPEL-2026-11-20",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T08:07:32-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/XPEL",
+      "document_id": "yahoo-finance-XPEL-2026-11-20",
+      "origin": "Yahoo Finance chart endpoint, daily close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T08:07:32-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q"
+      ],
+      "note": "10-Q filed 2026-11-06 is latest periodic filing; 8-K 2.02 2026-11-04; nothing later in recent list."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "2026-09-30: assets 495.6M, liabilities 161.9M, equity 333.7M (incl NCI 12.8M), cash 45.7M, debt 44.35M (term loan 44.4M principal), PP&E 95.1M vs 15.8M at year end."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "9M26 OCF 59.25M, PP&E purchases 76.69M (incl ~60.4M property purchase); FY25 OCF 66.94M, capex 4.01M; 9M25 OCF 64.27M, capex 2.93M; matched periods."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "27,516,898 shares outstanding at 2026-11-06 (cover)."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x",
+        "qa",
+        "qb"
+      ],
+      "note": "Peers and own history not compared; EV/EBITDA not computed; quote origins undocumented."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Specialty manufacturer/distributor: P/E, FCF split between one-off property purchase and maintenance capex, net debt, inventory, tariff effects."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Tariff recovery 4.6M booked as COGS reduction, inventory 132M (finished goods 110M), contingent consideration and holdbacks read; risk factors, auditor matters, 10-K not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Tariff gain, property-driven leverage, China concentration, acquisition accounting, inventory build."
+    }
+  },
+  "price": {
+    "value": 38.12,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-20",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 38.12,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 38.12,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "valuation": {
+      "price": 38.12,
+      "shares_outstanding": 27516898,
+      "share_basis": "10-Q cover 2026-11-06",
+      "market_cap_usd": 1049000000,
+      "pe_ttm": 18.0,
+      "fcf_yield_ttm": null,
+      "price_to_book": 3.27,
+      "price_to_tangible_book": null,
+      "basis": "TTM NI attributable USD M 58.1=51.226+44.725-37.816; TTM OCF 61.9=66.938+59.250-64.271; TTM purchases of PP&E 77.8 incl ~60.4 property acquisition so reported FCF -15.8; own estimate excluding that purchase about 44.5 (4.2% yield); P/B on stockholders equity 320.9M"
+    },
+    "balance_sheet": {
+      "total_assets_musd": 495.6,
+      "equity_musd": 333.7,
+      "total_liabilities_musd": 161.9,
+      "total_debt_musd": 44.4,
+      "basis": "USD millions at 2026-09-30; debt = short-term 1.8 + long-term 42.6; cash 45.7; operating lease liabilities 21.0 separate"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peers and own valuation history not compared; EV/EBITDA missing",
+    "Release exhibit, guidance, risk factors and 10-K audit matters not read; cause of price below 46 buyback level unknown",
+    "Quote origins undocumented (two aggregators)"
+  ]
+}

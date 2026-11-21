@@ -1,0 +1,181 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "currency": "USD",
+  "as_of": "2026-11-21T08:07:32-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "ticker": "GRBK",
+  "exchange": "NYSE",
+  "cik": 1373670,
+  "sector_model": "Homebuilder (cyclical, balance-sheet driven): P/E on earnings, price to book, gross margin, orders/backlog, net debt to capital; operating cash flow reflects inventory investment.",
+  "thesis": "Green Brick Partners (NYSE: GRBK). Q3 2026 10-Q (filed 2026-10-28) read. Q3 revenue 448.2M (-8.8%), 9M 1,407.7M (-7.5%); 9M NI attributable 194.3M (-17%); homebuilding gross margin 28.0% vs 32.1% on incentives; Q3 orders +3.1% units but order ASP -4.1%; backlog revenue -17.0% (629 units); cancellation 8.2%. 9M OCF -5.1M as inventory rose 238.3M; debt 304.7M vs cash 100.0M (about 13% of capital); 9M buybacks 34.8M. Close 56.93 (2026-11-20) x 42,432,826 = 2.42B = 8.9x TTM NI 272.6M, 1.20x common book; TTM FCF 69.9M (2.9%).",
+  "counterthesis": "Low P/E and near-book valuation are typical of peak or falling-margin homebuilders; margins, backlog and prices are all falling, earnings still declining (9M -17%), inventory build consumed cash, and debt rose from near zero to 305M while senior notes are repaid.",
+  "invalidation": "Downgrade if gross margin falls further, backlog and orders weaken, cancellations rise, or land impairments appear; upgrade case needs margin stabilization.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373670/000162828026067949/grbk-20260930.htm",
+      "document_id": "0001628280-26-067949",
+      "origin": "10-Q quarter ended 2026-09-30 filed 2026-10-28; downloaded directly, converted to text; balance sheet, income statement, cash flow, debt, orders/backlog, MD&A margin discussion read; risk factors and land position tables not read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T08:07:32-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001373670.json",
+      "document_id": "SEC-companyfacts-CIK0001373670",
+      "origin": "SEC companyfacts FY2025: NI 313.2M, OCF 213.2M, capex 4.8M, revenue 2,098.5M, equity 1,859.0M",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T08:07:32-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001373670.json",
+      "document_id": "SEC-submissions-CIK0001373670",
+      "origin": "SEC submissions: 10-Q and 8-K 2.02 2026-10-28; 8-K 5.02 2026-10-26 (not read); 13D/A 2026-10-30",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T08:07:32-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/grbk/history/",
+      "document_id": "stockanalysis-GRBK-2026-11-20",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T08:07:32-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/GRBK",
+      "document_id": "yahoo-finance-GRBK-2026-11-20",
+      "origin": "Yahoo Finance chart endpoint, daily close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T08:07:32-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q"
+      ],
+      "note": "10-Q filed 2026-10-28 latest periodic; 8-K 5.02 2026-10-26 officer change not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "2026-09-30: assets 2,675.9M, liabilities 582.6M, common equity 2,018.2M, inventory 2,338.5M, cash 100.0M, line of credit 103.1M, senior notes 187.2M, notes payable 14.4M, warehouse lines 33.4M."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "9M26 OCF -5.1M (inventory +238.3M); 9M25 OCF 133.3M; FY25 OCF 213.2M; capex 9M26 3.4M, 9M25 3.2M, FY25 4.8M; TTM OCF 74.9M, FCF 69.9M."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "42,432,826 shares at 2026-10-22 (cover)."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x",
+        "qa",
+        "qb"
+      ],
+      "note": "Peers (NVR, PHM, DHI, LGIH) and own cycle history not compared; land/lot position not read; quote origins undocumented."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Homebuilder: P/E on earnings, price to book, gross margin, backlog, orders, net debt/capital; operating cash flow dominated by inventory investment."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "VIE inventory 189.4M, redeemable NCI 56.3M, equity-method entities read; land impairments, 10-K audit matters not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Margin compression, backlog decline, Texas/Southeast housing cycle, incentives."
+    }
+  },
+  "price": {
+    "value": 56.93,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-20",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 56.93,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 56.93,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "valuation": {
+      "price": 56.93,
+      "shares_outstanding": 42432826,
+      "share_basis": "10-Q cover 2026-10-22",
+      "market_cap_usd": 2416000000,
+      "pe_ttm": 8.9,
+      "fcf_yield_ttm": 0.029,
+      "price_to_book": 1.2,
+      "price_to_tangible_book": null,
+      "basis": "TTM NI attributable USD M 272.6=313.225+194.275-234.860; TTM OCF 74.9=213.244-5.067-133.267; capex 5.0=4.798+3.399-3.224; FCF 69.9; P/B on Green Brick stockholders equity 2,018.2M"
+    },
+    "balance_sheet": {
+      "total_assets_musd": 2675.9,
+      "equity_musd": 2037.1,
+      "total_liabilities_musd": 582.6,
+      "total_debt_musd": 304.7,
+      "basis": "USD millions at 2026-09-30; debt = line of credit 103.1 + senior notes 187.2 + notes payable 14.4 (excl warehouse lines 33.4 and leases); cash 100.0 plus restricted 25.6"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peers (NVR, PHM, DHI, LGIH) and own history not compared",
+    "Release exhibit, risk factors, land/lot position, 8-K 5.02 and 10-K audit matters not read",
+    "Quote origins undocumented (two aggregators)"
+  ]
+}
