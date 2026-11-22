@@ -1,0 +1,3 @@
+# GLDD: Great Lakes Dredge & Dock. Excluded, insufficient evidence (delisted)
+
+Record: journal/research/GLDD.json (valid; data/quality_run99_GLDD.json). The CY2025 annual screen still lists it (revenue 888M, score 54.3) but SEC filings show Saltchuk completed the merger: 8-K filed 2026-04-01 (Items 1.01, 3.01, 5.01 read) reports Nasdaq trading suspended and delisting; Form 15-12G filed 2026-04-13; no later periodic filing. No listed shares or current statements, so it cannot be researched or valued. Lesson: annual frame screens include companies that have since been acquired; check submissions for Form 15/25 before researching a name.

@@ -1,0 +1,100 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "GLDD",
+  "exchange": "Delisted (formerly Nasdaq)",
+  "currency": "USD",
+  "cik": 1372020,
+  "sector_model": "Not applicable: no longer listed.",
+  "as_of": "2026-11-22T12:08:00-05:00",
+  "status": "insufficient_evidence",
+  "confidence": "low",
+  "thesis": "Great Lakes Dredge & Dock appeared in the CY2025 annual SEC frame screen (revenue 888M, 2y CAGR 23%, score 54.3) but the company was acquired by Saltchuk: 8-K filed 2026-04-01 reports the merger consummated, Nasdaq trading suspended 2026-04-01 and Form 25 delisting; Form 15-12G filed 2026-04-13. No listed tradable shares, no current financial statements, so it cannot enter the valuation shortlist. Excluded; recorded as a screen staleness failure.",
+  "counterthesis": "Not applicable; stale annual screen row, no thesis.",
+  "invalidation": "None; reconsider only if shares relist.",
+  "sources": [
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001372020.json",
+      "document_id": "SEC-submissions-CIK0001372020",
+      "origin": "SEC submissions 2026-11-22: Form 15-12G 2026-04-13, 8-K 2026-04-01, no 10-Q after",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T12:08:00-05:00"
+    },
+    {
+      "id": "k8",
+      "url": "https://www.sec.gov/Archives/edgar/data/1372020/000119312526136214/d145321d8k.htm",
+      "document_id": "0001193125-26-136214",
+      "origin": "8-K filed 2026-04-01 Items 1.01, 3.01, 5.01 read: merger consummated, Nasdaq delisting",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T12:08:00-05:00"
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "k8"
+      ],
+      "note": "Latest filings are the 2026-04-01 8-K merger/delisting and 2026-04-13 Form 15; no later periodic report."
+    },
+    "balance_sheet_verified": {
+      "passed": false,
+      "source_ids": [],
+      "note": "Not applicable: delisted after merger; no research performed on financials."
+    },
+    "cashflow_basis_verified": {
+      "passed": false,
+      "source_ids": [],
+      "note": "Not applicable: delisted after merger; no research performed on financials."
+    },
+    "share_count_basis_verified": {
+      "passed": false,
+      "source_ids": [],
+      "note": "Not applicable: delisted after merger; no research performed on financials."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [],
+      "note": "Not applicable: delisted after merger; no research performed on financials."
+    },
+    "sector_model_appropriate": {
+      "passed": false,
+      "source_ids": [],
+      "note": "Not applicable: delisted after merger; no research performed on financials."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [],
+      "note": "Not applicable: delisted after merger; no research performed on financials."
+    },
+    "counterthesis_written": {
+      "passed": false,
+      "source_ids": [],
+      "note": "Not applicable: delisted after merger; no research performed on financials."
+    }
+  },
+  "price": {
+    "value": null,
+    "currency": "USD",
+    "as_of": null,
+    "status": "unavailable",
+    "last_completed_session": null,
+    "sources": []
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {},
+  "unresolved_critical_gaps": [
+    "Not listed; excluded from research universe"
+  ]
+}

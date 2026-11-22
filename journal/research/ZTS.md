@@ -19,3 +19,6 @@ Read the 10-Q cash flow and equity statements (accession 0001555280-26-000050). 
 
 ## Update 2026-11-15 (peer gap, partly closed)
 Aggregator snapshot at 2026-11-13 close (one origin): ZTS 83.82, trailing PE 14.2, forward 13.6, EV/EBITDA 10.4, FCF yield 6.6%, net debt 7.7B. ELAN 26.78: forward PE 21.7, EV/EBITDA 15.9, FCF 3.1%. IDXX 704.23: forward PE 43.1, EV/EBITDA 33.6, FCF 2.3%. ZTS is the cheapest of the three on every measure, consistent with a discount for slowing growth and capital return above FCF. Open: own history, 10-K, growth comparison. Status unchanged: watch.
+
+## Appended 2026-11-22 (run 99, solvency gap partly closed)
+Read 10-Q (accession 0001555280-26-000050) balance sheet and debt note directly. At 2026-09-30: current debt 750M plus long-term debt 8,299M = 9,049M; cash 1,333M plus short-term investments 200M = 1,533M; net debt about 7.5B. 1.25B revolver undrawn, maturity extended to 2031-08-27, leverage covenant 3.5x (compliant); no commercial paper; 2.0B 0.25% convertible notes due 2029-06-15 (conversion price about 148.20, far above 79); total liabilities 11,785M vs equity 3,303M. The 750M current portion is covered by cash plus investments about 2x. 10-K notes, CAMs, litigation still unread. SEC submissions rechecked: no 8-K after 2026-11-05. Rating unchanged: watch, score null.

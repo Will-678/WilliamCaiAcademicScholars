@@ -1,0 +1,187 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "SSNC",
+  "exchange": "Nasdaq",
+  "currency": "USD",
+  "cik": 1402436,
+  "sector_model": "Software and outsourced financial services (nonfinancial): P/E, FCF after capitalized software, leverage and refinancing, buybacks vs FCF, SBC.",
+  "as_of": "2026-11-22T12:08:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "SS&C (Nasdaq: SSNC), financial-services software and outsourced fund administration. Q3 2026 10-Q (filed 2026-11-09) read. Q3 revenue 1,690.0M vs 1,568.0M (+7.8%), 9M 5,032.8M (+9.0%); tech-enabled services +10.6% 9M, license flat. Q3 NI attributable 198.9M vs 210.0M (-5.3%) on a higher tax rate (58.6M on 256.7M pretax vs 43.5M on 253.9M); 9M NI 659.8M vs 603.8M. TTM NI 852.9M (796.9-603.8+659.8). TTM OCF 1,859.8M (1,744.8-1,101.3+1,216.3) less PP&E capex 47.5M and capitalized software 256.6M = FCF 1,555.7M (capitalized software deducted). Close 74.15 (2026-11-20) x 234,815,941 shares (cover, 2026-11-04) = 17.41B = 20.4x TTM NI, FCF yield 8.9% (about 7.5% after 9M SBC of 185.8M annualised, own estimate). Debt 7,449.5M carrying (260.0 current + 7,189.5) vs cash 525.4M, net debt about 6.9B. Post-quarter refinancing: 1,200M 2.75% convertibles due 2031 with capped calls, term loan upsizes, revolver extended to Nov 2031, 2,000M 5.5% notes due 2027 to be redeemed in Q4 2026. 9M buybacks 760.5M plus dividends 199.8M = 960.3M vs 9M FCF 989.1M (about 97%). Client funds (3,846.5M) are matched by obligations and excluded from cash and debt.",
+  "counterthesis": "Equity-method line shows 40.8M adjustment against income in 9M (unconsolidated affiliates, cause unread); effective tax rate rose to 24.5% (9M) from 19.9%, so earnings growth lags revenue. Leverage is high (about 6.9B net debt, interest bearing) and capital return nearly equals FCF; stock fell from 79.54 to 74.15 over 11-16 to 11-20 with cause not found. Share count benefited from buybacks while SBC runs near 250M a year. Intangibles amortization (544.7M D&A in 9M) makes GAAP NI understate cash, so P/E flatters nothing but EBITDA and adjusted views were not reconciled. Convertible adds potential dilution above an unread conversion price; AI disruption of software-enabled services unassessed.",
+  "invalidation": "Downgrade if tech-enabled services growth falls below about 5%, tax rate stays above 24%, net debt/FCF rises as buybacks continue, or the equity-method losses recur. Upgrade needs peers (BR, FIS, FI, SEIC), own multiple history, the 10-22 release and guidance read, convertible terms and verified quote origins.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1402436/000119312526453587/ssnc-20260930.htm",
+      "document_id": "0001193125-26-453587",
+      "origin": "10-Q quarter ended 2026-09-30 filed 2026-11-09; direct SEC download converted to text; balance sheet, income statement, cash flow, debt subsequent-events note and cover read; risk factors, controls, segment and legal notes not read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T12:08:00-05:00"
+    },
+    {
+      "id": "k",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001402436.json",
+      "document_id": "SEC-companyfacts-CIK0001402436",
+      "origin": "SEC companyfacts, FY2025 10-K accn 0001193125-26-076745: NI attributable 796.9M, OCF 1,744.8M, PP&E capex 80.8M, capitalized software 221.9M, revenue 6,272.2M",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T12:08:00-05:00"
+    },
+    {
+      "id": "k8",
+      "url": "https://www.sec.gov/Archives/edgar/data/1402436/000119312526452749/ssnc-20261104.htm",
+      "document_id": "0001193125-26-452749",
+      "origin": "8-K Items 1.01, 2.03, 3.02, 8.01 filed 2026-11-09 (event 2026-11-04/06): 1,200M 2.75% convertible notes due 2031 with capped calls; Item 1.01 read",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T12:08:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001402436.json",
+      "document_id": "SEC-submissions-CIK0001402436",
+      "origin": "SEC submissions 2026-11-22: latest 10-Q 2026-11-09; 8-K 2.02 2026-10-22 (release exhibit not read)",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T12:08:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/ssnc/history/",
+      "document_id": "stockanalysis-SSNC-2026-11-20",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T12:08:00-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/SSNC/history/",
+      "document_id": "yahoo-finance-SSNC-2026-11-20",
+      "origin": "Yahoo Finance history page via WebFetch, close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T12:08:00-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q",
+        "k8"
+      ],
+      "note": "10-Q filed 2026-11-09 is the latest periodic filing; 8-K 2.02 of 2026-10-22 release exhibit not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "USD millions at 2026-09-30: total assets 20,415.2; total liabilities 13,647.5; cash 525.4; current debt 260.0; long-term debt 7,189.5; client funds 3,846.5 offset by obligations; goodwill 9,928.1; intangibles 3,781.2."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "k"
+      ],
+      "note": "TTM OCF 1,744.8-1,101.3+1,216.3=1,859.8; PP&E capex 80.8-70.3+37.0=47.5; capitalized software 221.9-155.5+190.2=256.6; FCF 1,555.7M. Client funds financing flows excluded from OCF."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "234,815,941 shares outstanding at 2026-11-04 per cover; diluted weighted 240.6M for Q3."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "k",
+        "qa",
+        "qb"
+      ],
+      "note": "Peers, own history and EBITDA-based multiple not compared; two undocumented quote origins."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Software/services model with FCF after capitalized software, leverage and client-fund exclusion."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Equity-method adjustment 40.8M, higher tax rate and capitalized software growth noticed; risk factors, audit matters, notes not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Leverage, capital return near FCF, tax rate, SBC, equity-method losses, conversion dilution."
+    }
+  },
+  "price": {
+    "value": 74.15,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-20",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 74.15,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 74.15,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "ttm_net_income_attrib_musd": 852.9,
+    "ttm_ocf_musd": 1859.8,
+    "ttm_ppe_capex_musd": 47.5,
+    "ttm_capitalized_software_musd": 256.6,
+    "ttm_fcf_musd": 1555.7,
+    "market_cap_musd": 17412.0,
+    "pe_ttm": 20.4,
+    "fcf_yield_pct": 8.93,
+    "debt_musd": 7449.5,
+    "cash_musd": 525.4,
+    "net_debt_musd": 6924.1,
+    "nine_month_buybacks_plus_dividends_musd": 960.3,
+    "nine_month_fcf_musd": 989.1
+  },
+  "unresolved_critical_gaps": [
+    "Peers and own-history multiples not compared",
+    "Quote origins undocumented (stockanalysis.com and Yahoo Finance)",
+    "10-22 release/guidance, convertible conversion price, equity-method losses, risk factors and audit matters not read",
+    "Cause of -6.8% move 11-13 to 11-20 unknown"
+  ]
+}
