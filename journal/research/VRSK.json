@@ -1,0 +1,194 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "VRSK",
+  "exchange": "Nasdaq",
+  "currency": "USD",
+  "cik": 1442145,
+  "sector_model": "Data analytics subscription: P/E, FCF after capex, net debt, buyback-driven negative equity, merger litigation.",
+  "as_of": "2026-11-22T00:06:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Verisk Analytics (Nasdaq: VRSK), data analytics for insurance. Q3 2026 10-Q (filed 2026-11-05) read. Q3 revenue 809.0M (+5.3%), 9M 2,397.9M (+4.5%); Q3 net income 219.2M vs 225.5M; Q3 OCF 267.2M vs 403.5M. Close 202.09 (2026-11-20) x 128,249,862 shares (2026-09-30 balance sheet) = 25.9B = 29.5x TTM NI 879.2M (908.3-711.1+682.0); TTM FCF 1,100M (OCF 1,366.9 less capex 266.5) = 4.2%. Debt 4,495M vs cash 557M; stockholders' deficit -1,114M after 2026 buybacks (9M financing outflow 2,416M including repayment of 1.5B AccuLynx-related notes). AccuLynx: Delaware Chancery (2026-08-07, final order 08-14) found Verisk breached the merger agreement and ordered specific performance; Delaware Supreme Court affirmed 2026-10-23 (8-K filed 10-29). Verisk must use commercially reasonable efforts to obtain FTC clearance and close, so a deal it tried to terminate may still complete; price, size and financing were not read here. The 1.5B notes issued for it were redeemed.",
+  "counterthesis": "Growth is only about 5% against a 29.5x earnings multiple; Q3 profit and OCF fell year on year. Negative equity and 4.5B debt leave less cushion if a forced AccuLynx closing needs new financing after the 1.5B notes were redeemed. Legal outcome compelled an acquisition Verisk tried to exit, a governance and capital allocation concern. Price fell from 212.76 (11-16) to 202.09. OCF 9M -6.3%. Missing: organic growth, margins and EBITDA.",
+  "invalidation": "Downgrade if forced AccuLynx closing adds leverage or FTC conditions, organic growth stays near 5% while multiple holds, or OCF keeps falling; upgrade case needs peers (SPGI, MCO, FICO, CoStar), organic growth, EBITDA margin and verified quote origins.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1442145/000143774926035083/vrsk20260820_10q.htm",
+      "document_id": "0001437749-26-035083",
+      "origin": "10-Q quarter ended 2026-09-30 filed 2026-11-05; direct SEC download converted to text; balance sheet, cash flow, debt table, litigation note, revenue split read; MD&A segment text and risk factors not read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T00:06:00-05:00"
+    },
+    {
+      "id": "k",
+      "url": "https://www.sec.gov/Archives/edgar/data/1442145/000095010326016441/dp255815_8k.htm",
+      "document_id": "0000950103-26-016441",
+      "origin": "8-K Item 8.01 filed 2026-10-29 on the Delaware Supreme Court order; press release exhibit 99.1 not read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T00:06:00-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001442145.json",
+      "document_id": "SEC-companyfacts-CIK0001442145",
+      "origin": "SEC companyfacts: FY2025 10-K (filed 2026-02-18) NI 908.3M, OCF 1,436.0M, capex 244.1M; 2025 9M comparatives",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T00:06:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001442145.json",
+      "document_id": "SEC-submissions-CIK0001442145",
+      "origin": "SEC submissions: 10-Q and 8-K 2.02 2026-11-05; 8-K 8.01 2026-10-29; 8-K 5.02 2026-09-08 (not read)",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T00:06:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/vrsk/history/",
+      "document_id": "stockanalysis-VRSK-2026-11-20",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T00:06:00-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/VRSK/history/",
+      "document_id": "yahoo-finance-VRSK-2026-11-20",
+      "origin": "Yahoo Finance history page via WebFetch, close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T00:06:00-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q",
+        "k"
+      ],
+      "note": "10-Q filed 2026-11-05 latest; 8-K of 10-29 read; 8-K 5.02 of 2026-09-08 and 8-K 2.02 exhibit not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "USD M at 2026-09-30: total assets 4,541.6; total liabilities 5,655.1; equity -1,113.5; cash 556.8; short-term debt 267.5; long-term debt 4,227.8; total debt 4,495.3; goodwill 1,879.0."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "TTM OCF 1,436.0-1,092.7+1,023.6=1,366.9M; capex 244.1-176.9+199.3=266.5M; FCF 1,100.4M. Capex line as reported; whether capitalized software is inside it not checked."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "128,249,862 shares outstanding at 2026-09-30 (balance sheet); cover page count at filing date not read; a 2026 ASR in September reduced the count further, so market cap may be slightly overstated."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x",
+        "qa",
+        "qb"
+      ],
+      "note": "Peers and history not compared; two quote sources undocumented; EBITDA not computed."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Data analytics subscription model: P/E, FCF, net debt, buybacks; negative equity from buybacks so book value not used."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "k"
+      ],
+      "note": "Litigation note read; risk factors, audit matters, revenue recognition and non-GAAP items not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "k"
+      ],
+      "note": "Low growth at high multiple, falling OCF, leverage, forced AccuLynx closing, negative equity."
+    }
+  },
+  "price": {
+    "value": 202.09,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-20",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 202.09,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 202.09,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 202.09,
+      "shares_outstanding": 128249862,
+      "share_basis": "balance sheet 2026-09-30",
+      "market_cap_usd": 25920000000,
+      "pe_ttm": 29.5,
+      "fcf_yield_ttm": 0.0425,
+      "price_to_book": null,
+      "price_to_tangible_book": null,
+      "basis": "USD M. TTM NI 879.2=908.3-711.1+682.0; TTM FCF 1,100.4 (OCF 1,366.9 less capex 266.5); market cap 202.09 x 128.25M = 25,920M; EV about 29.9B with debt 4,495.3 less cash 556.8 (own estimate)."
+    },
+    "balance_sheet": {
+      "total_assets_musd": 4541.6,
+      "equity_musd": -1113.5,
+      "total_liabilities_musd": 5655.1,
+      "total_debt_musd": 4495.3,
+      "basis": "USD M at 2026-09-30; debt = short-term 267.5 + long-term 4,227.8"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peers and own history not compared",
+    "AccuLynx price, financing and FTC timeline not read",
+    "Organic growth, EBITDA, risk factors not read",
+    "Quote origins undocumented (two aggregators)"
+  ]
+}

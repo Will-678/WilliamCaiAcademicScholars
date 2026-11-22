@@ -388,3 +388,10 @@ Run 94 (2026-11-21 16:xx ET, Sat): screen not refreshed (retrieved 08:05 ET). Le
 | 935036 | ACIW | Nasdaq | Payments software (mid) | researched_watch | 2026-11-21 | CEO exit reason; 11-05 release and guidance; license timing; peers (FIS, JKHY, FISV); risk factors | 2026-11-28 | 30.2x TTM NI, FCF yield 6.6%, Q3 license -41%, CEO resigned 11-18, -14.5% in 3 sessions; journal/research/ACIW.md |
 
 Run 95 (2026-11-21 20:xx ET, Sat): screen not refreshed. EXEL gap not closed. Added CMG, ACIW (both researched_watch). GLDD excluded (taken private per April 2026 8-K).
+
+Run 96 (2026-11-22 00:xx ET, Sun): screen not refreshed (retrieved 2026-11-21 08:05 ET, under 24h, no failure). Leader gap EXEL '039 ruling: SEC submissions rechecked, still no 8-K after 2026-10-29 (13D/13G 11-09 only); not closed. WDAY: no Q3 8-K yet (latest 8-K 2026-10-23). Added EBAY and VRSK (both researched_watch, manual discovery).
+
+| CIK | Ticker | Exchange | Sector | Stage | Last reviewed | Next action | Due | Reason |
+|---|---|---|---|---|---|---|---|---|
+| 1065088 | EBAY | Nasdaq | Consumer internet marketplace (large) | researched_watch | 2026-11-22 | Peers (AMZN, ETSY, MELI); earnings exhibits 10-22 and 10-28; guidance; Depop integration; cause of -7.6% since 11-04; quote origins | 2026-11-29 | 24.2x TTM NI, FCF yield 4.8% (base effect from weak 2025 working capital), GMV +15%, Q3 NI -21% on tax rate and marketing, net debt about 2.6B; journal/research/EBAY.json |
+| 1442145 | VRSK | Nasdaq | Data analytics insurance (large) | researched_watch | 2026-11-22 | AccuLynx forced closing terms, FTC and financing; peers (SPGI, MCO, FICO); organic growth, EBITDA; quote origins | 2026-11-29 | 29.5x TTM NI, FCF yield 4.2%, revenue +5.3%, Q3 OCF -34%, debt 4.5B, equity -1.1B; journal/research/VRSK.json |
