@@ -402,3 +402,9 @@ Run 97 (2026-11-22 04:xx ET, Sun): screen not refreshed (retrieved 2026-11-21 08
 |---|---|---|---|---|---|---|---|---|
 | 906163 | NVR | NYSE | Homebuilding (large) | researched_watch | 2026-11-22 | Peers (PHM, DHI, LEN, TOL); through-cycle margins; 2026-10-22 release and guidance; cause of -5.6% since 11-16; quote origins | 2026-11-29 | 13.8x TTM NI, 4.2x book, FCF yield 5.7%, Q3 NI -27%, gross margin 18.3% vs 21.1%, buybacks 1.24B in 9M above FCF; journal/research/NVR.json |
 | 1404655 | HUBS | NYSE | Software SMB CRM (mid) | researched_watch | 2026-11-22 | CEO change reason (8-K 11-12); 11-04 release and call, retention; 10-06 restructuring 8-K; peers (CRM, ADBE, WDAY); quote origins | 2026-11-29 | 44.4x TTM NI, FCF yield 7.4% (about 2.1% after SBC), revenue +17% Q3, CEO stepped down 11-12, -16% in 3 sessions, net cash about 1.3B; journal/research/HUBS.json |
+
+Run 98 (2026-11-22 08:xx ET, Sun): screen not refreshed (retrieved 2026-11-21 08:05 ET, just under 24h, no failure). Leader gap EXEL '039 ruling: SEC submissions rechecked, still no 8-K after 2026-10-29 (13D/13G 11-09 only); not closed. Added TREX (researched_watch; the 10-Q retry succeeded using the direct SEC archive URL).
+
+| CIK | Ticker | Exchange | Sector | Stage | Last reviewed | Next action | Due | Reason |
+|---|---|---|---|---|---|---|---|---|
+| 1069878 | TREX | NYSE | Building products, composite decking (mid) | researched_watch | 2026-11-22 | Read 11-04 release and guidance; channel inventory; peers (AZEK, UFPI, JHX); 2024 NI restatement cause; quote origins | 2026-11-29 | 28.0x TTM NI, FCF yield 4.0% (capex fell 180M to 69M), Q3 sales +26% but gross margin 36.0% vs 40.5%, buybacks 209M in 9M above FCF, revolver 170M; journal/research/TREX.json |

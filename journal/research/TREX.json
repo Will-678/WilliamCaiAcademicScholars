@@ -1,0 +1,182 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "TREX",
+  "exchange": "NYSE",
+  "currency": "USD",
+  "cik": 1069878,
+  "sector_model": "Building products manufacturer (cyclical, capital intensive): P/E, FCF after capex, gross margin, capacity ramp, channel inventory, leverage.",
+  "as_of": "2026-11-22T08:05:30-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Trex (NYSE: TREX), largest US composite decking and railing maker. Q3 2026 10-Q (filed 2026-11-04) read: income statement, balance sheet, cash flow, MD&A gross profit and liquidity, buyback note. Q3 net sales 359.5M vs 285.3M (+26%), 9M 1,120.9M (+10.6%); Q3 NI 52.5M vs 51.8M, 9M NI 175.8M vs 188.1M (-6.6%); Q3 gross margin 36.0% vs 40.5% (depreciation, diesel transport, Arkansas plant labour); 9M SG&A +14.4%. TTM NI 178.07M (190.415-188.113+175.772); TTM OCF 313.85M (358.113-292.627+248.363) less PP&E capex 112.75M (223.592-180.214+69.373) = FCF 201.1M; purchased intangibles excluded (about 6M in 9M). Close 49.83 (2026-11-20) x 99,936,893 shares (2026-10-14 cover) = 4.98B = 28.0x TTM NI, FCF yield 4.0%, 4.9x book 1,010.4M. Capex fell from 180M to 69M in 9M as the Arkansas build finished, lifting FCF. Buybacks 208.6M in 9M (5.2M shares; 100M ASR Feb 2026) vs 9M FCF about 179M, funded partly by revolver: debt 170.0M at 4.9% (133.5M at 2025 year end), cash 3.3M, 526.9M undrawn; covenants met. Receivables 222.9M vs 48.1M (seasonal plus higher sales).",
+  "counterthesis": "Margin is eroding (gross margin -450bp in Q3) as the new Arkansas plant adds depreciation and labour, so +26% sales produced only +1% NI; 28x TTM earnings is not cheap for 9M NI down 6.6%. Pre-tax margin fell. Capex relief flatters FCF; the company has moved from net cash-like to revolver debt while buying back more than FCF. Q3 sales jump may include channel stocking (receivables up 175M; distributor inventory risk is disclosed). 2024 NI was restated upward in the FY2025 10-K companyfacts (226.4M to 238.4M), cause not read. Aug 2026 new Chief Commercial Officer (8-K 5.02 read). Quote is a 11-20 close, drop of about 5.6% from 52.76 on 11-13.",
+  "invalidation": "Downgrade if gross margin stays below about 36% after Arkansas ramp, receivables or channel inventory stay elevated into Q4, or leverage rises while buybacks continue. Upgrade needs peers (AZEK is not comparable post-acquisition; check Azek/James Hardie, UFP), through-cycle margins, 11-04 release guidance read, and verified quote origins.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1069878/000119312526447251/trex-20260930.htm",
+      "document_id": "0001193125-26-447251",
+      "origin": "10-Q quarter ended 2026-09-30 filed 2026-11-04; direct SEC download converted to text; income statement, balance sheet, cash flow, MD&A gross profit and liquidity, revolver and buyback notes read; risk factors and controls not read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T08:05:30-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001069878.json",
+      "document_id": "SEC-companyfacts-CIK0001069878",
+      "origin": "SEC companyfacts: FY2025 10-K (accn 0001193125-26-068732, filed 2026-02-25) NI 190.415M, OCF 358.113M, capex 223.592M, revenue 1,174.267M",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T08:05:30-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001069878.json",
+      "document_id": "SEC-submissions-CIK0001069878",
+      "origin": "SEC submissions 2026-11-22: latest 10-Q 2026-11-04, 8-K 2.02 2026-11-04 (release exhibit not read), 8-K 5.02 2026-08-24 read, 13G 2026-11-16",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T08:05:30-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/trex/history/",
+      "document_id": "stockanalysis-TREX-2026-11-20",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T08:05:30-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/TREX/history/",
+      "document_id": "yahoo-finance-TREX-2026-11-20",
+      "origin": "Yahoo Finance history page via WebFetch, close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T08:05:30-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q"
+      ],
+      "note": "10-Q filed 2026-11-04 is latest periodic filing; 8-K 2.02 of 2026-11-04 release exhibit not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "USD thousands at 2026-09-30: total assets 1,567,641; total liabilities 557,236; equity 1,010,405; cash 3,271; line of credit 170,000; receivables 222,914; inventories 181,189."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "TTM OCF 358.113-292.627+248.363=313.849M; PP&E capex 223.592-180.214+69.373=112.751M; FCF 201.098M. Purchased intangibles not deducted."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "99,936,893 shares at 2026-10-14 per 10-Q cover (100,648,634 at 2026-09-30); diluted weighted 101.8M for Q3."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x",
+        "qa",
+        "qb"
+      ],
+      "note": "Peers and history not compared; two undocumented quote origins; no through-cycle margin."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Cyclical manufacturer model: P/E, FCF after capex, gross margin, leverage, channel risk."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Virginia asset write-down 5.2M and 2024 restated NI noticed; risk factors, controls, audit matters not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Margin erosion, flattering capex drop, buybacks above FCF, channel stocking."
+    }
+  },
+  "price": {
+    "value": 49.83,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-20",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 49.83,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 49.83,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 49.83,
+      "shares_outstanding": 99936893,
+      "share_basis": "10-Q cover 2026-10-14",
+      "market_cap_usd": 4980000000,
+      "pe_ttm": 28.0,
+      "fcf_yield_ttm": 0.0404,
+      "price_to_book": 4.93,
+      "price_to_tangible_book": null,
+      "basis": "USD M. TTM NI 178.07=190.415-188.113+175.772; TTM FCF 201.1 (OCF 313.85 less PP&E capex 112.75); market cap 49.83 x 99.9369M = 4,980M; book 1,010.4M."
+    },
+    "balance_sheet": {
+      "total_assets_musd": 1567.6,
+      "equity_musd": 1010.4,
+      "total_liabilities_musd": 557.2,
+      "total_debt_musd": 170.0,
+      "basis": "USD M at 2026-09-30; debt = revolver 170.0 (current); operating leases excluded"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peers and through-cycle history not compared",
+    "2026-11-04 release, guidance and channel inventory commentary not read",
+    "Cause of 2024 NI restatement not read",
+    "Quote origins undocumented (two aggregators)"
+  ]
+}
