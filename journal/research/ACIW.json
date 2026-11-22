@@ -1,0 +1,194 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "ACIW",
+  "exchange": "Nasdaq",
+  "currency": "USD",
+  "cik": 935036,
+  "sector_model": "Payments software with leverage and lumpy license revenue: P/E, FCF after capitalized software, net debt, backlog, license timing, CEO change.",
+  "as_of": "2026-11-21T20:08:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "ACI Worldwide (Nasdaq: ACIW), payments and bill-payment software. Q3 2026 10-Q (filed 2026-11-05) read. Q3 revenue 426.8M (-11.5%) as license revenue fell 41% (94.8M vs 162.0M); SaaS and platform revenue +4.6%; operating income 52.4M vs 127.7M; net income 32.5M vs 91.3M. 60-month backlog 7,374M vs 7,259M at 2025-12-31 (committed 2,123M vs 2,304M). 8-K 5.02 (filed 2026-11-18): CEO Warsop resigned effective 11-18 (leaves 12-18), CFO Leibrock is interim CEO and stopped being chief accounting officer, board chair became executive chairman. Stock fell from 58.93 (11-17) to 50.41 (11-20), -14.5%. Close 50.41 x 100,194,536 shares (2026-11-02) = 5.05B = 30.2x TTM NI 167.0M; TTM FCF 331.8M after capitalized software (6.6%). Debt 817.0M vs cash 218.8M. Business is cash generative; the question is whether Q3 license drop is timing or demand, and why the CEO left.",
+  "counterthesis": "Reported TTM earnings already reflect weak Q3; license revenue is lumpy and the CFO is now also interim CEO, which concentrates roles during a transition and a CAO change. Reason for CEO resignation is stated only as no disagreement. OCF benefited from 47.7M receivable collections (accrued receivables from earlier licenses). Committed backlog is shrinking. Debt of 817M with 722.5M due 2029; SBC 54M over 9M is large against NI.",
+  "invalidation": "Downgrade if next quarter's license revenue stays near Q3 level, committed backlog keeps falling, or the CEO exit is linked to accounting or guidance problems; upgrade case needs verified peers, normalized license revenue, and verified quotes.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/935036/000093503626000035/aciw-20260930.htm",
+      "document_id": "0000935036-26-000035",
+      "origin": "10-Q quarter ended 2026-09-30 filed 2026-11-05; downloaded directly from SEC Archives and converted to text; balance sheet, operations, cash flow, debt maturities, backlog table, license revenue discussion read; risk factors and segment detail not read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T20:08:00-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000935036.json",
+      "document_id": "SEC-companyfacts-CIK0000935036",
+      "origin": "SEC companyfacts FY2025 10-K (filed 2026-02-26): revenue 1,759.8M, NI 226.7M, OCF 322.8M, PP&E purchases 12.9M, software purchases 20.4M",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T20:08:00-05:00"
+    },
+    {
+      "id": "k",
+      "url": "https://www.sec.gov/Archives/edgar/data/935036/000119312526466273/d197838d8k.htm",
+      "document_id": "0001193125-26-466273",
+      "origin": "8-K Item 5.02 filed 2026-11-18, read: CEO resignation, interim CEO, CAO, executive chairman text",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T20:08:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0000935036.json",
+      "document_id": "SEC-submissions-CIK0000935036",
+      "origin": "SEC submissions: 10-Q and 8-K 2.02 2026-11-05; 8-K 5.02 2026-11-18",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T20:08:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/aciw/history/",
+      "document_id": "stockanalysis-ACIW-2026-11-20",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T20:08:00-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/ACIW/history/",
+      "document_id": "yahoo-finance-ACIW-2026-11-20",
+      "origin": "Yahoo Finance history page via WebFetch, close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T20:08:00-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q",
+        "k"
+      ],
+      "note": "10-Q filed 2026-11-05 latest periodic; 8-K 5.02 of 2026-11-18 read; earnings exhibit (8-K 2.02, 2026-11-05) not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "2026-09-30 USD thousands: total assets 3,124,891; total liabilities 1,631,726; equity 1,493,165; cash 218,780; current debt 40,989 and long-term debt 775,966; goodwill 1,230,956 and intangibles 130,809 (about 44% of assets); settlement assets and liabilities about 473M each, offsetting."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "TTM OCF 322.8-201.1+254.1=375.9M; capex PP&E 12.9-7.7+12.6=17.8M plus purchased software 20.4-18.6+24.5=26.3M; FCF 331.8M. Missing capex not assumed zero; both items reported."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "100,194,536 shares outstanding at 2026-11-02 (cover); 100,463,466 at 2026-09-30; weighted diluted Q3 101,316 thousand."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x",
+        "qa",
+        "qb"
+      ],
+      "note": "Peers (FIS, JKHY, Fiserv, Bottomline-type) and own history not compared; two quote sources have undocumented origins."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Software model with net debt, capitalized software in FCF and backlog; settlement balances excluded from debt and cash."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "k"
+      ],
+      "note": "Accrued receivables 357M noncurrent plus 428M current relative to license timing, CAO change and CEO exit read at summary level; risk factors, revenue recognition judgments and auditor matters not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "k"
+      ],
+      "note": "License shortfall, CEO and CAO transition, shrinking committed backlog, SBC and 2029 debt."
+    }
+  },
+  "price": {
+    "value": 50.41,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-20",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 50.41,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 50.41,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 50.41,
+      "shares_outstanding": 100194536,
+      "share_basis": "cover page 2026-11-02",
+      "market_cap_usd": 5050000000,
+      "pe_ttm": 30.2,
+      "fcf_yield_ttm": 0.0657,
+      "price_to_book": 3.38,
+      "price_to_tangible_book": null,
+      "basis": "USD M. TTM NI 167.0=226.7-162.3+102.6; TTM FCF 331.8 (OCF 375.9 less PP&E 17.8 less software 26.3); market cap 5,050M; EV about 5,648M with debt 817.0 less cash 218.8."
+    },
+    "balance_sheet": {
+      "total_assets_musd": 3124.9,
+      "equity_musd": 1493.2,
+      "total_liabilities_musd": 1631.7,
+      "total_debt_musd": 817.0,
+      "basis": "USD M at 2026-09-30; debt = current 41.0 + long-term 776.0; maturities 2027 42.5, 2028 45.0, 2029 722.5; settlement liabilities 473.1 excluded"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peers and own history not compared",
+    "Reason for CEO departure and guidance not read (earnings exhibit unread)",
+    "Risk factors and revenue recognition not read",
+    "Quote origins undocumented (two aggregators)"
+  ]
+}

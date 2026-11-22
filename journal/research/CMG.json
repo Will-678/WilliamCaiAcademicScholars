@@ -1,0 +1,191 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "CMG",
+  "exchange": "NYSE",
+  "currency": "USD",
+  "cik": 1058090,
+  "sector_model": "Company-operated restaurants: P/E, FCF after growth capex, net cash, operating lease obligations tracked separately from debt, buybacks vs FCF.",
+  "as_of": "2026-11-21T20:08:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "Chipotle (NYSE: CMG), company-operated fast-casual chain. Q3 2026 10-Q (filed 2026-10-29) read. Q3 revenue 3,293M (+9.7%), comparable sales +2.1% (check +1.3%, transactions +0.8%); but Q3 operating income 452M vs 477M and net income 340M vs 382M (-11%); 9M operating margin 14.1% vs 16.9%. Management cites low-single-digit comps headwinds from July. 9M OCF 1,922M, capex 641M (up from 469M); buybacks 1,465M in 9M, only 118M in Q3 at average 34.05 (vs 42.39 a year ago). No financial debt; cash and investments 1,003M. Close 35.55 (2026-11-20) x 1,264,975k shares (cover, 2026-10-26) = 44.97B = 32.7x TTM NI 1,377M; TTM FCF 1,510M (3.4%). Quality business with net cash; price assumes margin recovery and unit growth, with margins and comps currently moving the wrong way.",
+  "counterthesis": "Margins are falling (labor, occupancy, other costs growing faster than sales; G&A +26% in Q3), comps are only +2.1% on mostly price, and the shares still trade at 32.7x TTM earnings and about 3.4% FCF yield. Buybacks cut sharply in Q3, so per-share support has weakened. Operating leases of 5.6B are real fixed obligations. 2026 capex up 36% on new units and equipment (elevated through 2027 per filing).",
+  "invalidation": "Downgrade if comps turn negative or restaurant-level margin keeps falling; upgrade case needs stabilized margins at a lower multiple, verified peers (MCD, SBUX, CAVA, WING) and verified quotes.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000104/cmg-20260930.htm",
+      "document_id": "0001058090-26-000104",
+      "origin": "10-Q quarter ended 2026-09-30 filed 2026-10-29; downloaded directly from SEC Archives and converted to text; balance sheet, income statement, cash flow, equity statement, MD&A sales trends and cost discussion read; risk factors, legal proceedings detail not read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T20:08:00-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001058090.json",
+      "document_id": "SEC-companyfacts-CIK0001058090",
+      "origin": "SEC companyfacts from FY2025 10-K (filed 2026-02-04): revenue 11,925.6M, NI 1,535.8M, OCF 2,113.9M, capex 666.3M",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T20:08:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001058090.json",
+      "document_id": "SEC-submissions-CIK0001058090",
+      "origin": "SEC submissions: 10-Q and 8-K 2.02 on 2026-10-29/28; 8-K 5.02 2026-09-14 (not read)",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T20:08:00-05:00"
+    },
+    {
+      "id": "r",
+      "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000103/cmg-20261028.htm",
+      "document_id": "0001058090-26-000103",
+      "origin": "8-K 2.02 cover page fetched (short cover text only); the press-release exhibit was not read",
+      "kind": "earnings_release",
+      "read_status": "snippet",
+      "accessed_at": "2026-11-21T20:08:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/cmg/history/",
+      "document_id": "stockanalysis-CMG-2026-11-20",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T20:08:00-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/CMG/history/",
+      "document_id": "yahoo-finance-CMG-2026-11-20",
+      "origin": "Yahoo Finance history page via WebFetch, close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-21T20:08:00-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q"
+      ],
+      "note": "Latest periodic filing is the 10-Q filed 2026-10-29; submissions listing shows no later periodic filing; 8-K 5.02 of 2026-09-14 not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "2026-09-30 USD thousands: total assets 9,432,683; total liabilities 6,977,539 (operating lease liabilities 5,599,031 of which 5,277,474 long-term); equity 2,455,144; cash 634,210; investments 268,354 current and 100,365 long-term; no borrowings on the balance sheet."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "TTM = FY25 less 9M25 plus 9M26: OCF 2,113.9-1,688.1+1,922.1=2,348.0M; purchases of leasehold improvements, property and equipment 666.3-468.9+640.6=838.1M; FCF 1,509.9M. OCF includes 203.7M income-tax payable swing."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "1,264,975 thousand shares outstanding at 2026-10-26 (cover page); weighted diluted Q3 1,267,703 thousand."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x",
+        "qa",
+        "qb"
+      ],
+      "note": "Peers (MCD, SBUX, CAVA, WING) and own multiple history not compared; two quote sources have undocumented origins."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Restaurant operator model: operating leases kept separate from financial debt; FCF after capex."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Impairment and closure costs up (36.9M vs 19.0M 9M), income-tax payable swing in OCF, derivative suits noted; risk factors and full legal note not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Margin compression, 32.7x multiple, lower Q3 buybacks, lease obligations."
+    }
+  },
+  "price": {
+    "value": 35.55,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-20",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 35.55,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 35.55,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 35.55,
+      "shares_outstanding": 1264975000,
+      "share_basis": "cover page 2026-10-26, thousands x1000",
+      "market_cap_usd": 44969000000,
+      "pe_ttm": 32.7,
+      "fcf_yield_ttm": 0.0336,
+      "price_to_book": 18.3,
+      "price_to_tangible_book": null,
+      "basis": "USD M. TTM NI 1,377.2=1,535.8-1,204.8+1,046.2; TTM FCF 1,509.9 (OCF 2,348.0 less capex 838.1); market cap 44,969M; price to book uses equity 2,455.1M (buyback-distorted)."
+    },
+    "balance_sheet": {
+      "total_assets_musd": 9432.7,
+      "equity_musd": 2455.1,
+      "total_liabilities_musd": 6977.5,
+      "total_debt_musd": 0,
+      "basis": "USD M at 2026-09-30; financial debt none; operating lease liabilities 5,599.0 excluded from debt; cash plus investments 1,003.0"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peers and own history not compared",
+    "Earnings press-release exhibit not read",
+    "Risk factors and legal note not read",
+    "Quote origins undocumented (two aggregators)"
+  ]
+}
