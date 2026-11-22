@@ -1,0 +1,183 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "currency": "USD",
+ "as_of": "2026-11-22T16:08:13-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "ticker": "CELH",
+ "exchange": "Nasdaq",
+ "cik": 1341766,
+ "sector_model": "Branded beverage with a single distributor and convertible preferred (nonfinancial): P/E on as-converted equity, FCF after capex, gross margin, concentration, preferred claims, buybacks.",
+ "thesis": "Celsius Holdings (Nasdaq: CELH), energy drinks (Celsius, Alani Nu, Rockstar US and Canada since 2025-08-28), distributed mostly by PepsiCo. Q3 2026 10-Q (filed 2026-11-05) read. Q3 revenue 847.2M vs 725.1M (+16.8%); 9M 2,447.8M vs 1,793.6M (+36.5%, acquisition driven). Q3 gross margin 46.8% vs 51.3% (channel mix, aluminum, fuel); Q3 operating income 172.1M vs -80.0M (Q3 2025 included 246.7M distributor termination fees; 9M 2026 still has 88.8M). TTM NI 317.0M (108.0-83.3+292.3) before 57M-a-year preferred dividends. TTM OCF 330.7M (359.4-478.9+450.2) less PP&E capex 61.8M (36.1-25.5+51.2) = FCF 268.9M; note 9M 2026 OCF absorbed paying the roughly 262M accrued termination fees (own estimate from balance sheet change 264.1M to 2.1M) and Q4 2025 OCF was -119.5M, so TTM FCF is distorted. Close 28.46 (2026-11-20, two sources agree; down 13% in two sessions from 32.75 on 11-18, cause not found) x 250,556,309 common (cover 2026-10-31) = 7.13B; with about 33.9M as-converted preferred shares (weighted, mostly Pepsi Series A and B) = about 8.09B = 25.5x TTM NI, FCF yield 3.3%. Cash 700.6M vs term loan principal 693.0M (6.33% effective, due 2032), so net debt about zero; preferred mezzanine carrying 1,760.0M. 9M buybacks 170.5M. Pepsi was 64.6% of Q3 revenue and 58.5% of receivables.",
+ "counterthesis": "Pepsi is 64.6% of Q3 revenue and holds convertible preferred plus two board seats; growth is largely acquired (Alani Nu, Rockstar), gross margin fell 450bp in Q3 on promotions, mix and aluminum, and 25.5x TTM earnings that include one-off fee noise is not cheap for a margin-compressing company. TTM FCF is depressed by one-time distributor termination payments and Q4 2025 outflow, which makes any yield unreliable in either direction. The stock fell 13% in two sessions to 28.46 with no explanation found; search snippets suggested prior brand level sales weakness but were not read. Preferred dividends plus participating income allocation reduce common earnings (9M NI 292.3M vs 221.0M to common). Buybacks ran at 170.5M against a 25% lower share price than a year ago in the repurchase average (30.18 average 9M).",
+ "invalidation": "Downgrade to avoid if Celsius brand and total organic sales keep declining, gross margin falls below about 45%, or Pepsi concentration or terms worsen. Upgrade to further study only after the 11-05 earnings release and call, brand level sales, Pepsi agreement terms, the cause of the 11-19/11-20 drop, FY2025 10-K audit matters and peers (MNST, KDP, BF) are read, and quote origins are documented.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341766/000134176626000062/celh-20260930.htm",
+   "document_id": "0001341766-26-000062",
+   "origin": "10-Q quarter ended 2026-09-30 filed 2026-11-05; direct SEC download converted to text; balance sheet, statements of operations and cash flows, EPS and preferred notes, customer concentration, debt note, buyback note, MD&A gross profit and SG&A read; risk factors and controls not read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-22T16:08:13-05:00"
+  },
+  {
+   "id": "x",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001341766.json",
+   "document_id": "SEC-companyfacts-CIK0001341766",
+   "origin": "SEC companyfacts: FY2025 10-K (filed 2026-03-02) NI 108.0M, OCF 359.4M, capex 36.1M, revenue 2,515.3M; 10-Q 2026-11-05 values for 9M 2026 and 9M 2025",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-22T16:08:13-05:00"
+  },
+  {
+   "id": "sub",
+   "url": "https://data.sec.gov/submissions/CIK0001341766.json",
+   "document_id": "SEC-submissions-CIK0001341766",
+   "origin": "SEC submissions 2026-11-22: 10-Q and 8-K 2.02/7.01 on 2026-11-05 (release exhibit not read), Forms 3 and 4 2026-11-03 to 11-09",
+   "kind": "secondary",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-22T16:08:13-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/celh/history/",
+   "document_id": "stockanalysis-CELH-2026-11-20",
+   "origin": "stockanalysis.com history via WebFetch; close 2026-11-20 28.46 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-22T16:08:13-05:00",
+   "origin_verified": false
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/CELH/history/",
+   "document_id": "yahoo-finance-CELH-2026-11-20",
+   "origin": "Yahoo Finance history via WebFetch; close 2026-11-20 28.46 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-22T16:08:13-05:00",
+   "origin_verified": false
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "sub",
+    "q"
+   ],
+   "note": "10-Q filed 2026-11-05 is the latest periodic filing; 8-K 2.02 of 2026-11-05 release exhibit not read."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "USD thousands at 2026-09-30: total assets 5,152,385; total liabilities 2,117,042; mezzanine preferred 1,759,975; stockholders equity 1,275,368; cash 700,617; long-term debt 667,755 (term loan principal 693,013); goodwill 919,610; brands 1,280,181."
+  },
+  "cashflow_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "x"
+   ],
+   "note": "TTM OCF 359.4-478.9+450.2=330.7M; PP&E capex 36.1-25.5+51.2=61.8M; FCF 268.9M. Distorted by 2025-26 distributor termination payments; capex is PP&E only."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "250,556,309 common at 2026-10-31 (cover); 251,725k at 2026-09-30; about 33.9M as-converted preferred and awards excluded as antidilutive (weighted 9M); diluted weighted 254.9M for Q3 under the two-class method."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "x",
+    "qa",
+    "qb"
+   ],
+   "note": "Peers and history not compared; one-off normalisation of TTM is estimated not read; as-converted count is an approximation; quote origins undocumented."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Branded beverage with convertible preferred: as-converted P/E, FCF, margin, concentration."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Related-party deferred costs (734.5M non-current), distributor termination fees and income allocated to participating preferred noticed; risk factors, controls and audit matters not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Pepsi concentration, acquired growth, margin compression, distorted FCF, unexplained two day drop."
+  }
+ },
+ "price": {
+  "value": 28.46,
+  "currency": "USD",
+  "as_of": "2026-11-20T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-20",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 28.46,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 28.46,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00"
+   }
+  ]
+ },
+ "calculations": {
+  "valuation": {
+   "price": 28.46,
+   "shares_outstanding": 250556309,
+   "share_basis": "10-Q cover 2026-10-31 common only; as-converted view adds about 33.9M weighted preferred conversion shares (approximation)",
+   "market_cap_usd": 7131000000,
+   "pe_ttm": 25.5,
+   "fcf_yield_ttm": 0.0332,
+   "price_to_book": 5.59,
+   "price_to_tangible_book": null,
+   "basis": "USD M. Common market cap 28.46 x 250.556M = 7,130.8M; as-converted about 28.46 x 284.4M = 8,094M; TTM NI 317.0 before preferred dividends; P/E 25.5x on as-converted; TTM FCF 268.9 (3.3% on as-converted). Price to book on common market cap over stockholders equity 1,275.4M = 5.59, ignores mezzanine preferred."
+  },
+  "balance_sheet": {
+   "total_assets_musd": 5152.4,
+   "equity_musd": 1275.4,
+   "total_liabilities_musd": 2117.0,
+   "total_debt_musd": 693.0,
+   "basis": "USD M at 2026-09-30; debt = term loan principal 693.0; cash 700.6; mezzanine preferred 1,760.0 excluded from equity and debt"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "Cause of the 2026-11-19/20 price drop not identified",
+  "11-05 release, guidance, brand level organic sales not read",
+  "Pepsi preferred and distribution terms, conversion mechanics not fully read",
+  "Peers and history not compared",
+  "Quote origins undocumented (two aggregators)"
+ ]
+}
