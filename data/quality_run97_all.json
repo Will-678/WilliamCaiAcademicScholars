@@ -1,0 +1,7 @@
+{
+ "checked_at": "2026-11-22T04:10:00-05:00",
+ "records": 187,
+ "valid": 187,
+ "eligible_attractive": 0,
+ "note": "run 97 revalidation of all journal/research/*.json"
+}

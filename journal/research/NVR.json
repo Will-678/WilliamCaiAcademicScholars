@@ -1,0 +1,182 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "NVR",
+  "exchange": "NYSE",
+  "currency": "USD",
+  "cik": 906163,
+  "sector_model": "Homebuilder: P/E, price to book, orders, backlog, gross margin, land deposit risk, buybacks vs FCF.",
+  "as_of": "2026-11-22T04:08:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "NVR (NYSE: NVR), homebuilder with land-light lot purchase agreements and a mortgage arm. Q3 2026 10-Q (filed 2026-11-04) read: balance sheet, income statement, cash flow, VIE note and MD&A order data. Q3 homebuilding revenue 2,349.3M (-8%), 9M 6,463.9M (-13%); Q3 NI 248.6M vs 342.7M (-27%), 9M NI 683.4M vs 976.0M; gross margin 18.3% vs 21.1%; new orders Q3 4,391 (-7%) but 9M +4%; backlog 10,121 units (+10%), 4,585M (+4%); cancellation rate 21.0% vs 19.4%; management says demand weakened further (affordability, rates, inventory). Close 5,468.04 (2026-11-20) x 2,645,788 shares (2026-10-31 cover) = 14.47B = 13.8x TTM NI 1,047.2M (1,339.8-976.0+683.4), 4.2x book 3,435M. TTM OCF 851.8M less capex 33.6M = FCF 818.2M (5.7%); inventory build 649M in 9M. Homebuilding cash 1,091M vs senior notes 908M. 9M buybacks 1,242.8M (about 1.8x 9M FCF of roughly 382M, funded from cash, which fell from 1,884M). Contract land deposits 1,073M gross with 156M allowance (impairments 55M in 9M).",
+  "counterthesis": "Earnings and margins are falling (NI -27% in Q3, gross margin -280bp) in a rate and affordability squeeze, so TTM 13.8x flatters; 9M run-rate NI is about 911M annualised (own estimate, about 15.9x). Buybacks of 1.24B in 9M exceed 9M FCF and are shrinking the cash cushion and book value (equity 3.86B to 3.43B). Contract land deposits are 1.07B at risk with rising impairments. Cancellations rising. Quote is a Nov 20 close after a drop from 5,793 on 11-16, cause not read.",
+  "invalidation": "Downgrade if orders turn negative on a sustained basis, gross margin falls below about 17%, deposit impairments accelerate, or buybacks continue to outrun FCF while cash falls. Upgrade case needs peers (PHM, DHI, LEN, TOL), through-cycle margin history, the 2026-10-22 release read, and verified quote origins.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/906163/000090616326000104/nvr-20260930.htm",
+      "document_id": "0000906163-26-000104",
+      "origin": "10-Q quarter ended 2026-09-30 filed 2026-11-04; direct SEC download converted to text; balance sheet, income statement, cash flow, VIE note, MD&A orders/backlog/margins read; risk factors (none updated in Part II) and controls not read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T04:08:00-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000906163.json",
+      "document_id": "SEC-companyfacts-CIK0000906163",
+      "origin": "SEC companyfacts: FY2025 10-K (filed 2026-02-11) NI 1,339.8M, OCF 1,121.3M, capex 24.5M; 2025 9M comparatives",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T04:08:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0000906163.json",
+      "document_id": "SEC-submissions-CIK0000906163",
+      "origin": "SEC submissions: 10-Q 2026-11-04; 8-K 2.02 2026-10-22 (release exhibit not read); 8-K 5.02 2026-05-14 (not read)",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T04:08:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/nvr/history/",
+      "document_id": "stockanalysis-NVR-2026-11-20",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T04:08:00-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/NVR/history/",
+      "document_id": "yahoo-finance-NVR-2026-11-20",
+      "origin": "Yahoo Finance history page via WebFetch, close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T04:08:00-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q"
+      ],
+      "note": "10-Q filed 2026-11-04 is latest; 8-K 2.02 of 2026-10-22 exhibit not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "USD thousands at 2026-09-30: total assets 5,565,950; total liabilities 2,130,957; equity 3,434,993; homebuilding cash 1,091,315; senior notes 907,659; contract land deposits net 916,747."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "TTM OCF 1,121.320-681.592+412.096=851.824M; capex 24.508-20.808+29.879=33.579M; FCF 818.245M. Includes mortgage loan flows inside OCF."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "2,645,788 shares outstanding at 2026-10-31 per 10-Q cover; diluted weighted 2,779k (options) so market cap on basic shares is understated about 5% on a diluted basis."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x",
+        "qa",
+        "qb"
+      ],
+      "note": "Peers and history not compared; two undocumented quote origins; no through-cycle margin."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Homebuilder model: P/E, price to book, orders, backlog, gross margin, land deposits, inventory; generic FCF noted as working-capital driven."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Deposit impairments and VIE note read; audit matters, controls and risk factors not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Falling margin and NI, buybacks above FCF, deposit exposure, cancellations."
+    }
+  },
+  "price": {
+    "value": 5468.04,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-20",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 5468.04,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 5468.04,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 5468.04,
+      "shares_outstanding": 2645788,
+      "share_basis": "10-Q cover 2026-10-31",
+      "market_cap_usd": 14467000000,
+      "pe_ttm": 13.8,
+      "fcf_yield_ttm": 0.0566,
+      "price_to_book": 4.21,
+      "price_to_tangible_book": null,
+      "basis": "USD M. TTM NI 1,047.2=1,339.8-976.0+683.4; TTM FCF 818.2 (OCF 851.8 less capex 33.6); market cap 5,468.04 x 2.6458M = 14,467M; book 3,435.0M; 9M annualised NI 911M (own estimate)."
+    },
+    "balance_sheet": {
+      "total_assets_musd": 5566.0,
+      "equity_musd": 3435.0,
+      "total_liabilities_musd": 2131.0,
+      "total_debt_musd": 907.7,
+      "basis": "USD M at 2026-09-30; debt = homebuilding senior notes 907.659; no revolver borrowings"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peers and through-cycle history not compared",
+    "2026-10-22 release and guidance not read",
+    "Cause of 11-16 to 11-20 decline not found",
+    "Quote origins undocumented (two aggregators)"
+  ]
+}

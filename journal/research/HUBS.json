@@ -1,0 +1,194 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "HUBS",
+  "exchange": "NYSE",
+  "currency": "USD",
+  "cik": 1404655,
+  "sector_model": "Subscription software: GAAP P/E, FCF after capitalised software and SBC, net cash, buybacks, management change.",
+  "as_of": "2026-11-22T04:08:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "thesis": "HubSpot (NYSE: HUBS), CRM software for small and mid-size businesses. Q3 2026 10-Q (filed 2026-11-04) read: balance sheet, income statement, cash flow lines, buyback note. Q3 revenue 947.6M (+17.1%), 9M 2,740.3M (+20.0%); subscription 930.2M; Q3 GAAP NI 83.0M vs 16.5M; 9M NI 158.9M. Close 193.88 (2026-11-20) x 48,836,461 shares (2026-10-30 cover) = 9.47B = 44.4x TTM NI 213.3M (45.9+8.5+158.9). TTM OCF 907.0M; capex 64.5M plus capitalised software 143.3M; FCF after both 699.2M (7.4%), but TTM SBC 503.7M, so FCF after SBC is about 195M (2.1%, own estimate). No debt line on the balance sheet (2025 convertible notes repaid); cash 1,121.3M, short-term investments 175.4M. Buybacks 973.7M in 9M funded by running down investments (short-term investments 821.6M to 175.4M); 1.0B remains authorised. 8-K 5.02 filed 2026-11-12: CEO Yamini Rangan stepped down effective 11-12 and co-founder Brian Halligan returned as CEO. Stock fell from 231.98 (11-16) to 193.88 (-16.4% in 3 sessions) and was bought back at about 224 after quarter end.",
+  "counterthesis": "A 44x GAAP multiple with a sudden CEO change one week after earnings is a governance and execution flag; reason for the exit is not stated in the 8-K text read. Real owner earnings are far below headline FCF once SBC (about 18% of TTM revenue, own estimate) is counted; share count fell only because buybacks absorb dilution. AI-driven disruption of SMB CRM seats is a recognised risk but not read here. Buybacks at about 224 are now well above the 193.88 price.",
+  "invalidation": "Downgrade if growth decelerates below the mid teens, the CEO change reflects undisclosed problems, or SBC keeps consuming most of FCF. Upgrade case needs the Q3 release and call, net revenue retention, peers (CRM, ADBE, WDAY, DDOG), and verified quote origins.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1404655/000119312526447363/hubs-20260930.htm",
+      "document_id": "0001193125-26-447363",
+      "origin": "10-Q quarter ended 2026-09-30 filed 2026-11-04; direct SEC download converted to text; balance sheet, income statement, buyback note read; MD&A metrics (customers, retention), risk factors and cash flow statement detail not fully read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T04:08:00-05:00"
+    },
+    {
+      "id": "k",
+      "url": "https://www.sec.gov/Archives/edgar/data/1404655/000119312526457055/d77303d8k.htm",
+      "document_id": "0001193125-26-457055",
+      "origin": "8-K Item 5.02 filed 2026-11-12 on CEO change; item 7.01 and exhibits not read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T04:08:00-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001404655.json",
+      "document_id": "SEC-companyfacts-CIK0001404655",
+      "origin": "SEC companyfacts: FY2025 10-K (filed 2026-02-11) NI 45.9M, OCF 760.7M, PPE capex 53.2M, capitalised software 130.6M, SBC 528.2M; 9M comparatives",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T04:08:00-05:00"
+    },
+    {
+      "id": "sub",
+      "url": "https://data.sec.gov/submissions/CIK0001404655.json",
+      "document_id": "SEC-submissions-CIK0001404655",
+      "origin": "SEC submissions: 10-Q and 8-K 2.02 2026-11-04; 8-K 5.02 2026-11-12 and 2026-10-09; 8-K 2.05 2026-10-06 (restructuring, not read)",
+      "kind": "secondary",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T04:08:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/hubs/history/",
+      "document_id": "stockanalysis-HUBS-2026-11-20",
+      "origin": "stockanalysis.com via WebFetch; close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T04:08:00-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/HUBS/history/",
+      "document_id": "yahoo-finance-HUBS-2026-11-20",
+      "origin": "Yahoo Finance history page via WebFetch, close 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-22T04:08:00-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "sub",
+        "q",
+        "k"
+      ],
+      "note": "10-Q of 2026-11-04 and 8-K of 2026-11-12 read; 8-Ks of 2026-10-06 (2.05) and 2026-10-09 (5.02) and the earnings release exhibit not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "USD thousands at 2026-09-30: total assets 3,480,464; total liabilities 1,852,877; equity 1,627,587; cash 1,121,342; short-term investments 175,414; long-term investments 13,747; deferred revenue 1,034,580 current; no borrowings listed."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "TTM OCF 760.717-513.287+659.607=907.037M; PPE capex 64.545M; capitalised software 143.263M; FCF 699.229M after both; SBC TTM 503.746M."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "48,836,461 shares outstanding at 2026-10-30 per 10-Q cover; RSU dilution not added."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x",
+        "qa",
+        "qb"
+      ],
+      "note": "Peers and history not compared; two undocumented quote origins; no adjusted metrics reconciled."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Subscription software: P/E on GAAP, FCF after capitalised software and SBC, net cash, buyback funding."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "k"
+      ],
+      "note": "Capitalised software 244M noted; audit matters, restructuring 8-K and risk factors not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "k"
+      ],
+      "note": "High GAAP multiple, SBC, CEO change, buybacks above price."
+    }
+  },
+  "price": {
+    "value": 193.88,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-20",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 193.88,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 193.88,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      }
+    ]
+  },
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "calculations": {
+    "valuation": {
+      "price": 193.88,
+      "shares_outstanding": 48836461,
+      "share_basis": "10-Q cover 2026-10-30",
+      "market_cap_usd": 9468000000,
+      "pe_ttm": 44.4,
+      "fcf_yield_ttm": 0.0739,
+      "price_to_book": 5.82,
+      "price_to_tangible_book": null,
+      "basis": "USD M. TTM NI 213.3=45.9-(-8.5)+158.9; TTM FCF 699.2 (OCF 907.0 less PPE 64.5 less capitalised software 143.3); after SBC 503.7 about 195.5 (own estimate); market cap 193.88 x 48.836M = 9,468M; net cash about 1,310M (cash 1,121.3 + short-term 175.4 + long-term 13.7 investments, no debt found)."
+    },
+    "balance_sheet": {
+      "total_assets_musd": 3480.5,
+      "equity_musd": 1627.6,
+      "total_liabilities_musd": 1852.9,
+      "total_debt_musd": 0.0,
+      "basis": "USD M at 2026-09-30; no interest-bearing debt line found on the balance sheet (operating leases 224M excluded)"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peers and history not compared",
+    "Earnings release, retention and guidance not read",
+    "CEO exit reason not stated in text read; 2026-10-06 restructuring 8-K not read",
+    "Quote origins undocumented (two aggregators)"
+  ]
+}

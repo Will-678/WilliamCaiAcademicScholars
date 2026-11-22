@@ -395,3 +395,10 @@ Run 96 (2026-11-22 00:xx ET, Sun): screen not refreshed (retrieved 2026-11-21 08
 |---|---|---|---|---|---|---|---|---|
 | 1065088 | EBAY | Nasdaq | Consumer internet marketplace (large) | researched_watch | 2026-11-22 | Peers (AMZN, ETSY, MELI); earnings exhibits 10-22 and 10-28; guidance; Depop integration; cause of -7.6% since 11-04; quote origins | 2026-11-29 | 24.2x TTM NI, FCF yield 4.8% (base effect from weak 2025 working capital), GMV +15%, Q3 NI -21% on tax rate and marketing, net debt about 2.6B; journal/research/EBAY.json |
 | 1442145 | VRSK | Nasdaq | Data analytics insurance (large) | researched_watch | 2026-11-22 | AccuLynx forced closing terms, FTC and financing; peers (SPGI, MCO, FICO); organic growth, EBITDA; quote origins | 2026-11-29 | 29.5x TTM NI, FCF yield 4.2%, revenue +5.3%, Q3 OCF -34%, debt 4.5B, equity -1.1B; journal/research/VRSK.json |
+
+Run 97 (2026-11-22 04:xx ET, Sun): screen not refreshed (retrieved 2026-11-21 08:05 ET, about 20h, no failure). Leader gap EXEL '039 ruling: SEC submissions rechecked, still no 8-K after 2026-10-29 (13D/13G 11-09 only); not closed. Added NVR and HUBS (both researched_watch, discovery names carried from earlier runs; HubSpot 10-Q retrieved this run after the run 94 download failure).
+
+| CIK | Ticker | Exchange | Sector | Stage | Last reviewed | Next action | Due | Reason |
+|---|---|---|---|---|---|---|---|---|
+| 906163 | NVR | NYSE | Homebuilding (large) | researched_watch | 2026-11-22 | Peers (PHM, DHI, LEN, TOL); through-cycle margins; 2026-10-22 release and guidance; cause of -5.6% since 11-16; quote origins | 2026-11-29 | 13.8x TTM NI, 4.2x book, FCF yield 5.7%, Q3 NI -27%, gross margin 18.3% vs 21.1%, buybacks 1.24B in 9M above FCF; journal/research/NVR.json |
+| 1404655 | HUBS | NYSE | Software SMB CRM (mid) | researched_watch | 2026-11-22 | CEO change reason (8-K 11-12); 11-04 release and call, retention; 10-06 restructuring 8-K; peers (CRM, ADBE, WDAY); quote origins | 2026-11-29 | 44.4x TTM NI, FCF yield 7.4% (about 2.1% after SBC), revenue +17% Q3, CEO stepped down 11-12, -16% in 3 sessions, net cash about 1.3B; journal/research/HUBS.json |
