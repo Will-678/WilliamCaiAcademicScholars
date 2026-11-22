@@ -43,3 +43,11 @@ Required explicit documented underlying quote origins before sources count towar
 
 ## 2026-11-15 compiler review
 No additional code change; the independent audit's quote origin fix covers the main issue found. Recommendation recorded: deepen leaders before adding more records. Details in reviews/2026-11-15.md.
+
+## 2026-11-22 independent audit
+
+Finding: stale queue quote-verification assertions and overdue historical work obscure unfinished diligence; NVR buyback/FCF narrative understates cash consumption. Evidence: 190 queue rows, 94 overdue, 95 flagged, USLM/EXEL quote contradictions, CPRX markdown-only; 188 structurally valid records, none eligible attractive. Actual SEC primary checks support HUBS/TREX revenue; NVR OCF 412.096M less capex29.879M gives382.217M FCF, so1242.774M buybacks/FCF=3.2515x rather than1.8x. See reviews/2026-11-22-independent.md for direct evidence and limitations.
+
+Change: added read-only tools/queue_quality.py with a worker/compiler checkpoint; appended NVR.md and decision-log correction without changing rating or overwriting history. Tests: baseline28passed; new regression first failed with missing module; final31passed (stale quote contradiction, missing legacy, valid-origin fixture and nonmutation). All188 live records structurally valid on current clock; this does not prove facts. Queue checker intentionally exits1 with disclosed problems. Remaining:179annual-reading blockers,188independent-origin blockers, no completed scores, repeated gap attempts without closure. No performance claim or model tuning.
+
+Rollback commit reference: 63e83404f25a9bd28cb5003744d40d39ddc8d9a2. Revert the audit change with a new commit, preserve subsequent shared work; no reset/force push. Prospective proposal only: encode consequential prose ratios as sourced structured calculations. No cadence or preference changes.

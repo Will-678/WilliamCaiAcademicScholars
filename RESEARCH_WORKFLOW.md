@@ -68,3 +68,9 @@ Reference: SEC EDGAR API documentation explains that frames align facts with cal
 For a quote source to count toward independent confirmation, its source object must include origin_verified: true and origin_evidence_url: an HTTPS link to documentation supporting the declared underlying data origin. Use a consistent provider identity in origin. Distinct publisher names, agreement on a closing price or an unexplained true flag are not proof. A reviewer must read the documentation; the validator checks recorded evidence, not its truth. Unknown origins remain unverified. Existing incomplete records do not need invented backfills.
 
 Each worker run must report one existing leader's priority evidence gap, what it attempted, and whether the gap closed, before reporting new company leads. Count completed evidence checks separately from newly created files. The growing watchlist is not evidence of completed diligence. Preserve historical records and append corrections.
+
+## Queue consistency checkpoint, independent audit 2026-11-22
+
+Before workers select a queue item and before morning compilation, run:
+python3 tools/queue_quality.py --today YYYY-MM-DD
+Use the actual America/New_York date. Exit 1 means disclosed queue issues need review, not that research must stop. Report overdue row counts, missing structured records and quote verification contradictions. Queue rows are historical entries, not necessarily unique companies. Consult the current structured record and source documentation before using any old queue assertion. Do not promote markdown-only legacy entries. Append dated corrections rather than rewriting past decisions. Prioritize closing an existing leader gap; repeated submissions polling that closes nothing must be reported as an unsuccessful attempt, not completed diligence. This check does not prove the sources or quotes true.

@@ -20,3 +20,7 @@ USD M. TTM NI 1,047.2=1,339.8-976.0+683.4; TTM FCF 818.2 (OCF 851.8 less capex 3
 - Quote origins undocumented (two aggregators)
 
 Quotes: close 2026-11-20 from stockanalysis.com and Yahoo Finance history pages; they agree but origins are undocumented, so the price is not independently confirmed. No paper reference, benchmark pending.
+
+## Independent correction, 2026-11-22
+
+The original narrative understates buybacks relative to nine month free cash flow. The September 30, 2026 [10-Q cash flow statement](https://www.sec.gov/Archives/edgar/data/906163/000090616326000104/nvr-20260930.htm), in USD thousands, reports OCF 412,096, PP&E purchases 29,879 and treasury stock purchases 1,242,774. Under the stated OCF less PP&E definition, FCF is 382,217 thousand, and buybacks/FCF = 1,242,774 / 382,217 = 3.2515 times, approximately 3.25 times, not the original 1.8 times. The original JSON thesis and dated decision remain preserved as historical snapshots; this appended correction supersedes that ratio only. No rating change; no implication that every other claim has been verified.
