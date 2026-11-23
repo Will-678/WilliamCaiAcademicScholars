@@ -2,7 +2,7 @@
  "schema_version": 2,
  "method_version": "2.0",
  "currency": "USD",
- "as_of": "2026-11-22T16:08:13-05:00",
+ "as_of": "2026-11-22T20:06:15-05:00",
  "status": "watch",
  "confidence": "medium",
  "scores": {
@@ -17,9 +17,9 @@
  "exchange": "NYSE",
  "cik": 1789832,
  "sector_model": "Midstream fee-based partnership (single sponsor customer): P/E on all economic units, FCF after maintenance and growth capex, Adjusted EBITDA leverage, counterparty and contract terms, distribution coverage.",
- "thesis": "Hess Midstream LP (NYSE: HESM), Bakken gathering, processing and terminaling owned partly by Chevron (96% of revenue). Q3 2026 10-Q (filed 2026-11-05) read. Q3 revenue 410.1M vs 420.9M (-2.6%); 9M 1,199.2M vs 1,217.1M (-1.5%); volumes -4% to -10% on lower production, tariffs up. 9M consolidated NI 510.5M vs 516.6M; NI attributable to Class A 283.4M vs 259.6M. TTM consolidated NI 678.5M (684.6-516.6+510.5); TTM NI to Class A 376.7M; TTM OCF 1,045.4M (983.8-738.2+799.8) less capex 144.3M (255.6-188.9+77.6) = FCF 901.1M. Close 29.05 (2026-11-20, three sources agree) x Class A 128,350,881 = 3.73B (9.9x NI to Class A); counting Class B 77,827,485 (Chevron-held OpCo claims) the economic equity is 206.18M units = 5.99B = 8.8x consolidated TTM NI and FCF yield 15.0% on that basis. Debt 3,599.0M carrying (519.2M current: credit facilities due July 2027), cash 1.0M; 9M segment Adjusted EBITDA 939.2M (annualised about 1.25B, own estimate, so net debt about 2.9x). Ratings BBB- / Ba1. The valuation is NOT reliable: on 2026-10-06 HESM signed a deal with Chevron (8-K Item 1.01, read) to buy Chevron's DJ Basin gathering assets and the GP for 200M cash plus working capital, retire Chevron's Class B and Class A stake (shares down nearly 40%), but in return rewrite the Bakken commercial agreements with lower tariffs and fees (amounts not disclosed in the 8-K), a minimum revenue commitment of 80% of expected Chevron revenue to 2033, 20-year terms to 2045. Stock fell 15.5% to 32.71 on 10-07 and is 29.05 now. Pro forma EBITDA, tariff cut size and DJ asset earnings are not read, so whether 29 is cheap cannot be determined. Distributions 0.7985 per Class A share declared 10-26 (+1.2% q/q).",
+ "thesis": "Hess Midstream LP (NYSE: HESM), Bakken gathering, processing and terminaling owned partly by Chevron (96% of revenue). Q3 2026 10-Q (filed 2026-11-05) read. Q3 revenue 410.1M vs 420.9M (-2.6%); 9M 1,199.2M vs 1,217.1M (-1.5%); volumes -4% to -10% on lower production, tariffs up. 9M consolidated NI 510.5M vs 516.6M; NI attributable to Class A 283.4M vs 259.6M. TTM consolidated NI 678.5M (684.6-516.6+510.5); TTM NI to Class A 376.7M; TTM OCF 1,045.4M (983.8-738.2+799.8) less capex 144.3M (255.6-188.9+77.6) = FCF 901.1M. Close 29.05 (2026-11-20, three sources agree) x Class A 128,350,881 = 3.73B (9.9x NI to Class A); counting Class B 77,827,485 (Chevron-held OpCo claims) the economic equity is 206.18M units = 5.99B = 8.8x consolidated TTM NI and FCF yield 15.0% on that basis. Debt 3,599.0M carrying (519.2M current: credit facilities due July 2027), cash 1.0M; 9M segment Adjusted EBITDA 939.2M (annualised about 1.25B, own estimate, so net debt about 2.9x). Ratings BBB- / Ba1. The valuation is NOT reliable: on 2026-10-06 HESM signed a deal with Chevron (8-K Item 1.01, read) to buy Chevron's DJ Basin gathering assets and the GP for 200M cash plus working capital, retire Chevron's Class B and Class A stake (shares down nearly 40%), but in return rewrite the Bakken commercial agreements with lower tariffs and fees (amounts not disclosed in the 8-K), a minimum revenue commitment of 80% of expected Chevron revenue to 2033, 20-year terms to 2045. Stock fell 15.5% to 32.71 on 10-07 and is 29.05 now. Pro forma EBITDA, tariff cut size and DJ asset earnings are not read, so whether 29 is cheap cannot be determined. Distributions 0.7985 per Class A share declared 10-26 (+1.2% q/q). UPDATE 2026-11-22 20:xx ET: EX-99.1 of the 10-06 8-K read in full. Management guides 2026 Adjusted EBITDA 1,225-1,250M, Adjusted FCF 910-935M; preliminary 2027 (assuming year-end 2026 closing) Adjusted EBITDA 850-950M, capex about 125M, Adjusted FCF 525-625M, leverage 3.75-4.0x, debt at year-end 2027 about current levels, distribution per Class A share held at the Q4 2026 level, Bakken volumes about -5% in 2027, shares down nearly 40% on closing, accretive on Adjusted EBITDA per share. Tariff cut applies 2027-2033; the DJ assets and shares are booked as a contract liability recognised into revenue to 2045 (2027 EBITDA includes that estimate; Adjusted FCF will deduct deferred revenue changes). Own arithmetic: 2027 EBITDA midpoint 900 is 27% below the 2026 midpoint 1,237.5; Adjusted FCF midpoint 575 is 38% below 920. The pre-set invalidation trigger (more than about 15% below TTM on a total basis) is therefore met on total dollars; per unit the picture depends on the exact share base ('nearly 40%' fewer shares is ambiguous between Class A and all units; if 40% of 206.2M units, about 124M units, 2027 Adjusted FCF per unit about 4.6 vs about 4.5 in 2026, own estimate, unverified). Debt 3.6B over 900M gives about 4.0x, consistent with guidance. Rating held at watch because the trigger was written on a total basis and per-share math is unverified; this is a downgrade risk, not a strengthening.",
  "counterthesis": "Headline multiples look low only because they ignore the signed deal that cuts Bakken tariffs paid by 96% of revenue; the size of the cut and DJ Basin EBITDA are undisclosed in the sources read, so earnings power after closing may be materially lower per share than TTM. Volumes fell 4-10% in Q3 on lower Chevron production, there is no real third-party diversification (about 4% of revenue), Moody's rates it Ba1 (sub investment grade), 519M of debt falls due July 2027, and the company becomes independent with a transition services agreement and a 2028 board election date. Buybacks and distributions (9M: 300.1M shareholders, 181.8M to noncontrolling interest, 60M repurchases) consume about 75% of 9M FCF of 722.2M.",
- "invalidation": "Downgrade to avoid if the published pro forma Adjusted EBITDA after the tariff reset falls more than about 15% below TTM, if the deal terms are amended adversely, or if Q4 volumes keep falling more than 5% with no DJ offset. Upgrade to further study only after the full purchase agreement exhibit and any investor presentation quantify tariffs, DJ EBITDA and pro forma leverage, peers (WES, KNTK, AM, ET) are compared, and the quote origins are documented.",
+ "invalidation": "Downgrade to avoid if the published pro forma Adjusted EBITDA after the tariff reset falls more than about 15% below TTM, if the deal terms are amended adversely, or if Q4 volumes keep falling more than 5% with no DJ offset. Upgrade to further study only after the full purchase agreement exhibit and any investor presentation quantify tariffs, DJ EBITDA and pro forma leverage, peers (WES, KNTK, AM, ET) are compared, and the quote origins are documented. Trigger status 2026-11-22: total 2027 Adjusted EBITDA guide midpoint is 27% below 2026 guide; per share accretion rests on an unverified share count. Next: closing 8-K or proxy giving exact pro forma units.",
  "sources": [
   {
    "id": "q",
@@ -28,7 +28,7 @@
    "origin": "10-Q quarter ended 2026-09-30 filed 2026-11-05; direct SEC download converted to text; balance sheet, statements of operations and cash flows, debt note, MD&A Q3 results, revenue note, ratings and commercial agreement sections read; risk factors not read",
    "kind": "quarterly_filing",
    "read_status": "relevant_sections",
-   "accessed_at": "2026-11-22T16:08:13-05:00"
+   "accessed_at": "2026-11-22T20:06:15-05:00"
   },
   {
    "id": "d",
@@ -37,7 +37,16 @@
    "origin": "8-K Item 1.01 filed 2026-10-08 (event 2026-10-06): Chevron purchase and sale agreement, new Bakken commercial agreements, closing conditions, governance; read in full through Item 5.02 start; exhibits not read",
    "kind": "secondary",
    "read_status": "relevant_sections",
-   "accessed_at": "2026-11-22T16:08:13-05:00"
+   "accessed_at": "2026-11-22T20:06:15-05:00"
+  },
+  {
+   "id": "pr",
+   "url": "https://www.sec.gov/Archives/edgar/data/1789832/000119312526418053/d401552dex991.htm",
+   "document_id": "0001193125-26-418053-EX-99.1",
+   "origin": "EX-99.1 press release 2026-10-06 to 8-K filed 2026-10-08; read in full via direct SEC download",
+   "kind": "earnings_release",
+   "read_status": "full",
+   "accessed_at": "2026-11-22T20:06:15-05:00"
   },
   {
    "id": "x",
@@ -46,7 +55,7 @@
    "origin": "SEC companyfacts: FY2025 10-K (filed 2026-02-25) ProfitLoss 684.6M, NI attributable 352.9M, OCF 983.8M, capex 255.6M, revenue 1,621.3M",
    "kind": "annual_filing",
    "read_status": "relevant_sections",
-   "accessed_at": "2026-11-22T16:08:13-05:00"
+   "accessed_at": "2026-11-22T20:06:15-05:00"
   },
   {
    "id": "sub",
@@ -55,7 +64,7 @@
    "origin": "SEC submissions 2026-11-22: 10-Q 2026-11-05, 8-K 2.02 2026-10-30 (cover read, release exhibit not read), 8-K 1.01/5.02 2026-10-08, 13G/A 2026-11-10",
    "kind": "secondary",
    "read_status": "relevant_sections",
-   "accessed_at": "2026-11-22T16:08:13-05:00"
+   "accessed_at": "2026-11-22T20:06:15-05:00"
   },
   {
    "id": "qa",
@@ -64,7 +73,7 @@
    "origin": "financialcontent.com history via WebFetch; close 2026-11-20 29.05 (origin undocumented)",
    "kind": "quote",
    "read_status": "relevant_sections",
-   "accessed_at": "2026-11-22T16:08:13-05:00",
+   "accessed_at": "2026-11-22T20:06:15-05:00",
    "origin_verified": false
   },
   {
@@ -74,7 +83,7 @@
    "origin": "stockanalysis.com history via WebFetch; close 29.05; page says data provided by S&P Global Market Intelligence (documentation URL not recorded)",
    "kind": "quote",
    "read_status": "relevant_sections",
-   "accessed_at": "2026-11-22T16:08:13-05:00",
+   "accessed_at": "2026-11-22T20:06:15-05:00",
    "origin_verified": false
   },
   {
@@ -84,7 +93,7 @@
    "origin": "Yahoo Finance history via WebFetch; close 29.05 (origin undocumented)",
    "kind": "quote",
    "read_status": "relevant_sections",
-   "accessed_at": "2026-11-22T16:08:13-05:00",
+   "accessed_at": "2026-11-22T20:06:15-05:00",
    "origin_verified": false
   },
   {
@@ -94,7 +103,7 @@
    "origin": "RTTNews via WebFetch: 2026-10-07 drop 15.46% from 38.69 to 32.71 attributed to the Chevron agreement (secondary, price context only)",
    "kind": "secondary",
    "read_status": "relevant_sections",
-   "accessed_at": "2026-11-22T16:08:13-05:00"
+   "accessed_at": "2026-11-22T20:06:15-05:00"
   }
  ],
  "checks": {
@@ -104,7 +113,7 @@
     "sub",
     "q"
    ],
-   "note": "10-Q filed 2026-11-05 is the latest periodic filing; 8-K 2.02 of 2026-10-30 release exhibit not read; 8-K 1.01 of 2026-10-08 read."
+   "note": "SEC submissions 2026-11-22 20:xx ET: no 8-K after 2026-10-30 (13G/A 11-10 only); 10-Q 11-05 and 8-K EX-99.1 of 10-06 read."
   },
   "balance_sheet_verified": {
    "passed": true,
@@ -132,12 +141,12 @@
    "passed": false,
    "source_ids": [
     "q",
-    "d",
+    "pr",
     "qa",
     "qb",
     "qc"
    ],
-   "note": "Peers and history not compared; post-deal tariff cut and DJ Basin EBITDA not quantified in sources read; quote origins undocumented."
+   "note": "Management 2027 guide now read (EBITDA 850-950M, Adj FCF 525-625M); pro forma unit count, peers, history and quote origins still missing."
   },
   "sector_model_appropriate": {
    "passed": true,
@@ -211,10 +220,10 @@
   }
  },
  "unresolved_critical_gaps": [
-  "Size of Bakken tariff and fee reduction and DJ Basin EBITDA not quantified",
-  "Pro forma leverage, share count and distribution after closing not computed",
+  "Exact pro forma unit count after closing (nearly 40% reduction ambiguous) and whether per unit cash flow is really accretive",
+  "Split of 2027 EBITDA between tariff cut, DJ assets and non-cash contract-liability revenue",
   "Peers and through-cycle history not compared",
-  "2026-10-30 release exhibit not read",
-  "Quote origins undocumented (three aggregators)"
+  "Quote origins undocumented (three aggregators)",
+  "Purchase agreement EX-2.1 and 10-30 release not read"
  ]
 }
