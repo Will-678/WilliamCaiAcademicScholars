@@ -1,0 +1,223 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "BWXT",
+  "exchange": "NYSE",
+  "cik": 1486957,
+  "currency": "USD",
+  "sector_model": "Defense and nuclear industrial: backlog, FCF after capex, net debt including converts, held-for-sale disposal, non-GAAP adjustments read from release only in part.",
+  "as_of": "2026-11-23T12:06:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "thesis": "BWX Technologies (NYSE: BWXT), nuclear components and services. Q3 2026 10-Q (filed 2026-11-02), EX-99.1 release and the 2026-11-13 financing 8-K read. Revenue Q3 953.0M +10%, 9M 2,714.8M +17% (Kinectrics acquired 2025-05-20); operating income 9M 352.9M vs 312.4M; NI attributable 9M 281.8M vs 236.0M. Backlog 8,556M vs 7,261M at year end. TTM revenue 3,600.7M, NI 374.8M, OCF 578.7M, capex 206.4M, FCF 372.3M. Close 108.54 (2026-11-20, two sources agree; down 7.3% from 117.06 on 11-19, cause not found) x 91.63M shares = 9,945M: 26.5x TTM GAAP earnings, about 22.9x guided 2026 non-GAAP EPS 4.72-4.77, FCF yield 3.7% (3.4% after SBC), 7.0x book. 2026 FCF guide 350-360M; preliminary 2027 outlook high single digit revenue growth and high single to low double digit adjusted EBITDA growth. Company agreed (2026-07-31) to sell its medical business to Nordic Capital for up to 800M (held for sale, assets 659.5M, no significant gain or loss expected). Debt: 1.25B 0% convertible notes due 2030 (conversion 262.51) plus 800M 4.125% notes due 2028/2029, which it is retiring with 500M of new 6.500% notes due 2034 and cash (8-K 2026-11-13); revolver 1.25B undrawn; cash 568.5M.",
+  "counterthesis": "At 26x GAAP earnings and a 3.7% FCF yield the price already assumes sustained growth; the 11-20 drop of 7.3% is unexplained; refinancing 4.125% debt with 6.5% notes raises interest cost; 9M OCF is flattered by payables +150.3M and advance billings (428.3M) timing; equity-method income is 20% of 9M operating income; 1.97B of backlog is unfunded US Government; selling the medical business removes a growth segment; Kinectrics integration and goodwill 473M; 7x book. Peers and history not compared.",
+  "invalidation": "Drop if backlog conversion slows, 2026 FCF misses the 350-360M guide, the medical sale fails or is re-priced, margins in Commercial Operations fall, or the cause of the 11-20 decline proves company-specific. Study further only with peers, non-GAAP reconciliation and documented quote origins.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1486957/000148695726000051/bwxt-20260930.htm",
+      "document_id": "0001486957-26-000051",
+      "origin": "10-Q quarter ended 2026-09-30 filed 2026-11-02; direct SEC download; statements, held-for-sale note, debt note, backlog and segment MD&A read; risk factors not read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-23T12:06:00-05:00"
+    },
+    {
+      "id": "r",
+      "url": "https://www.sec.gov/Archives/edgar/data/1486957/000148695726000053/bwxt_93026xerexhibit991.htm",
+      "document_id": "0001486957-26-000053-ex99.1",
+      "origin": "EX-99.1 to 8-K filed 2026-11-02; highlights, 2026 guidance and 2027 preliminary outlook read; non-GAAP reconciliation tables not read",
+      "kind": "earnings_release",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-23T12:06:00-05:00"
+    },
+    {
+      "id": "k",
+      "url": "https://www.sec.gov/Archives/edgar/data/1486957/000110465926127049/tm2629729d1_8k.htm",
+      "document_id": "0001104659-26-127049",
+      "origin": "8-K filed 2026-11-13 (Items 1.01, 1.02, 2.03, 3.03, 8.01): tender offer and consent for 4.125% notes due 2028 and 2029, 500M 6.500% senior notes due 2034 issued 2026-11-13; read in full",
+      "kind": "secondary",
+      "read_status": "full",
+      "accessed_at": "2026-11-23T12:06:00-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001486957.json",
+      "document_id": "SEC-companyfacts-CIK0001486957",
+      "origin": "SEC companyfacts FY2025 10-K (filed 2026-02-23): revenue 3,198.4M, NI attributable 328.9M, OCF 479.8M, capex 184.6M, SBC 26.1M",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-23T12:06:00-05:00"
+    },
+    {
+      "id": "s",
+      "url": "https://data.sec.gov/submissions/CIK0001486957.json",
+      "document_id": "SEC-submissions-CIK0001486957",
+      "origin": "SEC submissions 2026-11-23: latest 10-Q 2026-11-02; 8-Ks 2026-11-02, 11-03, 11-04, 11-13; later forms Form 4",
+      "kind": "secondary",
+      "read_status": "full",
+      "accessed_at": "2026-11-23T12:06:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/bwxt/history/",
+      "document_id": "stockanalysis.com-BWXT-2026-11-20",
+      "origin": "stockanalysis.com history via WebFetch; close 108.54 on 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-23T12:06:00-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/BWXT/history/",
+      "document_id": "Yahoo Finance-BWXT-2026-11-20",
+      "origin": "Yahoo Finance history via WebFetch; close 108.54 on 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-23T12:06:00-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "s",
+        "r",
+        "k"
+      ],
+      "note": "10-Q, 11-02 earnings 8-K and 11-13 financing 8-K read; 11-03 and 11-04 8-Ks (tender offer launch, Items 1.01/2.03/8.01) not individually read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "10-Q 2026-09-30: cash 568.5M, assets 4,754.3M, liabilities 3,336.0M, long-term debt 2,021.9M carrying (0% converts 1.25B due 2030 plus 800M 4.125% notes now being retired), medical business held for sale (assets 659.5M); no revolver borrowings."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "TTM OCF 578.7M (479.8-352.9+451.7) less PP&E purchases 206.4M (184.6-114.4+136.2); matching periods; 9M OCF helped by accounts payable +150.3M and advance billings."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "91,625,197 shares at 2026-10-30 from the 10-Q cover; 0% 2030 converts convert at 262.51, well above price; capped call exists."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "r"
+      ],
+      "note": "Own multiples computed; peers (GE Vernova, CEG-like nuclear, Curtiss-Wright, HII) and history not compared."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "r"
+      ],
+      "note": "Defense and nuclear industrial model: backlog, FCF after capex, net debt, held-for-sale disposal, non-GAAP guidance reconciled only partly."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "k"
+      ],
+      "note": "Held-for-sale classification, equity-method income (72.0M of 352.9M operating income 9M) and pension noted; audit matters and risk factors not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "r",
+        "k"
+      ],
+      "note": "Written from filings."
+    }
+  },
+  "price": {
+    "value": 108.54,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-20",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 108.54,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 108.54,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "fcf": {
+      "ocf": {
+        "value": 578.7,
+        "unit": "USD millions",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "capex": {
+        "value": 206.4,
+        "unit": "USD millions",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "value": 372.3
+    },
+    "valuation": {
+      "price": 108.54,
+      "shares_outstanding": 91625197,
+      "share_basis": "Common at 2026-10-30 (10-Q cover)",
+      "market_cap_usd": 9945000000,
+      "ttm_revenue_musd": 3600.7,
+      "ttm_net_income_musd": 374.8,
+      "pe_ttm": 26.5,
+      "fcf_yield_pct": 3.74,
+      "price_to_book": 7.01,
+      "price_to_tangible_book": null,
+      "basis": "USD M. 108.54 x 91.625M = 9,945.0M; revenue TTM 3,198.4-2,312.6+2,714.8=3,600.7; NI attributable TTM 328.9-236.0+281.8=374.8; OCF 479.8-352.9+451.7=578.7; capex 184.6-114.4+136.2=206.4; FCF 372.3; SBC TTM 26.1-20.7+29.9=35.2, FCF after SBC 337.1 (3.4%). Equity incl. noncontrolling 1,418.3M (assets less liabilities). Guided 2026 non-GAAP EPS 4.72-4.77 gives about 22.9x; guided 2026 FCF 350-360M. Net debt about 1,453M (2,021.9 carrying less 568.5 cash)."
+    },
+    "balance_sheet": {
+      "total_assets_musd": 4754.3,
+      "equity_musd": 1418.3,
+      "total_liabilities_musd": 3336.0,
+      "cash_musd": 568.5,
+      "basis": "USD M at 2026-09-30; long-term debt 2,021.9M carrying; backlog 8,556M of which 1,971M unfunded US Government; 1,248.6M undrawn on the 1.25B revolver"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peers and own multiple history not compared",
+    "Cause of 6.9% drop on 2026-11-20 not found",
+    "Non-GAAP reconciliation and medical divestiture terms (Nordic Capital, up to 800M) not read in the agreement",
+    "Equity-method income quality and pension not examined",
+    "11-03 and 11-04 8-Ks not individually read",
+    "Quote origins undocumented"
+  ]
+}

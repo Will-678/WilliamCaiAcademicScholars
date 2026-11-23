@@ -1,0 +1,210 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "SFM",
+  "exchange": "Nasdaq",
+  "cik": 1575515,
+  "currency": "USD",
+  "sector_model": "Grocery retail: comparable sales, new store productivity, FCF after gross capex, lease liabilities treated as debt-like.",
+  "as_of": "2026-11-23T12:06:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "thesis": "Sprouts Farmers Market (Nasdaq: SFM), healthy grocery. Q3 2026 10-Q (filed 2026-10-28) and 8-K EX-99.1 read. Net sales Q3 2,304.7M +5% (new stores +128.8M), comparable sales -0.9% (transactions -3.3%, basket +2.5%, cyclospora outbreak -0.6 pt) vs +5.9% a year ago; gross margin 38.2% vs 38.7% (shrink +0.4%); Q3 net income 113.4M vs 120.1M, 9M 406.3M vs 433.8M (-6%). 504 stores (15 opened in the quarter). TTM revenue 9,108.4M, NI 496.2M, OCF 693.7M, capex 356.4M gross, FCF 337.3M (7.5% yield, 6.9% after SBC 28.5M). Close 48.81 (2026-11-20, two sources agree) x 92.23M shares = 4,502M: 9.1x TTM earnings, 10.2x FY2026 guided EPS ~4.80, 2.9x book. No revolver borrowings (600M), cash 228.7M, finance and other debt 133.1M, operating lease liabilities 2,102.5M. Buybacks 299.2M in 9M, share count 95.9M to 92.7M since December. Guidance: Q4 comparable sales -2% to -4%, Q4 EPS 0.47-0.51 (includes 53rd week worth about 0.16), FY EBIT ~605M, capex ~310M net, 42 net new stores; management will invest more in price. Possible mispricing view: market extrapolates negative comps and margin investment; the countervailing facts are unit growth of about 9% and a fully self-funded balance sheet. Not established.",
+  "counterthesis": "Q4 EPS guide of 0.47-0.51 compares with roughly 0.9 a year earlier (Q4 2025 NI about 89.8M from FY less 9M, derived, share count approximate), so earnings are guided down about 45% including a 53rd week, and management says price investments will pressure margins into fiscal 2027; comparable transactions fell 3.3%; incentive compensation fell 15.2M in Q3 which flatters SG&A; operating lease liabilities of 2.1B are debt-like and growing with 42 new stores (capex up 62% in 9M); a 9x multiple may be a fair price for a business whose comps turned negative; securities and derivative litigation is pending; I have not compared peers.",
+  "invalidation": "Drop if comparable sales stay negative into 2027 with gross margin below 38%, new store productivity weakens, or lease-adjusted leverage rises. Study further only with peers, the call transcript and 10-K audit matters read and quote origins documented.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1575515/000157551526000060/sfm-20260927.htm",
+      "document_id": "0001575515-26-000060",
+      "origin": "10-Q quarter ended 2026-09-27 filed 2026-10-28; direct SEC download; balance sheet, income statement, cash flow, debt note, repurchase note, litigation note, MD&A results read; risk factors not read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-23T12:06:00-05:00"
+    },
+    {
+      "id": "r",
+      "url": "https://www.sec.gov/Archives/edgar/data/1575515/000157551526000059/sfm-20260927xex991.htm",
+      "document_id": "0001575515-26-000059-ex99.1",
+      "origin": "EX-99.1 to 8-K filed 2026-10-28; highlights and 2026 outlook read",
+      "kind": "earnings_release",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-23T12:06:00-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001575515.json",
+      "document_id": "SEC-companyfacts-CIK0001575515",
+      "origin": "SEC companyfacts FY2025 10-K (filed 2026-02-19): revenue 8,806.2M, NI 523.7M, OCF 716.0M, capex 248.3M, SBC 31.1M",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-23T12:06:00-05:00"
+    },
+    {
+      "id": "s",
+      "url": "https://data.sec.gov/submissions/CIK0001575515.json",
+      "document_id": "SEC-submissions-CIK0001575515",
+      "origin": "SEC submissions 2026-11-23: latest 10-Q and 8-K 2026-10-28; later forms Form 4, 144 and 13G/A only",
+      "kind": "secondary",
+      "read_status": "full",
+      "accessed_at": "2026-11-23T12:06:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/sfm/history/",
+      "document_id": "stockanalysis.com-SFM-2026-11-20",
+      "origin": "stockanalysis.com history via WebFetch; close 48.81 on 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-23T12:06:00-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/SFM/history/",
+      "document_id": "Yahoo Finance-SFM-2026-11-20",
+      "origin": "Yahoo Finance history via WebFetch; close 48.81 on 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-23T12:06:00-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "s",
+        "r"
+      ],
+      "note": "Submissions 2026-11-23: 10-Q and 8-K (EX-99.1) of 2026-10-28 read; nothing newer than Forms 4, 144, 13G/A."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "10-Q 2026-09-27: cash 228.7M, assets 4,459.1M, liabilities 2,929.7M (operating lease liabilities 2,102.5M), debt and finance obligations 133.1M, equity 1,529.3M; revolver zero."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "TTM OCF 693.7M (716.0-577.5+555.1) less reported gross PP&E purchases 356.4M (248.3-176.1+284.2); matching periods; company's capex guide is net of landlord reimbursements, gross used here."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "92,232,635 shares at 2026-10-26 from the 10-Q cover; diluted weighted 93.67M for Q3."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "r"
+      ],
+      "note": "Own multiples computed; peers (KR, ACI, WMK, NGVC, WFM-like grocers) and own history not compared."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "r"
+      ],
+      "note": "Grocery retail model: comparable sales, new store growth, margin, FCF after gross capex, lease obligations as debt-like."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Lease liabilities, litigation (Harvest Sherwood, derivative suit) and incentive comp decline noted; risk factors and 10-K audit matters not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "r"
+      ],
+      "note": "Written from 10-Q and release evidence."
+    }
+  },
+  "price": {
+    "value": 48.81,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-20",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 48.81,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 48.81,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "fcf": {
+      "ocf": {
+        "value": 693.7,
+        "unit": "USD millions",
+        "period_start": "2025-09-29",
+        "period_end": "2026-09-27"
+      },
+      "capex": {
+        "value": 356.4,
+        "unit": "USD millions",
+        "period_start": "2025-09-29",
+        "period_end": "2026-09-27"
+      },
+      "value": 337.3
+    },
+    "valuation": {
+      "price": 48.81,
+      "shares_outstanding": 92232635,
+      "share_basis": "Common at 2026-10-26 (10-Q cover)",
+      "market_cap_usd": 4501800000,
+      "ttm_revenue_musd": 9108.4,
+      "ttm_net_income_musd": 496.2,
+      "pe_ttm": 9.07,
+      "fcf_yield_pct": 7.49,
+      "price_to_book": 2.94,
+      "price_to_tangible_book": null,
+      "basis": "USD M. 48.81 x 92.2326M = 4,501.8M; revenue TTM 8,806.2-6,657.5+6,959.7=9,108.4; NI TTM 523.7-433.8+406.3=496.2; OCF 716.0-577.5+555.1=693.7; capex 248.3-176.1+284.2=356.4; FCF 337.3; SBC TTM 31.1-22.0+19.5=28.5, FCF after SBC 308.7 (6.9%). Equity 1,529.3M. FY2026 EPS guide ~4.80 (52 week basis) gives about 10.2x. Fiscal periods are 52/53 week, not calendar quarters."
+    },
+    "balance_sheet": {
+      "total_assets_musd": 4459.1,
+      "equity_musd": 1529.3,
+      "total_liabilities_musd": 2929.7,
+      "cash_musd": 228.7,
+      "basis": "USD M at 2026-09-27; operating lease liabilities 2,102.5M (current 192.6 + long term 1,909.9) are most of liabilities; borrowings and finance obligations 133.1M; revolver 600M undrawn"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peers and own multiple history not compared",
+    "Cause of the low earnings multiple and Q4 deceleration not tested against the call",
+    "Lease-adjusted leverage and 10-K audit matters not read",
+    "Capex net of landlord reimbursement versus gross not reconciled",
+    "Quote origins undocumented"
+  ]
+}

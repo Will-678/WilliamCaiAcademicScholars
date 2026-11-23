@@ -1,0 +1,210 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "ALRM",
+  "exchange": "Nasdaq",
+  "cik": 1459200,
+  "currency": "USD",
+  "sector_model": "Software and hardware platform: SaaS growth, FCF after capex and SBC, converts as debt, equity investments separated from operations.",
+  "as_of": "2026-11-23T12:06:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "thesis": "Alarm.com (Nasdaq: ALRM), connected property software and hardware platform. Q3 2026 10-Q (filed 2026-11-05) and EX-99.1 read. Revenue Q3 279.4M +9%, 9M 822.4M +10%; SaaS and license revenue Q3 191.2M +9.0%; adjusted EBITDA Q3 66.2M +19% (non-GAAP, reconciliation not read); GAAP net income 9M 81.9M vs 97.0M (-16%) as G&A rose 13.5M on IP legal costs and acquisitions (BTR, RGS) added expense. TTM revenue 1,084.0M, NI to common 117.0M, OCF 203.5M, capex 13.3M, FCF 190.2M (6.0% yield; 5.0% after SBC 30.2M). Close 64.99 (2026-11-20, two sources agree) x 49.05M basic shares = 3,188M: 27.2x TTM GAAP earnings, about 21.4x guided 2026 non-GAAP EPS 3.02-3.04 (which excludes SBC), 3.6x book. Cash 534.7M vs 500M 2.25% converts due 2029 (net cash about 35M), plus 229.2M equity-method investments. 9M buybacks 58.5M. FY2026 guide raised: SaaS and license 756.1-756.3M, total revenue 1,101-1,111M, adjusted EBITDA 227-229M. Bought CellGate for 61.7M cash on 2026-10-30. Possible mispricing view not established: steady low-double-digit growth, net cash and repurchases at a mid-20s GAAP multiple; the stock is not obviously cheap.",
+  "counterthesis": "GAAP earnings fell 16% in 9M while revenue rose 10%; legal costs on three IP matters (EcoFactor seeks injunction and enhanced damages, SkyBell trade secrets, Causam indemnity) are open-ended; hardware revenue (about 345-355M guided) carries lower margin and 9M OCF benefits from payables timing; 229M of equity investments and notes receivable are illiquid and 9M cash paid into them 16.4M; the 2029 converts dilute above their conversion price; adjusted EBITDA excludes SBC about 30M a year; 27x GAAP earnings with single digit SaaS growth is not cheap; peers not compared.",
+  "invalidation": "Drop if SaaS growth falls below high single digits, an IP ruling imposes an injunction or large damages, hardware margins compress, or FCF after SBC falls toward 3% of market value. Study further only with peers, diluted share basis, reconciliation tables and documented quote origins.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1459200/000145920026000019/alrm-20260930.htm",
+      "document_id": "0001459200-26-000019",
+      "origin": "10-Q quarter ended 2026-09-30 filed 2026-11-05; direct SEC download; statements, convertible notes, repurchase, legal proceedings and MD&A expense sections read; segment detail and risk factors not read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-23T12:06:00-05:00"
+    },
+    {
+      "id": "r",
+      "url": "https://www.sec.gov/Archives/edgar/data/1459200/000145920026000018/ex991earningsreleaseseptem.htm",
+      "document_id": "0001459200-26-000018-ex99.1",
+      "origin": "EX-99.1 to 8-K filed 2026-11-05; highlights and guidance read; reconciliation tables not read",
+      "kind": "earnings_release",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-23T12:06:00-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001459200.json",
+      "document_id": "SEC-companyfacts-CIK0001459200",
+      "origin": "SEC companyfacts FY2025 10-K (filed 2026-02-19): revenue 1,011.2M, NI 131.6M (attributable to common 132.6M), OCF 153.3M, PP&E capex 16.3M, capitalised software 1.3M, SBC 33.2M",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-23T12:06:00-05:00"
+    },
+    {
+      "id": "s",
+      "url": "https://data.sec.gov/submissions/CIK0001459200.json",
+      "document_id": "SEC-submissions-CIK0001459200",
+      "origin": "SEC submissions 2026-11-23: latest 10-Q and 8-K 2026-11-05; later forms Form 4, 144, 13G/A",
+      "kind": "secondary",
+      "read_status": "full",
+      "accessed_at": "2026-11-23T12:06:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/alrm/history/",
+      "document_id": "stockanalysis.com-ALRM-2026-11-20",
+      "origin": "stockanalysis.com history via WebFetch; close 64.99 on 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-23T12:06:00-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/ALRM/history/",
+      "document_id": "Yahoo Finance-ALRM-2026-11-20",
+      "origin": "Yahoo Finance history via WebFetch; close 64.99 on 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-23T12:06:00-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "s",
+        "r"
+      ],
+      "note": "10-Q and 8-K (EX-99.1) of 2026-11-05 read; nothing newer than Forms 4, 144, 13G/A."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "10-Q 2026-09-30: cash 534.7M, assets 1,705.1M, liabilities 763.4M, 2.25% convertible notes 500M principal due 2029 (carrying 491.8M), equity 893.5M; 2026 notes repaid 500M in January."
+    },
+    "cashflow_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "TTM OCF 203.5M (153.3-117.4+167.6) less PP&E 12.2M and capitalised software 1.1M = 13.3M; matching periods; 9M OCF includes payables +25.5M vs -48.3M a year ago and 11.3M distributions from investees."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "49,049,132 shares at 2026-10-29 from the 10-Q cover; diluted weighted 56.0M includes if-converted notes (net income add-back 2.7M)."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "r"
+      ],
+      "note": "Own multiples computed; peers (RSI, RING-like, SimpliSafe-free comparables, Resideo, Vivint) and history not compared; diluted share basis not adjusted in market cap."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "r"
+      ],
+      "note": "Software and hardware platform: SaaS revenue growth, FCF after capex and SBC, net cash after converts, equity investments excluded from operating value."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "IP litigation costs, equity-method investments 229.2M, notes receivable and deferred tax asset 141.2M noted; audit matters and risk factors not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "r"
+      ],
+      "note": "Written from filings."
+    }
+  },
+  "price": {
+    "value": 64.99,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-20",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 64.99,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 64.99,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "fcf": {
+      "ocf": {
+        "value": 203.5,
+        "unit": "USD millions",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "capex": {
+        "value": 13.3,
+        "unit": "USD millions",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "value": 190.2
+    },
+    "valuation": {
+      "price": 64.99,
+      "shares_outstanding": 49049132,
+      "share_basis": "Common at 2026-10-29 (10-Q cover); basic, excludes 2029 convertible dilution",
+      "market_cap_usd": 3187700000,
+      "ttm_revenue_musd": 1084.0,
+      "ttm_net_income_musd": 117.0,
+      "pe_ttm": 27.2,
+      "fcf_yield_pct": 5.97,
+      "price_to_book": 3.57,
+      "price_to_tangible_book": null,
+      "basis": "USD M. 64.99 x 49.049M = 3,187.7M (basic; diluted weighted 56.0M would give about 3,640M); revenue TTM 1,011.2-749.5+822.4=1,084.0; NI to common TTM 132.6-97.8+82.3=117.0; OCF 153.3-117.4+167.6=203.5; capex 13.3; FCF 190.2; SBC TTM 33.2-26.6+23.6=30.2, FCF after SBC 160.0 (5.0%). Equity 893.5M. Guided 2026 non-GAAP EPS 3.02-3.04 (excludes SBC) gives about 21.4x. Cash 534.7M less 500M converts principal: about 35M net cash, plus 229.2M equity investments."
+    },
+    "balance_sheet": {
+      "total_assets_musd": 1705.1,
+      "equity_musd": 893.5,
+      "total_liabilities_musd": 763.4,
+      "cash_musd": 534.7,
+      "basis": "USD M at 2026-09-30; 2029 converts 500M principal (if-converted value below principal at 54.47); goodwill 224.5M; deferred tax assets 141.2M"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peers and own multiple history not compared",
+    "Diluted share count and convert dilution not in market cap",
+    "IP litigation (EcoFactor, SkyBell, Causam indemnity) exposure not quantified",
+    "Equity investments and notes receivable quality not examined",
+    "Quote origins undocumented"
+  ]
+}
