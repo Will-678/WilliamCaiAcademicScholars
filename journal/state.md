@@ -773,3 +773,6 @@ Report reports/2026-11-18-090756.md. 136 records revalidated, 136 valid, 0 eligi
 - Validation: both new records valid, not eligible (data/quality_run104_FLYW.json, quality_run104_ROOT.json); 198 records revalidated, 198 valid, 0 eligible (data/quality_run104_all.json). Two first attempts used a timestamp ahead of the clock and were corrected.
 - Unverified: FLYW peers, history, client cash treatment, adjusted EBITDA bridge, visa driver; ROOT drop cause, preferred conversion, reserves, statutory capital, 11-04 release, peers; all quotes aggregators (stockanalysis.com, Yahoo Finance) with undocumented origins, closes agree exactly. Benchmark VTI pending; no paper references.
 - Next: EXEL ruling and 12-03 PDUFA; FLYW and ROOT peers; NRDS, GL, META, FOUR, DOCN, HESM gaps; discovery (Viant, OptimizeRx, UiPath after Dec results).
+
+## Morning compile 09:12 ET (Mon 2026-11-23)
+- Revalidated 198 records, 198 valid, 0 eligible (data/quality_compile_2026-11-23.json); 31 tests pass. Leaders ZTS, GMED, CARG, EXEL: SEC filing lists show no new periodic filings or 8-Ks (GMED Form 144 11-10, already filed; CARG 13G 11-16). EXEL ruling gap not closed. No ratings changed, no decision log entry. Report reports/2026-11-23-090848.md. Next: quote origin documentation, leader gaps, EXEL docket, peers for new records. Weekly review due Sunday 11-29.
