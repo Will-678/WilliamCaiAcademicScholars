@@ -1,0 +1,27 @@
+# GL: Globe Life, life and health insurer, watch, medium confidence, scores null
+As of 2026-11-23T04:07:00-05:00. Structured record: GL.json (validator: data/quality_run103_GL.json). Fresh idea (screen lead, first record). Not eligible for an attractive label.
+
+## Thesis
+Globe Life (NYSE: GL). Q3 2026 10-Q (filed 2026-11-04) read in financial statements and MD&A highlights; Item 2.02 release of 2026-10-21 not read. 9M total revenue 4,755.3M vs 4,474.7M (+6%), premium 3,879.1M (+6%; health +15%, life +3%), net income 919.4M vs 895.2M (+3%), diluted EPS 11.64 vs 10.77 (+8%), net operating income (non-GAAP) 937M vs 925M (+1%), operating EPS 11.86 vs 11.13. Q3 net income 361.1M vs 387.8M (-7%); remeasurement gains of 116.7M (life) and 29.1M (health) before tax inside benefits. TTM GAAP net income 1,185.5M (FY2025 1,161.2 - 895.2 + 919.4). Equity 6,618.5M, ex-AOCI 8,035.4M (AOCI -1,416.9M); book value per share 85.35, ex-AOCI 103.62 (+11%). Shares 76,062,843 at 2026-09-30 (92,218,183 issued less 16,155,340 treasury). Close 151.65 (2026-11-20, two sources agree) x 76.06M = 11.54B: 9.7x TTM GAAP earnings, 1.74x book, 1.44x book ex-AOCI, versus operating ROE ex-AOCI 15.9% (9M, company, non-GAAP). 9M buybacks 564M at avg 155.30 plus 165M offsetting option dilution; quarterly dividend raised 22% to 0.33. Debt 2,985.4M (short 317.6 plus long 2,667.8) against ex-AOCI equity 8,035M (about 27% debt to capital). Consolidated RBC 316% at 2025 year end (target 300-320%). Market view: discount reflects the 2024 short-seller and securities litigation overhang and sales-agent conduct questions; evidence differing: premium +6%, net sales +10%, agent count growth, record book value per share ex-AOCI.
+
+## Countercase
+A putative securities class action (class period 2019-2024, class certification moved 2026-05-15) and derivative suits remain pending with no loss estimate; operating income grew only 1% in nine months while premium grew 6%, so margins are compressing (health benefit ratio rising: health benefits 812.9M on premium 1,300.6M, 62.5% vs 61.0%); debt rose (long-term 2,320.8M to 2,667.8M) while buybacks of about 729M exceed free parent cash comfort; GAAP equity and earnings are sensitive to discount-rate remeasurement (Q3 gains 145.8M pretax inside benefits); long-duration future policy benefits are measured on net premiums; 19.7% GAAP ROE is inflated by negative AOCI shrinking equity; investment portfolio quality, private credit and real-estate exposure not read; stock is a mature, lower-growth franchise so 9.7x may be fair.
+
+## Invalidation
+Drop if litigation or a regulatory action produces a material loss, health benefit ratio keeps rising, net operating income declines year over year, RBC falls below 300%, or buybacks are debt funded. Study further only if peers (AFL, PRU, UNM, PRI) show a persistent discount, investment portfolio and statutory capital are verified, and the quote origins are documented.
+
+## Unresolved gaps
+- Peer multiples and own history not compared
+- 2026-10-21 release and guidance not read
+- Investment portfolio quality, reserves and audit matters not read
+- Litigation exposure unquantified
+- 8-K 2026-11-05 not read
+- Quote origins undocumented
+
+## Sources
+- q: https://www.sec.gov/Archives/edgar/data/320335/000032033526000231/gl-20260930.htm (quarterly_filing, relevant_sections)
+- x: https://data.sec.gov/api/xbrl/companyfacts/CIK0000320335.json (annual_filing, relevant_sections)
+- r: https://www.sec.gov/Archives/edgar/data/320335/000032033526000224/gl-20261021.htm (earnings_release, unread)
+- s: https://data.sec.gov/submissions/CIK0000320335.json (secondary, full)
+- qa: https://stockanalysis.com/stocks/gl/history/ (quote, relevant_sections)
+- qb: https://finance.yahoo.com/quote/GL/history/ (quote, relevant_sections)
