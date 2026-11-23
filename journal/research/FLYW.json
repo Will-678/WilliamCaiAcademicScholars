@@ -1,0 +1,211 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "FLYW",
+  "exchange": "Nasdaq",
+  "cik": 1580560,
+  "currency": "USD",
+  "sector_model": "Cross-border payments and software: TTM GAAP and pretax earnings (tax benefit stripped), FCF after capitalised software and SBC, revenue multiple, take rate vs volume; client funds flows distort operating cash flow.",
+  "as_of": "2026-11-23T08:21:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "thesis": "Flywire (Nasdaq: FLYW). Q3 2026 10-Q (filed 2026-11-04) read in statements, tax, debt and MD&A; 8-K Item 2.02 (2026-11-03) and EX-99.1 release read. Revenue Q3 250.3M +25.1%, 9M 606.2M vs 465.5M (+30%, Sertifi acquired 2025); transaction revenue +28.7%, payment volume 14.8B +28.5% (release: TPV 17.8B +27.7%); gross margin 61.0% vs 62.3%; income from operations 9M 60.8M vs 12.3M. Q3 net income 74.5M includes a 22.2M tax benefit (release of US valuation allowance, 39.2M non-cash per release, which says it will not recur); pretax income Q3 52.4M. TTM revenue 763.7M (FY2025 623.0 - 9M25 465.5 + 9M26 606.2); TTM pretax about 62.0M (21.4-21.1+61.7); TTM GAAP NI 78.9M is tax-benefit inflated. TTM OCF 135.3M (100.2-95.3+130.4) of which client funds payable swings +27.2M in 9M26 (+83.3M in 9M25); capex approx 14.8M (PP&E 1.0 plus capitalised software about 13.8M, FY2025 software from note, approximation); TTM FCF about 120.5M, SBC TTM about 70.4M, FCF after SBC about 50M. Close 20.93 (2026-11-20, two sources agree) x 122,542,824 voting shares (10-Q cover, 2026-10-30) = 2,565M: 4.7% FCF yield, 2.0% after SBC, 2.8x book (909.4M), 3.4x TTM revenue, about 41x TTM pretax, 32x inflated GAAP NI. Cash 407.2M plus 3.0M investments, no revolver borrowings (300M facility), funds payable to clients 335.0M vs funds receivable from partners 158.8M (client cash inside cash balance not separated; unverified). Guidance (release): FY2026 FX-neutral revenue less ancillary services +25-27% (raised 2 pts), adjusted EBITDA margin +300-360 bps; Q4 revenue less ancillary +14-20%, a steep slowdown from 26% in Q3 on prudent visa assumptions. 9M buybacks 59.6M (30.5M open market plus 29.0M non-voting shares at 15.50). Founding investor director (Spark Capital) resigned 2026-10-29.",
+  "counterthesis": "Q4 guide of 14-20% growth implies a sharp deceleration and ties growth to US/UK/Canada/Australia student visa policy; education is the largest vertical and seasonal; reported GAAP earnings are not clean (tax benefit 22.2M Q3, 17.2M 9M), pretax margin about 8%; operating cash flow is flattered by client funds payable timing; travel chargebacks rose to 3.6M in Q3 on client insolvencies; G&A +23%; gross margin fell 130 bps on mix toward payment processing; SBC about 70M a year is 9% of TTM revenue; the equity is 2.8x book with goodwill 407.6M and intangibles 177.2M; a 20.93 price is not obviously cheap on after-SBC FCF of 2.0%.",
+  "invalidation": "Drop if Q4 and 2027 growth falls below the 14% low end, visa restrictions cut education volume, take rate keeps falling, chargebacks or client insolvencies rise, or after-SBC FCF stays near 2%. Study further only with peers (FOUR, PAYO, GPN, TOST, Paymentus), adjusted EBITDA reconciliation, client-cash treatment, and documented quote origins.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1580560/000162828026069661/flyw-20260930.htm",
+      "document_id": "0001628280-26-069661",
+      "origin": "10-Q quarter ended 2026-09-30 filed 2026-11-04; direct SEC download; balance sheet, statements, cash flow, tax note, debt note, MD&A results read; risk factors, segment note and liquidity text beyond cash flow not read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-23T08:21:00-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001580560.json",
+      "document_id": "SEC-companyfacts-CIK0001580560",
+      "origin": "SEC companyfacts FY2025 10-K: revenue 623.0M, NI 13.5M, OCF 100.2M, PP&E capex 1.35M, pretax 21.4M, SBC 71.8M, capitalised software additions 9.5M (note)",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-23T08:21:00-05:00"
+    },
+    {
+      "id": "r",
+      "url": "https://www.sec.gov/Archives/edgar/data/1580560/000162828026069439/ex991-20260930xearningsrel.htm",
+      "document_id": "0001628280-26-069439-ex99.1",
+      "origin": "EX-99.1 to 8-K filed 2026-11-03; read highlights, guidance table and board update; non-GAAP reconciliation tables not read",
+      "kind": "earnings_release",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-23T08:21:00-05:00"
+    },
+    {
+      "id": "s",
+      "url": "https://data.sec.gov/submissions/CIK0001580560.json",
+      "document_id": "SEC-submissions-CIK0001580560",
+      "origin": "SEC submissions 2026-11-23: latest 10-Q 2026-11-04, 8-K 2026-11-03; later forms are Form 4, 144 and 13G only",
+      "kind": "secondary",
+      "read_status": "full",
+      "accessed_at": "2026-11-23T08:21:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/flyw/history/",
+      "document_id": "stockanalysis.com-FLYW-2026-11-20",
+      "origin": "stockanalysis.com history via WebFetch; close 20.93 on 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-23T08:21:00-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/FLYW/history/",
+      "document_id": "Yahoo Finance-FLYW-2026-11-20",
+      "origin": "Yahoo Finance history via WebFetch; close 20.93 on 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-23T08:21:00-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "s",
+        "r"
+      ],
+      "note": "SEC submissions 2026-11-23: 10-Q 2026-11-04 and 8-K 2026-11-03 (with EX-99.1) read; nothing newer than Form 4, 144 and 13G."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "10-Q balance sheet 2026-09-30: cash 407.2M, investments 3.0M, assets 1,370.3M, liabilities 460.9M, equity 909.4M; no revolver borrowings."
+    },
+    "cashflow_basis_verified": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "TTM OCF 135.3M with matching periods; FY2025 capitalised software cash outflow not found as a cash flow tag, approximated from the 9.5M note addition, so TTM FCF is an approximation; client funds swings not separated."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "122,542,824 voting shares at 2026-10-30 from the 10-Q cover; no non-voting shares remain."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "Own multiples computed; peers and history not compared; adjusted EBITDA not reconciled."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "r"
+      ],
+      "note": "Payments model: pretax earnings, FCF after software and SBC, take rate and volume."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Tax valuation allowance release, client funds and chargebacks noted; audit matters, revenue recognition note and risk factors not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "r"
+      ],
+      "note": "Written from 10-Q and release evidence."
+    }
+  },
+  "price": {
+    "value": 20.93,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-20",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 20.93,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 20.93,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "fcf": {
+      "ocf": {
+        "value": 135.3,
+        "unit": "USD millions",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "capex": {
+        "value": 14.8,
+        "unit": "USD millions",
+        "period_start": "2025-10-01",
+        "period_end": "2026-09-30"
+      },
+      "value": 120.5
+    },
+    "valuation": {
+      "price": 20.93,
+      "shares_outstanding": 122542824,
+      "share_basis": "Voting common at 2026-10-30 (10-Q cover)",
+      "market_cap_usd": 2564700000,
+      "ttm_revenue_musd": 763.7,
+      "ttm_net_income_musd": 78.9,
+      "pe_ttm": 32.5,
+      "fcf_yield_pct": 4.7,
+      "price_to_book": 2.82,
+      "price_to_tangible_book": null,
+      "basis": "USD M. 20.93 x 122.543M = 2,564.7M; revenue TTM 623.0-465.5+606.2=763.7; NI TTM 13.5-13.5+78.9=78.9 (tax benefit inflated; pretax TTM about 62.0); OCF 100.2-95.3+130.4=135.3; capex PP&E 1.35-0.96+0.62=1.0 plus software about 13.8 (approximation); FCF 120.5; SBC TTM 71.8-53.5+52.1=70.4, FCF after SBC about 50.1 (2.0%). Equity 909.4M."
+    },
+    "balance_sheet": {
+      "total_assets_musd": 1370.3,
+      "equity_musd": 909.4,
+      "total_liabilities_musd": 460.9,
+      "cash_musd": 407.2,
+      "basis": "USD M at 2026-09-30; funds payable to clients 335.0M and funds receivable from partners 158.8M; goodwill 407.6M, intangibles 177.2M; no debt outstanding"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peers and own history not compared",
+    "Q4 deceleration driver (visa policy) not quantified",
+    "Client cash inside cash balance not separated",
+    "FY2025 capitalised software cash outflow approximated",
+    "Non-GAAP reconciliation not read",
+    "Quote origins undocumented"
+  ]
+}

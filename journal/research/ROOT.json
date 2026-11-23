@@ -1,0 +1,192 @@
+{
+  "schema_version": 2,
+  "method_version": "2.0",
+  "ticker": "ROOT",
+  "exchange": "Nasdaq",
+  "cik": 1788882,
+  "currency": "USD",
+  "sector_model": "Personal auto insurer: price to book, GAAP and pretax earnings, net combined ratio, premiums and policies in force, debt covenants and statutory capital; generic FCF and liabilities/assets ratios not meaningful.",
+  "as_of": "2026-11-23T08:26:00-05:00",
+  "status": "watch",
+  "confidence": "medium",
+  "scores": {
+    "business_quality": null,
+    "cash_generation_growth": null,
+    "financial_resilience": null,
+    "valuation": null,
+    "catalysts_evidence": null
+  },
+  "score_total": null,
+  "thesis": "Root, Inc. (Nasdaq: ROOT). Q3 2026 10-Q (filed 2026-11-04) read in balance sheet, statements, cash flow, debt note and key metrics; 8-K Item 2.02 (2026-11-04) exhibit not read. 9M total revenue 1,164.0M vs 1,120.1M (+3.9%), net premiums earned 1,080.0M (+4.4%); Q3 net premiums earned 352.8M vs 360.1M (-2.0%), total revenue -1.7%. 9M net income 75.7M vs 35.0M, operating income 93.8M vs 51.3M, pretax 76.2M with 0.5M tax (NOL shield; accumulated loss 1,565.9M). Net combined ratio 93.5% 9M vs 97.7%, Q3 97.2% vs 102.1%; gross loss ratio 57.0% vs 57.6%; accident period loss ratio rose to 61.1% in Q3 from 56.5%; sales and marketing cut to 84.8M from 129.2M; policies in force 484,037 vs 466,320 (+3.8%). TTM pretax about 81.6M (FY2025 40.8 - 35.4 + 76.2) and net income about 81.0M (40.3 - 35.0 + 75.7). Equity 327.0M plus 112.0M redeemable convertible preferred (redemption value 126.5M, 14.1M shares; conversion terms not read). Shares 13,386,013 Class A + 1,806,236 Class B at 2026-10-28 = 15,192,249; close 37.01 (2026-11-20, two sources agree; down 11.9% that day from 42.00 and 18% from 45.19 on 11-16, cause not found) gives market cap 562.3M on basic shares: 6.9x TTM earnings, 1.72x common equity. As-converted preferred would raise the share count (unverified), so the multiples are understated. Debt: 199.5M senior secured term loan due May 2029 (refinanced May 2026, 4.9M extinguishment loss), minimum cash and risk-based capital covenants. 9M buybacks 36.2M. Cash 596.3M plus investments 433.7M. Market view possible: earnings are cyclical after a favourable pricing period and growth has stalled; evidence differing: combined ratio improved with lower marketing, positive operating cash flow, deleveraging efforts.",
+  "counterthesis": "Q3 premiums fell 2% and policies grew only 3.8% after the marketing cut, so earnings may peak as auto pricing softens; accident period loss ratio worsened to 61.1% in Q3 and the net combined ratio 97.2% leaves little margin; 9M earnings are boosted by near zero taxes from NOLs that will not last indefinitely, and by favourable prior period development (not read); reserves are 493.1M with only a short operating history of profit (FY2025 NI 40.3M); the preferred and Class B structure and unread conversion terms may dilute common holders; secured term loan covenants require net worth, debt service coverage and risk based capital minimums; a 12% one day drop with unknown cause may reflect news not yet read; reinsurance recoverables and counterparties not examined.",
+  "invalidation": "Drop if the net combined ratio rises above 100% on a trailing basis, premiums keep falling, covenant headroom shrinks, preferred conversion dilutes materially, or the 11-20 drop traces to a regulatory, rating or reserve issue. Study further only with peers (PGR, LMND, HIPO, KINS), reserve development, statutory capital, and documented quote origins.",
+  "sources": [
+    {
+      "id": "q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1788882/000178888226000082/root-20260930.htm",
+      "document_id": "0001788882-26-000082",
+      "origin": "10-Q quarter ended 2026-09-30 filed 2026-11-04; direct SEC download; balance sheet, statements, cash flow, debt note and key metrics read; reserve development, reinsurance, statutory capital and risk factors not read",
+      "kind": "quarterly_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-23T08:26:00-05:00"
+    },
+    {
+      "id": "x",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001788882.json",
+      "document_id": "SEC-companyfacts-CIK0001788882",
+      "origin": "SEC companyfacts FY2025 10-K: revenue 1,517.1M, NI 40.3M, pretax 40.8M, OCF 206.5M, equity 284.3M",
+      "kind": "annual_filing",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-23T08:26:00-05:00"
+    },
+    {
+      "id": "r",
+      "url": "https://www.sec.gov/Archives/edgar/data/1788882/000178888226000081/root-20261104.htm",
+      "document_id": "0001788882-26-000081",
+      "origin": "8-K Items 2.02, 7.01 filed 2026-11-04; cover only, exhibits not read",
+      "kind": "earnings_release",
+      "read_status": "unread",
+      "accessed_at": "2026-11-23T08:26:00-05:00"
+    },
+    {
+      "id": "s",
+      "url": "https://data.sec.gov/submissions/CIK0001788882.json",
+      "document_id": "SEC-submissions-CIK0001788882",
+      "origin": "SEC submissions 2026-11-23: latest 10-Q and 8-K 2026-11-04; later Form 4 and 144 only",
+      "kind": "secondary",
+      "read_status": "full",
+      "accessed_at": "2026-11-23T08:26:00-05:00"
+    },
+    {
+      "id": "qa",
+      "url": "https://stockanalysis.com/stocks/root/history/",
+      "document_id": "stockanalysis.com-ROOT-2026-11-20",
+      "origin": "stockanalysis.com history via WebFetch; close 37.01 on 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-23T08:26:00-05:00",
+      "origin_verified": false
+    },
+    {
+      "id": "qb",
+      "url": "https://finance.yahoo.com/quote/ROOT/history/",
+      "document_id": "Yahoo Finance-ROOT-2026-11-20",
+      "origin": "Yahoo Finance history via WebFetch; close 37.01 on 2026-11-20 (origin undocumented)",
+      "kind": "quote",
+      "read_status": "relevant_sections",
+      "accessed_at": "2026-11-23T08:26:00-05:00",
+      "origin_verified": false
+    }
+  ],
+  "checks": {
+    "latest_filing_checked": {
+      "passed": true,
+      "source_ids": [
+        "q",
+        "s"
+      ],
+      "note": "SEC submissions 2026-11-23: 10-Q 2026-11-04 read; 8-K of the same day (Items 2.02, 7.01) exhibits not read."
+    },
+    "balance_sheet_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "10-Q balance sheet 2026-09-30: assets 1,669.9M, liabilities 1,230.9M, equity 327.0M, preferred 112.0M, debt 197.5M carrying."
+    },
+    "cashflow_basis_verified": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "Insurer model; 9M OCF 114.1M vs 136.4M read, but operating cash flow is driven by premiums and reserve timing and not used as FCF."
+    },
+    "share_count_basis_verified": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "15,192,249 Class A plus Class B at 2026-10-28 from the 10-Q cover; preferred conversion not included (unverified)."
+    },
+    "valuation_complete": {
+      "passed": false,
+      "source_ids": [
+        "q",
+        "x"
+      ],
+      "note": "Own P/E and P/B computed on basic shares; peers, history and as-converted count missing."
+    },
+    "sector_model_appropriate": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Insurer model with combined ratio, book value and covenants."
+    },
+    "accounting_red_flags_reviewed": {
+      "passed": false,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Tax shield and expense mix noted; reserve development, reinsurance and audit matters not read."
+    },
+    "counterthesis_written": {
+      "passed": true,
+      "source_ids": [
+        "q"
+      ],
+      "note": "Written from the 10-Q evidence."
+    }
+  },
+  "price": {
+    "value": 37.01,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00",
+    "status": "previous_close",
+    "last_completed_session": "2026-11-20",
+    "sources": [
+      {
+        "source_id": "qa",
+        "value": 37.01,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      },
+      {
+        "source_id": "qb",
+        "value": 37.01,
+        "currency": "USD",
+        "as_of": "2026-11-20T16:00:00-05:00"
+      }
+    ]
+  },
+  "calculations": {
+    "valuation": {
+      "price": 37.01,
+      "shares_outstanding": 15192249,
+      "share_basis": "Class A 13,386,013 plus Class B 1,806,236 at 2026-10-28 (10-Q cover); preferred not as-converted",
+      "market_cap_usd": 562280000,
+      "ttm_net_income_musd": 81.0,
+      "pe_ttm": 6.9,
+      "fcf_yield_pct": null,
+      "price_to_book": 1.72,
+      "price_to_tangible_book": null,
+      "basis": "USD M. 37.01 x 15.192M = 562.3M; NI TTM 40.3-35.0+75.7=81.0; equity 327.0 (P/B 1.72); FCF not used for an insurer; preferred redemption value 126.5M excluded from common equity."
+    },
+    "balance_sheet": {
+      "total_assets_musd": 1669.9,
+      "equity_musd": 327.0,
+      "total_liabilities_musd": 1230.9,
+      "total_debt_musd": 199.5,
+      "basis": "USD M at 2026-09-30; term loan principal 199.5M due 2029; reserves 493.1M and unearned premiums 385.5M are insurance liabilities, not debt; redeemable preferred 112.0M outside equity"
+    }
+  },
+  "unresolved_critical_gaps": [
+    "Peers and own history not compared",
+    "Cause of 11.9% drop on 2026-11-20 not found",
+    "Preferred conversion terms and as-converted share count not read",
+    "Reserve development, reinsurance and statutory capital not read",
+    "2026-11-04 release not read",
+    "Quote origins undocumented"
+  ]
+}
