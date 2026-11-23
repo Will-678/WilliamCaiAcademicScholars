@@ -1,0 +1,778 @@
+{
+ "AAON.json": [
+  true,
+  null
+ ],
+ "ACAD.json": [
+  true,
+  null
+ ],
+ "ACIC.json": [
+  true,
+  null
+ ],
+ "ACIW.json": [
+  true,
+  null
+ ],
+ "ACNB.json": [
+  true,
+  null
+ ],
+ "ADBE.json": [
+  true,
+  null
+ ],
+ "ADEA.json": [
+  true,
+  null
+ ],
+ "ADMA.json": [
+  true,
+  null
+ ],
+ "AGX.json": [
+  true,
+  null
+ ],
+ "ALAB.json": [
+  true,
+  null
+ ],
+ "ALL.json": [
+  true,
+  null
+ ],
+ "ALNY.json": [
+  true,
+  null
+ ],
+ "AME.json": [
+  true,
+  null
+ ],
+ "ANIP.json": [
+  true,
+  null
+ ],
+ "AON.json": [
+  true,
+  null
+ ],
+ "APAM.json": [
+  true,
+  null
+ ],
+ "APH.json": [
+  true,
+  null
+ ],
+ "APPF.json": [
+  true,
+  null
+ ],
+ "ATEN.json": [
+  true,
+  null
+ ],
+ "ATO.json": [
+  true,
+  null
+ ],
+ "AVPT.json": [
+  true,
+  null
+ ],
+ "AXP.json": [
+  true,
+  null
+ ],
+ "BKNG.json": [
+  true,
+  null
+ ],
+ "BMRN.json": [
+  true,
+  null
+ ],
+ "BMY.json": [
+  true,
+  null
+ ],
+ "BOW.json": [
+  true,
+  null
+ ],
+ "BSY.json": [
+  true,
+  null
+ ],
+ "BUSE.json": [
+  true,
+  null
+ ],
+ "BX.json": [
+  true,
+  null
+ ],
+ "CAMT.json": [
+  true,
+  null
+ ],
+ "CARG.json": [
+  true,
+  null
+ ],
+ "CART.json": [
+  true,
+  null
+ ],
+ "CBU.json": [
+  true,
+  null
+ ],
+ "CELH.json": [
+  true,
+  null
+ ],
+ "CGNX.json": [
+  true,
+  null
+ ],
+ "CHKP.json": [
+  true,
+  null
+ ],
+ "CINF.json": [
+  true,
+  null
+ ],
+ "CLBT.json": [
+  true,
+  null
+ ],
+ "CME.json": [
+  true,
+  null
+ ],
+ "CMG.json": [
+  true,
+  null
+ ],
+ "COLL.json": [
+  true,
+  null
+ ],
+ "CORT.json": [
+  true,
+  null
+ ],
+ "CRM.json": [
+  true,
+  null
+ ],
+ "CVNA.json": [
+  true,
+  null
+ ],
+ "CW.json": [
+  true,
+  null
+ ],
+ "DASH.json": [
+  true,
+  null
+ ],
+ "DAVE.json": [
+  true,
+  null
+ ],
+ "DDOG.json": [
+  true,
+  null
+ ],
+ "DOCN.json": [
+  true,
+  null
+ ],
+ "DOCU.json": [
+  true,
+  null
+ ],
+ "DTM.json": [
+  true,
+  null
+ ],
+ "DUOL.json": [
+  true,
+  null
+ ],
+ "DV.json": [
+  true,
+  null
+ ],
+ "DXCM.json": [
+  true,
+  null
+ ],
+ "EBAY.json": [
+  true,
+  null
+ ],
+ "ESNT.json": [
+  true,
+  null
+ ],
+ "EVTC.json": [
+  true,
+  null
+ ],
+ "EW.json": [
+  true,
+  null
+ ],
+ "EXE.json": [
+  true,
+  null
+ ],
+ "EXEL.json": [
+  true,
+  null
+ ],
+ "EXLS.json": [
+  true,
+  null
+ ],
+ "EXPO.json": [
+  true,
+  null
+ ],
+ "FHI.json": [
+  true,
+  null
+ ],
+ "FOUR.json": [
+  true,
+  null
+ ],
+ "FRSH.json": [
+  true,
+  null
+ ],
+ "FSLR.json": [
+  true,
+  null
+ ],
+ "FSS.json": [
+  true,
+  null
+ ],
+ "FTI.json": [
+  true,
+  null
+ ],
+ "G.json": [
+  true,
+  null
+ ],
+ "GABC.json": [
+  true,
+  null
+ ],
+ "GCT.json": [
+  true,
+  null
+ ],
+ "GLBE.json": [
+  true,
+  null
+ ],
+ "GLDD.json": [
+  true,
+  null
+ ],
+ "GMED.json": [
+  true,
+  null
+ ],
+ "GOOGL.json": [
+  true,
+  null
+ ],
+ "GRBK.json": [
+  true,
+  null
+ ],
+ "GRND.json": [
+  true,
+  null
+ ],
+ "HALO.json": [
+  true,
+  null
+ ],
+ "HCI.json": [
+  true,
+  null
+ ],
+ "HESM.json": [
+  true,
+  null
+ ],
+ "HQY.json": [
+  true,
+  null
+ ],
+ "HRMY.json": [
+  true,
+  null
+ ],
+ "HRTG.json": [
+  true,
+  null
+ ],
+ "HUBS.json": [
+  true,
+  null
+ ],
+ "HWM.json": [
+  true,
+  null
+ ],
+ "IBM.json": [
+  true,
+  null
+ ],
+ "ICE.json": [
+  true,
+  null
+ ],
+ "IDCC.json": [
+  true,
+  null
+ ],
+ "IDXX.json": [
+  true,
+  null
+ ],
+ "INOD.json": [
+  true,
+  null
+ ],
+ "INSP.json": [
+  true,
+  null
+ ],
+ "IRDM.json": [
+  true,
+  null
+ ],
+ "JNJ.json": [
+  true,
+  null
+ ],
+ "JOE.json": [
+  true,
+  null
+ ],
+ "KGS.json": [
+  true,
+  null
+ ],
+ "KIM.json": [
+  true,
+  null
+ ],
+ "KINS.json": [
+  true,
+  null
+ ],
+ "KNSA.json": [
+  true,
+  null
+ ],
+ "KNSL.json": [
+  true,
+  null
+ ],
+ "KROS.json": [
+  true,
+  null
+ ],
+ "KRYS.json": [
+  true,
+  null
+ ],
+ "LGND.json": [
+  true,
+  null
+ ],
+ "LIF.json": [
+  true,
+  null
+ ],
+ "LULU.json": [
+  true,
+  null
+ ],
+ "MA.json": [
+  true,
+  null
+ ],
+ "MCO.json": [
+  true,
+  null
+ ],
+ "MCRI.json": [
+  true,
+  null
+ ],
+ "MEDP.json": [
+  true,
+  null
+ ],
+ "META.json": [
+  true,
+  null
+ ],
+ "MGNI.json": [
+  true,
+  null
+ ],
+ "MGRC.json": [
+  true,
+  null
+ ],
+ "MKTX.json": [
+  true,
+  null
+ ],
+ "MNDY.json": [
+  true,
+  null
+ ],
+ "MPWR.json": [
+  true,
+  null
+ ],
+ "MRVL.json": [
+  true,
+  null
+ ],
+ "MSCI.json": [
+  true,
+  null
+ ],
+ "NBIX.json": [
+  true,
+  null
+ ],
+ "NDAQ.json": [
+  true,
+  null
+ ],
+ "NFLX.json": [
+  true,
+  null
+ ],
+ "NMIH.json": [
+  true,
+  null
+ ],
+ "NOW.json": [
+  true,
+  null
+ ],
+ "NRIM.json": [
+  true,
+  null
+ ],
+ "NUTX.json": [
+  true,
+  null
+ ],
+ "NVMI.json": [
+  true,
+  null
+ ],
+ "NVR.json": [
+  true,
+  null
+ ],
+ "NVT.json": [
+  true,
+  null
+ ],
+ "OKTA.json": [
+  true,
+  null
+ ],
+ "OLED.json": [
+  true,
+  null
+ ],
+ "ONTO.json": [
+  true,
+  null
+ ],
+ "PAY.json": [
+  true,
+  null
+ ],
+ "PAYC.json": [
+  true,
+  null
+ ],
+ "PD.json": [
+  true,
+  null
+ ],
+ "PEGA.json": [
+  true,
+  null
+ ],
+ "PEN.json": [
+  true,
+  null
+ ],
+ "PGR.json": [
+  true,
+  null
+ ],
+ "PINS.json": [
+  true,
+  null
+ ],
+ "PJT.json": [
+  true,
+  null
+ ],
+ "PLMR.json": [
+  true,
+  null
+ ],
+ "PLTR.json": [
+  true,
+  null
+ ],
+ "PM.json": [
+  true,
+  null
+ ],
+ "PODD.json": [
+  true,
+  null
+ ],
+ "PRK.json": [
+  true,
+  null
+ ],
+ "PTCT.json": [
+  true,
+  null
+ ],
+ "PYPL.json": [
+  true,
+  null
+ ],
+ "QLYS.json": [
+  true,
+  null
+ ],
+ "QSR.json": [
+  true,
+  null
+ ],
+ "QTWO.json": [
+  true,
+  null
+ ],
+ "RBCAA.json": [
+  true,
+  null
+ ],
+ "RCL.json": [
+  true,
+  null
+ ],
+ "RDDT.json": [
+  true,
+  null
+ ],
+ "RELY.json": [
+  true,
+  null
+ ],
+ "RLI.json": [
+  true,
+  null
+ ],
+ "ROL.json": [
+  true,
+  null
+ ],
+ "RSI.json": [
+  true,
+  null
+ ],
+ "RTX.json": [
+  true,
+  null
+ ],
+ "SIGI.json": [
+  true,
+  null
+ ],
+ "SN.json": [
+  true,
+  null
+ ],
+ "SPSC.json": [
+  true,
+  null
+ ],
+ "SSNC.json": [
+  true,
+  null
+ ],
+ "STRL.json": [
+  true,
+  null
+ ],
+ "TDY.json": [
+  true,
+  null
+ ],
+ "TER.json": [
+  true,
+  null
+ ],
+ "TMDX.json": [
+  true,
+  null
+ ],
+ "TREX.json": [
+  true,
+  null
+ ],
+ "TRNO.json": [
+  true,
+  null
+ ],
+ "TROW.json": [
+  true,
+  null
+ ],
+ "TTD.json": [
+  true,
+  null
+ ],
+ "TW.json": [
+  true,
+  null
+ ],
+ "TXRH.json": [
+  true,
+  null
+ ],
+ "TYL.json": [
+  true,
+  null
+ ],
+ "UBER.json": [
+  true,
+  null
+ ],
+ "UCB.json": [
+  true,
+  null
+ ],
+ "UPWK.json": [
+  true,
+  null
+ ],
+ "USLM.json": [
+  true,
+  null
+ ],
+ "UTHR.json": [
+  true,
+  null
+ ],
+ "UVE.json": [
+  true,
+  null
+ ],
+ "VCTR.json": [
+  true,
+  null
+ ],
+ "VCYT.json": [
+  true,
+  null
+ ],
+ "VRSK.json": [
+  true,
+  null
+ ],
+ "VRSN.json": [
+  true,
+  null
+ ],
+ "VRT.json": [
+  true,
+  null
+ ],
+ "VRTX.json": [
+  true,
+  null
+ ],
+ "WAFD.json": [
+  true,
+  null
+ ],
+ "WCN.json": [
+  true,
+  null
+ ],
+ "WDAY.json": [
+  true,
+  null
+ ],
+ "WING.json": [
+  true,
+  null
+ ],
+ "WLFC.json": [
+  true,
+  null
+ ],
+ "WT.json": [
+  true,
+  null
+ ],
+ "WTFC.json": [
+  true,
+  null
+ ],
+ "XPEL.json": [
+  true,
+  null
+ ],
+ "YELP.json": [
+  true,
+  null
+ ],
+ "YOU.json": [
+  true,
+  null
+ ],
+ "ZM.json": [
+  true,
+  null
+ ],
+ "ZTS.json": [
+  true,
+  null
+ ]
+}

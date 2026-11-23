@@ -1,0 +1,183 @@
+{
+ "schema_version": 2,
+ "method_version": "2.0",
+ "currency": "USD",
+ "as_of": "2026-11-23T00:06:26-05:00",
+ "status": "watch",
+ "confidence": "medium",
+ "scores": {
+  "business_quality": null,
+  "cash_generation_growth": null,
+  "financial_resilience": null,
+  "valuation": null,
+  "catalysts_evidence": null
+ },
+ "score_total": null,
+ "ticker": "FOUR",
+ "exchange": "NYSE",
+ "cik": 1794669,
+ "sector_model": "Payments processor with acquisitions: gross revenue (includes pass-through network fees), FCF after equipment, capitalised software and PP&E, leverage and interest, preferred stock, convertible maturity, buybacks; GAAP EPS unreliable with large amortisation.",
+ "thesis": "Shift4 Payments (NYSE: FOUR). Q3 2026 10-Q (filed 2026-11-05) read. Gross revenue Q3 1,319M vs 1,177M (+12.1%); 9M 3,735M vs 2,991M (+24.9%, includes acquisitions such as Global Blue). 9M income from operations 275M vs 223M; 9M net income 76M vs 94M; interest expense 9M 208M vs 129M; effective tax rate 39% in Q3. FY2025 gross revenue 4,180M, so TTM gross revenue 4,924M (4,180-2,991+3,735). 9M OCF 418M vs 410M; 9M FCF 215M = 418 less equipment for lease 96, capitalised software 90 and PP&E 17 (9M25: 244M). TTM FCF not computed because FY2025 capitalised software spending was not located in the sources read (missing, not zero). Balance sheet 2026-09-30: cash 1,242M; debt 650M current plus 4,833M long term (principal includes 633M 0.90% convertible due 2027-08-01, 1,990M term loan 2032, 1,650M 6.75% notes, 1,266M euro notes); total liabilities 7,890M; equity 1,575M. 9M buybacks 511M of Class A stock plus 10M of preferred; 10.25M Series A 6.00% mandatory convertible preferred shares outstanding (issued 2025). Class A shares 74,943,944 (2026-10-31; Class B and C were exchanged into Class A in 2026, so one class now). Close 38.07 (2026-11-20, two sources agree; down from 42.48 on 11-16) x 74.94M = 2.85B market cap; equity value plus preferred at an assumed 100 dollar liquidation preference (about 1.03B, not read directly) plus net debt about 4.24B (debt 5,483 less cash 1,242, settlement assets excluded) plus noncontrolling interests 127M gives an enterprise value of about 8.2B (own arithmetic, approximate). 9M FCF over market cap is 7.5% unannualised. The apparent cheapness depends on the preferred and leverage; the equity is a thin slice atop 5.5B of debt.",
+ "counterthesis": "Leverage is high (about 5.5B debt for 9M operating income 275M; interest 208M in 9M absorbs 76% of operating income), net income fell despite revenue growth, a 633M convertible matures 2027-08-01, goodwill and intangibles 5.5B exceed equity 1.6B, capitalised customer acquisition and software spending flatter operating cash flow, the founder transaction changed governance, and the price fell about 10% in the week to 11-20 with cause unknown. Gross revenue growth is largely acquired.",
+ "invalidation": "Pass if 2027 convertible refinancing is costly, organic net revenue growth is shown to be low single digits, or FCF after all capitalised spending and interest does not cover buybacks. Study further only if organic growth, TTM FCF with all capex, and leverage trend verify a materially cheaper business than 6-7x EV to cash earnings.",
+ "sources": [
+  {
+   "id": "q",
+   "url": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000051/four-20260930.htm",
+   "document_id": "0001794669-26-000051",
+   "origin": "10-Q quarter ended 2026-09-30 filed 2026-11-05; direct SEC download converted to text; balance sheet, income statement, cash flow, debt and equity notes read; MD&A, segment and risk sections not read",
+   "kind": "quarterly_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-23T00:06:26-05:00"
+  },
+  {
+   "id": "x",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001794669.json",
+   "document_id": "SEC-companyfacts-CIK0001794669",
+   "origin": "SEC companyfacts FY2025 10-K: revenue 4,180M, NI 119M, OCF 634M, operating income 351M, equipment on lease 125M, PP&E 10M, buybacks 453M; capitalised software not available",
+   "kind": "annual_filing",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-23T00:06:26-05:00"
+  },
+  {
+   "id": "r",
+   "url": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000049/four-20261105.htm",
+   "document_id": "0001794669-26-000049",
+   "origin": "8-K filed 2026-11-05 Item 2.02 earnings release; listed in SEC submissions, not read",
+   "kind": "secondary",
+   "read_status": "unread",
+   "accessed_at": "2026-11-23T00:06:26-05:00"
+  },
+  {
+   "id": "qa",
+   "url": "https://stockanalysis.com/stocks/four/history/",
+   "document_id": "stockanalysis-FOUR-2026-11-20",
+   "origin": "stockanalysis.com history via WebFetch; close 38.07 on 2026-11-20 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-23T00:06:26-05:00",
+   "origin_verified": false
+  },
+  {
+   "id": "qb",
+   "url": "https://finance.yahoo.com/quote/FOUR/history/",
+   "document_id": "yahoo-finance-FOUR-2026-11-20",
+   "origin": "Yahoo Finance history via WebFetch; close 38.07 on 2026-11-20 (origin undocumented)",
+   "kind": "quote",
+   "read_status": "relevant_sections",
+   "accessed_at": "2026-11-23T00:06:26-05:00",
+   "origin_verified": false
+  }
+ ],
+ "checks": {
+  "latest_filing_checked": {
+   "passed": true,
+   "source_ids": [
+    "q",
+    "r"
+   ],
+   "note": "SEC submissions 2026-11-23: latest 10-Q and 8-K earnings release 2026-11-05; 10-Q read, release unread."
+  },
+  "balance_sheet_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "USD M at 2026-09-30: total assets 9,470; total liabilities 7,890; equity 1,575 (attributable 1,453); cash 1,242; debt current 650 and long term 4,833; settlement assets 720 and liabilities 710."
+  },
+  "cashflow_basis_verified": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "x"
+   ],
+   "note": "9M FCF 418-96-90-17=215 USD M verified; TTM not possible because FY2025 capitalised software spending was not located."
+  },
+  "share_count_basis_verified": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "74,943,944 Class A at 2026-10-31 (cover); preferred 10,253,296 shares and 633M convertible excluded from the count; weighted shares not used."
+  },
+  "valuation_complete": {
+   "passed": false,
+   "source_ids": [
+    "q",
+    "qa",
+    "qb"
+   ],
+   "note": "No peers (FI, GPN, TOST, PAYO) or history; preferred liquidation preference assumed; net revenue and adjusted EBITDA not read; drop cause unknown; quote origins undocumented."
+  },
+  "sector_model_appropriate": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Leveraged payments model with FCF after equipment and software, preferred and convertible; P/E rejected."
+  },
+  "accounting_red_flags_reviewed": {
+   "passed": false,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Acquisition effects, tax rate swing, capitalised costs noted; audit matters, goodwill and TRA details not read."
+  },
+  "counterthesis_written": {
+   "passed": true,
+   "source_ids": [
+    "q"
+   ],
+   "note": "Leverage, interest burden, acquired growth, convertible maturity, intangibles."
+  }
+ },
+ "price": {
+  "value": 38.07,
+  "currency": "USD",
+  "as_of": "2026-11-20T16:00:00-05:00",
+  "status": "previous_close",
+  "last_completed_session": "2026-11-20",
+  "sources": [
+   {
+    "source_id": "qa",
+    "value": 38.07,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00"
+   },
+   {
+    "source_id": "qb",
+    "value": 38.07,
+    "currency": "USD",
+    "as_of": "2026-11-20T16:00:00-05:00"
+   }
+  ]
+ },
+ "calculations": {
+  "valuation": {
+   "price": 38.07,
+   "shares_outstanding": 74943944,
+   "share_basis": "Class A common at 2026-10-31 (10-Q cover)",
+   "market_cap_usd": 2853000000.0,
+   "pe_ttm": null,
+   "fcf_yield_ttm": null,
+   "price_to_book": null,
+   "price_to_tangible_book": null,
+   "basis": "USD M. 38.07 x 74.944M = 2,853M; GAAP P/E not meaningful (9M common NI 28M); TTM FCF unavailable so yield omitted; 9M FCF 215 = 7.5% of market cap unannualised; EV approx 8.2B with preferred at assumed 100 liquidation."
+  },
+  "balance_sheet": {
+   "total_assets_musd": 9470,
+   "equity_musd": 1575,
+   "total_liabilities_musd": 7890,
+   "total_debt_musd": 5483,
+   "basis": "USD M at 2026-09-30; debt principal basis carrying 650 current plus 4,833 long term; cash 1,242 excludes settlement assets"
+  }
+ },
+ "unresolved_critical_gaps": [
+  "TTM FCF missing FY2025 capitalised software",
+  "Q3 earnings release, net revenue, adjusted EBITDA and guidance not read",
+  "Peers and history not compared",
+  "Preferred liquidation preference not read",
+  "Cause of price decline not found",
+  "Quote origins undocumented"
+ ]
+}
